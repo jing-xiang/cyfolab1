@@ -1,0 +1,68 @@
+Return-Path: <newlifedeip@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id IE7bGiIqsF41QQAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Mon, 04 May 2020 14:43:46 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: a8148528-8e15-11ea-a6f1-e0d84894a001
+Received: from mail-qv1-f67.google.com (mail-qv1-f67.google.com
+ [209.85.219.67])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ a8148528-8e15-11ea-a6f1-e0d84894a001;	Mon, 04 May 2020 14:43:46 +0000 (UTC)
+Received: by mail-qv1-f67.google.com with SMTP id v18so8439454qvx.9        for
+ <johannes.olegard@cyfoexample.one.com>; Mon, 04 May 2020 07:43:45 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:reply-to:from:date:message-id:subject:to;
+        bh=8N6x/7n68VkqcCK1i8ZvzfmG7Vf3O4u5MSB9iadjIJw=;
+        b=eHesRNX95OhzZnqPA5yRNp5FVmqOyuH8nrDDdIuD+5nD4LI01E1zZzoDc2Ag1c5lWc
+         Ee5YZpZfWRLIswUPBa1Nl+XMNyUpFjQMTKZsc9wMWy+V2HwC3HSXnH9cpm+sZBAIULTW
+         ewT92OVJAJUk4Anh+epCEAUTWgXlpm2PpfWqpCVZ/lyBfn4geyG83DOrUcDQjjsBSQF2
+         473d2xrPwZRa+Mgoszxi2nfsfjNI89mGCxNGiB4v+srpZtfY1wDSO1gu1JAgLKu7eYdB
+         FhtqVGkJRUvMAllxecLoW/3ECB5ZJO3kK76yTcjgkU1ZhC7YqmNJaYmbMQFJX/sNRy5t
+         NSLQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=8N6x/7n68VkqcCK1i8ZvzfmG7Vf3O4u5MSB9iadjIJw=;
+        b=imigUr56KeMwYA/i81sMDvrkuIZF4A64qvHYZDDvNeuv6oECRpU9ardk7RZewPT5r2
+         QO5vMjF0Ax5BkGl4DLH6HNPxLA6vMsd4nIOH5EWiial7SEISOR4NxWnKkJge+RrmPYrP
+         yBZJcbKHTASSLIpIEiHLLzq/iJUSdRJ1wTtP1WE9p2Lg3UHProvzp8b55t0eA1ifVRyU
+         nWQ+3FSr/OdYmQGgifth7hkBebjVJ68BkoDlFMWLupXt5Qqq/08wu8fEuJfD4lAckfeH
+         MyZOQcEIgnh6HPA2zjlwAlgoc0wUMcoQzZ+N88osYVKyS9N0I8O3p2qCaFwwq3JyY/un
+         3IvA==
+X-Gm-Message-State: AGi0PubBKjOTsdShQoQ5nLRukfo5tPOgNEw8Nyel440WRmuU9xkiT4KW
+	u/ipGEjVvDbd9ylUmcAZloGIKz1drHOsVTgikuU=
+X-Google-Smtp-Source: =?utf-8?q?APiQypK+jUOSRY09ZlBzgWG7ngq/Qa7cIL9fD8oEkH+s?=
+ =?utf-8?q?F1uQ2UNT/s+8dTLJP/38wpxI2ZHihnI+bsKvRzcdjUykfNE=3D?=
+X-Received: by 2002:ad4:5843:: with SMTP id de3mr16768410qvb.92.1588603424838;
+ Mon, 04 May 2020 07:43:44 -0700 (PDT)
+MIME-Version: 1.0
+Received:
+ by 2002:ad4:4346:0:0:0:0:0 with HTTP; Mon, 4 May 2020 07:43:43 -0700 (PDT)
+Reply-To: Kateflorenc@outlook.com
+From: NOTICE <newlifedeip@gmail.com>
+Date: Mon, 4 May 2020 16:43:44 +0200
+Message-ID:
+ <CAA3EQja8OOOVrA1v-twUcHAzEXrCkMR=becVtHFk3bT4tKGpQA@mail.gmail.com>
+Subject: NOTIFICATION
+To: undisclosed-recipients:;
+Content-Type: text/plain; charset="UTF-8"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+Dear Good day
+
+I sent this mail praying for it to reach you in good health, since I
+myself are in a very critical health condition in which I sleep every
+night  without knowing if I May be alive to see the next day., I am a
+widow suffering from long time illness.I have some funds I inherited
+from my late husband; my Doctor told me recently that I would not last
+due to the illness. Having known my condition, I need you to claim
+this money and use it for Charity works or any profitable venture that
+can help the poor and street children especially, I accept this
+decision because I do not have any child who will inherit  this money
+after I die.If interested please I want your sincere and urgent reply.
+
+Thank you,
+
+Mrs kate  Grace

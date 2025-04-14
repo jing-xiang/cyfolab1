@@ -1,0 +1,83 @@
+Return-Path: <technical@jbix.my>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id OIl7CaAQB19TUQAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 09 Jul 2020 12:42:08 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 9643f512-c1e1-11ea-acb3-e0d848974e01
+Received: from mail.jbix.my (mail.jbix.my [113.23.251.47])
+	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 9643f512-c1e1-11ea-acb3-e0d848974e01;
+	Thu, 09 Jul 2020 12:42:04 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.jbix.my (Postfix) with ESMTP id 876CB182C56D7;
+	Thu,  9 Jul 2020 18:58:09 +0800 (+08)
+Received: from mail.jbix.my ([127.0.0.1])
+	by localhost (mail.jbix.my [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id yYpsMmJRBCwV; Thu,  9 Jul 2020 18:58:09 +0800 (+08)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.jbix.my (Postfix) with ESMTP id 519D6186FF8CE;
+	Thu,  9 Jul 2020 18:28:39 +0800 (+08)
+DKIM-Filter: OpenDKIM Filter v2.10.3 mail.jbix.my 519D6186FF8CE
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=jbix.my;
+	s=7429D6AA-4A60-11E9-A504-1FF566B9DAF6; t=1594290519;
+	bh=zlWZcfTqqvi/rIHnl0U3YuGDU0/6PUXkJ76j754l1CI=;
+	h=MIME-Version:To:From:Date:Message-Id;
+	b=Vq4OhIZFOf+XVHqteYn5G2hfmrdKBLrLggeDFi4FIBmkJPfsGsHqL0CzoS4jrLqlp
+	 +o8lQuxPnQEQzBoQAC7bY0/FMpTPkTN1AnZ+XvytlCmKAhr7iIPjIaS2DvIadlRsOv
+	 ykzbpYm6UddG/uZWKsO/wuYUe5omOrrxbbP7eZYfZGUUnRlb/DB8tuV5w3XAdeh8mj
+	 iMHCdrQ8io96GKP5uoTLsgmsaXlJU6FuNqvGE3lfOYDb0h9vBxNiB8aYnvygAj5+k3
+	 Hksw+NH41R3NnMmSo1CqXCEf7U0Kemlrh34xIWs7OK5T9u5nvDQMEqi7c/VjEDbT3h
+	 mEs+g7WLuzbuQ==
+X-Virus-Scanned: amavisd-new at jbix.my
+Received: from mail.jbix.my ([127.0.0.1])
+	by localhost (mail.jbix.my [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id k3nq8Mr_v_Ru; Thu,  9 Jul 2020 18:28:39 +0800 (+08)
+Received: from [156.96.56.148] (unknown [156.96.56.148])
+	by mail.jbix.my (Postfix) with ESMTPSA id 276C9189FD134;
+	Thu,  9 Jul 2020 18:02:41 +0800 (+08)
+Content-Type: multipart/alternative; boundary="===============0131014609=="
+MIME-Version: 1.0
+Subject: HI
+To: Recipients <technical@jbix.my>
+From: technical@jbix.my
+Date: Thu, 09 Jul 2020 03:02:15 -0700
+Reply-To: contact.tayebsouami1@gmail.com
+Message-Id: <20200709100242.276C9189FD134@mail.jbix.my>
+
+You will not see this in a MIME-aware mail reader.
+--===============0131014609==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+=EF=BB=BFHello,=20I=20am=20Tayeb=20Souami,=20you=20have=20a=20donation=20of=
+=20=EF=BF=BD530.000,00.=20I=20won=20the=20315.3=20million=20Powerball=20lot=
+tery=20on=20May=2019,=202018,=20I'm=20donating=20part=20of=20it=20to=20ten=
+=20lucky=20people=20and=20Ten=20Charity=20organisation.=20You=20email=20cam=
+e=20out=20victorious.=20Contact=20claims=20department=20urgently=20for=20cl=
+aims=20and=20informations.=20Name:=20Tayeb=20Souami=20Email:=20contact.taye=
+bsouami1@gmail.com
+--===============0131014609==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+=EF=BB=BF<html><head><meta=20http-equiv=3D"Content-Type"=20content=3D"text/=
+html;=20charset=3Dutf-8"/></head>Hello,=20
+
+I=20am=20Tayeb=20Souami,=20you=20have=20a=20donation=20of=20=E2=82=AC530.00=
+0,00.=20
+
+I=20won=20the=20315.3=20million=20Powerball=20lottery=20on=20May=2019,=2020=
+18,=20I'm=20donating=20part=20of=20it=20to=20ten=20lucky=20people=20and=20T=
+en=20Charity=20organisation.=20
+
+You=20email=20came=20out=20victorious.=20Contact=20claims=20department=20ur=
+gently=20for=20claims=20and=20informations.
+
+Name:=20Tayeb=20Souami
+Email:=20contact.tayebsouami1@gmail.com</html>
+--===============0131014609==--

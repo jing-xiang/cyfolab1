@@ -1,0 +1,141 @@
+Return-Path: <flayne2025@communityschoolnaples.org>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id GGcaEaojFGTcAgAAtf5whQ
+	(envelope-from <flayne2025@communityschoolnaples.org>)
+	for <johannes.olegard@cyfoexample.one.com>; Fri, 17 Mar 2023 08:24:10 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=mime-version:content-type:reply-to:message-id:date:subject:from:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=zEovrp+iRFWo+g7+ClgPxqxlcEMAX3QiCiWcEqWef78=;	=?utf-8?q?b=3DmI78Vf4kZAVq?=
+ =?utf-8?q?SA8YVEfovzxkWQMWnFDPLhHI+mqf55a7SI+3suf1HoffHRLtmiktRKI5e5jnPf98l?=
+	 =?utf-8?q?C54UZJjEo/T1CvygYX4BS/9d/uWVzXS6juiCDb1O86YuDVFP1W/lHHy7ijQiDPta?=
+ =?utf-8?q?qqG05M/zq44Z13=09_XhYIJI0QVXSvNKsrDnGEZ2j0/DXeImQEb1COkg9QQKVyLp5?=
+ =?utf-8?q?xyj1LP4hgn1R3vDIldwQhtrFso7jvfn=09_yU9x//CFRna/fV+juGSlPlYHCr+pe7?=
+ =?utf-8?q?vkziTkdO4y5Rlo5xtQEnPqfC4Ah+UyjWarMcBSibeTfwe6b0?=	
+ 2rFTnbUKoLnYbkBxeE20yAj+i0/FZ2w==
+X-HalOne-SA: 13.1
+X-HalOne-RefID: 155866::1679041448-D97C15B5-DE5DCD39/10/51512405012
+X-HalOne-ID: 14fb8a6a-c49d-11ed-a299-e0d848974e01
+Received: from mail.communityschoolnaples.org (mail.communityschoolnaples.org
+ [208.83.73.163])	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 14fb8a6a-c49d-11ed-a299-e0d848974e01;	Fri, 17 Mar 2023 08:24:08 +0000 (UTC)
+Received: from Exchange.communityschoolnaples.org (10.0.1.121) by
+ Exchange.communityschoolnaples.org (10.0.1.121) with Microsoft SMTP Server
+ (TLS) id 15.0.1497.2; Fri, 17 Mar 2023 04:22:08 -0400
+Received: from Exchange.communityschoolnaples.org
+ ([fe80::1d1a:e804:7b9f:f549]) by Exchange.communityschoolnaples.org
+ ([fe80::1d1a:e804:7b9f:f549%17]) with mapi id 15.00.1497.012; Fri, 17 Mar
+ 2023 04:22:08 -0400
+From: flayne2025 <flayne2025@communityschoolnaples.org>
+Subject: Re: Reminder
+Thread-Topic: Re: Reminder
+Thread-Index: AdlYp0nX6iZ5PoBY2E6fqI6OhSvGeQ==
+Importance: high
+X-Priority: 1
+Date: Fri, 17 Mar 2023 08:05:50 +0000
+Message-ID:
+ <7f0c4f20b6ad49dda86a552ba72ad132@Exchange.communityschoolnaples.org>
+Reply-To: "alianmartello2@gmail.com" <alianmartello2@gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-ms-exchange-transport-fromentityheader: Hosted
+x-originating-ip: [45.149.173.219]
+Content-Type: multipart/alternative;
+	boundary="_000_7f0c4f20b6ad49dda86a552ba72ad132Exchangecommunityschool_"
+MIME-Version: 1.0
+
+--_000_7f0c4f20b6ad49dda86a552ba72ad132Exchangecommunityschool_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Did=20you=20get=20my=20mail
+
+About=20proposal?
+
+
+--_000_7f0c4f20b6ad49dda86a552ba72ad132Exchangecommunityschool_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html=20xmlns:v=3D"urn:schemas-microsoft-com:vml"=20xmlns:o=3D"urn:schemas-=
+microsoft-com:office:office"=20xmlns:w=3D"urn:schemas-microsoft-com:office:=
+word"=20xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml"=20xmln=
+s=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta=20http-equiv=3D"Content-Type"=20content=3D"text/html;=20charset=3Dus-=
+ascii">
+<meta=20name=3D"Generator"=20content=3D"Microsoft=20Word=2014=20(filtered=
+=20medium)">
+<style><!--
+/*=20Font=20Definitions=20*/
+@font-face
+=09{font-family:Calibri;
+=09panose-1:2=2015=205=202=202=202=204=203=202=204;}
+/*=20Style=20Definitions=20*/
+p.MsoNormal,=20li.MsoNormal,=20div.MsoNormal
+=09{margin:0in;
+=09margin-bottom:.0001pt;
+=09font-size:11.0pt;
+=09font-family:"Calibri","sans-serif";}
+a:link,=20span.MsoHyperlink
+=09{mso-style-priority:99;
+=09color:blue;
+=09text-decoration:underline;}
+a:visited,=20span.MsoHyperlinkFollowed
+=09{mso-style-priority:99;
+=09color:purple;
+=09text-decoration:underline;}
+p.yiv6454999011msonormal,=20li.yiv6454999011msonormal,=20div.yiv6454999011m=
+sonormal
+=09{mso-style-name:yiv6454999011msonormal;
+=09mso-margin-top-alt:auto;
+=09margin-right:0in;
+=09mso-margin-bottom-alt:auto;
+=09margin-left:0in;
+=09font-size:12.0pt;
+=09font-family:"Times=20New=20Roman","serif";}
+span.EmailStyle18
+=09{mso-style-type:personal-compose;
+=09font-family:"Calibri","sans-serif";
+=09color:windowtext;}
+.MsoChpDefault
+=09{mso-style-type:export-only;
+=09font-size:10.0pt;
+=09font-family:"Calibri","sans-serif";}
+@page=20WordSection1
+=09{size:8.5in=2011.0in;
+=09margin:1.0in=201.0in=201.0in=201.0in;}
+div.WordSection1
+=09{page:WordSection1;}
+--></style><!--[if=20gte=20mso=209]><xml>
+<o:shapedefaults=20v:ext=3D"edit"=20spidmax=3D"1026"=20/>
+</xml><![endif]--><!--[if=20gte=20mso=209]><xml>
+<o:shapelayout=20v:ext=3D"edit">
+<o:idmap=20v:ext=3D"edit"=20data=3D"1"=20/>
+</o:shapelayout></xml><![endif]-->
+</head>
+<body=20lang=3D"EN-US"=20link=3D"blue"=20vlink=3D"purple">
+<div=20class=3D"WordSection1">
+<p=20class=3D"yiv6454999011msonormal"=20style=3D"margin:0in;margin-bottom:.=
+0001pt;background:white">
+<span=20style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;san=
+s-serif&quot;;color:#1D2228">Did=20you=20get=20my=20mail<o:p></o:p></span><=
+/p>
+<p=20class=3D"yiv6454999011msonormal"=20style=3D"margin:0in;margin-bottom:.=
+0001pt;background:white;font-variant-ligatures:=20normal;font-variant-caps:=
+=20normal;orphans:=202;widows:=202;-webkit-text-stroke-width:=200px;text-de=
+coration-thickness:=20initial;text-decoration-style:=20initial;text-decorat=
+ion-color:=20initial;word-spacing:0px">
+<span=20style=3D"font-size:11.0pt;font-family:&quot;Calibri&quot;,&quot;san=
+s-serif&quot;;color:#1D2228">About=20proposal?<o:p></o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_7f0c4f20b6ad49dda86a552ba72ad132Exchangecommunityschool_--

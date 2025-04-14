@@ -1,0 +1,60 @@
+Return-Path: <t.rios393@live.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id OLf0OaEkVV47EQAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 25 Feb 2020 13:44:01 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: e14abfd1-57d4-11ea-afee-e0d84894a001
+Received: from dc.tepehosting.com (dc.tepehosting.com [193.164.5.60])
+	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id e14abfd1-57d4-11ea-afee-e0d84894a001;
+	Tue, 25 Feb 2020 13:44:01 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=askkalbim.net; s=default; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Date:Subject:From:Reply-To:Sender:Message-ID:To:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=H8Fa9vdk+wD7P3BA4qJdpj+6VYE98mFBT7Iqyrz2Zuo=; b=GFmh7AIJo6H1IP0ZrsUQ4VZCXe
+	8IgZjHxG+yGgNM2zb1CPscLimRWcQfDF9EVVVa7ikm40CKHdHKW4DftNQxIcnYvWlTgoXHn7Kdp26
+	P4JRWU9jhfO0J7GqLOr3UIaoXqabj4deq07alUtF6FWMg/+AlVXt0YilEkxvvsDx/zGzDEolUkEqY
+	2bwBiCJuFaJVM1rTiBN2hCc6t9P+3gFhJebCqES4HZiF0nRg5W9CPShgb1YQD2pGa5kikOrRiAWsp
+	gKeGi29M/0oncIBUtWZxu56/2MiuXOY9goD6EIaFyPie1+t9TljZK/C5p/43Rrcugy4PYL4WX7Kbf
+	opUNS4CA==;
+Received: from [84.17.57.40] (port=49226 helo=User)
+	by dc.tepehosting.com with esmtpa (Exim 4.92)
+	(envelope-from <t.rios393@live.com>)
+	id 1j6aV2-000566-Tv; Tue, 25 Feb 2020 16:43:50 +0300
+Reply-To: <t.rios39@live.com>
+From: "Elizabeth Taylor"<t.rios393@live.com>
+Subject: Business Proposal
+Date: Tue, 25 Feb 2020 14:43:47 +0100
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-AntiAbuse:
+ This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - dc.tepehosting.com
+X-AntiAbuse: Original Domain - cyfoexample.one.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - live.com
+X-Get-Message-Sender-Via:
+ dc.tepehosting.com: authenticated_id: beast3x@askkalbim.net
+X-Authenticated-Sender: dc.tepehosting.com: beast3x@askkalbim.net
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+Glad to write to you. I avail myself of this opportunity to approach you for an establishment of a business relationship with you. I got your contact through LinkedIn and would like to discuss more with you about this opportunity. 
+
+I would like to send a summary of this business for your review. 
+
+Could we please take a few minutes of your time to revert back to this mail???
+
+Best Regards,
+Ms. Elizabeth Taylor.

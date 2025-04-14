@@ -1,0 +1,351 @@
+Return-Path: <>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id EB2/GCDflV9MZQAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Sun, 25 Oct 2020 20:25:04 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 2a2e9b7e-1700-11eb-a6fb-e0d84894a001
+Received: from srs-1.relay.sys.kth.se (srs-1.sys.kth.se [130.237.48.92])
+	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 2a2e9b7e-1700-11eb-a6fb-e0d84894a001;
+	Sun, 25 Oct 2020 20:25:04 +0000 (UTC)
+Received: from mx6.kth.se (mx6.kth.se [130.237.48.70])	(using TLSv1.2 with
+ cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))	(No client certificate
+ requested)	by srs-1.relay.sys.kth.se (Postfix) with ESMTPS id
+ 4CK8bM28D9z1DlvN	for <johannes.olegard@cyfoexample.one.com>; Sun, 25 Oct 2020
+ 21:25:03 +0100 (CET)
+Received: from mx6.kth.se (localhost [127.0.0.1])
+	by mx6.kth.se (Postfix) with ESMTP id 3B5341C034F
+	for <jolegard@kth.se>; Sun, 25 Oct 2020 21:25:03 +0100 (CET)
+X-Virus-Scanned: by amavisd-new at kth.se
+X-Spam-Flag: NO
+X-Spam-Score: -0.702
+X-Spam-Level: 
+X-Spam-Status: No, score=-0.702 tagged_above=-200 required=5
+	tests=[BAYES_00=-1.9, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	DKIM_VALID_AU=-0.1, FORGED_SPF_HELO=1.499, HTML_MESSAGE=0.001,
+	PDS_BTC_ID=0.499, RCVD_IN_DNSWL_LOW=-0.7, SPF_HELO_PASS=-0.001]
+	autolearn=no
+X-Amavis-OS-Fingerprint: Windows NT kernel; dist: 26; link: Ethernet or modem;
+	params: generic fuzzy; raw_mtu: 1500; raw_sig:
+	4:102+26:0:1460:mss*44,8:mss,nop,ws,nop,nop,sok:df,id+,ecn:0,
+	[40.107.69.136]:30361
+Received: from mx6.kth.se ([127.0.0.1])
+	by mx6.kth.se (mx6.kth.se [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id Gg_arFQtvX6n for <jolegard@kth.se>;
+	Sun, 25 Oct 2020 21:24:59 +0100 (CET)
+Received: from NAM04-CO1-obe.outbound.protection.outlook.com
+ (mail-eopbgr690136.outbound.protection.outlook.com [40.107.69.136])	by
+ mx6.kth.se (Postfix) with ESMTPS	for <jolegard@kth.se>; Sun, 25 Oct 2020
+ 21:24:59 +0100 (CET)
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none; 
+ =?utf-8?q?b=3DcuonFNd+4ZJUPBgPdzUh9Ohfeb7lSGYiFjYjmTnJG9/oUCi9Cq4jhr/ewP+VF?=
+ =?utf-8?q?adwPn6NPAWyvZQre52v33lUYiGnFIxjtzcw8IZZKmgGcRpd5O8tLS+qKyp3DoI1M8?=
+ =?utf-8?q?q9lD8eLD+HGRdgWij6AakKFmkbCBfacSa2I3fa8xe6cdOAhczu18TFwzfhlu+xqtF?=
+ =?utf-8?q?hSIzQgimuSiUJ+bB5TpnG3D6/FeFkSuGvV9HDcn068dxxxKYQNCxSS8iEz6ZQ3qdI?=
+ =?utf-8?q?CA+GvZNMRsnr7/69YM/3Tzt6oeItYPHtw8cj62WNAv5Kny1webUXRCmypBf0OJo0x?=
+ =?utf-8?q?Dtkrk0QXCYjPfDhSdhBCQ=3D=3D?=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901; =?utf-8?q?h=3DFrom=3ADate=3ASubject=3AMessage-ID=3AConte?=
+ =?utf-8?q?nt-Type=3AMIME-Version=3AX-MS-Exchange-SenderADCheck=3B?=
+ bh=AuT7YmggZygaFsxy+EWb0Wo6r6XrCrGKPWeO50UIhnU=; =?utf-8?q?b=3DgI35qBS6G6CU?=
+ =?utf-8?q?VPcdn5tIl8VgYgI72453oHoTVOCpwAa0DM8voeyghG5Kec+mgiz+KjyosdqMH3mDX?=
+ =?utf-8?q?0WwMiiMXRTOQLLrs2nuL8d6IqyChHcDGxWWGhrZMiiIH+xwPFryj5xe9cKt+Vc1ao?=
+ =?utf-8?q?AsOIAs3ogO8QLW5gX16VlHYdBjuJ3RETmP51MWAAhsCyyDbBO5fQfsL6/zzhUbs23?=
+ =?utf-8?q?zlhFaGY07nl6k1gRA6cLXySkX95yhTFAu/DYklqmy4agMISPkRbRtAC6qOrRUtgb1?=
+ =?utf-8?q?ZV9Rs30xokAnn8n3g6ZUStktJidy/D6Zlw4pmQOD2z0oDib0Vx1b0qFycQaA2APd8?=
+ =?utf-8?q?oBjGw=3D=3D?=
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=none; dmarc=none;
+ dkim=none; arc=none
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=stuuobedu.onmicrosoft.com; s=selector2-stuuobedu-onmicrosoft-com; 
+ =?utf-8?q?h=3DFrom=3ADate=3ASubject=3AMessage-ID=3AContent-Type=3AMIME-Vers?=
+ =?utf-8?q?ion=3AX-MS-Exchange-SenderADCheck=3B?=
+ bh=AuT7YmggZygaFsxy+EWb0Wo6r6XrCrGKPWeO50UIhnU=; =?utf-8?q?b=3DGpPuTsHxzAQ1?=
+ =?utf-8?q?ezWGHRDLvFvnh9sVQeQ3B2qJoG0FQJ2cLgdAAvaruEI+Ao0mqR8WDd8XPEhSSwncI?=
+ =?utf-8?q?rbljNQuLhRrngjrQk7om3bJQgzzsPFSrgACNSJdpEAhgF7axBTtNSL/i4bAxD/UDK?=
+ =?utf-8?q?N8HJHTb6BwT8U5eoNVjG/PtO2Mceo=3D?=
+Received: from BN6PR14CA0008.namprd14.prod.outlook.com (2603:10b6:404:79::18)
+ by BL0PR0102MB3444.prod.exchangelabs.com (2603:10b6:207:1a::21) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3477.21; Sun, 25 Oct
+ 2020 20:24:39 +0000
+Received: from BN7NAM10FT009.eop-nam10.prod.protection.outlook.com
+ (2603:10b6:404:79:cafe::64) by BN6PR14CA0008.outlook.office365.com
+ (2603:10b6:404:79::18) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.3499.18 via Frontend
+ Transport; Sun, 25 Oct 2020 20:24:39 +0000
+Authentication-Results: spf=pass (sender IP is 209.85.166.176)
+ smtp.mailfrom=gmail.com; stu.uob.edu.bh; dkim=pass (signature was verified)
+ header.d=gmail.com;stu.uob.edu.bh; dmarc=pass action=none
+ header.from=gmail.com;
+Received-SPF: Pass (protection.outlook.com: domain of gmail.com designates
+ 209.85.166.176 as permitted sender) receiver=protection.outlook.com;
+ client-ip=209.85.166.176; helo=mail-il1-f176.google.com;
+Received: from mail-il1-f176.google.com (209.85.166.176) by
+ BN7NAM10FT009.mail.protection.outlook.com (10.13.156.248) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.3499.18 via Frontend Transport; Sun, 25 Oct 2020 20:24:38 +0000
+Received: by mail-il1-f176.google.com with SMTP id j8so6304564ilk.0        for
+ <ICDABICONFERENCE@stu.uob.edu.bh>; Sun, 25 Oct 2020 13:24:38 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:from:date:message-id:subject:to;
+        bh=AuT7YmggZygaFsxy+EWb0Wo6r6XrCrGKPWeO50UIhnU=;
+        b=ucKFCMijPpwLSWopZmSkrI0w6FNepgEVxGokginLX0aRWONwMjDxy8orVmZHG9ALuc
+         RN1v/M2yuzKP6vHzJzo2bw7CP+7S0j9aumBcxVIYnQnn0/5Ueg0qnkKRw3QyI0ID1EoI
+         yEnVRMhsgkYvbzRbc5ihCCxNQkQQPzdrHVN8+AD7Pti7NrGTUy7RvUA/auB6LD8jNvRd
+         JJYwTZBazcigFOmmXXhwTNW5TWIXoD52WQw6CVUL0QevvzF9aZ50U3ntt4Z1R5wQq/WL
+         ArTEM2Glp2cF9U17YqJBN885/T30ubhEcDzXZT7mGcKNMjoIDHx+FasqjfLCl8QoxdLq
+         IVZA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:from:date
+         :message-id:subject:to;
+        bh=AuT7YmggZygaFsxy+EWb0Wo6r6XrCrGKPWeO50UIhnU=;
+        b=GCzapD/IuoDOQvkFvLkDfpj8JTJrqDfTboU4TN8fr9+z00UE69nfYg2sD4OhV1Ecou
+         GdmReQAEgCyXQZSGtRHsuDILfiooB3UflgEdF56jd/weEW/XoJtxRiUx09Zfjei2r5DQ
+         jqDzJY0iWrTtvdPa7RzUWIG2p3nt5maBYGPSuD9Fl2b+1jVagtKT9gj3417pEBlEcxp/
+         uVM80PtiStVEm4iPbb3X1Dm9ZZ5oPWSKX2V3WfBTzaPY3XGcaWUBEA2NYfWmN7MsiFdH
+         mhQWdTFf6UrqMDDRAJQHvXOqScNsHZvoHJaYDiD0I4mNnTD8pYLxVDTgF3lNhEJcXwMu
+         /J1Q==
+X-Gm-Message-State: AOAM533whG3OiKNfyzFyLCsGK+HkPO2EYLlWWTuZY5ksde05PSUd0PLw
+	UQIXJ/bK+w/pHAL/rTUYYFBRoW+66+/Y1FBwohxVlVQO6+g=
+X-Google-Smtp-Source: =?utf-8?q?ABdhPJxCd35eDpusRvoLF5g0ZqKUXzseFI/Vp5dfEzDc?=
+ =?utf-8?q?8g1BpRvHIKdNHOiI6xfFudH69azBMQGqcu0y9aRPmEVAqc4=3D?=
+X-Received: by 2002:a92:b712:: with SMTP id k18mr8845436ili.291.1603657477912;
+ Sun, 25 Oct 2020 13:24:37 -0700 (PDT)
+MIME-Version: 1.0
+References:
+ <BL0PR01MB5010D11CCF4385C26B8D29EABA180@BL0PR01MB5010.prod.exchangelabs.com>
+In-Reply-To:
+ <BL0PR01MB5010D11CCF4385C26B8D29EABA180@BL0PR01MB5010.prod.exchangelabs.com>
+From: jossef belkhier <jinsa091@gmail.com>
+Date: Sun, 25 Oct 2020 21:24:24 +0100
+Message-ID:
+ <CAFx-GBDXYzP1EJarERJd6QoyjZ5kdN7+DBu3LmB6bPKGCz3g+Q@mail.gmail.com>
+Subject: Re: Data20 Confreance
+To: ICDABI CONFERENCE <ICDABICONFERENCE@stu.uob.edu.bh>
+Content-Type: multipart/alternative; boundary="0000000000004fff2805b2849a12"
+X-EOPAttributedMessage: 0
+X-EOPTenantAttributedMessage: 026137b5-e313-46d1-9b2f-026ecb50c842:0
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 6c7d21bf-2709-4e35-2b1b-08d87923ff7e
+X-MS-TrafficTypeDiagnostic: BL0PR0102MB3444:
+X-LD-Processed: 026137b5-e313-46d1-9b2f-026ecb50c842,ExtAddr
+X-MS-Exchange-Transport-Forked: True
+X-Microsoft-Antispam-PRVS: =?utf-8?q?=3CBL0PR0102MB3444C8AB37CE12A9B2C56BDB9?=
+ =?utf-8?q?C180=40BL0PR0102MB3444=2Eprod=2Eexchangelabs=2Ecom=3E?=
+X-MS-Oob-TLC-OOBClassifiers: OLM:1284;
+X-MS-Exchange-SenderADCheck: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info: =?utf-8?q?9J0pJsejR/uy+CmqqVDICWnh0abpp7G?=
+ =?utf-8?q?V8/dKdOfxZaGSfgyiQHAYltT6ffUGyeWihQivuqjC+qSrua0eg/4pBTa2xxU08ng0?=
+ =?utf-8?q?oB9KcXEvfVYcBxOjCvX4CiQS0tk+8vHO2ikBf0OhgGqzbM/N4j3y6T6tw4+EEZsfv?=
+ =?utf-8?q?QhGZQXdhkclfLXW2OUiDkW5LiCDU0T2WcIUVZeCtfGcnAqQ2HQFin0vyLixGDf9gC?=
+ =?utf-8?q?Z1o31UPY96uwMtDgYdRMlj3ZSWIvqXmiHi3HlZIDi87ANbI8lHA2fWrRe386HaXqN?=
+ =?utf-8?q?rVZv4cgQ7uGqMEs5lNqWzS6Vbew/BLAIY3n9p1JVakEdwCfSbRA4FIPPJq2lN9DFw?=
+ =?utf-8?q?1T2tTKkzHjIyi6Z5rKYsfHRxkNJQlM2MgsF1hMFRLsO/5GUWoDafx2FYyq4gvoYxC?=
+ =?utf-8?q?ObroOLTBOXg4cs7TlvA+4OkK7/p6GO5DOIrj5n2FkDlO16nkA=3D=3D?=
+X-Forefront-Antispam-Report: =?utf-8?b?Q0lQOjIwOS44NS4xNjYuMTc2O0NUUlk6VVM7?=
+ =?utf-8?b?TEFORzplbjtTQ0w6MTtTUlY6O0lQVjpOTEk7U0ZWOk5TUE07SDptYWlsLWlsMS1m?=
+ =?utf-8?q?176=2Egoogle=2Ecom=3BPTR=3Amail-il1-f176=2Egoogle=2Ecom=3BCAT=3AN?=
+ =?utf-8?b?T05FO1NGUzooNDYzNjAwOSkoMzk4NTA0MDAwMDQpKDM0NjAwMikoMzc2MDAyKSgz?=
+ =?utf-8?b?OTYwMDMpKDEzNjAwMykoMzM2MDEyKSg3NDE2MDAyKSg3Mjc2MDAyKSgzNTYwMDUp?=
+ =?utf-8?q?=2883380400001=29=2873392003=29=2826005=29=288676002=29=287366002?=
+ =?utf-8?b?KSg2ODQwNjAxMCkoNzA1ODYwMDcpKDY2NjYwMDQpKDc2NDgyMDA2KSgzMzk2?=
+ =?utf-8?b?NDAwNCkoNzQwNjAwNSkoNzMzNjAwMikoNzExNjAwMykoNzU5NjAwMykoNDIx?=
+ =?utf-8?q?86006=29=2845080400002=29=2886362001=29=287636003=29=288110040000?=
+ =?utf-8?b?MSkoNjg2MjAwNCkoNTU0NDYwMDIpKDc2NTc2MDAzKSgyOTA2MDAyKSg3ODYwMDMp?=
+ =?utf-8?q?=28166002=29=285660300002=29=2882202003=29=28498600001=29=2831600?=
+ =?utf-8?q?2=29=3BDIR=3AOUT=3BSFP=3A1102=3B?=
+X-ExternalRecipientOutboundConnectors: 026137b5-e313-46d1-9b2f-026ecb50c842
+X-Auto-Response-Suppress: DR, RN, NRN, OOF, AutoReply
+X-OriginatorOrg: stu.uob.edu.bh
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 25 Oct 2020 20:24:38.9300
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+ 6c7d21bf-2709-4e35-2b1b-08d87923ff7e
+X-MS-Exchange-CrossTenant-Id: 026137b5-e313-46d1-9b2f-026ecb50c842
+X-MS-Exchange-CrossTenant-AuthSource:
+ BN7NAM10FT009.eop-nam10.prod.protection.outlook.com
+X-MS-Exchange-CrossTenant-AuthAs: Anonymous
+X-MS-Exchange-CrossTenant-FromEntityHeader: Internet
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BL0PR0102MB3444
+
+--0000000000004fff2805b2849a12
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BFRecived,=20thank=20you
+
+Le=20dim.=2025=20oct.=202020=20=C3=A0=2015:32,=20ICDABI=20CONFERENCE=20<
+ICDABICONFERENCE@stu.uob.edu.bh>=20a=20=C3=A9crit=20:
+
+>
+>
+>
+>
+>=20_______________________________________________________________________=
+_________
+>=20Microsoft=20Teams=20meeting
+>=20Join=20on=20your=20computer=20or=20mobile=20app
+>=20Click=20here=20to=20join=20the=20meeting
+>=20<https://teams.microsoft.com/l/meetup-join/19%3ad9cbfb8c238b485f988a714=
+e1f9b5289%40thread.tacv2/1603636227401?context=3D%7b%22Tid%22%3a%22026137b5=
+-e313-46d1-9b2f-026ecb50c842%22%2c%22Oid%22%3a%22113e81ff-00b4-43c1-bc99-20=
+e2ee643af5%22%7d>
+>=20Learn=20More=20<https://aka.ms/JoinTeamsMeeting>=20|=20Meeting=20options
+>=20<https://teams.microsoft.com/meetingOptions/?organizerId=3D113e81ff-00b=
+4-43c1-bc99-20e2ee643af5&tenantId=3D026137b5-e313-46d1-9b2f-026ecb50c842&th=
+readId=3D19_d9cbfb8c238b485f988a714e1f9b5289@thread.tacv2&messageId=3D16036=
+36227401&language=3Den-US>
+>
+>=20_______________________________________________________________________=
+_________
+>
+>
+>=20You're=20receiving=20this=20message=20because=20you're=20a=20member=20o=
+f=20the=20ICDABI
+>=20CONFERENCE=20group=20from=20University=20of=20Bahrain.=20To=20take=20pa=
+rt=20in=20this
+>=20conversation,=20reply=20all=20to=20this=20message.
+>
+>=20View=20group=20files
+>=20<https://outlook.office365.com/owa/ICDABICONFERENCE@stu.uob.edu.bh/grou=
+psubscription.ashx?source=3DEscalatedMessage&action=3Dfiles&GuestId=3D10628=
+791-0697-4edc-9185-cb54dff581c0>
+>=20=20=20=20|=20=20=20Leave=20group
+>=20<https://outlook.office365.com/owa/ICDABICONFERENCE@stu.uob.edu.bh/grou=
+psubscription.ashx?source=3DEscalatedMessage&action=3Dleave&GuestId=3D10628=
+791-0697-4edc-9185-cb54dff581c0>
+>=20=20=20=20|=20=20=20Learn=20more=20about=20Microsoft=20365=20Groups=20<h=
+ttps://aka.ms/o365g>
+>
+>
+
+--0000000000004fff2805b2849a12
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BF<div=20dir=3D"auto">Recived,=20thank=20you</div><br><div=20class=
+=3D"gmail_quote"><div=20dir=3D"ltr">Le=20dim.=2025=20oct.=202020=20=C3=A0=
+=2015:32,=20ICDABI=20CONFERENCE=20&lt;<a=20href=3D"mailto:ICDABICONFERENCE@=
+stu.uob.edu.bh">ICDABICONFERENCE@stu.uob.edu.bh</a>&gt;=20a=20=C3=A9crit=C2=
+=A0:<br></div><blockquote=20class=3D"gmail_quote"=20style=3D"margin:0=200=
+=200=20.8ex;border-left:1px=20#ccc=20solid;padding-left:1ex">
+
+
+
+<div>
+<div><br>
+<br>
+<br>
+<div=20style=3D"width:100%;height:20px"><span=20style=3D"white-space:nowrap=
+;color:#5f5f5f;opacity:.36">_______________________________________________=
+_________________________________</span>
+</div>
+<div=20style=3D"color:#252424;font-family:&#39;Segoe=20UI&#39;,&#39;Helveti=
+ca=20Neue&#39;,Helvetica,Arial,sans-serif">
+<div=20style=3D"margin-top:24px;margin-bottom:20px"><span=20style=3D"font-s=
+ize:24px;color:#252424">Microsoft=20Teams=20meeting</span>
+</div>
+<div=20style=3D"margin-bottom:20px">
+<div=20style=3D"margin-top:0px;margin-bottom:0px;font-weight:bold"><span=20=
+style=3D"font-size:14px;color:#252424">Join=20on=20your=20computer=20or=20m=
+obile=20app</span>
+</div>
+<a=20style=3D"font-size:14px;font-family:&#39;Segoe=20UI=20Semibold&#39;,&#=
+39;Segoe=20UI&#39;,&#39;Helvetica=20Neue&#39;,Helvetica,Arial,sans-serif;te=
+xt-decoration:underline;color:#6264a7"=20href=3D"https://teams.microsoft.co=
+m/l/meetup-join/19%3ad9cbfb8c238b485f988a714e1f9b5289%40thread.tacv2/160363=
+6227401?context=3D%7b%22Tid%22%3a%22026137b5-e313-46d1-9b2f-026ecb50c842%22=
+%2c%22Oid%22%3a%22113e81ff-00b4-43c1-bc99-20e2ee643af5%22%7d"=20rel=3D"nore=
+ferrer=20noopener=20noreferrer"=20target=3D"_blank">Click
+=20here=20to=20join=20the=20meeting</a>=20</div>
+<div=20style=3D"margin-bottom:24px;margin-top:20px"><a=20style=3D"font-size=
+:14px;text-decoration:underline;color:#6264a7;font-family:&#39;Segoe=20UI&#=
+39;,&#39;Helvetica=20Neue&#39;,Helvetica,Arial,sans-serif"=20href=3D"https:=
+//aka.ms/JoinTeamsMeeting"=20rel=3D"noreferrer=20noopener=20noreferrer"=20t=
+arget=3D"_blank">Learn
+=20More</a>=20|=20<a=20style=3D"font-size:14px;text-decoration:underline;co=
+lor:#6264a7;font-family:&#39;Segoe=20UI&#39;,&#39;Helvetica=20Neue&#39;,Hel=
+vetica,Arial,sans-serif"=20href=3D"https://teams.microsoft.com/meetingOptio=
+ns/?organizerId=3D113e81ff-00b4-43c1-bc99-20e2ee643af5&amp;tenantId=3D02613=
+7b5-e313-46d1-9b2f-026ecb50c842&amp;threadId=3D19_d9cbfb8c238b485f988a714e1=
+f9b5289@thread.tacv2&amp;messageId=3D1603636227401&amp;language=3Den-US"=20=
+rel=3D"noreferrer=20noopener=20noreferrer"=20target=3D"_blank">
+Meeting=20options</a>=20</div>
+</div>
+<div=20style=3D"font-size:14px;margin-bottom:4px;font-family:&#39;Segoe=20U=
+I&#39;,&#39;Helvetica=20Neue&#39;,Helvetica,Arial,sans-serif">
+</div>
+<div=20style=3D"font-size:12px"></div>
+<div=20style=3D"width:100%;height:20px"><span=20style=3D"white-space:nowrap=
+;color:#5f5f5f;opacity:.36">_______________________________________________=
+_________________________________</span>
+</div>
+</div>
+<div=20id=3D"m_7604254993071623019a59ada49-a492-4f1d-ac57-74be3a4194fc"=20s=
+tyle=3D"display:inline-block">
+<table=20cellspacing=3D"0"=20style=3D"table-layout:fixed;width:50px;border:=
+0=20none=20black">
+<tbody>
+<tr>
+<td=20style=3D"height:18px;padding:0;border-width:0=200=201px=200;border-st=
+yle:none=20none=20solid=20none;border-color:#eaeaea">
+=C2=A0</td>
+</tr>
+</tbody>
+</table>
+<table=20cellspacing=3D"0"=20style=3D"table-layout:fixed;width:90%;line-hei=
+ght:17px;border:0=20none=20black">
+<tbody>
+<tr>
+<td=20style=3D"height:17px;padding:0;border:0=20none=20black">=C2=A0</td>
+</tr>
+<tr>
+<td=20style=3D"padding:0;border:0=20none=20black;color:#666666;font-size:12=
+px;font-family:&#39;Segoe=20UI&#39;,&#39;Segoe=20WP&#39;,sans-serif">
+You&#39;re=20receiving=20this=20message=20because=20you&#39;re=20a=20member=
+=20of=20the=20ICDABI=20CONFERENCE=20group=20from=20University=20of=20Bahrai=
+n.=20To=20take=20part=20in=20this=20conversation,=20reply=20all=20to=20this=
+=20message.</td>
+</tr>
+<tr>
+<td=20style=3D"height:17px;padding:0;border:0=20none=20black">=C2=A0</td>
+</tr>
+<tr>
+<td=20style=3D"padding:0;border:0=20none=20black;font-size:12px;font-family=
+:&#39;Segoe=20UI&#39;,&#39;Segoe=20WP&#39;,sans-serif">
+<span=20style=3D"display:inline-block"><a=20style=3D"color:#666666;text-dec=
+oration:none;font-size:12px;font-family:&#39;Segoe=20UI&#39;,&#39;Segoe=20W=
+P&#39;,sans-serif"=20href=3D"https://outlook.office365.com/owa/ICDABICONFER=
+ENCE@stu.uob.edu.bh/groupsubscription.ashx?source=3DEscalatedMessage&amp;ac=
+tion=3Dfiles&amp;GuestId=3D10628791-0697-4edc-9185-cb54dff581c0"=20target=
+=3D"_blank"=20rel=3D"noreferrer">View=C2=A0group=C2=A0files</a></span><span=
+=20style=3D"color:#c8c8c8">=C2=A0=C2=A0=C2=A0|=C2=A0=C2=A0=C2=A0</span><spa=
+n=20style=3D"display:inline-block"><a=20style=3D"color:#666666;text-decorat=
+ion:none;font-size:12px;font-family:&#39;Segoe=20UI&#39;,&#39;Segoe=20WP&#3=
+9;,sans-serif"=20id=3D"m_7604254993071623019BD5134C6-8D33-4ABA-A0C4-08581FD=
+F89DB"=20href=3D"https://outlook.office365.com/owa/ICDABICONFERENCE@stu.uob=
+.edu.bh/groupsubscription.ashx?source=3DEscalatedMessage&amp;action=3Dleave=
+&amp;GuestId=3D10628791-0697-4edc-9185-cb54dff581c0"=20target=3D"_blank"=20=
+rel=3D"noreferrer">Leave=C2=A0group</a></span><span=20style=3D"color:#c8c8c=
+8">=C2=A0=C2=A0=C2=A0|=C2=A0=C2=A0=C2=A0</span><span=20style=3D"display:inl=
+ine-block"><a=20style=3D"color:#666666;text-decoration:none;font-size:12px;=
+font-family:&#39;Segoe=20UI&#39;,&#39;Segoe=20WP&#39;,sans-serif"=20href=3D=
+"https://aka.ms/o365g"=20target=3D"_blank"=20rel=3D"noreferrer">Learn
+=20more=20about=20Microsoft=20365=20Groups</a></span></td>
+</tr>
+<tr>
+<td=20style=3D"height:17px;padding:0;border:0=20none=20black">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+
+</blockquote></div>
+
+--0000000000004fff2805b2849a12--

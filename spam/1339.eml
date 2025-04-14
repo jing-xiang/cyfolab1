@@ -1,0 +1,67 @@
+Return-Path: <centrodelamujer@villalemana.cl>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id yCxxFxKCd2B7UgAAtf5whQ
+	(envelope-from <centrodelamujer@villalemana.cl>)
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 15 Apr 2021 00:00:18 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:mime-version:subject:message-id:from:date:x-halone-refid:	
+ x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=z+xxKSjn6CMa+k+XpwDtYX9tF3BNKOYvf+iVW8COU4w=;	=?utf-8?q?b=3DrB4JA28XQ34D?=
+ =?utf-8?q?D71OqoPR+QAskzm8clU4NaDs9f9Rews/XWrIXvQaWXsUQ0dfk0aqce/07lCJXKyKl?=
+	 =?utf-8?q?6ZFr639SY/+c0IvvfnQ7TpxiYQwXpSauizQ3myvv3SaWVBOu/iFn4hzxYI1tiJiU?=
+ =?utf-8?q?8IgWYmi/NHuyLz=09_HViTWfGq1tAZGEgs3cB6MNur6yx4AIqAEm5lDEBaOb/dtOA?=
+ =?utf-8?q?OIYRnbu4e1TpvNgiuC/dbJ0GvDi95Il=09_x0kVkO5NI8sRcMfM3o6qWBs4t0IXqp?=
+ =?utf-8?q?dtFzWVUzC33tKP/z4xg5AaDrNGRjlbQ3+6BYv8//H3HdhnbU?=	
+ U2Qg+WEx+XL971vJF3DXoTokB7L1FgQ==
+X-HalOne-SA: 7.2
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F15=2E60778210=2E0029=2Css=3D1?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD0xLGNsZD0xLGZncz0w?=
+X-HalOne-ID: 60763f18-9d7d-11eb-bf1b-ec0d9a6ed98e
+Received: from correo3.correozimbra.cl (correo3.correozimbra.cl
+ [200.29.152.153])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 60763f18-9d7d-11eb-bf1b-ec0d9a6ed98e;	Wed, 14 Apr 2021 23:58:59 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by correo3.correozimbra.cl (Postfix) with ESMTP id 0901F2122A15;
+	Wed, 14 Apr 2021 19:35:44 -0400 (-04)
+Received: from correo3.correozimbra.cl ([127.0.0.1])
+	by localhost (correo3.correozimbra.cl [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id 8UxzxypqaJAW; Wed, 14 Apr 2021 19:35:43 -0400 (-04)
+Received: from localhost (localhost [127.0.0.1])
+	by correo3.correozimbra.cl (Postfix) with ESMTP id 9C5632122A1A;
+	Wed, 14 Apr 2021 19:35:43 -0400 (-04)
+X-Virus-Scanned: amavisd-new at correo3.correozimbra.cl
+Received: from correo3.correozimbra.cl ([127.0.0.1])
+	by localhost (correo3.correozimbra.cl [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id 3Iib9NEbySN3; Wed, 14 Apr 2021 19:35:43 -0400 (-04)
+Received: from correo3.correozimbra.cl (correo3.correozimbra.cl
+ [200.29.152.153])	by correo3.correozimbra.cl (Postfix) with ESMTP id
+ C23352122933;	Wed, 14 Apr 2021 19:35:42 -0400 (-04)
+Date: Wed, 14 Apr 2021 19:35:42 -0400 (CLT)
+From: Centro de la mujer <centrodelamujer@villalemana.cl>
+Message-ID: <2141802122.368324.1618443342694.JavaMail.zimbra@villalemana.cl>
+Subject: URGENT  LOAN Covid-19
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="=_ce7c4c8e-28bd-4065-afd6-1f39e523f442"
+X-Originating-IP: [200.29.152.153]
+X-Mailer: Zimbra 8.8.15_GA_3996 (zclient/8.8.15_GA_3996)
+Thread-Index: sQg0EKU2sX4IhyoFnKQyaB2upyIoaA==
+Thread-Topic: URGENT LOAN Covid-19
+
+--=_ce7c4c8e-28bd-4065-afd6-1f39e523f442
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+We offer loans worldwide at 3% interest rate, if interested contact us with below information.
+Email: skygroupfinance43@gmail.com
+WhatsApp/Text :
+--=_ce7c4c8e-28bd-4065-afd6-1f39e523f442
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style> body {height: 100%; color:#000000; font-size:12pt; font-family:arial, helvetica, sans-serif;}</style></head><body><div>We offer loans worldwide at 3% interest rate, if interested contact us with below information.<br>Email: skygroupfinance43@gmail.com<br>WhatsApp/Text :</div></body></html>
+--=_ce7c4c8e-28bd-4065-afd6-1f39e523f442--

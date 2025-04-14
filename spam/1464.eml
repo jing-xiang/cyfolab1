@@ -1,0 +1,74 @@
+Return-Path: <izik911@aol.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx5.public.one.com ([10.246.18.25])
+	by mail69.local.one.com (Dovecot) with LMTP id wfrfNtZd6Vkz9AEASYQN5A
+	for <johannes.olegard@cyfoexample.one.com>; Fri, 20 Oct 2017 02:28:15 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 5236f9a9-b53e-11e7-8199-b82a72d82f61
+Received: from oms-m015e.mx.aol.com (unknown [204.29.186.111])
+	by mx5.public.one.com (Halon) with ESMTPS
+	id 5236f9a9-b53e-11e7-8199-b82a72d82f61;
+	Fri, 20 Oct 2017 02:28:13 +0000 (UTC)
+Received: from omr-m020e.mx.aol.com (omr-m020.mx.aol.com [10.74.107.32])
+	(using TLSv1 with cipher ADH-AES256-SHA (256/256 bits))	(No client
+ certificate requested)	by oms-m015e.mx.aol.com (AOL Outbound OMS Interface)
+ with ESMTPS id DC6AB3802652	for <johannes.olegard@cyfoexample.one.com>; Thu,
+ 19 Oct 2017 22:27:45 -0400 (EDT)
+Received: from mtaout-mbd01.mx.aol.com (mtaout-mbd01.mx.aol.com
+ [172.26.252.13])	by omr-m020e.mx.aol.com (Outbound Mail Relay) with ESMTP id
+ C640238000BD;	Thu, 19 Oct 2017 22:27:45 -0400 (EDT)
+Received: from Unknown (176-103-73-42.interkonekt.pl [176.103.73.42])	(using
+ TLSv1.2 with cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))	(No client
+ certificate requested)	by mtaout-mbd01.mx.aol.com (MUA/Third Party Client
+ Interface) with ESMTPSA id 7EF4C38000097;	Thu, 19 Oct 2017 22:27:39 -0400
+ (EDT)
+Message-ID: <2E2B9DCEC5113FFC20256CD054C8E618@xqjw>
+From: "Amrican Express" <IZIK911@aol.com>
+Subject: New Important message, Please read.
+Date: Fri, 20 Oct 2017 02:27:33 +0000
+Organization: adfsdfs
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="----=_NextPart_000_1360_01D3494A.FCAF49B0"
+X-Priority: 1
+List-Unsubscribe:
+ <[TUnsubscribeLink,9,AE: Template ignored in non-PersonalCopy modes!]>
+x-aol-global-disposition: S
+X-SPAM-FLAG: YES
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=mx.aol.com;
+	s=20150623; t=1508466465;
+	bh=I3nzQzdVLjQfZ5RD0T6l8cymyjqyimP0JdmPokhkoio=;
+	h=From:Subject:Message-ID:Date:MIME-Version:Content-Type;
+	b=T8PCkaeZLzzpiJdZZlZx5s/YlGXffvzyX7ATvlZO8O2ZgJmR1oRaYfVVXFhmUSNPp
+	 inVSYaF6dphf9mDcCuMdXUxSqeu0sZ+N101eBrwBWsI0ZZUaEonDkAPOZ1uNMhbteB
+	 y+OhEBStz4hZHqOXDlsgpAHQVCrN1ADy1YIbJWw4=
+X-AOL-REROUTE: YES
+x-aol-sid: 3039ac1afc0d59e95f1b4e5a
+X-AOL-IP: 176.103.73.42
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_1360_01D3494A.FCAF49B0
+Content-Type: text/plain;
+	charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+
+------=_NextPart_000_1360_01D3494A.FCAF49B0
+Content-Type: text/html;
+	charset="windows-1251"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE=20HTML=20PUBLIC=20"-//W3C//DTD=20HTML=204.0=20Transitional//EN">
+<HTML><HEAD>
+<META=20content=3D"text/html;=20charset=3Dwindows-1251"=20http-equiv=3DCont=
+ent-Type>
+<META=20name=3DGENERATOR=20content=3D"MSHTML=208.00.6001.23588"></HEAD>
+<BODY=20bottomMargin=3D5=20leftMargin=3D5=20rightMargin=3D5=20topMargin=3D5=
+=20bgColor=3D#ffffff>
+<DIV=20align=3Dcenter><A=20href=3D"http://leadmat.net/images/broom.php"><IM=
+G=20border=3D0=20
+hspace=3D0=20alt=3D""=20src=3D"http://achirina.com/zara.png"></A></DIV></BO=
+DY></HTML>
+
+------=_NextPart_000_1360_01D3494A.FCAF49B0--

@@ -1,0 +1,87 @@
+Return-Path: <supports@lapromesa.com.mx>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.cst.mailpod12-cph3.one.com ([10.27.56.11])
+	by mailstorage27.cst.mailpod12-cph3.one.com with LMTP
+	id qHClLb3cnGeuQAAATK8Ghw
+	(envelope-from <supports@lapromesa.com.mx>)
+	for <johannes.olegard@cyfoexample.one.com>; Fri, 31 Jan 2025 14:22:53 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	=?utf-8?q?h=3Dcontent-transfer-encoding=3Acontent-type=3Amime-v?=
+ =?utf-8?q?ersion=3Amessage-id=3Adate=3Asubject=3A?=	
+ to:from:reply-to:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=WtCXk1ISqVUKykrS8mjmIaB7zyGZ/ohyQ2GMMyHcb94=;	=?utf-8?q?b=3DBZQ5kQiQM0PL?=
+ =?utf-8?q?boGagxQtCvcKdgqenayl3MTYUufvbYMQESYJJhIocH96mJAcrwWBH8vhDlq+Q0rcD?=
+	 =?utf-8?q?6ouWyOkxplt+AEW73/RDqW/cmU90cQ0DKH24PLYVr+dn8VzDStslF0Wj+4C6dfqG?=
+ =?utf-8?q?+1fSrWTHP/LEqK=09_c1raBt2tau91liFr1b5D/XOHajh7BxqBUeib4/3FK6iUwfN?=
+ =?utf-8?q?cO3fZPHLqGnUmBYFfEiSAEtwETuz/h0=09_Cya+2BXymtVGV8jfJydsc8Eo7VFMI0?=
+ =?utf-8?q?ZLModBhhlRSm0r3RdjRImA++2cUFNfvYQpdGnZL5P0xqsY/2?=	
+ VafJTzTytjGFHUvynjP5kcQT7VkGqUg==
+X-HalOne-SA: 4.5
+X-HalOne-RefID: 155866::1738333373-B5D184CA-C18B2318/3/8206585454
+X-HalOne-Spam-Probability: 1
+Authentication-Results: mx1.pub.mailpod12-cph3.one.com;
+	spf=pass smtp.mailfrom=lapromesa.com.mx smtp.remote-ip=208.79.218.197;
+	dmarc=pass header.from=lapromesa.com.mx;
+X-HalOne-ID: db325b1f-dfde-11ef-94e8-b07b25bf071a
+Received: from adanb517.hostpapavps.net (adanb517.hostpapavps.net
+ [208.79.218.197])	by mx1.pub.mailpod12-cph3.one.com (Halon) with ESMTPS	id
+ db325b1f-dfde-11ef-94e8-b07b25bf071a;	Fri, 31 Jan 2025 14:22:53 +0000 (UTC)
+Received: from ec2-18-184-152-150.eu-central-1.compute.amazonaws.com
+ ([18.184.152.150]:63615)	by adanb517.hostpapavps.net with esmtpsa  (TLS1.2)
+ tls TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	(Exim 4.98)	(envelope-from
+ <supports@lapromesa.com.mx>)	id 1tdrv2-0000000A9fp-2VxH	for
+ johannes.olegard@cyfoexample.one.com;	Fri, 31 Jan 2025 14:22:52 +0000
+Reply-To: csac.careintl@gmail.com
+From: Mr. Matthew Goldmann <supports@lapromesa.com.mx>
+To: johannes.olegard@cyfoexample.one.com
+Subject: =?UTF-8?B?UmU6IFdlbGZhcmUgRnVuZHMg4oKsMS41IE1pbGxpb24gRXVyb3M=?=
+Date: 31 Jan 2025 14:22:51 +0000
+Message-ID: <20250131142251.292B9A414F3E103E@lapromesa.com.mx>
+MIME-Version: 1.0
+Content-Type: text/html
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse:
+ This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - adanb517.hostpapavps.net
+X-AntiAbuse: Original Domain - cyfoexample.one.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - lapromesa.com.mx
+X-Get-Message-Sender-Via:
+ adanb517.hostpapavps.net: authenticated_id: supports@lapromesa.com.mx
+X-Authenticated-Sender: adanb517.hostpapavps.net: supports@lapromesa.com.mx
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+=EF=BB=BF<!DOCTYPE=20HTML>
+
+<HTML><HEAD>
+<META=20name=3DGENERATOR=20content=3D"MSHTML=2011.00.10570.1001"></HEAD>
+<BODY>
+<DIV=20class=3Dgmail_default=20style=3D"FONT-SIZE:=20large;=20FONT-FAMILY:=
+=20monospace"></DIV>
+<DIV=20class=3Dgmail_default=20style=3D"FONT-SIZE:=20large">
+<DIV=20class=3Dgmail_default=20style=3D"FONT-SIZE:=20large"></DIV>
+<DIV=20class=3Dgmail_default=20style=3D"FONT-SIZE:=20large"><I=20style=3D"F=
+ONT-FAMILY:=20arial,=20sans-serif"><FONT=20size=3D4>Your=20email=20address=
+=20has=20been=20randomly=20selected=20to=20receive=20a=20donation=20of=20&#=
+8364;1,500,000.00=20EUR=20&nbsp;from=20Cathedral=20Of=20Saint=20Anthony=20C=
+harity,=20an=20international=20aid=20organization=20working=20to=20eradicat=
+e=20injustice=20and=20poverty=20around=20the=20world.=20Please=20contact=20=
+the=20administration=20for=20more=20information=20on=20receiving=20this=20m=
+oney.</FONT></I></DIV>
+<DIV=20class=3Dgmail_default=20style=3D"FONT-SIZE:=20large"><SPAN=20style=
+=3D"FONT-FAMILY:=20arial,=20sans-serif"><I><FONT=20size=3D4><BR></FONT></I>=
+</SPAN></DIV>
+<DIV=20class=3Dgmail_default=20style=3D"FONT-SIZE:=20large"><SPAN=20style=
+=3D"FONT-FAMILY:=20arial,=20sans-serif"><I><FONT=20size=3D4>Part=20of=20thi=
+s=20donation=20is=20for=20you=20and=20your=20family=20and=20to=20help=20the=
+=20elderly=20in=20your=20community.<BR>&nbsp;<BR>NOTE:=20Please=20make=20su=
+re=20your=20reply=20goes=20to:<SPAN>&nbsp;</SPAN><A=20style=3D"COLOR:=20rgb=
+(17,85,204)"=20target=3D_blank>csac.careintl@gmail.com</A><SPAN>=20</SPAN>o=
+therwise=20we=20will=20not=20be=20able=20to=20send=20you=20the=20necessary=
+=20documents=20for=20you=20to=20claim=20this=20donation.<BR>&nbsp;<BR>Best=
+=20regards,<BR>
+Matthew=20Goldmann<BR>Cathedral=20Of=20Saint=20Anthony=20Charity</FONT></I>=
+</SPAN>=20</DIV></DIV></BODY></HTML>

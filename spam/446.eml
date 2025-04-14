@@ -1,0 +1,59 @@
+Return-Path: <achille.dipietro@comune.ortadiatella.ce.it>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id 2FXLAawJxGRLPgAAtf5whQ
+	(envelope-from <achille.dipietro@comune.ortadiatella.ce.it>)
+	for <johannes.olegard@cyfoexample.one.com>; Fri, 28 Jul 2023 18:32:12 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	h=to:date:message-id:subject:mime-version:content-type:	
+ content-transfer-encoding:from:x-halone-refid:x-halone-sa:from:x-halone-sa:	
+ x-halone-refid;	bh=uZ8zgXpstx460R+T/4fuVQQbddAgAgxm6llhEjSQxxw=;	
+ =?utf-8?q?b=3DIJ1EoQGOJpsUeWtiHgWgewD7nbBlzTeGRZhvqqFNJFWAXYtm7x5cr5OhpfFUW?=
+ =?utf-8?q?/oRLOtlM0FsJsXmn=09_F4zz5UuAX3ruCiRNPrMzH6kc4LAXsvu7M0asRe/3jro9N?=
+ =?utf-8?q?b7mLpUO58wAUQaCRUZMDbFyIJPeQEpsOn=09_wInTs555SdVYkGfiSTRWM0HLiIKp?=
+ =?utf-8?q?+MuBm7hnkoIdbZ1sfB24fgHHPHCL8Kk0yveeXxK9VficTvpJ2u=09_CdVIDjdO6GU?=
+ =?utf-8?q?RxRdxMFQFRxB6zbZdZ+M6gseEHePDT/qowIJ04+SiphN/dRrDH1EoAzidAO56MCib?=
+ =?utf-8?q?uj?=	 /BiUZVoa8W1Fl8v7Y7icZYmUqTCwQFg==
+X-HalOne-SA: 6.5
+X-HalOne-RefID: 155866::1690569131-9B34EFEF-3212CC3D/19/7851432584
+Authentication-Results: mx2.pub.mailpod3-cph3.one.com;
+	spf=pass smtp.mailfrom=comune.ortadiatella.ce.it smtp.remote-ip=156.54.83.42;
+	dmarc=none header.from=comune.ortadiatella.ce.it;
+X-HalOne-ID: 107b5449-2d75-11ee-b86b-ec0d9a6ed98e
+Received: from server9.unlimitedsoftware.it (server9.unlimitedsoftware.it
+ [156.54.83.42])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 107b5449-2d75-11ee-b86b-ec0d9a6ed98e;	Fri, 28 Jul 2023 18:32:11 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])	by
+ server9.unlimitedsoftware.it (Postfix) with ESMTP id 058239F26F5	for
+ <johannes.olegard@cyfoexample.one.com>; Fri, 28 Jul 2023 19:27:21 +0200
+ (CEST)
+Received: from server9.unlimitedsoftware.it ([127.0.0.1])	by localhost
+ (server9.unlimitedsoftware.it [127.0.0.1]) (amavisd-new, port 10032)	with
+ ESMTP id k19jv57kCMyu for <johannes.olegard@cyfoexample.one.com>;	Fri, 28 Jul
+ 2023 19:27:20 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])	by
+ server9.unlimitedsoftware.it (Postfix) with ESMTP id 853F1EC88B5	for
+ <johannes.olegard@cyfoexample.one.com>; Fri, 28 Jul 2023 18:56:41 +0200
+ (CEST)
+X-Virus-Scanned: amavisd-new at server9.unlimitedsoftware.it
+Received: from server9.unlimitedsoftware.it ([127.0.0.1])	by localhost
+ (server9.unlimitedsoftware.it [127.0.0.1]) (amavisd-new, port 10026)	with
+ ESMTP id xee4BW4-tbzO for <johannes.olegard@cyfoexample.one.com>;	Fri, 28 Jul
+ 2023 18:56:41 +0200 (CEST)
+Received: from mx-mail.outlook.com (c129-196.icpnet.pl [85.221.129.196])	by
+ server9.unlimitedsoftware.it (Postfix) with ESMTPSA id 022CE8A10A7	for
+ <johannes.olegard@cyfoexample.one.com>; Fri, 28 Jul 2023 18:36:01 +0200
+ (CEST)
+From: achille.dipietro@comune.ortadiatella.ce.it
+Content-Transfer-Encoding: base64
+Content-Type: text/plain; charset=UTF-8
+Mime-Version: 1.0 (1.0)
+Subject: Participate in Airdrops as a Team - Great Potential!
+Message-Id: <8C8EF067-FE6F-A81F-AF54-6CCA9BA52572@comune.ortadiatella.ce.it>
+Date: Fri, 28 Jul 2023 09:36:03 -0700
+To: johannes.olegard@cyfoexample.one.com
+X-Mailer: iPhone Mail (13E238)
+
+77u/SGkgLA0KDQpJIGhhdmUgY29tZSB1cCB3aXRoIGFuIGlkZWEgdGhhdCBjb3VsZCBoZWxwIHVzIGFsbCBxdWFsaWZ5IGZvciBhIHNpZ25pZmljYW50IG51bWJlciBvZiBNIHRva2VucyB0aHJvdWdoIGFpcmRyb3BzLg0KDQpUaGUgcGxhbiBpcyBzdHJhaWdodGZvcndhcmQ6IHdlIGNhbiBhY2hpZXZlIGEgaGlnaGVyIGxpa2VsaWhvb2Qgb2YgYmVpbmcgZWxpZ2libGUgZm9yIGFpcmRyb3BzIGJ5IGNvbGxhYm9yYXRpbmcgYXMgYSBncm91cCBhbmQgY29tYmluaW5nIG91ciBhc3NldHMuIFNvbWUgYWlyZHJvcHMgaGF2ZSBzcGVjaWZpYyBjcml0ZXJpYSwgbGlrZSBob2xkaW5nIGEgbWluaW11bSBhbW91bnQgb2YgYSBzcGVjaWZpYyBjcnlwdG9jdXJyZW5jeS4gQXMgYSBncm91cCwgd2UgY2FuIGNvbWJpbmUgb3VyIGhvbGRpbmdzIGFuZCBmdWxmaWxsIHRoZXNlIGNvbmRpdGlvbnMgbW9yZSBlZmZvcnRsZXNzbHkuDQoNCkhlcmUncyBob3cgd2UnbGwgZG8gaXQ6IElmIHlvdSBiZWxpZXZlIHlvdSBxdWFsaWZ5IGZvciBhbiBhaXJkcm9wLCBwbGVhc2Ugc2VuZCBtZSBhbiBlbWFpbCwgYW5kIEknbGwgYWRkIHlvdSB0byBvdXIgV2hhdHNBcHAgZ3JvdXAuIEJ5IGFjdGluZyB0b2dldGhlciwgd2UgY2FuIGdyYWIgdGhpcyBjaGFuY2UgYW5kIHBvdGVudGlhbGx5IHNlY3VyZSBhIHN1YnN0YW50aWFsIG51bWJlciBvZiB0b2tlbnMuDQoNClNvcnJ5IGZvciByZWFjaGluZyBvdXQgb3V0IG9mIHRoZSBibHVlLCBidXQgSSBzaW5jZXJlbHkgYmVsaWV2ZSB0aGF0IHRoaXMgaXMgYW4gY2hhbmNlIHdlIHNob3VsZG4ndCBwYXNzIHVwLiBMZXQncyBqb2luIGZvcmNlcyBhbmQgbWFrZSB0aGUgbW9zdCBvZiBpdCENCg0KTG9va2luZyBmb3J3YXJkIHRvIGhlYXJpbmcgZnJvbSB5b3UuDQoNClAuUy4NCmNoZWNrIHlvdXIgZWxpZ2liaWxpdHkgdGhlcmUoIGdvb2dsZSBsaW5rKSBvciBqdXN0IGdvb2dsZSB5b3Vyc2VsZjoNCg0KaHR0cDovL2dvLm9uZWxpbmsubWUvMzAwMTU2MDc3OD9waWQ9U29jaWFsX0ZhY2Vib29rJmM9UGxheV9HYW1lX0FjdGlvbiZhZl9kcD1tZWdhd2luc2xvdHM6Ly9jb3Vwb25zLzQzNDIyMjFlLTVkZTYtNDU0ZC05MTZlLTQ1MjA3MTQ3OWMxMCZhZl93ZWJfZHA9aHR0cHMlM0ElMkYlMkZjYWx6YW1vcy5jb20lMkZhaXJkcm9wc2NoZWNrZXIucGhwDQo=

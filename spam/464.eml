@@ -1,0 +1,183 @@
+Return-Path: <info@super-ogrodzenia.pl>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id MBIkHCvlIWQZCQAAtf5whQ
+	(envelope-from <info@super-ogrodzenia.pl>)
+	for <johannes.olegard@cyfoexample.one.com>; Mon, 27 Mar 2023 18:49:15 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=mime-version:content-type:subject:from:to:message-id:sender:date:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=qqLEOBsMcxQixd4tdEbu7xKhp6U8zWyOeGwOdDwZLmE=;	=?utf-8?q?b=3D1/AbU75SvJDs?=
+ =?utf-8?q?wYiQqvkywahQB7uYWRAtOnCt70mY2dlISi+UbFJIg1ZWX1+d9WiSCXaSeixt8Pu22?=
+	 =?utf-8?q?hzkvM4GSeOL2l6qes6/bMobHlBCpU9mIHuPu3mmPq609TS9U4pPCwDwdkfonTo3n?=
+ =?utf-8?q?t85zki6ImbANIc=09_JUrppPPNc/7iCQzHWf9Zfifm89CEiKSskX975p7SP9/Z19c?=
+ =?utf-8?q?bdPWipgAvwrCBTXuET553NpoBOc6YBS=09_khHhqmmxTbDS8pdQ1aGR/u692TAf3m?=
+ =?utf-8?q?vvk0xc4Vt6JLXONlUhFRw+tPD05h5uMit+m2L21n9r5eSi1B?=	
+ fU8QHxMXru/4A9FrWi+GVGF6OL92r9w==
+X-HalOne-SA: 9.9
+X-HalOne-RefID: 155866::1679942954-C55205B5-BE1F94DB/10/48956706233
+X-HalOne-ID: 11bcb3d9-ccd0-11ed-a299-e0d848974e01
+Received: from comandamistos.shop (ip-22-97-150-103.btn-1.biznetg.io
+ [103.150.97.22])	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTP	id
+ 11bcb3d9-ccd0-11ed-a299-e0d848974e01;	Mon, 27 Mar 2023 18:49:14 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=smtp; d=oracle.com;
+ h=Date:Sender:Message-Id:To:From:Subject:Content-Type:Mime-Version;
+ i=contact@oracle.com; bh=KrNNEaeQ2J6DJ3YKW39S02Ntlcw=; =?utf-8?q?b=3DSeVCbi?=
+ =?utf-8?q?Cd3po0QFhDHkRHQP++JZ4xOXnyTNRudp41fJ9SQU6PPnVH2J3uF2jbvfuQ5nFDQqv?=
+ =?utf-8?q?ivVIO?=  
+ k9fugc9VJusM57AA8ZdeEHFgZBz3QTrsrAFQ02F3OYiG7JHnGeYlyNrUZ9XllpNqIrbmQkmvShxI
+   ZB40r0o3SePZPgfrX4M=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=smtp; d=oracle.com; 
+ =?utf-8?q?b=3DdT83j0WXxc8Uvj30fEsT7drms23geGD5O0HfX1x6lbNmB0uDL1HpuNtEEm4et?=
+ =?utf-8?q?50E7z1T/kF1XdAg?=  
+ uSqB8sBF9EQljjdCVTiiEncbAZxZ+QvKSYNB1rG+3Q8KoVuEc34euRjc9gHJU0eeQvE25GwnT1cR
+   RTWzDWAs7yHJH3UcRCM=;
+Date: Mon, 27 Mar 2023 16:33:41 +0000
+Sender: contact@oracle.com
+Message-Id: <898125053915100.2.SBR3647234311@comandamistos.shop>
+To: johannes.olegard@cyfoexample.one.com
+From: Men's ED Health <info@super-ogrodzenia.pl>
+Subject:
+ johannes.olegard 60 Seconds Ritual Unlocks The True Size Of Your Manhood
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_73819751"
+Mime-Version: 1.0
+
+--_----------=_MCPart_73819751
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BFReduce=20your=20labour=20costs=20&=20reduce=20wastage!=C2=A0
+
+Try=20Before=20You=20Buy...FREE=205L=20Durashield
+Roof=20Coating=20-=20Sample=20On=20Us!
+*Available=20until=20the=20end=20of=20November*
+NEXT=20DAY=20DELIVERY=20INCLUDED
+
+
+**=20Durashield=2015kg=20-=20From=20=C2=A360.00=20Ex=20VAT
+------------------------------------------------------------
+
+=E2=80=A2=2010=20Year=20Performance
+=E2=80=A2=20No=20Primer=20Needed
+=E2=80=A2=20No=20Wastage
+=E2=80=A2=20Single=20Pack=20Coating
+
+(Available=20in=203=20Colour's=20and=20Multiple=20Pack=20Size's)
+Claim=20Your=20Free=20Sample=20NOW=20(mailto:sales@britanniapaints.co.uk?su=
+bject=3DAquashield%20Inquiry%20)
+
+
+**=20Britannia=20Paints=20Limited
+Unit=207/8=20King=20Street=20Trading=20Estate
+Middlewich
+Cheshire
+CW10=209LF
+T:=20+44=20(0)=201606=20834015
+E:=20sales@britanniapaints.co.uk
+W:=20www.britanniapaints.co.uk
+------------------------------------------------------------
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+**=20Facebook=20(http://www.facebook.com)
+**=20Twitter=20(http://www.twitter.com/)
+**=20Link=20(http://www.instagram.com/)
+**=20Website=20(http://mailchimp.com)
+
+This=20email=20was=20sent=20to=20adamson-roofing@ntlworld.com=20(mailto:ada=
+mson-roofing@ntlworld.com)
+why=20did=20I=20get=20this?=20(https://polarcoatings.us3.list-manage.com/ab=
+out?u=3Dfb03f918d612f7084701db8a0&id=3D2c1a563cbf&e=3Deb8c6cd694&c=3De5b7e9=
+1bc4)=20=20=20=20=20unsubscribe=20from=20this=20list=20(https://polarcoatin=
+gs.us3.list-manage.com/unsubscribe?u=3Dfb03f918d612f7084701db8a0&id=3D2c1a5=
+63cbf&e=3Deb8c6cd694&c=3De5b7e91bc4)=20=20=20=20=20update=20subscription=20=
+preferences=20(https://polarcoatings.us3.list-manage.com/profile?u=3Dfb03f9=
+18d612f7084701db8a0&id=3D2c1a563cbf&e=3Deb8c6cd694)
+Polar=20Specialist=20Coatings=20.=2018-22=20Lloyds=20house=20.=20Lloyds=20s=
+treet=20.=20Manchester,=20Lancashire=20M2=205WA=20.=20United=20Kingdom
+
+Email=20Marketing=20Powered=20by=20Mailchimp
+http://www.mailchimp.com/monkey-rewards/?utm_source=3Dfreemium_newsletter&u=
+tm_medium=3Demail&utm_campaign=3Dmonkey_rewards&aid=3Dfb03f918d612f7084701d=
+b8a0&afl=3D1
+
+
+--_----------=_MCPart_73819751
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+
+<html>
+
+<head>
+    <title>LiberatorX2</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+    <base href="/">
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat+Alternates:wght@500&family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body bgcolor="#b9b9b9" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+    <table width="100%" border="0" cellpadding="20" style="width: 100%;">
+        <tr>
+            <td width="100%" style="width: 100%;" align="center">
+
+                <table bgcolor="#fff" width="700" border="0">
+                    <tr>
+                        <td>
+
+                            <!-- start -->
+                            <table width="700" border="0" cellpadding="0" style="padding-bottom: 20px;">
+
+																<tr>
+                                    <td valign="middle" align="center" style="font-family: sans-serif; text-align: center; font-size: 14px; padding: 0px; margin: 0; padding-top: 40px;">
+																				<br>
+                                        <p>Australian scientists have recently published a groundbreaking article where they show</p>
+																				<p>the real cause of why your manhood is not big enough.</p>
+																				<p>It has nothing to do with age or the fact that God made you this way…</p>
+																				<p>In fact, the answer is so shocking, once you understand how this works, you will join over</p>
+																				<p>32,000 men who unlocked the secret for explosive growth.</p>
+																				<p><a href="https://norggfrt.s3.eu-west-3.amazonaws.com/allintttaubtcpppkjgjktgjhgatt.html"><img src="https://leaadpersons.com/a/LiberatorX2_3.png" alt=""></a></p>
+																				<p>For a short period of time, you can find it here…</p>
+																				<p>It takes just a few seconds a day and it's all natural, 0% invasive.</p>
+																				<p>There is just one thing left to mention.</p>
+																				<p>You need to hurry, because according to the same study, for some men it might already be too late.</p>
+																				<p>So just take a look and <a href="https://norggfrt.s3.eu-west-3.amazonaws.com/allintttaubtcpppkjgjktgjhgatt.html">see if you qualify for this.</a></p>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <table width="700" border="0" cellpadding="0">
+                                <tr align="center">
+                                    <td>
+                                        <hr>
+                                        <p style=" padding: 0px 20px; font-size: 10px;font-family: monospace; width: 500px; text-align: center;">
+                                            we hope you enjoy receiving this message. However, if you'd rather not receive future emails. please opt-out
+                                            <a href="https://norggfrt.s3.eu-west-3.amazonaws.com/allintttaubtcpppkjgjktdddfdfdfhgatt.html" style="border: none; outline: none; text-decoration: none; display: inline-block; color: rgb(43, 104, 236); padding: 0px; margin: 0;">here</a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+
+                            <!-- end -->
+
+                        </td>
+                    </tr>
+                </table>
+
+            </td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
+
+--_----------=_MCPart_73819751--
+

@@ -1,0 +1,129 @@
+Received: from EBOX-PROD-SRV14.win.su.se (2001:6b0:5:1162:10ee:1df:f550:9b8d)
+ by EBOX-PROD-SRV16.win.su.se (2001:6b0:5:1162:2dba:d47b:bfc3:be04) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.35 via Mailbox
+ Transport; Thu, 8 Feb 2024 12:16:32 +0100
+Received: from EBOX-PROD-SRV19.win.su.se (2001:6b0:5:1462:c4be:5edf:3301:2c74)
+ by EBOX-PROD-SRV14.win.su.se (2001:6b0:5:1162:10ee:1df:f550:9b8d) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.35; Thu, 8 Feb
+ 2024 12:16:32 +0100
+Received: from mail-prod-route09.it.su.se (130.237.200.210) by
+ EBOX-PROD-SRV19.win.su.se (130.237.162.203) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.35 via Frontend Transport; Thu, 8 Feb 2024 12:16:32 +0100
+Received: from mailfilter-ng-1.sunet.se (mailfilter-ng-1.sunet.se
+ [192.36.171.207])	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256
+ (128/128 bits))	(No client certificate requested)	by
+ mail-prod-route09.it.su.se (Postfix) with ESMTPS id 4TVvZ773V9zHl	for
+ <johannes.olegard@dsv.su.se>; Thu,  8 Feb 2024 12:16:31 +0100 (CET)
+Received: from webmail.look.ca (webmail.look.ca [208.65.246.140])
+	by mailfilter-ng-1.sunet.se (Halon) with ESMTPS
+	id 8228fdd8-c673-11ee-97e6-0050569a42e2;
+	Thu, 08 Feb 2024 11:16:31 +0000 (UTC)
+Received: from mx4.look.ca (localhost [127.0.0.1])
+	by webmail.look.ca (Postfix) with ESMTP id B8A58328277;
+	Thu,  8 Feb 2024 05:57:19 -0500 (EST)
+Received: from webmail.look.ca ([127.0.0.1])
+	by mx4.look.ca (mx4.look.ca [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id 3083kV87nlmm; Thu,  8 Feb 2024 05:57:18 -0500 (EST)
+Received: by webmail.look.ca (Postfix, from userid 33)
+	id 0EDAB328271; Thu,  8 Feb 2024 05:57:18 -0500 (EST)
+Received: from 194.37.96.69
+        (user cottamkj@look.ca)
+        by webmail.look.ca with HTTP;
+        Thu, 8 Feb 2024 05:57:18 -0500 (EST)
+From: Nicolas Traissac <cottamkj@look.ca>
+Subject: Policy number: B61109412
+Thread-Topic: Policy number: B61109412
+Thread-Index: AQHaWoBF2EwJGsdoJEm7SVbVFnLBMQ==
+Date: Thu, 8 Feb 2024 11:57:18 +0100
+Message-ID: <79af7cfcbc199a2771e4374cfdd137dc@webmail.look.ca>
+Reply-To: "traissacn@gmail.com" <traissacn@gmail.com>
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EBOX-PROD-SRV19.win.su.se
+X-MS-Has-Attach: 
+X-MS-Exchange-Organization-Network-Message-Id:
+ 314a8e53-5cc4-43c2-7415-08dc2897676c
+X-MS-TNEF-Correlator: 
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-halon-sa-rules: =?utf-8?q?FREEMAIL=5FFORGED=5FREPLYTO=3A2=2E503=2CMISSING?=
+ =?utf-8?b?X0hFQURFUlM6MS4yMDcsUkVQTFlUT19XSVRIT1VUX1RPX0NDOjEuOTQ2LFNQRl9I?=
+ =?utf-8?b?RUxPX05PTkU6MC4wMDEsU1BGX1BBU1M6LTAuMDAxLFRfU0NDX0JPRFlfVEVYVF9M?=
+ =?utf-8?q?INE=3A-0=2E01?=
+x-halon-sa-score: 5.6
+x-halon-rpd-refid: 155819::1707390991-4B2B2EC2-544ABDA5/19/8013458523
+x-halon-rpd-score: 0
+authentication-results: mailfilter-ng-1.sunet.se;	spf=pass
+ smtp.mailfrom=look.ca smtp.remote-ip=208.65.246.140;	dmarc=pass
+ header.from=look.ca;
+x-halon-id: 8228fdd8-c673-11ee-97e6-0050569a42e2
+x-ms-exchange-transport-endtoendlatency: 00:00:00.1916075
+x-ms-exchange-processed-by-bccfoldering: 15.01.2507.035
+user-agent: Look WebMail
+Content-Type: multipart/alternative;
+	boundary="_000_79af7cfcbc199a2771e4374cfdd137dcwebmaillookca_"
+MIME-Version: 1.0
+
+--_000_79af7cfcbc199a2771e4374cfdd137dcwebmaillookca_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-ID: <2671C300DF3D77449E0392D7B09B5723@win.su.se>
+Content-Transfer-Encoding: quoted-printable
+
+
+
+
+Greetings,
+
+Kindly=20reach=20out=20to=20me=20regarding=20the=20unclaimed=20portfolio,=
+=20with=20policy
+number=20B61109412.since=20monies=20belonging=20to=20our=20deceased=20inves=
+tor=20are
+registered=20under=20your=20surname.
+
+If=20you=20would=20like=20to=20obtain=20additional=20information,=20kindly=
+=20contact=20me=20by
+email=20at=20<traissacn@gmail.com>
+
+I=20greatly=20appreciate=20your=20assistance.
+
+Regards,
+Nicolas=20Traissac
+
+--_000_79af7cfcbc199a2771e4374cfdd137dcwebmaillookca_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html><head><meta=20http-equiv=3D"Content-Type"=20content=3D"text/html;=20c=
+harset=3Diso-8859-1">
+<meta=20name=3D"Generator"=20content=3D"Microsoft=20Exchange=20Server">
+<!--=20converted=20from=20text=20-->
+<style><!--=20.EmailQuote=20{=20margin-left:=201pt;=20padding-left:=204pt;=
+=20border-left:=20#800000=202px=20solid;=20}=20--></style></head>
+<body>
+<font=20size=3D"2"><span=20style=3D"font-size:10pt;"><div=20class=3D"PlainT=
+ext"><br>
+<br>
+<br>
+Greetings,<br>
+<br>
+Kindly=20reach=20out=20to=20me=20regarding=20the=20unclaimed=20portfolio,=
+=20with=20policy<br>
+number=20B61109412.since=20monies=20belonging=20to=20our=20deceased=20inves=
+tor=20are<br>
+registered=20under=20your=20surname.<br>
+<br>
+If=20you=20would=20like=20to=20obtain=20additional=20information,=20kindly=
+=20contact=20me=20by<br>
+email=20at=20&lt;traissacn@gmail.com&gt;<br>
+<br>
+I=20greatly=20appreciate=20your=20assistance.<br>
+<br>
+Regards,<br>
+Nicolas=20Traissac<br>
+</div></span></font>
+</body>
+</html>
+
+--_000_79af7cfcbc199a2771e4374cfdd137dcwebmaillookca_--

@@ -1,0 +1,86 @@
+Return-Path: <support@yosoyhiphopmusic.com.co>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.cst.mailpod12-cph3.one.com ([10.27.56.13])
+	by mailstorage27.cst.mailpod12-cph3.one.com with LMTP
+	id kMsYDi7YZGWeZwAATK8Ghw
+	(envelope-from <support@yosoyhiphopmusic.com.co>)
+	for <johannes.olegard@cyfoexample.one.com>; Mon, 27 Nov 2023 17:55:58 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:mime-version:message-id:reply-to:from:date:subject:to:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=1h3ZWphVEOrSFdswEk+0X83QXUsy3Xut0JQKjGGtKQs=;	=?utf-8?q?b=3Dw6u/f319nkIe?=
+ =?utf-8?q?LgSz85A+7Zcdt7QFM/7CIpS9Hap/28KlzQ+Nxo9ueZcNqVLZ5l0ybp2scsethH4Td?=
+	 =?utf-8?q?IHCmhEs8SprEgqJz0LZ2g+DqZJHFDPTAlicXt36ogpiyotE2du/yI+oskGQA68QB?=
+ =?utf-8?q?diCZH/GybPpgpU=09_k+fBXFdd7+/DkoMbEVCua1jfAvyLjfB5+vY0rb5XnzQNidW?=
+ =?utf-8?q?H2CkEY0hAFK8UIod2fohSp+3Psl6bws=09_NtfQIM+ZFQ2eLNoQQZTWE7LfwP3kP0?=
+ =?utf-8?q?IPytCUgKd8fs6e8tiAQFt2v+br5YX1CnKPCXRL4jQ9qJ2enW?=	
+ spNOt+KlH6vYIcDx5OetHjAEDCQ7itA==
+X-HalOne-SA: 6
+X-HalOne-RefID: 155866::1701107606-BBA0E461-41D6CF8B/0/0
+Authentication-Results: mx3.pub.mailpod12-cph3.one.com;	spf=pass
+ smtp.mailfrom=yosoyhiphopmusic.com.co smtp.remote-ip=144.126.157.83;
+	dkim=pass header.d=yosoyhiphopmusic.com.co header.s=default
+ header.a=rsa-sha256 header.b=s6Muwu8b;	dmarc=none
+ header.from=yosoyhiphopmusic.com.co;
+X-HalOne-ID: dcf3292e-8d4d-11ee-86d6-b07b25bf531a
+Received: from vmi1345502.contaboserver.net (vmi1345502.contaboserver.net
+ [144.126.157.83])	by mx3.pub.mailpod12-cph3.one.com (Halon) with ESMTPS	id
+ dcf3292e-8d4d-11ee-86d6-b07b25bf531a;	Mon, 27 Nov 2023 17:53:26 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=yosoyhiphopmusic.com.co; s=default; h=Content-Type:MIME-Version:Message-ID:
+	Reply-To:From:Date:Subject:To:Sender:Cc:Content-Transfer-Encoding:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=1h3ZWphVEOrSFdswEk+0X83QXUsy3Xut0JQKjGGtKQs=; b=s6Muwu8bKyzLc0nWQSFJWw+DEQ
+	uxyU2qoMCULLzLutBfEclKromi0Fn2/zKZgw/Ei7Iq8+1eaYFodkFwsTnVcFHylKVKouLYNIOav6t
+	WjfbT9dXDUEHc/DI80a5v2ceRbYiyMK1mhW+LZXjOTgRCSR+9KVqWBH599/RaL6XQqeQQzc+8wUNo
+	WSy/j+CFUDH7R3cVktezdv+SSj1P07+oBjlsHlgPD78anzQeUTmuZCrFsKkSs2KLI+NDG/wr8Lq5Z
+	+j8ioalNeQH1XRf56hUloXe9w8BrPrwe0k/tKv/FgjjduOpqlwLHSnWTHFoYIDm1cZ44LBuTlyC1D
+	M0xb2H+A==;
+Received: from yosoyhiphopmusic by cloud.hazteunsitio.net with local (Exim
+ 4.96)	(envelope-from <support@yosoyhiphopmusic.com.co>)	id 1r7fpq-003WWh-18
+	for johannes.olegard@cyfoexample.one.com;	Mon, 27 Nov 2023 11:55:54 -0600
+To: johannes.olegard@cyfoexample.one.com
+Subject: CONFIRM YOUR INTEREST
+X-PHP-Script: www.yosoyhiphopmusic.com.co/jetjndnu.php for 156.146.35.22
+X-PHP-Originating-Script: 1009:jetjndnu.php
+Date: Mon, 27 Nov 2023 17:55:54 +0000
+From: Ryan <support@yosoyhiphopmusic.com.co>
+Reply-To: bg.sblc2020@gmail.com
+Message-ID: <9cd61754c5010d12ae3aeb9321c88aa4@www.yosoyhiphopmusic.com.co>
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+X-AntiAbuse:
+ This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - cloud.hazteunsitio.net
+X-AntiAbuse: Original Domain - cyfoexample.one.com
+X-AntiAbuse: Originator/Caller UID/GID - [1009 979] / [47 12]
+X-AntiAbuse: Sender Address Domain - yosoyhiphopmusic.com.co
+X-Get-Message-Sender-Via:
+ cloud.hazteunsitio.net: authenticated_id: yosoyhiphopmusic/from_h
+X-Authenticated-Sender:
+ cloud.hazteunsitio.net: support@yosoyhiphopmusic.com.co
+X-Source: 
+X-Source-Args: lsphp:me/yosoyhiphopmusic/public_html/jetjndnu.php 
+X-Source-Dir: yosoyhiphopmusic.com.co:/public_html
+
+TAKE THIS OPPORTUNITY
+
+We facilitate cross-border loan to individuals and corporate bodies with viable projects or business expansion at the lowest interest rate of 2% APR and with a 24months grace period for repayment and interest, the loan duration can be extended to 25yrs or less, amount ranging from $10m to $1B.
+
+We also secure Bank Guarantee (BG), and Standby Letter of Credits (SBLC) from top rated banks and have a good monetization framework for any financial instrument you may require.
+Agent and consultant will earn 2% commission for introducing any client.
+
+Contact me via email: 
+
+                          rshearwaters@yahoo.co.uk
+                                         Or 
+                            bg.sblc2020@gmail.com 
+
+Ryan
+Telephone:  44 7798 533 694
+WhatsApp No:  44 7706 333255
+

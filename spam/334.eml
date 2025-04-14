@@ -1,0 +1,159 @@
+Return-Path: <test@comstar.ru>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id 0Dw5N0GkWWCqKAAAtf5whQ
+	(envelope-from <test@comstar.ru>)
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 23 Mar 2021 08:18:09 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	=?utf-8?q?h=3Dreply-to=3Adate=3Afrom=3Ato=3Asubject=3Acontent-d?=
+ =?utf-8?q?escription=3Acontent-transfer-encoding=3A?=	
+ mime-version:content-type:x-halone-refid:x-halone-sa:from:x-halone-sa:	
+ x-halone-refid;	bh=7m9VyW6/B8mbpq63imBKyEEfjq/D5Mujaw+SkOfxCOs=;	
+ =?utf-8?q?b=3DEnZmOsY+Vx42E9gIUMzn/gdVoKFEl5kfJphG4UE6lR9NtoV0OPEfb2wLhX/hG?=
+ =?utf-8?q?fPrro1RXqL8c5w9k=09_iFrvqDquJYQMW5ItGEfiZ6kFOKJU9JPBxAb46tImp/oYQ?=
+ =?utf-8?q?HaPTfOrUW1+sja8S/uzc9uQDwhzFNPsCl=09_V/izhrbF36CazEc4icBvldDnN6j8?=
+ =?utf-8?q?gu+t2111GYD/t926rMhCjMLv9k1ilJTAiAPmcyT7AxqQtedmsF=09_baJ45t9uPMx?=
+ =?utf-8?q?LeoHst52vR9/z2CoCX5geylNnFgDKl2Jpr0Q6CCQDk0W9VF/JTckSd7bhpUFLJVRY?=
+ =?utf-8?q?L7?=	 qlFqQCGAQ07pNGrfOGiMdVxj9kFTvPw==
+X-HalOne-SA: 15
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F16=2E6059A440=2E0045=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz0w?=
+X-HalOne-ID: 4049d245-8bb0-11eb-bf1b-ec0d9a6ed98e
+Received: from mx-01.smtps.eu (mx-01.smtps.eu [135.181.88.45])
+	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 4049d245-8bb0-11eb-bf1b-ec0d9a6ed98e;
+	Tue, 23 Mar 2021 08:17:48 +0000 (UTC)
+Received: from [165.231.143.188] (unknown [192.168.234.174])
+	by mx-01.smtps.eu (Postfix) with ESMTP id 5E3CE2011B6;
+	Tue, 23 Mar 2021 07:38:41 +0000 (UTC)
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: IMPORTANT EMAIL.........22th..
+To: Recipients <test@comstar.ru>
+From: "Jake Harrison"<test@comstar.ru>
+Date: Tue, 23 Mar 2021 00:38:38 -0700
+Reply-To: info_jake@daum.net  
+X-Rspamd-Queue-Id: 5E3CE2011B6
+X-Rspamd-Server: rspamd-deployment-r2jc9
+X-Spamd-Result: default: False [23.49 / 150.00];	
+ HAS_REPLYTO(0.00)[info_jake@daum.net];	 RDNS_NONE(1.00)[];	
+ R_SPF_SOFTFAIL(0.00)[~all:c];	 TO_DN_RECIPIENTS(2.00)[];	 TO_DN_ALL(0.00)[];
+	 MX_GOOD(-0.01)[];	 RCVD_COUNT_ZERO(0.00)[0];	 FROM_EQ_ENVFROM(0.00)[];	
+ R_DKIM_NA(0.00)[];	 MIME_TRACE(0.00)[0:+];	 TO_EQ_FROM(0.00)[];	
+ INTRODUCTION(2.00)[];	 =?utf-8?q?FORGED=5FRECIPIENTS=282=2E00=29=5Bm=3Atest?=
+ =?utf-8?q?=40comstar=2Eru=2Cs=3Ahoangtuevo=40gmail=2Ecom=2Cs=3Aregalianesto?=
+ =?utf-8?b?ckB5YWhvby5jb20udm4sczpzYW50b3MucmljY2lAeWFob28uY29tLHM6cHJp?=
+ =?utf-8?q?ma86=40gmail=2Ecom=2Cs=3Aedwis445=40gmail=2Ecom=2Cs=3Amiss=2Eapri?=
+ =?utf-8?b?bF8xQHlhaG9vLmNvbSxzOnNha3VyYW5hdHN1bWVfMTNAeWFob28uY29tLHM6?=
+ =?utf-8?q?abbyish=40gmail=2Ecom=2Cs=3Aosionide=40hotmail=2Ecom=2Cs=3Ajohann?=
+ =?utf-8?q?es=2Eolegard=40cyfoexample=2Eone=2Ecom=2Cs=3Ampasinio=40yahoo=2Ec?=
+ =?utf-8?q?om=2Cs=3Afauziahfitriagnia=40gmail=2Ecom=2Cs=3Apbiggie=40hotmail?=
+ =?utf-8?b?LmNvbSxzOnNoaW5kZXBvQGdtYWlsLmNvbSxzOmpva29zZXJAeW1haWwuY29tLHM6?=
+ =?utf-8?q?rheza=2Emae=2Eg=2Emamades=40ph=2Eey=2Ecom=2Cs=3Aheguile=40gmail?=
+ =?utf-8?b?LmNvbSxzOmtheV9yZXlhaEB5YWhvby5jb20sczpHaWEwOUBtYWlsLnJ1LHM6cXdl?=
+ =?utf-8?q?3=40yopmail=2Ecom=5D=3B?=	 ARC_NA(0.00)[];	 ONCE_RECEIVED(0.10)[];
+	 DISPOSABLE_ENVRCPT(0.00)[yopmail.com];	 FROM_HAS_DN(0.00)[];	 =?utf-8?q?FR?=
+ =?utf-8?b?RUVNQUlMX0VOVlJDUFQoMC4wMClbZ21haWwuY29tLHlhaG9vLmNvbS52bix5?=
+ =?utf-8?q?ahoo=2Ecom=2Chotmail=2Ecom=2Cymail=2Ecom=2Cmail=2Eru=5D=3B?=	
+ TAGGED_RCPT(0.00)[];	 REPLYTO_DOM_NEQ_FROM_DOM(0.00)[];	
+ DMARC_NA(0.00)[comstar.ru];	 MIME_GOOD(-0.10)[text/plain];	
+ RCPT_COUNT_ONE(0.00)[1];	 MISSING_MID(2.50)[];	 VIOLATED_DIRECT_SPF(3.50)[];
+	 ONCE_RECEIVED_STRICT(4.00)[];	 HFILTER_HELO_BAREIP(3.00)[165.231.143.188,1];
+	 R_NO_SPACE_IN_FROM(1.00)[];	 HFILTER_HOSTNAME_UNKNOWN(2.50)[]
+
+Mr.Jake=20Harrison
+Head=20Officer-in-Charge
+Administrative=20Service=20Inspection=20Unit
+Hartsfield-Jackson=20International=20Airport
+Atlanta,=20Georgia.USA
+
+I=20am=20Mr.Jake=20Harrison,=20Head=20Officer-in-Charge,=20Administrative=
+=20Service
+Inspection=20Unit=20United=20Nations=20Inspection=20Agency=20in=20Hartsfiel=
+d-Jackson
+International=20Airport=20Atlanta,=20Georgia.=20During=20our=20investigatio=
+n,=20I
+discovered=20an=20abandoned=20shipment=20through=20a=20Diplomat=20from=20Un=
+ited
+Kingdom=20which=20was=20transferred=20from=20JF=20Kennedy=20Airport=20to=20=
+our=20facility
+here=20in=20Atlanta,=20and=20when=20scanned=20it=20revealed=20an=20undisclo=
+sed=20sum=20of
+money=20in=202=20Metal=20Trunk=20Boxes=20weighing=20approximately=2045Lbs=
+=20each.
+
+The=20consignment=20was=20abandoned=20because=20the=20Content=20was=20not=
+=20properly
+declared=20by=20the=20consignee=20as=20money=20rather=20it=20was=20declared=
+=20as=20personal
+effect/classified=20document=20to=20either=20avoid=20diversion=20by=20the=
+=20Shipping
+Agent=20or=20confiscation=20by=20the=20relevant=20authorities.=20The=20dipl=
+omat's
+inability=20to=20pay=20for=20Non=20Inspection=20fees=20among=20other=20thin=
+gs=20are=20the
+reason=20why=20the=20consignment=20is=20delayed=20and=20abandoned.
+
+By=20my=20assessment,=20each=20of=20the=20boxes=20contains=20about=20$4M=20=
+or=20more.They
+are=20still=20left=20in=20the=20airport=20storage=20facility=20till=20today=
+.=20The
+Consignments=20like=20I=20said=20are=20two=20metal=20trunk=20boxes=20weighi=
+ng=20about
+45Lbs=20each=20(Internal=20dimension:=20W61=20x=20H156=20x=20D73=20(cm)=20e=
+ffective
+capacity:=20110=20LBS.)=20Approximately.The=20details=20of=20the=20consignm=
+ent
+including=20your=20name=20and=20email=20on=20the=20official=20document=20fr=
+om=20United
+Nations'=20office=20in=20London=20where=20the=20shipment=20was=20tagged=20a=
+s=20personal
+effects/classified=20document=20is=20still=20available=20with=20us.=20As=20=
+it=20stands
+now,=20you=20have=20to=20reconfirm=20your=20full=20name,=20Phone=20Number,=
+=20full=20address
+so=20I=20can=20cross-check=20and=20see=20if=20it=20corresponds=20with=20the=
+=20one=20on=20the
+official=20documents.=20It=20is=20now=20left=20to=20you=20to=20decide=20if=
+=20you=20still=20need
+the=20consignment=20or=20allow=20us=20repatriate=20it=20back=20to=20UK=20(p=
+lace=20of
+origin)as=20we=20were=20instructed.
+
+As=20I=20did=20say=20again,=20the=20shipper=20abandoned=20it=20and=20ran=20=
+away=20most
+importantly=20because=20he=20gave=20a=20false=20declaration,=20he=20could=
+=20not=20pay=20for
+the=20yellow=20tag,=20he=20could=20not=20secure=20a=20valid=20non=20inspect=
+ion
+document(s),=20etc.=20I=20am=20ready=20to=20assist=20you=20in=20any=20way=
+=20I=20can=20for=20you=20to
+get=20back=20this=20packages=20provided=20you=20will=20also=20give=20me=20s=
+omething=20out=20of
+it=20(financial=20gratification).You=20can=20either=20come=20in=20person=20=
+or=20you
+engage=20the=20services=20of=20a=20secure=20shipping/delivery=20Company/age=
+nt=20that
+will=20provide=20the=20necessary=20security=20that=20is=20required=20to=20d=
+eliver=20the
+package=20to=20your=20doorstep=20or=20the=20destination=20of=20your=20choic=
+e.=20I=20need=20all
+the=20guarantee=20that=20I=20can=20get=20from=20you=20before=20I=20can=20ge=
+t=20involved=20in
+this=20project.Please=20Reply=20this=20email=20strictly=20at(rn4937410@gmai=
+l.com)
+with=20reconfirmation=20of=20your=20Full=20Name,=20Home=20Address,=20City,=
+=20State=20and
+Telephone=20number.
+
+
+Best=20Regards,
+
+Mr.=20Jake=20Harrison
+Head=20Officer-in-Charge
+Administrative=20Service=20Inspection
+Unit=20E-mail:=20=20rn4937410@gmail.com

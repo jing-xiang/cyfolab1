@@ -1,0 +1,102 @@
+Return-Path: <wadegalass@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id AFjLNkoZVGKrdAAAtf5whQ
+	(envelope-from <wadegalass@gmail.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Mon, 11 Apr 2022 12:04:26 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:subject:message-id:date:from:reply-to:mime-version:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=uOlRGWSig2PL0tLe14uAr+lKoonh+AiW3o5PV6HPyXA=;	=?utf-8?q?b=3DEtHmeZ4fZ5Gm?=
+ =?utf-8?q?Vb7B3ugW/m0Q9/V5w6PCKryum6hAaZClqu5kDRqTFy7yI4rQQT7mFjQrjpeHXKWpU?=
+	 =?utf-8?q?r13VYVyWWAoT0ZYBVROIU4tP64z69ddf/LP2PQ7cxhMKLMUFyvbHybuvkRrE+VOA?=
+ =?utf-8?q?RKujdu7Cx3xQwJ=09_kOfVe+Rp2ZsXuNIkKXxl0PvWsfcTpar/8vPmPnmGDWnhFtf?=
+ =?utf-8?q?h9UdIzlkCI5zg4823Ax/3H+S35+FaIR=09_d8DbI/u1D5ozRDhV42zLNlv980X85P?=
+ =?utf-8?q?iu/0haW7vI1NZetdX36bt+MqPXTp06fzHG3GEFLQmGUGauK+?=	
+ h6wccK4wBa6KCpNniMz+K0uCNRkBcGg==
+X-HalOne-SA: 19.6
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F1C=2E6254194A=2E0030=2Css=3D1?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxwdD1SXzg3MjE1NixjbD00?=
+ =?utf-8?q?=2Ccld=3D1=2Cfgs=3D0?=
+X-HalOne-ID: 87b36065-b98f-11ec-9749-e0d84894a001
+Received: from mail-pj1-f66.google.com (mail-pj1-f66.google.com
+ [209.85.216.66])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 87b36065-b98f-11ec-9749-e0d84894a001;	Mon, 11 Apr 2022 12:04:26 +0000 (UTC)
+Received: by mail-pj1-f66.google.com with SMTP id
+ h15-20020a17090a054f00b001cb7cd2b11dso4331841pjf.5        for
+ <johannes.olegard@cyfoexample.one.com>; Mon, 11 Apr 2022 05:04:25 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:reply-to:from:date:message-id:subject:to;
+        bh=uOlRGWSig2PL0tLe14uAr+lKoonh+AiW3o5PV6HPyXA=;
+        b=AeayKOgf74Fl9dYlp11iCqCgKHqlS6swiyijPeYCOu2ALQAJ4sr7spWXenbxoCmR0a
+         pOOdu5CXXmLZLZrvVjMggix1u12c7MHYtJ+cDcPAw8NjmP/msD8RrmtHZE09e5JyyiXr
+         kLm0EfDk9JOH1y1S3hd9bR+sR9fGT2mt7CIpuSajb0D6T/mqcCeNmFYYKbvnTgYDGCfz
+         zqu6KpWs4FWV4jTDqRC6VP0lR/W/lxJ6t+STrk+ps+oqu0C0gY4j02vkV97WCL7vfXpX
+         61T4g8gixzFhYx9OjSPJ/kynIwoVcGgBjYXxPjSYadBYtVTQ9vMzG8umJq5uzM7drXlf
+         693A==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=uOlRGWSig2PL0tLe14uAr+lKoonh+AiW3o5PV6HPyXA=;
+        b=tNYIOxZgQA/T7aDsZDxcO1Mmx9mOHGZfIp1d2N3JHb8LxIB5Gsf/BnRlD0Gvww1ye0
+         vcLMdMl5tz/eDaByIf4oFTRkyOpW682h0jRa/I37l8qoxYSU7HpHdJ4QyVS8Z+GPgVLN
+         GTEix3mR8Uc6Uvq+akl5k6fNrr8RHZDnZIT7Nv+d/JrpBunsWXnNYWzM3qJmbCDoog38
+         nfVdxS0t3d7fJ5KgDHhz13wfH8zgZCvBz2tDO52FOE/ggR7zYIOb05Xh1ZsUQiNsxurc
+         vpToYNO+zPgVXxc3nqBqm2GlKPyOKI5Wkzvic3SXJRO/6SFJC4xNYYqiIrH3nmmLaHhg
+         H+RA==
+X-Gm-Message-State: AOAM5334+Y2PG532lNvyoqnrH9ioDWZ+7ZuJYzFx+c5ZbhvPzOedVLfp
+	d8vbKIosFqviLN0ZmeZx/Aui2guMiwKaFTb0efk=
+X-Google-Smtp-Source: =?utf-8?q?ABdhPJwhYdLGa/+u2EBDFninPcjPlO9yDurcGPG3NWT6?=
+ =?utf-8?q?HLIGWIjhBC7V3VL7Iz1RfeY8a4lBdf3Ub7LwoMWdmZCEEug=3D?=
+X-Received: by 2002:a17:902:d2d1:b0:158:41fa:e9b with SMTP id
+ n17-20020a170902d2d100b0015841fa0e9bmr9297584plc.34.1649678664005; Mon, 11
+ Apr 2022 05:04:24 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:a05:6a11:4c90:0:0:0:0 with HTTP; Mon, 11 Apr 2022 05:04:23
+ -0700 (PDT)
+Reply-To: wu05904@gmail.com
+From: SCAM VICTIMS FUND <wadegalass@gmail.com>
+Date: Mon, 11 Apr 2022 05:04:23 -0700
+Message-ID:
+ <CAP0nWkw9EjqxLu1XrTkWNao+jz7qisFgnWAxVdjtahZ9_-w42A@mail.gmail.com>
+Subject: Dear email owner,
+To: undisclosed-recipients:;
+Content-Type: text/plain; charset="UTF-8"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+Dear email owner,
+
+The International Monetary Fund (IMF) compensates all victims of fraud
+and your email address was found on the list of victims of fraud. This
+Western Union office has been hired by the IMF to transfer your
+compensation to you via Western Union Money Transfer.
+
+However, we have decided to make your own payment through Western
+Union Money Transfer, $5,000 per day until the total of $1,500,000.00,
+has been transferred to you in full.
+
+We may not be able to send the payment with your email address alone,
+so we need your information on where we will send the money to you,
+such as:
+
+Name of the addressee________________
+Address________________
+Country__________________
+Telephone number________________
+Attached copy of your ID_____________
+Age ________________________
+
+
+We will start the transfer once we have received your information:
+Contact email (wu05904@gmail.com)
+
+Thank you faithfully,
+
+Director of Western Union Money Transfer.
+
+Mr. MICHAEL ANTHONY,

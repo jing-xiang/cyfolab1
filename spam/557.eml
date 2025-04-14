@@ -1,0 +1,138 @@
+Return-Path: <bounce@marketsconnects.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id 2Df9OJ0rn17RLAAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 21 Apr 2020 17:21:33 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 8bef83fd-83f4-11ea-aca9-e0d848974e01
+Received: from server42.electronicmailcoupons.com
+ (server42.electronicmailcoupons.com [87.117.216.236])	by
+ mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 8bef83fd-83f4-11ea-aca9-e0d848974e01;	Tue, 21 Apr 2020 17:21:33 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim;
+ d=marketsconnects.com; =?utf-8?q?h=3DTo=3ASubject=3AMessage-ID=3ADate=3AFro?=
+ =?utf-8?q?m=3AReply-To=3AMIME-Version=3AList-Unsubscribe=3AContent-Type=3AC?=
+ =?utf-8?q?ontent-Transfer-Encoding=3B?= i=admin@marketsconnects.com;
+ bh=JHTxrO9Xd1cCfNZDIJoaqk6TwmU=; =?utf-8?q?b=3Do/o7H5QlN0pihoX8t5YTQ4H8Kvq4?=
+ =?utf-8?q?6ZBVsoxe/HcVsltWsljZgglrOYdfEjTbd7G+7to6Z4hIaf6z?=  
+ BM6NTWf7KHW/XFfVoyQyB3IHQJ9AnESwIv/kGWxODrann+7LCh9/p03dQ/8b/zGMjhkW/dAFDH6B
+   ADfRuhRSdyy9dYk6nAw=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim;
+ d=marketsconnects.com; =?utf-8?q?b=3Drf9aaH4oHqVcPmF84+VS10pLtCiIO/wjqppLlg?=
+ =?utf-8?q?qvfvCZawhwtNNf2g3lx+saRJAVDaBTJTE79In4?=  
+ mLIYqOIn77r2Gsmfq9F1AUR14Y5zxOscnpbVVh4lpkPrVoTFL5bFL7Q4mOg8xpGQKymAKHWASnUX
+   PJJJPdeyMyRQw2d4Ano=;
+To: johannes.olegard@cyfoexample.one.com
+Subject: Send 250,000 marketing emails to spread the Word in $50.
+Message-ID: <6e15d25a758b9c400f1a90803084b4a5@server3.marketsconnects.com>
+Return-Path: bounce@marketsconnects.com
+Date: Tue, 21 Apr 2020 17:50:02 +0100
+From: "Email Marketing " <admin@marketsconnects.com>
+Reply-To: admin@marketsconnects.com
+MIME-Version: 1.0
+X-Mailer-LID: 18
+List-Unsubscribe: =?utf-8?q?=3Chttp=3A//server3=2Emarketsconnects=2Ecom/unsu?=
+ =?utf-8?q?bscribe=2Ephp=3FM=3D1929368=26C=3D013eb95bb2d9a574f26d41914659309?=
+ =?utf-8?b?MyZMPTE4Jk49Mzc+?=
+X-Mailer-RecptId: 1929368
+X-Mailer-SID: 37
+X-Mailer-Sent-By: 1
+Content-Type: multipart/alternative; charset="UTF-8";
+ boundary="b1_2e27466ea1d297806b6a7558a6b99d38"
+Content-Transfer-Encoding: 8bit
+
+--b1_2e27466ea1d297806b6a7558a6b99d38
+Content-Type: text/plain; format=flowed; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+If you're looking for a highly competitive way to market your products, and
+services to a huge database of Emails we can help.
+
+
+Hello
+
+My name is Michael Corrigan. Hope you're doing well, and staying safe at
+home. Since the world has come to a lock down and 70 % of the population is
+working from home a new form of marketing has evolved, it is Email
+Marketing.
+
+
+
+Reach up to 250,000 people across countries or Geo-specific niche in prices
+as low as $50.
+
+State of Art Email Marketing Software included to track emails, leads,
+conversions, and statistical reports.
+
+Mixed Data of 250,000 email addresses included. (Global, Country Specific,
+Domain Specific, B2B, B2C)
+
+Please email me on michaelcorrigan331@gmail.com if you'd like to enquire
+further or connect on Whats App to learn more.
+
+
+Have a great day ahead. Stay safe.
+
+
+Best Wishes,
+Michael Corrigan
+Email Marketing Services Provider
+
+--b1_2e27466ea1d297806b6a7558a6b99d38
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<html><head></head><body><p><span style="font-size: x-large; color:
+#3366ff; font-family: &quot;andale mono&quot;, times;"><strong>If you're
+looking for a highly competitive way to market your products, and services
+to a huge database of Emails we can help.</strong></span></p>
+<p><span style="font-family: helvetica;"><span style="font-family:
+&quot;andale mono&quot;, times;"><strong><span style="font-size:
+medium;"><br /></span></strong><span style="font-size: medium;">Hello<br
+/></span><span style="font-size: medium;"><br /></span><span
+style="font-size: medium;">My name is Michael Corrigan. Hope you're doing
+well, and staying safe at home.&nbsp;</span><span style="font-size:
+medium;">Since the world has come to a lock down and 70 % of the population
+is working from home a new form of&nbsp;</span></span><span
+style="font-size: medium;"><span style="font-family: &quot;andale
+mono&quot;, times;">marketing has evolved, it is </span><span style="color:
+#000000;"><span style="font-family: &quot;andale mono&quot;,
+times;"><strong>Email Marketing</strong>.&nbsp;</span><br
+/></span></span></span></p>
+<p><span style="font-size: medium; font-family: helvetica;"><br
+/></span></p>
+<ul>
+<li><span style="font-size: medium; font-family: &quot;andale mono&quot;,
+times; color: #3366ff;">Reach up to 250,000 people across countries or
+Geo-specific niche in prices as low as $50.&nbsp;</span></li>
+<br />
+<li><span style="font-family: &quot;andale mono&quot;, times; color:
+#3366ff; font-size: medium;">State of Art Email Marketing Software included
+to track emails, leads, conversions, and statistical reports.</span></li>
+<br />
+<li><span style="font-family: &quot;andale mono&quot;, times; color:
+#3366ff; font-size: medium;"><font size="3">Mixed Data of 250,000 email
+addresses included. (Global, Country Specific, Domain Specific, B2B,
+B2C)</font></span></li>
+<br />
+</ul>
+<p><span style="font-size: medium;"><span style="font-family: &quot;andale
+mono&quot;, times;">Please email me on </span></span><span
+style="font-family: &quot;andale mono&quot;, times;"><span style="color:
+#000000;"><strong><span style="font-size:
+medium;">michaelcorrigan331@gmail.com</span></strong></span><span
+style="font-size: medium;"> if you'd like to enquire further or connect on
+Whats App to learn more.</span></span></p>
+<p><span style="font-size: medium;"><span style="font-family: &quot;andale
+mono&quot;, times;"><br />Have a great day ahead. Stay safe.</span><br
+/><br /><span style="font-family: &quot;andale mono&quot;, times;"><br
+/>Best Wishes,</span><br /><span style="font-family: &quot;andale
+mono&quot;, times;">Michael Corrigan</span><br /><span style="font-family:
+&quot;andale mono&quot;, times;">Email Marketing Services
+Provider</span><br /></span></p><img
+src="http://server3.marketsconnects.com/open.php?M=1929368&L=18&N=37&F=H&image=.jpg"
+height="1" width="10"></body></html>
+
+--b1_2e27466ea1d297806b6a7558a6b99d38--
+
+

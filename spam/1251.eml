@@ -1,0 +1,101 @@
+Return-Path: <gaalne@nkkorhaz.hu>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id +DfQGF/8LmKBKQAAtf5whQ
+	(envelope-from <gaalne@nkkorhaz.hu>)
+	for <johannes.olegard@cyfoexample.one.com>; Mon, 14 Mar 2022 08:27:11 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:message-id:reply-to:to:from:date:mime-version:x-halone-refid:
+	 x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=imczwA53F2PQqei0kVOugeQPXwJlBigppYWS8GjGmYI=;	=?utf-8?q?b=3D1nXUGkMXhAtx?=
+ =?utf-8?q?3FgzyW7Cuk4cAkD978OJDsR70GR6/8bgmi6auT6QtNnzP9pcGeQmmkWlmEPs9XhjZ?=
+	 =?utf-8?q?/O2LYdhalnYR7mlBvtRKCLK78si40+le73xSreqey2DqHWAxQjMW4/fv91bbej0O?=
+ =?utf-8?q?NX7t6Q5stz1/dL=09_bXiY0B9V/PaiYxkK58HM+vHyEszyRN8wjcIIJDgsOvrHCoc?=
+ =?utf-8?q?tHX+zijzw3PEkMJMaJiMe2jVqPC0P/A=09_xKVaM4fiJPvpY60zTeECSgb7sXiVj/?=
+ =?utf-8?q?d9mPUzBB3PpBW38mCXBycmmsgsx4kZ15blQbltzr6FM9N7zO?=	
+ L1HhKTb6OAjK7yN/a7iatNcbs1Rvzcg==
+X-HalOne-SA: 3.2
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F1F=2E622EFC5E=2E0054=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz04?=
+X-HalOne-ID: 84e9d1b5-a370-11ec-8334-e0d84894a001
+Received: from mail.nkkorhaz.hu (mail.nkkorhaz.hu [84.206.66.177])
+	by mx1.pub.mailpod3-cph3.one.com (Halon) with SMTP
+	id 84e9d1b5-a370-11ec-8334-e0d84894a001;
+	Mon, 14 Mar 2022 08:27:00 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.nkkorhaz.hu (Postfix) with ESMTP id F05EA716;
+	Mon, 14 Mar 2022 07:18:22 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=nkkorhaz.hu;
+	s=dkim20220307; t=1647238703;
+	bh=imczwA53F2PQqei0kVOugeQPXwJlBigppYWS8GjGmYI=;
+	h=Date:From:To:Reply-To:From;
+	b=eT+cMicO4S2TOXYS8sRIDVyCB4WbtKILSg1fNF0QnRIy2ZUeKOIjb+ZYCe25T4P9l
+	 U+1enJHDCAjqKGMjo+X0ioNIh7sIlhDjyujbqQOm5QhKXOCkcJ+k3QV8WSMm75ObC+
+	 QMZ06t7Qx8Flgdhln0FwH5W82J7hJx4bvmYycV5+fX4xKDV67JdanMvmfj7LuYJldQ
+	 I687AVfTTsTr2jJWY+2RqT0JTKhkg1zP0/4quAKNmEEeuqV5SlZGECOd4ET4VooyLM
+	 ZAOaQlQIKnoatiM0QxZClFeD7JDsXQPxmEkKJQPy1JXFsqsnHJpA1ngcKOnh9DPx5Z
+	 oIuc2W5yxbmyA==
+X-Virus-Scanned: Debian amavisd-new at mail.nkkorhaz.hu
+Received: from mail.nkkorhaz.hu ([127.0.0.1])
+	by localhost (mail.nkkorhaz.hu [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id P4KoVA3lAGP1; Mon, 14 Mar 2022 07:18:22 +0100 (CET)
+Received: from mail.nkkorhaz.hu (localhost [127.0.0.1])
+	by mail.nkkorhaz.hu (Postfix) with ESMTP id 53B806F5;
+	Mon, 14 Mar 2022 07:18:22 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=nkkorhaz.hu;
+	s=dkim20220307; t=1647238702;
+	bh=imczwA53F2PQqei0kVOugeQPXwJlBigppYWS8GjGmYI=;
+	h=Date:From:To:Reply-To:From;
+	b=VTqMjqLnsC2dKedkda3HaWBOr5Zrb5ahuDX+bMBpKnNgShy+pay+B2em9ioAZDobM
+	 ADvgQILP8W8MCJxP036VL5lmi+ScpLR1dLCoqDYJpDlq+KGHDfCi/IFapr+hOA1lpP
+	 q5jiTmyUPAnL1uaUzeLqVcM0CvJVqPapfNp7gON1kxKWOPI2WbY+YDh5OTbVrta1lS
+	 1+6xIxFqsAKgI4ToaEDTbDtSM5wjaIYu6NWR9zFh38s/Qvh5Vagpkmp2GGMEpDebA1
+	 Vc4lWIC3lDLEX9yYOOq22MvKWNyzza1HdD5RA03LJQW2zhyveDPutS/uUo5u3/ps+V
+	 pgcdQHNVhghLQ==
+MIME-Version: 1.0
+Date: Mon, 14 Mar 2022 14:18:22 +0800
+From: Richard Whal <gaalne@nkkorhaz.hu>
+To: undisclosed-recipients:;
+Reply-To: mrrhwhal@gmail.com
+User-Agent: Roundcube Webmail/1.4.13
+Message-ID: <d4303a217265c21952ea0bfb15116baf@nkkorhaz.hu>
+X-Sender: gaalne@nkkorhaz.hu
+Content-Type: multipart/alternative;
+ boundary="=_898573dff1f190b27d53212eb3aafd6c"
+
+--=_898573dff1f190b27d53212eb3aafd6c
+Content-Transfer-Encoding: 7bit
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+
+-- 
+Hello,
+
+I hope you are doing great today, i sent you an email earlier but not
+sure if you received it. Please confirm receipt of this message as i
+have useful information for you.
+
+Best Regards
+Mr Richard Wahl
+--=_898573dff1f190b27d53212eb3aafd6c
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/html; charset=UTF-8
+
+=EF=BB=BF<html><head><meta=20http-equiv=3D"Content-Type"=20content=3D"text/=
+html;=20charset=3DUTF-8"=20/></head><body=20style=3D'font-size:=2010pt;=20f=
+ont-family:=20Verdana,Geneva,sans-serif'>
+<p><br=20/></p>
+<div=20id=3D"signature">--=20<br=20/>
+<div=20class=3D"pre"=20style=3D"margin:=200;=20padding:=200;=20font-family:=
+=20monospace">Hello,<br=20/><br=20/>I=20hope=20you=20are=20doing=20great=20=
+today,=20i=20sent=20you=20an=20email=20earlier=20but=20not<br=20/>sure=20if=
+=20you=20received=20it.=20Please=20confirm=20receipt=20of=20this=20message=
+=20as=20i<br=20/>have=20useful=20information=20for=20you.<br=20/><br=20/>Be=
+st=20Regards<br=20/>Mr=20Richard=20Wahl</div>
+</div>
+</body></html>
+
+--=_898573dff1f190b27d53212eb3aafd6c--

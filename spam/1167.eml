@@ -1,0 +1,87 @@
+Return-Path: <bantyloaninvestment@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id YFGwG4LkcGFyEQAAtf5whQ
+	(envelope-from <bantyloaninvestment@gmail.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 21 Oct 2021 03:54:42 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:subject:message-id:date:from:reply-to:mime-version:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=7CtJK22+pn6uw9Y4N5IrD1srQN1gLmPFZltJ8WGpBYQ=;	=?utf-8?q?b=3DinNw+PBBUpCa?=
+ =?utf-8?q?FYWK90cDmjHcrUJSg2+X8OQ/Jo4xZY3QUULVL1n+ae+zDxx2XI5qnE6AiszAXOBqd?=
+	 =?utf-8?q?JvsGS9IUFi6woJU8fegJk7dXdG+UAox742HBiAdNLpfszzdli+961i3rqxtWw1vQ?=
+ =?utf-8?q?lpaLOiekxYBfgL=09_ohzv8mcsrZ/lpEP5dKIsjYf/zfB+USJcGbx2IrbiNnwkyG6?=
+ =?utf-8?q?QG8dl9I5k5poRy3k6x404bL4e4D7Mzg=09_Y0ua7QvnQb3Ytrr7RtH2O5IYC0t83v?=
+ =?utf-8?q?+a+YhnwQuZRKdJZDo3VVkSI59q8EbzY6gGiYsJtpc3l9ORxw?=	
+ R/BlGhROkdNUnByhn4oanaQKLxWh76A==
+X-HalOne-SA: 8.7
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F1E=2E6170E482=2E0012=2Css=3D1?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD0xLGNsZD0xLGZncz0w?=
+X-HalOne-ID: 9effb18f-3222-11ec-88d2-ec0d9a6ed98e
+Received: from mail-lj1-f179.google.com (mail-lj1-f179.google.com
+ [209.85.208.179])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 9effb18f-3222-11ec-88d2-ec0d9a6ed98e;	Thu, 21 Oct 2021 03:54:42 +0000 (UTC)
+Received: by mail-lj1-f179.google.com with SMTP id g8so311639ljn.4        for
+ <johannes.olegard@cyfoexample.one.com>; Wed, 20 Oct 2021 20:54:42 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:reply-to:from:date:message-id:subject:to;
+        bh=7CtJK22+pn6uw9Y4N5IrD1srQN1gLmPFZltJ8WGpBYQ=;
+        b=A9joFNWEihz1BTcm/f2nQu2mZaDqm+sN6VC8wo+6Av4jGoucubpTI7saGQLpAWMOLD
+         wj/zunoqlgUTVdwJZKdi6qcrrshy8pHTMW+pnSeHqu2JNKnUop4ZXusAcyDvOIy8SsmO
+         IdT1hKBLqQjuaz2GNa9MZaLmgIghxBioaNR3tu3IvO1NJ0YtRABcopV7O2ifTuBfg3p8
+         3By4xba7BLNJkby7b3CK8rmXdYclgy4pGs76zXofmarvHuzF90dPXgY0Q2mYnOpWWPsY
+         PqAphO3Lz56EMO/HUPRGKmrdhQxIvVix412ekUw0ZRhWe39Q+eWXUH2G8xB9fD5ZC5+P
+         rA5Q==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=7CtJK22+pn6uw9Y4N5IrD1srQN1gLmPFZltJ8WGpBYQ=;
+        b=X4RMFYZV+0v+l64ZckkmXZD5afBmYhIsVQOTEnwRFkZ9a7eJCU+5YPp03s6WfqAgey
+         WTs1C4ljYUgcvtW3ngtR5W0lX13Ucn5l05igQa1xXwzxuGU2hVO4uCOJb4PD+WFZczX3
+         ZcZ2EQKQ5ezwxhUEGwoodKA9tz7r1kx65w3mloS9IKZ3jIyFrEbV21FHap+6f2FicMPu
+         jSoOAVh4YDLkjqlaZ4x0DeW8js2P+6LytkSiEGKLvM+IHMzSUnX4Ov7+mu+MLlD5Z0ay
+         n1MLIxlQ+giV1+0NUeAn1IebCumoJt/3QBexnvIv1+/Pl4/ANz1nRSt8qZOlrnATiFit
+         IwyQ==
+X-Gm-Message-State: AOAM531YyvSHDKEajMkEVUyfQsL83CtZq/kGuzA2VX3ckvkT2Xus/7Qu
+	pXCnvsHtUtdtvxbTbHsDB0XVVggq33/xB/DB6UY=
+X-Google-Smtp-Source: =?utf-8?q?ABdhPJyDeDhJVzHLPD1ImqL4goI3CjDOW4fcIyy32Ihg?=
+ =?utf-8?q?XpqRpp27nH7TU8PWgrnecDOnEA5tONly76RAmbye9BAXb5Y=3D?=
+X-Received: by 2002:a2e:9d98:: with SMTP id c24mr3331569ljj.38.1634788481695;
+ Wed, 20 Oct 2021 20:54:41 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:ab3:7b8e:0:0:0:0:0 with HTTP; Wed, 20 Oct 2021 20:54:40
+ -0700 (PDT)
+Reply-To: bruceloanhome1@gmail.com
+From: Mr Terry Scott <bantyloaninvestment@gmail.com>
+Date: Thu, 21 Oct 2021 04:54:40 +0100
+Message-ID:
+ <CA+MvFXRMVv2VgqdBaT7UEQy1UUU95mME5fuD-2hmgOcLoc+=DA@mail.gmail.com>
+Subject: Are You In Any Kind Of Financial Difficulties..?
+To: undisclosed-recipients:;
+Content-Type: text/plain; charset="UTF-8"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+This is to notify the General public that Gregg Loan Company. has
+opened an opportunity to every one in need of any financial help.We
+give out loan to individuals, firms and companies under a clear and
+understandable terms and conditions. kindly fill the application form
+below and send it to us via Email: greggfunds8832@gmail.com
+
+Full Name:............
+Contact Address:.....
+Phone:..............
+Country:.............
+Amount Needed as Loan:.........
+Loan Duration:.......
+Sex:......
+Monthly income........
+Have you applied before?...........
+
+
+Bishop Gregg Butter
+BGLoans/CEO

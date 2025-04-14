@@ -1,0 +1,79 @@
+Return-Path: <jimrobbins@laposadagv.net>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id +CgFGzJfYmA8bwAAtf5whQ
+	(envelope-from <jimrobbins@laposadagv.net>)
+	for <johannes.olegard@cyfoexample.one.com>; Mon, 29 Mar 2021 23:13:54 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	=?utf-8?q?h=3Dmessage-id=3Acontent-transfer-encoding=3Acontent-?=
+ =?utf-8?q?type=3Amime-version=3Adate=3Asubject=3A?=	
+ to:from:reply-to:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=j63Hw8O4MnhFPr0yWJUbzwMi9y5vIIdctpUr7Hzge5c=;	=?utf-8?q?b=3DRlxfCQM+uGKj?=
+ =?utf-8?q?ktpKY21kwDWMgSbToRB/elp1NFaNo0hraiRpQN3TK3QLsJ5JY1eRiLeXgb2n+EyKy?=
+	 =?utf-8?q?Gu8mqZufvR/wv8vParLsxEE+APMqerlcwEo9bQBrxAr/qJcQk6uuHoZ6IQpAFMfJ?=
+ =?utf-8?q?HH3n8dF8njSSvw=09_LSXH9W9h7JVy53zrbddTFgs1gCgoEwZPmCxDHuq9SuKG4tL?=
+ =?utf-8?q?UnfZ98Vf1Vm6Noln3qwboRsKpEg+LVi=09_b6sH32SrlsGsZFu0Q8+DIfh2p79BOn?=
+ =?utf-8?q?TwyvSxp4rjwSwKUbuAFzceYTSt1eJW7OrL0EdVvc0QpyZRtZ?=	
+ TKIfYEKVLxEAq6E6OdbvHz/Rv/SUm3A==
+X-HalOne-SA: 17.6
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F23=2E6062500C=2E0002=2Css=3D4?=
+ =?utf-8?b?LHNoLHJlPTQuNjgwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZn?=
+ =?utf-8?q?s=3D0?=
+X-HalOne-ID: 6d108b24-90e4-11eb-ab21-e0d84894a001
+Received: from mailer4.fiberlink.net.pk (mailer4.fiberlink.net.pk
+ [103.17.203.4])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 6d108b24-90e4-11eb-ab21-e0d84894a001;	Mon, 29 Mar 2021 23:13:53 +0000 (UTC)
+Received: from mailer2.fiberlink.net.pk (localhost [127.0.0.1])	by
+ mailer4.fiberlink.net.pk (Postfix) with ESMTP id D87D6243DB3	for
+ <johannes.olegard@cyfoexample.one.com>; Tue, 30 Mar 2021 04:09:54 +0500 (PKT)
+X-Quarantine-ID: <qioPHGGU9PpY>
+X-Virus-Scanned: amavisd-new at mailer2.fiberlink.net.pk
+X-Spam-Flag: YES
+X-Spam-Score: 20.834
+X-Spam-Level: ********************
+X-Spam-Status: Yes, score=20.834 tagged_above=2 required=6.2
+	tests=[AXB_XMAILER_MIMEOLE_OL_024C2=0.001, BAYES_99=3.5,
+	BAYES_999=0.2, DOS_OE_TO_MX=2.523, FAKE_REPLY_C=1.486,
+	FORGED_MUA_OUTLOOK=1.927, FREEMAIL_FORGED_REPLYTO=2.095,
+	FREEMAIL_REPLYTO_END_DIGIT=0.25, FROM_MISSPACED=0.001,
+	FROM_MISSP_EH_MATCH=0.001, FROM_MISSP_MSFT=0.001,
+	FROM_MISSP_REPLYTO=0.001, FROM_MISSP_USER=0.001,
+	FSL_CTYPE_WIN1251=0.001, FSL_HELO_NON_FQDN_1=0.001,
+	FSL_NEW_HELO_USER=0.001, HDR_ORDER_FTSDMCXX_DIRECT=1.805,
+	HDR_ORDER_FTSDMCXX_NORDNS=0.224, HELO_NO_DOMAIN=0.001,
+	MIMEOLE_DIRECT_TO_MX=0.001, MISSING_MID=0.497,
+	NSL_RCVD_FROM_USER=0.001, RCVD_IN_SBL_CSS=3.335,
+	RCVD_IN_VALIDITY_RPBL=1.31, RCVD_IN_XBL=0.375, RDNS_NONE=0.793,
+	SUBJ_ALL_CAPS=0.5, TO_NO_BRKTS_FROM_MSSP=0.001,
+	TO_NO_BRKTS_MSFT=0.001] autolearn=unavailable
+Received: from mailer4.fiberlink.net.pk ([127.0.0.1])	by
+ mailer2.fiberlink.net.pk (mailer2.fiberlink.net.pk [127.0.0.1]) (amavisd-new,
+ port 10024)	with ESMTP id qioPHGGU9PpY for
+ <johannes.olegard@cyfoexample.one.com>;	Tue, 30 Mar 2021 04:09:53 +0500 (PKT)
+Received: from User (unknown [42.201.245.175])
+	by mailer4.fiberlink.net.pk (Postfix) with SMTP id 29C4C42BA14;
+	Sun, 28 Mar 2021 02:02:11 +0500 (PKT)
+Reply-To: <jimwalton60@aol.com>
+From: "Mr Jim Walton"<jimrobbins@laposadagv.net>
+To: urmail@bgsblc.com
+Subject: RE: BG/SBLC INSTRUMENT
+Date: Sat, 27 Mar 2021 14:01:25 -0700
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20210329230954.D87D6243DB3@mailer4.fiberlink.net.pk>
+
+Hello Sir/Ma
+
+Greetings Associate, I'm the official mandate to a certified and efficient provider who specialize in issuance of import, Standby Letter of Credit (SBLC), Bank Guarantee (BG) Both Lease & Outright purchase. However, our BG/SBLC is 4+2% for lease and at 32+2% for Sale. Our Instruments are easily monetized on your behalf for project funding. We will be glad to share our working procedures at your request. I will send you DOA to help us proceed towards closing deals effectively.
+
+Best Regards,
+
+Mr Jim Walton

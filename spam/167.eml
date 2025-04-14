@@ -1,0 +1,78 @@
+Received: from EBOX-PROD-SRV18.win.su.se (2001:6b0:5:1462:e17e:ea5e:213d:f5d)
+ by EBOX-PROD-SRV16.win.su.se (2001:6b0:5:1162:2dba:d47b:bfc3:be04) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.23 via Mailbox
+ Transport; Sat, 29 Apr 2023 20:06:57 +0200
+Received: from EBOX-PROD-SRV17.win.su.se (2001:6b0:5:1462:5102:4de3:b90f:2e2d)
+ by EBOX-PROD-SRV18.win.su.se (2001:6b0:5:1462:e17e:ea5e:213d:f5d) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.23; Sat, 29 Apr
+ 2023 20:06:57 +0200
+Received: from mail-prod-route09.it.su.se (130.237.200.211) by
+ EBOX-PROD-SRV17.win.su.se (130.237.162.201) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.23 via Frontend Transport; Sat, 29 Apr 2023 20:06:57 +0200
+Received: from mailfilter-ng-1.sunet.se (mailfilter-ng-1.sunet.se
+ [192.36.171.207])	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256
+ (128/128 bits))	(No client certificate requested)	by
+ mail-prod-route09.it.su.se (Postfix) with ESMTPS id 4Q7y9F2b4wzXb	for
+ <johannes.olegard@dsv.su.se>; Sat, 29 Apr 2023 20:06:57 +0200 (CEST)
+Received: from mail01.africaonline.com.na (mail01.africaonline.com.na
+ [196.47.64.158])	by mailfilter-ng-1.sunet.se (Halon) with ESMTPS	id
+ 9924565f-e6b8-11ed-9791-0050569a42e2;	Sat, 29 Apr 2023 18:06:50 +0000 (UTC)
+Received: from afol.com.na [197.210.77.27] ([127.0.0.1])        by
+ mail01.africaonline.com.na (13.0.2 build 14 x64) with ASMTP (SSL) id
+ 202304292005457216;        Sat, 29 Apr 2023 20:05:45 +0200
+From: Webmail Admin <drieshorn@afol.com.na>
+Subject: E-postinloggningsverifiering
+Thread-Topic: E-postinloggningsverifiering
+Thread-Index: AQHZesVjZJeTdhcvz0uLgCRwZNPxhg==
+Date: Sat, 29 Apr 2023 20:06:24 +0200
+Message-ID: <e18722fba14c953d96c774edb9aecfe0@afol.com.na>
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EBOX-PROD-SRV17.win.su.se
+X-MS-Has-Attach: 
+X-MS-Exchange-Organization-Network-Message-Id:
+ a7d6113a-db69-4e69-4791-08db48dc8591
+X-MS-TNEF-Correlator: 
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-halon-sa-rules: =?utf-8?b?REtJTV9JTlZBTElEOjAuMSxES0lNX1NJR05FRDowLjEs?=
+ =?utf-8?q?HTML=5FMESSAGE=3A0=2E001=2CMISSING=5FHEADERS=3A1=2E207=2CRCVD=5FI?=
+ =?utf-8?b?Tl9ETlNXTF9MT1c6LTAuMSxSQ1ZEX0lOX1NCTDoyLjU5NixTUEZfSEVMT19OT05F?=
+ =?utf-8?b?OjAuMDAxLFNQRl9QQVNTOi0wLjAwMSxUX1NDQ19CT0RZX1RFWFRfTElORTotMC4w?=
+ =?utf-8?q?1=2CURI=5FHEX=3A0=2E1?=
+x-halon-sa-score: 4
+x-halon-rpd-refid: 155819::1682791610-700275D2-1BF735EC/19/7784346191
+x-halon-rpd-score: 0
+authentication-results: mailfilter-ng-1.sunet.se;	spf=pass
+ smtp.mailfrom=afol.com.na smtp.remote-ip=196.47.64.158;	dkim=permerror
+ header.d=afol.com.na header.s=202202 header.a=rsa-sha256 header.b=VSzwu5im;
+	dmarc=pass header.from=afol.com.na;
+x-halon-id: 9924565f-e6b8-11ed-9791-0050569a42e2
+x-ms-exchange-transport-endtoendlatency: 00:00:00.1801625
+x-ms-exchange-processed-by-bccfoldering: 15.01.2507.023
+dkim-signature: a=rsa-sha256; t=1682791559; x=1683396359; s=202202;
+ d=afol.com.na; c=relaxed/relaxed; v=1;
+ bh=z+PdrvUCDijHVcqxN18+UZYjjgPQk5YPS9a7EJl8uek=;
+ h=From:Subject:Date:Message-ID:MIME-Version:Content-Type;   =?utf-8?q?b=3DV?=
+ =?utf-8?q?Szwu5imnCgE7Ev6N+NjGdyeQO06Qx9VsvQ5CG3b7BLt8oQqSWAyup/P8neVkFz/PX?=
+ =?utf-8?q?pZq6xxxAUFzx2Gw5l1iaB/xUbj6siM98zEY3mOhpKGwt0lz9I8zhhsPCOAUPHU/Fh?=
+ =?utf-8?q?yT5ZCWLgxe4xMHrOVT+8ysdC96UFO4HwEvgh5OL0=3D?=
+x-mailer: IceWarp Mailer 13.0.2.14 x64-Desktop
+Content-Type: multipart/alternative;
+	boundary="_000_e18722fba14c953d96c774edb9aecfe0afolcomna_"
+MIME-Version: 1.0
+
+--_000_e18722fba14c953d96c774edb9aecfe0afolcomna_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+77u/DQpCw6RzdGEgZS1wb3N0YW52w6RuZGFyZSwNCg0KVsOlciB3ZWJibWFpbHPDpGtlcmhldHN0asOkbnN0IHVwcHTDpGNrdGUgb3JlZ2VsYnVuZG5hIGlubG9nZ25pbmdzZsO2cnPDtmsgcMOlIGRpdHQgZS1wb3N0a29udG8gZnLDpW4gSVAtcGxhdHMgKDIxMy4xLjEuNjc0KS4gb2NoIMOkdmVuIGFudsOkbnRzIGbDtnIgYXR0IHNraWNrYSB1dCBza3LDpHBwb3N0bWVkZGVsYW5kZW4gaSBzdHJpZCBtZWQgdsOlciBwb2xpY3kuIEF2IHPDpGtlcmhldHNza8OkbCBrb21tZXIgdmkgYXR0IHN0w6RuZ2EgZGV0dGEga29udG8gb20gZHUgaW50ZSBrbGlja2FyIHDDpSBsw6Rua2VuIG5lZGFuIGbDtnIgYXR0IMOldGVydmFsaWRlcmEgZGluIHBvc3Rsw6VkYSBmw7ZyIHZlcmlmaWVyaW5nIGF2IGFudsOkbmRhcm5hbW4gb2NoIGzDtnNlbm9yZC4NCg0KVmFsaWRlcmEgZGluIGUtcG9zdDxodHRwczovLzYzOWJiZDMzZGZlZDMuc2l0ZTEyMy5tZS8+DQoNClZpIHJla29tbWVuZGVyYXIgc3Rhcmt0IGF0dCBkdSBpbnRlIGRlbGFyIGRpdHQgbMO2c2Vub3JkIG1lZCBuw6Vnb24gZsO2ciBkaXR0IGUtcG9zdHPDpGtlcmhldHNzeWZ0ZS4NCg0KQ29weXJpZ2h0IMKpIDIwMDUtMjAyMiBXZWJtYWlsIEFkbWluLCBJbmMuIE1lZCBlbnNhbXLDpHR0DQo=
+--_000_e18722fba14c953d96c774edb9aecfe0afolcomna_
+Content-Type: text/html; charset="utf-8"
+Content-ID: <179FBA9663CD984E9AB1D436789EDF25@win.su.se>
+Content-Transfer-Encoding: base64
+
+77u/PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0idGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5Pg0KPGRpdiBjbGFzcz0iaXdfbWFpbCIgZGlyPSJhdXRvIiBzdHlsZT0iZm9udC1zaXplOiAxM3B4OyI+DQo8ZGl2Pjxicj4NCjwvZGl2Pg0KPGRpdiBjbGFzcz0iaXctc2lnbmF0dXJlIj4NCjxkaXY+QsOkc3RhIGUtcG9zdGFudsOkbmRhcmUsPC9kaXY+DQo8ZGl2Pjxicj4NCjwvZGl2Pg0KPGRpdj5Ww6VyIHdlYmJtYWlsc8Oka2VyaGV0c3Rqw6Ruc3QgdXBwdMOkY2t0ZSBvcmVnZWxidW5kbmEgaW5sb2dnbmluZ3Nmw7Zyc8O2ayBww6UgZGl0dCBlLXBvc3Rrb250byBmcsOlbiBJUC1wbGF0cyAoMjEzLjEuMS42NzQpLiBvY2ggw6R2ZW4gYW52w6RudHMgZsO2ciBhdHQgc2tpY2thIHV0IHNrcsOkcHBvc3RtZWRkZWxhbmRlbiBpIHN0cmlkIG1lZCB2w6VyIHBvbGljeS4gQXYgc8Oka2VyaGV0c3Nrw6RsIGtvbW1lciB2aSBhdHQgc3TDpG5nYSBkZXR0YSBrb250byBvbSBkdQ0KIGludGUga2xpY2thciBww6UgbMOkbmtlbiBuZWRhbiBmw7ZyIGF0dCDDpXRlcnZhbGlkZXJhIGRpbiBwb3N0bMOlZGEgZsO2ciB2ZXJpZmllcmluZyBhdiBhbnbDpG5kYXJuYW1uIG9jaCBsw7ZzZW5vcmQuPC9kaXY+DQo8ZGl2Pjxicj4NCjwvZGl2Pg0KPGRpdj48YSBkYXRhLXNhZmVyZWRpcmVjdHVybD0iaHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS91cmw/cT1odHRwczovL3NpdGUtMTAwMDU4MjMtOTk5MC03NDI0Lm15c3RyaWtpbmdseS5jb20vJmFtcDtzb3VyY2U9Z21haWwmYW1wO3VzdD0xNjgyNjI2Mzc0MTM3MDAwJmFtcDt1c2c9QU92VmF3MWt2WHdfUElMTjBYbm5pTmhxQ3ZvTiIgaHJlZj0iaHR0cHM6Ly82MzliYmQzM2RmZWQzLnNpdGUxMjMubWUvIiByZWw9Im5vZm9sbG93IG5vb3BlbmVyIG5vcmVmZXJyZXIiPlZhbGlkZXJhDQogZGluIGUtcG9zdDwvYT48L2Rpdj4NCjxkaXY+PGJyPg0KVmkgcmVrb21tZW5kZXJhciBzdGFya3QgYXR0IGR1IGludGUgZGVsYXIgZGl0dCBsw7ZzZW5vcmQgbWVkIG7DpWdvbiBmw7ZyIGRpdHQgZS1wb3N0c8Oka2VyaGV0c3N5ZnRlLjxicj4NCjxicj4NCkNvcHlyaWdodCDCqSAyMDA1LTIwMjIgV2VibWFpbCBBZG1pbiwgSW5jLiBNZWQgZW5zYW1yw6R0dDwvZGl2Pg0KPC9kaXY+DQo8L2Rpdj4NCjwvYm9keT4NCjwvaHRtbD4NCg==
+--_000_e18722fba14c953d96c774edb9aecfe0afolcomna_--

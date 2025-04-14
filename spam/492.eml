@@ -1,0 +1,71 @@
+Return-Path: <do_not_reply@springernature.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id 8OKoKTx7r2RfawAAtf5whQ
+	(envelope-from <do_not_reply@springernature.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 13 Jul 2023 04:19:08 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	h=subject:to:from:message-id:date:mime-version:content-type:	
+ content-transfer-encoding:x-halone-refid:x-halone-sa:from:x-halone-sa:	
+ x-halone-refid;	bh=o5GRiiZhsF9wJXE0C6MhU0ILG9yLd6SDDbXN1VkwjU0=;	
+ =?utf-8?q?b=3DqS+seJMLild6wWYRd/ElpuHZGATP8qMG5yk5v9Agk0pqEtjjU6HTqPU949/pJ?=
+ =?utf-8?q?qamwU7dH2yCTx5ob=09_5ST9G415pNexFj2x5/L6mePeIymO6TtnZARQWgpm7RW9w?=
+ =?utf-8?q?QAQndU8vuKLKod1i6DISbONHCAK7XvR09=09_d0GjDDkmodLhpilNmKTEFi35f5Nq?=
+ =?utf-8?q?dWFScNwoJ6FNlAcM7TbHIdP308IAmjULM5yahOC0y5TrgmBhmf=09_mgc1jepo3uY?=
+ =?utf-8?q?1Z7Bv8dlQ1jSkc2Br+93EkL3Hg+PGi5nT2qsEExpRRoQ7dQq+CfN9oFBV9r66+V7t?=
+ =?utf-8?q?Wf?=	 d0gIXh52rqz1rAjguZkNDQ62tLCjydQ==
+X-HalOne-SA: 5
+X-HalOne-RefID: 155866::1689221947-517595FD-BDFAEB88/0/0
+Authentication-Results: mx3.pub.mailpod3-cph3.one.com;	spf=pass
+ smtp.mailfrom=springernature.com smtp.remote-ip=199.168.14.54;	dkim=pass
+ header.d=springernature.com header.s=i082020me header.a=rsa-sha256
+ header.b=KMRbFynb;	dmarc=pass header.from=springernature.com;
+X-HalOne-ID: 681ddb81-2134-11ee-8d41-e0d848974e01
+Received: from hermes1-rst.springernature.com (hermes1-rst.springernature.com
+ [199.168.14.54])	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 681ddb81-2134-11ee-8d41-e0d848974e01;	Thu, 13 Jul 2023 04:19:07 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=simple/simple;
+  d=springernature.com; s=i082020me;
+  h=content-transfer-encoding:mime-version:date:message-id:
+   from:to:subject;
+  bh=o5GRiiZhsF9wJXE0C6MhU0ILG9yLd6SDDbXN1VkwjU0=;
+  b=KMRbFynb/+qcVS3p9oybibQjHeFdSwjwI436b9Pr0Q/RNG/hF2YYjtCU
+   a82f7eUBk/b2VukoYsRnx70KVQFd1FnHnNINR1zGqxOES3tPebbhNLE09
+   VEPUiyuwy2OZYp/puF7yTsCHsc1zsXMcdAo7uhShhZIWAlsKz/VgW0dXA
+   MST4S7gw6osF/0Ukt3B59fQptB2i5QWsQPfMzPYiE9djMpXD8RZt/CH0R
+   iRnE3eILkFbwOnmd6tLoWdQYwbz76vwqjvHt1O/M+aqU3U1nfBWeA0AGS
+   D1JiqHqT+VWbbb1BVrsZq2uKnbrke+A44TL5BPgnxIpztc7jx09q6D6SJ
+   g==;
+IronPort-HdrOrdr: =?us-ascii?q?A9a23=3AG1SCWa9yd+rKpob3GSBuk+DFI+orL9Y04lQ7?=
+ =?us-ascii?q?vn2ZLiY5TiX4rayTdZsgtCMc5AxhO03I+uruBED/exPhHPdOiOF7V4tKNzOW3V?=
+ =?us-ascii?q?dAQrsSj7cKuwePJxHD?=
+Received: from hermes1-crn.springernature.com ([10.103.200.20])
+  by Hermes1-am1-int.macmillan.com with ESMTP; 13 Jul 2023 06:19:05 +0200
+Received: from unknown (HELO smtp1) ([192.168.11.168])
+  by Hermes1-crn.springernature.com with ESMTP; 13 Jul 2023 05:19:05 +0100
+Received: from localhost.localdomain (mts-spd-www2.springernature.com
+ [192.168.11.92])	by smtp1 (Postfix) with ESMTP id 671D7118023C	for
+ <johannes.olegard@cyfoexample.one.com>; Thu, 13 Jul 2023 00:19:05 -0400 (EDT)
+Content-Transfer-Encoding: binary
+Content-Type: multipart/alternative;
+ boundary="_----------=_16892219451730310"; charset="UTF-8"
+MIME-Version: 1.0
+X-Mailer: MIME::Lite 3.030 (F2.85; T2.17; A2.20; B3.15; Q3.13)
+Date: Thu, 13 Jul 2023 00:19:05 -0400
+Message-Id: <168922194535@mts-spd-www2.nature.com>
+From: do_not_reply@springernature.com
+To: johannes.olegard@cyfoexample.one.com
+Subject: Your Springer Nature MTS account has been updated
+
+This is a multi-part message in MIME format.
+
+--_----------=_16892219451730310
+Content-Disposition: inline
+Content-Transfer-Encoding: base64
+Content-Type: text/html
+
+77u/PGh0bWw+CjxoZWFkPgo8bWV0YSBodHRwLWVxdWl2PSJDb250ZW50LVR5cGUiIGNvbnRlbnQ9InRleHQvaHRtbDsgY2hhcnNldD1VVEYtOCI+CjxtZXRhIG5hbWU9IkF1dGhvciIgY29udGVudD0ia28iPgo8bWV0YSBuYW1lPSJHRU5FUkFUT1IiIGNvbnRlbnQ9Ik1vemlsbGEvNC43IFtlbl0gKFdpbk5UOyBJKSBbTmV0c2NhcGVdIj4KPC9oZWFkPgo8Ym9keSB0ZXh0PSIjMDAwMDAwIiBiZ2NvbG9yPSIjZmZmZmZmIiBsaW5rPSIjZmYwMDAwIiB2bGluaz0iI2NjMDAwMCIgYWxpbms9IiNmZjAwMDAiPgoKPGJyPgpEZWFyIEpvaGFubmVzIE9sZWcmI3gwMEU1O3JkLDxicj4KPGJyPgpZb3VyIFNwcmluZ2VyIE5hdHVyZSBtYW51c2NyaXB0IHRyYWNraW5nIHN5c3RlbSAoTVRTKSBwYXNzd29yZCBoYXMgYmVlbiBzdWNjZXNzZnVsbHkgY2hhbmdlZC4gSWYgeW91IGhhdmUgYWNjb3VudHMgd2l0aCBvdGhlciBTcHJpbmdlciBOYXR1cmUgam91cm5hbHMgdGhhdCBhcmUgbGlua2VkIHRvIHRoaXMgb25lLCB0aGV5IGhhdmUgYmVlbiB1cGRhdGVkIGFzIHdlbGwuPGJyPgo8YnI+CkxvZ2luIE5hbWUgLSBqb2xlZ3gwMGU1cmQ8YnI+Cjxicj4KWW91IGNhbiBub3cgdXNlIHRoZSBuZXcgcGFzc3dvcmQgdG8gbG9nIGluIGF0IDxhIGhyZWY9Imh0dHBzOi8vbXRzLW5tZXRoLm5hdHVyZS5jb20vY2dpLWJpbi9tYWluLnBsZXg/Zm9ybV90eXBlPWhvbWUiIHRhcmdldD0iX2JsYW5rIj5odHRwczovL210cy1ubWV0aC5uYXR1cmUuY29tL2NnaS1iaW4vbWFpbi5wbGV4PC9hPjxicj4KPGJyPgpOb3RlOiBUaGlzIGlzIGFuIGF1dG9tYXRlZCBtZXNzYWdlLiBQbGVhc2UgZG8gbm90IHJlcGx5Ljxicj4KSWYgeW91IGhhdmUgYW55IGlzc3VlcyBvciBjb25jZXJucywgcGxlYXNlIGNvbnRhY3QgdGhlIDxhIGhyZWY9Imh0dHBzOi8vZGlnaXRhbHN1Ym1pc3Npb25zLmZyZXNoZGVzay5jb20vc3VwcG9ydC90aWNrZXRzL25ldyI+UGxhdGZvcm0gU3VwcG9ydCBIZWxwZGVzazwvYT4uPGJyPgo8YnI+Ck1hbnkgdGhhbmtzLDxicj4KPGJyPgpQbGF0Zm9ybSBTdXBwb3J0IEhlbHBkZXNrIDxicj4KU3ByaW5nZXIgTmF0dXJlPGJyPgo8YnI+Cjxicj4KVGhpcyBlbWFpbCBoYXMgYmVlbiBhdXRvbWF0aWNhbGx5IHNlbnQgZnJvbSBNeSBTcHJpbmdlciBOYXR1cmUgQWNjb3VudC4gUGxlYXNlIGRvIG5vdCByZXNwb25kLjwvYm9keT4KPC9odG1sPgo=
+--_----------=_16892219451730310--
+

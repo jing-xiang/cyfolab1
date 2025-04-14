@@ -1,0 +1,217 @@
+Return-Path: <drwilsonmorgan8@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id 6JJDHialb2LPHgAAtf5whQ
+	(envelope-from <drwilsonmorgan8@gmail.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Mon, 02 May 2022 09:32:22 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:subject:message-id:date:from:reply-to:mime-version:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=ToXEw1SvLG/6SHJ9tVfn4dMHKbmZGI83QRj2cjPxUxQ=;	=?utf-8?q?b=3DoTIvjIy+DYs5?=
+ =?utf-8?q?vWOcE+opcFPogu66fPl0Bey+ahPgrmUQDHv+GfwFwlspbA2WYKHnfOh8WkccNfgik?=
+	 =?utf-8?q?z3UaM94SFjgJaDotSLmaDoJM6GmbFiwGAaHQVe4iTNveFjp8LoOc/XKk8NwSo5IU?=
+ =?utf-8?q?FTGN4V+ccBvxKd=09_OJd55s5jc+Srr0NtKJnRESggL77wKzm/D5/hHJOy3k4b02p?=
+ =?utf-8?q?/JRSMFb+WPFmWtu4k1L7Z/i0mKTx1cS=09_0ZzwpWFwgWAS4WorfduYlW2zR74NjP?=
+ =?utf-8?q?vctJEQna4n/KppBxrm4iPZXOrXrzWLNHCas/GGIQc8RYuIpA?=	
+ NNvA95qErPJIl4QMMoyc/b/3SqaxbIw==
+X-HalOne-SA: 13.4
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F21=2E626FA525=2E003E=2Css=3D1?=
+ =?utf-8?b?LHJlPTEuNzUwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD0xLGNsZD0xLGZncz0w?=
+X-HalOne-ID: c43cd8c7-c9fa-11ec-93c3-ec0d9a6ed98e
+Received: from mail-lf1-f53.google.com (mail-lf1-f53.google.com
+ [209.85.167.53])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ c43cd8c7-c9fa-11ec-93c3-ec0d9a6ed98e;	Mon, 02 May 2022 09:32:21 +0000 (UTC)
+Received: by mail-lf1-f53.google.com with SMTP id x17so24272606lfa.10       
+ for <johannes.olegard@cyfoexample.one.com>; Mon, 02 May 2022 02:32:21 -0700
+ (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:reply-to:from:date:message-id:subject:to;
+        bh=ToXEw1SvLG/6SHJ9tVfn4dMHKbmZGI83QRj2cjPxUxQ=;
+        b=mj+edHUggYhOmjp15ir+fg7H8mt2bqN3FWfSPwVPBoTrDCHN4T7gR9ARFvSJtjkriL
+         P5TVmp2HrjuN95IrGbHZ5LYagcKZci8TiRYUVhZQ470R+D9yznVlOydnpAAgwjQ/ujlt
+         TIEUywzC8dwqqAR/0buEqdarJj4zygzIIPnW42OPKhWJiHfn/vMXtIRwRG+5VtsTn6DI
+         TWYy5Sxgye6/iowX5L6UU2iiErKJa2J0KfbFKKXlyI/IQOciRHom8hxrmwsgsoQTsETY
+         FnWvtk7jO9lIjjbyGJxwZcsyKuMY8+hz1HCZEgeB0SQhKdsOdOIEfl23hzbiBAuVW1Df
+         0ecw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=ToXEw1SvLG/6SHJ9tVfn4dMHKbmZGI83QRj2cjPxUxQ=;
+        b=xeGhniN20WS88w9G+iYGpfncwW/mip9mGOkbB8zmaLMPNqDOGkdXXFkXm4vtzNGCGW
+         TVhHar85F4RglhfJ6Ql4iC6//EDewp/YYwq2XX5l2SZp6RbbqVlPk6iA2fLTOOQs910U
+         A3N/tuxMoIDR533zI9jaBzsjVztRHV8RPh0ZB62oYIh1nxwadOGfJjJism3prOQq1McK
+         y1vqVukzJSfywuDPWc71hR6UBP3AmQlVxYZkdtZQ4hkYAVmfmQxpcUuTNTcthhioXF9a
+         HTfo2D26QTr07Ov9kC11YVSHJXlWVbFPk2IbZt+YLcL7jW7H7/HXgHqDoaTfUIl79gcP
+         FmTA==
+X-Gm-Message-State: AOAM531N9wMUniKghbM/x3qO5XiEOfSDNd5f8O3pzF0NNxeUWm2a7+gk
+	H7iFTed5sKhrVjKoL25pT2oFTov5KxGsThV+e58=
+X-Google-Smtp-Source: =?utf-8?q?ABdhPJyj5CO/twAjZmI1RyxnfoqR86jLeEuLz18xIDV8?=
+ =?utf-8?q?6ROivmxmvXxWlMuAg/lCcshnNSYyyiGcLOsR6fDcZfrqN1I=3D?=
+X-Received: by 2002:a19:ca50:0:b0:471:f556:92b with SMTP id
+ h16-20020a19ca50000000b00471f556092bmr8413927lfj.587.1651483940673; Mon, 02
+ May 2022 02:32:20 -0700 (PDT)
+MIME-Version: 1.0
+Reply-To: mohammedboudet@aol.com
+From: "Mr. Mohammed Boudet" <drwilsonmorgan8@gmail.com>
+Date: Mon, 2 May 2022 02:31:47 -0700
+Message-ID:
+ <CAFEZ_U-KhQtAMjJQLa2Sbb4bueOv+XN5qxbFrYK_h3QH3yy+Wg@mail.gmail.com>
+Subject: Dear Friend
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="000000000000a2e26e05de04111a"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+--000000000000a2e26e05de04111a
+Content-Type: text/plain; charset="UTF-8"
+
+Dear Friend
+
+With due respect to your person and much sincerity of purpose, I make this
+contact with you as I believe that you can be of great assistance to me. My
+name is Mr. Mohammed Boudet from Ouagadougou Republic of BURKINA FASO, West
+Africa . Presently i work in the African development Bank as telex manager.
+I have been searching for your contact since you left our country some
+years ago.
+
+I do not know whether this is your correct email address or not because I
+only used your name initials to search for your contact .In case you are
+not the person I am supposed to contact, please see this as a confidential
+message and do not reveal it to another person but if you are not the
+intended receiver, do let me know whether you can be of assistance
+regarding my proposal below because it is top secret.
+
+I am about to retire from active Bank service to start a new life but I am
+skeptical to reveal this particular secret to a stranger. You must assure
+me that everything will be handled confidentially because we are not going
+to suffer again in life.
+
+It has been 10 years now that most of the greedy African Politicians used
+our bank to launder money overseas through the help of their Political
+advisers. Most of the funds which they transferred out of the shores of
+Africa were gold and oil money that was supposed to have been used to
+develop the continent. Their Political advisers always inflated the amounts
+before transfer to foreign accounts so I also used the opportunity to
+divert part of the funds hence I am aware that there is no official trace
+of how much was transferred as all the accounts used for such transfers
+were being closed after transfer.
+
+I acted as the Bank Officer to most of the politicians and when I
+discovered that they were using me to succeed in their greedy act; I also
+cleaned some of their banking records from the Bank files and none cared to
+ask me because the money was too much for them to control. They laundered
+over $5b Dollars during the process .As I am sending this message to you, I
+was able to divert thirty five million united state dollars ($35m) to an
+escrow account belonging to no one in the bank. The bank is anxious now to
+know who the beneficiary to the funds is because they have made a lot of
+profits with the funds.
+
+It is more than Eight years now and most of the politicians are no longer
+using our bank to transfer funds overseas. The ($35) Million Dollars has
+been laying waste but I don't want to retire from the bank without
+transferring the funds to a foreign account to enable me share the proceeds
+with the receiver. The money will be shared 60% for me and 40% for you..
+
+There is no one coming to ask you about the funds because I secured
+everything. I only want you to assist me by providing a bank account where
+the funds can be transferred. You are not to face any difficulties or legal
+implications as I am going to handle the transfer personally. If you are
+capable of receiving the funds, do let me know immediately to  enable me
+give you a detailed information on what to do.
+
+For me, I have not stolen the money from anyone because the other people
+that took the whole money did not face any problems. This is my chance also
+to grab my own but you must keep the details of the funds secret to avoid
+any leakages as no one in the bank knows about the funds.
+
+Please get back to me if you are interested and capable to handle this
+project I shall intimate you on what to do when I hear from your
+confirmation and acceptance. If you are capable of being my trusted
+associate, do declare your consent to me .
+
+Waiting for your urgent response.
+Yours Faithfully,
+Mr. Mohammed Boudet
+
+--000000000000a2e26e05de04111a
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BF<div=20dir=3D"ltr"><div=20dir=3D"ltr"><div>Dear=20Friend</div><div=
+><br></div><div>With=20due=20respect=20to=20your=20person=20and=20much=20si=
+ncerity=20of=20purpose,=20I=20make=20this=20contact=20with=20you=20as=20I=
+=20believe=20that=20you=20can=20be=20of=20great=20assistance=20to=20me.=20M=
+y=20name=20is=20Mr.=20Mohammed=20Boudet=20from=20Ouagadougou=20Republic=20o=
+f=20BURKINA=20FASO,=20West=20Africa=20.=20Presently=20i=20work=20in=20the=
+=20African=20development=20Bank=20as=20telex=20manager.=20I=20have=20been=
+=20searching=20for=20your=20contact=20since=20you=20left=20our=20country=20=
+some=20years=20ago.</div><div><br></div><div>I=20do=20not=20know=20whether=
+=20this=20is=20your=20correct=20email=20address=20or=20not=20because=20I=20=
+only=20used=20your=20name=20initials=20to=20search=20for=20your=20contact=
+=20.In=20case=20you=20are=20not=20the=20person=20I=20am=20supposed=20to=20c=
+ontact,=20please=20see=20this=20as=20a=20confidential=20message=20and=20do=
+=20not=20reveal=20it=20to=20another=20person=20but=20if=20you=20are=20not=
+=20the=20intended=20receiver,=20do=20let=20me=20know=20whether=20you=20can=
+=20be=20of=20assistance=20regarding=20my=20proposal=20below=20because=20it=
+=20is=20top=20secret.</div><div><br></div><div>I=20am=20about=20to=20retire=
+=20from=20active=20Bank=20service=20to=20start=20a=20new=20life=20but=20I=
+=20am=20skeptical=20to=20reveal=20this=20particular=20secret=20to=20a=20str=
+anger.=20You=20must=20assure=20me=20that=20everything=20will=20be=20handled=
+=20confidentially=20because=20we=20are=20not=20going=20to=20suffer=20again=
+=20in=20life.</div><div><br></div><div>It=20has=20been=2010=20years=20now=
+=20that=20most=20of=20the=20greedy=20African=20Politicians=20used=20our=20b=
+ank=20to=20launder=20money=20overseas=20through=20the=20help=20of=20their=
+=20Political=20advisers.=20Most=20of=20the=20funds=20which=20they=20transfe=
+rred=20out=20of=20the=20shores=20of=20Africa=20were=20gold=20and=20oil=20mo=
+ney=20that=20was=20supposed=20to=20have=20been=20used=20to=20develop=20the=
+=20continent.=20Their=20Political=20advisers=20always=20inflated=20the=20am=
+ounts=20before=20transfer=20to=20foreign=20accounts=20so=20I=20also=20used=
+=20the=20opportunity=20to=20divert=20part=20of=20the=20funds=20hence=20I=20=
+am=20aware=20that=20there=20is=20no=20official=20trace=20of=20how=20much=20=
+was=20transferred=20as=20all=20the=20accounts=20used=20for=20such=20transfe=
+rs=20were=20being=20closed=20after=20transfer.</div><div><br></div><div>I=
+=20acted=20as=20the=20Bank=20Officer=20to=20most=20of=20the=20politicians=
+=20and=20when=20I=20discovered=20that=20they=20were=20using=20me=20to=20suc=
+ceed=20in=20their=20greedy=20act;=20I=20also=20cleaned=20some=20of=20their=
+=20banking=20records=20from=20the=20Bank=20files=20and=20none=20cared=20to=
+=20ask=20me=20because=20the=20money=20was=20too=20much=20for=20them=20to=20=
+control.=20They=20laundered=20over=20$5b=20Dollars=20during=20the=20process=
+=20.As=20I=20am=20sending=20this=20message=20to=20you,=20I=20was=20able=20t=
+o=20divert=20thirty=20five=20million=20united=20state=20dollars=20($35m)=20=
+to=20an=20escrow=20account=20belonging=20to=20no=20one=20in=20the=20bank.=
+=20The=20bank=20is=20anxious=20now=20to=20know=20who=20the=20beneficiary=20=
+to=20the=20funds=20is=20because=20they=20have=20made=20a=20lot=20of=20profi=
+ts=20with=20the=20funds.</div><div><br></div><div>It=20is=20more=20than=20E=
+ight=20years=20now=20and=20most=20of=20the=20politicians=20are=20no=20longe=
+r=20using=20our=20bank=20to=20transfer=20funds=20overseas.=20The=20($35)=20=
+Million=20Dollars=20has=20been=20laying=20waste=20but=20I=20don&#39;t=20wan=
+t=20to=20retire=20from=20the=20bank=20without=20transferring=20the=20funds=
+=20to=20a=20foreign=20account=20to=20enable=20me=20share=20the=20proceeds=
+=20with=20the=20receiver.=20The=20money=20will=20be=20shared=2060%=20for=20=
+me=20and=2040%=20for=20you..</div><div><br></div><div>There=20is=20no=20one=
+=20coming=20to=20ask=20you=20about=20the=20funds=20because=20I=20secured=20=
+everything.=20I=20only=20want=20you=20to=20assist=20me=20by=20providing=20a=
+=20bank=20account=20where=20the=20funds=20can=20be=20transferred.=20You=20a=
+re=20not=20to=20face=20any=20difficulties=20or=20legal=20implications=20as=
+=20I=20am=20going=20to=20handle=20the=20transfer=20personally.=20If=20you=
+=20are=20capable=20of=20receiving=20the=20funds,=20do=20let=20me=20know=20i=
+mmediately=20to=C2=A0=20enable=20me=20give=20you=20a=20detailed=20informati=
+on=20on=20what=20to=20do.</div><div><br></div><div>For=20me,=20I=20have=20n=
+ot=20stolen=20the=20money=20from=20anyone=20because=20the=20other=20people=
+=20that=20took=20the=20whole=20money=20did=20not=20face=20any=20problems.=
+=20This=20is=20my=20chance=20also=20to=20grab=20my=20own=20but=20you=20must=
+=20keep=20the=20details=20of=20the=20funds=20secret=20to=20avoid=20any=20le=
+akages=20as=20no=20one=20in=20the=20bank=20knows=20about=20the=20funds.</di=
+v><div><br></div><div>Please=20get=20back=20to=20me=20if=20you=20are=20inte=
+rested=20and=20capable=20to=20handle=20this=20project=20I=20shall=20intimat=
+e=20you=20on=20what=20to=20do=20when=20I=20hear=20from=20your=20confirmatio=
+n=20and=20acceptance.=20If=20you=20are=20capable=20of=20being=20my=20truste=
+d=20associate,=20do=20declare=20your=20consent=20to=20me=20.</div><div><br>=
+</div><div>Waiting=20for=20your=20urgent=20response.</div><div>Yours=20Fait=
+hfully,</div><div>Mr.=20Mohammed=20Boudet</div><div><br></div></div></div>
+
+--000000000000a2e26e05de04111a--

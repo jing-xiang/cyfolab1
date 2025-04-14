@@ -1,0 +1,65 @@
+Return-Path: <plw@hk.bankcomm.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id ICIHB91ETmCGdQAAtf5whQ
+	(envelope-from <plw@hk.bankcomm.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Sun, 14 Mar 2021 17:16:13 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-transfer-encoding:content-type:mime-version:date:subject:from:	
+ reply-to:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=Cdohr98sS+1RZrGv2wh6dVPxr08YElXTQNF12z4JnKk=;	=?utf-8?q?b=3DkfYN7hG3GYe6?=
+ =?utf-8?q?VP4du8JvaAdSJwJS1xcwzUaYInDoiL7GIYs6JCtdOMLUByDPylO45pzWL61pu6+dk?=
+	 =?utf-8?q?VA4aNPOf+V8qjTjlNTARks+63SpjMoigckmURfAJHOfTcrnq9KswP2RsrDIT5K1p?=
+ =?utf-8?q?GvmVW53GI1/vdL=09_6hiktnyQSN7SEmd7Zs8TULxqnVZwDnq2VSulm5woQEy4C6K?=
+ =?utf-8?q?lGYIaYTMUhszIzg8/Ag6WgReW1fok3N=09_SuQc569SJulrQgeWeJStOD9N0JKqy6?=
+ =?utf-8?q?H1CFlajmCEOVR9suAqnuxjMUEk7+IV1TuTmkKtGNireb1OTC?=	
+ GYzlpd0hhWwAdGBW7F9hvu5GgJctB5g==
+X-HalOne-SA: 15
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F22=2E604E44D2=2E0022=2Css=3D4?=
+ =?utf-8?b?LHJlPTMuNTAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz04?=
+X-HalOne-ID: f0a1adc6-84e8-11eb-9849-e0d848974e01
+Received: from shared-c-q-t-oitenta-nove.viabrs.com.br
+ (shared-c-q-t-oitenta-nove.viabrs.com.br [177.53.143.90])	by
+ mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ f0a1adc6-84e8-11eb-9849-e0d848974e01;	Sun, 14 Mar 2021 17:16:02 +0000 (UTC)
+Received: from [209.58.188.75] (port=57484 helo=User)
+	by shared-c-q-t-oitenta-nove.viabrs.com.br with esmtpa (Exim 4.94)
+	(envelope-from <plw@hk.bankcomm.com>)
+	id 1lLSb2-0008Kz-Ci; Sun, 14 Mar 2021 12:24:01 -0300
+Reply-To: <hkbannkcomm1@gmail.com>
+From: "Philip Li Wong"<plw@hk.bankcomm.com>
+Subject: Business Relationship
+Date: Sun, 14 Mar 2021 16:24:05 +0100
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-AntiAbuse:
+ This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - shared-c-q-t-oitenta-nove.viabrs.com.br
+X-AntiAbuse: Original Domain - cyfoexample.one.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - hk.bankcomm.com
+X-Get-Message-Sender-Via: shared-c-q-t-oitenta-nove.viabrs.com.br:
+ authenticated_id: site@afolhanoticias.com.br
+X-Authenticated-Sender:
+ shared-c-q-t-oitenta-nove.viabrs.com.br: site@afolhanoticias.com.br
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+Glad to write to you. I avail myself of this opportunity to approach you for an establishment of a business relationship with you. I got your contact information through a home page in some comment directory on the Internet. And would like to discuss more with you about this opportunity. 
+
+I would like to send a summary of this business for your review. 
+
+Could you please take a few minutes of your time to revert back???
+
+Best Regards,
+Philip Li Wong.

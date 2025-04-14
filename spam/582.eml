@@ -1,0 +1,101 @@
+Return-Path: <gunter@passline.pe>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id KNfVFipxZWS5SgAAtf5whQ
+	(envelope-from <gunter@passline.pe>)
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 18 May 2023 00:28:26 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	=?utf-8?q?h=3Dmessage-id=3Amime-version=3Adate=3Asubject=3Acont?=
+ =?utf-8?q?ent-type=3Acontent-transfer-encoding=3A?=	
+ from:to:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=JDq5YgOZ4tiyQpmSalDK0bu8mH8b8uP5da+JunrPpcM=;	=?utf-8?q?b=3DPpou86NBr0ou?=
+ =?utf-8?q?sjSf/fQ2muF7NpCFnbLxknRrRFE1twmrvzUQVfsI2aXGPkUhoN1tnn4huKZcchL05?=
+	 =?utf-8?q?1HQ1OmmCgZTNrJli/6gDUPX2EQPxNdwLeqy4/xftl856Iht4SFH3owmMcn9ZrwUi?=
+ =?utf-8?q?CyWAJyGRiAAYOk=09_39bgAQndXDaOn2s6Y2nw9nkO3WdNujh6Qsw9NmD9xd1rdrX?=
+ =?utf-8?q?72dUI+KnCbS5GVuhut5WsoupoUIeF5h=09_Rt1+UmF576x57U7R5VqAgrgsEi68SA?=
+ =?utf-8?q?sFrUUvOmpsjpa8K3+lPu0OrogDWDj5T9hmjbG1kiV+n9cR7V?=	
+ H7U3umvj/crW7yAGA2Ft/CDu2lG4ykQ==
+X-HalOne-SA: 16.2
+X-HalOne-RefID: 155866::1684369705-B7328D2F-C266668F/3/6831309805
+X-HalOne-ID: e6b97f5c-f512-11ed-b866-ec0d9a6ed98e
+Received: from cp.passline.com (cp.passline.com [104.239.130.26])
+	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id e6b97f5c-f512-11ed-b866-ec0d9a6ed98e;
+	Thu, 18 May 2023 00:28:25 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=passline.pe
+	; s=default; h=Message-ID:MIME-Version:Date:Subject:Content-Type:
+	Content-Transfer-Encoding:From:To:Sender:Reply-To:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=JDq5YgOZ4tiyQpmSalDK0bu8mH8b8uP5da+JunrPpcM=; b=SmMrYUaKIWCrK5eAMDnqaSNVAX
+	6djlmP0ZeSsM2WblM0QfMa3p9DzvZgP/zn628+sLtKkdAbFRFX8NXPWLkchUbyT9bv4lxXOXSr0o3
+	QlTSvYuuSM9RPGYAro/m/vuFZNS2RK8PtCqRnBacw6PYg8fmaQtOn4buZjZSFJVYsi1eUO6cZjH8O
+	6BgwE3A1UTPtgJqYKxi88kBuVSV4vGJfFr1XVl34mfuzJKrg+T9XEG0tZM+AlpQuYoVwW8Y0IB4Vj
+	ktk+rND31Btcjc7pZu3Vf2AgUShEl5cmJncMXrZE7pElsYmVWk93AFKTaHD1y5+MCrH7xTZESdRCi
+	bgqRrkcw==;
+Received: from [103.99.189.12] (port=58635 helo=[127.0.0.1])	by
+ cp.passline.com with esmtpsa  (TLS1) tls TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA
+	(Exim 4.96)	(envelope-from <gunter@passline.pe>)	id 1pzRVI-0005Gh-0o	for
+ johannes.olegard@cyfoexample.one.com;	Wed, 17 May 2023 20:28:24 -0400
+To: johannes.olegard@cyfoexample.one.com
+From: Mariah Pennington <gunter@passline.pe>
+Content-Transfer-Encoding: 8bit
+Content-Type: text/plain; charset=UTF-8
+Subject: new bill
+Date: Thu, 18 May 2023 03:28:23 +0300
+MIME-Version: 1.0
+Message-ID: <22712278245125.1.7565Q3F53I5W5W47@passline.pe>
+X-Message-ID: 5599923031
+X-AntiAbuse:
+ This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - cp.passline.com
+X-AntiAbuse: Original Domain - cyfoexample.one.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - passline.pe
+X-Get-Message-Sender-Via:
+ cp.passline.com: authenticated_id: gunter@passline.pe
+X-Authenticated-Sender: cp.passline.com: gunter@passline.pe
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+Hello!
+
+I am a hacker who has access to your operating system.
+I also have full access to your account.
+
+I've been watching you for a few months now.
+The fact is that you were infected with malware through an adult site that you visited.
+
+If you are not familiar with this, I will explain.
+Trojan Virus gives me full access and control over a computer or other device.
+This means that I can see everything on your screen, turn on the camera and microphone, but you do not know about it.
+
+I also have an access to all your contacts and all your correspondence.
+
+Why your antivirus did not detect malware?
+Answer: My malware uses the driver, I update its signatures every 4 hours so that your antivirus is silent.
+
+I made a video showing how you satisfy yourself in the left half of the screen, and in the right half you see the video that you watched.
+With one click of the mouse, I can send this video to all your emails and contacts on social networks.
+I can also post access to all your e-mail correspondence and messengers that you use.
+
+If you want to prevent this,
+transfer the amount of $ 1300 to my bitcoin address (if you do not know how to do this, search in Google: "Buy Bitcoin").
+
+My bitcoin address (BTC Wallet) is: bc1qd8z4j0q7lydu7y7glz8mxq7607hf7lnr46lnq8
+
+After receiving the payment, I will delete the video and you will never hear me again.
+I give you 50 hours (more than 2 days) to pay.
+I have a notification of you reading this letter, and the timer will start right after you open it.
+
+Filing a complaint somewhere does not make sense because this email cannot be tracked like my bitcoin address.
+I do not make any mistakes.
+
+If I find that you have shared this message with someone else, the video will be immediately distributed.
+
+Best regards!
+

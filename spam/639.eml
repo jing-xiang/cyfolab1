@@ -1,0 +1,105 @@
+Return-Path: <augustineoniwon75@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx4.cst.mailpod12-cph3.one.com ([10.27.56.14])
+	by mailstorage27.cst.mailpod12-cph3.one.com with LMTP
+	id GLq0N6SomWUlUwAATK8Ghw
+	(envelope-from <augustineoniwon75@gmail.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Sat, 06 Jan 2024 19:23:16 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	h=message-id:reply-to:date:from:to:subject:content-description:	 
+ =?utf-8?q?content-transfer-encoding=3Amime-version=3Acontent-type=3Ax-halon?=
+ =?utf-8?q?e-refid=3Ax-halone-sa=3A?=	 from:x-halone-sa:x-halone-refid;
+	bh=3F0WHTdKzg7aVvpKqBx6YwxV/s20nS7O2fo1p+FjvRc=;	=?utf-8?q?b=3DF1RtICPrGZ16?=
+ =?utf-8?q?u9+WbAAQm0fD/p8EFv00flYo2ImE+8a6aJxa/H2HtDVX6WYJF221MPW/fMZO0g5NY?=
+	 =?utf-8?q?OJUzvJnleo3S+6a3gv5w+ydZQZA+K2443RhUTWfAXwx+qoTyTqdy7NACGvIBnKMt?=
+ =?utf-8?q?rdpWZ7qNNc+vk4=09_p+2LFqANp8+sDRFRORvl7k6dpdxVjALTWti+VdmiEuhJjgE?=
+ =?utf-8?q?/SROtPIs/G3qgy0Qx+R0clPMqsMaD7c=09_hiZvuq3DXPVPHJpyWhzXRHxFFSzurU?=
+ =?utf-8?q?8WHpRFhf6NzQxSCYooVIRmcBT0qkhZdC89pQJmwzhxCIRMs4?=	
+ j6FIb4xLKINZoLtXz3Md+bop2aZzQgA==
+X-HalOne-SA: 17.7
+X-HalOne-RefID: 155866::1704568996-6619E996-63C35C5C/3/7667636683
+Authentication-Results: mx4.pub.mailpod12-cph3.one.com;
+	spf=softfail smtp.mailfrom=gmail.com smtp.remote-ip=62.4.36.171;
+	dmarc=fail header.from=gmail.com;
+X-HalOne-ID: 0a5c5a54-acc9-11ee-a321-b07b25bf0102
+Received: from mail.laperlahospitality.com (unknown [62.4.36.171])
+	by mx4.pub.mailpod12-cph3.one.com (Halon) with ESMTPS
+	id 0a5c5a54-acc9-11ee-a321-b07b25bf0102;
+	Sat, 06 Jan 2024 19:23:16 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.laperlahospitality.com (Postfix) with ESMTP id 6BDF44F2669;
+	Sat,  6 Jan 2024 12:35:39 +0000 (UTC)
+Received: from mail.laperlahospitality.com ([127.0.0.1])	by localhost
+ (mail.laperlahospitality.com [127.0.0.1]) (amavisd-new, port 10032)	with
+ ESMTP id oeO1b8SfivbF; Sat,  6 Jan 2024 12:35:37 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.laperlahospitality.com (Postfix) with ESMTP id B0EF4E4753;
+	Sat,  6 Jan 2024 02:46:09 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at laperlahospitality.com
+Received: from mail.laperlahospitality.com ([127.0.0.1])	by localhost
+ (mail.laperlahospitality.com [127.0.0.1]) (amavisd-new, port 10026)	with
+ ESMTP id kMt_VtrHvbi9; Sat,  6 Jan 2024 02:46:02 +0000 (UTC)
+Received: from [192.168.67.157] (unknown [10.1.100.1])
+	by mail.laperlahospitality.com (Postfix) with ESMTPS id 8FA3244CD22;
+	Fri,  5 Jan 2024 23:52:01 +0000 (UTC)
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: HELLO>>
+To: Recipients <augustineoniwon75@gmail.com>
+From: augustineoniwon75@gmail.com
+Date: Sat, 06 Jan 2024 00:51:50 +0100
+Reply-To: philiptwe@gmail.com
+Message-Id: <20240105235202.8FA3244CD22@mail.laperlahospitality.com>
+
+I=20am=20the=20=20Private=20Secretary=20=20to=20Mrs=20=20Diezani=20Alison-M=
+adueke,=20an=20ex-Minister=20of=20Petroleum=20Resources.=20=20My=20Principa=
+l=20=20has=20a=20cash=20portfolio=20of=20about=20Five=20Hundred=20Million=
+=20dollars=20waiting=20for=20re-investment=20on=20any=20viable=20Project=20=
+in=20any=20area=20of=20Business=20Specialization=20for=20a=20renewable=20pe=
+riod=20of=205-10=20years=20with=20an=20estimated=20(ROI)=20Return=20on=20In=
+vestments=20of=20between=207-10%=20each=20financial=20year.=20The=20amount=
+=20earmarked=20=20for=20this=20Investment=20=20is=2028.5=20Million=20=20Uni=
+ted=20States=20Dollars
+
+We=20shall=20produce=20necessary=20Clearances=20=20and=20the=20fund=20will=
+=20be=20made=20available=20to=20you=20through=20=20bank=20=20=20as=20the=20=
+transaction=20is=20bank=20originated,=20legitimate=20and=20free=20from=20an=
+y=20encumbrances
+
+While=20managing=20the=20funds,=20you=20will=20also=20=20provide=20the=20ne=
+cessary=20protection=20for=20the=20investment=20by=20ensuring=20=20tied=20m=
+anagement=20to=20the=20vested=20capital=20in=20order=20to=20achieve=20the=
+=20best=20yield.
+
+
+From=20the=20foregoing,=20you=20are=20requested=20to=20=20provide=20us=20wi=
+th=20your=20Full=20Details,=20=20Country=20of=20would=20be=20Investment,=20=
+=20investment=20Plan=20Area=20as=20she=20=20has=20agreed=20=20=20of=20havin=
+g=20a=20=20Profit=20ratio=20of=2050%=20for=20both=20parties
+
+If=20this=20is=20=20received=20from=20you,=20we=20shall=20Peruse,=20Vet=20a=
+nd=20Provide=20to=20you=20=20a=20Non-Disclosure=20Agreement(NDA)=20=20to=20=
+be=20signed=20by=20both=20parties
+
+
+Please=20be=20informed=20that=20the=20investor=20is=20a=20politically=20exp=
+osed=20person=20and=20a=20business=20mogul,=20even=20though=20the=20investo=
+r=20is=20presently=20having=20a=20ruffle=20with=20the=20present=20governmen=
+t,=20the=20investor=20wants=20to=20invest=20these=20funds=20for=20fear=20of=
+=20confiscation=20by=20the=20present=20government,=20due=20to=20political=
+=20witch=20hunting,=20hence=20this=20investment=20should=20be=20handled=20d=
+iscreetly.=20
+
+
+Thank=20you=20for=20your=20anticipated=20cooperation=20and=20I=20look=20for=
+ward=20to=20your=20immediate=20response.
+
+
+Yours=20sincerely,
+
+
+Mr=20Richard=20Smith
+Private=20Secretary

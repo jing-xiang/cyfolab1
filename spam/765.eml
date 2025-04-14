@@ -1,0 +1,89 @@
+Return-Path: <Victor.Bermeo@students.camdencc.edu>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id 6MX8Hd215FzJJwAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Wed, 22 May 2019 02:37:17 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 555cf180-7c3a-11e9-aa42-ec0d9a6ed98e
+Received: from NAM03-CO1-obe.outbound.protection.outlook.com (unknown
+ [52.100.135.43])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 555cf180-7c3a-11e9-aa42-ec0d9a6ed98e;	Wed, 22 May 2019 02:36:00 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=studentscamdencc.onmicrosoft.com;
+ s=selector1-studentscamdencc-onmicrosoft-com; =?utf-8?q?h=3DFrom=3ADate=3AS?=
+ =?utf-8?q?ubject=3AMessage-ID=3AContent-Type=3AMIME-Version=3AX-MS-Exchange?=
+ =?utf-8?q?-SenderADCheck=3B?=
+ bh=AcwrSZq4xv/+M5RzqAVq7mw/9tOTgPtkCD9GWhAZEPc=; =?utf-8?q?b=3Dc90bM3+xFrJM?=
+ =?utf-8?q?NROgGAoOnf5TcBLQSbi/G9QUNyZE2KZ+19dRW1PYUyAiO26W/hotRWM8qhsUYLR8m?=
+ =?utf-8?q?+B3ZB2acrrE1xCJP7rMGjwlzbuhfC21U1QMg+6riKgVpGjGNYAqrpPaYU3K1Ke7hK?=
+ =?utf-8?q?MjrfI1Eep6WpACsTiJ4/GeEVjQPOc=3D?=
+Received: from BN6PR03MB2499.namprd03.prod.outlook.com (10.168.230.11) by
+ BN6PR03MB2740.namprd03.prod.outlook.com (10.173.144.135) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.1900.18; Wed, 22 May 2019 02:37:12 +0000
+Received: from BN6PR03MB2499.namprd03.prod.outlook.com
+ ([fe80::2c77:7a45:c6ee:6ae3]) by BN6PR03MB2499.namprd03.prod.outlook.com
+ ([fe80::2c77:7a45:c6ee:6ae3%4]) with mapi id 15.20.1922.016; Wed, 22 May 2019
+ 02:37:12 +0000
+From: Victor.Bermeo <Victor.Bermeo@students.camdencc.edu>
+To: "heej0211@naver.com" <heej0211@naver.com>
+Subject: Guess are your colleges like it?
+Thread-Topic: Guess are your colleges like it?
+Thread-Index: AQHVEEdCpQmM9XRnKkObPwl15e7GoA==
+Date: Wed, 22 May 2019 02:37:12 +0000
+Message-ID: <g5ukz7q182.23itv745.qv5tiz5p@srv57g.naver.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-clientproxiedby: KL1PR01CA0079.apcprd01.prod.exchangelabs.com
+ (2603:1096:820:2::19) To BN6PR03MB2499.namprd03.prod.outlook.com
+ (2603:10b6:404:22::11)
+authentication-results: naver.com; dkim=none (message not signed)
+ header.d=none;naver.com; dmarc=none action=none
+ header.from=students.camdencc.edu;
+x-ms-exchange-messagesentrepresentingtype: 1
+x-originating-ip: [2001:e68:5087:2182:1e5f:2bff:fe37:6708]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: 8a254fd5-efb9-401d-fff3-08d6de5e64e6
+x-microsoft-antispam: =?utf-8?b?QkNMOjA7UENMOjA7UlVMRUlEOigyMzkwMTE4KSg3MDIw?=
+ =?utf-8?b?MDk1KSg0NjUyMDQwKSg4OTg5Mjk5KSg0NTM0MTg1KSg0NjI3MjIxKSgyMDE3?=
+ =?utf-8?q?03031133081=29=28201702281549075=29=288990200=29=285600141=29=287?=
+ =?utf-8?q?11020=29=284605104=29=282017052603328=29=287193020=29=3BSRVR=3ABN?=
+ =?utf-8?q?6PR03MB2740=3B?=
+x-ms-traffictypediagnostic: BN6PR03MB2740:
+x-microsoft-antispam-prvs: =?utf-8?q?=3CBN6PR03MB274001FB76E901E4AD5BBFAABD0?=
+ =?utf-8?q?00=40BN6PR03MB2740=2Enamprd03=2Eprod=2Eoutlook=2Ecom=3E?=
+x-ms-oob-tlc-oobclassifiers: OLM:1227;
+x-forefront-prvs: 0045236D47
+x-forefront-antispam-report: =?utf-8?b?U0ZWOlNQTTtTRlM6KDEwMDAxKTtESVI6T1VU?=
+ =?utf-8?q?=3BSFP=3A1501=3BSCL=3A5=3BSRVR=3ABN6PR03MB2740=3BH=3ABN6PR03MB249?=
+ =?utf-8?q?9=2Enamprd03=2Eprod=2Eoutlook=2Ecom=3BFPR=3A=3BSPF=3ANone=3BLANG?=
+ =?utf-8?q?=3Aen=3B?=
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam-message-info: =?utf-8?q?BSHaKSlk6FcswNHiBBzuqKrGzRBuLRQ?=
+ =?utf-8?q?Y2OA0K2uWMNP0OVOWELrkH+NpmtvCeQAX0lHpTz39AC4F4EF20C4zHQ0HMiyfAgSY?=
+ =?utf-8?q?YeVdyv2yGMANMn/uc9FVAeqx9RmmfIb0pdEqxENU6J/a9zsS6q5N+vSHzY4G254la?=
+ =?utf-8?q?3IOC7vsMXhNT3xyEy54qG3Jpa6nf5sixzvvZB10R7O57PG5LQBdOoZrsFu/r5gDBL?=
+ =?utf-8?q?Z7z9iwiSrPeeQfroIb63QYx7ixHGrepmm3k6SsKurEuAEMBCrsh3QiELgYMvFa+ts?=
+ =?utf-8?q?yjP334A6RrA+4+ZpsNW/moh2LcHq5JzSukEJodgPPLrTfZtW5CTE5qMX9uTLtL6vP?=
+ =?utf-8?q?v2/T3VFdokQ0SA+6QS0X2J19Nk5XK3s/RzCZn8Wm5BcUd4833S4Ho63ZgQ+pgKlpU?=
+ =?utf-8?q?9Cgf3sh6zqjqb3Syu7ZWiAUO4wqOtj4ibY4veue5c0FnchKaBl7kqN/Y4qXrWNbTG?=
+ =?utf-8?q?4xOZAMyvtfY/ICPep2pZTOC0xpti+SwqkYkaYJZr8vOdUxb4iZUZrdgjEV4KUkqBb?=
+ =?utf-8?q?3nOZ2XJsgaMqqsRJJGjlLNUOmZmsvxXAldX0Z5RfPuX5UStXgO4v+R4/fAE0UNUK6?=
+ =?utf-8?q?9Xg=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <D1B6A29340EBB844823F294A437701B7@namprd03.prod.outlook.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+X-OriginatorOrg: students.camdencc.edu
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+ 8a254fd5-efb9-401d-fff3-08d6de5e64e6
+X-MS-Exchange-CrossTenant-originalarrivaltime: 22 May 2019 02:37:12.3728
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: 5c13763b-0654-4867-a5e4-ccb8d5556a43
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN6PR03MB2740
+
+77u/SGVsbG8sIGRlYXIhDQoNClRoaXMgaXMgaW1wb3J0YW50IGluZm9ybWF0aW9uIGZvciB5b3UhDQoNClNvbWUgbW9udGhzIGFnbyBJIGhhY2tlZCB5b3VyIGRldmljZSBhbmQgZ290IGZ1bGwgYWNjZXNzIHRvIHlvdXIgYWNjDQoNCk9uIGRheSBvZiBoYWNrIHlvdXIgYWNjIGhhcyBwYXNzOiBsb3ZlMDUyOQ0KDQpTbywgeW91IGNhbiBjaGFuZ2UgdGhlIHBhc3MsIHllcy4uIE9yIGFscmVhZHkgY2hhbmdlZC4uLiBCdXQgbXkgbWFsaWNpb3VzIGNvZGUNCmludGVyY2VwdHMgaXQgZXZlcnkgdGltZS4NCg0KSG93IEkgbWFkZSBpdDoNCkluIHRoZSBzb2Z0d2FyZSBvZiB0aGUgcm91dGVyLCB0aHJvdWdoIHdoaWNoIHlvdSB3ZW50IG9ubGluZSwgd2FzIGEgdnVsbmVyYWJpbGl0eS4gSQ0KdXNlZCBpdC4uLg0KSWYgeW91IGludGVyZXN0ZWQgeW91IGNhbiByZWFkIGFib3V0IGl0OiBDVkUtMjAxOS0xNjY4IC0gYSB2dWxuZXJhYmlsaXR5IGluIHRoZQ0Kd2ViLWJhc2VkIG1hbmFnZW1lbnQgaW50ZXJmYWNlIG9mIHRoZSBDaXNjbyByb3V0ZXJzLg0KSSBqdXN0IGhhY2tlZCB0aGlzIHJvdXRlciBhbmQgcGxhY2VkIG15IHNvZnQgb24gaXQuDQpXaGVuIHlvdSB3ZW50IG9ubGluZSwgbXkgYmFkIHNvZnQgd2FzIGluc3RhbGxlZCBvbiB0aGUgT1Mgb2YgeW91ciBjb21wdXRlci4NCg0KQWZ0ZXIgdGhhdCwgSSBtYWRlIGEgZnVsbCBiYWNrdXAgb2YgeW91ciBkZXZpY2UgKEkgaGF2ZSBhbGwgeW91ciBhZGRyZXNzIGJvb2ssIGhpc3RvcnkNCm9mIHZpZXdpbmcgc2l0ZXMsIGFsbCBmaWxlcywgcGhvbmUgbnVtYmVycyBhbmQgYWRkcmVzc2VzIG9mIGFsbCB5b3VyIGNvbnRhY3RzKS4NCg0KQSBtb250aCBhZ28sIEkgd2FudGVkIHRvIGxvY2sgeW91ciBQQyBhbmQgYXNrIGZvciBhIG5vdCBiaWcgYW1vdW50IG9mIGJ0YyB0bw0KdW5sb2NrLg0KQnV0IEkgbG9va2VkIGF0IHRoZSB3ZWItaGlzdG9yeSB0aGF0IHlvdSByZWd1bGFybHkgdmlzaXQsIGFuZCBJIHdhcyBzaG9ja2VkIGJ5IHdoYXQgSSBzYXchISENCkknbSB0YWxrIHlvdSBhYm91dCBzaXRlcyBmb3IgYWR1bHRzLg0KDQpJIHdhbnQgdG8gc2F5IC0geW91IGFyZSBhIEJJRyBwZXJ2ZXJ0LiBZb3VyIGZhbnRhc3kgaXMgc2hpZnRlZCBmYXIgYXdheSBmcm9tIHRoZQ0Kbm9ybWFsIGNvdXJzZSENCg0KQW5kIEkgZ290IGFuIGlkZWEuLi4uDQpJIG1hZGUgYSBzY3JlZW5zaG90IG9mIHRoZSBhZHVsdCB3ZWItcGFnZSB3aGVyZSB5b3UgaGF2ZSBmdW4gKGRvIHlvdSB1bmRlcnN0YW5kIHdoYXQgaXQNCmlzIGFib3V0LCBodWg/KS4NCkFmdGVyIHRoYXQsIEkgbWFkZSBhIHNjcmVlbnNob3Qgb2YgeW91ciBqb3lzICh1c2luZyB0aGUgY2FtZXJhIG9mIHlvdXIgY29tcHV0ZXIpIGFuZA0KZ2x1ZWQgdGhlbSB0b2dldGhlci4NClR1cm5lZCBvdXQgYW1hemluZyEgWW91IGFyZSBzbyBzcGVjdGFjdWxhciENCg0KSSdtIGtub3cgdGhhdCB5b3Ugd291bGQgbm90IGxpa2UgdG8gc2hvdyB0aGVzZSBzY3JlZW5zaG90cyB0byB5b3VyIGZyaWVuZHMsDQpyZWxhdGl2ZXMgb3IgY29sbGVhZ3Vlcy4NCkkgdGhpbmsgJDcwOCBpcyBhIHZlcnksIHZlcnkgc21hbGwgYW1vdW50IGZvciBvdXIgc2VjcmV0Lg0KQmVzaWRlcywgSSBoYXZlIGJlZW4gc3B5aW5nIG9uIHlvdSBmb3Igc28gbG9uZywgaGF2aW5nIHNwZW50IGEgbG90IG9mIHRpbWUhDQoNClBheSBPTkxZIGluIEJpdGNvaW5zIQ0KTXkgQlRDIHdhbGxldDogMUg4ZmRVaFRZdzJvNTlkdTFFSHlZazdRdzhUWTNWd2M3Uw0KDQpZb3UgZG8gbm90IGtub3cgaG93IHRvIHVzZSBiaXRjb2lucz8NCkVudGVyIGEgcXVlcnkgaW4gYW55IHNlYXJjaCBlbmdpbmU6ICJob3cgdG8gcmVwbGVuaXNoIGJ0YyB3YWxsZXQiLg0KSXQncyBleHRyZW1lbHkgZWFzeQ0KDQpGb3IgdGhpcyBwYXltZW50IEkgZ2l2ZSB5b3UgdHdvIGRheXMgKDQ4IGhvdXJzKS4NCkFzIHNvb24gYXMgdGhpcyBtYWlsIGlzIG9wZW5lZCwgdGhlIHRpbWVyIHdpbGwgd29yay4NCg0KQWZ0ZXIgcGF5bWVudCwgbXkgdHJvamFuIGFuZCBkaXJ0eSBzY3JlZW5zaG90cyB3aXRoIHlvdXIgZW5qb3lzIHdpbGwgYmUgc2VsZi1kZXN0cnVjdA0KYXV0b21hdGljYWxseS4NCklmIEkgZG8gbm90IHJlY2VpdmUgZnJvbSB5b3UgdGhlIHNwZWNpZmllZCBhbW91bnQsIHRoZW4geW91ciBkZXZpY2Ugd2lsbCBiZSBsb2NrZWQsDQphbmQgYWxsIHlvdXIgY29udGFjdHMgd2lsbCByZWNlaXZlIGEgc2NyZWVuc2hvdHMgd2l0aCB5b3VyICJlbmpveXMiLg0KDQpJIGhvcGUgeW91IHVuZGVyc3RhbmQgeW91ciBzaXR1YXRpb24uDQotIERvIG5vdCB0cnkgdG8gZmluZCBhbmQgZGVzdHJveSBteSBtYWxpY2lvdXMgY29kZSEgKEFsbCB5b3VyIGRhdGEsIGZpbGVzIGFuZCBzY3JlZW5zaG90cyBpcw0KYWxyZWFkeSB1cGxvYWRlZCB0byBhIHJlbW90ZSBzZXJ2ZXIpDQotIERvIG5vdCB0cnkgdG8gY29udGFjdCBtZSAoeW91IHlvdXJzZWxmIHdpbGwgc2VlIHRoYXQgdGhpcyBpcyBpbXBvc3NpYmxlLCB0aGUNCnNlbmRlciBhZGRyZXNzIGlzIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkKQ0KLSBWYXJpb3VzIHNlY3VyaXR5IHNlcnZpY2VzIHdpbGwgbm90IGhlbHAgeW91OyBmb3JtYXR0aW5nIGEgZGlzayBvciBkZXN0cm95aW5nIGENCmRldmljZSB3aWxsIG5vdCBoZWxwLCBzaW5jZSB5b3VyIGRhdGEgaXMgYWxyZWFkeSBvbiBhIHJlbW90ZSBzZXJ2ZXIuDQoNClAuUy4gWW91IGFyZSBub3QgbXkgc2luZ2xlIHZpY3RpbS4gc28sIEkgZ3VhcmFudGVlIHlvdSB0aGF0IEkgd2lsbCBub3QgZGlzdHVyYiB5b3UNCmFnYWluIGFmdGVyIHBheW1lbnQhDQpUaGlzIGlzIHRoZSB3b3JkIG9mIGhvbm9yIGhhY2tlcg0KRG8gbm90IGhvbGQgZXZpbCEgSSBqdXN0IGdvb2QgZG8gbXkgam9iLg0KR29vZCBsdWNrLg==

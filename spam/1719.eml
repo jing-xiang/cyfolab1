@@ -1,0 +1,108 @@
+Return-Path: <kw92011320@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id gJo9FldjI2G9EAAAtf5whQ
+	(envelope-from <kw92011320@gmail.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Mon, 23 Aug 2021 08:59:03 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:subject:message-id:date:from:reply-to:mime-version:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=4V3Er6vNAmMP+NU7cCDmuUzN8fwnKnTgl8GHhykRbNs=;	=?utf-8?q?b=3DEqHmqOKxnVHT?=
+ =?utf-8?q?+WjwMt0gIcRzMYDCq7iWErtx1z2Fu2TbeGsOLkT+LAEqPn1EBIR3AfHU/KSp+oJoU?=
+	 =?utf-8?q?RBoQNeS9Q+MzMM5upGgYgsrL+wTBY8iHzw/Vb3B2tzWXn7xGnzIWmcOtz0/12f/U?=
+ =?utf-8?q?ptfg9p8iJRybX8=09_sJ00qZDqm7fVuLlpaGix1RKUKv/HTcp+TJxj3oZMDtaCzWG?=
+ =?utf-8?q?SdRFME8Wlez5NpS4wHlIgfnGRU641Nu=09_nyujgX6lLnC9EajFFlZLvBSAyVxsG/?=
+ =?utf-8?q?ugY/c+oY5eifZEMF9w5RP5AEzka/UEJuTl5kjRlNFBT595mm?=	
+ QSgugWzTzWUPE2zu21TC2M8uaZndz8Q==
+X-HalOne-SA: 15.4
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F1D=2E61236357=2E000B=2Css=3D1?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD0xLGNsZD0xLGZncz0w?=
+X-HalOne-ID: 5c7f0a4b-03f0-11ec-b828-e0d84894a001
+Received: from mail-qk1-f181.google.com (mail-qk1-f181.google.com
+ [209.85.222.181])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 5c7f0a4b-03f0-11ec-b828-e0d84894a001;	Mon, 23 Aug 2021 08:59:02 +0000 (UTC)
+Received: by mail-qk1-f181.google.com with SMTP id 22so18447031qkg.2       
+ for <johannes.olegard@cyfoexample.one.com>; Mon, 23 Aug 2021 01:59:02 -0700
+ (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:reply-to:from:date:message-id:subject:to;
+        bh=4V3Er6vNAmMP+NU7cCDmuUzN8fwnKnTgl8GHhykRbNs=;
+        b=eZIN3vEGK5UBPILqTF+/Hlux5QZOym9Le8au6YJuFN4ljpswBP9kWsvoWmGbeMzuvG
+         lbYR/9JKj/S4FnqddYuyAvLvOMETC7KGRnUPehS8xGJIPCvnhx+dS5C+Mj2fEsw+uW/+
+         C4nle++yDki3l3bI6u/CBlL2+ShXlmn3uPWnPGOvxvN8rZ20El/T6D3vECPFiywiou/D
+         8M456I/KB/APRVQIBBjA7KADu1PxPlxIGQdfamWV/fGff3on8vb67eiO77ndvfB1iTEz
+         XQtiIkuJ4ziJK7wQV33BaaybbW40mlfqfSCajFElPJSOFpRkUqYCaleSUY1g1wgpDtGm
+         t7FQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=4V3Er6vNAmMP+NU7cCDmuUzN8fwnKnTgl8GHhykRbNs=;
+        b=To/ppWwZOMJaSGwD87dPFytEc4Pm6THa033StnavHqfbPnDWcdRZVWJOZ/xLGH1tPF
+         FcUF89OElsx+U8C9wOOpzVty51KuzaLRUdIWnO04hftM5w7JUxYHw+A3hFHi97UMhMc9
+         ZwHcC/L5ut31tRuumS4an+kdKXbFXQlTQ+DydrGLdzz1E7spitaj/AOVejIjHGKOaKLe
+         WyandMInhQH38j0e8RHOGJpysNfoFc3BbIEVqflONGoeJPd0cRh3KmgfUeZA7NSoNc6B
+         iz/hXUWnEtnhZkVWiKbjrY/brH7qWfQ5ZNs5bVzsc+MMUrLCCKgqZMdIe91xMc0l5uqN
+         aiuQ==
+X-Gm-Message-State: AOAM530yP9IfwNzlmqzZ3QIVP2zDtIcPXQ7WFn4bS2W+3OjublcJF266
+	cdimleE1RJ1WIhKDf0IUkeri7L73Qmhs0Q/sljs=
+X-Google-Smtp-Source: =?utf-8?q?ABdhPJwaZQKnzoyT/v4vq6zD8O3lyt0f8IniwsoyKfmt?=
+ =?utf-8?q?tErX6KCKXcRQihUqo5ZKjtYnp3arQnUgNjNpPbyCUnV2bs8=3D?=
+X-Received: by 2002:a05:620a:2008:: with SMTP id
+ c8mr16469329qka.493.1629709141359; Mon, 23 Aug 2021 01:59:01 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:ad4:55e2:0:0:0:0:0 with HTTP; Mon, 23 Aug 2021 01:59:00
+ -0700 (PDT)
+Reply-To: kennywilliams@kimo.com
+From: Kenneth Williams <kw92011320@gmail.com>
+Date: Mon, 23 Aug 2021 08:59:00 +0000
+Message-ID:
+ <CAPyv5ojs6zZAQ-6=APzH5hyBvpR5ghE-KB8y3mxp+gA=sviq-g@mail.gmail.com>
+Subject: Hello
+To: undisclosed-recipients:;
+Content-Type: text/plain; charset="UTF-8"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+-- 
+Dear,
+
+Greetings, to you. I have come across your name and contact as I
+search the mail for a very good partner.
+
+Briefly I will explain a business to you and if it would be to your
+interest, then we can move ahead to effectively build this business
+relationship.
+
+I have inherited the sum of 5 million dollars from my late father. The
+funds had been with a bank here in my country.
+
+As a result of some agreement clause, they could not release the funds
+to me here locally.
+
+In one occasion I went to the bank, a director of the bank called me
+and explained to me that even if I want to transfer the funds out to
+the account of a foreign partner, that it would take much time,
+lawyers and many expenses. He explained to me that the rigors are so
+much and most foreign partners might not be interested to involve in
+such expenditure because of the fear of scam.
+
+He advised me that, I can get a foreign partner but instead of
+transferring the funds to the account of the foreign partner, the bank
+will offer an ATM card to my partner.
+
+The ATM card is a PREMIUM PLATINUM CARD and this would allow us to
+make withdrawals of the fund in your country to the tune of
+50,000-100,000 dollars per day.
+
+He explained to me that the card is good and would be sent to the
+contact of my foreign partner by DHL or FEDEX.
+
+If you are interested to partner with me, please reach back to me for
+details and we can also discuss my investment plans.
+
+Kind Regards,
+Kenneth Williams.

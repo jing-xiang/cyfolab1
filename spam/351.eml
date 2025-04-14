@@ -1,0 +1,62 @@
+Return-Path: <info@roblackettesq.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id SIJHDPW/x1/JZwAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Wed, 02 Dec 2020 16:25:25 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-transfer-encoding:content-type:message-id:reply-to:subject:to:from:
+	
+ date:mime-version:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=SFxv0p/Aqn5qS4/qPNUn1NRPS8affa7J0KDINQYbSpc=;	=?utf-8?q?b=3DZH93M+nF/OCC?=
+ =?utf-8?q?DSH4md5RMlNSYOXI0Aef0dzFVDYwvlMO12MhDGf/+YAY+vBQkUL8UQUpMt+FFSCp3?=
+	 =?utf-8?q?WvXze8cvdPFgUj9TT+MYzCLKoZdmEQ2a+vgeLSizlg1xRtnmPzeIcFKDNDMxlCHR?=
+ =?utf-8?q?L0ampuEmuejIRG=09_WTqh6nEvkAhZJjbrBt9EyKbvGRr2hsn4cMMhwKIsADkeqCd?=
+ =?utf-8?q?/uBUmZ0KPQjDhnGPuYIVO7SZb0wO5dP=09_kAc8UI4aiz6g7WtSHPo0jZHszIRDKi?=
+ =?utf-8?q?240WUhwKRDVUMuPi/tvVAfWa+Xyl1QIRjLYJTTLW/gv+DhQg?=	
+ 2eOk27GShwnqDr+iKgZrVT5Qp8sx1JA==
+X-HalOne-SA: 8.7
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F20=2E5FC7BFF4=2E001E=2Css=3D1?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD0xLGNsZD0xLGZncz0w?=
+X-HalOne-ID: f9f6ff1f-34ba-11eb-ab1d-e0d84894a001
+Received: from cumblr.brandreviews.info (cumblr.brandreviews.info
+ [67.225.160.36])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ f9f6ff1f-34ba-11eb-ab1d-e0d84894a001;	Wed, 02 Dec 2020 16:25:24 +0000 (UTC)
+Received: from [::1] (port=35388 helo=cumblr.brandreviews.info)
+	by cumblr.brandreviews.info with esmtpa (Exim 4.93)
+	(envelope-from <info@roblackettesq.com>)
+	id 1kkUwA-000IXw-Ow; Wed, 02 Dec 2020 11:25:02 -0500
+MIME-Version: 1.0
+Date: Wed, 02 Dec 2020 11:25:02 -0500
+From: Robert Blackett Esq <info@roblackettesq.com>
+To: undisclosed-recipients:;
+Subject: Hello
+Reply-To: roblackett8@gmail.com
+User-Agent: Roundcube Webmail/1.4.8
+Message-ID: <41aab9732a675517b81720e01237bf02@roblackettesq.com>
+X-Sender: info@roblackettesq.com
+Content-Type: text/plain; charset=US-ASCII;
+ format=flowed
+Content-Transfer-Encoding: 7bit
+X-AntiAbuse:
+ This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - cumblr.brandreviews.info
+X-AntiAbuse: Original Domain - cyfoexample.one.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - roblackettesq.com
+X-Get-Message-Sender-Via:
+ cumblr.brandreviews.info: authenticated_id: info@smiledental.ae
+X-Authenticated-Sender: cumblr.brandreviews.info: info@smiledental.ae
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+
+Hello,
+
+I am writing to confirm if you received my previous email?
+
+Regards,
+
+Robert

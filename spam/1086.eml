@@ -1,0 +1,71 @@
+Return-Path: <frmendezp@uc.cl>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id 2OB0HbxOv2LUewAAtf5whQ
+	(envelope-from <frmendezp@uc.cl>)
+	for <johannes.olegard@cyfoexample.one.com>; Fri, 01 Jul 2022 19:45:00 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:subject:message-id:date:from:reply-to:mime-version:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=WgmfrkIN/6npX7WLa+fMdinc7jFfd6LdrL4jbc+FuiI=;	=?utf-8?q?b=3DqS0l7zdC+YIG?=
+ =?utf-8?q?W6+iz4TvPLYU5jH+gwxbEh469oFJecAwUAK9QZoFliu21EvR4JXM93FZWlwTiBVzS?=
+	 =?utf-8?q?T1f1dnSPOG2sJgUD6g8MzIjBKBgWFwICjtBNdQ8SREHdEP8SLss4+WuA0RH7yaDo?=
+ =?utf-8?q?aE99x4LX0J/C9Z=09_Iv/VX4bvZo/j0LrntQl0E6yugU6EjdseAlQntkvtvdgkE5v?=
+ =?utf-8?q?wx4wFEpfORMsXfnwuX7ocY/efD09YIV=09_VKWw9Ds7CibxrDjHENO++h9g8zEjTz?=
+ =?utf-8?q?gt+kXMeH7o4s6idwD6LJgpqkqL9HxG05vUPvQUoL8ZV+8W6E?=	
+ 9Cm9MaBjnv5n7norg7vIvujd+mxF2ag==
+X-HalOne-SA: 1
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F19=2E62BF4EBA=2E0015=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz04?=
+X-HalOne-ID: 49c63cf8-f976-11ec-93c5-ec0d9a6ed98e
+Received: from mail-ed1-f43.google.com (mail-ed1-f43.google.com
+ [209.85.208.43])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 49c63cf8-f976-11ec-93c5-ec0d9a6ed98e;	Fri, 01 Jul 2022 19:44:58 +0000 (UTC)
+Received: by mail-ed1-f43.google.com with SMTP id r18so4137463edb.9        for
+ <johannes.olegard@cyfoexample.one.com>; Fri, 01 Jul 2022 12:44:58 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=uc-cl.20210112.gappssmtp.com; s=20210112;
+        h=mime-version:reply-to:from:date:message-id:subject:to;
+        bh=WgmfrkIN/6npX7WLa+fMdinc7jFfd6LdrL4jbc+FuiI=;
+        b=GrUU4jJqKkctCf30YuegZhMYOSwQXjYv/2Ktp+L38BF9xLCcCjYGyrcq7ONjZQojzc
+         vRvjn9zPTeXMqOAlUr2ZFwFGVMhArGGsAw9/JCDE3acpKsaYU2tKFQZ8ngKrRVJWmqw1
+         NvBlXmXpuPDV/vJiiABW3+5f2MF2ZiZOsvb0gFVzyiVeJstqwrr1yYjG5xF+Hj3LusDc
+         QRiz1rO7YQxAAO2jEPooo8+8/d8yBzL9uLzz+T2JqrEAJGz2BB4vCG5z4ze9mKceIcXg
+         rytyl4DSur3SBpYcjv4z2roGrTwX4bxaCQAoDUB9c90935adXRNnDQsvPubbUxTtFOcQ
+         AxkA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=WgmfrkIN/6npX7WLa+fMdinc7jFfd6LdrL4jbc+FuiI=;
+        b=SJx7kKCngi67jfxm1tzALzeCKEpIXUHz4yMTYd3NgKZn+jKjB2Gy/yCzSq+qzwGaYS
+         FRAy1SxoGfWPt1uzEe3utoYF+1FFakR6Hbo5vkSwv81U1XeKkCiSzitsi+5qRrDDJfb5
+         VHJGknhD2OIVK9hmI1afYRHzgH+eu4uNAQ6mf0bux/6c1GlPueZsQY0FY9030Ql7Fq7F
+         dvRKk+FvxOcyS0LR5mYSSFXRffxkQUaXu8Ejx7AvXU+qikaWCYeXNG0uLec3rxi39P4z
+         idVZfMIo9tc5KGLh0Rp/ZEO8oSIdJEL73WtL5xeiny5Kd4mbIMd0dUy/CRCMghvqYnzw
+         JXxA==
+X-Gm-Message-State: AJIora+wTk/8KA91QuQq1Jhd+mRHbe63XC4W37W0FossesQqYYXLZ0Gr
+	cC9ylmYqSkyhziCD1hPezPR9QkNAPrAhKIf4EN2KUg==
+X-Google-Smtp-Source: =?utf-8?q?AGRyM1uDbkKTcdZYHaocRMxbFym/+Lr6Ud7u3Qt6R1gY?=
+ =?utf-8?q?nvp6mT/agqbrNd8IRIYO8S6d6YMLNfdOm4ITQmnSUvTIDHc=3D?=
+X-Received: by 2002:a05:6402:5191:b0:437:61ed:92c1 with SMTP id
+ q17-20020a056402519100b0043761ed92c1mr20692527edd.177.1656704697359; Fri, 01
+ Jul 2022 12:44:57 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:a05:640c:2a51:b0:177:4856:1030 with HTTP; Fri, 1 Jul 2022
+ 12:44:56 -0700 (PDT)
+Reply-To: mr.yihuimanbk@proton.me
+From: "Mr. Yi Huiman" <frmendezp@uc.cl>
+Date: Fri, 1 Jul 2022 12:44:56 -0700
+Message-ID:
+ <CANCOwPgKGF4tk_v=apX6sQt9DogQn+=qfzJdu7Zkc71Z3HkcmQ@mail.gmail.com>
+Subject: 
+To: undisclosed-recipients:;
+Content-Type: text/plain; charset="UTF-8"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+-- 
+I HAVE A PROPOSAL THAT WILL BE OF MONETARY AND MUTUAL BENEFIT FOR BOTH OF US.

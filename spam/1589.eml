@@ -1,0 +1,93 @@
+Return-Path: <jamesrodneyjamesrodney118@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id mE4fHV07FmHFbQAAtf5whQ
+	(envelope-from <jamesrodneyjamesrodney118@gmail.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Fri, 13 Aug 2021 09:29:01 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:subject:message-id:date:from:reply-to:mime-version:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=lhG6UAcHAUWcawR58atQRpiNo/95L0W0h9IExKtR0Sg=;	=?utf-8?q?b=3DHl8Mn5cPlxx5?=
+ =?utf-8?q?JbRIJggoAnlmjuqCP81Xsu9Ws1Bzyazi5U1m2XARqTnMsFsc4OOMkPu9m8WSB1lR4?=
+	 =?utf-8?q?BkqTg5nsVBdvouvePqaM+dMBZbkjYX5K4GudiS3HFjt5qyF9B56xR0Tu2A8XM+CR?=
+ =?utf-8?q?Pk6rBoO8Jw2aK5=09_YSjXJlxDvyMJVQ81PREIHTpu0H3e9fAmxX+hg73Etul+rxN?=
+ =?utf-8?q?AESQJF1BnOyIeJqg+zGCRY6l4eccPvr=09_9GD9MzYOHkVONWmfPyweOe/HZ5c3+w?=
+ =?utf-8?q?gEAPm6KFLwS0sdzJeDuVoqzwpUVBQ9GMkUe6LXLQFeFG0iZH?=	
+ MAlvdcIUQ4qTUqqjz2w8N5BTl6//yqg==
+X-HalOne-SA: 14.9
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F27=2E61163B5D=2E000E=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz0w?=
+X-HalOne-ID: e4108487-fc18-11eb-88cf-ec0d9a6ed98e
+Received: from mail-il1-f195.google.com (mail-il1-f195.google.com
+ [209.85.166.195])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ e4108487-fc18-11eb-88cf-ec0d9a6ed98e;	Fri, 13 Aug 2021 09:29:01 +0000 (UTC)
+Received: by mail-il1-f195.google.com with SMTP id f15so6158573ilk.4       
+ for <johannes.olegard@cyfoexample.one.com>; Fri, 13 Aug 2021 02:29:00 -0700
+ (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:reply-to:from:date:message-id:subject:to;
+        bh=lhG6UAcHAUWcawR58atQRpiNo/95L0W0h9IExKtR0Sg=;
+        b=W6GS60x1o2mlRl+EsGlkJdsUd0nFzRPtGQqnu2eptdIWMLmXybayCRo33ecqc/4Vlu
+         43CuBF5EE75JGgXJvReeO4QWZEsKLpa8j8wZIsqUX8/h/yyUKNdw/hyEr1wQ1EfXYqlc
+         i1iHz4386ZHZH85nmeB4s4VeplvFpfV7SZQeHNMQYZr+isTZ8JibHS+osRNOLJK2zD60
+         TOQ8IznXUCCNp62RYnNHzCpFXuOMVq9GF2OkK50lhPw4LgneynCedVyFAgUlIFg6ZXAx
+         XaX75Vgd7gU1E2seSck0/l1vs5SQUWobjHWihSChn0B0ZJ88txucq8WD48c3G+wZsSGm
+         PmbQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=lhG6UAcHAUWcawR58atQRpiNo/95L0W0h9IExKtR0Sg=;
+        b=dTuNFmuTxH1WZ1f/c7XlZ/zQ0hOBgkSZbFR0XWOVfpAAwOYHV//7xHJIbF7bRZl8K8
+         EKqUm2n/VsY33ZoQrflx9evN3a/O+h8UfBC8HwY/Q9lIyDIzLd36XYWqo4C/XKeCl28X
+         6IR4S1V8/SkfvbIDvIAMgg3Kma7dY+ApASQ4bYuA7Byr0+RccQmA3BZtT8YWKEiXT7QQ
+         rdIWsiJCEOCGipGk7APsVYEUKvqWrQ3rdVcMighGc5ah8FzUz4WFotJV3agPqs5ynybL
+         QkaI6nPKkb3THERgNWi0b9dI8KbP/Y2At0FxPDg7p8Z82ylkxhrjSBcd9kiEwH0/eH9s
+         MWZg==
+X-Gm-Message-State: AOAM532QO8mVg+OcY64wsA4AP5Y4+NIeRqV/iTGQ+AuS7i9/LPjpVcnW
+	VI67RvnH+CZjuZgX12GaHWkpNWc6GXj7//skSJA=
+X-Google-Smtp-Source: =?utf-8?q?ABdhPJwI8W2qSeS7Ey8txfDX0p+mp/Ou3xODB/azBZCU?=
+ =?utf-8?q?byeSDyh4umdTGZfIk73V6NUK6A8L61wtMd6ua9F9Kay9ZSg=3D?=
+X-Received: by 2002:a92:b748:: with SMTP id c8mr1161738ilm.302.1628846939402;
+ Fri, 13 Aug 2021 02:28:59 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:a6b:f913:0:0:0:0:0 with HTTP; Fri, 13 Aug 2021 02:28:59
+ -0700 (PDT)
+Reply-To: udehwilliams33@gmail.com
+From: Udeh williams <jamesrodneyjamesrodney118@gmail.com>
+Date: Fri, 13 Aug 2021 02:28:59 -0700
+Message-ID:
+ <CANi337xGUYaOacomQ3+nvd_kkeNZj4r9pqsZ2CZLQ8QjL2gU4w@mail.gmail.com>
+Subject: ATTENTION
+To: undisclosed-recipients:;
+Content-Type: text/plain; charset="UTF-8"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+-- 
+ATTENTION
+
+It is my pleasure to inform you that your funds is deposited in Money
+Gramremitting office here and we hereby write to inform you that we
+have sentyour full compensation payment of $1.5  million USD  through
+money gram andyou will be receiving $4,500 usd Per day and we have
+send you the first payment.
+So contact our director and ask him to give you the moneygram payment
+information so that you can be able to pick up your Firstpayment of
+your funds through money gram without any problem.
+Contact him with the bellow information.udehwilliams33@gmail.comAND
+CONTACT HIM WITH YOUR FULL INFORMATION.
+1. Full name .............
+2. Country...............
+3. Contact Address..........
+4. Telephone Number ......
+5. Marital Status ........
+.6. Occupation .............
+7. Company ..............
+8. Age...................
+ email him now so that He can provide the money gram information toyou.
+ director Udeh Williams
+Thanks and Remain Blessed

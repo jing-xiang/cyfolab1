@@ -1,0 +1,155 @@
+Return-Path: <ticket@shipping.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.cst.mailpod12-cph3.one.com ([10.27.56.12])
+	by mailstorage27.cst.mailpod12-cph3.one.com with LMTP
+	id mGikFL7sDmdLPwAATK8Ghw
+	(envelope-from <ticket@shipping.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 15 Oct 2024 22:29:18 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:mime-version:message-id:subject:reply-to:from:to:date:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=P55BbPMRIyuNUhecnz/FGqWTwUklM6Yt1P6Vcw4wroc=;	=?utf-8?q?b=3DqCBn7CvFKF1z?=
+ =?utf-8?q?7y3DLC9k+17NjRWAru1yCGvUCRA+HD8YUjiFxguCICKNCkJIvdgNxXTBiByP8KqNv?=
+	 =?utf-8?q?bCU0xjWVWQ16thwevJwsdMCl9ZbgtLacyGlzFeVFRAE3+igw6KyVE6NSgbhZ1tV8?=
+ =?utf-8?q?q19taeU5RNhNDi=09_+/1vgYON705ucRIDyQTFogJT4IWhFzsrT4dmKqyDKH0SoKK?=
+ =?utf-8?q?AGGJeRo4PWF5ymJg4HXz4lojwiDk9RU=09_LRLildrdJjgjwt1q388znHjnpMRp/n?=
+ =?utf-8?q?Yjyi8KKNMHkWRl+YlVy1oyOb+DmBwUbLn6LAcDqxRZMwjrjO?=	
+ y2Ia/ZTObVy1IT7zZRZz707MvTA1wDg==
+X-HalOne-SA: 11.8
+X-HalOne-RefID: 155866::1729031357-7622A4CA-B037D777/10/60417940413
+X-HalOne-Spam-Probability: 1
+Authentication-Results: mx2.pub.mailpod12-cph3.one.com;
+	spf=softfail smtp.mailfrom=shipping.com smtp.remote-ip=34.78.235.215;
+	dmarc=none header.from=shipping.com;
+X-HalOne-ID: ea0b29e8-8b44-11ef-b4de-b07b25bf0dea
+Received: from
+ cs-1017860253161-default.europe-west1-c.c.t71947723978b23cc-tp.internal
+ (215.235.78.34.bc.googleusercontent.com [34.78.235.215])	by
+ mx2.pub.mailpod12-cph3.one.com (Halon) with ESMTPS	id
+ ea0b29e8-8b44-11ef-b4de-b07b25bf0dea;	Tue, 15 Oct 2024 22:29:17 +0000 (UTC)
+Received: from cs-1017860253161-default (localhost [127.0.0.1])	by
+ cs-1017860253161-default.europe-west1-c.c.t71947723978b23cc-tp.internal
+ (Postfix) with ESMTP id 25C815A3779	for
+ <johannes.olegard@cyfoexample.one.com>; Tue, 15 Oct 2024 22:12:46 +0000 (UTC)
+Date: Tue, 15 Oct 2024 22:12:46 +0000
+To: johannes.olegard@cyfoexample.one.com
+From: Best IPTV <ticket@shipping.com>
+Reply-To: Jhone <iptvbusiness129@gmail.com>
+Subject: Get 24 Months IPTV for Less!
+Message-ID:
+ <iaBV4OVo0y14Vmdh9sAs8rjYIIjQbQBXE9qVkBF8@cs-1017860253161-default>
+X-Mailer: PHPMailer 6.9.2 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best IPTV - Your Gateway to Unlimited Entertainment</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #1a73e8;
+            text-align: center;
+        }
+
+        h2 {
+            color: #ff6f61;
+            text-align: center;
+        }
+
+        .cta-button {
+            background-color: #ff6f61;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+            font-size: 18px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .cta-button:hover {
+            background-color: #e5554d;
+        }
+
+        .features {
+            text-align: center;
+        }
+
+        .feature {
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #888;
+            margin-top: 20px;
+        }
+
+        .footer a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        .unsubscribe {
+            margin-top: 10px;
+            color: #888;
+        }
+
+        .social-links a {
+            margin: 0 5px;
+            color: #ff6f61;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Unlock 30,000+ Channels With Best IPTV</h1>
+        <h2>Your Ultimate Entertainment Hub: Sports, Movies, and More!</h2>
+        <p>If you&apos;re a sports fanatic, a movie enthusiast, or someone who enjoys international TV, <strong>Best IPTV</strong> brings you everything in one place! Get access to over <strong>30,000+ channels</strong> with stunning <strong>HD, FHD, and 4K</strong> quality, and support for all devices. Watch live sports, blockbuster movies, global TV shows, and more, wherever you are!</p>
+        <div class="features">
+            <div class="feature"><strong>For Sports Fans:</strong> Watch live matches from the biggest leagues and global sporting events!</div>
+            <div class="feature"><strong>For Movie Lovers:</strong> Enjoy a vast selection of the latest releases and timeless classics.</div>
+            <div class="feature"><strong>For International TV:</strong> Access channels from around the world&mdash;never miss your favorite shows again!</div>
+            <div class="feature"><strong>Not sure yet?</strong> Try us out with a <strong>FREE 24-Hour</strong> trial before you commit.</div>
+        </div><a href="http://bes7.omanibfs.com" class="cta-button"><span style="font-size: 20px;">Get the Best 24-Month Deal Now!</span></a>
+        <p style="text-align:center;"><strong>OR</strong></p><a href="http://hbwh3.omanibfs.com" class="cta-button"><span style="font-size: 20px;">Talk to Us on WhatsApp</span></a>
+        <p>For more information,<strong>&nbsp;Visit our website:</strong> <strong><span style="font-size: 20px; color: rgb(41, 105, 176);">www.bestiptv. us</span></strong><span style="font-size: 20px;">.</span> Start your journey into unlimited entertainment today!</p>
+        <div class="footer">
+            <p><strong>Best IPTV - Your Ultimate Streaming Solution</strong></p>
+            <p class="unsubscribe"><strong>Want to unsubscribe?</strong> <span style="color: rgb(209, 72, 65); font-size: 16px;"><a href="http://bestunsub8.omanibfs.com"><strong>Click here</strong></a></span>.</p>
+        </div>
+    </div>
+</body>
+
+</html>
+

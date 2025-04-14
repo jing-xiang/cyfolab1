@@ -1,0 +1,189 @@
+Return-Path: <jonesevamandy@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id ECArO6XL8GJELAAAtf5whQ
+	(envelope-from <jonesevamandy@gmail.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Mon, 08 Aug 2022 08:39:01 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:subject:message-id:date:from:reply-to:mime-version:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=Z0VHtad5YX0kCD4FTk3yfqmIID3yTQXbtIfulLtcDFo=;	=?utf-8?q?b=3Dzo1MVeAHElfu?=
+ =?utf-8?q?TQXwTAkT0krcBUj9OMH7+m93fi12m75CqDxilBEya3lbVh3+fvP4OmKHFFMzXGFan?=
+	 =?utf-8?q?lsCkWMsEJjEzWkTHkzvt5G5iN/T8FTZMRlfW2XgkPb1IDcL13Chleo2/m2LkvMyB?=
+ =?utf-8?q?ufHScpl0QKw395=09_nVCQxpp53xGBEPEgHw6MN07pzdPCLSK54+fVQ47XlG5ubIf?=
+ =?utf-8?q?kxNNrJ84JEX5H95MxkONoSDqzhNBUtP=09_tdZMmcW6b26TE8VfDXqXhwCuyrQ8+T?=
+ =?utf-8?q?5qWrMY2pICn8tr2BXUgDL3OMfCkaOxIaCMdzbLVu0VqWVexT?=	
+ E6jFJtdNwSQi3qw9CgSplYG3SAgOCPw==
+X-HalOne-SA: 15.5
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F26=2E62F0CBA5=2E0012=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz04?=
+X-HalOne-ID: 8cccaca3-16f5-11ed-974d-e0d84894a001
+Received: from mail-yb1-f194.google.com (mail-yb1-f194.google.com
+ [209.85.219.194])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 8cccaca3-16f5-11ed-974d-e0d84894a001;	Mon, 08 Aug 2022 08:39:01 +0000 (UTC)
+Received: by mail-yb1-f194.google.com with SMTP id 21so12593029ybf.4       
+ for <johannes.olegard@cyfoexample.one.com>; Mon, 08 Aug 2022 01:39:00 -0700
+ (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:subject:message-id:date:from:reply-to:mime-version:from:to:cc;
+        bh=Z0VHtad5YX0kCD4FTk3yfqmIID3yTQXbtIfulLtcDFo=;
+        b=lJC5wUP/4oKPnZha3rQ8alBb78iagrbR10ihqLkF/5y7SKdrI27j+OlZxNX0Vvo1dF
+         GyrLsOQKTF9ZM4OkeF55njW7Wwh+QqVvIyw+HsLyg4FX6yGHrpljuHgtqeCpyuw6HBPL
+         9VHsEMJlAn4Qmxc4SigXYVX9aQjbV/bPWU3WNFAmcrjrZ5oZXwiCOcJd4CNk2NZN9YUj
+         KLCgWDBcdJCJU103jmMVO6EQ80vrhG03ADe2OGS59jXjt0jiYeAYa5SDxN/iMt6tCHUB
+         cW1hAFN9DHhGoX6zDu6oaMGV7om+IDivSkayVjQ7allZKxK4UkD1SHQ7uKaQenpwKp0y
+         37Rw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:reply-to:mime-version
+         :x-gm-message-state:from:to:cc;
+        bh=Z0VHtad5YX0kCD4FTk3yfqmIID3yTQXbtIfulLtcDFo=;
+        b=weNdl8kn5oPcyAS3jW4FJHqV8iPEwkJazTcDyydH/FXMkY8DmJhyTmpiNJPeciKVIs
+         5hvproOb4WQsK7C4FqUYb2dL2WHipC4DHb5qrAUSKonK2ifF9b58PtW9g7kH5EIXFToS
+         gdvB0MYgCf+Cx4RdJexqJJFsszhkDVnQsp1CTUfn2FB/aohN1TuSYnOW4EDnxOlvaMem
+         8KX/JyzJGQcjpkHqC1ITADRZbmJwiKwGltE7I/j6VGBpLBuCzS33/2witviZsL74NYX2
+         N6xtPTwverRU54KzruzAmM+4BLrv+Xp5rWH/zqHw3xmD1y6+SmrMx/wBrX8b4+qc67a0
+         rqwg==
+X-Gm-Message-State: ACgBeo3gy9LEFzsAej3S1nfjXJ+7U/3vdtr7nuMy36mtbbZL5vyDxxMT
+	xR+LJnSBpLVQzktYYaCw3sNo79Ck5udr107ZjqU=
+X-Google-Smtp-Source: =?utf-8?q?AA6agR7wpLjxANU/tjBMnLQx8bBSRV7qgyhk27oNlOzV?=
+ =?utf-8?q?8vkjqXlZozfEY8ugnkP7NXwG39JMm6phsJspIwF9+DFMpZk=3D?=
+X-Received: by 2002:a05:6902:110b:b0:671:319a:f33d with SMTP id
+ o11-20020a056902110b00b00671319af33dmr14930566ybu.102.1659947939604; Mon, 08
+ Aug 2022 01:38:59 -0700 (PDT)
+MIME-Version: 1.0
+Reply-To: mrs.vinadecubo@gmail.com
+From: Vina Decubo <mrs.vinadecubo@gmail.com>
+Date: Mon, 8 Aug 2022 10:38:39 +0200
+Message-ID:
+ <CAFtgfxYcNrRagVvK48EbPS0mcmcLBL-e_YtBpnFYOueBecsG7Q@mail.gmail.com>
+Subject: re
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="000000000000492f4e05e5b6bf50"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+--000000000000492f4e05e5b6bf50
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BFGreetings
+
+I=20pray=20this=20email=20finds=20you=20in=20good=20health.=20I=20would=20l=
+ike=20to=20confide=20in=20you
+for=20your=20honesty=20and=20truth=20for=20progress.=20=20=20My=20name=20is=
+=20Mrs.=20Vina=20Decubo=20from
+South=20Africa,=20suffering=20from=20Cancer=20and=20I=20don=E2=80=99t=20hav=
+e=20a=20child=20of=20my=20own=20due
+to=20poor=20health=20from=20a=2042=20years=20period=20of=20married=20life,=
+=20my=20late=20husband=20was
+wealthy=20and=20after=20his=20death,=20I=20inherited=20his=20business=20and=
+=20money=20in=20the
+bank.=20The=20doctor=20has=20advised=20me=20that=20I=20may=20not=20live=20l=
+ong=20and=20warns=20me=20to
+stop=20thinking=20over=20who=20is=20going=20to=20inherit=20my=20money.=20=
+=20Based=20on=20that,=20today
+I=20have=20decided=20to=20donate=20and=20contribute=20to=20the=20less=20pri=
+vileged,=20charity
+homes,=20and=20orphanage=20homes.=20=20=20=20I=20am=20willing=20to=20donate=
+=20the=20sum=20of=20($5
+Million=20Dollars),=20to=20the=20less=20privileged=20of=20which=20you=20wil=
+l=20be=20responsible
+in=20taking=20care=20of=20the=20disbursement=20and=20sharing=20of=20this=20=
+money=20to=20the
+organizations,=20please=20I=20want=20you=20to=20note=20that=20this=20fund=
+=20is=20still=20with=20one
+of=20the=20known=20banks=20where=20my=20late=20husband=20deposited=20it.=20=
+I=20am=20going=20to=20advise
+my=20lawyer=20to=20change=20my=20last=20WILL=20to=20your=20name=20and=20fil=
+e=20an=20application=20for
+the=20transfer=20of=20the=20money=20in=20your=20name.=20Lastly,=20I=20hones=
+tly=20pray=20that=20this
+money=20when=20transferred=20to=20your=20account=20will=20be=20used=20for=
+=20the=20said=20purpose
+even=20though=20I=20am=20late=20then=20or=20alive,=20because=20I=20have=20c=
+ome=20to=20find=20out=20that
+wealth=20acquisition=20is=20not=20always=20the=20final=20thing=20in=20life=
+=20or=20death=20if=20you=20do
+not=20help=20people=20as=20well=20when=20they=20need=20it.
+
+I=20will=20provide=20you=20with=20more=20details=20after=20knowing=20your=
+=20willingness=20to
+handle=20the=20disbursement=20and=20sharing=20of=20this=20money=20to=20the=
+=20organizations.
+
+Thanks=20and=20God=20bless.
+
+Mrs.=20Vina=20Decubo
+
+--000000000000492f4e05e5b6bf50
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BF<div=20dir=3D"ltr"><p=20class=3D"MsoNormal"=20style=3D"margin:0in=
+=200in=200.0001pt;line-height:normal;font-size:11pt;font-family:Calibri,&qu=
+ot;sans-serif&quot;"><span=20style=3D"font-size:12pt;font-family:Arial,&quo=
+t;sans-serif&quot;">Greetings</span></p>
+
+<p=20class=3D"MsoNormal"=20style=3D"margin:0in=200in=200.0001pt;line-height=
+:normal;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span=20=
+style=3D"font-size:12pt;font-family:Arial,&quot;sans-serif&quot;">I=20pray=
+=20this=20email=20finds=20you=20in=20good
+health.=20I=20would=20like=20to=20confide=20in=20you=20for=20your=20honesty=
+=20and=20truth=20for
+progress.=C2=A0=C2=A0=20My=20name=20is=20Mrs.=20Vina=20Decubo=20from=20Sout=
+h=20Africa,=20suffering
+from=20Cancer=20and=20I=20don=E2=80=99t=20have=20a=20child=20of=20my=20own=
+=20due=20to=20poor=20health=20from=20a=2042
+years=20period=20of=20married=20life,=20my=20late=20husband=20was=20wealthy=
+=20and=20after=20his=20death,
+I=20inherited=20his=20business=20and=20money=20in=20the=20bank.=20The=20doc=
+tor=20has=20advised=20me=20that
+I=20may=20not=20live=20long=20and=20warns=20me=20to=20stop=20thinking=20ove=
+r=20who=20is=20going=20to=20inherit
+my=20money.=C2=A0=20Based=20on=20that,=20today=20I=20have=20decided=20to=20=
+donate=20and=20contribute=20to
+the=20less=20privileged,=20charity=20homes,=20and=20orphanage=20homes.=C2=
+=A0=C2=A0=C2=A0=20I=20am
+willing=20to=20donate=20the=20sum=20of=20($5=20Million=20Dollars),=20to=20t=
+he=20less=20privileged=20of
+which=20you=20will=20be=20responsible=20in=20taking=20care=20of=20the=20dis=
+bursement=20and=20sharing=20of
+this=20money=20to=20the=20organizations,=20please=20I=20want=20you=20to=20n=
+ote=20that=20this=20fund=20is
+still=20with=20one=20of=20the=20known=20banks=20where=20my=20late=20husband=
+=20deposited=20it.=20I=20am
+going=20to=20advise=20my=20lawyer=20to=20change=20my=20last=20WILL=20to=20y=
+our=20name=20and=20file=20an
+application=20for=20the=20transfer=20of=20the=20money=20in=20your=20name.=
+=20Lastly,=20I=20honestly=20pray
+that=20this=20money=20when=20transferred=20to=20your=20account=20will=20be=
+=20used=20for=20the=20said
+purpose=20even=20though=20I=20am=20late=20then=20or=20alive,=20because=20I=
+=20have=20come=20to=20find=20out
+that=20wealth=20acquisition=20is=20not=20always=20the=20final=20thing=20in=
+=20life=20or=20death=20if=20you
+do=20not=20help=20people=20as=20well=20when=20they=20need=20it.</span></p>
+
+<p=20class=3D"MsoNormal"=20style=3D"margin:0in=200in=200.0001pt;line-height=
+:normal;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span=20=
+style=3D"font-size:12pt;font-family:Arial,&quot;sans-serif&quot;">I=20will=
+=20provide=20you=20with=20more=20details
+after=20knowing=20your=20willingness=20to=20handle=20the=20disbursement=20a=
+nd=20sharing=20of=20this
+money=20to=20the=20organizations.</span></p>
+
+<p=20class=3D"MsoNormal"=20style=3D"margin:0in=200in=200.0001pt;line-height=
+:normal;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span=20=
+style=3D"font-size:12pt;font-family:Arial,&quot;sans-serif&quot;">Thanks=20=
+and=20God=20bless.</span></p>
+
+<p=20class=3D"MsoNormal"=20style=3D"margin:0in=200in=200.0001pt;line-height=
+:normal;font-size:11pt;font-family:Calibri,&quot;sans-serif&quot;"><span=20=
+style=3D"font-size:12pt;font-family:Arial,&quot;sans-serif&quot;">Mrs.=20Vi=
+na=20Decubo</span></p></div>
+
+--000000000000492f4e05e5b6bf50--

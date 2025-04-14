@@ -1,0 +1,72 @@
+Return-Path: <support@dgntrading.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id cLqMNMq6PWSZJwAAtf5whQ
+	(envelope-from <support@dgntrading.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Mon, 17 Apr 2023 21:31:54 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	=?utf-8?q?h=3Dcontent-transfer-encoding=3Acontent-type=3Amime-v?=
+ =?utf-8?q?ersion=3Amessage-id=3Areply-to=3Afrom=3A?=	
+ date:subject:to:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=Z4iuW+aoPzCb17yhYdmi6rdBgZS6d3JOkIfr3puogg8=;	=?utf-8?q?b=3D2zmTssIwtLSx?=
+ =?utf-8?q?Xqspu2Z4op7P9FHwkhLzO4SLCHjl/UULVeTEgjJGudgL2iBSl8vGwwDLcO1yegdtT?=
+	 =?utf-8?q?OSKp0Cs96HBoLRZ/q80JapbDje+u2bKpE/kd/DF7gOW9v1icWsIx3I88gM9k37RB?=
+ =?utf-8?q?qf/AdFAvkdB1mz=09_mTlFMCwbBOcccVO9cEorQteGUDuzgyEkX6f2CKFrZOateE+?=
+ =?utf-8?q?CQ7CRiDYh6vdQq0F8+0XBNAScwwlIJo=09_CwzrUgKsf1vmJe9H7fBSp9/qI0fLdZ?=
+ =?utf-8?q?H+bTgLZeVAeOEB8en/nIub9cFm9ZVuqLLwElwsRFQP7xGBb5?=	
+ f4T3RubZ3xfhUx5PK5GglMEXl+ZQyIQ==
+X-HalOne-SA: 13.4
+X-HalOne-RefID: 155866::1681767113-B92D5490-72679542/0/0
+X-HalOne-ID: 443436c0-dd67-11ed-b0de-ec0d9a6ed98e
+Received: from 5508338.addischamber.com (5508338.addischamber.com
+ [162.215.209.153])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 443436c0-dd67-11ed-b0de-ec0d9a6ed98e;	Mon, 17 Apr 2023 21:31:53 +0000 (UTC)
+Received: from dgntrad by 5508338.addischamber.com with local (Exim 4.96)
+	(envelope-from <support@dgntrading.com>)
+	id 1poWRs-0007Es-2M
+	for johannes.olegard@cyfoexample.one.com;
+	Tue, 18 Apr 2023 00:31:44 +0300
+To: johannes.olegard@cyfoexample.one.com
+Subject: INQUIRY!!!
+X-PHP-Script: dgntrading.com/wp-content/1D5GV4Zdr2u.php for 185.94.189.202
+X-PHP-Originating-Script: 1013:1D5GV4Zdr2u.php
+Date: Mon, 17 Apr 2023 16:31:44 -0500
+From: Jeffrey Kershaw <support@dgntrading.com>
+Reply-To: kershaw.jff01@gmail.com
+Message-ID: <05124adb2290a458c0250d92a7bcf935@dgntrading.com>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_05124adb2290a458c0250d92a7bcf935"
+Content-Transfer-Encoding: 8bit
+X-AntiAbuse:
+ This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - 5508338.addischamber.com
+X-AntiAbuse: Original Domain - cyfoexample.one.com
+X-AntiAbuse: Originator/Caller UID/GID - [1013 991] / [47 12]
+X-AntiAbuse: Sender Address Domain - dgntrading.com
+X-Get-Message-Sender-Via:
+ 5508338.addischamber.com: authenticated_id: dgntrad/from_h
+X-Authenticated-Sender: 5508338.addischamber.com: support@dgntrading.com
+X-Source: 
+X-Source-Args: php-fpm: pool dgntrading_com                             
+X-Source-Dir: dgntrading.com:/public_html/wp-content
+
+This is a multi-part message in MIME format.
+
+--b1_05124adb2290a458c0250d92a7bcf935
+Content-Type: text/plain; charset=us-ascii
+
+Pls, let me know if you got my previous email?
+
+
+--b1_05124adb2290a458c0250d92a7bcf935
+Content-Type: text/html; charset=us-ascii
+
+Pls, let me know if you got my previous email?
+
+
+
+--b1_05124adb2290a458c0250d92a7bcf935--
+

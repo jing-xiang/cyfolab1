@@ -1,0 +1,136 @@
+Return-Path: =?utf-8?q?=3C3YQTkXwoJEP42gxxzh98FEmsgor=2Eiuspungttky=2Eurkmgx?=
+ =?utf-8?q?juroyyulz=2Eius=40trix=2Ebounces=2Egoogle=2Ecom=3E?=
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id 0KJUBmQE5F/RWwAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 24 Dec 2020 03:00:52 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:from:subject:date:message-id:reply-to:mime-version:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=pQEtEA43ekYgoJPgfI+IZz0W8AhYt0enL6DI73/hJs8=;	=?utf-8?q?b=3DhLDM/hH9kseW?=
+ =?utf-8?q?YfdRAf5Q3GPeG3KtpXM4CL4KLqNqF1rtENnzkFHJ4+1D6OxMLa4K7ZnL5zM/4P+b9?=
+	 =?utf-8?q?y9sxOdxC2BHeJ2JslbBV13luWYq42bU13/WiEnwWyPl+o6FWo6fVDFhJCjjjdg7P?=
+ =?utf-8?q?9BQzdqo6k1N82t=09_j8FFMbTuuFa4/ZENeyhwRpExH1QotUk32qvq0M6GMkrJ73c?=
+ =?utf-8?q?TlZGb7/x3K/wa6sIDK2D9NI+aXI7mqX=09_J1dg1byuqJSzUx4wPSC5yLLPaMMCWL?=
+ =?utf-8?q?wCcMFTAOLAkgL6jkx+aNHDI3NG3iyfM3+WsUc/vdw0m7EfEI?=	
+ R7ttjsa0VbHY632XgrjJeCaNUo0I7OA==
+X-HalOne-SA: 7.3
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F15=2E5FE40463=2E0024=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxwdD1SXzc4MjkwOCxjbD00?=
+ =?utf-8?q?=2Ccld=3D1=2Cfgs=3D0?=
+X-HalOne-ID: 0f4d02b4-4594-11eb-bf1b-ec0d9a6ed98e
+Received: from mail-qk1-f207.google.com (mail-qk1-f207.google.com
+ [209.85.222.207])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 0f4d02b4-4594-11eb-bf1b-ec0d9a6ed98e;	Thu, 24 Dec 2020 02:59:38 +0000 (UTC)
+Received: by mail-qk1-f207.google.com with SMTP id c83so561582qkg.15       
+ for <johannes.olegard@cyfoexample.one.com>; Wed, 23 Dec 2020 19:00:51 -0800
+ (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:reply-to:message-id:date:subject:from:to;
+        bh=pQEtEA43ekYgoJPgfI+IZz0W8AhYt0enL6DI73/hJs8=;
+        b=i1fnCiYP0A1w3W0h9lcp3Pv0/cidvkgz9Pvv54KgnsrEsny+WEPWbMa1AwenpZwdgN
+         +Si3bLGu7YknrhDkL3U1ysl/y4U4TZRRulvoByK6OXMfrSX+I7BIUqtxrb9qOjOXK18G
+         sl6Uk6ONpGNMSZe9DZNVbUIgoLb3e4KKqiLV+cAuTwXmHxTOiIIvzFgs5b4GTPQaVZ9J
+         eDRkJnQRpjwxNIwjQqKQlT0II9hk1jRP07aU2HtK0wNj+KzNAV92bxwKEW2s8+ioOkwj
+         xQGukdXezXAjjBJlHYkMAFDVzyrSVycYMEzP5klvxV6Dfc+fpbbKsIX4WtsThpokg5Cf
+         Orjg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:message-id:date:subject
+         :from:to;
+        bh=pQEtEA43ekYgoJPgfI+IZz0W8AhYt0enL6DI73/hJs8=;
+        b=jD0jewIa9IdSO13nJ5QIKPMAZUgzze9nAxZV/DS7AzxTsZiP3VGROEijgcIfP6I+F2
+         pQgBMBWhj05oOyzY4EX/EjMTF5x5/BTSmafCMLlInymU2e69M75FYAGwItzZ09zoFXj/
+         wimq+jp8qflAr3DftM80Bn8lhAuTNCIDXJ5BhNWiKOMrzXikT4t2sJcBHTp84QTc4xcQ
+         UinTUtN31Ld484zlfzdcrVkA72U2kV8QfrvOhEZMuD5d/YwhpC3e+gOkhi91Zb+S695G
+         vBnn3DiWLyP+nZhb3LysA6Csq8Kj6087dtSGYSDPZrkIJmZVnI8Ij+MySWcOHkkjSJao
+         a7xw==
+X-Gm-Message-State: AOAM530pljIRrKLD0OZqBE6mCigGgeF67nX49lweXhfdmC7a6/1ZDKv1
+	Qs0zvIz8znYd7ndHi9C2RUDMQrBP8eaUkidfh+8=
+MIME-Version: 1.0
+X-Received: by 2002:ac8:67d3:: with SMTP id
+ r19mt26331129qtp.123.1608778849280; Wed, 23 Dec 2020 19:00:49 -0800 (PST)
+Reply-To: warrtb3298@gmail.com
+X-No-Auto-Attachment: 1
+Message-ID: <000000000000d575da05b72d03d6@google.com>
+Date: Thu, 24 Dec 2020 03:00:50 +0000
+Subject: Donation $2.5M Reply back to me here( wbuff5300@gmail.com )
+From: warrtb3298@gmail.com
+To: johannes.olegard@cyfoexample.one.com
+Content-Type: multipart/alternative; boundary="000000000000e2516205b72d030d"
+
+--000000000000e2516205b72d030d
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+77u/SSd2ZSBpbnZpdGVkIHlvdSB0byBmaWxsIG91dCB0aGUgZm9sbG93aW5nIGZvcm06DQpVbnRpdGxlZCBmb3JtDQoNClRvIGZpbGwgaXQgb3V0LCB2aXNpdDoNCmh0dHBzOi8vZG9jcy5nb29nbGUuY29tL2Zvcm1zL2QvZS8xRkFJcFFMU2N6MmJJSERfalFwaWZOa0RFQ1dEMk5wbUtZNHpxanBxV1FTN0V5V0J2dXRDVDUxUS92aWV3Zm9ybT92Yz0wJmFtcDtjPTAmYW1wO3c9MSZhbXA7ZmxyPTAmYW1wO3VzcD1tYWlsX2Zvcm1fbGluaw0KDQoNCg0KSGksDQoNCk15IG5hbWUgaXMgV2FycmVuIEUuIEJ1ZmZldHQgYW4gQW1lcmljYW4gYnVzaW5lc3MgbWFnbmF0ZSwgaW52ZXN0b3IgYW5kICANCnBoaWxhbnRocm9waXN0LiBhbSB0aGUgbW9zdCBzdWNjZXNzZnVsIGludmVzdG9yIGluIHRoZSB3b3JsZC4gSSBiZWxpZXZlICANCnN0cm9uZ2x5IGlu4oCYZ2l2aW5nIHdoaWxlIGxpdmluZ+KAmSBJIGhhZCBvbmUgaWRlYSB0aGF0IG5ldmVyIGNoYW5nZWQgaW4gbXkgIA0KbWluZCA/IHRoYXQgeW91IHNob3VsZCB1c2UgeW91ciB3ZWFsdGggdG8gaGVscCBwZW9wbGUgYW5kIGkgaGF2ZSBkZWNpZGVkIHRvICANCmdpdmUgeyQyLDUwMCwwMDAuMDB9IFR3byBNaWxsaW9uIEZpdmUgSHVuZHJlZCBUaG91c2FuZCBVbml0ZWQgRG9sbGFycywgdG8gIA0KcmFuZG9tbHkgc2VsZWN0ZWQgaW5kaXZpZHVhbHMgd29ybGR3aWRlLiBPbiByZWNlaXB0IG9mIHRoaXMgZW1haWwsIHlvdSAgDQpzaG91bGQgY291bnQgeW91cnNlbGYgYXMgdGhlIGx1Y2t5IGluZGl2aWR1YWwuDQoNCllvdXIgZW1haWwgYWRkcmVzcyB3YXMgY2hvc2VuIG9ubGluZSB3aGlsZSBzZWFyY2hpbmcgYXQgcmFuZG9tLiBLaW5kbHkgZ2V0ICANCmJhY2sgdG8gbWUgYXQgeW91ciBlYXJsaWVzdCBjb252ZW5pZW5jZSBiZWZvcmUgaSB0cmF2ZWwgdG8gamFwYW4gZm9yIG15ICANCnRyZWF0bWVudCAsIHNvIEkga25vdyB5b3VyIGVtYWlsIGFkZHJlc3MgaXMgdmFsaWQuRW1haWwgbWUuICggIA0Kd2J1ZmY1MzAwQGdtYWlsLmNvbSApDQoNCg0KVGhhbmsgeW91IGZvciBhY2NlcHRpbmcgb3VyIG9mZmVyLCB3ZSBhcmUgaW5kZWVkIGdyYXRlZnVsIFlvdSBDYW4gR29vZ2xlIG15ICANCm5hbWUgZm9yIG1vcmUgaW5mb3JtYXRpb246IFdhcnJlbiBCdWZmZXQgT1IgWW91IHZpc2l0IG15IHdlYnNpdGUgIA0KaHR0cHM6Ly9lbi53aWtpcGVkaWEub3JnL3dpa2kvV2FycmVuX0J1ZmZldHQNCg0KR29kIGJsZXNzIHlvdS4NCkJlc3QgUmVnYXJkDQpNci5XYXJyZW4gRS4gQnVmZmV0dCBCaWxsaW9uYWlyZSBpbnZlc3Rvcg0KDQoNCg0KDQpHb29nbGUgRm9ybXM6IENyZWF0ZSBhbmQgYW5hbHl6ZSBzdXJ2ZXlzLg0K
+--000000000000e2516205b72d030d
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BF<html><body=20style=3D"font-family:=20Roboto,Helvetica,Arial,sans-=
+serif;=20margin:=200;=20padding:=200;=20height:=20100%;=20width:=20100%;"><=
+table=20border=3D"0"=20cellpadding=3D"0"=20cellspacing=3D"0"=20style=3D"bac=
+kground-color:rgb(103,58,183);"=20width=3D"100%"=20role=3D"presentation"><t=
+body><tr=20height=3D"64px"><td=20style=3D"padding:=200=2024px;"><img=20alt=
+=3D"Google=20Forms"=20height=3D"26px"=20style=3D"display:=20inline-block;=
+=20margin:=200;=20vertical-align:=20middle;"=20width=3D"143px"=20src=3D"htt=
+ps://www.gstatic.com/docs/forms/google_forms_logo_lockup_white_2x.png"></td=
+></tr></tbody></table><div=20style=3D"padding:=2024px;=20background-color:r=
+gb(237,231,246)"><div=20align=3D"center"=20style=3D"background-color:=20#ff=
+f;=20border-bottom:=201px=20solid=20#e0e0e0;margin:=200=20auto;=20max-width=
+:=20624px;=20min-width:=20154px;padding:=200=2024px;"><table=20align=3D"cen=
+ter"=20cellpadding=3D"0"=20cellspacing=3D"0"=20style=3D"background-color:=
+=20#fff;"=20width=3D"100%"=20role=3D"presentation"><tbody><tr=20height=3D"2=
+4px"><td></td></tr><tr><td><span=20style=3D"display:=20table-cell;=20vertic=
+al-align:=20top;=20font-size:=2013px;=20line-height:=2018px;=20color:=20#42=
+4242;"=20dir=3D"auto"><br><br>Hi,<br><br>My=20name=20is=20Warren=20E.=20Buf=
+fett=20an=20American=20business=20magnate,=20investor=20and=20philanthropis=
+t.=20am=20the=20most=20successful=20investor=20in=20the=20world.=20I=20beli=
+eve=20strongly=20in=E2=80=98giving=20while=20living=E2=80=99=20I=20had=20on=
+e=20idea=20that=20never=20changed=20in=20my=20mind=20?=20that=20you=20shoul=
+d=20use=20your=20wealth=20to=20help=20people=20and=20i=20have=20decided=20t=
+o=20give=20{$2,500,000.00}=20Two=20Million=20Five=20Hundred=20Thousand=20Un=
+ited=20Dollars,=20to=20randomly=20selected=20individuals=20worldwide.=20On=
+=20receipt=20of=20this=20email,=20you=20should=20count=20yourself=20as=20th=
+e=20lucky=20individual.<br><br>Your=20email=20address=20was=20chosen=20onli=
+ne=20while=20searching=20at=20random.=20Kindly=20get=20back=20to=20me=20at=
+=20your=20earliest=20convenience=20before=20i=20travel=20to=20japan=20for=
+=20my=20treatment=20,=20so=20I=20know=20your=20email=20address=20is=20valid=
+.Email=20me.=20(=20wbuff5300@gmail.com=20)<br><br><br>Thank=20you=20for=20a=
+ccepting=20our=20offer,=20we=20are=20indeed=20grateful=20You=20Can=20Google=
+=20my=20name=20for=20more=20information:=20Warren=20Buffet=20OR=20You=20vis=
+it=20my=20website=20https://en.wikipedia.org/wiki/Warren_Buffett<br><br>God=
+=20bless=20you.<br>Best=20Regard<br>Mr.Warren=20E.=20Buffett=20Billionaire=
+=20investor<br><br><br></span></td></tr><tr=20height=3D"20px"><td></tr><tr=
+=20style=3D"font-size:=2020px;=20line-height:=2024px;"><td=20dir=3D"auto"><=
+a=20href=3D"https://docs.google.com/forms/d/e/1FAIpQLScz2bIHD_jQpifNkDECWD2=
+NpmKY4zqjpqWQS7EyWBvutCT51Q/viewform?vc=3D0&amp;c=3D0&amp;w=3D1&amp;flr=3D0=
+&amp;usp=3Dmail_form_link"=20style=3D"color:=20rgb(103,58,183);=20text-deco=
+ration:=20none;=20vertical-align:=20middle;=20font-weight:=20500">Untitled=
+=20form</a><div=20itemprop=3D"action"=20itemscope=20itemtype=3D"http://sche=
+ma.org/ViewAction"><meta=20itemprop=3D"url"=20content=3D"https://docs.googl=
+e.com/forms/d/e/1FAIpQLScz2bIHD_jQpifNkDECWD2NpmKY4zqjpqWQS7EyWBvutCT51Q/vi=
+ewform?vc=3D0&amp;c=3D0&amp;w=3D1&amp;flr=3D0&amp;usp=3Dmail_goto_form"><me=
+ta=20itemprop=3D"name"=20content=3D"Fill=20out=20form"></div></td></tr><tr=
+=20height=3D"24px"></tr><tr><td><table=20border=3D"0"=20cellpadding=3D"0"=
+=20cellspacing=3D"0"=20width=3D"100%"><tbody><tr><td><a=20href=3D"https://d=
+ocs.google.com/forms/d/e/1FAIpQLScz2bIHD_jQpifNkDECWD2NpmKY4zqjpqWQS7EyWBvu=
+tCT51Q/viewform?vc=3D0&amp;c=3D0&amp;w=3D1&amp;flr=3D0&amp;usp=3Dmail_form_=
+link"=20style=3D"border-radius:=203px;=20box-sizing:=20border-box;=20displa=
+y:=20inline-block;=20font-size:=2013px;=20font-weight:=20700;=20height:=204=
+0px;=20line-height:=2040px;=20padding:=200=2024px;=20text-align:=20center;=
+=20text-decoration:=20none;=20text-transform:=20uppercase;=20vertical-align=
+:=20middle;=20color:=20#fff;=20background-color:=20rgb(103,58,183);"=20targ=
+et=3D"_blank"=20rel=3D"noopener">Fill=20out=20form</a></td></tr></tbody></t=
+able></td></tr><tr=20height=3D"24px"></tr></tbody></table></div><table=20al=
+ign=3D"center"=20cellpadding=3D"0"=20cellspacing=3D"0"=20style=3D"max-width=
+:=20672px;=20min-width:=20154px;"=20width=3D"100%"=20role=3D"presentation">=
+<tbody><tr=20height=3D"24px"><td></td></tr><tr><td><a=20href=3D"https://doc=
+s.google.com/forms?usp=3Dmail_form_link"=20style=3D"color:=20#424242;=20fon=
+t-size:=2013px;">Create=20your=20own=20Google=20Form</a></td></tr></tbody><=
+/table></div></body></html>
+--000000000000e2516205b72d030d--

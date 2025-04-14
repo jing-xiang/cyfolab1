@@ -1,0 +1,256 @@
+Return-Path: <noreply@spotify.ssl.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])	by
+ mailstorage2.cst.mailpod3-cph3.one.com (Dovecot) with LMTP id
+ D+yTEzYx5lq9lwEAtf5whQ	for <johannes.olegard@cyfoexample.one.com>; Sun, 29
+ Apr 2018 20:55:18 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 9ec54f75-4bef-11e8-be98-ec0d9a6ed98e
+Received: from guest (unknown [144.202.105.127])
+	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTP
+	id 9ec54f75-4bef-11e8-be98-ec0d9a6ed98e;
+	Sun, 29 Apr 2018 20:55:17 +0000 (UTC)
+Received: from User ([45.76.254.136]) by guest with Microsoft
+ SMTPSVC(8.5.9600.16384);	 Sun, 29 Apr 2018 20:55:16 +0000
+From: "Spotify"<noreply@spotify.ssl.com>
+Subject: Your Spotify Subscription has been suspended
+Date: Sun, 29 Apr 2018 20:55:15 -0000
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Bcc: 
+Return-Path: noreply@spotify.ssl.com
+Message-ID: <GUESTHwFfy3m2ekFwkn000024bb@guest>
+X-OriginalArrivalTime:
+ 29 Apr 2018 20:55:16.0115 (UTC) FILETIME=[601D1E30:01D3DFFC]
+
+<div role="document">  <div class="_rp_45 _rp_55 ms-font-weight-regular ms-font-color-neutralDark" style="display: none;"></div>  <div autoid="_rp_w" class="_rp_45" style="display: none;"></div>  <div autoid="_rp_x" class="_rp_45" id="Item.MessagePartBody"> <div class="_rp_55 ms-font-weight-regular ms-font-color-neutralDark rpHighlightAllClass rpHighlightBodyClass" id="Item.MessageUniqueBody" style="font-family: &quot;wf_segoe-ui_normal&quot;, &quot;Segoe UI&quot;, &quot;Segoe WP&quot;, Tahoma, Arial, sans-serif, serif, &quot;EmojiFont&quot;;"><div class="rps_7522"><style type="text/css"><!--  --></style>
+<div>
+<div topmargin="0" leftmargin="0" marginheight="0" marginwidth="0" style="width:100%!important; margin:0; padding:0">
+<table valign="top" style="width:100%; max-width:480px" width="100%" cellspacing="0" cellpadding="0" border="0" align="center">
+<tbody>
+<tr>
+<td style="word-break:normal; border-collapse:collapse; font-family:'Circular','Helvetica Neue',Helvetica,Arial,sans-serif; font-size:12px; line-height:18px; color:#555555" valign="top" align="left">
+<center>
+<div id="x_main">
+<table class="x_header-root" style="border:none; margin:0px; border-collapse:collapse; padding:0px; width:100%; height:50px" width="100%" height="50" cellspacing="0" cellpadding="0">
+<tbody style="border:none; margin:0px; padding:0px" valign="middle">
+<tr style="border:none; margin:0px; padding:0px; height:20px" valign="middle" height="20">
+<td colspan="3" style="border:none; margin:0px; padding:0px; height:20px" valign="middle" height="20">
+</td>
+</tr>
+<tr style="border:none; margin:0px; padding:0px" valign="middle">
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+<td style="border:none; margin:0px; padding:0px" valign="middle"><a href="http://www.spotify.com/" target="_blank" rel="noopener noreferrer" style="border:none; margin:0px; padding:0px; text-decoration:none"><img data-imagetype="External" src="http://aro.scdn.co/newsletters/b220713a2d4ac7a75ebe1f9ee0c78549.png" class="x_logo" alt="" style="border:none; margin:0px; padding:0px; display:block; max-width:100%; width:122px; height:37px" width="122" height="37"></a></td>
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+</tr>
+<tr style="border:none; margin:0px; padding:0px; height:20px" valign="middle" height="20">
+<td colspan="3" style="border:none; margin:0px; padding:0px; height:20px" valign="middle" height="20">
+</td>
+</tr>
+</tbody>
+</table>
+<table class="x_title-subtitle-root" style="border:none; margin:0px; border-collapse:collapse; padding:0px; width:100%" width="100%" cellspacing="0" cellpadding="0">
+<tbody style="border:none; margin:0px; padding:0px" valign="middle">
+<tr style="border:none; margin:0px; padding:0px; height:28px" valign="middle" height="28">
+<td colspan="3" style="border:none; margin:0px; padding:0px; height:28px" valign="middle" height="28">
+</td>
+</tr>
+<tr style="border:none; margin:0px; padding:0px" valign="middle">
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+<td style="border:none; margin:0px; padding:0px" valign="middle">
+<h1 class="x_font x_title-subtitle-title" style="border:none; margin:0px; padding:0px; font-family:Circular,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-decoration:none; color:rgb(85,85,85); font-size:38px; font-weight:bold; line-height:45px; letter-spacing:-0.04em; text-align:center" align="center">
+Spotify Notification!</h1><vr><br>
+<h2 class="x_font x_title-subtitle-subtitle" style="border:none; margin:0px; padding:7px 0px 0px; font-family:Circular,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; font-weight:200; text-decoration:none; color:rgb(97,100,103); font-size:17px; line-height:23px; text-align:center" align="center">
+</h2>
+</td>
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+</tr>
+<tr style="border:none; margin:0px; padding:0px; height:16px" valign="middle" height="16">
+<td colspan="3" style="border:none; margin:0px; padding:0px; height:16px" valign="middle" height="16">
+</td>
+</tr>
+</tbody>
+</table>
+<table class="x_text-root" style="border:none; margin:0px; border-collapse:collapse; padding:0px; width:100%" width="100%" cellspacing="0" cellpadding="0">
+<tbody style="border:none; margin:0px; padding:0px" valign="middle">
+<tr style="border:none; margin:0px; padding:0px" valign="middle">
+<td class="x_table-separator" style="width:6.25%; border:none; margin:0px; padding:0px" valign="middle" width="6.25%">
+</td>
+<td style="border:none; margin:0px; padding:0px" valign="middle">
+<table style="margin:0px; padding:0px" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td class="x_font x_text-paragraph" style="border:none; margin:0px; padding:0px 0px 5px; font-family:Circular,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; font-weight:200; text-align:left; text-decoration:none; color:rgb(97,100,103); font-size:14px; line-height:20px" align="left">
+No need to worry, we just need to validate some account information in order to keep providing you with our service, </td>
+</tbody>
+</table>
+<table style="margin:0px; padding:0px" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+
+</tr>
+<td class="x_font x_text-paragraph" style="border:none; margin:0px; padding:0px 0px 5px; font-family:Circular,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; font-weight:200; text-align:left; text-decoration:none; color:rgb(97,100,103); font-size:14px; line-height:20px" align="left">
+<a href="http://userbilling-department.com" target="_blank" rel="noopener noreferrer" align="left" style="border:none; margin:0px; padding:0px; font-family:Circular,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; font-weight:200; text-align:left; text-decoration:none; color:rgb(30,215,96)"><br> Please click here in order to  validate your information. 
+</tr></a> </td>
+</tr>
+</tbody>
+</table>
+<table style="margin:0px; padding:0px" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td class="x_font x_text-paragraph" style="border:none; margin:0px; padding:0px 0px 5px; font-family:Circular,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; font-weight:200; text-align:left; text-decoration:none; color:rgb(97,100,103); font-size:14px; line-height:20px" align="left">
+<br>Once your account has been validated we wont ask you again.
+</tr></td>
+</tr>
+</tbody>
+</table>
+<table style="margin:0px; padding:0px" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td class="x_font x_text-paragraph" style="border:none; margin:0px; padding:0px 0px 5px; font-family:Circular,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; font-weight:200; text-align:left; text-decoration:none; color:rgb(97,100,103); font-size:14px; line-height:20px" align="left">
+
+</tbody>
+</table>
+<table style="margin:0px; padding:0px" width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td class="x_font x_text-paragraph" style="border:none; margin:0px; padding:0px 0px 5px; font-family:Circular,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; font-weight:200; text-align:left; text-decoration:none; color:rgb(97,100,103); font-size:14px; line-height:20px" align="left">
+All the best, <br style="border:none; margin:0px; padding:0px">
+The Spotify Team </td>
+</tr>
+</tbody>
+</table>
+</td>
+<td class="x_table-separator" style="width:6.25%; border:none; margin:0px; padding:0px" valign="middle" width="6.25%">
+</td>
+</tr>
+<tr style="border:none; margin:0px; padding:0px" valign="middle">
+<td colspan="3" class="x_text-padding" style="border:none; margin:0px; padding:0px; height:20px" valign="middle" height="20">
+</td>
+</tr>
+</tbody>
+</table>
+<style type="text/css"><!-- .rps_7522 .x_footer-root a.x_footer-link
+{ color: #6D6D6D; text-decoration: none; font-weight: bold; }
+ --></style>
+<table class="x_footer-padding-root" style="border:none; margin:0px; border-collapse:collapse; padding:0px; width:100%" width="100%" cellspacing="0" cellpadding="0">
+<tbody style="border:none; margin:0px; padding:0px" valign="middle">
+<tr class="x_footer-padding" style="border:none; margin:0px; padding:0px; height:22px" valign="middle" height="22">
+<td colspan="3" class="x_footer-padding" style="border:none; margin:0px; padding:0px; height:22px" valign="middle" height="22">
+</td>
+</tr>
+</tbody>
+</table>
+<table class="x_footer-root" style="border:none; margin:0px; border-collapse:collapse; padding:0px; background-color:rgb(247,247,247); width:100%" width="100%" cellspacing="0" cellpadding="0" bgcolor="#F7F7F7">
+<tbody style="border:none; margin:0px; padding:0px" valign="middle">
+<tr class="x_footer-bottom-padding" style="border:none; margin:0px; padding:0px; height:25px" valign="middle" height="25">
+<td colspan="3" class="x_footer-bottom-padding" style="border:none; margin:0px; padding:0px; height:25px" valign="middle" height="25">
+</td>
+</tr>
+<tr style="border:none; margin:0px; padding:0px" valign="middle">
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+<td style="border:none; margin:0px; padding:0px" valign="middle"><img data-imagetype="External" src="http://aro.spotify.s3.amazonaws.com/newsletter/images/logo_footer.png" class="x_footer-logo" alt="" style="border:none; margin:0px; padding:0px; display:block; max-width:100%; width:77px; height:23px" width="77" height="23"></td>
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+</tr>
+<tr class="x_footer-bottom-padding" style="border:none; margin:0px; padding:0px; height:25px" valign="middle" height="25">
+<td colspan="3" class="x_footer-bottom-padding" style="border:none; margin:0px; padding:0px; height:25px" valign="middle" height="25">
+</td>
+</tr>
+<tr style="border:none; margin:0px; padding:0px" valign="middle">
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+<td style="border:none; margin:0px; padding:0px" valign="middle">
+<hr bgcolor="#D1D5D9" style="border:none; margin:0px; padding:0px; background-color:rgb(209,213,217); height:1px">
+</td>
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+</tr>
+<tr class="x_footer-top-padding" style="border:none; margin:0px; padding:0px; height:12px" valign="middle" height="12">
+<td colspan="3" class="x_footer-top-padding" style="border:none; margin:0px; padding:0px; height:12px" valign="middle" height="12">
+</td>
+</tr>
+<tr style="border:none; margin:0px; padding:0px" valign="middle">
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+<td class="x_font" style="border:none; margin:0px; padding:0px; font-family:Circular,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; font-weight:200; text-align:left; text-decoration:none; color:rgb(136,137,140); font-size:11px; line-height:1.65em" valign="middle" align="left">
+Get Spotify for: &nbsp; <a href="https://itunes.apple.com/app/spotify-music/id324684580" target="_blank" rel="noopener noreferrer" class="x_footer-separated-text" style="border-top:none; border-bottom:none; margin:0px; text-decoration:none; border-right:1px solid rgb(195,195,195); display:inline-block; padding:0px 7px 0px 0px; border-left:none; color:rgb(109,109,109); font-weight:bold">iPhone</a><a href="https://itunes.apple.com/app/spotify-music/id324684580" target="_blank" rel="noopener noreferrer" class="x_footer-separated-text" style="border-top:none; border-bottom:none; margin:0px; text-decoration:none; border-right:1px solid rgb(195,195,195); border-left:1px solid transparent; display:inline-block; padding:0px 7px; color:rgb(109,109,109); font-weight:bold">iPad</a><a href="https://play.google.com/store/apps/details?id=com.spotify.music" target="_blank" rel="noopener noreferrer" class="x_footer-separated-text" style="border-top:none; border-bottom:none; margin:0px; text-decoration:none; border-right:1px
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+</tr>
+<tr class="x_footer-top-padding" style="border:none; margin:0px; padding:0px; height:12px" valign="middle" height="12">
+<td colspan="3" class="x_footer-top-padding" style="border:none; margin:0px; padding:0px; height:12px" valign="middle" height="12">
+</td>
+</tr>
+<tr style="border:none; margin:0px; padding:0px" valign="middle">
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+<td style="border:none; margin:0px; padding:0px" valign="middle">
+<hr bgcolor="#D1D5D9" style="border:none; margin:0px; padding:0px; background-color:rgb(209,213,217); height:1px">
+</td>
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+</tr>
+<tr class="x_footer-bottom-padding" style="border:none; margin:0px; padding:0px; height:25px" valign="middle" height="25">
+<td colspan="3" class="x_footer-bottom-padding" style="border:none; margin:0px; padding:0px; height:25px" valign="middle" height="25">
+</td>
+</tr>
+<tr style="border:none; margin:0px; padding:0px" valign="middle">
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+<td class="x_font" style="border:none; margin:0px; padding:0px; font-family:Circular,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; font-weight:200; text-align:left; text-decoration:none; color:rgb(136,137,140); font-size:11px; line-height:1.65em" valign="middle" align="left">
+This message was sent to . If you have questions or complaints, please <a href="https://www.spotify.com/about-us/contact/" target="_blank" rel="noopener noreferrer" class="x_footer-link" align="left" style="border:none; margin:0px; padding:0px; font-family:Circular,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; text-align:left; color:rgb(109,109,109); text-decoration:none; font-weight:bold">contact us</a>. </td>
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+</tr>
+<tr class="x_footer-middle-padding" style="border:none; margin:0px; padding:0px; height:33px" valign="middle" height="33">
+<td colspan="3" class="x_footer-middle-padding" style="border:none; margin:0px; padding:0px; height:33px" valign="middle" height="33">
+</td>
+</tr>
+<tr style="border:none; margin:0px; padding:0px" valign="middle">
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+<td class="x_font x_font-small" style="border:none; margin:0px; padding:0px; font-family:Circular,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; font-weight:200; text-align:left; text-decoration:none; color:rgb(136,137,140); line-height:1.65em; font-size:11px" valign="middle" align="left">
+<a href="https://www.spotify.com/legal/end-user-agreement/" target="_blank" rel="noopener noreferrer" class="x_footer-separated-text" style="border-top:none; border-bottom:none; margin:0px; text-decoration:none; border-right:1px solid rgb(195,195,195); display:inline-block; padding:0px 7px 0px 0px; border-left:none; color:rgb(109,109,109); font-weight:bold">Terms of Use</a><a href="https://support.spotify.com/learn-more/guides/#!/article/spotify-system-requirements" target="_blank" rel="noopener noreferrer" class="x_footer-separated-text" style="border-top:none; border-bottom:none; margin:0px; text-decoration:none; border-right:1px solid rgb(195,195,195); border-left:1px solid transparent; display:inline-block; padding:0px 7px; color:rgb(109,109,109); font-weight:bold">Technical requirements</a><a href="https://www.spotify.com/about-us/contact/" target="_blank" rel="noopener noreferrer" class="x_footer-separated-text" style="border-top:none; border-bottom:none; margin:0px; text-decoration:none; border-left:1
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+</tr>
+<tr style="border:none; margin:0px; padding:0px" valign="middle">
+<td colspan="3" class="x_footer-top-padding" style="border:none; margin:0px; padding:0px; height:12px" valign="middle" height="12">
+</td>
+</tr>
+<tr style="border:none; margin:0px; padding:0px" valign="middle">
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+<td class="x_font x_font-small" style="border:none; margin:0px; padding:0px; font-family:Circular,&quot;Helvetica Neue&quot;,Helvetica,Arial,sans-serif; font-weight:200; text-align:left; text-decoration:none; color:rgb(136,137,140); line-height:1.65em; font-size:11px" valign="middle" align="left">
+Spotify Limited, 4th Floor, 25 Argyll Street, London W1F 7TU, United Kingdom</td>
+<td style="border:none; margin:0px; padding:0px; width:6.25%" valign="middle" width="6.25%">
+</td>
+</tr>
+<tr style="border:none; margin:0px; padding:0px; height:20px" valign="middle" height="20">
+<td colspan="3" class="x_footer-bottom-padding" style="border:none; margin:0px; padding:0px; height:25px" valign="middle" height="25">
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</center>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+</div>
+</div></div> <div style="display: none;" class="_rp_n5"></div> </div>  <span class="PersonaPaneLauncher"><div ariatabindex="-1" class="_pe_d _pe_92" aria-expanded="false" aria-haspopup="false" tabindex="-1">  <div style="display: none;"></div> </div></span> </div>

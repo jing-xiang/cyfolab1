@@ -1,0 +1,26 @@
+Return-Path: <smtptest@eliteukserve.net>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id ID6cHm8xl11mIQAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Fri, 04 Oct 2019 11:47:59 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: cfd8adce-e69c-11e9-b72c-e0d84894a001
+Received: from gcs-smtp.eliteukserve.net (gcs-smtp-b.eliteukserve.net
+ [217.68.242.95])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ cfd8adce-e69c-11e9-b72c-e0d84894a001;	Fri, 04 Oct 2019 11:47:59 +0000 (UTC)
+Received: from [151.80.174.46] ([151.80.174.46])
+	(authenticated bits=0)
+	by gcs-smtp.eliteukserve.net (8.14.4/8.14.4) with ESMTP id x94BkJQM003644;
+	Fri, 4 Oct 2019 12:46:27 +0100
+Message-Id: <201910041146.x94BkJQM003644@gcs-smtp.eliteukserve.net>
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: Re:Donation
+To: INFO <smtptest@eliteukserve.net>
+From: "Allied Inc" <smtptest@eliteukserve.net>
+Date: Fri, 04 Oct 2019 04:46:27 -0700
+Reply-To: castrategy@gmail.com
+
+You=20have=20received=20a=20donation.=20Reply=20now=20for=20details.

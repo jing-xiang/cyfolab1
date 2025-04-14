@@ -1,0 +1,188 @@
+Return-Path: <admin@niigata.doyu.jp>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id iC5oInkg6GQ4QAAAtf5whQ
+	(envelope-from <admin@niigata.doyu.jp>)
+	for <johannes.olegard@cyfoexample.one.com>; Fri, 25 Aug 2023 03:31:05 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	=?utf-8?q?h=3Dcontent-transfer-encoding=3Acontent-type=3Amime-v?=
+ =?utf-8?q?ersion=3Amessage-id=3Adate=3Asubject=3A?=	
+ to:from:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=4c+cm3p3dEgxg9IIC4MQUkeSkJTeFYXO178Bgtmipxk=;	=?utf-8?q?b=3DH/jgPfQXIHJq?=
+ =?utf-8?q?GAUw+RINjdOSHHntb6nDOpkFB20zImx43hthKHvAiZLVMSQyMPjoX2lkt+JYrr0dM?=
+	 =?utf-8?q?UN3xQLLU14x6UBGIFkaFOt/OQK0FEE1Q+FPpOeA68JFkn0x02hPLUcYYnQuTzIGd?=
+ =?utf-8?q?mYx/7+vtnGLVib=09_zrGtjbf79QVt4KXsrsXYbWn5fl6Xv6LTZrCc+MfzVLskYlL?=
+ =?utf-8?q?+hhMiA/nJcRPhS4V7780lBZWVYC+P9L=09_vwMXPlZF4ssydizlfV52gxnQ4kqOGe?=
+ =?utf-8?q?grBdr05MRC/HLo4gX4iYkhRBuujGvOlz0+VdZ/7SgDXUyBh8?=	
+ if+XV3DYdtjWZCnQRcDN/8HZW2ggjjQ==
+X-HalOne-SA: 17
+X-HalOne-RefID: 155866::1692934263-F047AF79-BC9208F9/3/7625234210
+Authentication-Results: mx1.pub.mailpod3-cph3.one.com;
+	spf=invalid smtp.mailfrom=niigata.doyu.jp smtp.remote-ip=116.80.18.106;
+	dmarc=none header.from=cyfoexample.one.com;
+X-HalOne-ID: cfca550d-42f7-11ee-9a56-e0d84894a001
+Received: from niigata.doyu.jp (niigata.doyu.jp [116.80.18.106])
+	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id cfca550d-42f7-11ee-9a56-e0d84894a001;
+	Fri, 25 Aug 2023 03:31:03 +0000 (UTC)
+Received: (qmail 35674 invoked by VF by uid 0); 25 Aug 2023 12:30:58 +0900
+Received: from unknown (HELO ?116.80.18.106?)
+ (admin@niigata.doyu.jp@157.7.69.216)  by dc107.etius.jp (116.80.18.106) with
+ ESMTPA; 25 Aug 2023 12:30:58 +0900
+From: johannes.olegard@cyfoexample.one.com
+To: johannes.olegard@cyfoexample.one.com
+Subject: You have an outstanding payment. #7366236
+Date: 25 Aug 2023 12:30:58 +0900
+Message-ID: <20230825123058.C9144A13300B7EC6@cyfoexample.one.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BFHello=20there!
+
+=20
+
+Unfortunately,=20there=20are=20some=20bad=20news=20for=20you.
+Around=20several=20months=20ago=20I=20have=20obtained=20access=20to=20your=
+=20devices=20that=20you=20were=20using=20to=20browse=20internet.
+Subsequently,=20I=20have=20proceeded=20with=20tracking=20down=20internet=20=
+activities=20of=20yours.
+
+=20
+
+Below,=20is=20the=20sequence=20of=20past=20events:
+In=20the=20past,=20I=20have=20bought=20access=20from=20hackers=20to=20numer=
+ous=20email=20accounts=20(today,=20that=20is=20a=20very=20straightforward=
+=20task=20that=20can=20be=20done=20online).
+Clearly,=20I=20have=20effortlessly=20logged=20in=20to=20email=20account=20o=
+f=20yours=20=20johannes.olegard@cyfoexample.one.com.
+
+=20
+
+A=20week=20after=20that,=20I=20have=20managed=20to=20install=20Trojan=20vir=
+us=20to=20Operating=20Systems=20of=20all=20your=20devices=20that=20are=20us=
+ed=20for=20email=20access.
+Actually,=20that=20was=20quite=20simple=20(because=20you=20were=20clicking=
+=20the=20links=20in=20inbox=20emails).
+All=20smart=20things=20are=20quite=20straightforward.=20(>_<)
+
+=20
+
+The=20software=20of=20mine=20allows=20me=20to=20access=20to=20all=20control=
+lers=20in=20your=20devices,=20such=20as=20video=20camera,=20microphone=20an=
+d=20keyboard.
+I=20have=20managed=20to=20download=20all=20your=20personal=20data,=20as=20w=
+ell=20as=20web=20browsing=20history=20and=20photos=20to=20my=20servers.
+I=20can=20access=20all=20messengers=20of=20yours,=20as=20well=20as=20emails=
+,=20social=20networks,=20contacts=20list=20and=20even=20chat=20history.
+My=20virus=20unceasingly=20refreshes=20its=20signatures=20(since=20it=20is=
+=20driver-based),=20and=20hereby=20stays=20invisible=20for=20your=20antivir=
+us.
+
+=20
+
+So,=20by=20now=20you=20should=20already=20understand=20the=20reason=20why=
+=20I=20remained=20unnoticed=20until=20this=20very=20moment...
+
+=20
+
+While=20collecting=20your=20information,=20I=20have=20found=20out=20that=20=
+you=20are=20also=20a=20huge=20fan=20of=20websites=20for=20adults.
+You=20truly=20enjoy=20checking=20out=20porn=20websites=20and=20watching=20d=
+irty=20videos,=20while=20having=20a=20lot=20of=20kinky=20fun.
+I=20have=20recorded=20several=20kinky=20scenes=20of=20yours=20and=20montage=
+d=20some=20videos,=20where=20you=20reach=20orgasms=20while=20passionately=
+=20masturbating.
+
+=20
+
+If=20you=20still=20doubt=20my=20serious=20intentions,=20it=20only=20takes=
+=20couple=20mouse=20clicks=20to=20share=20your=20videos=20with=20your=20fri=
+ends,=20relatives=20and=20even=20colleagues.
+It=20is=20also=20not=20a=20problem=20for=20me=20to=20allow=20those=20vids=
+=20for=20access=20of=20public=20as=20well.
+I=20truly=20believe,=20you=20would=20not=20want=20this=20to=20occur,=20unde=
+rstanding=20how=20special=20are=20the=20videos=20you=20love=20watching,=20(=
+you=20are=20clearly=20aware=20of=20that)=20all=20that=20stuff=20can=20resul=
+t=20in=20a=20real=20disaster=20for=20you.
+
+=20
+
+Let's=20resolve=20it=20like=20this:
+All=20you=20need=20is=20$777=20USD=20transfer=20to=20my=20account=20(bitcoi=
+n=20equivalent=20based=20on=20exchange=20rate=20during=20your=20transfer),=
+=20and=20after=20the=20transaction=20is=20successful,=20I=20will=20proceed=
+=20to=20delete=20all=20that=20kinky=20stuff=20
+without=20delay.
+Afterwards,=20we=20can=20pretend=20that=20we=20have=20never=20met=20before.=
+=20In=20addition,=20I=20assure=20you=20that=20all=20the=20harmful=20softwar=
+e=20will=20be=20deleted=20from=20all=20your=20devices.=20Be=20sure,=20I=20k=
+eep=20my=20promises.
+
+=20
+
+That=20is=20quite=20a=20fair=20deal=20with=20a=20low=20price,=20bearing=20i=
+n=20mind=20that=20I=20have=20spent=20a=20lot=20of=20effort=20to=20go=20thro=
+ugh=20your=20profile=20and=20traffic=20for=20a=20long=20period.
+If=20you=20are=20unaware=20how=20to=20buy=20and=20send=20bitcoins=20-=20it=
+=20can=20be=20easily=20fixed=20by=20searching=20all=20related=20information=
+=20online.
+
+=20
+
+Below=20is=20bitcoin=20wallet=20of=20mine:
+bc1qje8je64ecgwh3aa37tjx3pdktfhp6wj5jh6heh
+=20
+
+You=20are=20given=20not=20more=20than=2048=20hours=20after=20you=20have=20o=
+pened=20this=20email=20(2=20days=20to=20be=20precise).
+
+=20
+
+Below=20is=20the=20list=20of=20actions=20that=20you=20should=20not=20attemp=
+t=20doing:
+>=20Do=20not=20attempt=20to=20reply=20my=20email=20(it's=20useless,=20it's=
+=20sent=20from=20your=20email).
+>=20Do=20not=20attempt=20to=20call=20police=20or=20any=20other=20security=
+=20services.=20Moreover,=20don't=20even=20think=20to=20share=20this=20with=
+=20friends=20of=20yours.=20Once=20I=20find=20that=20out=20(make=20no=20doub=
+t=20about=20it,=20I=20can=20do=20that=20
+effortlessly,=20bearing=20in=20mind=20that=20I=20have=20full=20control=20ov=
+er=20all=20your=20systems)=20-=20the=20video=20of=20yours=20will=20become=
+=20available=20to=20public=20immediately.
+>=20Do=20not=20attempt=20to=20search=20for=20me=20-=20there=20is=20complete=
+ly=20no=20point=20in=20that.=20All=20cryptocurrency=20transactions=20remain=
+=20anonymous=20at=20all=20times.
+>=20Do=20not=20attempt=20reinstalling=20the=20OS=20on=20devices=20of=20your=
+s=20or=20get=20rid=20of=20them.=20It=20is=20meaningless=20too,=20because=20=
+all=20your=20videos=20are=20already=20available=20at=20remote=20servers.
+
+=20
+
+Below=20is=20the=20list=20of=20things=20you=20don't=20need=20to=20be=20conc=
+erned=20about:
+>=20That=20I=20will=20not=20receive=20the=20money=20you=20transferred.
+-=20Don't=20you=20worry,=20I=20can=20still=20track=20it,=20after=20the=20tr=
+ansaction=20is=20successfully=20completed,=20because=20I=20still=20monitor=
+=20all=20your=20activities=20(trojan=20virus=20of=20mine=20includes=20a=20r=
+emote-control=20option,=20just=20like=20
+TeamViewer).
+>=20That=20I=20still=20will=20make=20your=20videos=20available=20to=20publi=
+c=20after=20your=20money=20transfer=20is=20complete.
+-=20Believe=20me,=20it=20is=20meaningless=20for=20me=20to=20keep=20on=20mak=
+ing=20your=20life=20complicated.=20If=20I=20indeed=20wanted=20to=20make=20i=
+t=20happen,=20it=20would=20happen=20long=20time=20ago!
+
+=20
+
+Everything=20will=20be=20carried=20out=20based=20on=20fairness!
+
+=20
+
+Before=20I=20forget...moving=20forward=20try=20not=20to=20get=20involved=20=
+in=20this=20kind=20of=20situations=20anymore!
+An=20advice=20from=20me=20-=20regularly=20change=20all=20the=20passwords=20=
+to=20your=20accounts.

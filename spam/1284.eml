@@ -1,0 +1,218 @@
+Return-Path: <support@zhideqiu.top>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id 6NJhMzs6L2UffgAAtf5whQ
+	(envelope-from <support@zhideqiu.top>)
+	for <johannes.olegard@cyfoexample.one.com>; Wed, 18 Oct 2023 01:51:55 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-transfer-encoding:content-type:mime-version:message-id:from:date:	
+ subject:to:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=7yfKr5C4Wu6KZp8Q76gDnqpVKC+9+GX1pF8iKNZa7Y0=;	=?utf-8?q?b=3DsbT5Z2HWSKGC?=
+ =?utf-8?q?ixpv4QJCuFolir7O0ieu7fAjo2CnRdmAXs1xu+n5je5BnKaYUCBa6EX4B5I/r1ZWW?=
+	 =?utf-8?q?5CRyT5hbLh41jo0zgsFw38+jr6frDO3HYxz02RIqtF8YmmWuiKXxpJz5ETW4Q5ud?=
+ =?utf-8?q?fBMpoEoDPUUd8S=09_Z5q8kmKlzycY12ImKJIOnD3ExGxaV1k4a6LyxxiIU1QsrdG?=
+ =?utf-8?q?RY/dEOOTMvUaTHCA+B5Qwwg9Vh3/WhF=09_YgWmQG3z3bKSyQ+PDw+Y4PLaEUJ179?=
+ =?utf-8?q?9JxDp6WClgIPMHNIf/WuFJYMN4LHs7SGdA6mVgsJLqMpN2/n?=	
+ SdHcYc2DvCfYWFN3+ul6v6Ft8m/eiPg==
+X-HalOne-SA: 9.2
+X-HalOne-RefID: 155866::1697593915-3DCAC598-6E822BC0/3/7855363147
+Authentication-Results: mx2.pub.mailpod3-cph3.one.com;
+	spf=none smtp.mailfrom=zhideqiu.top smtp.remote-ip=140.238.48.88;
+	dmarc=none header.from=zhideqiu.top;
+X-HalOne-ID: e9cebfa5-6d58-11ee-a50f-ec0d9a6ed98e
+Received: from instance-20220206-2322.localdomain (unknown [140.238.48.88])
+	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTP
+	id e9cebfa5-6d58-11ee-a50f-ec0d9a6ed98e;
+	Wed, 18 Oct 2023 01:51:54 +0000 (UTC)
+Received: by instance-20220206-2322.localdomain (Postfix, from userid 1001)
+	id 8057347AE255; Wed, 18 Oct 2023 09:27:41 +0800 (CST)
+To: johannes.olegard@cyfoexample.one.com
+Subject: Last reminder !
+X-PHP-Originating-Script: 1001:yljpbwes.php
+Date: Wed, 18 Oct 2023 09:27:41 +0800
+From: "N .  E .  T .  F .  L .  l . X" <support@zhideqiu.top>
+Message-ID: <38d07322debe0114479f6016f9f163bc@zhideqiu.top>
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_38d07322debe0114479f6016f9f163bc"
+Content-Transfer-Encoding: 8bit
+
+This is a multi-part message in MIME format.
+
+--b1_38d07322debe0114479f6016f9f163bc
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+
+
+  
+
+    
+  
+  
+    
+      
+        
+          Netflix
+        
+        
+          
+             
+          
+        
+        
+          Just 2
+                days left to update your payment details
+        
+        
+           
+        
+        
+          
+            
+              Dear
+                  customer,
+               
+              We've
+                  having some trouble with your current billing
+                  information.
+              We'll
+                  try again, but in the meantime you may want to update
+              your
+                  payment details
+            
+          
+        
+        
+           
+        
+        
+          
+            
+              
+                
+                     Update   
+                
+              
+            
+          
+        
+      
+    
+     
+  
+
+
+--b1_38d07322debe0114479f6016f9f163bc
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+
+    <meta http-equiv="content-type" content="text/html; charset=windows-1252">
+  </head>
+  <body bgcolor="">
+    <table class="rnb-col-1" style="FONT-FAMILY: "Times New
+      Roman"; WORD-SPACING: 0px; TEXT-TRANSFORM: none; ORPHANS: 2;
+      WIDOWS: 2; LETTER-SPACING: normal; TEXT-INDENT: 0px;
+      -webkit-text-stroke-width: 0px; text-decoration-style: initial;
+      text-decoration-color: initial" align="left" width="550"
+      cellspacing="0" cellpadding="0" border="0">
+      <tbody>
+        <tr>
+          <td class="img-block-center" style="TEXT-ALIGN: center"
+            width="100%" valign="top"><span style="COLOR: rgb(204,0,0)"><strong><span
+                  style="FONT-FAMILY: "trebuchet ms",
+                  helvetica, sans-serif"><span style="FONT-SIZE: 28px">Netflix</span></span></strong></span></td>
+        </tr>
+        <tr>
+          <td style="FONT-SIZE: 1px; TEXT-ALIGN: center; LINE-HEIGHT:
+            1px" height="20">
+            <p> </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="FONT-SIZE: 18px; FONT-FAMILY: Arial, Helvetica,
+            sans-serif; FONT-WEIGHT: bold; COLOR: rgb(79,72,72);
+            TEXT-ALIGN: center"><span style="FONT-FAMILY:
+              "trebuchet ms", helvetica, sans-serif"><span
+                style="FONT-WEIGHT: bold; COLOR: rgb(79,72,72)">Just 2
+                days left to update your payment details</span></span></td>
+        </tr>
+        <tr>
+          <td style="FONT-SIZE: 1px; TEXT-ALIGN: center; LINE-HEIGHT:
+            1px" height="10"> </td>
+        </tr>
+        <tr>
+          <td style="FONT-SIZE: 15px; FONT-FAMILY: Arial, Helvetica,
+            sans-serif, sans-serif; COLOR: rgb(31,30,30)">
+            <div>
+              <div style="TEXT-ALIGN: center"><span style="FONT-FAMILY:
+                  "trebuchet ms", helvetica, sans-serif">Dear
+                  customer,</span></div>
+              <div style="TEXT-ALIGN: center"> </div>
+              <div style="TEXT-ALIGN: center"><span style="FONT-FAMILY:
+                  "trebuchet ms", helvetica, sans-serif">We've
+                  having some trouble with your current billing
+                  information.</span></div>
+              <div style="TEXT-ALIGN: center"><span style="FONT-FAMILY:
+                  "trebuchet ms", helvetica, sans-serif">We'll
+                  try again, but in the meantime you may want to update</span></div>
+              <div style="TEXT-ALIGN: center"><span style="FONT-FAMILY:
+                  "trebuchet ms", helvetica, sans-serif">your
+                  payment details</span></div>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td style="FONT-SIZE: 1px; TEXT-ALIGN: center; LINE-HEIGHT:
+            1px" height="15"> </td>
+        </tr>
+        <tr>
+          <td valign="top">
+            <table class="rnb-btn-col-content" align="center"
+              cellspacing="0" cellpadding="0" border="0">
+              <tbody>
+                <tr>
+                  <td style="FONT-SIZE: 16px; FONT-FAMILY:
+                    "Trebuchet MS", Helvetica, sans-serif;
+                    FONT-WEIGHT: normal; COLOR: rgb(255,255,255);
+                    TEXT-ALIGN: center; PADDING-LEFT: 18px;
+                    PADDING-RIGHT: 18px; BACKGROUND-COLOR:
+                    rgb(221,7,20); border-radius: 7px" valign="middle"
+                    height="33" bgcolor="#dd0714"><span
+                      style="FONT-WEIGHT: normal; COLOR:
+                      rgb(255,255,255)"><a style="TEXT-DECORATION: none;
+                        FONT-WEIGHT: normal; COLOR: rgb(255,255,255)"
+                        href="https://9bastardia.ru.com/net"
+                        rel="noopener noreferrer" target="_blank"
+                        moz-do-not-send="true"><strong>  <span
+                            class="Apple-converted-space"> </span><span
+                            style="FONT-SIZE: 18px">Update<span
+                              class="Apple-converted-space"> </span></span>  </strong></a></span></td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <p style="FONT-SIZE: medium; FONT-FAMILY: "Times New
+      Roman"; WHITE-SPACE: normal; WORD-SPACING: 0px;
+      TEXT-TRANSFORM: none; FONT-WEIGHT: normal; COLOR: rgb(0,0,0);
+      FONT-STYLE: normal; ORPHANS: 2; WIDOWS: 2; LETTER-SPACING: normal;
+      TEXT-INDENT: 0px; font-variant-ligatures: normal;
+      font-variant-caps: normal; -webkit-text-stroke-width: 0px;
+      text-decoration-style: initial; text-decoration-color: initial"> </p>
+  </body>
+</html>
+
+
+
+--b1_38d07322debe0114479f6016f9f163bc--
+

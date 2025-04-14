@@ -1,0 +1,162 @@
+Return-Path: <>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id mKYhNla6ilzfHgEAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 14 Mar 2019 20:32:22 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 43f9d4ac-4698-11e9-9c33-e0d848974e01
+Received: from cloud.ewebsolutions.net (unknown [103.209.145.50])
+	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 43f9d4ac-4698-11e9-9c33-e0d848974e01;
+	Thu, 14 Mar 2019 20:32:21 +0000 (UTC)
+Received: from mailnull by cloud.ewebsolutions.net with local (Exim 4.91)
+	id 1h4X1X-0005me-07
+	for johannes.olegard@cyfoexample.one.com; Fri, 15 Mar 2019 02:02:19 +0530
+X-Failed-Recipients: kaushal@lakshy.com,
+  info@iso-uae-dubai.com,
+  meera@uaeiso.com
+Auto-Submitted: auto-replied
+From: Mail Delivery System <Mailer-Daemon@cloud.ewebsolutions.net>
+To: johannes.olegard@cyfoexample.one.com
+Content-Type: multipart/report; report-type="delivery-status";
+ boundary="1552595538-eximdsn-527158600"
+MIME-Version: 1.0
+Subject: Mail delivery failed: returning message to sender
+Message-Id: <E1h4X1X-0005me-07@cloud.ewebsolutions.net>
+Date: Fri, 15 Mar 2019 02:02:19 +0530
+X-AntiAbuse:
+ This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - cloud.ewebsolutions.net
+X-AntiAbuse: Original Domain - cyfoexample.one.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - 
+X-Get-Message-Sender-Via: cloud.ewebsolutions.net: sender_ident via
+ received_protocol == local: mailnull/primary_hostname/system user
+X-Authenticated-Sender: cloud.ewebsolutions.net: mailnull
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+--1552595538-eximdsn-527158600
+Content-type: text/plain; charset=us-ascii
+
+This message was created automatically by mail delivery software.
+
+A message that you sent could not be delivered to one or more of its
+recipients. This is a permanent error. The following address(es) failed:
+
+  kaushal@lakshy.com
+    (ultimately generated from info@iso-uae-dubai.com)
+    host aspmx.l.google.com [74.125.130.26]
+    SMTP error from remote mail server after end of data:
+    550-5.7.1 [103.209.145.50       7] Our system has detected that this message is
+    550-5.7.1 likely unsolicited mail. To reduce the amount of spam sent to Gmail,
+    550-5.7.1 this message has been blocked. Please visit
+    550-5.7.1  https://support.google.com/mail/?p=UnsolicitedMessageError
+    550 5.7.1  for more information. v4si23964pff.172 - gsmtp
+  info@iso-uae-dubai.com
+    LMTP error after RCPT TO:<info@iso-uae-dubai.com>:
+    552 5.2.2 <info@iso-uae-dubai.com> Mailbox is full / Blocks limit exceeded / Inode limit exceeded
+  meera@uaeiso.com
+    (ultimately generated from info@iso-uae-dubai.com)
+    Connection rejected: SPAM source uaeiso.com is blacklisted.
+
+--1552595538-eximdsn-527158600
+Content-type: message/delivery-status
+
+Reporting-MTA: dns; cloud.ewebsolutions.net
+
+Action: failed
+Final-Recipient: rfc822;meera@uaeiso.com
+Status: 5.0.0
+
+Action: failed
+Final-Recipient: rfc822;info@iso-uae-dubai.com
+Status: 5.0.0
+
+Action: failed
+Final-Recipient: rfc822;kaushal@lakshy.com
+Status: 5.0.0
+Remote-MTA: dns; aspmx.l.google.com
+Diagnostic-Code: smtp; 550-5.7.1 [103.209.145.50       7] Our system has
+ detected that this message is 550-5.7.1 likely unsolicited mail. To reduce
+ the amount of spam sent to Gmail, 550-5.7.1 this message has been blocked.
+ Please visit 550-5.7.1 
+ https://support.google.com/mail/?p=UnsolicitedMessageError 550 5.7.1  for
+ more information. v4si23964pff.172 - gsmtp
+
+--1552595538-eximdsn-527158600
+Content-type: message/rfc822
+
+Return-path: <johannes.olegard@cyfoexample.one.com>
+Received: from [154.124.122.186] (port=25836)
+	by cloud.ewebsolutions.net with esmtp (Exim 4.91)
+	(envelope-from <johannes.olegard@cyfoexample.one.com>)
+	id 1h4X1N-0005lx-Gv
+	for info@iso-uae-dubai.com; Fri, 15 Mar 2019 02:02:15 +0530
+Message-ID: <2FB1E0595A7E08E37D2C9596B2C42FB1@7K4IS8V>
+From: "info@iso-uae-dubai.com" <johannes.olegard@cyfoexample.one.com>
+To: <info@iso-uae-dubai.com>
+Date: 14 Mar 2019 18:54:29 -0100
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="ibm852"
+Content-Transfer-Encoding: 8bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2900.5931
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2900.5994
+X-Spam-Status: Yes, score=24.0
+X-Spam-Score: 240
+X-Spam-Bar: ++++++++++++++++++++++++
+X-Spam-Report: Spam detection software, running on the system
+ "cloud.ewebsolutions.net", has identified this incoming email as possible
+ spam.  The original message has been attached to this so you can view it or
+ label similar future email.  If you have any questions, see root\@localhost
+ for details.  Content preview:  -Bset Olnine Dtaing Service 2019 -1.000.000
+ grils ready to    fuck -FERE***FERE***FERE
+ http://datenicebabieshere.com/nbnhoqqwupakil?t=tnomqe1      Content analysis
+ details:   (24.0 points, 5.0 required)   pts rule name             
+ description ---- ----------------------
+ --------------------------------------------------  0.0 URIBL_BLOCKED
+          ADMINISTRATOR NOTICE: The query to URIBL was
+                             blocked.  See                            
+ http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [URIs: datenicebabieshere.com]  0.0
+ RCVD_IN_DNSWL_BLOCKED  RBL: ADMINISTRATOR NOTICE: The query to
+                             DNSWL was blocked.  See
+                            
+ http://wiki.apache.org/spamassassin/DnsBlocklists#dnsbl-block
+                              for more information.
+                             [154.124.122.186 listed in list.dnswl.org]  1.2
+ RCVD_IN_BL_SPAMCOP_NET RBL: Received via a relay in
+                             bl.spamcop.net             [Blocked - see
+ <https://www.spamcop.net/bl.shtml?154.124.122.186>]  2.4
+ RAZOR2_CF_RANGE_51_100 Razor2 gives confidence level above 50%
+                             [cf: 100]  1.7 RAZOR2_CHECK           Listed in
+ Razor2 (http://razor.sf.net/)  0.0 T_PDS_TO_EQ_FROM_NAME  From: name same as
+ To: address  1.0 KAM_LAZY_DOMAIN_SECURITY Sending domain does not have any
+                             anti-forgery methods  0.0 TVD_SPACE_RATIO       
+ No description available.  2.0 RDNS_NONE              Delivered to internal
+ network by a host with no rDNS  3.5 HDR_ORDER_FTSDMCXX_NORDNS Header order
+ similar to spam                             (FTSDMCXX/boundary variant) + no
+ rDNS  0.0 FAKE_REPLY_C           No description available.  2.0
+ HDR_ORDER_FTSDMCXX_DIRECT Header order similar to spam
+                             (FTSDMCXX/boundary variant) + direct-to-MX  2.5
+ KAM_LINKBAIT           Short messages containing little more than a link,
+                             from a domain with no security in place  0.0
+ T_PDS_FROM_2_EMAILS    No description available.  0.0 MIMEOLE_DIRECT_TO_MX  
+ MIMEOLE + direct-to-MX  3.1 DOS_OE_TO_MX           Delivered direct to MX
+ with OE headers  2.0 URI_ONLY_MSGID_MALF    URI only + malformed message ID 
+ 2.5 TVD_SPACE_RATIO_MINFP  Space ratio
+X-Spam-Flag: YES
+Subject: ***SPAM***  Re:Sex Dating
+
+-Bset Olnine Dtaing Service 2019
+-1.000.000 grils ready to fuck
+-FERE***FERE***FERE
+http://datenicebabieshere.com/nbnhoqqwupakil?t=tnomqe1
+
+
+--1552595538-eximdsn-527158600--

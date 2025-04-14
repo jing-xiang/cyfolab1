@@ -1,0 +1,75 @@
+Return-Path: <ibenites@macisasoc.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id +LbhI+GX32DJGgAAtf5whQ
+	(envelope-from <ibenites@macisasoc.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Fri, 02 Jul 2021 22:49:05 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:mime-version:subject:message-id:reply-to:from:date:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=0lGv3JvWbPGQvwOgqajPX0QvqzLy6bLobc3A015+OWQ=;	=?utf-8?q?b=3DsUzFtpA0NlcQ?=
+ =?utf-8?q?iZFGFaDgku4XsdZlozCo7BHGqdASHvh5XzKCiD+3jAfQT5Ax61djs/krbrfxfZdxp?=
+	 =?utf-8?q?Dn0KYMPBf4ShsQiLJ58454Tr1L7siTLB2YXgXRm/quRVgwrSVLBNCK5UXnY//xDI?=
+ =?utf-8?q?XS5aiD0pxb+NTl=09_apoKyOTeykzRGzn4RYcdQm82VJaUXrkexvEHtBri831R9pk?=
+ =?utf-8?q?toK0txCcmvNmkzO/cWWQ0X9RLJX/RDH=09_3IQSjIoBJV8sQ9IzspGriZjmgX6icd?=
+ =?utf-8?q?2BNv5qDaJCOoJ/mfTMec4WdW90cG6b1C2GkdrIGENKp9g8BX?=	
+ d4FbetpQLLv1+U1B87M5x75woPERZ3Q==
+X-HalOne-SA: 10.8
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F15=2E60DF97E1=2E0005=2Css=3D1?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD0xLGNsZD0xLGZncz0w?=
+X-HalOne-ID: b2994159-db87-11eb-88ce-ec0d9a6ed98e
+Received: from mail.gryphoscorp.com (central.divertifood.com [173.212.209.90])
+	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id b2994159-db87-11eb-88ce-ec0d9a6ed98e;
+	Fri, 02 Jul 2021 22:49:03 +0000 (UTC)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.gryphoscorp.com (Postfix) with ESMTP id DC3DB2902C2C;
+	Fri,  2 Jul 2021 15:55:59 +0200 (CEST)
+Received: from mail.gryphoscorp.com ([127.0.0.1])
+	by localhost (mail.gryphoscorp.com [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id f6IyoF26zQkP; Fri,  2 Jul 2021 15:55:59 +0200 (CEST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.gryphoscorp.com (Postfix) with ESMTP id 0B2F72902C4B;
+	Fri,  2 Jul 2021 15:55:57 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at mail.gryphoscorp.com
+Received: from mail.gryphoscorp.com ([127.0.0.1])
+	by localhost (mail.gryphoscorp.com [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id fA3y8QK2s13e; Fri,  2 Jul 2021 15:55:56 +0200 (CEST)
+Received: from mail.gryphoscorp.com (hercules.gryphoscorp.com
+ [173.212.209.90])	by mail.gryphoscorp.com (Postfix) with ESMTP id
+ 09BC22902C2B;	Fri,  2 Jul 2021 15:55:53 +0200 (CEST)
+Date: Fri, 2 Jul 2021 15:55:52 +0200 (CEST)
+From: Hammad Mohammad <ibenites@macisasoc.com>
+Reply-To: Hammad Mohammad <hammad.moham@gmail.com>
+Message-ID: <584852179.818890.1625234152987.JavaMail.zimbra@macisasoc.com>
+Subject: Hello
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="=_1b6202e8-9c53-4651-a0d8-8442947bc481"
+X-Originating-IP: [173.212.209.90]
+X-Mailer: Zimbra 8.8.11_GA_3799 (ZimbraWebClient - GC91 (Win)/8.8.11_GA_3787)
+Thread-Index: VweL/EY8adzpqoocwf4/+4Mf9AF+xg==
+Thread-Topic: Hello
+
+--=_1b6202e8-9c53-4651-a0d8-8442947bc481
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+Hello, 
+
+I'm in search of a credible individual or company that needs an investment in their business or company portfolio or requires funds to invest in a reliable and lucrative business. Reply to me on hammad.moham@gmail.com 
+
+Kind regards, 
+Hammad Mohammad 
+
+--=_1b6202e8-9c53-4651-a0d8-8442947bc481
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><body><div style="font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #000000"><div><br></div><div><br></div><div data-marker="__SIG_PRE__">Hello,<br><br>I'm in search of a credible individual or company that needs an investment in their business or company portfolio or requires funds to invest in a &nbsp;reliable and lucrative business. Reply to me on hammad.moham@gmail.com<br><br>Kind regards,<br>Hammad Mohammad</div></div></body></html>
+--=_1b6202e8-9c53-4651-a0d8-8442947bc481--

@@ -1,0 +1,197 @@
+Return-Path: <lshuck@edupoint.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id 0IryFpOZ32ODPAAAtf5whQ
+	(envelope-from <lshuck@edupoint.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Sun, 05 Feb 2023 11:57:07 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=mime-version:content-type:reply-to:message-id:date:subject:from:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=e40jENAkJKVUJ9jylkQjOXOWbkiyHMMzWV9XjtN1UMk=;	=?utf-8?q?b=3DvATp+gjtKwfn?=
+ =?utf-8?q?gWICT9mfdUn7ah4EM4QiTV/wtcC6Kah9vZSr8acKnOgXkUIn96hysloQMvUlAatvg?=
+	 =?utf-8?q?4AQFZDwM9N/XE9p38eKw5BJ0xCTX3Ce1Mh4U5QYsMrCvzKgvhoTiPQmIdCHYP8v7?=
+ =?utf-8?q?B2C7iIY05WmPl1=09_KAJu5DVT3TEduB88uDHqr71aU1BX1GuM3LKXAqps5l6ShTo?=
+ =?utf-8?q?TpLuwJZflUS2X6dfCN9UuYubLUEfCBT=09_/KtjAO7yw2s5h/3tRQrp4JRO5FkFiy?=
+ =?utf-8?q?vDBvHvMuH0X5CyY9+beZfu4hANXgDkdgVCgZ0kOkka5vcBSM?=	
+ 14I0FNoQjJGVRkYnVEf2oBmAKvC9Cyg==
+X-HalOne-SA: 15.2
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F17=2E63DF9990=2E0031=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz0x?=
+ =?utf-8?q?6?=
+X-HalOne-ID: 341dcdb8-a54c-11ed-b0e1-ec0d9a6ed98e
+Received: from mail.edupoint.com (mail.edupoint.com [98.175.215.6])
+	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 341dcdb8-a54c-11ed-b0e1-ec0d9a6ed98e;
+	Sun, 05 Feb 2023 11:57:04 +0000 (UTC)
+Received: from AZSVR-Exch2013.xnova.com (192.168.150.10) by
+ AZSVR-Exch2013.xnova.com (192.168.150.10) with Microsoft SMTP Server (TLS) id
+ 15.0.1497.45; Sun, 5 Feb 2023 04:56:59 -0700
+Received: from AZSVR-Exch2013.xnova.com ([fe80::1019:9fc4:b79:7026]) by
+ AZSVR-Exch2013.xnova.com ([fe80::1019:9fc4:b79:7026%16]) with mapi id
+ 15.00.1497.045; Sun, 5 Feb 2023 04:56:59 -0700
+From: Les Shuck <lshuck@edupoint.com>
+Subject: FW: Donation
+Thread-Topic: Donation
+Thread-Index: =?utf-8?q?Adk3/hgsRYQS8EWtV0aJBifV4Fl2QQAAFijwAB9rq2AAADeW8AA1?=
+ =?utf-8?q?/rsQAAAAGWAAAAAewAAAABqAAAAAHxAAAAAdcAAAAB0wAAAAHgAAAAAc8AAAAB6AA?=
+ =?utf-8?q?AAAIOAAAAAeQAAAAB7QAAAAH8AAAAAfwAAAACCAAAAAH6AAAAAg0AAAAB/QAAAAIZ?=
+ =?utf-8?q?AAAAAh4AAAACFwAAAAIKAAAAAjYAAAAB/wAAAAIlAAAAAigAAAACTQAAAAItAAAAA?=
+ =?utf-8?q?c8AAAAB7AAAAAJRAAAAAkoAAAACVwAAAAIsAAAAAlgAAAACSwAAAAKhAAAAAnYAAA?=
+ =?utf-8?q?ACogAAAAJIAAAAAlEAAAACzQAAAAK2AAAAAoUAAAAC5wAAAAK9AAAAAmYAAAACogA?=
+ =?utf-8?q?AAAKrAAAAAlQAAAACowAAAALVAAAAAsgAAAACxAAAAAMJAAAAAuIAAAADWwAAAALj?=
+ =?utf-8?q?AAAAAzYAAAAC6AAAAAMhAAAAA1YAAAADDwAAAAMRAAAAAzoAAAADWQAAAANrAAAAA?=
+ =?utf-8?q?tcAAAADMAAAAANCAAAAA1QAAAADwwAAAAM8A=3D?=
+Date: Sun, 5 Feb 2023 11:56:57 +0000
+Message-ID: <2396f6cc915049c097cb2b5d380538e5@AZSVR-Exch2013.xnova.com>
+Reply-To: "m.francco90@gmail.com" <m.francco90@gmail.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-ninja-pim: Scanned by Ninja
+x-ninja-antispam: Policy 1 - Allowed - Final Score - 0,0,0 (0)
+x-ninja-attachmentfiltering: (no action)
+x-ms-exchange-transport-fromentityheader: Hosted
+x-originating-ip: [103.111.47.30]
+Content-Type: multipart/alternative;
+	boundary="_000_2396f6cc915049c097cb2b5d380538e5AZSVRExch2013xnovacom_"
+MIME-Version: 1.0
+
+--_000_2396f6cc915049c097cb2b5d380538e5AZSVRExch2013xnovacom_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Hello,
+
+I=20am=20Manuel=20Franco,=20you=20have=20a=20donation=20of=20$2,800,000.00=
+=20(Two=20Million=20Eight=20Hundred=20Thousand=20Dollars).=20I=20won=20the=
+=20$768=20million=20Powerball=20lottery=20in=202019.=20I=20am=20donating=20=
+part=20of=20it=20to=20five=20lucky=20people=20and=20Ten=20Charity=20Organiz=
+ations.
+
+Your=20email=20was=20randomly=20selected=20from=20the=20universal=20email=
+=20database.=20If=20you=20are=20interested=20in=20this,=20contact=20me=20ur=
+gently=20for=20claims.
+
+Watch=20my=20full=20interview=20here:=20https://youtu.be/R_pDrt1np1U.
+
+I=20am=20doing=20this=20to=20help=20cushion=20the=20effects=20of=20COVID-19=
+=20on=20people.=20I=20am=20doing=20my=20best=20to=20put=20a=20smile=20on=20=
+the=20faces=20of=20everyone=20in=20the=20world,=20in=20every=20way=20I=20ca=
+n.
+
+Best=20Regards,
+Manuel.
+
+--_000_2396f6cc915049c097cb2b5d380538e5AZSVRExch2013xnovacom_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html=20xmlns:v=3D"urn:schemas-microsoft-com:vml"=20xmlns:o=3D"urn:schemas-=
+microsoft-com:office:office"=20xmlns:w=3D"urn:schemas-microsoft-com:office:=
+word"=20xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml"=20xmln=
+s=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta=20http-equiv=3D"Content-Type"=20content=3D"text/html;=20charset=3Dus-=
+ascii">
+<meta=20name=3D"Generator"=20content=3D"Microsoft=20Word=2015=20(filtered=
+=20medium)">
+<style><!--
+/*=20Font=20Definitions=20*/
+@font-face
+=09{font-family:"Cambria=20Math";
+=09panose-1:2=204=205=203=205=204=206=203=202=204;}
+@font-face
+=09{font-family:Calibri;
+=09panose-1:2=2015=205=202=202=202=204=203=202=204;}
+/*=20Style=20Definitions=20*/
+p.MsoNormal,=20li.MsoNormal,=20div.MsoNormal
+=09{margin:0cm;
+=09margin-bottom:.0001pt;
+=09font-size:11.0pt;
+=09font-family:"Calibri",sans-serif;
+=09mso-fareast-language:EN-US;}
+a:link,=20span.MsoHyperlink
+=09{mso-style-priority:99;
+=09color:blue;
+=09text-decoration:underline;}
+a:visited,=20span.MsoHyperlinkFollowed
+=09{mso-style-priority:99;
+=09color:purple;
+=09text-decoration:underline;}
+p.msonormal0,=20li.msonormal0,=20div.msonormal0
+=09{mso-style-name:msonormal;
+=09mso-margin-top-alt:auto;
+=09margin-right:0cm;
+=09mso-margin-bottom-alt:auto;
+=09margin-left:0cm;
+=09font-size:11.0pt;
+=09font-family:"Calibri",sans-serif;}
+span.EmailStyle18
+=09{mso-style-type:personal;
+=09font-family:"Calibri",sans-serif;
+=09color:windowtext;}
+span.EmailStyle19
+=09{mso-style-type:personal;
+=09font-family:"Calibri",sans-serif;
+=09color:windowtext;}
+span.EmailStyle20
+=09{mso-style-type:personal;
+=09font-family:"Calibri",sans-serif;
+=09color:windowtext;}
+span.EmailStyle21
+=09{mso-style-type:personal;
+=09font-family:"Calibri",sans-serif;
+=09color:windowtext;}
+span.EmailStyle22
+=09{mso-style-type:personal-compose;
+=09font-family:"Calibri",sans-serif;
+=09color:windowtext;}
+.MsoChpDefault
+=09{mso-style-type:export-only;
+=09font-size:10.0pt;}
+@page=20WordSection1
+=09{size:612.0pt=20792.0pt;
+=09margin:72.0pt=2072.0pt=2072.0pt=2072.0pt;}
+div.WordSection1
+=09{page:WordSection1;}
+--></style><!--[if=20gte=20mso=209]><xml>
+<o:shapedefaults=20v:ext=3D"edit"=20spidmax=3D"1026"=20/>
+</xml><![endif]--><!--[if=20gte=20mso=209]><xml>
+<o:shapelayout=20v:ext=3D"edit">
+<o:idmap=20v:ext=3D"edit"=20data=3D"1"=20/>
+</o:shapelayout></xml><![endif]-->
+</head>
+<body=20lang=3D"EN-IN"=20link=3D"blue"=20vlink=3D"purple">
+<div=20class=3D"WordSection1">
+<p=20class=3D"MsoNormal">Hello,<o:p></o:p></p>
+<p=20class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p=20class=3D"MsoNormal">I=20am=20Manuel=20Franco,=20you=20have=20a=20donat=
+ion=20of=20$2,800,000.00=20(Two=20Million=20Eight=20Hundred=20Thousand=20Do=
+llars).=20I=20won=20the=20$768=20million=20Powerball=20lottery=20in=202019.=
+=20I=20am=20donating=20part=20of=20it=20to=20five=20lucky=20people=20and=20=
+Ten=20Charity=20Organizations.<o:p></o:p></p>
+<p=20class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p=20class=3D"MsoNormal">Your=20email=20was=20randomly=20selected=20from=20=
+the=20universal=20email=20database.=20If=20you=20are=20interested=20in=20th=
+is,=20contact=20me=20urgently=20for=20claims.<o:p></o:p></p>
+<p=20class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p=20class=3D"MsoNormal">Watch=20my=20full=20interview=20here:=20<a=20href=
+=3D"https://youtu.be/R_pDrt1np1U">
+https://youtu.be/R_pDrt1np1U</a>.<o:p></o:p></p>
+<p=20class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p=20class=3D"MsoNormal">I=20am=20doing=20this=20to=20help=20cushion=20the=
+=20effects=20of=20COVID-19=20on=20people.=20I=20am=20doing=20my=20best=20to=
+=20put=20a=20smile=20on=20the=20faces=20of=20everyone=20in=20the=20world,=
+=20in=20every=20way=20I=20can.<o:p></o:p></p>
+<p=20class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p=20class=3D"MsoNormal">Best=20Regards,<o:p></o:p></p>
+<p=20class=3D"MsoNormal">Manuel.<o:p></o:p></p>
+</div>
+</body>
+</html>
+
+--_000_2396f6cc915049c097cb2b5d380538e5AZSVRExch2013xnovacom_--

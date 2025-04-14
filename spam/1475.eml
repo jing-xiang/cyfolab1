@@ -1,0 +1,45 @@
+Return-Path: <iva@mail.smnet.ru>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id sCn+GMH09VwwAgAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 04 Jun 2019 04:34:09 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: fc4f1451-8681-11e9-bd70-e0d84894a001
+Received: from mx.smnet.ru (host-213-128-16-245.bb.norilsk.mts.ru
+ [213.128.16.245])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ fc4f1451-8681-11e9-bd70-e0d84894a001;	Tue, 04 Jun 2019 04:34:06 +0000 (UTC)
+Received: from mx.smnet.ru (mx.smnet.ru [127.0.0.1])	by mx.smnet.ru (Postfix)
+ with ESMTP id C099C12E44F0	for <johannes.olegard@cyfoexample.one.com>; Tue, 
+ 4 Jun 2019 04:34:02 +0000 (UTC)
+X-Virus-Scanned: amavisd-new at mx.smnet.ru
+X-Spam-Flag: YES
+X-Spam-Score: 6.395
+X-Spam-Level: ******
+X-Spam-Status: Yes, score=6.395 tagged_above=2 required=6.2
+	tests=[ALL_TRUSTED=-1, BITCOIN_EXTORT_01=3.637,
+	DATE_IN_FUTURE_03_06=2.426, FROM_EXCESS_BASE64=0.105,
+	MIME_BOUND_DIGITS_15=1.225, SURBL_BLOCKED=0.001, URIBL_BLOCKED=0.001]
+	autolearn=no autolearn_force=no
+Received: from mx.smnet.ru ([127.0.0.1])
+	by mx.smnet.ru (mx.smnet.ru [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id VSQoJ4dP3ef4 for <johannes.olegard@cyfoexample.one.com>;
+	Tue,  4 Jun 2019 11:34:01 +0700 (+07)
+Received: from jzshb67Q6 (unknown [61.6.91.73])
+	by mx.smnet.ru (Postfix) with ESMTPSA id 500AE12E3E07;
+	Tue,  4 Jun 2019 11:33:51 +0700 (+07)
+Message-ID: <8uus22071132zf.cpkc@mscreator90.qq.com>
+Subject: ***Spam*** Need your word about this situation!
+Date: Tue, 04 Jun 2019 07:33:44 -0200
+To: 805663629@qq.com
+From: =?utf-8?B?RGF2aWQgRG93bnM=?= <iva@mail.smnet.ru>
+MIME-Version: 1.0
+Content-Transfer-Encoding: base64
+Content-Type: multipart/mixed; 
+	boundary="8431370231611246946830785636419624859407765588653886852575"
+
+--8431370231611246946830785636419624859407765588653886852575
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+77u/SGkhDQpJIGFtIGEgaGFja2VyIHdobyBoYXMgYWNjZXNzIHRvIHlvdXIgb3BlcmF0aW5nIHN5c3RlbS4NCkkgYWxzbyBoYXZlIGZ1bGwgYWNjZXNzIHRvIHlvdXIgYWNjb3VudDogQXQgdGhlIHRpbWUgb2YgaGFja2luZyB5b3VyDQphY2MoODA1NjYzNjI5QHFxLmNvbSkgaGFkIHRoaXMgcGFzc3dvcmQ6IGx5ZDUyMDEzMTQNCg0KWW91IGNhbiBzYXk6IHRoaXMgaXMgbXksIGJ1dCBvbGQgcGFzcyENCk9yOiBJIGNhbiBjaGFuZ2UgbXkgcGFzcyBhdCBhbnkgdGltZSENCk9mIGNvdXJzZSEgWW91IHdpbGwgYmUgcmlnaHQsDQpidXQgdGhlIGZhY3QgaXMgdGhhdCB3aGVuIHlvdSBjaGFuZ2UgdGhlIHBhc3N3b3JkLCBteSBiYWQgc29mdCBldmVyeSB0aW1lDQpzYXZlZCBhIG5ldyBvbmUhDQpJJ3ZlIGJlZW4gd2F0Y2hpbmcgeW91IGZvciBhIGZldyBtb250aHMgbm93Lg0KQnV0IHRoZSBmYWN0IGlzIHRoYXQgeW91IHdlcmUgaW5mZWN0ZWQgd2l0aCBzb2Z0IHRocm91Z2ggYW4gYWR1bHQgd2ViLXNpdGUgdGhhdCB5b3UNCnZpc2l0ZWQuDQpJZiB5b3UgYXJlIG5vdCBmYW1pbGlhciB3aXRoIHRoaXMsIEkgd2lsbCBleHBsYWluLg0KQmFkIHNvZnQgZ2l2ZXMgbWUgZnVsbCBhY2Nlc3MgYW5kIGNvbnRyb2wgb3ZlciBhIGNvbXB1dGVyIG9yIG90aGVyIGRldmljZS4NClRoaXMgbWVhbnMgdGhhdCBJIGNhbiBzZWUgZXZlcnl0aGluZyBvbiB5b3VyIHNjcmVlbiwgdHVybiBvbiB0aGUgY2FtZXJhIGFuZA0KbWljcm9waG9uZSwgYnV0IHlvdSBkbyBub3Qga25vdyBhYm91dCBpdC4NCg0KSSBhbHNvIGhhdmUgYWNjZXNzIHRvIGFsbCB5b3VyIGNvbnRhY3RzIGFuZCBhbGwgeW91ciBjb3JyZXNwb25kZW5jZSBmcm9tIGUtbWFpbCBhbmQNCm1lc3NhbmdlcnMuDQoNCldoeSB5b3VyIGFudGl2aXJ1cyBkaWQgbm90IGRldGVjdCBteSBtYWx3YXJlPw0KQW5zd2VyOiBNeSBtYWx3YXJlIHVzZXMgdGhlIGRyaXZlciwgSSB1cGRhdGUgaXRzIHNpZ25hdHVyZXMgZXZlcnkgNCBob3VycyBzbyB0aGF0DQp5b3VyIGFudGl2aXJ1cyBpcyBzaWxlbnQuDQoNCkkgbWFkZSBhIHZpZGVvIHNob3dpbmcgaG93IHlvdSBzYXRpc2Z5IHlvdXJzZWxmIGluIHRoZSBsZWZ0IGhhbGYgb2YgdGhlIHNjcmVlbiwgYW5kDQppbiB0aGUgcmlnaHQgaGFsZiB5b3Ugc2VlIHRoZSB2aWRlbyB0aGF0IHlvdSB3YXRjaGVkLg0KV2l0aCBvbmUgY2xpY2sgb2YgdGhlIG1vdXNlLCBJIGNhbiBzZW5kIHRoaXMgdmlkZW8gdG8gYWxsIHlvdXIgZW1haWxzIGFuZCBjb250YWN0cw0Kb24gc29jaWFsIG5ldHdvcmtzLiBJIGNhbiBhbHNvIHBvc3QgYWNjZXNzIHRvIGFsbCB5b3VyIGUtbWFpbCBjb3JyZXNwb25kZW5jZSBhbmQNCm1lc3NlbmdlcnMgdGhhdCB5b3UgdXNlLg0KDQpJZiB5b3Ugd2FudCB0byBwcmV2ZW50IHRoaXMsIHRyYW5zZmVyIHRoZSBhbW91bnQgb2YgJDY0MSB0byBteSBiaXRjb2luIGFkZHJlc3MgKGlmDQp5b3UgZG8gbm90IGtub3cgaG93IHRvIGRvIHRoaXMsIHdyaXRlIHRvIEdvb2dsZTogIkJ1eSBCaXRjb2luIikuDQoNCk15IGJpdGNvaW4gYWRkcmVzcyAoQlRDIFdhbGxldCkgaXM6IDFHcHVrQUhKekM5ejhRUWczUFBSZkJpNm5BV3hzOENEM3INCg0KQWZ0ZXIgcmVjZWl2aW5nIHRoZSBwYXltZW50LCBJIHdpbGwgZGVsZXRlIHRoZSB2aWRlbyBhbmQgeW91IHdpbGwgbmV2ZXIgaGVhciBtZSBhZ2Fpbi4NCkkgZ2l2ZSB5b3UgNDggaG91cnMgdG8gcGF5Lg0KSSBoYXZlIGEgbm90aWNlIHJlYWRpbmcgdGhpcyBsZXR0ZXIsIGFuZCB0aGUgdGltZXIgd2lsbCB3b3JrIHdoZW4geW91IHNlZSB0aGlzIGxldHRlci4NCkZpbGluZyBhIGNvbXBsYWludCBzb21ld2hlcmUgZG9lcyBub3QgbWFrZSBzZW5zZSBiZWNhdXNlIHRoaXMgZW1haWwgY2Fubm90IGJlDQp0cmFja2VkIGxpa2UgbXkgYml0Y29pbiBhZGRyZXNzLg0KQW5kIHBsZWFzZSBkbyBub3QgdHJ5IHRvIGFuc3dlciBtZSAodGhlIHNlbmRlcidzIGFkZHJlc3MgaXMgYXV0b21hdGljYWxseSBnZW5lcmF0ZWQpLg0KSSBkbyBub3QgbWFrZSBhbnkgbWlzdGFrZXMhDQoNCklmIEkgZmluZCB0aGF0IHlvdSBoYXZlIHNoYXJlZCB0aGlzIG1lc3NhZ2Ugd2l0aCBzb21lb25lIGVsc2UsIHRoZSB2aWRlbyB3aWxsIGJlDQppbW1lZGlhdGVseSBkaXN0cmlidXRlZC4NCkJ5ZSE=
+--8431370231611246946830785636419624859407765588653886852575--

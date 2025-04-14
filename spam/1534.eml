@@ -1,0 +1,62 @@
+Return-Path: <henrietta.lorinc@billgates.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id kCpMMCVJkGElYgAAtf5whQ
+	(envelope-from <henrietta.lorinc@billgates.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Sat, 13 Nov 2021 23:24:21 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	h=message-id:reply-to:date:from:to:subject:content-description:	 
+ =?utf-8?q?content-transfer-encoding=3Amime-version=3Acontent-type=3Ax-halon?=
+ =?utf-8?q?e-refid=3Ax-halone-sa=3A?=	 from:x-halone-sa:x-halone-refid;
+	bh=os7u5WpVIsOXAzwEWUnppbDh+K9+hKL3VV5EdapybDw=;	=?utf-8?q?b=3D0ytJ1P7XCR0p?=
+ =?utf-8?q?Te8fCW6+HveOlmhPY4LQ3WdxufHUA5o2ovEQvsEu/l6ZARPFuuBD4lyU6UuBEWaqk?=
+	 =?utf-8?q?piZPwYcKcdC24nUWyzUdSJJL+pPGIB9yurC/k5QiOGNcQU3v90NT6QO/kSqcpFxi?=
+ =?utf-8?q?yIWuKlK/rQ+sib=09_pX/LVgF2gTwnOpkyedLAO7A4VUk0fPbxt89nem7Xdt8dbHA?=
+ =?utf-8?q?HWHuOYUhLF5Kn0yvHR/z29tRRnlFTmV=09_bE5QiU6ItDDLjEg3kGQc0eKcnalmqw?=
+ =?utf-8?q?vgohRgWoJYPKmt8XsHAsyy2z5sfmhy2xk1JKvr4Ql26/igHI?=	
+ p9gQaQe2rJMsxKAcLBqM+hW4TU+xXNA==
+X-HalOne-SA: 2.9
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F21=2E61901AA8=2E0044=2Css=3D4?=
+ =?utf-8?b?LHNoLHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZn?=
+ =?utf-8?q?s=3D8?=
+X-HalOne-ID: d478f211-44d8-11ec-b4bc-e0d84894a001
+Received: from mail.dunamedical.com (mail.dunamedical.com [86.101.133.19])
+	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id d478f211-44d8-11ec-b4bc-e0d84894a001;
+	Sat, 13 Nov 2021 23:24:21 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.dunamedical.com (Postfix) with ESMTP id C7CFAE185DC;
+	Sat, 13 Nov 2021 22:41:36 +0100 (CET)
+Received: from mail.dunamedical.com ([127.0.0.1])
+	by localhost (mail.dunamedical.com [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id J93uoqETvOYv; Sat, 13 Nov 2021 22:41:36 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.dunamedical.com (Postfix) with ESMTP id 036A9E14DC2;
+	Sat, 13 Nov 2021 22:38:04 +0100 (CET)
+X-Virus-Scanned: amavisd-new at dunamedical.com
+Received: from mail.dunamedical.com ([127.0.0.1])
+	by localhost (mail.dunamedical.com [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id nNI9AsahhsDa; Sat, 13 Nov 2021 22:38:03 +0100 (CET)
+Received: from [172.20.10.2] (unknown [106.223.123.0])
+	by mail.dunamedical.com (Postfix) with ESMTPSA id 0CAF5E1558F;
+	Sat, 13 Nov 2021 22:27:50 +0100 (CET)
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: Hello!!!
+To: Recipients <henrietta.lorinc@billgates.com>
+From: "Mr Bill Gates" <henrietta.lorinc@billgates.com>
+Date: Sun, 14 Nov 2021 02:57:42 +0530
+Reply-To: mr.msbillgtdonation09@outlook.com
+Message-Id: <20211113212752.0CAF5E1558F@mail.dunamedical.com>
+
+Reply=20me=20urgently=20i=20have=20a=20very=20important=20Donation=20to=20s=
+hare=20with=20you
+
+Have=20A=20Blessed=20Day
+
+Regards
+Mr=20Bill=20Gates=20Foundation

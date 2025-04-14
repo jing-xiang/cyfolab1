@@ -1,0 +1,67 @@
+Return-Path: <amartinez@smapa.gob.mx>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id MK+5JRbesGKSTgAAtf5whQ
+	(envelope-from <amartinez@smapa.gob.mx>)
+	for <johannes.olegard@cyfoexample.one.com>; Mon, 20 Jun 2022 20:52:38 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	h=message-id:reply-to:date:from:to:subject:content-description:	 
+ =?utf-8?q?content-transfer-encoding=3Amime-version=3Acontent-type=3Ax-halon?=
+ =?utf-8?q?e-refid=3Ax-halone-sa=3A?=	 from:x-halone-sa:x-halone-refid;
+	bh=DJo87VDQRRyWY40uTdQHT7m/EVRb+WxXDoaseNEw3ds=;	=?utf-8?q?b=3D11ohkwjN2HXU?=
+ =?utf-8?q?uCUXRh6xRir9Pgl1QCwdRLyeQad3rD0jID5NEl900iJTg6QqtaVPy3zL8UmDTP9oB?=
+	 =?utf-8?q?fS14EDfSHqQoTeEpfyS01geZNOUFAraGXG6BLbswfjZP9Llz6O42r00o6r2FW0iS?=
+ =?utf-8?q?vVmaF63kIpPctT=09_JhTgFmMp9yR06TcJ9vAm9zQ8KdeSierMfJC0rbqB8ihYMny?=
+ =?utf-8?q?Fv7Xr4rHbszbLkL12MyIu14u3PR1WGa=09_jW9SYPOB2riNB3wM97uG1KUmatO1Rp?=
+ =?utf-8?q?AnvZImV8EAaJvGgVj/tLwm27eVUqcH526GYyyHgSZcLQ50tZ?=	
+ Get2vIguD7mmqsI10gwrPzVvUOCZdJw==
+X-HalOne-SA: 15.3
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F27=2E62B0DE15=2E0021=2Css=3D1?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD0xLGNsZD0xLGZncz0w?=
+X-HalOne-ID: ea897683-f0da-11ec-93c5-ec0d9a6ed98e
+Received: from mail.phc.org.ua (mail.phc.org.ua [62.80.191.90])
+	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id ea897683-f0da-11ec-93c5-ec0d9a6ed98e;
+	Mon, 20 Jun 2022 20:52:37 +0000 (UTC)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.phc.org.ua (Postfix) with ESMTP id 304349609A1;
+	Mon, 20 Jun 2022 23:34:52 +0300 (EEST)
+Received: from mail.phc.org.ua ([127.0.0.1])
+	by localhost (mail.phc.org.ua [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id qxPf5T6eauZD; Mon, 20 Jun 2022 23:34:51 +0300 (EEST)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.phc.org.ua (Postfix) with ESMTP id BC042960998;
+	Mon, 20 Jun 2022 23:34:51 +0300 (EEST)
+X-Virus-Scanned: amavisd-new at phc.org.ua
+Received: from mail.phc.org.ua ([127.0.0.1])
+	by localhost (mail.phc.org.ua [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id PbkVo7BYsqsy; Mon, 20 Jun 2022 23:34:51 +0300 (EEST)
+Received: from [100.80.171.16] (unknown [106.210.97.102])
+	by mail.phc.org.ua (Postfix) with ESMTPSA id 778E894964B;
+	Mon, 20 Jun 2022 23:34:39 +0300 (EEST)
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: Hi  
+To: Recipients <amartinez@smapa.gob.mx>
+From: Paul G.Allen Family Foundation<amartinez@smapa.gob.mx>
+Date: Tue, 21 Jun 2022 02:04:26 +0530
+Reply-To: pga.donation2022@gmail.com
+Message-Id: <20220620203439.778E894964B@mail.phc.org.ua>
+
+Dear=20Beneficiary,
+
+You=20have=20been=20awarded=20$1,000,000.00=20USD,=20each=20as=20charity=20=
+donations/aid=20by=20Paul=20G.=20Allen=20Family=20Foundation,=20Your=20emai=
+l=20address=20was=20chosen=20online=20while=20searching=20at=20random.=20Ki=
+ndly=20get=20back=20to=20us=20at=20your=20earliest=20convenience,=20For=20m=
+ore=20details=20Visit:=20https://pgafamilyfoundation.org/
+
+On=20behalf=20of=20the=20foundation,=20we=20say=20congratulations=20to=20yo=
+u.
+
+Best=20Regards,
+Dr.Val=20Bush

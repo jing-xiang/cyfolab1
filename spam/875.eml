@@ -1,0 +1,87 @@
+Return-Path: <yalcinbaykin@ogo.org.tr>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id iOWxMAPyQWHiZwAAtf5whQ
+	(envelope-from <yalcinbaykin@ogo.org.tr>)
+	for <johannes.olegard@cyfoexample.one.com>; Wed, 15 Sep 2021 13:15:47 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:mime-version:subject:message-id:reply-to:from:date:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=Ts3ERhBIUwfvLvJ70UB3r32DxhNE7h2vEy5ajj9YVkY=;	=?utf-8?q?b=3DavhsMT2G2wRe?=
+ =?utf-8?q?HRwUqoTIIHD1ekJsdaUSNxmX/ayq6Ma++E5qpy984iQGQs393JHBX54wUPdTm96zg?=
+	 =?utf-8?q?uCdi/2BdkRvSScSKgYN0q02Bu0t8UZsx3wFv6mSS78Q8pSfPZCGv/39WgvHfJhlQ?=
+ =?utf-8?q?QGAfgSjw0h5S7A=09_gFxYnIuIZSzVrnPywhHFLjhdklclCywt0EQUhYyPyu6CV+z?=
+ =?utf-8?q?LrdXpKkVfNSEKVXyb1qq7hoNzFWTyWV=09_GYZOyO1pkYhGEP3uibbL5k3/SkG5XM?=
+ =?utf-8?q?BRlpADaIUU42bBcfRP8DuvCDGpWMSySQ3cylxa7bK13Mj26O?=	
+ sMYHvZryusEjlZd0yEikqpzOohJqi0g==
+X-HalOne-SA: 3
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F28=2E6141F202=2E003E=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz0w?=
+X-HalOne-ID: 0940e580-1627-11ec-aee6-e0d848974e01
+Received: from mail.kolayposta.net (mail.kolayposta.net [185.96.170.124])
+	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 0940e580-1627-11ec-aee6-e0d848974e01;
+	Wed, 15 Sep 2021 13:15:46 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.kolayposta.net (Postfix) with ESMTP id E619B11A2173;
+	Wed, 15 Sep 2021 15:50:13 +0300 (+03)
+Received: from mail.kolayposta.net ([127.0.0.1])
+	by localhost (mail.kolayposta.net [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id IF9fHdcZWOd5; Wed, 15 Sep 2021 15:50:13 +0300 (+03)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.kolayposta.net (Postfix) with ESMTP id 010CF11A217C;
+	Wed, 15 Sep 2021 15:50:12 +0300 (+03)
+DKIM-Filter: OpenDKIM Filter v2.10.3 mail.kolayposta.net 010CF11A217C
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ogo.org.tr;
+	s=32A4C312-B2FA-11EA-BFB8-0CC80F1C4963; t=1631710213;
+	bh=Ts3ERhBIUwfvLvJ70UB3r32DxhNE7h2vEy5ajj9YVkY=;
+	h=Date:From:Message-ID:MIME-Version;
+	b=NTi0072Pq+q+eiQz3BhOa7U5LMOkWMYmS0xly0utQ+3j8ajyOQ2iMQXV1THZgQRRR
+	 vnB0mmWl7pqjAzJCb2F4KAA7IZZK50ufXhd73gNLpCd+M4ffYVPxpcClPvGfBUL/DO
+	 LDbYqqY/aa8Ws1bt2gMlB50RiEd2XCD8jAHViJHHHcZfNkAvMrTGBmFvRRPuwhw7+K
+	 ULXpqXnHpwySF9JbjmlxYDGM5ClVKKCI2PtgvJAp1efvHWFlrBtSVCnqPrAEGZdIr6
+	 WYP8QctdoKuPY+SiPjh71zl9FKULbIKcKtywc4HPvlK1A6bEzGTUNCMqMPXBBO3epX
+	 8pJC3F/50Xilw==
+X-Virus-Scanned: amavisd-new at kolayposta.net
+Received: from mail.kolayposta.net ([127.0.0.1])
+	by localhost (mail.kolayposta.net [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id FH1azBEHwyRk; Wed, 15 Sep 2021 15:50:12 +0300 (+03)
+Received: from mail.kolayposta.net (mail.kolayposta.net [172.16.192.120])
+	by mail.kolayposta.net (Postfix) with ESMTP id 5EE09109747D;
+	Wed, 15 Sep 2021 15:49:58 +0300 (+03)
+Date: Wed, 15 Sep 2021 15:49:58 +0300 (EET)
+From: HM <yalcinbaykin@ogo.org.tr>
+Reply-To: Hammad Mohammad <hammad.moham@hmoham.com>
+Message-ID: <1511463612.13430.1631710198357.JavaMail.zimbra@ogo.org.tr>
+Subject: Loan/Investment
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="=_1ebafba3-eedd-4997-a73f-debf83e02d2f"
+X-Originating-IP: [172.16.192.120]
+X-Mailer: Zimbra 8.8.15_GA_3996 (ZimbraWebClient - FF90 (Win)/8.8.15_GA_4007)
+Thread-Index: /Peto1CZHEi+jmSDu8rkZa87MYDdeg==
+Thread-Topic: Loan/Investment
+
+--=_1ebafba3-eedd-4997-a73f-debf83e02d2f
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+-- 
+Hello, 
+
+Do you have a business or start up idea that needs financing, partnership or loan? Contact me on hammad.moham@hmoham.com for more info. 
+
+Kind regards, 
+Hammad Mohammad 
+
+--=_1ebafba3-eedd-4997-a73f-debf83e02d2f
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><body><div style="font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #000000"><div><br></div><div><br></div><div data-marker="__SIG_POST__">-- <br></div><div>Hello,<br><br>Do you have a business or start up idea that needs financing, partnership or loan? Contact me on hammad.moham@hmoham.com for more info.<br><br>Kind regards,<br>Hammad Mohammad</div></div></body></html>
+--=_1ebafba3-eedd-4997-a73f-debf83e02d2f--

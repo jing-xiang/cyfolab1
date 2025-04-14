@@ -1,0 +1,95 @@
+Return-Path: <tranminhnhung4074@minamo.bid>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id /4h3JHDot2D3YwAAtf5whQ
+	(envelope-from <tranminhnhung4074@minamo.bid>)
+	for <johannes.olegard@cyfoexample.one.com>; Wed, 02 Jun 2021 20:22:08 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-transfer-encoding:content-type:mime-version:subject:to:message-id:
+	 from:date:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=JzoNb/VIO44dkUwtb31K+BFHVOF8O992qxxpRLrI2Jk=;	=?utf-8?q?b=3DsXEXV+G9ILjG?=
+ =?utf-8?q?/SgDlXLZDQsfAO8EtH3Qh//eDRNUf0KmviadhQGDNE5s5gvMIPDvK59DF7kpbVaUT?=
+	 =?utf-8?q?TrT1cE8fXdI6GU1h2hNVpIE4FhqKxKTi90kt8/1OzOMzUOJI7cyGBt8cDOIu9b4U?=
+ =?utf-8?q?cXt9KbMWX5ZrA7=09_5u0THzWIXQoxYzJUpcvz8lCN6wKfObTRxAagP4Xui0cHcEt?=
+ =?utf-8?q?pFxFoVCb/4VIoGU8qr0kfGsrX83zHgE=09_aoFMomFKYYvG8B6Breylhjw0lRSitN?=
+ =?utf-8?q?aBrAzvQDprjtk/LxQX7iLr9V885FgYslXw7F7p6C+DvRW3I6?=	
+ SoJHDKut8VHTWrHWoQoA0BiY1oZxL4A==
+X-HalOne-SA: 7.5
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F18=2E60B77E9D=2E0044=2Css=3D4?=
+ =?utf-8?b?LHNoLHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZn?=
+ =?utf-8?q?s=3D0?=
+X-HalOne-ID: 31085540-c3e0-11eb-bf1c-ec0d9a6ed98e
+Received: from 162-144-32-97.unifiedlayer.com (162-144-32-97.unifiedlayer.com
+ [162.144.32.97])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 31085540-c3e0-11eb-bf1c-ec0d9a6ed98e;	Wed, 02 Jun 2021 20:22:04 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed; d=minamo.bid;
+	 s=default; h=Content-Transfer-Encoding:Content-Type:MIME-Version:Subject:To:
+	Message-ID:From:Date:Sender:Reply-To:Cc:Content-ID:Content-Description:
+	Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc:Resent-Message-ID:
+	In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:List-Subscribe:
+	List-Post:List-Owner:List-Archive;
+	bh=JzoNb/VIO44dkUwtb31K+BFHVOF8O992qxxpRLrI2Jk=; b=FouQkH0S4bjZSdA+2T1hndU21U
+	Eg8hJi9AtvtbNIfVjHCJ7JnGjVV5TRITPu1Fs/j9HrVuM6Dgoplk3jI45AZmBWJCtVhpqxdHfG8qK
+	c/uMOmVBfxCoOuqvtQoZR+y0Pk+idPP0OGmFEXizTWltqB7EAquYOlJ4D7XNaJ8gzohppzcd/ryLk
+	aRqvcWGjfUHmM4g47HOFqFu3/w5WEKul51s9ueNCgsUQg3gxmI3E6RfB0dU0B3givvVhpvfldphZT
+	KGGfaRHG7ah1fR4HhUYKVaiRpjzFDlxPMEmCHkxX1PrzNFQdn+K9oWCCYuZA2mX+H9ZcLN02WyF3p
+	XBNn6p8Q==;
+Received: from [193.112.35.29] (port=42896 helo=minamo.bid)	by server.ladaz.co
+ with esmtpsa  (TLS1.2) tls TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	(Exim 4.93)
+	(envelope-from <tranminhnhung4074@minamo.bid>)	id 1loXNI-0008D2-NB	for
+ johannes.olegard@cyfoexample.one.com; Thu, 03 Jun 2021 03:22:01 +0700
+Date: Thu, 3 Jun 2021 4:21:59 +0800
+From: Original Medicants-Market <tranminhnhung4074@minamo.bid>
+Message-ID: <227728983.20210603042159@minamo.bid>
+To: johannes.olegard@cyfoexample.one.com
+Subject: Book premium generic and brand treatment production here!
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse:
+ This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - server.ladaz.co
+X-AntiAbuse: Original Domain - cyfoexample.one.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - minamo.bid
+X-Get-Message-Sender-Via:
+ server.ladaz.co: authenticated_id: tranminhnhung4074@minamo.bid
+X-Authenticated-Sender: server.ladaz.co: tranminhnhung4074@minamo.bid
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+=EF=BB=BF<!DOCTYPE=20html=20PUBLIC=20"-//W3C//DTD=20XHTML=201.0=20Transitio=
+nal//EN"=20"https://herbalbeststore.com/?cid=3Dsmay2021/">
+<html=20xmlns=3D"https://herbalbeststore.com/?cid=3Dsmay2021/">
+<head>
+<title>Book=20premium=20generic=20and=20brand=20treatment=20production=20he=
+re!</title>
+<meta=20http-equiv=3D"Content-Type"=20content=3D"text/html;=20charset=3Dutf=
+-8"/>
+</head>
+<body><table=20border=3D"0"=20cellspacing=3D"0"=20cellpadding=3D"0"=20bgcol=
+or=3D"#FFFFFF"=20align=3D"center"><tr><td=20colspan=3D"3"><p=20style=3D"mar=
+gin:8px;text-align:=20center;font-size:40px;color:#202020;">Original=20Medi=
+cants-Market</p><hr></td></tr><tr><td=20width=3D"150"></td><td=20width=3D"4=
+00"><p=20style=3D"margin:12px;text-align:=20center;font-size:16px;color:#20=
+2020;">Do=20you=20want=20to=20delight=20your=20love?=20It=20is=20not=20so=
+=20easy=20to=20keep=20your=20charm=20in=20power.=20Our=20team=20is=20lookin=
+g=20forward=20to=20make=20everything=20Ok!.=20The=20last=20thing=20you=20ne=
+ed=20to=20do=20is=20to=20proceed=20to=20our=20store.</p><table=20border=3D"=
+0"=20cellspacing=3D"0"=20cellpadding=3D"0"=20align=3D"center"><tr><td=20bgc=
+olor=3D"#B36360"=20style=3D"padding:=2012px=2018px=2012px=2018px;=20border-=
+radius:3px"=20align=3D"center"><a=20href=3D"https://feedproxy.google.com/~r=
+/0u4/~3/RCdcqiONoT4"=20target=3D"_blank"=20style=3D"font-size:=2016px;=20fo=
+nt-family:=20Helvetica,=20Arial,=20sans-serif;=20font-weight:=20normal;=20c=
+olor:=20#ffffff;=20text-decoration:=20none;=20display:=20inline-block;">Cli=
+ck=20to=20start=20shopping=20&rarr;</a></td></tr></table><hr><p=20style=3D"=
+margin:12px;color:#202020;">Open=20in=20web=20browser:<br=20/><a=20href=3D"=
+https://feedproxy.google.com/~r/0u4/~3/RCdcqiONoT4">https://feedproxy.googl=
+e.com/~r/0u4/~3/RCdcqiONoT4</a></p></td><td=20width=3D"150"></td></tr></tab=
+le></body>
+</html>
+

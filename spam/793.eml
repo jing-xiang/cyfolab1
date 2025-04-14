@@ -1,0 +1,156 @@
+Return-Path: <ticket@shipping.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.cst.mailpod12-cph3.one.com ([10.27.56.11])
+	by mailstorage27.cst.mailpod12-cph3.one.com with LMTP
+	id ILr4JxEwS2fDCwAATK8Ghw
+	(envelope-from <ticket@shipping.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Sat, 30 Nov 2024 15:32:33 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:mime-version:message-id:subject:reply-to:from:to:date:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=948CZchJ+BnZWrinI3YnRUwXFJ6jaDPObWQfrEMzqz4=;	=?utf-8?q?b=3DIvInu6VLlHck?=
+ =?utf-8?q?FSDp65NtGeFbU82nQQGrXrlpChghEmqBanUSasDI7DUOdE2HyIJpq3S/4hRXaqkaR?=
+	 =?utf-8?q?wj9o9++llvDTuBq14L+677Ddlfi8snvIs71zes32mAyMxEyvzeW1OkdSkvHokQp5?=
+ =?utf-8?q?KU7sJsJKcz9ZGz=09_nGEO4VUlUkoPxzUGk4nABsyNhbx8z5F1Q56wglxfQW+dHoS?=
+ =?utf-8?q?dy4IKUg0GTsqqP5qQZ7EyqQpZ/M1SpK=09_wvPgiMT4/RfMEi+fSrjB/elvqiQqR0?=
+ =?utf-8?q?qZgekUYBQ6YHXZyEeG2/xP3JPq5XSjPsp/YY7xYG4ptcwjLm?=	
+ CHxBBjgXmldhbYbixe0X+5+Jxk/uahQ==
+X-HalOne-SA: 11.9
+X-HalOne-RefID: 155866::1732980753-4B13E4CA-408202AA/10/60417940412
+X-HalOne-Spam-Probability: 1
+Authentication-Results: mx1.pub.mailpod12-cph3.one.com;
+	spf=softfail smtp.mailfrom=shipping.com smtp.remote-ip=34.90.27.210;
+	dmarc=none header.from=shipping.com;
+X-HalOne-ID: 514dcd7e-af30-11ef-9386-b07b25bf071a
+Received: from
+ cs-936890603766-default.europe-west4-a.c.i2f7e30109524dc12-tp.internal
+ (210.27.90.34.bc.googleusercontent.com [34.90.27.210])	by
+ mx1.pub.mailpod12-cph3.one.com (Halon) with ESMTPS	id
+ 514dcd7e-af30-11ef-9386-b07b25bf071a;	Sat, 30 Nov 2024 15:32:33 +0000 (UTC)
+Received: from cs-936890603766-default (localhost [127.0.0.1])	by
+ cs-936890603766-default.europe-west4-a.c.i2f7e30109524dc12-tp.internal
+ (Postfix) with ESMTP id 58AA643FDFC	for
+ <johannes.olegard@cyfoexample.one.com>; Sat, 30 Nov 2024 15:16:37 +0000 (UTC)
+Date: Sat, 30 Nov 2024 15:16:37 +0000
+To: johannes.olegard@cyfoexample.one.com
+From: Top IPTV Offers <ticket@shipping.com>
+Reply-To: David <iptvbusinwwess19@gmail.com>
+Subject: Special Offer Inside: Your 24-Month Entertainment Pass!
+Message-ID:
+ <VqhRd2gMxu1cNoLhGSG0kDv2sDqrle8xwLPiT6tVKA@cs-936890603766-default>
+X-Mailer: PHPMailer 6.9.3 (https://github.com/PHPMailer/PHPMailer)
+MIME-Version: 1.0
+Content-Type: text/html; charset=iso-8859-1
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Best IPTV - Unlock 30,000+ Channels</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #1a73e8;
+            text-align: center;
+        }
+
+        h2 {
+            color: #ff6f61;
+            text-align: center;
+        }
+
+        .cta-button {
+            background-color: #ff6f61;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 5px;
+            font-size: 18px;
+            text-decoration: none;
+            display: block;
+        }
+
+        .cta-button:hover {
+            background-color: #e5554d;
+        }
+
+        .features {
+            text-align: center;
+        }
+
+        .feature {
+            font-size: 16px;
+            line-height: 1.6;
+            margin: 10px 0;
+        }
+
+        .footer {
+            text-align: center;
+            font-size: 14px;
+            color: #888;
+            margin-top: 20px;
+        }
+
+        .footer a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+
+        .unsubscribe {
+            margin-top: 10px;
+            color: #888;
+        }
+
+        .social-links a {
+            margin: 0 5px;
+            color: #ff6f61;
+            text-decoration: none;
+            font-size: 18px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Unlock 30,000+ Channels with Best IPTV</h1>
+        <h2>Watch Sports, Movies, and More Anytime, Anywhere!</h2>
+        <p>Are you a sports fan, a movie lover, or just someone who enjoys watching the best TV from around the globe? <strong>Casamia TV</strong> has everything you need to stay entertained!</p>
+        <p>Why settle for limited options when you can have over <strong>30,000+ channels</strong> at your fingertips? With <strong>HD, FHD</strong>, and <strong>4K</strong> quality,<strong>Casamia TV</strong> gives you instant access to live sports, blockbuster movies, international shows, and so much more!</p>
+        <div class="features">
+            <div class="feature"><strong>Sports Fans:</strong> Enjoy live matches from the biggest leagues and events worldwide!</div>
+            <div class="feature"><strong>Movie Lovers:</strong> Dive into a vast library of the latest films and timeless classics.</div>
+            <div class="feature"><strong>Worldwide TV:</strong> Access channels from across the globe&mdash;never miss out on your favorite shows!</div>
+            <div class="feature"><strong>Not sure yet?</strong> Get a <strong>FREE 24-Hour</strong> trial to test us out before committing.</div>
+        </div><a href="https://t2m.io/FzgcJKN" class="cta-button">Grab the 24-Months Best Deal Now!</a>
+        <p style="text-align:center;">OR</p><a href="https://t2m.io/HM4TuFR" class="cta-button">Talk to Us on WhatsApp</a>
+        <p style="text-align: center;">Need more information? <strong>Visit CasamiaTV .com&nbsp;</strong>for full details and start enjoying your unlimited entertainment experience!</p>
+        <div class="footer">
+            <p><strong>Casamia TV</strong><strong>&nbsp;- Your Ultimate Streaming Solution</strong></p>
+            <p class="unsubscribe">Want to unsubscribe? <span style="color: #d14841; font-size: 18px;"><a href="https://t.ly/rQ9Rq">Click here</a></span>.</p>
+        </div>
+    </div>
+</body>
+
+</html>
+

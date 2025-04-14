@@ -1,0 +1,111 @@
+Return-Path: <loja4635@gob.org.br>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id CI4AKNBUQGH9OwAAtf5whQ
+	(envelope-from <loja4635@gob.org.br>)
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 14 Sep 2021 07:52:48 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=message-id:reply-to:date:from:to:subject:mime-version:content-type:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=zl4ufOTuNnPguzMLpQPtOfUvRz9S95dtY5wCdBfsUkE=;	=?utf-8?q?b=3DDAUgdRKPdi1L?=
+ =?utf-8?q?Dv5h9NP3zxy0nb1t2iYk//rpHM04zYZNdYjSmmqjjJZfj4ou6ELdoRq82vcWXBQKJ?=
+	 =?utf-8?q?tF/5ZW0RbnN3JDztRZt+luJAXjxz2ZJyJntNoxYYbfHbBb6EDy/XPqLvcHIGs+9k?=
+ =?utf-8?q?jF+E5M968ecIQI=09_uOdhbfitURnzY76b5dvWlcdTnDmJj7fVRI7OLbA8Q8NZAzQ?=
+ =?utf-8?q?wF9PVeb9f19KJ05NgbIYlvvfeL2yq+E=09_DC17hDSJa9m0h9C9TGkCx1Lci2SHV6?=
+ =?utf-8?q?bn9n8TxBF3wVnODKmG24rFYJ3Je6ifnGY8v3ova+KwEAamRW?=	
+ 68qqpBxT7Kuh5tmkli4lP5uRGu5NGMA==
+X-HalOne-SA: 13.6
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F29=2E6140428A=2E006A=2Css=3D4?=
+ =?utf-8?b?LHNoLHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZn?=
+ =?utf-8?q?s=3D8?=
+X-HalOne-ID: beffebda-1530-11ec-88d0-ec0d9a6ed98e
+Received: from caixapostal.gob.org.br
+ (mluiza-200-225-216-065.static.ctbctelecom.com.br [200.225.216.65])	by
+ mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ beffebda-1530-11ec-88d0-ec0d9a6ed98e;	Tue, 14 Sep 2021 07:52:47 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by caixapostal.gob.org.br (Postfix) with ESMTP id 764241C5B4F49;
+	Mon, 13 Sep 2021 02:17:05 -0300 (-03)
+Received: from caixapostal.gob.org.br ([127.0.0.1])
+	by localhost (caixapostal.gob.org.br [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id 9s8uMeqIuwyp; Mon, 13 Sep 2021 02:17:05 -0300 (-03)
+Received: from localhost (localhost [127.0.0.1])
+	by caixapostal.gob.org.br (Postfix) with ESMTP id D4A1A197EA29E;
+	Sun, 12 Sep 2021 14:59:47 -0300 (-03)
+X-Virus-Scanned: amavisd-new at caixapostal.gob.org.br
+Received: from caixapostal.gob.org.br ([127.0.0.1])
+	by localhost (caixapostal.gob.org.br [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id RLNgDvyt7Xhg; Sun, 12 Sep 2021 14:59:47 -0300 (-03)
+Received: from [192.168.0.114] (unknown [93.182.109.192])
+	by caixapostal.gob.org.br (Postfix) with ESMTPSA id AD88C18858D77;
+	Sun, 12 Sep 2021 02:07:38 -0300 (-03)
+Content-Type: multipart/alternative; boundary="===============1685652306=="
+MIME-Version: 1.0
+Subject: RE
+To: Recipients <loja4635@gob.org.br>
+From: "DONATION"<loja4635@gob.org.br>
+Date: Sun, 12 Sep 2021 08:07:27 +0300
+Reply-To: francoispinault03@outlook.com
+X-Antivirus: Avast (VPS 210911-2, 9/11/2021), Outbound message
+X-Antivirus-Status: Clean
+Message-Id: <20210912050738.AD88C18858D77@caixapostal.gob.org.br>
+
+You will not see this in a MIME-aware mail reader.
+--===============1685652306==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+=20$3.5=20Million=20Has=20Been=20Donated=20To=20You,By=20Fran=E7ois=20Pinau=
+lt=20due=20to=20the=20covid-19=20pandemic=20this=20is=20Real=20Get=20back=
+=20For=20More=20Info
+=20WhatsApp:=20+447452035105
+=20=20
+=20=20
+
+
+--=20
+This=20email=20has=20been=20checked=20for=20viruses=20by=20Avast=20antiviru=
+s=20software.
+https://www.avast.com/antivirus
+
+--===============1685652306==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<HTML><head><meta=20http-equiv=3D"Content-Type"=20content=3D"text/html;=20c=
+harset=3Diso-8859-1"/></head><BODY><FONT=20size=3D4>
+<P><STRONG><EM><FONT=20size=3D4>$3.5=20Million=20Has=20Been=20Donated=20To=
+=20You,By=20Fran=E7ois=20Pinault=20due=20to=20the=20covid-19=20pandemic=20t=
+his=20is=20Real=20Get=20back=20For=20More=20Info</FONT></EM></STRONG></P>
+<P><FONT=20size=3D4><STRONG><EM>WhatsApp:=20+447452035105</EM></STRONG></FO=
+NT></P></FONT>
+<P>&nbsp;</P>
+<P><FONT=20size=3D4><STRONG><EM></EM></STRONG></FONT>&nbsp;</P><div=20id=3D=
+"DAB4FAD8-2DD7-40BB-A1B8-4E2AA1F9FDF2"><br=20/>
+<table=20style=3D"border-top:=201px=20solid=20#D3D4DE;">
+=09<tr>
+=20=20=20=20=20=20=20=20<td=20style=3D"width:=2055px;=20padding-top:=2013px=
+;"><a=20href=3D"https://www.avast.com/sig-email?utm_medium=3Demail&utm_sour=
+ce=3Dlink&utm_campaign=3Dsig-email&utm_content=3Demailclient&utm_term=3Dico=
+n"=20target=3D"_blank"><img=20src=3D"https://ipmcdn.avast.com/images/icons/=
+icon-envelope-tick-round-orange-animated-no-repeat-v1.gif"=20alt=3D""=20wid=
+th=3D"46"=20height=3D"29"=20style=3D"width:=2046px;=20height:=2029px;"=20/>=
+</a></td>
+=09=09<td=20style=3D"width:=20470px;=20padding-top:=2012px;=20color:=20#414=
+24e;=20font-size:=2013px;=20font-family:=20Arial,=20Helvetica,=20sans-serif=
+;=20line-height:=2018px;">Virus-free.=20<a=20href=3D"https://www.avast.com/=
+sig-email?utm_medium=3Demail&utm_source=3Dlink&utm_campaign=3Dsig-email&utm=
+_content=3Demailclient&utm_term=3Dlink"=20target=3D"_blank"=20style=3D"colo=
+r:=20#4453ea;">www.avast.com</a>
+=09=09</td>
+=09</tr>
+</table><a=20href=3D"#DAB4FAD8-2DD7-40BB-A1B8-4E2AA1F9FDF2"=20width=3D"1"=
+=20height=3D"1">=20</a></div></BODY></HTML>
+--===============1685652306==--

@@ -1,0 +1,84 @@
+Return-Path: <bhil89745@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id IOYUMPd5EmHrYgAAtf5whQ
+	(envelope-from <bhil89745@gmail.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 10 Aug 2021 13:07:03 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:subject:message-id:date:from:reply-to:mime-version:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=I+vuQXSt2OGqOFS0//SeHTqGgub37EXux0yh24orCpI=;	=?utf-8?q?b=3Dk9pyI3y35uCr?=
+ =?utf-8?q?cgEjmQWA05RjvKgPRathGUwIkNSI+ZLRlEfm4iBdjOWiIQg0J05zcKzaxIXH5Xae8?=
+	 =?utf-8?q?AfJJCnCTCarZC6DF4Bd5hqs79qg61byiJ2p6vMWwVagXw6XaXTdoE6oUzsB4vR8I?=
+ =?utf-8?q?e53x0Uv6OQbMaH=09_8O6UqncTJ4eEG2XPXkL/52DlfG+GooJWrmWHeDjWmJxUi/h?=
+ =?utf-8?q?59YOXnFxHNLwabljGoVO0tBwv32miu0=09_Ebw51ZE3tftY+EV+xdmENpVZRjDU+t?=
+ =?utf-8?q?NngphVcMrr2Sblk9Ui19dPXS1wQNQRvLowk13/ghmdqiCGo6?=	
+ o7qvp8xpNdq98T9/qIA46mm9BMwFRow==
+X-HalOne-SA: 14.3
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F23=2E611279F7=2E000D=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz0w?=
+X-HalOne-ID: daa3c83a-f9db-11eb-b828-e0d84894a001
+Received: from mail-ej1-f47.google.com (mail-ej1-f47.google.com
+ [209.85.218.47])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ daa3c83a-f9db-11eb-b828-e0d84894a001;	Tue, 10 Aug 2021 13:07:02 +0000 (UTC)
+Received: by mail-ej1-f47.google.com with SMTP id o23so2132623ejc.3        for
+ <johannes.olegard@cyfoexample.one.com>; Tue, 10 Aug 2021 06:07:02 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:reply-to:from:date:message-id:subject:to;
+        bh=I+vuQXSt2OGqOFS0//SeHTqGgub37EXux0yh24orCpI=;
+        b=AcwLj1Qg0QeOCgh2PqDm2/DfUmXJ26A99539TDlS655ZNhkV/cTQZMOLsErmlQi9S8
+         MmqVb9FGXhkqd2COw6Rb+n0eEExT8CmQJc1Dg2sc+GA29CoXLx3QnS+aFHR4m5x79HT9
+         12ceMosZ5ibbJD8bjGQ5z6C9WyB6qd/Ur7Gg9u6wgwue47PKDWVMLRquWhkK8Rr7OPEV
+         HGlo97fQhhxcRIQZJMnx8JRIQzduhSIYs9u1WK+DtKCBiUcLPfnudGQrP4nI5vvb8u6d
+         tKH3PAXZ5sc3yFSbx8w1EDhlO7qeCQcHsSYO2yWQbuYq6E47q/A0wG012ddRM9Bi/QY0
+         JCFQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=I+vuQXSt2OGqOFS0//SeHTqGgub37EXux0yh24orCpI=;
+        b=pHCtx/HDVOtBhnDubmskQ6SwywbxBj/ZR1vrsXeVnwGbIlaLQxzWrfCoiFqFgOIVUz
+         4vdRXB9rHoXHyAj2ljLws1Wgp7FFFGjjrrCHlD/VkCwhmIwQ2KiqHpCI0Sw0UJB403mZ
+         a3rL4ZcIKqph4+otpXoFT0+XtBhnUW60QiXoYPsMVQnbs+8o9ZgUqPH/KjcjDWyhUNep
+         tMnAIdL7ql+g5cu37FyE0hU9c9EFIL1jdy8LA51Z1Gi6gP+x9wznxrZhDmN9HpD+JdsT
+         99GD6/YsOPldpsR27qj9KrAnbMVGAh8TFfY+5zROqX0aVoG0IjE3o+F+18qZbbiymcVJ
+         FZoA==
+X-Gm-Message-State: AOAM530JZwFqaMyzsOSegPBBL9IxMFxl19Xqd7S2up6hQpw6tmH/U3UG
+	XABGBy6/RgSaSDpga4Tw7r0SxgUDD8CzvCtXaTU=
+X-Google-Smtp-Source: =?utf-8?q?ABdhPJxCiR8W1RwRygnhU7X5RQw2tpPBz++oZ79+Ny/e?=
+ =?utf-8?q?3sxcTHRTOEVLwBZR7JFjU0KUR1kIZUVSHFXSLKZmrpFZCXE=3D?=
+X-Received: by 2002:a17:906:95ce:: with SMTP id
+ n14mr26084337ejy.130.1628600818682; Tue, 10 Aug 2021 06:06:58 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:a17:906:30d5:0:0:0:0 with HTTP; Tue, 10 Aug 2021 06:06:57
+ -0700 (PDT)
+Reply-To: hildaben100@yahoo.com
+From: Hilda Benson <bhil89745@gmail.com>
+Date: Tue, 10 Aug 2021 13:06:57 +0000
+Message-ID:
+ <CAOVLOXHpSiDmE_xPm-bX9CDQ5GXD5Ws1Dm1eBdB95sJAa_c_Tw@mail.gmail.com>
+Subject: Hello Dear,
+To: undisclosed-recipients:;
+Content-Type: text/plain; charset="UTF-8"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+Hello,
+
+My name is Mrs Hilda Benson.I am seriously suffering from a long time
+cancer of the breast.Last week, my doctor told me that he has tried
+his best to save my life but to no avail.He told me that I may not
+live beyond two months.Before the death of my husband,he deposited the
+sum of $3.5 million Dollars in one of the commercial bank.
+
+Because of the doctor's advise that i will not live beyond two
+months,I have decided to give you this money as a donation for God's
+work.You should distribute it among charity organizations such as the
+motherless babies homes and the less privileged people in the society.
+
+Write me back for more details as soon as you receive this message.
+
+Mrs.Hilda Benson.

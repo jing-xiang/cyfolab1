@@ -1,0 +1,95 @@
+Return-Path: <twk_4ever@yahoo.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id EK+UKS6SS16zXQAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 18 Feb 2020 07:28:46 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 4b9333ac-5220-11ea-afee-e0d84894a001
+Received: from sonic306-1.consmr.mail.bf2.yahoo.com
+ (sonic306-1.consmr.mail.bf2.yahoo.com [74.6.132.40])	by
+ mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 4b9333ac-5220-11ea-afee-e0d84894a001;	Tue, 18 Feb 2020 07:28:46 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048;
+ t=1582010924; bh=SBNbWDOXqRSXLCqRUyopkRm7KyRpJKaEkmtJU4ZDpd4=;
+ h=Date:From:Reply-To:Subject:References:From:Subject; =?utf-8?q?b=3DP/b65qh?=
+ =?utf-8?q?VFEh3L/Zv6qf5up0iSQBvRsSFHbHrcJIAVBpNRZxRP+RzaaYp9BoXUmMgQpDbE9DT?=
+ =?utf-8?q?EKJpvypItwf7XTxRP4jyMcs5NKRIHYJ4epP3zNnVbTbGu/wuOXoHirdACXtdOxX9g?=
+ =?utf-8?q?cEUzYyNqBIS9E2jVBh1WyqrdgdRZokwLkjMDQL2cfoPlaKDNUQ35CDN5l3mWi6oi3?=
+ =?utf-8?q?68uXqEIBVbmejdHxo2SLV1Zq5It6/KSqrRSMa+JtcOrwmSTE32CTbvK0as0kpTN9L?=
+ =?utf-8?q?x7E+O3IZpBISv23GXNjiB/s7cNil8XCxTtz+BNhdZ7fZCJ2m4HvbObcT6Gzaqj6RT?=
+ =?utf-8?q?37vfbI+Dzw=3D=3D?=
+X-YMail-OSG: yqwDj8AVM1mV32H5yRPFlTMVbYyaLZroKTaPruy4WzPfqSnpzs4sA35XLJS6VeX
+ 7V1qNE15b9BLw6hC_s4GiQusQvdpBd2bYusttDRk_QNqCnfFDHkX.TWl67UQ05uzWUqOGdiHOBN5
+ nRWn9FyC0ULyzOCCPdQLCfMPAiM_n1lWC7yTiaTFPksfNoIT7olxU6WZ0uGht7i.oVMWzexT4Oyq
+ CduBxO68srdjiI5UzLbKMi1cm1fLI.rIrhYne2gFA0SxLM.eSJREoVs0R0LFazJVc43OsLgAgZlg
+ Th7vXbv7RtIX1UGatLBGqHuwHcXCdMMUgw6h43ekLrDC79.kMuMubzOqpVZ_ZBO2y2uhOpRzAbLJ
+ 88RmgTl5ywO40JCNMC_M2denbrzkOT0rVs.JvT4rHkMJRZrXRjH5Zt6cWpMusY1XCIwlOc2ObAMV
+ .F9Nk78m3HxsIlMbD7mRPkAkiHN3jbdHnTf6_2QDLAPhHP_N_u1yZpREEa6ZIrNk2sgQb3iJOHZd
+ hAPsA95U52Lg0bvLc5iWWt0o_JFqm8DLIVAos70BE7qNpUG5tfgwYq6uqvi.Xx_YZRQoJNswzaec
+ S9ubkf2i_r7K89m7SJsW3h9tcC4BjNuqVod0jN1dBS6Cp4672NKXUh_4GLEzINw.EnVoHK7bKEtm
+ wnTYNPAXVkjGcQPmZ0pxSCJo2ri54aKwDCln_viir.I8Ob.xfuQhG7xUYBa9q55qr8RHzmFLStXk
+ zs3mvsW2XfEnC5X9ZPC3S6wGyVAzpHNoS8S4VWE3b48iahs1f1hnJjGbcR4wCy1Zn5eI8rkpZ.gr
+ tinWCJjpbUe1HVxTMgmlpUusTrVMyfz5VEHSMIqEQDS6TESBxPnWYw3OcuJc8tdpUNIh1kMvctN1
+ 4asSvf72Hww3jePk51fpTZa2N6M_uOETUIRiJqdqEkz5Xbb5tUJpB8I957S47p5vB5zwn5TdwEIW
+ FcbDnHs0mBKTRg9q9lj76v4i9c8imKcJJQvmq2KcEk1R2TSlu5d0dAETXbXdm2gp8jM.I4kJj0ej
+ osh2Me9WlscurKiNgdFZvCFJ6ArTVNsOvqt6lo4jRjH6iAJsUdk6R3LyiTsPutFY97YRpkEX3ZXb
+ unR_SS0nbReA9UFaHxk2sXzuzockj5zsOwy8bWOJJo.aBxLl6xKRydO4XcQaZWTEkIU0.VgpDWge
+ Ovcfulz0fj3S8rGpLEfygD3YhF1b7no7C1BRV1xctVjHL_3TRq3ZLAotvxVnqCAZUNMlE6pWBJaQ
+ 2bK0zChXg8PoOU5l15eYjWvArAW87GlGDlfL_7EV9wTe7x1tjMREEv4SkwdRMeQoXqSXlDduglWb
+ kVA--
+Received: from sonic.gate.mail.ne1.yahoo.com by
+ sonic306.consmr.mail.bf2.yahoo.com with HTTP; Tue, 18 Feb 2020 07:28:44 +0000
+Date: Tue, 18 Feb 2020 07:28:43 +0000 (UTC)
+From: "Mr Charles W. Scharf" <twk_4ever@yahoo.com>
+Reply-To: ofile249@gmail.com
+Message-ID: <1003347950.3210913.1582010923039@mail.yahoo.com>
+Subject: WELCOME TO WELLS FARGO BANK
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+References: <1003347950.3210913.1582010923039.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.15199 YMailNodin Mozilla/5.0 (Windows NT 6.1; Win64;
+ x64; rv:73.0) Gecko/20100101 Firefox/73.0
+Content-Length: 5166
+
+
+
+WELCOME TO WELLS FARGO BANK
+1239 BAY AREA BLVD. #205
+HOUSTON, TEXAS 77058 USA
+(406) 318-8724
+United States
+Email::: ofile249@gmail.com
+TELEGRAPHIC TRANSFER NOTICE OF US$32.BILLION US DOLLARS TRANSFER
+Dear Valued Customer,
+The Wells Fargo Bank controlling department controlling of the security transfer CODE which is (wfu/300/105/08), the Authentication section code of this bank concludes the verification of your file. After going through all the documents of claim received by this department with justification and verification from the global strategy America, we are completely satisfied and you have been confirmed.
+
+The Wells Fargo Bank concerning wire transfers of your funds. Your letter has been referred to the (FSA) Legal Division for Funds ($32 Billion US Dollars) Transferred code. (wfu/300/105/08). We are satisfied using Electronic Wire Transfer or Swift Wire Transfer and the rights and liabilities of using of electronic and Swift fund transfer systems are defined by the Electronic Fund Transfer Act. The regulation, however, which implements this statute, 12 C.F.R. Part 205, Regulation E. specifically states that its provisions are inapplicable to a situation such we must ensure your Funds Transferred to your destination Bank Account between 10 hours.
+
+I want you to understand that fact that,the grant fund is from united nation humanitarian office and their aim is to eradicate poverty to the entire nation and you are among the beneficiaries and keep note that,West Africa is the zonal coordinators head quarter because majority are living in poverty over there and grant fund approval document must be giving to you from the zonal co- coordinator country (Benin Republic) before we can transfer your fund to you , this is 100% risk free and money laundry free also, this is legitimate,the Grant Fund Approval will proof that, the fund is not a money laundry and also it will proof that, the fund is not a drug money.
+
+Considering the volume of your payment, it is right for us to seek for the grant fund approval document from the the zonal co- coordinator country (Benin Republic) before we can carry on the Transfer of an amount of such magnitude to you, otherwise any such transfer will be stopped by the Financial Service Authorities and the International Monetary Fund, since your Transfer is Electronic Transfer is almost activated with our bank and the only thing holding the final activation of your Account is the Approval Document charges from the concerned Authorities, and for that reason, you are required to pay the Sum of $95 only (The TOTAL FEE) for the obtain of the necessary documents that will enable the your fund transfer to you without single delay.
+In respect,you are required to send the Approval Documents fee of $95 only [BANK B], under section 47-4A302 of Wells Fargo Bank United States of America's law, a depository institution which wire transfers funds may not deduct any fees for handling the wire transfer from the amount of money which is to be transferred to your provided Bank Account.
+The fastest Wire Transfer is Electronic Transfer which only takes just 3 hours to reflect in Account, and Swift Wire transfer takes 5 hours to remit. You will receive your ($32 Billion US Dollars) via Wire Transfer or ATM visa card Bank Draft to you.
+Send the fee by sending iTunes card $95 or Google Play card.
+
+Be rest assured that there will be no more fee or charge of any kind to this transaction again because after $95 you get your ($32 Billion US Dollars) successfully via Wire Transfer or ATM visa card Bank Draft to you immediately any of choice.
+This law is stated according to section-35 And-36 of the banking sector interaction realm of our constitution and the outside world. Based on article of association and memorandum of association, the Chase controlling agency of USA and your happiness suits our stand and we will make sure that your fund is fully endorsed to your bank account as soon as you have comprehended with our instructions.
+NB: THIS TRANSACTION IS BEING MONITORED BY THE UNITED STATES OF AMERICA GOVERNMENT IN ORDER TO GUARDS US FOR INTERNET IMPOSTORS.
+(Designated bank account details for Electronic Transfer to avoid mistake or should in case you created a new account or through ATM VISA CARD)
+Your Full Name:
+Address:
+Country:
+Account Number:
+Account Name:
+Routing Number:
+Occupation:
+Mobile Phone:
+If at any time you have questions, concerns or comments, please contact us as we strive to ensure that you will always receive a prompt and courteous attention. Waiting to hear from you positively in order to release your Funds ($32 Billion US Dollars) to you without any delay.
+Send us the attachment of the iTunes card $95 once you make the payment so we can direct it to the right office imposition to release the document. And immediately you make the payment to them the document will sign and your ATM parcel will deliver to your address without delay.
+Thank you for giving us the opportunity to serve your banking needs.
+Yours sincerely,
+Mr Charles W.Scharf
+Chairman, Chief Executive Officer,
+Chief Executive Officer of Wells Fargo Bank
+And Director of Wells Fargo Bank.

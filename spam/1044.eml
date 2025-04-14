@@ -1,0 +1,230 @@
+Return-Path: <>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id sFJfILknRl0/TAAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Sun, 04 Aug 2019 00:32:57 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 3a7c9648-b64f-11e9-8548-ec0d9a6ed98e
+Received: from mail.eventide.com
+ (static-71-172-147-141.nwrknj.fios.verizon.net [71.172.147.141])	by
+ mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 3a7c9648-b64f-11e9-8548-ec0d9a6ed98e;	Sun, 04 Aug 2019 00:31:41 +0000 (UTC)
+MIME-Version: 1.0
+From: <postmaster@eventide.com>
+To: <johannes.olegard@cyfoexample.one.com>
+Date: Sat, 3 Aug 2019 20:17:53 -0400
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="8527f093-581b-4152-9b5b-7edf45da1e4b"
+X-MS-Exchange-Message-Is-Ndr: 
+Content-Language: en-US
+Message-ID: <5b606b16-2240-41f3-ad25-f088ba0168ac@mail.eventide.com>
+In-Reply-To: <5B541AB8CA15F66867298BF926C55B54@YHUDLMLAV>
+References: <5B541AB8CA15F66867298BF926C55B54@YHUDLMLAV>
+Subject: Undeliverable: High danger. Your account was attacked.
+Auto-Submitted: auto-replied
+
+--8527f093-581b-4152-9b5b-7edf45da1e4b
+Content-Type: multipart/alternative; differences=Content-Type;
+	boundary="f21bd21a-0d3c-40aa-a850-e708f60f7f99"
+
+--f21bd21a-0d3c-40aa-a850-e708f60f7f99
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Delivery=20has=20failed=20to=20these=20recipients=20or=20groups:
+
+aron431=20(tagnello@eventide.com)<mailto:tagnello@eventide.com>
+A=20problem=20occurred=20during=20the=20delivery=20of=20your=20message=20li=
+kely=20due=20to=20invalid=20DNS=20record=20configuration.=20This=20could=20=
+be=20a=20temporary=20situation.=20Please=20try=20to=20resend=20the=20messag=
+e=20later.=20If=20the=20problem=20continues,=20contact=20your=20email=20adm=
+in.
+
+
+
+
+
+
+
+
+Diagnostic=20information=20for=20administrators:
+
+Generating=20server:=20mail.eventide.com
+
+tagnello@eventide.com
+Remote=20Server=20returned=20'554=205.4.108=20SMTPSEND.DNS.MxLoopback;=20DN=
+S=20records=20for=20the=20next=20hop=20domain=20are=20configured=20in=20a=
+=20loop=20->=20DnsDomainIsInvalid:=20InfoMxLoopback'
+
+Original=20message=20headers:
+
+Received:=20from=20static.vnpt.vn=20(113.190.82.15)=20by=20mail.eventide.com
+=20(10.46.152.8)=20with=20Microsoft=20SMTP=20Server=20id=2015.1.1531.3;=20S=
+at,=203=20Aug=202019
+=2020:17:52=20-0400
+Message-ID:=20<5B541AB8CA15F66867298BF926C55B54@YHUDLMLAV>
+From:=20thornie76=20<johannes.olegard@cyfoexample.one.com>
+To:=20aron431=20<tagnello@eventide.com>
+Subject:=20High=20danger.=20Your=20account=20was=20attacked.
+Date:=20Sun,=204=20Aug=202019=2013:08:59=20+0600
+MIME-Version:=201.0
+Content-Type:=20text/plain;=20charset=3D"windows-1252"
+Content-Transfer-Encoding:=208bit
+X-Priority:=203
+X-MSMail-Priority:=20Normal
+Importance:=20Normal
+X-Mailer:=20Microsoft=20Windows=20Live=20Mail=2016.4.3505.912
+X-MimeOLE:=20Produced=20By=20Microsoft=20MimeOLE=20V16.4.3505.912
+Return-Path:=20johannes.olegard@cyfoexample.one.com
+Received-SPF:=20None=20(mail.eventide.com:=20johannes.olegard@cyfoexample.o=
+ne.com=20does=20not
+=20designate=20permitted=20sender=20hosts)
+
+
+--f21bd21a-0d3c-40aa-a850-e708f60f7f99
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html>
+<Head></head><body>
+<p><b><font=20color=3D"#000066"=20size=3D"3"=20face=3D"Arial">Delivery=20ha=
+s=20failed=20to=20these=20recipients=20or=20groups:</font></b></p>
+<font=20color=3D"#000000"=20size=3D"2"=20face=3D"Tahoma"><p><a=20href=3D"ma=
+ilto:tagnello@eventide.com">aron431=20(tagnello@eventide.com)</a><br>
+</font>
+<font=20color=3D"#000000"=20size=3D"3"=20face=3D"Arial">A=20problem=20occur=
+red=20during=20the=20delivery=20of=20your=20message=20likely=20due=20to=20i=
+nvalid=20DNS=20record=20configuration.=20This=20could=20be=20a=20temporary=
+=20situation.=20Please=20try=20to=20resend=20the=20message=20later.=20If=20=
+the=20problem=20continues,=20contact=20your=20email=20admin.<br>
+</font>
+<font=20color=3D"#000000"=20size=3D"2"=20face=3D"Tahoma"><br>
+</p>
+</font>
+<br><br><br><br><br><br>
+<font=20color=3D"#808080"=20size=3D"2"=20face=3D"Tahoma"><p><b>Diagnostic=
+=20information=20for=20administrators:</b></p>
+<p>Generating=20server:=20mail.eventide.com<br>
+</p>
+<p>tagnello@eventide.com<br>
+Remote=20Server=20=20returned=20'554=205.4.108=20SMTPSEND.DNS.MxLoopback;=
+=20DNS=20records=20for=20the=20next=20hop=20domain=20are=20configured=20in=
+=20a=20loop=20-&gt;=20DnsDomainIsInvalid:=20InfoMxLoopback'<br>
+</p>
+<p>Original=20message=20headers:</p>
+<pre>Received:=20from=20static.vnpt.vn=20(113.190.82.15)=20by=20mail.eventi=
+de.com
+=20(10.46.152.8)=20with=20Microsoft=20SMTP=20Server=20id=2015.1.1531.3;=20S=
+at,=203=20Aug=202019
+=2020:17:52=20-0400
+Message-ID:=20&lt;5B541AB8CA15F66867298BF926C55B54@YHUDLMLAV&gt;
+From:=20thornie76=20&lt;johannes.olegard@cyfoexample.one.com&gt;
+To:=20aron431=20&lt;tagnello@eventide.com&gt;
+Subject:=20High=20danger.=20Your=20account=20was=20attacked.
+Date:=20Sun,=204=20Aug=202019=2013:08:59=20+0600
+MIME-Version:=201.0
+Content-Type:=20text/plain;=20charset=3D&quot;windows-1252&quot;
+Content-Transfer-Encoding:=208bit
+X-Priority:=203
+X-MSMail-Priority:=20Normal
+Importance:=20Normal
+X-Mailer:=20Microsoft=20Windows=20Live=20Mail=2016.4.3505.912
+X-MimeOLE:=20Produced=20By=20Microsoft=20MimeOLE=20V16.4.3505.912
+Return-Path:=20johannes.olegard@cyfoexample.one.com
+Received-SPF:=20None=20(mail.eventide.com:=20johannes.olegard@cyfoexample.o=
+ne.com=20does=20not
+=20designate=20permitted=20sender=20hosts)
+</pre>
+</font>
+</body>
+</html>
+--f21bd21a-0d3c-40aa-a850-e708f60f7f99--
+
+--8527f093-581b-4152-9b5b-7edf45da1e4b
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns;mail.eventide.com
+Received-From-MTA: dns;static.vnpt.vn
+Arrival-Date: Sun, 4 Aug 2019 00:17:52 +0000
+
+Final-Recipient: rfc822;tagnello@eventide.com
+Action: failed
+Status: 5.4.108
+Diagnostic-Code: smtp;554 5.4.108 SMTPSEND.DNS.MxLoopback; DNS records for the
+ next hop domain are configured in a loop -> DnsDomainIsInvalid:
+ InfoMxLoopback
+X-Display-Name: aron431
+
+
+--8527f093-581b-4152-9b5b-7edf45da1e4b
+Content-Type: message/rfc822
+
+Received: from static.vnpt.vn (113.190.82.15) by mail.eventide.com
+ (10.46.152.8) with Microsoft SMTP Server id 15.1.1531.3; Sat, 3 Aug 2019
+ 20:17:52 -0400
+Message-ID: <5B541AB8CA15F66867298BF926C55B54@YHUDLMLAV>
+From: thornie76 <johannes.olegard@cyfoexample.one.com>
+To: aron431 <tagnello@eventide.com>
+Subject: High danger. Your account was attacked.
+Date: Sun, 4 Aug 2019 13:08:59 +0600
+MIME-Version: 1.0
+Content-Type: text/plain; charset="windows-1252"
+Content-Transfer-Encoding: quoted-printable
+X-Priority: 3
+X-MSMail-Priority: Normal
+Importance: Normal
+X-Mailer: Microsoft Windows Live Mail 16.4.3505.912
+X-MimeOLE: Produced By Microsoft MimeOLE V16.4.3505.912
+Return-Path: johannes.olegard@cyfoexample.one.com
+Received-SPF: None (mail.eventide.com: johannes.olegard@cyfoexample.one.com
+ does not designate permitted sender hosts)
+
+Hi,=20dear=20user=20of=20eventide.com
+
+We=20have=20installed=20one=20RAT=20software=20into=20you=20device=20
+For=20this=20moment=20your=20email=20account=20is=20hacked=20too.
+I=20know=20your=20password=20for=20this=20account=20[tagnello@eventide.com]=
+:=20aron431
+
+Changed=20your=20password?=20You're=20doing=20great!
+But=20my=20software=20recognizes=20every=20such=20action.=20I'm=20updating=
+=20passwords!
+I'm=20always=20one=20step=20ahead....
+
+So...=20I=20have=20downloaded=20all=20confidential=20information=20from=20y=
+our=20system=20and=20I=20got=20some=20more=20evidence.
+The=20most=20interesting=20moment=20that=20I=20have=20discovered=20are=20vi=
+deos=20records=20where=20you=20masturbating.
+
+I=20posted=20EternalBlue=20Exploit=20modification=20on=20porn=20site,=20and=
+=20then=20you=20installed=20my=20malicious=20code=20(trojan)=20on=20your=20=
+operation=20system.
+When=20you=20clicked=20the=20button=20Play=20on=20porn=20video,=20at=20that=
+=20moment=20my=20trojan=20was=20downloaded=20to=20your=20device.
+After=20installation,=20your=20front=20camera=20shoots=20video=20every=20ti=
+me=20you=20masturbate,=20in=20addition,=20the=20software=20is=20synchronize=
+d=20with=20the=20video=20you=20choose.
+
+For=20the=20moment,=20the=20software=20has=20harvrested=20all=20your=20cont=
+act=20information=20from=20social=20networks=20and=20email=20addresses.
+If=20you=20need=20to=20erase=20all=20of=20your=20collected=20data=20and=20v=
+ideo=20with=20your=20enjoy,=20send=20me=20$600=20in=20BTC=20(crypto=20curre=
+ncy).
+
+This=20is=20my=20Bitcoin=20wallet:=201FAKhLxgiaXY4MfS7QE8N45oTTn3HWWXwA
+You=20have=2048=20hours=20after=20reading=20this=20letter.
+
+After=20your=20transaction=20I=20will=20erase=20all=20your=20data.
+Otherwise,=20I=20will=20send=20video=20with=20your=20pranks=20to=20all=20yo=
+ur=20colleagues,=20friends=20and=20relatives!!!
+
+P.S.=20I'm=20asking=20you=20-=20not=20to=20answer=20this=20letter=20because=
+=20the=20sender's=20address=20is=20fake,=20just=20to=20keep=20me=20incognit=
+o.
+
+And=20henceforth=20be=20more=20careful!
+Please=20visit=20only=20secure=20sites!
+Bye,Bye...
+
+
+--8527f093-581b-4152-9b5b-7edf45da1e4b--

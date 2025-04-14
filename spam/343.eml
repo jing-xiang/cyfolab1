@@ -1,0 +1,726 @@
+Return-Path: =?utf-8?q?=3CSRS0=3DzVEJ=3DE5=3Dtechniumscience=2Ecom=3Djournal?=
+ =?utf-8?q?277+bncBCS5F57U6MHRBIUF5X6QKGQELU4I5MY=40relay=2Esys=2Ekth=2Ese?=
+ =?utf-8?q?=3E?=
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id uHY8Nb1Cu1+1XAAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Mon, 23 Nov 2020 05:03:57 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post:list-id:	
+ content-type:to:subject:message-id:date:from:mime-version:x-halone-refid:	
+ x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=nKjCpVbCVi9GJlNv90pUHfoBnMNU7mEQ373QcbdRlrI=;	=?utf-8?q?b=3DTKq1dQittZiW?=
+ =?utf-8?q?sMk3G4KOm7YbVu0HAj7jQTOgu6z1x4U0tvOnE+LeSJvbedxwEI5drDnlzFmwH76Ia?=
+	 =?utf-8?q?cFX0lKzNxK6DZA46nKemPGuO8GHPQ0O3eQc/CFwpfzaYuXV13Xlt1KZRowWSKi0l?=
+ =?utf-8?q?QabpaXIi0CzJ/L=09_x/TrvnAb4UckZYdxg/9qdYBkSFU6fS1f1A/KWmpsAwvRb2Z?=
+ =?utf-8?q?DS9JdYLHVIJU5A7tEP9i6bq28/nBGKj=09_btlGY4P1wo9cFoSETk+c5GeqEchRZk?=
+ =?utf-8?q?YE8u1Vv53HlDoLGuKbXZ99wyJMDmGQCdp44Nx+tOCOInEST1?=	
+ D4y2bWXHodNxVmmbzHxXSjfCGLV4Qgw==
+X-HalOne-SA: 15
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F23=2E5FBB42BC=2E000C=3ASCFMA159?=
+ =?utf-8?b?Njk5MTMsc3M9MSxyZT0tNC4wMDAscmVjdT0wLjAwMCxyZWlwPTAuMDAwLGNsPTEs?=
+ =?utf-8?q?cld=3D1=2Cfgs=3D0?=
+X-HalOne-ID: 49a0b704-2d49-11eb-a6fc-e0d84894a001
+Received: from srs-1.relay.sys.kth.se (srs-1.sys.kth.se [130.237.48.92])
+	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 49a0b704-2d49-11eb-a6fc-e0d84894a001;
+	Mon, 23 Nov 2020 05:03:56 +0000 (UTC)
+Received: from mx6.kth.se (mx6.kth.se [130.237.48.70])	(using TLSv1.2 with
+ cipher ECDHE-RSA-AES256-GCM-SHA384 (256/256 bits))	(No client certificate
+ requested)	by srs-1.relay.sys.kth.se (Postfix) with ESMTPS id
+ 4CfZn73fmdz1DYkm	for <johannes.olegard@cyfoexample.one.com>; Mon, 23 Nov 2020
+ 06:03:55 +0100 (CET)
+Received: from mx6.kth.se (localhost [127.0.0.1])
+	by mx6.kth.se (Postfix) with ESMTP id 6AD6C1C03DC
+	for <jolegard@kth.se>; Mon, 23 Nov 2020 06:03:55 +0100 (CET)
+X-Virus-Scanned: by amavisd-new at kth.se
+X-Spam-Flag: YES
+X-Spam-Score: 5.062
+X-Spam-Level: *****
+X-Spam-Status: Yes, score=5.062 tagged_above=-200 required=5
+	tests=[BAYES_50=0.8, DKIM_SIGNED=0.1, DKIM_VALID=-0.1,
+	FROM_EQUALS_TO=0.5, HTML_MESSAGE=0.001, HTML_OBFUSCATE_05_10=0.26,
+	KTH_PHISHING_CONFIRM=0.5, MAILING_LIST_MULTI=-1, SPF_HELO_NONE=0.001,
+	SPF_SOFTFAIL=1.5, URIBL_DBL_SPAM=2.5] autolearn=no
+X-Amavis-OS-Fingerprint: ???; dist: 29; link: Google; params: none; raw_freq:
+	991.23 Hz; raw_mtu: 1470; raw_sig:
+	6:99+29:0:1410:65535,8:mss,sok,ts,nop,ws:flow:0; uptime: 41 days 1 hrs
+	47 min (modulo 49 days), [2607:f8b0:4864:20::f48]:54145
+Received: from mx6.kth.se ([127.0.0.1])
+	by mx6.kth.se (mx6.kth.se [127.0.0.1]) (amavisd-new, port 10024)
+	with ESMTP id ziMI4237mmlK for <jolegard@kth.se>;
+	Mon, 23 Nov 2020 06:03:53 +0100 (CET)
+Received: from mail-qv1-xf48.google.com (mail-qv1-xf48.google.com
+ [IPv6:2607:f8b0:4864:20::f48])	by mx6.kth.se (Postfix) with ESMTPS	for
+ <jolegard@kth.se>; Mon, 23 Nov 2020 06:03:53 +0100 (CET)
+Received: by mail-qv1-xf48.google.com with SMTP id s8sf12150855qvr.20
+        for <jolegard@kth.se>; Sun, 22 Nov 2020 21:03:53 -0800 (PST)
+ARC-Seal: i=2; a=rsa-sha256; t=1606107833; cv=pass;
+        d=google.com; s=arc-20160816;
+        b=zIl/wSlZI2aztsQK8N37bdkav5MZFYjIs1sYpjEcE7hCTZt5xqyr4VNovoBRXyCYHJ
+         Xc31w7SK0WLxFoxfVXyqq/Cz6dhLZgvav7zhSc/OqPKTW7Yov0yCWhs5ubw2ltnmIlFD
+         Uuxb1nLDnAWjeJFZnfD8lbHmG57zcn2KShjI3Bn5lJFjAsDyDS31kyRc5/onN69cQ5v2
+         7N/zQBa07j0l1tK/JWFfn8t5W/bdaQsVdRZ77BbJt0P6DLgb5GlTJgsNTlb/ci9UK2CL
+         15nEd13nJagEzjuEBIOZkbmyK6sjUqG7wXGzE0oAkBaFDwrrtCqcK8jHl+bIYmTmeYY/
+         IB5g==
+ARC-Message-Signature: i=2; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20160816;       
+ h=list-unsubscribe:list-subscribe:list-archive:list-help:list-post        
+ :list-id:mailing-list:precedence:to:subject:message-id:date:from        
+ :mime-version:dkim-signature;       
+ bh=nKjCpVbCVi9GJlNv90pUHfoBnMNU7mEQ373QcbdRlrI=;       
+ b=Se8hI5FPgcwcY7ACYVTPugM+1Kw+z/2n0KrekJacGkdZkEYEAE62WFJtC0O005eJ68        
+ DXsZSHesp3v6qNnsOyrZkP6e/FmV7+3rBEK1WA66HcuERve8Y+9JpMo+/5/rLTwDJuyv        
+ 5OSFHkR/Pzy/mcNPARxkE1qG4WrTw2Ou4LvsqBIHiOH2/YNp9DPQaZ3LemIolz8JP+4P        
+ 76k8Jb/kH1tKcIOWsuq8r0sJjyYDdybYuFOYJvT9UNszdcUgGqkEDJuV4apbM+KfXNDl        
+ u3i4aEsUrvLsgOBbpaybzzkt1wSATKDpgvGcd8p616X0SM+Ceo1AjWlfmg+1AaBOHlcO        
+ TSKA==
+ARC-Authentication-Results: i=2; mx.google.com;       dkim=pass
+ header.i=@techniumscience-com.20150623.gappssmtp.com header.s=20150623
+ header.b=TcxoMfHd;       spf=softfail (google.com: domain of transitioning
+ office@techniumscience.com does not designate 209.85.220.41 as permitted
+ sender) smtp.mailfrom=office@techniumscience.com
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=techniumscience-com.20150623.gappssmtp.com; s=20150623;
+        h=mime-version:from:date:message-id:subject:to:x-original-sender
+         :x-original-authentication-results:precedence:mailing-list:list-id
+         :list-post:list-help:list-archive:list-subscribe:list-unsubscribe;
+        bh=nKjCpVbCVi9GJlNv90pUHfoBnMNU7mEQ373QcbdRlrI=;
+        b=Aj9T6sNCOED/8m2524fWUiLkrigBozvJ/ZKCMe25Kf4zak9xjUIVyv2C7xG77Y/ySa
+         CiB4l17V163frDINkVc3PSzMGYMPu8OVnIv0rutc+btdm8oLi75j/EOqoXwheea9CtOL
+         UsD0MG8XTftDd5PiyF9PAJ6nyKqOF2tN2UhwL1lesVUduiGgs7qwHuF3Wrg8NW4nEKrn
+         2O+H3/b3//EOFy1vzUrq3lREBKr0XJ+VU+povddtC4lR9LpCwFhFS0Dd3/ka8xf2XuPS
+         6+wHdv+mRgNzzPZQ/1/As3Uh+nmBW2k4M2a9ntfwk4GZcGdgVtoUxOWdkSHbCVTizz2N
+         6jLg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to
+         :x-original-sender:x-original-authentication-results:precedence
+         :mailing-list:list-id:list-post:list-help:list-archive
+         :list-subscribe:list-unsubscribe;
+        bh=nKjCpVbCVi9GJlNv90pUHfoBnMNU7mEQ373QcbdRlrI=;
+        b=E8593AFF/kCULRx+ynFlhCDP3I+nnRnik5YTPj1JOf2qGqWOFH50a/4P6Lcz9cyDeE
+         iSUn/GA/C1KzMWTPqKV/EGHDwIkLJnfCBQMblOkVTOcWiOBk703IHBARIUv0KrSKb9jX
+         2la5K6Wa86YZmhUxn1zDBUubirT2/loJXpoDkSeCSFULQwAeUrzsGV5vCkD3A9V9zq41
+         0xpK28Jv4ZOxJBBOJhf8Ze+Y9ycziGU6wpZiW8jev8lq7+SbfKNJgfsBalHqxB9G3Is4
+         wAiqpIP8ZDXonEAjo3EwV+HW4xIxpyAgOm9DGDkdkacUzdgNDWcAR8V+mlG1hoew2Ock
+         TUpQ==
+X-Gm-Message-State: AOAM533ngj1F1yvQhU2I+6LWJazh3bGYI5CiIxsKiegIX0kTMVksw+os
+	o1Zj/pb8y6W0CzGgA6Uskbmtnw==
+X-Google-Smtp-Source: =?utf-8?q?ABdhPJwW7F5zEpJR9h/PbswYUXXmgnxFCQe1GM4FsHqf?=
+ =?utf-8?q?zJucJccATTuDol2/KuuFM351bi3WoPRWmg=3D=3D?=
+X-Received: by 2002:ac8:6899:: with SMTP id
+ m25mr27069532qtq.322.1606107832807;        Sun, 22 Nov 2020 21:03:52 -0800
+ (PST)
+X-BeenThere: journal277@techniumscience.com
+Received: by 2002:a37:7006:: with SMTP id l6ls6066107qkc.5.gmail; Sun, 22 Nov
+ 2020 21:03:30 -0800 (PST)
+X-Received: by 2002:a05:620a:718:: with SMTP id
+ 24mr28412190qkc.388.1606107810587;        Sun, 22 Nov 2020 21:03:30 -0800
+ (PST)
+Received: by 2002:a05:620a:22f5:b029:169:4fb4:6593 with SMTP id
+ p21-20020a05620a22f5b02901694fb46593msqki;        Tue, 17 Nov 2020 11:25:02
+ -0800 (PST)
+X-Received: by 2002:a17:906:9414:: with SMTP id
+ q20mr20205050ejx.384.1605641099533;        Tue, 17 Nov 2020 11:24:59 -0800
+ (PST)
+ARC-Seal: i=1; a=rsa-sha256; t=1605641099; cv=none;
+        d=google.com; s=arc-20160816;
+        b=DQAgiVk39dwy400lF5vi+Hwg7PqnCMzk7x8H5ffF3TNfGAVjKhII1h8nBEjdy7i3ZU
+         urUHCxxJAT0AsWS5dPkdzBowipjFrt0Fh++0FGr8HKGwFdnqHq1th0b6Vr05ae3sz1JK
+         lCeIY7zET+6m/Mv0JOOVBG7NAVeZ16zxDbQAgDlBQz1jY+7Xt3SBqUv4iVBvDoCUVRy8
+         2NHTwlTuOwTsin2EwKWBr/DT4lr0TYRaykP1SI4qM0clb1n+Eflm6L7LDtP+V4rehCea
+         Oq8o6Sh5DMeJ31XKzJIgNkchj2S/H53E7BNKBbFvZ9tvR6255Oz5DfnIPNxIgslOgwvb
+         fVmw==
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com;
+ s=arc-20160816;       
+ h=to:subject:message-id:date:from:mime-version:dkim-signature;       
+ bh=NjZoHvNH4N6NCBunXSPea7W0VNWKBp1eLhNTtK0fa24=;       
+ b=rae335B+wMCaa8mrgLoMNilvGLNeEPzTz3UwTELbiGMmZoUymYQm6k9kgsSm7e2Jp4        
+ CY8fz+O07L/2M2DZaQl7zYnz+A+dgtXdX9+bwauMmq02x2wTNTsfs2isDE4N01z6Y2eK        
+ Jc0pu/4EnZHVzfBU/Ph+b02B6TnWZpX1TZm/kOw2jCd95sISTe+zlSbyZuKMS0QF6/Y6        
+ SGLMcOTlhI2KWvAVt7pkhLdvkSVcvFhnRN83ANXVXM63McPelGt6Ei716Sqr/0hRBNs4        
+ yQk3FZnNNqVVCXQ21OMY03EluO7LnG9Bpu4kad1tsZLiIJwKW/lYw7pvYi2dKyw7QDRM        
+ ZYQw==
+ARC-Authentication-Results: i=1; mx.google.com;       dkim=pass
+ header.i=@techniumscience-com.20150623.gappssmtp.com header.s=20150623
+ header.b=TcxoMfHd;       spf=softfail (google.com: domain of transitioning
+ office@techniumscience.com does not designate 209.85.220.41 as permitted
+ sender) smtp.mailfrom=office@techniumscience.com
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com.
+ [209.85.220.41])        by mx.google.com with SMTPS id
+ a12sor12805219ejs.34.2020.11.17.11.24.59        for
+ <journal277@techniumscience.com>        (Google Transport Security);       
+ Tue, 17 Nov 2020 11:24:59 -0800 (PST)
+Received-SPF: softfail (google.com: domain of transitioning
+ office@techniumscience.com does not designate 209.85.220.41 as permitted
+ sender) client-ip=209.85.220.41;
+X-Received: by 2002:a05:6402:7c7:: with SMTP id
+ u7mr22340145edy.351.1605641098417; Tue, 17 Nov 2020 11:24:58 -0800 (PST)
+MIME-Version: 1.0
+From: Technium Science <office@techniumscience.com>
+Date: Tue, 17 Nov 2020 21:24:47 +0200
+Message-ID:
+ <CABUEttyHzyiyuPeH4abLPy2BorBA7E1EYN_t5JLVZ547hQx0MA@mail.gmail.com>
+Subject: Re: Invitation
+To:
+ Technium =?utf-8?b?4oCT?= Office of the Publisher <office@techniumscience.com>
+Content-Type: multipart/alternative; boundary="0000000000004ef18705b4527380"
+X-Original-Sender: office@techniumscience.com
+X-Original-Authentication-Results: mx.google.com;       dkim=pass
+ header.i=@techniumscience-com.20150623.gappssmtp.com header.s=20150623
+ header.b=TcxoMfHd;       spf=softfail (google.com: domain of transitioning
+ office@techniumscience.com does not designate 209.85.220.41 as permitted
+ sender) smtp.mailfrom=office@techniumscience.com
+Precedence: list
+Mailing-list: list journal277@techniumscience.com; contact
+ journal277+owners@techniumscience.com
+List-ID: <journal277.techniumscience.com>
+X-Google-Group-Id: 489826664883
+List-Post:
+ <https://groups.google.com/a/techniumscience.com/group/journal277/post>,
+ <mailto:journal277@techniumscience.com>
+List-Help:
+ <https://support.google.com/a/techniumscience.com/bin/topic.py?topic=25838>,
+ <mailto:journal277+help@techniumscience.com>
+List-Archive:
+ <https://groups.google.com/a/techniumscience.com/group/journal277/>
+List-Subscribe:
+ <https://groups.google.com/a/techniumscience.com/group/journal277/subscribe>,
+ <mailto:journal277+subscribe@techniumscience.com>
+List-Unsubscribe:
+ <mailto:googlegroups-manage+489826664883+unsubscribe@googlegroups.com>,
+ <https://groups.google.com/a/techniumscience.com/group/journal277/subscribe>
+
+--0000000000004ef18705b4527380
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BFCall=20for=20papers
+
+
+Invitation=20to=20publish=20in=20the=20next=20volume=20of=20*Technium:=20Ro=
+manian=20Journal=20of
+Applied=20Sciences=20and=20Technology=20*(ISSN:=202668-778X)=20=20=20Decemb=
+er,=202020
+
+Submission=20link:=20https://techniumscience.com/index.php/technium
+
+Publication=20fee:=20100=20Euro
+
+
+
+We=20would=20like=20to=20announce=20that=20a=20number=20of=20the=20Technium=
+=20Journal=20has=20been
+published.=20You=20can=20access=20it=20here=20-
+https://techniumscience.com/index.php/technium/issue/view/24
+
+
+
+*Technium=20Science=20Inc.=20invites=20you=20to=20publish=20your=20valuable=
+=20research=20in=20our
+two=20journals,=20indexed=20in=20the=20most=20important=20research=20databa=
+ses,=20such=20as:
+Google=20Scholar,=20DOAJ,=20Ulrich's,=20Ebsco,=20Index=20Copernicus,=20Worl=
+dCat,=20Stanford
+Libraies,=20Directory=20of=20Open=20Access=20Scholarly=20Resources,=20Direc=
+tory=20of
+Research=20Journals=20Indexing,=20RePEc,=20Hein=20Online,=20Econpapers,=20I=
+deas,=20Journal
+Factor,=20Scipio,=20J-Gate,=20Scientific=20Indexing=20Services,=20Elektroni=
+sche
+Zeitschriftenbibliothek=20etc.*
+
+
+
+*Technium:=20Romanian=20Journal=20of=20Applied=20Sciences=20and=20Technolog=
+y*=20(ISSN:
+2668-778X)
+
+
+
+Table=20of=20contents
+
+=20=20=201.=20Construction=20of=20a=20plastomer=20for=20the=20analysis=20of=
+=20polypropylene
+=20=20=20fluidity=20under=20different=20temperatures=20and=20use=20of=20add=
+itives
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1520>=
+=20(Juliano
+=20=20=20Frizzo)
+=20=20=202.=20Military=20perceived=20overqualification=20in=20a=20civil=20o=
+rganization
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1663>=
+=20(Hondor
+=20=20=20Saragih,=20Yetti=20Supriyati,=20Sri=20Indah=20Nikensari,=20Ahmad=
+=20Hidayat=20Sutawidjaya)
+=20=20=203.=20Employee=20empowerment=20and=20empowering=20leadership:=20A=
+=20literature=20review
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1653>=
+=20(Hieu
+=20=20=20Minh=20Vu)
+=20=20=204.=20The=20Human=20Organism=20is=20a=20Biophysical=E2=80=93Biopsyc=
+hological=20Syste
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1669>=
+=20(Janos
+=20=20=20Vincze,=20Gabriella=20Vincze-Tiszay)
+=20=20=205.=20Computing=20support=20for=20testing=20equal=20values=20of=20t=
+he=20figurative=20numbers
+=20=20=20in=20the=20Pascal=20triangle
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1537>
+(Miroslava
+=20=20=20Mihajlov=20Carevi=C4=87,=20Milo=C5=A1=20Ili=C4=87,=20Milena=20Petr=
+ovi=C4=87,=20Neboj=C5=A1a=20Deni=C4=87)
+=20=20=206.=20Transformation=20of=20Traditional=20Food=20with=20Duck=20Basi=
+c=20for=20Culinary
+=20=20=20Business=20Continuity=20in=20Ubud=20Tourist=20Village,=20Gianyar,=
+=20Bali,=20Indonesia
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1638>=
+=20(I
+=20=20=20Nyoman=20Tri=20Sutaguna,=20I=20Ketut=20Sirna,=20I=20Gusti=20Bagus=
+=20Rai=20Utama)
+=20=20=207.=20Influence=20of=20propulsion=20installation=20performance=20on=
+=20travel=20efficiency
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1644>=
+=20(Mariana
+=20=20=20Lupchian)
+=20=20=208.=20Special=20Education=20Teachers=E2=80=99=20Knowledge=20of=20Us=
+ing=20Assistive=20Technology
+=20=20=20with=20Students=20with=20Autism=20Spectrum=20Disorder
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1662>=
+=20(Abdullah
+=20=20=20Alanazi)
+=20=20=209.=20Management=20of=20Hybrid=20Renewable=20Energy=20Systems=20Usi=
+ng=20Differential
+=20=20=20Hybrid=20Petri=20Nets
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1616>=
+=20(
+=20=20=20Kennedy=20Fohoue-Tchendjou,=20Vivient=20Corneille=20Kamla,=20Laure=
+nt=20Bitjoka)
+=20=20=2010.=20Applying=20grade=20inflation=20adjustment=20mechanism=20in=
+=20an=20Ethiopian
+=20=20=20university:=20Differences=20in=20nominal=20and=20real=20grades
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1646>=
+=20(
+=20=20=20Lemecha=20Geleto=20Wariyo,=20Roman=20Alemu=20Kelbago)
+=20=20=2011.=20Numerical=20modeling=20of=20multiphase=20flow=20inside=20aer=
+omixture=20channel=20and
+=20=20=20low=20emission=20burner=20of=20boiler=20OB-650
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1649>=
+=20(Amel
+=20=20=20Me=C5=A1i=C4=87,=20Izudin=20Deli=C4=87,=20Nedim=20Ganibegovi=C4=87)
+=20=20=2012.=20COVID-19=20dynamical=20evolution=20prediction=20in=20Mexico,=
+=20decision=20making
+=20=20=20and=20social=20implementation:=20mid/low=20income=20countries=20st=
+udy
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1681>=
+=20(Saasil
+=20=20=20Fernandez-Erana,=20Labna=20Fernandez-Erana,=20Manuel=20Fernandez-G=
+uasti)
+=20=20=2013.=20Management=20Prospects=20for=20COVID-19:=20A=20Review
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1776>=
+=20(Uzma
+=20=20=20Aamir=20Jilani,=20Ishrat=20Rahman,=20Syed=20Aamir=20Jilani)
+=20=20=2014.=20Analysis=20of=20the=20importance=20of=20communicative=20and=
+=20technical=20English
+=20=20=20language,=20in=20the=20Professional=20Schools=20of=20Mining=20Engi=
+neering=20of=20Peru=20for=20the
+=20=20=20innovation=20of=20extractive=20technologies=20of=20future=20profes=
+sionals,=202019
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1747>=
+=20(Quispe
+=20=20=20Marcos,=20Parra=20Paola,=20Hinostroza=20Erika,=20Colque=20Daniel)
+=20=20=2015.=20Abrasion=20resistance=20analysis=20of=20coatings=20at=20elec=
+tro-arc=20spraying
+=20=20=20using=20a=20pulsating=20spraying=20airflow
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1824>=
+=20(Iryna
+=20=20=20Zakharova)
+=20=20=2016.=20Study=20on=20the=20Synthesis=20and=20Photocatalytic=20Perfom=
+ance=20of=20Tube=20shaped
+=20=20=20Activated=20Carbon=20-TiO2=20Composite=20Materials
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1841>=
+=20(Zhifu
+=20=20=20Wu)
+=20=20=2017.=20Efficiency=20Control=20Improvement=20Of=20Diesel=20Engines=
+=20Conditions=20By=20Using
+=20=20=20The=20Method=20Of=20Analytical=20Synchronization=20Of=20Monitored=
+=20Data
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1829>=
+=20(V
+=20=20=20Zalozh,=20T=20Tarasenko,=20R=20Varbanets)
+=20=20=2018.=20Integrating=20Activity=20Based=20Costing=20(ABC)=20with=20En=
+terprise=20Resource
+=20=20=20Planning=20(ERP)=20for=20Effective=20Management:=20A=20Literature=
+=20Review
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1882>=
+=20(Thomas
+=20=20=20Kitsantas,=20Athanasios=20Vazakidis,=20Constantinos=20J.=20Stefano=
+u)
+=20=20=2019.=20Audio=20fade-out=20profile=20shaping=20for=20interactive=20m=
+ultimedia
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1913>=
+=20(Lucian
+=20=20=20Lupsa-Tataru)
+=20=20=2020.=20Asset=20Mapping=20as=20a=20Base=20for=20Traditional=20Islami=
+c=20Boarding=20School
+=20=20=20(Pesantren)=20Sheep=20Farming=20Development=20in=20Ngawonggo=20Vil=
+lage,=20Malang=20Regency,
+=20=20=20Indonesia
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1715>=
+=20(Siti
+=20=20=20Azizah,=20Umi=20Wisapti=20Ningsih,=20Irfan=20H=20Djunaidi)
+=20=20=2021.=20The=20Communication=20technologies=20to=20encourage=20innova=
+tive=20activities
+=20=20=20engagement=20in=20students
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1987>=
+=20(Iryna
+=20=20=20Soldatenko)
+=20=20=2022.=20The=20Effect=20of=20Return=20On=20Equity=20(ROE),=20Debt=20E=
+quity=20Ratio=20(DER),=20and
+=20=20=20Earning=20Per=20Share=20(EPS)=20on=20Share=20Prices=20in=20LQ45=20=
+Indexed=20Companies=20on=20the
+=20=20=20Indonesia=20Stock=20Exchange=20for=20the=202015=20-=202018=20Period
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/2029>=
+=20(Astin
+=20=20=20Sulistyanie,=20Muhammad=20Bayu=20Aji=20Sumantri)
+=20=20=2023.=20Function=20Modeling=20in=20Engineering=20Design:=20Approache=
+s=20and=20Methods
+=20=20=20<https://techniumscience.com/index.php/technium/article/view/1790>=
+=20(Osamah
+=20=20=20Malik=20Mohammed,=20Ahmed=20Z.M.=20Shammari)
+
+Best=20regards,
+Technium=20Science
+WhatsApp=20Messenger=20+40=20762917165=20=20=20or=20=20+447761432201
+
+--=20
+You=20received=20this=20message=20because=20you=20are=20subscribed=20to=20t=
+he=20Google=20Groups=20"Technium=20Science"=20group.
+To=20unsubscribe=20from=20this=20group=20and=20stop=20receiving=20emails=20=
+from=20it,=20send=20an=20email=20to=20journal277+unsubscribe@techniumscienc=
+e.com.
+To=20view=20this=20discussion=20on=20the=20web=20visit=20https://groups.goo=
+gle.com/a/techniumscience.com/d/msgid/journal277/CABUEttyHzyiyuPeH4abLPy2Bo=
+rBA7E1EYN_t5JLVZ547hQx0MA%40mail.gmail.com.
+
+--0000000000004ef18705b4527380
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BF<div=20dir=3D"ltr"><p=20class=3D"MsoNormal"=20style=3D"box-sizing:=
+border-box;margin:0in=200in=200.0001pt;line-height:normal;font-size:11pt;fo=
+nt-family:Calibri,sans-serif"><span=20style=3D"box-sizing:border-box;font-w=
+eight:bolder"><span=20style=3D"box-sizing:border-box;font-size:10.5pt;font-=
+family:Helvetica,sans-serif">Call=20for=20papers=C2=A0</span></span><span=
+=20style=3D"box-sizing:border-box;font-size:10.5pt;font-family:Helvetica,sa=
+ns-serif"></span></p><p=20class=3D"MsoNormal"=20style=3D"box-sizing:border-=
+box;margin:0in=200in=200.0001pt;line-height:normal;font-size:11pt;font-fami=
+ly:Calibri,sans-serif"><span=20style=3D"box-sizing:border-box;font-weight:b=
+older"><span=20style=3D"box-sizing:border-box;font-size:10.5pt;font-family:=
+Helvetica,sans-serif"><br=20style=3D"box-sizing:border-box"></span></span><=
+/p><p=20class=3D"MsoNormal"=20style=3D"box-sizing:border-box;margin:0in=200=
+in=200.0001pt;line-height:normal;font-size:11pt;font-family:Calibri,sans-se=
+rif"><span=20style=3D"box-sizing:border-box;font-weight:bolder"><span=20sty=
+le=3D"box-sizing:border-box;font-size:10.5pt;font-family:Helvetica,sans-ser=
+if">Invitation=20to=20publish=20in=20the=20next=20volume=20of=C2=A0</span><=
+/span><em=20style=3D"box-sizing:border-box"><span=20style=3D"box-sizing:bor=
+der-box;font-weight:bolder"><span=20lang=3D"RO"=20style=3D"box-sizing:borde=
+r-box;font-size:10.5pt;font-family:&quot;Segoe=20UI&quot;,sans-serif;backgr=
+ound-image:initial;background-position:initial;background-size:initial;back=
+ground-repeat:initial;background-origin:initial;background-clip:initial">Te=
+chnium:=20Romanian=20Journal=20of=20Applied=20Sciences=20and=20Technology=
+=C2=A0</span></span></em><span=20lang=3D"RO"=20style=3D"box-sizing:border-b=
+ox;font-size:10.5pt;font-family:&quot;Segoe=20UI&quot;,sans-serif;backgroun=
+d-image:initial;background-position:initial;background-size:initial;backgro=
+und-repeat:initial;background-origin:initial;background-clip:initial"><span=
+=20style=3D"box-sizing:border-box;color:rgba(0,0,0,0.87)">(ISSN:=202668-778=
+X)=C2=A0</span></span><span=20style=3D"box-sizing:border-box;font-weight:bo=
+lder"><span=20lang=3D"RO"=20style=3D"box-sizing:border-box;font-size:10.5pt=
+;font-family:Helvetica,sans-serif">=C2=A0=C2=A0</span></span><span=20style=
+=3D"box-sizing:border-box;font-weight:bolder"><span=20style=3D"box-sizing:b=
+order-box;font-size:10.5pt;font-family:Helvetica,sans-serif">December,=2020=
+20</span></span><span=20style=3D"box-sizing:border-box;font-size:10.5pt;fon=
+t-family:Helvetica,sans-serif"></span></p><p=20class=3D"MsoNormal"=20style=
+=3D"box-sizing:border-box;margin:0in=200in=200.0001pt;line-height:normal;fo=
+nt-size:11pt;font-family:Calibri,sans-serif"><span=20style=3D"box-sizing:bo=
+rder-box;font-size:10.5pt;font-family:Helvetica,sans-serif">Submission=20li=
+nk:=C2=A0<a=20href=3D"https://techniumscience.com/index.php/technium"=20tar=
+get=3D"_blank"=20style=3D"box-sizing:border-box;color:blue;text-decoration-=
+line:none;background-color:transparent">https://techniumscience.com/index.p=
+hp/technium</a></span></p><p=20class=3D"MsoNormal"=20style=3D"box-sizing:bo=
+rder-box;margin:0in=200in=200.0001pt;line-height:normal;font-size:11pt;font=
+-family:Calibri,sans-serif"><span=20style=3D"box-sizing:border-box;font-siz=
+e:10.5pt;font-family:Helvetica,sans-serif">Publication=20fee:=20100=20Euro<=
+/span></p><p=20class=3D"MsoNormal"=20style=3D"box-sizing:border-box;margin:=
+0in=200in=200.0001pt;line-height:normal;font-size:11pt;font-family:Calibri,=
+sans-serif"><span=20style=3D"box-sizing:border-box;font-size:10.5pt;font-fa=
+mily:Helvetica,sans-serif">=C2=A0</span></p><p=20class=3D"MsoNormal"=20styl=
+e=3D"box-sizing:border-box;margin:0in=200in=200.0001pt;line-height:normal;f=
+ont-size:11pt;font-family:Calibri,sans-serif"><span=20style=3D"box-sizing:b=
+order-box;font-weight:bolder"><span=20style=3D"box-sizing:border-box;font-s=
+ize:10.5pt;font-family:Helvetica,sans-serif">We=20would=20like=20to=20annou=
+nce=20that=20a=20number=20of=20the=20Technium=20Journal=20has=20been=20publ=
+ished.=20You=20can=20access=20it=20here=20-=C2=A0<a=20href=3D"https://techn=
+iumscience.com/index.php/technium/issue/view/24"=20target=3D"_blank"=20styl=
+e=3D"box-sizing:border-box;color:blue;text-decoration-line:none;background-=
+color:transparent">https://techniumscience.com/index.php/technium/issue/vie=
+w/24</a></span></span></p><p=20class=3D"MsoNormal"=20style=3D"box-sizing:bo=
+rder-box;margin:0in=200in=200.0001pt;line-height:normal;font-size:11pt;font=
+-family:Calibri,sans-serif"><span=20style=3D"box-sizing:border-box;font-siz=
+e:10.5pt;font-family:Helvetica,sans-serif">=C2=A0</span></p><p=20class=3D"M=
+soNormal"=20style=3D"box-sizing:border-box;margin:0in=200in=200.0001pt;line=
+-height:normal;font-size:11pt;font-family:Calibri,sans-serif"><i=20style=3D=
+"box-sizing:border-box"><span=20style=3D"box-sizing:border-box;font-size:10=
+.5pt;font-family:Helvetica,sans-serif">Technium=20Science=20Inc.=20invites=
+=20you=20to=20publish=20your=20valuable=20research=20in=20our=20two=20journ=
+als,=20indexed=20in=20the=20most=20important=20research=20databases,=20such=
+=20as:=20Google=20Scholar,=20DOAJ,=20Ulrich&#39;s,=20Ebsco,=20Index=20Coper=
+nicus,=20WorldCat,=20Stanford=20Libraies,=20Directory=20of=20Open=20Access=
+=20Scholarly=20Resources,=20Directory=20of=20Research=20Journals=20Indexing=
+,=20RePEc,=20Hein=20Online,=20Econpapers,=20Ideas,=20Journal=20Factor,=20Sc=
+ipio,=20J-Gate,=20Scientific=20Indexing=20Services,=20Elektronische=20Zeits=
+chriftenbibliothek=20etc.</span></i><span=20style=3D"box-sizing:border-box;=
+font-size:10.5pt;font-family:Helvetica,sans-serif"></span></p><p=20class=3D=
+"MsoNormal"=20style=3D"box-sizing:border-box;margin:0in=200in=200.0001pt;li=
+ne-height:normal;font-size:11pt;font-family:Calibri,sans-serif"><span=20sty=
+le=3D"box-sizing:border-box;font-size:10.5pt;font-family:Helvetica,sans-ser=
+if">=C2=A0</span></p><p=20class=3D"MsoNormal"=20style=3D"box-sizing:border-=
+box;margin:0in=200in=200.0001pt;line-height:normal;font-size:11pt;font-fami=
+ly:Calibri,sans-serif"><em=20style=3D"box-sizing:border-box"><span=20style=
+=3D"box-sizing:border-box;font-weight:bolder"><span=20lang=3D"RO"=20style=
+=3D"box-sizing:border-box;font-size:10.5pt;font-family:&quot;Segoe=20UI&quo=
+t;,sans-serif;background-image:initial;background-position:initial;backgrou=
+nd-size:initial;background-repeat:initial;background-origin:initial;backgro=
+und-clip:initial">Technium:=20Romanian=20Journal=20of=20Applied=20Sciences=
+=20and=20Technology</span></span></em><span=20lang=3D"RO"=20style=3D"box-si=
+zing:border-box;font-size:10.5pt;font-family:&quot;Segoe=20UI&quot;,sans-se=
+rif;background-image:initial;background-position:initial;background-size:in=
+itial;background-repeat:initial;background-origin:initial;background-clip:i=
+nitial"><span=20style=3D"box-sizing:border-box;color:rgba(0,0,0,0.87)">=C2=
+=A0(ISSN:=202668-778X)</span></span></p><p=20class=3D"MsoNormal"=20style=3D=
+"box-sizing:border-box;margin:0in=200in=200.0001pt;line-height:normal;font-=
+size:11pt;font-family:Calibri,sans-serif"><span=20style=3D"box-sizing:borde=
+r-box;font-size:10.5pt;font-family:Helvetica,sans-serif">=C2=A0</span></p><=
+p=20class=3D"MsoNormal"=20style=3D"box-sizing:border-box;margin:0in=200in=
+=200.0001pt;line-height:normal;font-size:11pt;font-family:Calibri,sans-seri=
+f"><span=20style=3D"box-sizing:border-box;font-weight:bolder"><span=20style=
+=3D"box-sizing:border-box;font-size:10.5pt;font-family:Helvetica,sans-serif=
+">Table=20of=20contents</span></span></p><div=20style=3D"box-sizing:border-=
+box;font-family:&quot;Noto=20Sans&quot;,-apple-system,BlinkMacSystemFont,&q=
+uot;Segoe=20UI&quot;,Roboto,Oxygen-Sans,Ubuntu,Cantarell,&quot;Helvetica=20=
+Neue&quot;,sans-serif;line-height:20px;color:rgba(0,0,0,0.87)"><ol=20style=
+=3D"font-size:14px;box-sizing:border-box;margin-top:0px;margin-bottom:1rem"=
+><li=20style=3D"box-sizing:border-box;margin-left:15px"><span=20style=3D"bo=
+x-sizing:border-box;font-weight:700"><a=20href=3D"https://techniumscience.c=
+om/index.php/technium/article/view/1520"=20target=3D"_blank"=20style=3D"box=
+-sizing:border-box;color:rgb(0,157,229);text-decoration-line:none;backgroun=
+d-color:transparent">Construction=20of=20a=20plastomer=20for=20the=20analys=
+is=20of=20polypropylene=20fluidity=20under=20different=20temperatures=20and=
+=20use=20of=20additives</a>=C2=A0</span>(<span=20style=3D"box-sizing:border=
+-box;font-size:13px">Juliano=20Frizzo)</span></li><li=20style=3D"box-sizing=
+:border-box;margin-left:15px"><span=20style=3D"box-sizing:border-box;font-w=
+eight:700"><a=20href=3D"https://techniumscience.com/index.php/technium/arti=
+cle/view/1663"=20target=3D"_blank"=20style=3D"box-sizing:border-box;color:r=
+gb(0,122,178);text-decoration-line:none;background-color:transparent">Milit=
+ary=20perceived=20overqualification=20in=20a=20civil=20organization</a>=C2=
+=A0</span>(<span=20style=3D"box-sizing:border-box;font-size:13px">Hondor=20=
+Saragih,=C2=A0</span>Yetti<span=20style=3D"box-sizing:border-box;font-size:=
+13px">=C2=A0Supriyati,=20Sri=20Indah=20Nikensari,=20Ahmad=20Hidayat=20Sutaw=
+idjaya)</span></li><li=20style=3D"box-sizing:border-box;margin-left:15px"><=
+span=20style=3D"box-sizing:border-box;font-weight:700"><a=20href=3D"https:/=
+/techniumscience.com/index.php/technium/article/view/1653"=20target=3D"_bla=
+nk"=20style=3D"box-sizing:border-box;color:rgb(0,122,178);text-decoration-l=
+ine:none;background-color:transparent">Employee=20empowerment=20and=20empow=
+ering=20leadership:=20A=20literature=20review</a>=C2=A0</span>(<span=20styl=
+e=3D"box-sizing:border-box;font-size:13px">Hieu=20Minh=20Vu)</span></li><li=
+=20style=3D"box-sizing:border-box;margin-left:15px"><a=20href=3D"https://te=
+chniumscience.com/index.php/technium/article/view/1669"=20target=3D"_blank"=
+=20style=3D"box-sizing:border-box;color:rgb(0,157,229);text-decoration-line=
+:none;background-color:transparent;font-weight:700">The=20Human=20Organism=
+=20is=20a=20Biophysical=E2=80=93Biopsychological=20Syste</a>=C2=A0(Janos=20=
+Vincze,=20Gabriella=20Vincze-Tiszay)</li><li=20style=3D"box-sizing:border-b=
+ox;margin-left:15px"><div=20style=3D"box-sizing:border-box;line-height:20px=
+"><span=20style=3D"box-sizing:border-box;font-weight:700"><a=20href=3D"http=
+s://techniumscience.com/index.php/technium/article/view/1537"=20target=3D"_=
+blank"=20style=3D"box-sizing:border-box;color:rgb(0,122,178);text-decoratio=
+n-line:none;background-color:transparent">Computing=20support=20for=20testi=
+ng=20equal=20values=20of=20the=20figurative=20numbers=20in=20the=20Pascal=
+=20triangle</a>=C2=A0</span>(<span=20style=3D"box-sizing:border-box;font-si=
+ze:13px">Miroslava=20Mihajlov=20Carevi=C4=87,=20Milo=C5=A1=20Ili=C4=87,=20M=
+ilena=20Petrovi=C4=87,=20Neboj=C5=A1a=20Deni=C4=87)</span></div></li><li=20=
+style=3D"box-sizing:border-box;margin-left:15px"><div=20style=3D"box-sizing=
+:border-box;line-height:20px"><a=20href=3D"https://techniumscience.com/inde=
+x.php/technium/article/view/1638"=20target=3D"_blank"=20style=3D"box-sizing=
+:border-box;color:rgb(0,122,178);text-decoration-line:none;background-color=
+:transparent;font-weight:700">Transformation=20of=20Traditional=20Food=20wi=
+th=20Duck=20Basic=20for=20Culinary=20Business=20Continuity=20in=20Ubud=20To=
+urist=20Village,=20Gianyar,=20Bali,=20Indonesia</a>=C2=A0(<span=20style=3D"=
+box-sizing:border-box;font-size:13px">I=20Nyoman=20Tri=20Sutaguna,=20I=20Ke=
+tut=20Sirna,=20I=20Gusti=20Bagus=20Rai=20Utama)</span></div></li><li=20styl=
+e=3D"box-sizing:border-box;margin-left:15px"><div=20style=3D"box-sizing:bor=
+der-box;line-height:20px"><a=20href=3D"https://techniumscience.com/index.ph=
+p/technium/article/view/1644"=20target=3D"_blank"=20style=3D"box-sizing:bor=
+der-box;color:rgb(0,122,178);text-decoration-line:none;background-color:tra=
+nsparent;font-weight:700">Influence=20of=20propulsion=20installation=20perf=
+ormance=20on=20travel=20efficiency</a>=C2=A0(<span=20style=3D"box-sizing:bo=
+rder-box;font-size:13px">Mariana=20Lupchian)</span></div></li><li=20style=
+=3D"box-sizing:border-box;margin-left:15px"><div=20style=3D"box-sizing:bord=
+er-box;line-height:20px"><a=20href=3D"https://techniumscience.com/index.php=
+/technium/article/view/1662"=20target=3D"_blank"=20style=3D"box-sizing:bord=
+er-box;color:rgb(0,157,229);text-decoration-line:none;background-color:tran=
+sparent;font-weight:700">Special=20Education=20Teachers=E2=80=99=20Knowledg=
+e=20of=20Using=20Assistive=20Technology=20with=20Students=20with=20Autism=
+=20Spectrum=20Disorder</a>=C2=A0(<span=20style=3D"box-sizing:border-box;fon=
+t-size:13px">Abdullah=20Alanazi)</span></div></li><li=20style=3D"box-sizing=
+:border-box;margin-left:15px"><div=20style=3D"box-sizing:border-box;line-he=
+ight:20px"><a=20href=3D"https://techniumscience.com/index.php/technium/arti=
+cle/view/1616"=20target=3D"_blank"=20style=3D"box-sizing:border-box;color:r=
+gb(0,122,178);text-decoration-line:none;background-color:transparent;font-w=
+eight:700">Management=20of=20Hybrid=20Renewable=20Energy=20Systems=20Using=
+=20Differential=20Hybrid=20Petri=20Nets</a>=C2=A0(<span=20style=3D"box-sizi=
+ng:border-box;font-size:13px">Kennedy=C2=A0</span>Fohoue-Tchendjou,<span=20=
+style=3D"box-sizing:border-box;font-size:13px">=C2=A0</span>Vivient<span=20=
+style=3D"box-sizing:border-box;font-size:13px">=C2=A0Corneille=20Kamla,=20L=
+aurent=20Bitjoka)</span></div></li><li=20style=3D"box-sizing:border-box;mar=
+gin-left:15px"><div=20style=3D"box-sizing:border-box;line-height:20px"><a=
+=20href=3D"https://techniumscience.com/index.php/technium/article/view/1646=
+"=20target=3D"_blank"=20style=3D"box-sizing:border-box;color:rgb(0,157,229)=
+;text-decoration-line:none;background-color:transparent;font-weight:700">Ap=
+plying=20grade=20inflation=20adjustment=20mechanism=20in=20an=20Ethiopian=
+=20university:=20Differences=20in=20nominal=20and=20real=20grades</a>=C2=A0=
+(<span=20style=3D"box-sizing:border-box;font-size:13px">Lemecha=C2=A0</span=
+>Geleto<span=20style=3D"box-sizing:border-box;font-size:13px">=C2=A0Wariyo,=
+=20Roman=20Alemu=20Kelbago)</span></div></li><li=20style=3D"box-sizing:bord=
+er-box;margin-left:15px"><div=20style=3D"box-sizing:border-box;line-height:=
+20px"><a=20href=3D"https://techniumscience.com/index.php/technium/article/v=
+iew/1649"=20target=3D"_blank"=20style=3D"box-sizing:border-box;color:rgb(0,=
+122,178);text-decoration-line:none;background-color:transparent;font-weight=
+:700">Numerical=20modeling=20of=20multiphase=20flow=20inside=20aeromixture=
+=20channel=20and=20low=20emission=20burner=20of=20boiler=20OB-650</a>=C2=A0=
+(<span=20style=3D"box-sizing:border-box;font-size:13px">Amel=20Me=C5=A1i=C4=
+=87,=20Izudin=20Deli=C4=87,=20Nedim=20Ganibegovi=C4=87)</span></div></li><l=
+i=20style=3D"box-sizing:border-box;margin-left:15px"><div=20style=3D"box-si=
+zing:border-box;line-height:20px"><a=20href=3D"https://techniumscience.com/=
+index.php/technium/article/view/1681"=20target=3D"_blank"=20style=3D"box-si=
+zing:border-box;color:rgb(0,122,178);text-decoration-line:none;background-c=
+olor:transparent;font-weight:700">COVID-19=20dynamical=20evolution=20predic=
+tion=20in=20Mexico,=20decision=20making=20and=20social=20implementation:=20=
+mid/low=20income=20countries=20study</a>=C2=A0(<span=20style=3D"box-sizing:=
+border-box;font-size:13px">Saasil=20Fernandez-Erana,=20Labna=20Fernandez-Er=
+ana,=20Manuel=20Fernandez-Guasti)</span></div></li><li=20style=3D"box-sizin=
+g:border-box;margin-left:15px"><div=20style=3D"box-sizing:border-box;line-h=
+eight:20px"><a=20href=3D"https://techniumscience.com/index.php/technium/art=
+icle/view/1776"=20target=3D"_blank"=20style=3D"box-sizing:border-box;color:=
+rgb(0,122,178);text-decoration-line:none;background-color:transparent;font-=
+weight:700">Management=20Prospects=20for=20COVID-19:=20A=20Review</a>=C2=A0=
+(<span=20style=3D"box-sizing:border-box;font-size:13px">Uzma=C2=A0</span>Aa=
+mir<span=20style=3D"box-sizing:border-box;font-size:13px">=C2=A0Jilani,=20I=
+shrat=20Rahman,=20Syed=20Aamir=20Jilani)</span></div></li><li=20style=3D"bo=
+x-sizing:border-box;margin-left:15px"><div=20style=3D"box-sizing:border-box=
+;line-height:20px"><a=20href=3D"https://techniumscience.com/index.php/techn=
+ium/article/view/1747"=20target=3D"_blank"=20style=3D"box-sizing:border-box=
+;color:rgb(0,122,178);text-decoration-line:none;background-color:transparen=
+t;font-weight:700">Analysis=20of=20the=20importance=20of=20communicative=20=
+and=20technical=20English=20language,=20in=20the=20Professional=20Schools=
+=20of=20Mining=20Engineering=20of=20Peru=20for=20the=20innovation=20of=20ex=
+tractive=20technologies=20of=20future=20professionals,=202019</a>=C2=A0(<sp=
+an=20style=3D"box-sizing:border-box;font-size:13px">Quispe=20Marcos,=20Parr=
+a=20Paola,=20Hinostroza=20Erika,=20Colque=20Daniel)</span></div></li><li=20=
+style=3D"box-sizing:border-box;margin-left:15px"><div=20style=3D"box-sizing=
+:border-box;line-height:20px"><a=20href=3D"https://techniumscience.com/inde=
+x.php/technium/article/view/1824"=20target=3D"_blank"=20style=3D"box-sizing=
+:border-box;color:rgb(0,157,229);text-decoration-line:none;background-color=
+:transparent;font-weight:700">Abrasion=20resistance=20analysis=20of=20coati=
+ngs=20at=20electro-arc=20spraying=20using=20a=20pulsating=20spraying=20airf=
+low</a>=C2=A0(<span=20style=3D"box-sizing:border-box;font-size:13px">Iryna=
+=20Zakharova)</span></div></li><li=20style=3D"box-sizing:border-box;margin-=
+left:15px"><div=20style=3D"box-sizing:border-box;line-height:20px"><a=20hre=
+f=3D"https://techniumscience.com/index.php/technium/article/view/1841"=20ta=
+rget=3D"_blank"=20style=3D"box-sizing:border-box;color:rgb(0,157,229);text-=
+decoration-line:none;background-color:transparent;font-weight:700">Study=20=
+on=20the=20Synthesis=20and=20Photocatalytic=20Perfomance=20of=20Tube=20shap=
+ed=20Activated=20Carbon=20-TiO2=20Composite=20Materials</a>=C2=A0(<span=20s=
+tyle=3D"box-sizing:border-box;font-size:13px">Zhifu=20Wu)</span></div></li>=
+<li=20style=3D"box-sizing:border-box;margin-left:15px"><div=20style=3D"box-=
+sizing:border-box;line-height:20px"><a=20href=3D"https://techniumscience.co=
+m/index.php/technium/article/view/1829"=20target=3D"_blank"=20style=3D"box-=
+sizing:border-box;color:rgb(0,122,178);text-decoration-line:none;background=
+-color:transparent;font-weight:700">Efficiency=20Control=20Improvement=20Of=
+=20Diesel=20Engines=20Conditions=20By=20Using=20The=20Method=20Of=20Analyti=
+cal=20Synchronization=20Of=20Monitored=20Data</a>=C2=A0(<span=20style=3D"bo=
+x-sizing:border-box;font-size:13px">V=20Zalozh,=20T=20Tarasenko,=20R=20Varb=
+anets)</span></div></li><li=20style=3D"box-sizing:border-box;margin-left:15=
+px"><div=20style=3D"box-sizing:border-box;line-height:20px"><a=20href=3D"ht=
+tps://techniumscience.com/index.php/technium/article/view/1882"=20target=3D=
+"_blank"=20style=3D"box-sizing:border-box;color:rgb(0,122,178);text-decorat=
+ion-line:none;background-color:transparent;font-weight:700">Integrating=20A=
+ctivity=20Based=20Costing=20(ABC)=20with=20Enterprise=20Resource=20Planning=
+=20(ERP)=20for=20Effective=20Management:=20A=20Literature=20Review</a>=C2=
+=A0(<span=20style=3D"box-sizing:border-box;font-size:13px">Thomas=20Kitsant=
+as,=20Athanasios=20Vazakidis,=20Constantinos=20J.=20Stefanou)</span></div><=
+/li><li=20style=3D"box-sizing:border-box;margin-left:15px"><div=20style=3D"=
+box-sizing:border-box;line-height:20px"><a=20href=3D"https://techniumscienc=
+e.com/index.php/technium/article/view/1913"=20target=3D"_blank"=20style=3D"=
+box-sizing:border-box;color:rgb(0,122,178);text-decoration-line:none;backgr=
+ound-color:transparent;font-weight:700">Audio=20fade-out=20profile=20shapin=
+g=20for=20interactive=20multimedia</a>=C2=A0(<span=20style=3D"box-sizing:bo=
+rder-box;font-size:13px">Lucian=20Lupsa-Tataru)</span></div></li><li=20styl=
+e=3D"box-sizing:border-box;margin-left:15px"><div=20style=3D"box-sizing:bor=
+der-box;line-height:20px"><a=20href=3D"https://techniumscience.com/index.ph=
+p/technium/article/view/1715"=20target=3D"_blank"=20style=3D"box-sizing:bor=
+der-box;color:rgb(0,122,178);text-decoration-line:none;background-color:tra=
+nsparent;font-weight:700">Asset=20Mapping=20as=20a=20Base=20for=20Tradition=
+al=20Islamic=20Boarding=20School=20(Pesantren)=20Sheep=20Farming=20Developm=
+ent=20in=20Ngawonggo=20Village,=20Malang=20Regency,=20Indonesia</a>=C2=A0(<=
+span=20style=3D"box-sizing:border-box;font-size:13px">Siti=20Azizah,=20Umi=
+=20Wisapti=20Ningsih,=20Irfan=20H=20Djunaidi)</span></div></li><li=20style=
+=3D"box-sizing:border-box;margin-left:15px"><div=20style=3D"box-sizing:bord=
+er-box;line-height:20px"><a=20href=3D"https://techniumscience.com/index.php=
+/technium/article/view/1987"=20target=3D"_blank"=20style=3D"box-sizing:bord=
+er-box;color:rgb(0,157,229);text-decoration-line:none;background-color:tran=
+sparent;font-weight:700">The=20Communication=20technologies=20to=20encourag=
+e=20innovative=20activities=20engagement=20in=20students</a>=C2=A0(<span=20=
+style=3D"box-sizing:border-box;font-size:13px">Iryna=20Soldatenko)</span></=
+div></li><li=20style=3D"box-sizing:border-box;margin-left:15px"><div=20styl=
+e=3D"box-sizing:border-box;line-height:20px"><a=20href=3D"https://techniums=
+cience.com/index.php/technium/article/view/2029"=20target=3D"_blank"=20styl=
+e=3D"box-sizing:border-box;color:rgb(0,157,229);text-decoration-line:none;b=
+ackground-color:transparent;font-weight:700">The=20Effect=20of=20Return=20O=
+n=20Equity=20(ROE),=20Debt=20Equity=20Ratio=20(DER),=20and=20Earning=20Per=
+=20Share=20(EPS)=20on=20Share=20Prices=20in=20LQ45=20Indexed=20Companies=20=
+on=20the=20Indonesia=20Stock=20Exchange=20for=20the=202015=20-=202018=20Per=
+iod</a>=C2=A0(<span=20style=3D"box-sizing:border-box;font-size:13px">Astin=
+=20Sulistyanie,=20Muhammad=20Bayu=20Aji=20Sumantri)</span></div></li><li=20=
+style=3D"box-sizing:border-box;margin-left:15px"><div=20style=3D"box-sizing=
+:border-box;line-height:20px"><a=20href=3D"https://techniumscience.com/inde=
+x.php/technium/article/view/1790"=20target=3D"_blank"=20style=3D"box-sizing=
+:border-box;color:rgb(0,122,178);text-decoration-line:none;background-color=
+:transparent;font-weight:700">Function=20Modeling=20in=20Engineering=20Desi=
+gn:=20Approaches=20and=20Methods</a>=C2=A0(<span=20style=3D"box-sizing:bord=
+er-box;font-size:13px">Osamah=20Malik=20Mohammed,=20Ahmed=20Z.M.=20Shammari=
+)</span></div></li></ol><div=20style=3D""><div=20style=3D"color:rgb(34,34,3=
+4);font-family:Arial,Helvetica,sans-serif">Best=20regards,<br></div><div=20=
+style=3D"color:rgb(34,34,34);font-family:Arial,Helvetica,sans-serif"><div>T=
+echnium=20Science</div><div>WhatsApp=20Messenger=20+40=20762917165=C2=A0=20=
+=C2=A0or=C2=A0=C2=A0<a>+447761432201</a></div></div></div></div></div>
+
+<p></p>
+
+--=20<br=20/>
+You=20received=20this=20message=20because=20you=20are=20subscribed=20to=20t=
+he=20Google=20Groups=20&quot;Technium=20Science&quot;=20group.<br=20/>
+To=20unsubscribe=20from=20this=20group=20and=20stop=20receiving=20emails=20=
+from=20it,=20send=20an=20email=20to=20<a=20href=3D"mailto:journal277+unsubs=
+cribe@techniumscience.com">journal277+unsubscribe@techniumscience.com</a>.<=
+br=20/>
+To=20view=20this=20discussion=20on=20the=20web=20visit=20<a=20href=3D"https=
+://groups.google.com/a/techniumscience.com/d/msgid/journal277/CABUEttyHzyiy=
+uPeH4abLPy2BorBA7E1EYN_t5JLVZ547hQx0MA%40mail.gmail.com?utm_medium=3Demail&=
+utm_source=3Dfooter">https://groups.google.com/a/techniumscience.com/d/msgi=
+d/journal277/CABUEttyHzyiyuPeH4abLPy2BorBA7E1EYN_t5JLVZ547hQx0MA%40mail.gma=
+il.com</a>.<br=20/>
+
+--0000000000004ef18705b4527380--

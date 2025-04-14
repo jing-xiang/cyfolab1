@@ -1,0 +1,65 @@
+Return-Path: <test@mincoimpex.ro>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx5.public.one.com ([10.246.18.25])
+	by mail69.local.one.com (Dovecot) with LMTP id +H4PMty3ZllhwwEASYQN5A
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 13 Jul 2017 00:12:45 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: fb0ce804-675f-11e7-bb21-b82a72d82f61
+Received: from mail.mincoimpex.ro (unknown [82.76.170.24])
+	by mx5.public.one.com (Halon) with ESMTPS
+	id fb0ce804-675f-11e7-bb21-b82a72d82f61;
+	Thu, 13 Jul 2017 00:12:43 +0000 (UTC)
+DKIM-Signature: a=rsa-sha256; t=1499904699; x=1500509499; s=m1024;
+ d=mincoimpex.ro; c=relaxed/relaxed; v=1;
+ bh=WpVfu4CxhnAqPvBZqkEh3wSzlVnKdxIBMnlK5dx+4ic=; =?utf-8?q?h=3DFrom=3AReply?=
+ =?utf-8?q?-To=3ASubject=3ADate=3AMessage-ID=3ATo=3AMIME-Version=3AContent-T?=
+ =?utf-8?q?ype=3AContent-Transfer-Encoding=3AContent-Description=3B___b=3Dac?=
+ =?utf-8?q?lrJqlgrSnOgIJ5gtIPWPf6YPS6P/ZAvoKZk9rBTAxYDDG2PjZujmZxhwZdc8JV8s8?=
+ =?utf-8?q?oCFoKaESQcL2V+MfZV2FXoageoYc5WcZWVCI4fxlxecC6hU/DwD/zGFMJTqBLwi+S?=
+ =?utf-8?q?Z4dZqHVgFpgjXQjt//omgCm81XE8vaSqNUbaSmk=3D?=
+Return-Path: <test@mincoimpex.ro>
+Received: from srvad2-cpm.dom-ad.local        by mail.mincoimpex.ro (IceWarp
+ 12.0.1.0 x64) with SMTP (SSL) id 201707130311372081;        Thu, 13 Jul 2017
+ 03:11:37 +0300
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: PAYMENT NOTIFICATION
+To: Recipients <test@mincoimpex.ro>
+From: "Mr Kent Williams"<test@mincoimpex.ro>
+Date: Thu, 13 Jul 2017 02:11:24 +0200
+Reply-To: willison_philip@yahoo.com
+Message-ID: <b6cb47b8f501ba89051bafd555383cf8@mincoimpex.ro>
+
+UNITED=20BANK=20FOR=20AFRICA=20-=20AFRICA'S=20GLOBAL=20BANK
+HEAD=20OFFICE=20ADDRESS=20UBA=20HOUSE
+57=20MARINA=20P.O.=20BOX=202406=20LAGOS=20NIGERIA
+PHONE:=20+234=20903=20213=205023
+FAX:=20234=20674=20478=208273
+
+My=20name=20is=20=20Wilson=20philip=20=20the=20director=20cash=20processing=
+=20unit,=20united=20bank
+for=20Africa=20[UBA}.
+The=20international=20monetary=20fund=20(I.M.F.)=20in=20conjunction=20with
+Organization=20of=20African=20Unity=20(O.A.U)=20has=20directed=20us=20to=20=
+pay=20you=20One
+million=20five=20hundred=20thousand=20united=20state=20dollars=20($1.500,=
+=20000.00)=20in
+cash=20through=20means=20of=20diplomatic=20courier=20service=20hand=20deliv=
+ery.
+Take=20note:=20Three=20thousand=20united=20state=20dollars=20(usd$3,000)=20=
+have=20been
+mapped=20out=20for=20all=20expenses=20in=20taxes=20and=20other=20documents=
+=20that=20matters.
+Kindly=20forward=20your=20home=20address=20and=20direct=20phone=20number=20=
+for=20quick=20delivery.please=20reply/direct=20your=20email=20to=20this=20e=
+mail=20willison_philip@yahoo.com
+Regards,
+
+Kent=20Williams
+Director=20cash=20processing=20unit
+united=20bank=20for=20Africa.=20(U.B.A).
+PHONE:=20+234=20903=20213=205023
+FAX:=20234=20674=20478=208273
+Email:willison_philip@yahoo.com

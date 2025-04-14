@@ -1,0 +1,628 @@
+Return-Path: <de.boyogasystems@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx4.cst.mailpod12-cph3.one.com ([10.27.56.14])
+	by mailstorage27.cst.mailpod12-cph3.one.com with LMTP
+	id UOZyLjNMtmfTNAAATK8Ghw
+	(envelope-from <de.boyogasystems@gmail.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Wed, 19 Feb 2025 21:25:07 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:subject:message-id:date:from:mime-version:x-halone-refid:	
+ x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=dFuJbkpAayHZaiXwCnWBfazLeUNSGSoSjhNRcowiTBI=;	=?utf-8?q?b=3DJeXdhSQUPIKQ?=
+ =?utf-8?q?DkNVw+WHWd6BecbT9fIJQWUPbY6NqEouldQzOJLJDXeWTJwK/Nzsdob9hM6HjLV3G?=
+	 =?utf-8?q?qxkH+VykGpwZBND+sCRlLB3CpmnxAbRo2X1povEJygYeQ7G9ztl8WVc1MkZS/IhR?=
+ =?utf-8?q?cdosJ4eqCHcf7R=09_mJ0WbkbiqnxEhaYEZAOTVTLzejC5xsaLEviJf2DSfHYn7UG?=
+ =?utf-8?q?36d56zU5PRKpzyCe9g7WGtr4vb+7X2g=09_VSyarYapPtHMQtaFWLPF7s+2ctOiBa?=
+ =?utf-8?q?qPRUx9L/FgtE8cdr789ONhB/kCn9yqJNQ3+RQMH+vLcLHuyF?=	
+ 73qM42E7cjL3jJ3q+wDdOQYQezT5dAA==
+X-HalOne-SA: 8.1
+X-HalOne-RefID: 155866::1740000307-0132D36A-91856351/10/59710161132
+X-HalOne-Spam-Probability: 1
+Authentication-Results: mx4.pub.mailpod12-cph3.one.com;	spf=pass
+ smtp.mailfrom=gmail.com smtp.remote-ip=209.85.167.44;	dkim=pass
+ header.d=gmail.com header.s=20230601 header.a=rsa-sha256 header.b=XTMdZcV8;
+	dmarc=pass header.from=gmail.com;
+X-HalOne-ID: fd9a7ecd-ef07-11ef-abca-b07b25bf0102
+Received: from mail-lf1-f44.google.com (mail-lf1-f44.google.com
+ [209.85.167.44])	by mx4.pub.mailpod12-cph3.one.com (Halon) with ESMTPS	id
+ fd9a7ecd-ef07-11ef-abca-b07b25bf0102;	Wed, 19 Feb 2025 21:25:07 +0000 (UTC)
+Received: by mail-lf1-f44.google.com with SMTP id
+ 2adb3069b0e04-543e47e93a3so323429e87.2        for
+ <johannes.olegard@cyfoexample.one.com>; Wed, 19 Feb 2025 13:25:07 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com;
+ s=20230601; t=1740000306; x=1740605106; darn=cyfoexample.one.com;       
+ h=to:subject:message-id:date:from:mime-version:from:to:cc:subject        
+ :date:message-id:reply-to;       
+ bh=dFuJbkpAayHZaiXwCnWBfazLeUNSGSoSjhNRcowiTBI=;       
+ b=XTMdZcV8+5s0YfHuLK4eeqJI4D6z5zQzw9J78PqIhZOTuy5Rgqh92aCuxwjbHolL+z        
+ OM8ycVn4QuFDK7hH5TUo9DQY0abeCpizMG+PXvxeafIDLDsHpnNO5xW5W1m0o26cvDi+        
+ DMh6ZmqyffEdJ0XWASYzP69Z6ASPaoRnFkueZ7OhdXhL2RAaAqybB1ApnR/EGP2q5nyu        
+ dYptohaPKuOZMoDN7rf4AalL5QAAo3UjT4MF86mjb1iYy74AlRaX0VXJH1lKRL7MBZ6k        
+ 2jCGDscRWZclm+gwZnLgACihyscZlHw2aC1iWZIfJntCzH7dKKCP5ChbBEF/ShfytNnr        
+ CxpA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1740000306; x=1740605106;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=dFuJbkpAayHZaiXwCnWBfazLeUNSGSoSjhNRcowiTBI=;
+        b=HClEukI143UXnDsysb95nVcxOfXYNjQ5JE1aIbu1/fXhMG7kdh1gn9jmw/ejZzV7/N
+         tkE7+ARriRJ2wNTCBrNdIXy3tBEl2OJUFM+lv87gMFwJ2eNA/8n98+xctU4Yq6e88obm
+         Psn2Hb1Wy3mKuFqDcEKtZkGkNo5YXBEeKN29DqWAFUZ++ngvJOS6MqV1AQ//9SGnw72a
+         L6esFASKY9wUwo+XiJop94i3UY57oKmNmQnNOY/fZgj1V6SsAsFd8q6b+eX67dLg503J
+         KjKI6j0gpX78xzv9npWosC0FaqegH8rj4xQ3+VEEXU4AVVQhNU24Gugjm5WnPui7SKh7
+         6wzw==
+X-Forwarded-Encrypted: i=1; =?utf-8?q?AJvYcCVfPZT9oOBiYIYZ8FsJ1sgdNrbi2LB0mc?=
+ =?utf-8?q?4F7yJ+8vIm+cVoR7ecRKGeqg3ctpT+Ux7RwyR6wFJWwjpfho6jSHMQ=40cyfoexam?=
+ =?utf-8?q?ple=2Eone=2Ecom?=
+X-Gm-Message-State: AOJu0Yz5KqNgWfp9lbX4/lptq52up0/Kbegqn1oNwI4kVvwI0GFIKAej
+	F2W6gPC33gG3IL25YJsgY9Zvgzxb4ygtO5j5gOGq2Z1tF3ve2CUGSAeineVhMgIp8ikx1tR7BsM
+	tSfuQtxVjvgN4JoGW0VX0V1SPoQI=
+X-Gm-Gg: ASbGncuZWfbLnqYqiF0cYwkNvZt5CcQnhal3E6MwTtk/+vys930qcAJg0XtYXfwdjYU
+	tBLYRT80tf5nCfXRX6QcHR7yhggpgDxvZXHXVl/cL+euYRFEBY7CpslZn6ObwOFmM7oorj3lIgl
+	2feA==
+X-Google-Smtp-Source: =?utf-8?q?AGHT+IHRsx0MVsBgvk1znfJnI8a+1ksYGI0UqpXrNKQu?=
+ =?utf-8?q?17c7fG/WF8gLx6IhNCrDzEXPAOq8MXzl4dNr3FbhwErhE/4=3D?=
+X-Received: by 2002:a05:6512:1155:b0:545:16a5:10f5 with SMTP id
+ 2adb3069b0e04-5452fe509ddmr6090291e87.30.1740000306238; Wed, 19 Feb 2025
+ 13:25:06 -0800 (PST)
+MIME-Version: 1.0
+From: Andrew Anaya <de.boyogasystems@gmail.com>
+Date: Thu, 20 Feb 2025 06:21:31 +0000
+X-Gm-Features: AWEUYZmNT7rWuixIWrpMKkyStIaPUF9iZ9p1tyzQ-ud92y8jGYs1PWBHHsXyezQ
+Message-ID:
+ <CABn-8zntp5pc0oMPwaE7EL3bcBjjSCHkJAtaqBOw3+BoALH_dQ@mail.gmail.com>
+Subject: Final Notification Of Package Delivery
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="000000000000299c1c062e856489"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+--000000000000299c1c062e856489
+Content-Type: text/plain; charset="UTF-8"
+
+INSPECTION UNIT
+San Diego International Airport:
+N Harbour San Diego, CA
+92101 United States
+
+
+Final Notification Of Package Delivery
+
+I am Chief Inspection diplomatic Agent- United Nations Inspection Unit at
+San Diego International Airport: - working hand in hand with Department of
+Homeland Security and U.S Customs and Border Protection.
+
+During our investigation, I discovered an abandoned shipment from a
+Diplomat from London, UK and when scanned it revealed an undisclosed sum of
+money in a metal trunk box weighing approximately 25kg each. The
+consignment was abandoned because the Content was not properly declared by
+the consignee as money rather it was declared as personal effect to avoid
+diversion by the shipping agent and also the Diplomat inability to pay for
+Non Inspection Fees.
+
+On my assumption, each of the boxes will contain about $3Million to
+$4Million each and the consignment is still left in the storage house till
+today. The consignment is two metal boxes with weight of about 25kg each
+(Internal dimension: W61 x H156 x D73 cm). Effective capacity: 110
+LBS.).Approximately, the details of the consignment including your name and
+address, the official document from United Nation office in London are
+tagged on the Metal Trunk boxes.
+
+Provide your name, phone number and full home address, to cross check if it
+corresponds with the name and address on the consignment including the name
+of nearest airport around your city and other details. You can send the
+required details to me by email for onward delivery. All communication must
+be held extremely confidential. I can get everything concluded within 5-6
+hours upon your acceptance and proceed to your address for delivery with
+you on my arrival to your house.
+
+Below is my direct E-mail for effective and confidential communication.
+dela.john@post.com
+
+INSPECTION UNIT
+San Diego International Airport:
+Email: dela.john@post.com
+
+--000000000000299c1c062e856489
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BF<div=20dir=3D"ltr">
+
+
+<div=20id=3D"gmail-:11l"=20class=3D"gmail-Am=20gmail-aiL=20gmail-Al=20edita=
+ble=20gmail-LW-avf=20gmail-tS-tW=20gmail-tS-tY"=20aria-label=3D"Message=20B=
+ody"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;=
+min-height:376px"=20tabindex=3D"1"=20aria-controls=3D":3hi"=20aria-expanded=
+=3D"false">
+<div=20id=3D"gmail-:gs"=20class=3D"gmail-Am=20gmail-aiL=20gmail-Al=20editab=
+le=20gmail-LW-avf=20gmail-tS-tW=20gmail-tS-tY"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20tabindex=3D"1"=20aria-controls=3D":3c8"=20aria-expanded=
+=3D"false">
+
+<div=20id=3D"gmail-:1gx"=20class=3D"gmail-Am=20gmail-aiL=20gmail-Al=20edita=
+ble=20gmail-LW-avf=20gmail-tS-tW=20gmail-tS-tY"=20aria-label=3D"Message=20B=
+ody"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;=
+min-height:376px"=20tabindex=3D"1"=20aria-controls=3D":2zh"=20aria-expanded=
+=3D"false">
+
+
+<div=20id=3D"gmail-:9r"=20class=3D"gmail-Am=20gmail-aiL=20gmail-Al=20editab=
+le=20gmail-LW-avf=20gmail-tS-tW=20gmail-tS-tY"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20tabindex=3D"1"=20aria-controls=3D":2cs"=20aria-expanded=
+=3D"false">
+<div=20id=3D"gmail-:gq"=20class=3D"gmail-Am=20gmail-aiL=20gmail-Al=20editab=
+le=20gmail-LW-avf=20gmail-tS-tW=20gmail-tS-tY"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20tabindex=3D"1"=20aria-controls=3D":27v"=20aria-expanded=
+=3D"false">
+<div=20id=3D"gmail-:8q"=20class=3D"gmail-Am=20gmail-aiL=20gmail-Al=20editab=
+le=20gmail-LW-avf=20gmail-tS-tW=20gmail-tS-tY"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20tabindex=3D"1"=20aria-controls=3D":23t"=20aria-expanded=
+=3D"false">
+<div=20id=3D"gmail-:l7"=20class=3D"gmail-Am=20gmail-aiL=20gmail-Al=20editab=
+le=20gmail-LW-avf=20gmail-tS-tW=20gmail-tS-tY"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20tabindex=3D"1"=20aria-controls=3D":205"=20aria-expanded=
+=3D"false">
+<div=20id=3D"gmail-:a0"=20class=3D"gmail-Am=20gmail-aiL=20gmail-Al=20editab=
+le=20gmail-LW-avf=20gmail-tS-tW=20gmail-tS-tY"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20tabindex=3D"1"=20aria-controls=3D":1st"=20aria-expanded=
+=3D"false">
+
+<div=20id=3D"gmail-:9f"=20class=3D"gmail-Am=20gmail-aiL=20gmail-Al=20editab=
+le=20gmail-LW-avf=20gmail-tS-tW=20gmail-tS-tY"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20tabindex=3D"1"=20aria-controls=3D":11r"=20aria-expanded=
+=3D"false">
+<div=20id=3D"gmail-:gd"=20class=3D"gmail-Am=20gmail-aiL=20gmail-Al=20editab=
+le=20gmail-LW-avf=20gmail-tS-tW=20gmail-tS-tY"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20tabindex=3D"1"=20aria-controls=3D":wu"=20aria-expanded=
+=3D"false">
+<div=20id=3D"gmail-:4q"=20class=3D"gmail-Am=20gmail-aiL=20gmail-Al=20editab=
+le=20gmail-LW-avf=20gmail-tS-tW=20gmail-tS-tY"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20tabindex=3D"1"=20aria-controls=3D":rn"=20aria-expanded=
+=3D"false">
+<div=20id=3D"gmail-:kq"=20class=3D"gmail-Am=20gmail-aiL=20gmail-Al=20editab=
+le=20gmail-LW-avf=20gmail-tS-tW=20gmail-tS-tY"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20tabindex=3D"1"=20aria-controls=3D":n3"=20aria-expanded=
+=3D"false">
+<div=20dir=3D"ltr">
+<div=20id=3D"m_-3045494281525210958gmail-:fa"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":2x4"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:mz"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":2tg"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:t2"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":2ps"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:ly"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":2b8"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:f9"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":26c"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:n7"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":21s"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:11n"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20aria-controls=3D":1w5"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:mo"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":1r8"=20aria-expanded=3D"false">
+
+
+<div=20id=3D"m_-3045494281525210958gmail-:ak"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":1cu"=20aria-expanded=3D"false">
+
+<div=20id=3D"m_-3045494281525210958gmail-:ey"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":130"=20aria-expanded=3D"false">
+
+<div=20id=3D"m_-3045494281525210958gmail-:a7"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":t8"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:mb"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":oo"=20aria-expanded=3D"false">
+
+<div=20id=3D"m_-3045494281525210958gmail-:4fw"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20aria-controls=3D":5vv"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:3ec"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20aria-controls=3D":5s7"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:hq"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":5dd"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:3de"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20aria-controls=3D":59v"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:4g0"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20aria-controls=3D":56c"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:3em"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20aria-controls=3D":51s"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:hr"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":4w5"=20aria-expanded=3D"false">
+
+<div=20id=3D"m_-3045494281525210958gmail-:hc"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":4pg"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:3eq"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20aria-controls=3D":4kj"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:2fv"=20aria-label=3D"Message=20Bo=
+dy"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;m=
+in-height:376px"=20aria-controls=3D":4hd"=20aria-expanded=3D"false">
+
+
+
+
+
+<div=20id=3D"m_-3045494281525210958gmail-:hl"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":3t4"=20aria-expanded=3D"false">
+
+
+
+<div=20id=3D"m_-3045494281525210958gmail-:hf"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":38q"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:9i"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":33g"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:ht"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":2yj"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:9z"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":2tz"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:hb"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":2pf"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:9h"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":2ki"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:hu"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":2fy"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:a0"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":2b1"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:ha"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":264"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:9g"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":217"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:hv"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":1wc"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:a1"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":1rg"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:h9"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":1mj"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:9f"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":1hm"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:hw"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":1co"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:a2"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":17r"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:h8"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":12u"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:9e"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":xx"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:cj"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":t0"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:4p"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":nt"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:gw"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":j9"=20aria-expanded=3D"false">
+<div=20id=3D"m_-3045494281525210958gmail-:92"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":bg"=20aria-expanded=3D"false"><div=20di=
+r=3D"ltr">
+<div=20id=3D"m_-3045494281525210958m_7647880013064132545gmail-:va"=20aria-l=
+abel=3D"Message=20Body"=20role=3D"textbox"=20aria-multiline=3D"true"=20styl=
+e=3D"direction:ltr;min-height:376px"=20aria-controls=3D":7o4"=20aria-expand=
+ed=3D"false">
+<div=20id=3D"m_-3045494281525210958m_7647880013064132545gmail-:58q"=20aria-=
+label=3D"Message=20Body"=20role=3D"textbox"=20aria-multiline=3D"true"=20sty=
+le=3D"direction:ltr;min-height:376px"=20aria-controls=3D":7j7"=20aria-expan=
+ded=3D"false">
+<div=20id=3D"m_-3045494281525210958m_7647880013064132545gmail-:1tb"=20aria-=
+label=3D"Message=20Body"=20role=3D"textbox"=20aria-multiline=3D"true"=20sty=
+le=3D"direction:ltr;min-height:376px"=20aria-controls=3D":7ea"=20aria-expan=
+ded=3D"false">
+<div=20id=3D"m_-3045494281525210958m_7647880013064132545gmail-:588"=20aria-=
+label=3D"Message=20Body"=20role=3D"textbox"=20aria-multiline=3D"true"=20sty=
+le=3D"direction:ltr;min-height:376px"=20aria-controls=3D":79q"=20aria-expan=
+ded=3D"false">
+<div=20id=3D"m_-3045494281525210958m_7647880013064132545gmail-:19k"=20aria-=
+label=3D"Message=20Body"=20role=3D"textbox"=20aria-multiline=3D"true"=20sty=
+le=3D"direction:ltr;min-height:376px"=20aria-controls=3D":74t"=20aria-expan=
+ded=3D"false">
+<div=20id=3D"m_-3045494281525210958m_7647880013064132545gmail-:58r"=20aria-=
+label=3D"Message=20Body"=20role=3D"textbox"=20aria-multiline=3D"true"=20sty=
+le=3D"direction:ltr;min-height:376px"=20aria-controls=3D":709"=20aria-expan=
+ded=3D"false">
+<div=20id=3D"m_-3045494281525210958m_7647880013064132545m_-3526899823688314=
+780m_-1150453673406249454m_-4607663269906322903m_8129611377628817811m_-8579=
+842509645648909gmail-:3rw"=20aria-label=3D"Message=20Body"=20role=3D"textbo=
+x"=20aria-multiline=3D"true"=20style=3D"direction:ltr;min-height:376px"=20a=
+ria-controls=3D":43u"=20aria-expanded=3D"false"><div=20id=3D"m_-30454942815=
+25210958m_7647880013064132545m_-3526899823688314780m_-1150453673406249454m_=
+-4607663269906322903m_8129611377628817811m_-8579842509645648909gmail-:rk"=
+=20aria-label=3D"Message=20Body"=20role=3D"textbox"=20aria-multiline=3D"tru=
+e"=20style=3D"direction:ltr;min-height:376px"=20aria-controls=3D":3ye"=20ar=
+ia-expanded=3D"false"><div=20id=3D"m_-3045494281525210958m_7647880013064132=
+545m_-3526899823688314780m_-1150453673406249454m_-4607663269906322903m_8129=
+611377628817811m_-8579842509645648909gmail-:2v8"=20aria-label=3D"Message=20=
+Body"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr=
+;min-height:376px"=20aria-controls=3D":3tb"=20aria-expanded=3D"false"><div=
+=20id=3D"m_-3045494281525210958m_7647880013064132545m_-3526899823688314780m=
+_-1150453673406249454m_-4607663269906322903m_8129611377628817811m_-85798425=
+09645648909gmail-:23q"=20aria-label=3D"Message=20Body"=20role=3D"textbox"=
+=20aria-multiline=3D"true"=20style=3D"direction:ltr;min-height:376px"=20ari=
+a-controls=3D":3n5"=20aria-expanded=3D"false"><div=20id=3D"m_-3045494281525=
+210958m_7647880013064132545m_-3526899823688314780m_-1150453673406249454m_-4=
+607663269906322903m_8129611377628817811m_-8579842509645648909gmail-:2a7"=20=
+aria-label=3D"Message=20Body"=20role=3D"textbox"=20aria-multiline=3D"true"=
+=20style=3D"direction:ltr;min-height:376px"=20aria-controls=3D":3i2"=20aria=
+-expanded=3D"false"><div=20id=3D"m_-3045494281525210958m_764788001306413254=
+5m_-3526899823688314780m_-1150453673406249454m_-4607663269906322903m_812961=
+1377628817811m_-8579842509645648909gmail-:rd"=20aria-label=3D"Message=20Bod=
+y"=20role=3D"textbox"=20aria-multiline=3D"true"=20style=3D"direction:ltr;mi=
+n-height:376px"=20aria-controls=3D":3c9"=20aria-expanded=3D"false"><br>INSP=
+ECTION=20UNIT<br>San=20Diego=20International=20Airport:<br>N=20Harbour=20Sa=
+n=20Diego,=20CA<br>92101=20United=20States<br><br><br>Final=20Notification=
+=20Of=20Package=20Delivery<br><br>I
+=20am=20Chief=20Inspection=20diplomatic=20Agent-=20United=20Nations=20Inspe=
+ction=20Unit=20at
+=20San=20Diego=20International=20Airport:=20-=20working=20hand=20in=20hand=
+=20with=20Department
+=20of=20Homeland=20Security=20and=20U.S=20Customs=20and=20Border=20Protecti=
+on.<br><br>During
+=20our=20investigation,=20I=20discovered=20an=20abandoned=20shipment=20from=
+=20a=20Diplomat=20
+from=20London,=20UK=20and=20when=20scanned=20it=20revealed=20an=20undisclos=
+ed=20sum=20of=20money
+=20in=20a=20metal=20trunk=20box=20weighing=20approximately=2025kg=20each.=
+=20The=20consignment=20
+was=20abandoned=20because=20the=20Content=20was=20not=20properly=20declared=
+=20by=20the=20
+consignee=20as=20money=20rather=20it=20was=20declared=20as=20personal=20eff=
+ect=20to=20avoid=20
+diversion=20by=20the=20shipping=20agent=20and=20also=20the=20Diplomat=20ina=
+bility=20to=20pay=20
+for=20Non=20Inspection=20Fees.<br><br>On=20my=20assumption,=20each=20of=20t=
+he=20boxes=20will
+=20contain=20about=20$3Million=20to=20$4Million=20each=20and=20the=20consig=
+nment=20is=20still=20
+left=20in=20the=20storage=20house=20till=20today.=20The=20consignment=20is=
+=20two=20metal=20boxes
+=20with=20weight=20of=20about=2025kg=20each=20(Internal=20dimension:=20W61=
+=20x=20H156=20x=20D73=20
+cm).=20Effective=20capacity:=20110=20LBS.).Approximately,=20the=20details=
+=20of=20the=20
+consignment=20including=20your=20name=20and=20address,=20the=20official=20d=
+ocument=20from=20
+United=20Nation=20office=20in=20London=20are=20tagged=20on=20the=20Metal=20=
+Trunk=20boxes.<br><br>Provide
+=20your=20name,=20phone=20number=20and=20full=20home=20address,=20to=20cros=
+s=20check=20if=20it=20
+corresponds=20with=20the=20name=20and=20address=20on=20the=20consignment=20=
+including=20the=20
+name=20of=20nearest=20airport=20around=20your=20city=20and=20other=20detail=
+s.=20You=20can=20send
+=20the=20required=20details=20to=20me=20by=20email=20for=20onward=20deliver=
+y.=20All=20
+communication=20must=20be=20held=20extremely=20confidential.=20I=20can=20ge=
+t=20everything=20
+concluded=20within=205-6=20hours=20upon=20your=20acceptance=20and=20proceed=
+=20to=20your=20
+address=20for=20delivery=20with=20you=20on=20my=20arrival=20to=20your=20hou=
+se.<br><br>Below=20is=20my=20direct=20E-mail=20for=20effective=20and=20conf=
+idential=20communication.<br><a=20href=3D"mailto:dela.john@post.com"=20targ=
+et=3D"_blank">dela.john@post.com</a><br><br>INSPECTION=20UNIT<br>San=20Dieg=
+o=20International=20Airport:<br>Email:=20<a=20href=3D"mailto:dela.john@post=
+.com"=20target=3D"_blank">dela.john@post.com</a></div></div></div></div></d=
+iv></div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+</div>
+
+
+
+
+
+</div>
+
+--000000000000299c1c062e856489--

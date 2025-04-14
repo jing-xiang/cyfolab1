@@ -1,0 +1,152 @@
+Return-Path: <johannes.olegard@cyfoexample.one.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id MO+WMFiwJGS2WwAAtf5whQ
+	(envelope-from <johannes.olegard@cyfoexample.one.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Wed, 29 Mar 2023 21:40:40 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=mime-version:content-type:subject:from:to:message-id:sender:date:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=loUF+t0U/5bCiBiNBdoK9SmOsngVYhOEk6/miCprqEY=;	=?utf-8?q?b=3DfSTzKIIeV4eP?=
+ =?utf-8?q?BXW49Ib5pZfca+PvJWSWxes+Lx2m+eK3KFOt7GjoJiK7f1NrFWLspbaqGCBq5c/vY?=
+	 =?utf-8?q?rva3MxgZ8qp0I1zwWnPoeoD6K70hBFfUVd/BBFuWQeB/Puxi/f4SUzpTD3cUFgOY?=
+ =?utf-8?q?eKhzgydWmSnmQO=09_LDpEk9o6rGrW7nH0vj2LnX69E+k74TocRAlMi/aTw+Bq1F1?=
+ =?utf-8?q?Dz4VYIQqrehbHHT1MM3yDb9kiyQ3sNy=09_DJlfqNf1GXVoVcCp1psiyy+KW/5lSr?=
+ =?utf-8?q?5EgIyPpYXMdF2nW3dSL/C8pgCuxR4G8v04/EKbPsWZeAr4Ch?=	
+ 4xc8F1O30nz2lmJ648xYgvTsTCTMo0g==
+X-HalOne-SA: 11.7
+X-HalOne-RefID: 155866::1680126040-C0D1363A-B8D3DBED/10/51737224625
+X-HalOne-ID: 5911ac03-ce7a-11ed-b78d-e0d84894a001
+Received: from furleenpa.com (ip-54-87-150-103.wjv-1.biznetg.io
+ [103.150.87.54])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTP	id
+ 5911ac03-ce7a-11ed-b78d-e0d84894a001;	Wed, 29 Mar 2023 21:40:40 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=smtp; d=oracle.com;
+ h=Date:Sender:Message-Id:To:From:Subject:Content-Type:Mime-Version;
+ i=contact@oracle.com; bh=6ix26If/wJtFuSCkDxwOme8nd04=; =?utf-8?q?b=3DJUFj7s?=
+ =?utf-8?q?eIxHyvazT5LqaidZrd6J8GX9Tsu7bKPHEZnVS8j7zJAb6QSwvmT60eXnN/fTzQD5U?=
+ =?utf-8?q?bWINB?=  
+ OljpgTc1qEt+3COhJVUP0YA6Q/OvheIRVY/uTBnUhvZKJEbm8XaKIU9mupbxpT3nsdB4wb5fR70i
+   LMefkMd/RBjv+/TcrE0=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=smtp; d=oracle.com; 
+ =?utf-8?q?b=3DWbCxYTZ2gfVkaR+9xbx1nx0fYvMWfiiXknvV/z8Vpk7o6lqUPrGS0ZhlCv5pe?=
+ =?utf-8?q?ACxc6Pnber8G0OT?=  
+ cOtRA7lkw4nNdwcTXET9ncmTryWbfERulPoHmko+70hvCctSmJdEltX6IKQr+zW5nv3a6aESuHdP
+   dOgEl8YElf5W0roKv64=;
+Date: Wed, 29 Mar 2023 21:31:39 +0000
+Sender: contact@oracle.com
+Message-Id: <274216592010969.6.EJO7783663582@furleenpa.com>
+To: johannes.olegard@cyfoexample.one.com
+From: 1-minute diet trick <johannes.olegard@cyfoexample.one.com>
+Subject:
+ 18 pounds of fat GONE in 6 weeks thanks to an ancient Japanese elixir?
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_73819751"
+Mime-Version: 1.0
+
+--_----------=_MCPart_73819751
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BFReduce=20your=20labour=20costs=20&=20reduce=20wastage!=C2=A0
+
+Try=20Before=20You=20Buy...FREE=205L=20Durashield
+Roof=20Coating=20-=20Sample=20On=20Us!
+*Available=20until=20the=20end=20of=20November*
+NEXT=20DAY=20DELIVERY=20INCLUDED
+
+
+**=20Durashield=2015kg=20-=20From=20=C2=A360.00=20Ex=20VAT
+------------------------------------------------------------
+
+=E2=80=A2=2010=20Year=20Performance
+=E2=80=A2=20No=20Primer=20Needed
+=E2=80=A2=20No=20Wastage
+=E2=80=A2=20Single=20Pack=20Coating
+
+(Available=20in=203=20Colour's=20and=20Multiple=20Pack=20Size's)
+Claim=20Your=20Free=20Sample=20NOW=20(mailto:sales@britanniapaints.co.uk?su=
+bject=3DAquashield%20Inquiry%20)
+
+
+**=20Britannia=20Paints=20Limited
+Unit=207/8=20King=20Street=20Trading=20Estate
+Middlewich
+Cheshire
+CW10=209LF
+T:=20+44=20(0)=201606=20834015
+E:=20sales@britanniapaints.co.uk
+W:=20www.britanniapaints.co.uk
+------------------------------------------------------------
+
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+**=20Facebook=20(http://www.facebook.com)
+**=20Twitter=20(http://www.twitter.com/)
+**=20Link=20(http://www.instagram.com/)
+**=20Website=20(http://mailchimp.com)
+
+This=20email=20was=20sent=20to=20adamson-roofing@ntlworld.com=20(mailto:ada=
+mson-roofing@ntlworld.com)
+why=20did=20I=20get=20this?=20(https://polarcoatings.us3.list-manage.com/ab=
+out?u=3Dfb03f918d612f7084701db8a0&id=3D2c1a563cbf&e=3Deb8c6cd694&c=3De5b7e9=
+1bc4)=20=20=20=20=20unsubscribe=20from=20this=20list=20(https://polarcoatin=
+gs.us3.list-manage.com/unsubscribe?u=3Dfb03f918d612f7084701db8a0&id=3D2c1a5=
+63cbf&e=3Deb8c6cd694&c=3De5b7e91bc4)=20=20=20=20=20update=20subscription=20=
+preferences=20(https://polarcoatings.us3.list-manage.com/profile?u=3Dfb03f9=
+18d612f7084701db8a0&id=3D2c1a563cbf&e=3Deb8c6cd694)
+Polar=20Specialist=20Coatings=20.=2018-22=20Lloyds=20house=20.=20Lloyds=20s=
+treet=20.=20Manchester,=20Lancashire=20M2=205WA=20.=20United=20Kingdom
+
+Email=20Marketing=20Powered=20by=20Mailchimp
+http://www.mailchimp.com/monkey-rewards/?utm_source=3Dfreemium_newsletter&u=
+tm_medium=3Demail&utm_campaign=3Dmonkey_rewards&aid=3Dfb03f918d612f7084701d=
+b8a0&afl=3D1
+
+
+--_----------=_MCPart_73819751
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+
+
+
+<table style="margin: auto;" role="presentation" border="0" width="100%" cellspacing="0" cellpadding="0" align="center">
+<tbody>
+<tr>
+<td>
+<p><span style="font-weight: 400;">The Japanese have been growing an ancient herb for 4,700 years.</span></p>
+<br />
+<p><span style="font-weight: 400;">And they've been using its leaves as medicine&hellip;</span></p>
+<br />
+<p><span style="font-weight: 400;">Leading some cultures to describe it as the "Herb of Immortality" or the "Tree of Life".</span></p>
+<br />
+<p><span style="font-weight: 400;">&gt;&gt; <a href="https://norggfrt.s3.eu-west-3.amazonaws.com/metamorphclinkkss.html">Eat this "Herb of Immortality" to lose fat and lower bad cholesterol</a></span></p>
+<br />
+<p><span style="font-weight: 400;">The ancient Greeks even described it as the "</span><em><span style="font-weight: 400;">tree with life-reviving potential</span></em><span style="font-weight: 400;">".</span></p>
+<br />
+<p><span style="font-weight: 400;">Which isn't surprising because it's one of the world's most potent superfoods...</span></p>
+<br />
+<p><span style="font-weight: 400;">Jam-packed with powerful alkaloids, flavonoids, vitamins, and minerals.</span></p>
+<br />
+<p><span style="font-weight: 400;">Recent research has sent shockwaves through the weight-loss community&hellip;</span></p>
+<br />
+<p><span style="font-weight: 400;">As this "Herb of Immortality" melts fat like a hot knife cuts through butter.</span></p>
+<br />
+<p><span style="font-weight: 400;">That's not the only way this ancient Herb can help.</span></p>
+<br />
+<p><span style="font-weight: 400;">Discover how you can </span><em><span style="font-weight: 400;">melt stubborn fat</span></em><span style="font-weight: 400;"> and more with the "Herb of Immortality" by clicking on the link below:</span></p>
+<br />
+<p><span style="font-weight: 400;">&gt;&gt; <a href="https://norggfrt.s3.eu-west-3.amazonaws.com/metamorphclinkkss.html">Weird herb DESTROYS fat and lowers bad cholesterol</a></span></p>
+<br />
+<p><a href="https://norggfrt.s3.eu-west-3.amazonaws.com/metamorphclinkkss.html">Click Here</a></p>
+<br style="font-weight: 400;" /><br style="font-weight: 400;" /></td>
+</tr>
+</tbody>
+</table>
+
+
+--_----------=_MCPart_73819751--
+

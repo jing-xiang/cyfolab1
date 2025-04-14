@@ -1,0 +1,70 @@
+Return-Path: <boulg002@etu.univ-littoral.fr>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id gBNjCb46XGC6awAAtf5whQ
+	(envelope-from <boulg002@etu.univ-littoral.fr>)
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 25 Mar 2021 07:24:46 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:mime-version:subject:message-id:reply-to:from:date:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=L/aP9LANRkFMUZPylLPemvwRzroUCUXNleOzSwA+IWk=;	=?utf-8?q?b=3DXWQRKiIr3NnI?=
+ =?utf-8?q?3uSdE/N5r9jzjZur14hcWXEreCKxNePvL0PsgmvSCi9IUItI2zhzkAF8VFSA1lS/g?=
+	 =?utf-8?q?b2FdSDiHJ4fd9/60freyN9RivreWKmFR1EGkoDeIIMPzK8Pe1VUtWmz10sdCRsxJ?=
+ =?utf-8?q?6BjB6nBVqiiiLT=09_G9syP5tfJdED2D2v75E3tlrBlmW3VYhSAQRZH98g6rYTmGZ?=
+ =?utf-8?q?h7/xc6rXXDr6PM5Nk8xN6qCbCjlYsV8=09_/UrMMTkxZrlc49vbNT7puNj3Ao5SGK?=
+ =?utf-8?q?AswZi18EGBtDjaJBTgMQ3K8bOaKdYNlDEsCbXkRLlU378FwS?=	
+ G4jdb4iRSMrmcIsfRCEt7DQ5XuP4E8g==
+X-HalOne-SA: 12.8
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F22=2E605C3ABD=2E0028=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz04?=
+X-HalOne-ID: 1cf87b0c-8d3b-11eb-bf1b-ec0d9a6ed98e
+Received: from zmta1.univ-littoral.fr (zmta1.univ-littoral.fr
+ [195.220.130.150])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 1cf87b0c-8d3b-11eb-bf1b-ec0d9a6ed98e;	Thu, 25 Mar 2021 07:24:20 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by zmta1.univ-littoral.fr (Postfix) with ESMTP id 142A314C256;
+	Thu, 25 Mar 2021 01:57:22 +0100 (CET)
+Received: from zmta1.univ-littoral.fr ([127.0.0.1])
+	by localhost (zmta1.univ-littoral.fr [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id HuwPXFObHROJ; Thu, 25 Mar 2021 01:57:21 +0100 (CET)
+Received: from localhost (localhost [127.0.0.1])
+	by zmta1.univ-littoral.fr (Postfix) with ESMTP id D4026147D82;
+	Thu, 25 Mar 2021 01:30:29 +0100 (CET)
+X-Virus-Scanned: amavisd-new at zmta1.univ-littoral.fr
+Received: from zmta1.univ-littoral.fr ([127.0.0.1])
+	by localhost (zmta1.univ-littoral.fr [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id c3ZjezR4h4qh; Thu, 25 Mar 2021 01:30:29 +0100 (CET)
+Received: from zstore1.univ-littoral.fr (zstore1.univ-littoral.fr
+ [192.168.9.37])	by zmta1.univ-littoral.fr (Postfix) with ESMTP id
+ ECEE01437EF;	Thu, 25 Mar 2021 01:15:20 +0100 (CET)
+Date: Thu, 25 Mar 2021 01:15:19 +0100 (CET)
+From: Nandlall Mangal Foundation <abdeslam.boulgou@etu.univ-littoral.fr>
+Reply-To: " Nandlall Mangal Foundation" <help.foundation234@gmail.com>
+Message-ID:
+ <2049706630.11172702.1616631319219.JavaMail.zimbra@etu.univ-littoral.fr>
+Subject: DONATION FOR YOU
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="=_7bd65622-d7b5-4373-ae6a-92d55d7d08bf"
+X-Originating-IP: [192.168.9.33]
+X-Mailer: Zimbra 8.8.15_GA_3991 (zclient/8.8.15_GA_3991)
+Thread-Index: vt4H/lY+HwWX7phZRGI09g2CTWy3Xw==
+Thread-Topic: DONATION FOR YOU
+
+--=_7bd65622-d7b5-4373-ae6a-92d55d7d08bf
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+
+My name is Nandlall Mangal. I won a $246 million Powerball jackpot in August 2018. I have a donation of 3,000,000.00 for you. I donate for the love I have for humanity and the people in society. Contact us about this gift from God through this email at  help.foundation234@gmail.com
+--=_7bd65622-d7b5-4373-ae6a-92d55d7d08bf
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style> body {height: 100%; color:#000000; font-size:12pt; font-family:arial, helvetica, sans-serif;}</style></head><body><div><br></div><div><br></div><div><br></div><div>My name is Nandlall Mangal. I won a $246 million Powerball jackpot in August 2018. I have a donation of 3,000,000.00 for you. I donate for the love I have for humanity and the people in society. Contact us about this gift from God through this email at&nbsp; help.foundation234@gmail.com</div></body></html>
+--=_7bd65622-d7b5-4373-ae6a-92d55d7d08bf--

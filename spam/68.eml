@@ -1,0 +1,77 @@
+Return-Path: <megumi@jlankagroup.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])	by
+ mailstorage2.cst.mailpod3-cph3.one.com (Dovecot) with LMTP id
+ slR6GK9quFoS2gEAtf5whQ	for <johannes.olegard@cyfoexample.one.com>; Mon, 26
+ Mar 2018 03:43:53 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: e63ed97f-30a7-11e8-8ffc-e0d848974e01
+Received: from can.canada-wedding-dream.com (unknown [192.232.192.197])
+	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id e63ed97f-30a7-11e8-8ffc-e0d848974e01;
+	Mon, 26 Mar 2018 03:43:52 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=jlankagroup.com; s=default; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Reply-To:From:Subject:Date:Message-ID:Sender:To:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=g6biNn8rZ3P6G235RNvfVxFFz5BZ7nnFBAuqJo8h44I=; b=H5sTlWl6NOccNhw+E6SIZhjy7D
+	iV0jWaRe7gSlbbRI1/uS/+JWjG8dXLhWWZQVHM4E1VGFArkPHIhSMWfhg3RpTuxZqBikO+gpfnDQ3
+	Y35vK1s4nhGqEpHlS6R0l8YkH680uKBdO2+KZU4SaSwAT70baUmp1YYVq1Tua90osDm1zFSrV+zk+
+	OYkmKOwqqvsmIPmotVOl1D2+AQJM1/tvnFHc8MW+Vp1/FaH6+HfK+BGmELigU1K/DHybDYePd5uK4
+	VzUurEWN0jiktOdNYzZ+DLSRIhNpCPK5Aag7gLezAHXAs0GGdo2TJ9j2wV5xuU8i/O5C1sGdEdszQ
+	r9be6JgQ==;
+Received: from [127.0.0.1] (port=54084 helo=webmail.jlankagroup.com)
+	by can.canada-wedding-dream.com with esmtpa (Exim 4.89_1)
+	(envelope-from <megumi@jlankagroup.com>)
+	id 1ezSek-0002NV-6b; Fri, 23 Mar 2018 13:47:18 -0600
+Received: from 41.190.2.90 ([41.190.2.90]) (proxying for 41.190.2.90)
+        (SquirrelMail authenticated user megumi@jlankagroup.com)
+        by webmail.jlankagroup.com with HTTP;
+        Fri, 23 Mar 2018 15:47:18 -0400
+Message-ID:
+ <257189648733281a906d7b3b2fbe3c70.squirrel@webmail.jlankagroup.com>
+Date: Fri, 23 Mar 2018 15:47:18 -0400
+Subject: From Khadov
+From: "From Amir Khadov" <megumi@jlankagroup.com>
+Reply-To: uk5uk@postaxte.com
+User-Agent: SquirrelMail/1.5.2 [SVN]
+MIME-Version: 1.0
+Content-Type: text/plain;charset=utf-8
+Content-Transfer-Encoding: 8bit
+X-AntiAbuse:
+ This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - can.canada-wedding-dream.com
+X-AntiAbuse: Original Domain - cyfoexample.one.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - jlankagroup.com
+X-Get-Message-Sender-Via:
+ can.canada-wedding-dream.com: authenticated_id: megumi@jlankagroup.com
+X-Authenticated-Sender: can.canada-wedding-dream.com: megumi@jlankagroup.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+
+
+
+-- 
+-/.Thanks for your last email response to me.
+The information required should include the following-:
+Your full names
+Your address
+Telephone number
+Your private email
+Occupation
+Age
+This is to enable my further discussion with you in confidence.
+Best regards and wishes to you.
+Mohammad Amir Khadov
+NB: Please reply to:
+
+
+uk3uk@postaxte.com
+
+uk4uk@postaxte.com
+

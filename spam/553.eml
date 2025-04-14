@@ -1,0 +1,102 @@
+Received: from EBOX-PROD-SRV15.win.su.se (2001:6b0:5:1162:85f3:6da2:459d:88c7)
+ by EBOX-PROD-SRV16.win.su.se (2001:6b0:5:1162:2dba:d47b:bfc3:be04) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.35 via Mailbox
+ Transport; Thu, 11 Jan 2024 09:28:01 +0100
+Received: from EBOX-PROD-SRV14.win.su.se (2001:6b0:5:1162:10ee:1df:f550:9b8d)
+ by EBOX-PROD-SRV15.win.su.se (2001:6b0:5:1162:85f3:6da2:459d:88c7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.35; Thu, 11 Jan
+ 2024 09:28:01 +0100
+Received: from mail-prod-route07.it.su.se (130.237.200.211) by
+ EBOX-PROD-SRV14.win.su.se (130.237.162.14) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.35 via Frontend Transport; Thu, 11 Jan 2024 09:28:01 +0100
+Received: from mailfilter-ng-3.sunet.se (mailfilter-ng-3.sunet.se
+ [192.36.171.200])	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256
+ (128/128 bits))	(No client certificate requested)	by
+ mail-prod-route07.it.su.se (Postfix) with ESMTPS id 4T9d8d3M1DzBr	for
+ <johannes.olegard@dsv.su.se>; Thu, 11 Jan 2024 09:28:01 +0100 (CET)
+Received: from mail-yb1-xb36.google.com (mail-yb1-xb36.google.com
+ [2607:f8b0:4864:20::b36])	by mailfilter-ng-3.sunet.se (Halon) with ESMTPS	id
+ 5461f7f0-b05b-11ee-af0e-0050569a1168;	Thu, 11 Jan 2024 08:28:00 +0000 (UTC)
+Received: by mail-yb1-xb36.google.com with SMTP id
+ 3f1490d57ef6-dbed7c0741fso4264714276.2        for
+ <johannes.olegard@dsv.su.se>; Thu, 11 Jan 2024 00:28:00 -0800 (PST)
+From: "Professor. Jelena Zdravkovic" <headh7064@gmail.com>
+To: =?utf-8?B?Sm9oYW5uZXMgT2xlZ8OlcmQ=?= <johannes.olegard@dsv.su.se>
+Subject: Urgent response needed
+Thread-Topic: Urgent response needed
+Thread-Index: AQHaRGgXBj+/Zkoan0i98sBcmaD+cg==
+Date: Thu, 11 Jan 2024 09:27:34 +0100
+Message-ID:
+ <CAGhWvZjRGvoykkGCaHPJ9FUjt=-4U86cMNNEFPQE1e9jV0DvVw@mail.gmail.com>
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EBOX-PROD-SRV14.win.su.se
+X-MS-Has-Attach: 
+X-MS-Exchange-Organization-Network-Message-Id:
+ 3e0353b9-434d-458d-a04b-08dc127f3984
+X-MS-TNEF-Correlator: 
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-halon-sa-rules: =?utf-8?q?ADVANCE=5FFEE=5F3=5FNEW=3A3=2E496=2CDKIM=5FSIGNE?=
+ =?utf-8?b?RDowLjEsREtJTV9WQUxJRDotMC4xLERLSU1fVkFMSURfQVU6LTAuMSxES0lNX1ZB?=
+ =?utf-8?b?TElEX0VGOi0wLjEsRlJFRU1BSUxfRU5WRlJPTV9FTkRfRElHSVQ6MC4yNSxG?=
+ =?utf-8?q?REEMAIL=5FFROM=3A0=2E001=2CHTML=5FMESSAGE=3A0=2E001=2CRCVD=5FIN?=
+ =?utf-8?b?X0ROU1dMX05PTkU6LTAuMDAwMSxTUEZfSEVMT19OT05FOjAuMDAxLFNQRl9QQVNT?=
+ =?utf-8?b?Oi0wLjAwMSxUX1NDQ19CT0RZX1RFWFRfTElORTotMC4wMSxVUkdfQklaOjAuOTQx?=
+x-halon-sa-score: 4.5
+x-halon-rpd-refid: 155819::1704961680-3F27357C-4C74CA2A/20/7087148977
+x-halon-rpd-score: 0
+authentication-results: mailfilter-ng-3.sunet.se;	spf=pass
+ smtp.mailfrom=gmail.com smtp.remote-ip=2607:f8b0:4864:20::b36;	dkim=pass
+ header.d=gmail.com header.s=20230601 header.a=rsa-sha256 header.b=Srra934Q;
+	dmarc=pass header.from=gmail.com;
+x-halon-id: 5461f7f0-b05b-11ee-af0e-0050569a1168
+x-ms-exchange-transport-endtoendlatency: 00:00:00.1852967
+x-ms-exchange-processed-by-bccfoldering: 15.01.2507.035
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com;
+ s=20230601; t=1704961678; x=1705566478; darn=dsv.su.se;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=MF9sNVTa5d1ZX9NsICixSARctuIHE4sPkMiOgq+Q+2Y=;
+        b=Srra934QF5cvYo8QD4NVIlhbflOYsg5SpVn+bFKEDZzgnYWIKYOgWU8eW7ON0yBshk
+         LVwCpdNl3ocDvWGEAxqMQof2mnH4Gou9iKIodyTgfPvO0ZqRdSxCKY3NwP4B8fL6VroT
+         PMblSHqZlPEbK0T7IIYXu//FSCkcGQY1syiVWBK/t2d3aQv2ABvOijvNM3qNkDT1aTPU
+         KP5WOZFZZNO0U28hXIAtkQpSm9BJ61j0Y1CMOxJfWUNek3GOs1PwK3yVnPcLri75j7jV
+         9l/WXiscIKNxlecO64bpaROqPPK/Zn91cJkxYcYjCCG1e2Ch5UnHNh9YVL78R8Rs4fAS
+         32zg==
+x-google-dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1704961678; x=1705566478;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=MF9sNVTa5d1ZX9NsICixSARctuIHE4sPkMiOgq+Q+2Y=;
+        b=UuEToNRZPNalVHQxanLmim6qE+DP0ODAdHmE2O/NYesb/Hy3j5mL8bgH3FYAhq4KJs
+         NelbFPXHJUYWy4B1cADWHpHpWdUBCwInYmNeZ3Jgp/lvgvHHO2+Pw99nt4bBM94KMAOb
+         ekIsdy6q/dls+9v4kTKWhmFnWOeL+UUp1iLyVKewUy0j3nWGI21xhh47KyUH7Nccol+n
+         zFVxPU+fAvHhk1IZbN0kaLhtkSUbTPKZyx47rH4eTmtTLbpNyEGEgyVxGfpX1xZQrP3i
+         Cnseh54ixGb0m6AEXKNWXMjfT26Od+Bx1ImN2CDQbp7tMjhY2rVQ3g0ExF1vow9o1IrS
+         54CA==
+x-gm-message-state: AOJu0YysO7vLg5u5M2/l1fPmEmL9VAxzjHUOXCa9ecHqrJYdyVh0sEed
+	vmKKzNHBEhVRz147K/5jJGhsv6yQVarSrBebooCcOVdKXx3RUg==
+x-google-smtp-source: =?utf-8?q?AGHT+IFI/PZuFxQ05Jig3QYEAyLrhl5R5Q4E3TcwkM7V?=
+ =?utf-8?q?ll1A4+A4E1VdHTFAh+FXjra5cXIhsLTzBdrkF5l1z2a6qkM=3D?=
+x-received: by 2002:a25:874e:0:b0:dbc:c5e1:c470 with SMTP id
+ e14-20020a25874e000000b00dbcc5e1c470mr860439ybn.71.1704961678591; Thu, 11 Jan
+ 2024 00:27:58 -0800 (PST)
+Content-Type: multipart/alternative;
+	boundary="_000_CAGhWvZjRGvoykkGCaHPJ9FUjt4U86cMNNEFPQE1e9jV0DvVwmailgm_"
+MIME-Version: 1.0
+
+--_000_CAGhWvZjRGvoykkGCaHPJ9FUjt4U86cMNNEFPQE1e9jV0DvVwmailgm_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+77u/SGVsbG8sDQoNCkFyZSB5b3UgYXZhaWxhYmxlIG5vdz8NCg0KDQpSZWdhcmRzLA0KDQoNClByb2Zlc3Nvci4gSmVsZW5hIFpkcmF2a292aWMNCkhlYWQgb2YgZGVwYXJ0bWVudA0K
+--_000_CAGhWvZjRGvoykkGCaHPJ9FUjt4U86cMNNEFPQE1e9jV0DvVwmailgm_
+Content-Type: text/html; charset="utf-8"
+Content-ID: <13A2AC5E438DAF4E90E6E13B16B0C9DD@win.su.se>
+Content-Transfer-Encoding: base64
+
+77u/PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0idGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5Pg0KPGRpdiBkaXI9Imx0ciI+SGVsbG8sPGJyPg0KPGJyPg0KQXJlIHlvdSBhdmFpbGFibGUgbm93Pzxicj4NCjxicj4NCjxicj4NClJlZ2FyZHMsPGJyPg0KPGJyPg0KPGJyPg0KUHJvZmVzc29yLiBKZWxlbmEgWmRyYXZrb3ZpYzxicj4NCkhlYWQgb2YgZGVwYXJ0bWVudDxicj4NCjwvZGl2Pg0KPC9ib2R5Pg0KPC9odG1sPg0K
+--_000_CAGhWvZjRGvoykkGCaHPJ9FUjt4U86cMNNEFPQE1e9jV0DvVwmailgm_--

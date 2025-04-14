@@ -1,0 +1,355 @@
+Return-Path: <shj22@aber.ac.uk>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id +PmHA9meU1t1XgAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Sat, 21 Jul 2018 21:00:09 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 0bf14c6d-8d29-11e8-a5e2-e0d84894a001
+Received: from EUR03-AM5-obe.outbound.protection.outlook.com (unknown
+ [104.47.8.212])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 0bf14c6d-8d29-11e8-a5e2-e0d84894a001;	Sat, 21 Jul 2018 21:00:07 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=aber.ac.uk;
+ s=selector1; =?utf-8?q?h=3DFrom=3ADate=3ASubject=3AMessage-ID=3AContent-Typ?=
+ =?utf-8?q?e=3AMIME-Version=3AX-MS-Exchange-SenderADCheck=3B?=
+ bh=bNDxZXYnHJ2qYoURlK2E0EdEE4+zcE1XPpynIpBRErY=; =?utf-8?q?b=3DJi0xB8YsAsOd?=
+ =?utf-8?q?sk7HpA40m0ScuFw3tctGI1Lc4mVZToAIT9+qIVs4jCeNiS+Nnfn7afiKLhBZUJnzP?=
+ =?utf-8?q?aJE3Wzi4GV5U/rtcAajHJHurmONO/7g/+KnHzOf8RyML2CId0mXaN1SWwsqNH8BSn?=
+ =?utf-8?q?G1gzDg9HrNObVTGkJ6e5XfQ3ZAqnM=3D?=
+Received: from DB6PR0401MB2631.eurprd04.prod.outlook.com (10.169.225.140) by
+ DB6PR0401MB2390.eurprd04.prod.outlook.com (10.168.55.17) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.973.21; Sat, 21 Jul 2018 20:59:37 +0000
+Received: from DB6PR0401MB2631.eurprd04.prod.outlook.com
+ ([fe80::5859:d569:2cd6:5985]) by DB6PR0401MB2631.eurprd04.prod.outlook.com
+ ([fe80::5859:d569:2cd6:5985%2]) with mapi id 15.20.0973.018; Sat, 21 Jul 2018
+ 20:59:37 +0000
+From: "Shilin Jie [shj22]" <shj22@aber.ac.uk>
+To: "Shilin Jie [shj22]" <shj22@aber.ac.uk>
+Subject: Greetings
+Thread-Topic: Greetings
+Thread-Index: =?utf-8?q?AdQhNOqn3jJHItXaT0OkpfYm/PQtNwAAAHrQAAAAleAAABXUQAAA?=
+ =?utf-8?q?AE8AAAAAFYAAAAB1sAAAAFKwAAAAI2AAAABiUA=3D=3D?=
+Date: Sat, 21 Jul 2018 20:59:12 +0000
+Message-ID: <DB6PR0401MB2631E00FE04A80F5D161879F83500@DB6PR0401MB2631.eurprd04.prod.outlook.com>
+Reply-To: "bill.gatedonationsclaims142@outlook.com"
+	<bill.gatedonationsclaims142@outlook.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=shj22@aber.ac.uk; 
+x-originating-ip: [197.211.61.174]
+x-ms-publictraffictype: Email
+x-microsoft-exchange-diagnostics: =?utf-8?q?1=3BDB6PR0401MB2390=3B6=3Aq+KDzB?=
+ =?utf-8?q?mN3hUCUf8y83dG5U160hJsjXAE/RN9tzIfhtyG6bh2FG/KWSP8+o/XyT3b9z1Mv16?=
+ =?utf-8?q?k0+iab4NVnXJTUilw31hf4PLoaY+yGVGDgkPj17xAG2SPhINEdwj7RVAeepcN0IPo?=
+ =?utf-8?q?9ZHTh4U5IhEDGCHt+XtWeO44qmnjFoVxz5j9zdt/NBAcauS7oIn6CMx+knX6A+NRD?=
+ =?utf-8?q?NbW30WUaqrlF4jpP3x5Q6lxphRzuNJYjMqfkyn+hSn79mLrp926Vx2TWxb8L3bULW?=
+ =?utf-8?q?hr0JlGckv7MlJu1yQSDoqiuyG/3wzc4nmTRYtRpCHn1s+bp/Iyvd7oeDSI8uR6nzO?=
+ =?utf-8?q?gl7B8pLYu58e2AkG1UZABMg38UfPk1dOinEO+LWw2/wROj6CCj8asXPhbzMmeefNk?=
+ =?utf-8?q?I9wR0qG3JF2rneNq5g2OTMGFcoWNmt0fsBF688OVtwUM8o8MncoudGT+mP1iK7eqk?=
+ =?utf-8?q?xJ9RMV/xg=3D=3D=3B5=3ACA52wO06I0eJNhHlt7ESfMgT82bd8An/3ENquYfNw7m?=
+ =?utf-8?q?ItsfQJZMJKpcc95u9KkYICanBtWyG287GuzNUN6CchdsK3pB8s2JoiaC5RVRQq5AA?=
+ =?utf-8?q?6yAyt6G7CycPtIh75mOINI9UO/ZkRE8wAIRA4XEqRw0iPxCwUYsyBxESaGk+fTY?=
+ =?utf-8?q?=3D=3B7=3AjXcRkt4pvGup2vXsR+D3oJnZwlEHpPowzF+aVfrM7zK3HdmJeLJmlHd?=
+ =?utf-8?q?Q0jBPYKvvCjb1qiacnbrofSLFwYwwE2ew/V5V2cmIZQiX6gEOb+kM1ppaTmn2I0cT?=
+ =?utf-8?q?SiFqMekcUS/OIEiUlsOrWip1CHS8bdx4l6g+3TtT56gRKXq0Umk5ZIUiDuUmB5QJN?=
+ =?utf-8?q?AOHFPJVuEak3kG18nceR2cYgtJIij9lgaTy8u4OX66Uv1PboKu/rHUoNYItk2jgBQ?=
+ =?utf-8?q?MudfJc?=
+x-ms-office365-filtering-correlation-id: 265a74d1-6c77-4a46-3b54-08d5ef4cdef0
+x-microsoft-antispam: =?utf-8?b?QkNMOjA7UENMOjA7UlVMRUlEOig3MDIwMDk1KSg0NjUy?=
+ =?utf-8?q?040=29=288989117=29=285600073=29=28711020=29=282017052603328=29?=
+ =?utf-8?q?=287167020=29=287153060=29=287193020=29=3BSRVR=3ADB6PR0401MB2390?=
+ =?utf-8?q?=3B?=
+x-ms-traffictypediagnostic: DB6PR0401MB2390:
+x-microsoft-antispam-prvs: =?utf-8?q?=3CDB6PR0401MB2390918ECCC32B03FF39755D8?=
+ =?utf-8?q?3500=40DB6PR0401MB2390=2Eeurprd04=2Eprod=2Eoutlook=2Ecom=3E?=
+x-exchange-antispam-report-test: =?utf-8?q?UriScan=3A=2828532068793085=29=28?=
+ =?utf-8?q?189930954265078=29=2846984989838532=29=2864179844878784=29=282174?=
+ =?utf-8?q?8063052155=29=3B?=
+x-ms-exchange-senderadcheck: 1
+x-exchange-antispam-report-cfa-test: =?utf-8?b?QkNMOjA7UENMOjA7UlVMRUlEOig2?=
+ =?utf-8?q?040522=29=282401047=29=285005006=29=288121501046=29=2810201501046?=
+ =?utf-8?b?KSg5MzAwNjA5NSkoOTMwMDEwOTUpKDMwMDIwMDEpKDMyMzEzMTEpKDk0NDUw?=
+ =?utf-8?b?MTQxMCkoNTIxMDUwOTUpKDYwOTAxNDgpKDE0OTAyNykoMTUwMDI3KSg2MDQx?=
+ =?utf-8?q?310=29=28201703131423095=29=28201702281529075=29=2820170228152807?=
+ =?utf-8?q?5=29=2820161123555045=29=28201703061421075=29=28201703061406153?=
+ =?utf-8?q?=29=2820161123560045=29=2820161123558120=29=2820161123562045=29?=
+ =?utf-8?q?=2820161123564045=29=286072148=29=28201708071742011=29=287699016?=
+ =?utf-8?b?KTtTUlZSOkRCNlBSMDQwMU1CMjM5MDtCQ0w6MDtQQ0w6MDtSVUxFSUQ6O1NSVlI6?=
+ =?utf-8?q?DB6PR0401MB2390=3B?=
+x-forefront-prvs: 074040B844
+x-forefront-antispam-report:
+ SFV:SPM;SFS:(10009020)(1496009)(396003)(366004)(39860400002)=?utf-8?q?=2837?=
+ =?utf-8?b?NjAwMikoMzQ2MDAyKSgxMzYwMDMpKDE4OTAwMykoMTk5MDA0KSg3NDE2MDAyKSg3?=
+ =?utf-8?q?366002=29=28561924002=29=28102836004=29=287406005=29=287336002=29?=
+ =?utf-8?q?=287276002=29=2886362001=29=28575854001=29=2814454004=29=28224903?=
+ =?utf-8?b?MDAxKSg2NjA2NjAwMSkoMjYwMDUpKDk2ODYwMDMpKDU2NzQ1NDAwNCkoMzQ4?=
+ =?utf-8?q?0700004=29=2855016002=29=282900100001=29=286306002=29=2854896002?=
+ =?utf-8?b?KSg3NDQ4MjAwMikoNjU2ODYwMDQpKDIyMTczMzAwMSkoMTA5MTYwMDYpKDQ3?=
+ =?utf-8?q?8600001=29=286436002=29=2868736007=29=287736002=29=28105586002=29?=
+ =?utf-8?q?=2889122003=29=286506007=29=285660300001=29=2874316002=29=2856927?=
+ =?utf-8?b?NDAwMSkoNzExNjAwMykoOTY2MDA1KSgzMzY1NjAwMikoMTA2MzU2MDAxKSg0?=
+ =?utf-8?q?3066004=29=2815974865002=29=286666003=29=286862004=29=2899286004?=
+ =?utf-8?q?=29=282860700003=29=285250100002=29=2881156014=29=2881166006=29?=
+ =?utf-8?b?KDg2NzYwMDIpKDc2OTYwMDUpKDQ3NjAwMykoMTQ0NDQwMDUpKDk3NzM2MDA0KSgz?=
+ =?utf-8?q?9060400002=29=282906002=29=2853936002=29=28256004=29=283846002=29?=
+ =?utf-8?q?=28487044005=29=28790700001=29=286116002=29=2876576003=29=2845080?=
+ =?utf-8?q?400002=29=28551984002=29=286200100001=29=288936002=29=2888732003?=
+ =?utf-8?b?KSgzNDU3NzQwMDUpKDg3OTYwMDIpKDQ4NjAwNikoMzE2MDAyKSgzMjU5NDQwMDkp?=
+ =?utf-8?b?KDI1Nzg2MDA5KSg3ODYwMDMpKDE1NDgwNzAwMDA3KTtESVI6T1VUO1NGUDox?=
+ =?utf-8?q?501=3BSCL=3A5=3BSRVR=3ADB6PR0401MB2390=3BH=3ADB6PR0401MB2631=2Eeu?=
+ =?utf-8?q?rprd04=2Eprod=2Eoutlook=2Ecom=3BFPR=3A=3BSPF=3ANone=3BLANG=3Aen?=
+ =?utf-8?q?=3BPTR=3AI?=nfoNoRecords;MX:1;A:1;
+received-spf: None (protection.outlook.com: aber.ac.uk does not designate
+ permitted sender hosts)
+x-microsoft-antispam-message-info: =?utf-8?q?njIpBY33wn91ec9xKAlJztjJkBfX0JN?=
+ =?utf-8?q?+Rjo+E/voRQGMuPfaS8cJIi8Pp9N1wgmCG1cnMwtFAN3v3epd8/sFme6w+5mhvDpW?=
+ =?utf-8?q?A9HDExSXT8Zryc0hgxPrNlkCZ2DpwyLu9mpEMtg6ox8xDUsqIq4yGyoApgZFuGz9g?=
+ =?utf-8?q?RC9dV54/JZ91QPZ/xIUm0VBaE02IpMAZ34iBgBOV+HUYOynYjhbjE/si89fI7ZIyS?=
+ =?utf-8?q?dy7bGDmHhoB5S4n0yOvwelyof1gdvS9MSCpmxKzPex6RHGBpT4Nojmidj9dC3IqYg?=
+ =?utf-8?q?P+p5ddM/BfOIRc5KccPBjEI0o9qCBMybMEtAsZbWEbPuyng7okEucLP+Zv8nh26nm?=
+ =?utf-8?q?N611k30eOBFsbTp7zkZ0NJ4+60m7WmBlpOhD2bJp1qZE31PiorQMLI5BBNTZqjbgp?=
+ =?utf-8?q?ocGywqwsCx+s84//3oUeU6fPz6JG7UcrHiENaTAce9ZYGVFiAn0NZaGuHhgIx8j4B?=
+ =?utf-8?q?2StVdcJ9C8vin45tUUqIiS7Ockz83g0wMHcP4xp9rWOkL/Np1AVNLCIlC3gjI4lPH?=
+ =?utf-8?q?gNzyM0phn+lXF+WRdJDznFtd775ZpBV7l0oeOOTMjwtAXuA=3D=3D?=
+spamdiagnosticoutput: 1:22
+Content-Type: multipart/alternative;
+	boundary="_000_DB6PR0401MB2631E00FE04A80F5D161879F83500DB6PR0401MB2631_"
+MIME-Version: 1.0
+X-OriginatorOrg: aber.ac.uk
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+ 265a74d1-6c77-4a46-3b54-08d5ef4cdef0
+X-MS-Exchange-CrossTenant-originalarrivaltime: 21 Jul 2018 20:59:12.7744
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: d47b090e-3f5a-4ca0-84d0-9f89d269f175
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: DB6PR0401MB2390
+
+--_000_DB6PR0401MB2631E00FE04A80F5D161879F83500DB6PR0401MB2631_
+Content-Type: text/plain; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+Greetings=20you=20have=20been=20gifted=20$5=20MILLION=20USD=20From=20Mr.=20=
+Bill=20Gates.=20Contact=20me=20at=20this=20email=20for=20your=20claim:=20bi=
+ll.gatedonationsclaims142@outlook.com
+
+I=20hope=20this=20information=20meet=20you=20well=20as=20I=20know=20you=20w=
+ill=20be=20curious=20to=20know=20why/how=20I=20selected=20you=20to=20receiv=
+e=20a=20sum=20of=20$5,000,000,00=20USD,=20our=20information=20below=20is=20=
+100%=20legitimate,=20please=20see=20the=20link=20below:=20https://en.wikipe=
+dia.org/wiki/Bill_%26_Melinda_Gates_Foundation
+
+I=20BILL=20GATES=20and=20my=20wife=20decided=20to=20donate=20the=20sum=20of=
+=20$5,000,000,00=20USD=20to=20you=20as=20part=20of=20our=20charity=20projec=
+t=20to=20improve=20the=2010=20lucky=20individuals=20all=20over=20the=20worl=
+d=20from=20our=20$65=20Billion=20Usd=20I=20and=20My=20Wife=20Mapped=20out=
+=20to=20help=20people.=20We=20prayed=20and=20searched=20over=20the=20intern=
+et=20for=20assistance=20and=20i=20saw=20your=20profile=20on=20Microsoft=20e=
+mail=20owners=20list=20and=20picked=20you.=20Melinda=20my=20wife=20and=20i=
+=20have=20decided=20to=20make=20sure=20this=20is=20put=20on=20the=20interne=
+t=20for=20the=20world=20to=20see.=20as=20you=20could=20see=20from=20the=20w=
+ebpage=20above,=20am=20not=20getting=20any=20younger=20and=20you=20can=20im=
+agine=20having=20no=20much=20time=20to=20live.=20although=20am=20a=20Billio=
+naire=20investor=20and=20we=20have=20helped=20some=20charity=20organization=
+s=20from=20our=20Fund.
+
+You=20see=20after=20taken=20care=20of=20the=20needs=20of=20our=20immediate=
+=20family=20members,=20Before=20we=20die=20we=20decided=20to=20donate=20the=
+=20remaining=20of=20our=20Billions=20to=20other=20individuals=20around=20th=
+e=20world=20in=20need,=20the=20local=20fire=20department,=20the=20red=20cro=
+ss,=20Haiti,=20hospitals=20in=20truro=20where=20Melinda=20underwent=20her=
+=20cancer=20treatment,=20and=20some=20other=20organizations=20in=20Asia=20a=
+nd=20Europe=20that=20fight=20cancer,=20Alzheimer's=20and=20diabetes=20and=
+=20the=20bulk=20of=20the=20funds=20deposited=20with=20our=20payout=20bank=
+=20of=20this=20charity=20donation.=20We=20have=20kept=20just=2030%=20of=20t=
+he=20entire=20sum=20to=20our=20self=20for=20the=20remaining=20days=20becaus=
+e=20i=20am=20no=20longer=20strong=20am=20sick=20and=20am=20writing=20you=20=
+from=20hospital=20computer.=20And=20me=20and=20my=20wife=20will=20be=20trav=
+eling=20to=20Germany=20for=20Treatment.
+
+To=20facilitate=20the=20payment=20process=20of=20the=20funds=20($5,000,000.=
+00=20USD)=20which=20have=20been=20donated=20solely=20to=20you,=20you=20are=
+=20to=20send=20me
+
+your=20full=20names.................
+your=20contact=20address................
+your=20personal=20telephone=20number...............
+SEND=20YOUR=20ABOVE=20DETAILS=20TO=20my=20Email:=20bill.gatedonationsclaims=
+142@outlook.com
+
+So=20that=20i=20can=20forward=20your=20payment=20information=20to=20you=20i=
+mmediately.=20I=20am=20hoping=20that=20you=20will=20be=20able=20to=20use=20=
+the=20money=20wisely=20and=20judiciously=20over=20there=20in=20your=20City.=
+=20please=20you=20have=20to=20do=20your=20part=20to=20also=20alleviate=20th=
+e=20level=20of=20poverty=20in=20your=20region,=20help=20as=20many=20you=20c=
+an=20help=20once=20you=20have=20this=20money=20in=20your=20personal=20accou=
+nt=20because=20that=20is=20the=20only=20objective=20of=20donating=20this=20=
+money=20to=20you=20in=20the=20first=20place.
+
+Thank=20you=20for=20accepting=20our=20offer,=20we=20are=20indeed=20grateful=
+=20You=20Can=20Google=20my=20name=20for=20more=20information:=20Mr=20Bill=
+=20Gates=20or=20Bill=20&=20Melinda=20Gates=20Foundation
+
+Remain=20Blessed
+
+Regards
+Mr=20Bill=20Gates
+
+
+--------------------------------------------------------------------
+Prifysgol=20Aberystwyth=20www.aber.ac.uk
+Prifysgol=20y=20Flwyddyn=20ar=20gyfer=20Ansawdd=20Dysgu=20-=20The=20Times=
+=20&=20The=20Sunday=20Times=202018.
+
+Aberystwyth=20University=20www.aber.ac.uk
+University=20of=20the=20Year=20for=20Teaching=20Quality=20-=20The=20Times=
+=20&=20The=20Sunday=20Times=202018.
+
+--_000_DB6PR0401MB2631E00FE04A80F5D161879F83500DB6PR0401MB2631_
+Content-Type: text/html; charset="us-ascii"
+Content-Transfer-Encoding: quoted-printable
+
+<html=20xmlns:v=3D"urn:schemas-microsoft-com:vml"=20xmlns:o=3D"urn:schemas-=
+microsoft-com:office:office"=20xmlns:w=3D"urn:schemas-microsoft-com:office:=
+word"=20xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml"=20xmln=
+s=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta=20http-equiv=3D"Content-Type"=20content=3D"text/html;=20charset=3Dus-=
+ascii">
+<meta=20name=3D"Generator"=20content=3D"Microsoft=20Word=2015=20(filtered=
+=20medium)">
+<style><!--
+/*=20Font=20Definitions=20*/
+@font-face
+=09{font-family:"Cambria=20Math";
+=09panose-1:2=204=205=203=205=204=206=203=202=204;}
+@font-face
+=09{font-family:Calibri;
+=09panose-1:2=2015=205=202=202=202=204=203=202=204;}
+/*=20Style=20Definitions=20*/
+p.MsoNormal,=20li.MsoNormal,=20div.MsoNormal
+=09{margin:0in;
+=09margin-bottom:.0001pt;
+=09font-size:11.0pt;
+=09font-family:"Calibri","sans-serif";}
+a:link,=20span.MsoHyperlink
+=09{mso-style-priority:99;
+=09color:#0563C1;
+=09text-decoration:underline;}
+a:visited,=20span.MsoHyperlinkFollowed
+=09{mso-style-priority:99;
+=09color:#954F72;
+=09text-decoration:underline;}
+span.EmailStyle17
+=09{mso-style-type:personal-compose;
+=09font-family:"Calibri","sans-serif";
+=09color:windowtext;}
+.MsoChpDefault
+=09{mso-style-type:export-only;
+=09font-size:10.0pt;
+=09font-family:"Calibri","sans-serif";}
+@page=20WordSection1
+=09{size:8.5in=2011.0in;
+=09margin:1.0in=201.0in=201.0in=201.0in;}
+div.WordSection1
+=09{page:WordSection1;}
+--></style><!--[if=20gte=20mso=209]><xml>
+<o:shapedefaults=20v:ext=3D"edit"=20spidmax=3D"1026"=20/>
+</xml><![endif]--><!--[if=20gte=20mso=209]><xml>
+<o:shapelayout=20v:ext=3D"edit">
+<o:idmap=20v:ext=3D"edit"=20data=3D"1"=20/>
+</o:shapelayout></xml><![endif]-->
+</head>
+<body=20lang=3D"EN-US"=20link=3D"#0563C1"=20vlink=3D"#954F72">
+<div=20class=3D"WordSection1">
+<p=20class=3D"MsoNormal">Greetings=20you=20have=20been=20gifted=20$5=20MILL=
+ION=20USD=20From=20Mr.=20Bill=20Gates.=20Contact=20me=20at=20this=20email=
+=20for=20your=20claim:=20bill.gatedonationsclaims142@outlook.com&nbsp;
+<o:p></o:p></p>
+<p=20class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p=20class=3D"MsoNormal">I=20hope=20this=20information=20meet=20you=20well=
+=20as=20I=20know=20you=20will=20be=20curious=20to=20know=20why/how=20I=20se=
+lected=20you=20to=20receive=20a=20sum=20of=20$5,000,000,00=20USD,=20our=20i=
+nformation=20below=20is=20100%=20legitimate,=20please=20see=20the=20link=20=
+below:=20https://en.wikipedia.org/wiki/Bill_%26_Melinda_Gates_Foundation<o:=
+p></o:p></p>
+<p=20class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p=20class=3D"MsoNormal">I=20BILL=20GATES=20and=20my=20wife=20decided=20to=
+=20donate=20the=20sum=20of=20$5,000,000,00=20USD=20to=20you=20as=20part=20o=
+f=20our=20charity=20project=20to=20improve=20the=2010=20lucky=20individuals=
+=20all=20over=20the=20world=20from=20our=20$65=20Billion=20Usd=20I=20and=20=
+My=20Wife=20Mapped=20out=20to=20help=20people.=20We=20prayed
+=20and=20searched=20over=20the=20internet=20for=20assistance=20and=20i=20sa=
+w=20your=20profile=20on=20Microsoft=20email=20owners=20list=20and=20picked=
+=20you.=20Melinda=20my=20wife=20and=20i=20have=20decided=20to=20make=20sure=
+=20this=20is=20put=20on=20the=20internet=20for=20the=20world=20to=20see.=20=
+as=20you=20could=20see=20from=20the=20webpage=20above,=20am
+=20not=20getting=20any=20younger=20and=20you=20can=20imagine=20having=20no=
+=20much=20time=20to=20live.=20although=20am=20a=20Billionaire=20investor=20=
+and=20we=20have=20helped=20some=20charity=20organizations=20from=20our=20Fu=
+nd.<o:p></o:p></p>
+<p=20class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p=20class=3D"MsoNormal">You=20see=20after=20taken=20care=20of=20the=20need=
+s=20of=20our=20immediate=20family=20members,=20Before=20we=20die=20we=20dec=
+ided=20to=20donate=20the=20remaining=20of=20our=20Billions=20to=20other=20i=
+ndividuals=20around=20the=20world=20in=20need,=20the=20local=20fire=20depar=
+tment,=20the=20red=20cross,=20Haiti,=20hospitals
+=20in=20truro=20where=20Melinda=20underwent=20her=20cancer=20treatment,=20a=
+nd=20some=20other=20organizations=20in=20Asia=20and=20Europe=20that=20fight=
+=20cancer,=20Alzheimer&#8217;s=20and=20diabetes=20and=20the=20bulk=20of=20t=
+he=20funds=20deposited=20with=20our=20payout=20bank=20of=20this=20charity=
+=20donation.=20We=20have=20kept=20just=2030%=20of=20the
+=20entire=20sum=20to=20our=20self=20for=20the=20remaining=20days=20because=
+=20i=20am=20no=20longer=20strong=20am=20sick=20and=20am=20writing=20you=20f=
+rom=20hospital=20computer.=20And=20me=20and=20my=20wife=20will=20be=20trave=
+ling=20to=20Germany=20for=20Treatment.<o:p></o:p></p>
+<p=20class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p=20class=3D"MsoNormal">To=20facilitate=20the=20payment=20process=20of=20t=
+he=20funds=20($5,000,000.00=20USD)=20which=20have=20been=20donated=20solely=
+=20to=20you,=20you=20are=20to=20send=20me<o:p></o:p></p>
+<p=20class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p=20class=3D"MsoNormal">your=20full=20names.................<o:p></o:p></p>
+<p=20class=3D"MsoNormal">your=20contact=20address................<o:p></o:p=
+></p>
+<p=20class=3D"MsoNormal">your=20personal=20telephone=20number..............=
+.<o:p></o:p></p>
+<p=20class=3D"MsoNormal">SEND=20YOUR=20ABOVE=20DETAILS=20TO=20my=20Email:=
+=20bill.gatedonationsclaims142@outlook.com
+<o:p></o:p></p>
+<p=20class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p=20class=3D"MsoNormal">So=20that=20i=20can=20forward=20your=20payment=20i=
+nformation=20to=20you=20immediately.=20I=20am=20hoping=20that=20you=20will=
+=20be=20able=20to=20use=20the=20money=20wisely=20and=20judiciously=20over=
+=20there=20in=20your=20City.=20please=20you=20have=20to=20do=20your=20part=
+=20to=20also=20alleviate=20the=20level=20of=20poverty
+=20in=20your=20region,=20help=20as=20many=20you=20can=20help=20once=20you=
+=20have=20this=20money=20in=20your=20personal=20account=20because=20that=20=
+is=20the=20only=20objective=20of=20donating=20this=20money=20to=20you=20in=
+=20the=20first=20place.<o:p></o:p></p>
+<p=20class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p=20class=3D"MsoNormal">Thank=20you=20for=20accepting=20our=20offer,=20we=
+=20are=20indeed=20grateful=20You=20Can=20Google=20my=20name=20for=20more=20=
+information:=20Mr=20Bill=20Gates=20or=20Bill=20&amp;=20Melinda=20Gates=20Fo=
+undation<o:p></o:p></p>
+<p=20class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p=20class=3D"MsoNormal">Remain=20Blessed<o:p></o:p></p>
+<p=20class=3D"MsoNormal"><o:p>&nbsp;</o:p></p>
+<p=20class=3D"MsoNormal">Regards<o:p></o:p></p>
+<p=20class=3D"MsoNormal">Mr=20Bill=20Gates<o:p></o:p></p>
+</div>
+<br>
+<br>
+--------------------------------------------------------------------<br>
+Prifysgol=20Aberystwyth=20www.aber.ac.uk=20<br>
+Prifysgol=20y=20Flwyddyn=20ar=20gyfer=20Ansawdd=20Dysgu=20-=20The=20Times=
+=20&amp;=20The=20Sunday=20Times=202018.=20<br>
+<br>
+Aberystwyth=20University=20www.aber.ac.uk=20<br>
+University=20of=20the=20Year=20for=20Teaching=20Quality=20-=20The=20Times=
+=20&amp;=20The=20Sunday=20Times=202018.
+</body>
+</html>
+
+--_000_DB6PR0401MB2631E00FE04A80F5D161879F83500DB6PR0401MB2631_--

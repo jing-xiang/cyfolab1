@@ -1,0 +1,62 @@
+Return-Path: <no-reply@camera1.net>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx10.public.one.com ([10.246.18.30])
+	by mail69.local.one.com (Dovecot) with LMTP id uYSsAqUInlmPQAEASYQN5A
+	for <johannes.olegard@cyfoexample.one.com>; Wed, 23 Aug 2017 23:00:16 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: d3271db7-8856-11e7-8618-246e9615723c
+Received: from 94-182-60-70.shatel.ir (unknown [94.182.60.70])
+	by mx10.public.one.com (Halon) with ESMTP
+	id d3271db7-8856-11e7-8618-246e9615723c;
+	Wed, 23 Aug 2017 23:00:15 +0000 (UTC)
+Reply-To: no-reply@camera1.net
+To: johannes.olegard@cyfoexample.one.com
+From: "Customer Service" <no-reply@camera1.net>
+Subject: Copy of Invoice 10384
+Message-ID: <82B7860A.4338544@camera1.net>
+Date: Thu, 24 Aug 2017 03:30:14 +0430
+X-Mozilla-Draft-Info: internal/draft; vcard=0; receipt=0; DSN=0; uuencode=0;
+ attachmentreminder=0
+User-Agent: Mozilla/5.0 (Windows NT 6.3; WOW64; rv:38.0) Gecko/20100101
+ Thunderbird/38.5.0
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="------------163625278798467778592612"
+
+This is a multi-part message in MIME format.
+--------------163625278798467778592612
+Content-Type: text/plain; charset=utf-8; format=flowed
+Content-Transfer-Encoding: 7bit
+
+Please download <http://gunterarnold-furniture.com/download.html> file containing your order information.
+
+If you have any further questions regarding your invoice, please call Customer Service.
+
+
+Please do not reply directly to this automatically generated e-mail message.
+
+Thank you.
+Customer Service Department
+
+--------------163625278798467778592612
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  </head>
+  <body bgcolor="#FFFFFF" text="#000000">
+Please <a href="http://gunterarnold-furniture.com/download.html">download</a> file containing your order information.<br>
+<br>
+If you have any further questions regarding your invoice, please call Customer Service.<br>
+<br>
+<br>
+Please do not reply directly to this automatically generated e-mail message.<br>
+<br>
+Thank you.<br>
+Customer Service Department<br>
+  </body>
+</html>
+
+--------------163625278798467778592612--

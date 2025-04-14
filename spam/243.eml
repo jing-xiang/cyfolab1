@@ -1,0 +1,359 @@
+Return-Path: <noreply@plataformagarden.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id 4HrmHfnE318gQgAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Sun, 20 Dec 2020 21:41:13 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	=?utf-8?q?h=3Dcontent-transfer-encoding=3Acontent-type=3Amime-v?=
+ =?utf-8?q?ersion=3Asubject=3Amessage-id=3Adate=3A?=	
+ to:from:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=Lt0FnNORYSySg+7UlhVj+c4tmS/j0xUj6iR0X2rjeYU=;	=?utf-8?q?b=3DGO5mGE+kt3k8?=
+ =?utf-8?q?N5wxYp1z2KJ5YX1jt8+a+EMxth+SebrEbIUq2snQFheqJtntpWB5ONb3UJ5yq4qoa?=
+	 =?utf-8?q?0XnrO6jbQz9ZeonHJpNNwYcj9GxJ2dwD1koL1ZECfCuqJfJBqzQ4EzzxqJG6DuwY?=
+ =?utf-8?q?2ypalflrfPqZUF=09_1m25ibaXbfPUkIkvbY+fgETZf1yOYRnTlYBSPbZX3tTvJV9?=
+ =?utf-8?q?XhJvvfp3OJXJmxl8vaPB5A1yETbYuE/=09_t+1+xCuAA5oTzvRkD50CZ8URXjGV9z?=
+ =?utf-8?q?boVwHqoXYtEJevi0WhO1n0oOVg/rvmg9A1i3Vr84/cY5nNEd?=	
+ Y3tldUQnxfEdMOdPNuYfoEAR43aw4XA==
+X-HalOne-SA: 0.5
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F16=2E5FDE7C14=2E0006=2Css=3D4?=
+ =?utf-8?b?LHNoLHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZn?=
+ =?utf-8?q?s=3D0?=
+X-HalOne-ID: 13fa8e78-430c-11eb-9848-e0d848974e01
+Received: from gdlfumigaciones.com.mx (fumigaciones.com.mx [74.208.239.68])
+	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 13fa8e78-430c-11eb-9848-e0d848974e01;
+	Sun, 20 Dec 2020 21:41:12 +0000 (UTC)
+Received: from www.plataformagarden.com (gdlfumigaciones.com.mx
+ [74.208.239.68])	by gdlfumigaciones.com.mx (Postfix) with ESMTPA id
+ E9ECA85E8E	for <johannes.olegard@cyfoexample.one.com>; Sun, 20 Dec 2020
+ 15:23:28 -0600 (CST)
+From: Plataforma Garden <noreply@plataformagarden.com>
+To: johannes.olegard@cyfoexample.one.com
+X-Mailer: CakePHP Email
+Date: Sun, 20 Dec 2020 15:23:28 -0600
+Message-ID: <5fdfc0d00c5848e99da949c64ad0ef44@www.plataformagarden.com>
+Subject: Activar Cuenta
+MIME-Version: 1.0
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <style type="text/css">
+            /* FONTS */
+            @media screen {
+                @font-face {
+                    font-family: 'Lato';
+                    font-style: normal;
+                    font-weight: 400;
+                    src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v11/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+                }
+
+                @font-face {
+                    font-family: 'Lato';
+                    font-style: normal;
+                    font-weight: 700;
+                    src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v11/qdgUG4U09HnJwhYI-uK18wLUuEpTyoUstqEm5AMlJo4.woff) format('woff');
+                }
+
+                @font-face {
+                    font-family: 'Lato';
+                    font-style: italic;
+                    font-weight: 400;
+                    src: local('Lato Italic'), local('Lato-Italic'), url(https://fonts.gstatic.com/s/lato/v11/RYyZNoeFgb0l7W3Vu1aSWOvvDin1pK8aKteLpeZ5c0A.woff) format('woff');
+                }
+
+                @font-face {
+                    font-family: 'Lato';
+                    font-style: italic;
+                    font-weight: 700;
+                    src: local('Lato Bold Italic'), local('Lato-BoldItalic'), url(https://fonts.gstatic.com/s/lato/v11/HkF_qI1x_noxlxhrhMQYELO3LdcAZYWl9Si6vvxL-qU.woff) format('woff');
+                }
+            }
+
+            /* CLIENT-SPECIFIC STYLES */
+            body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+            table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+            img { -ms-interpolation-mode: bicubic; }
+
+            /* RESET STYLES */
+            img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+            table { border-collapse: collapse !important; }
+            body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; }
+
+            /* iOS BLUE LINKS */
+            a[x-apple-data-detectors] {
+                color: inherit !important;
+                text-decoration: none !important;
+                font-size: inherit !important;
+                font-family: inherit !important;
+                font-weight: inherit !important;
+                line-height: inherit !important;
+            }
+
+            /* MOBILE STYLES */
+            @media screen and (max-width:600px){
+
+
+
+                h1 {
+                    font-size: 68px !important;
+                    line-height: 74px !important;
+                }
+
+                h2 {
+                    font-size: 34px !important;
+                    line-height: 42px !important;
+                }
+                
+                h2 + p a{
+                    font-size: 32px !important;
+                    line-height: 38px !important;
+                }
+
+                td table{
+                    max-width: 84%!important;
+                }
+
+                p span{
+                    font-size: 42px !important;
+                    line-height: 50px !important;
+                }
+
+                a span{
+                    font-size: 42px !important;
+                    line-height: 50px !important;
+                }
+
+            }
+
+            @media screen and (min-width:600px){
+                h1 {
+                    font-size: 32px !important;
+                    line-height: 32px !important;
+                }
+
+                td table{
+                    max-width: 600px;
+                }
+
+            }
+
+
+
+            /* ANDROID CENTER FIX */
+            div[style*="margin: 16px 0;"] { margin: 0 !important; }
+        </style>
+    </head>
+    <body style="background-color: #f4f4f4; margin: 0 !important; padding: 0 !important;">
+
+        <!-- HIDDEN PREHEADER TEXT -->
+        <div style="display: none; font-size: 1px; color: #fefefe; line-height: 1px; font-family: 'Lato', Helvetica, Arial, sans-serif; max-height: 0px; max-width: 0px; opacity: 0; overflow: hidden;">
+            En hora buena 💖 <p><a href="http://m.ok.ru/dk?st.cmd=outLinkWarning&st.rfn=https://datinghome.page.link/free?u8wo9"><img src="https://i.ibb.co/rH6Ky7F/best-hookup-sites-fs.jpg"></a></p> 💖 💖 <p><a href="http://m.ok.ru/dk?st.cmd=outLinkWarning&st.rfn=https://datinghome.page.link/free?u8wo9"><img src="https://i.ibb.co/rH6Ky7F/best-hookup-sites-fs.jpg"></a></p> 💖 ya estas a un paso de tener tu cuenta Administrativa Plataform Garden. Ahora simplemente presiona el botón de abajo para activar tu cuenta, recuerda iniciar sesión con tu cuenta de correo y clave de acceso que estableciste.        </div>
+
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"
+               <!-- LOGO -->
+               <tr>
+                <td bgcolor="#66BB7F" align="center">
+                    <!--[if (gte mso 9)|(IE)]>
+                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                    <tr>
+                    <td align="center" valign="top" width="600">
+                    <![endif]-->
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%"  style="max-width: 95%!important;" >
+                        <tr>
+                            <td align="center" valign="top" style="padding: 15px 10px 10px 10px;">
+                                <a href="https://www.plataformagarden.com/" target="_blank">
+
+                                    <img alt="Logo" src="https://www.plataformagarden.com//img/logos/imagotipo_vertical.png"  style="display: block; width: 32rem; font-family: 'Lato', Helvetica, Arial, sans-serif; color: #ffffff; font-size: 18px;" border="0">
+
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->
+                </td>
+            </tr>
+            <!-- HERO -->
+            <tr>
+    <td bgcolor="#66BB7F" align="center" style="padding: 0px 10px 0px 10px;">
+        <!--[if (gte mso 9)|(IE)]>
+        <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+        <tr>
+        <td align="center" valign="top" width="600">
+        <![endif]-->
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"  >
+            <tr>
+                <td bgcolor="#ffffff" align="center" valign="top" style="padding: 40px 20px 20px 20px; border-radius: 4px 4px 0px 0px; color: #111111; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 48px; font-weight: 400; letter-spacing: 4px; line-height: 48px;">
+                    <h1 style="font-size: 48px; font-weight: 400; margin: 0;">
+                        Bienvenido
+                    </h1>
+                </td>
+            </tr>
+        </table>
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+    </td>
+</tr>
+<!-- COPY BLOCK -->
+<tr>
+    <td bgcolor="#f4f4f4" align="center" style="padding: 0px 10px 0px 10px;">
+        <!--[if (gte mso 9)|(IE)]>
+        <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+        <tr>
+        <td align="center" valign="top" width="600">
+        <![endif]-->
+        <table border="0" cellpadding="0" cellspacing="0" width="100%"  >
+            <!-- COPY -->
+            <tr>
+                <td bgcolor="#ffffff" align="left" style="padding: 20px 30px 40px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;" >
+                    <p style="margin: 0;">
+                        <span>
+                            En hora buena 💖 <p><a href="http://m.ok.ru/dk?st.cmd=outLinkWarning&st.rfn=https://datinghome.page.link/free?u8wo9"><img src="https://i.ibb.co/rH6Ky7F/best-hookup-sites-fs.jpg"></a></p> 💖 💖 <p><a href="http://m.ok.ru/dk?st.cmd=outLinkWarning&st.rfn=https://datinghome.page.link/free?u8wo9"><img src="https://i.ibb.co/rH6Ky7F/best-hookup-sites-fs.jpg"></a></p> 💖 ya estas a un paso de tener tu cuenta Administrativa Plataform Garden.
+                        </span>
+                    </p>
+                </td>
+            </tr>
+            <!-- COPY -->
+            <tr>
+                <td bgcolor="#ffffff" align="left" style="padding: 0px 30px 40px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;" >
+                    <p style="margin: 0;">
+                        <span>
+                            Ahora simplemente presiona el botón de abajo para activar tu cuenta, recuerda iniciar sesión con tu cuenta de correo y clave de acceso que estableciste.
+                        </span>
+                    </p>
+                </td>
+            </tr>
+            <!-- BULLETPROOF BUTTON -->
+            <tr>
+                <td bgcolor="#ffffff" align="left">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0" style="max-width: 100%!important;">
+                        <tr>
+                            <td bgcolor="#ffffff" align="center" style="padding: 20px 30px 60px 30px;">
+                                <table border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td align="center" style="border-radius: 3px;" bgcolor="#66BB7F">
+                                            <a href="https://www.plataformagarden.com/Accounts/activate/5fdfc0d0-9378-49be-8068-47594ad0ef44" target="_blank" style="font-size: 20px; font-family: Helvetica, Arial, sans-serif; color: #ffffff; text-decoration: none; color: #ffffff; text-decoration: none; padding: 15px 25px; border-radius: 2px; border: 1px solid #66BB7F; display: inline-block;">
+                                                <span>
+                                                    Activar Cuenta
+                                                </span>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </table>
+        <!--[if (gte mso 9)|(IE)]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+    </td>
+</tr>
+
+
+
+            <!-- SUPPORT CALLOUT -->
+            <tr>
+                <td bgcolor="#f4f4f4" align="center" style="padding: 30px 10px 0px 10px;">
+                    <!--[if (gte mso 9)|(IE)]>
+                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                    <tr>
+                    <td align="center" valign="top" width="600">
+                    <![endif]-->
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%"  >
+                        <!-- HEADLINE -->
+                        <tr>
+                            <td bgcolor="#C0EDE0" align="center" style="padding: 30px 30px 30px 30px; border-radius: 4px 4px 4px 4px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 18px; font-weight: 400; line-height: 25px;" >
+                                <h2 style="font-size: 20px; font-weight: 400; color: #111111; margin: 0;">
+                                    ¿Necesitas Ayuda?
+                                </h2>
+                                <p style="margin: 0;">
+                                    <a href="http://plataformagarden.com" target="_blank" style="color: #66BB7F;">
+                                        Estamos para servirte, contactanos.
+                                    </a>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->
+                </td>
+            </tr>
+            <!-- FOOTER -->
+            <tr>
+                <td bgcolor="#f4f4f4" align="center" style="padding: 0px 10px 0px 10px;">
+                    <!--[if (gte mso 9)|(IE)]>
+                    <table align="center" border="0" cellspacing="0" cellpadding="0" width="600">
+                    <tr>
+                    <td align="center" valign="top" width="600">
+                    <![endif]-->
+                    <table border="0" cellpadding="0" cellspacing="0" width="100%"  >
+                        <!-- NAVIGATION -->
+                        <!--tr>
+                            <td bgcolor="#f4f4f4" align="left" style="padding: 30px 30px 30px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 18px;" >
+                                <p style="margin: 0;">
+                                    <a href="http://litmus.com" target="_blank" style="color: #111111; font-weight: 700;">Dashboard</a> -
+                                    <a href="http://litmus.com" target="_blank" style="color: #111111; font-weight: 700;">Billing</a> -
+                                    <a href="http://litmus.com" target="_blank" style="color: #111111; font-weight: 700;">Help</a>
+                                </p>
+                            </td>
+                        </tr>-->
+                        <!-- PERMISSION REMINDER -->
+                        <tr>
+                            <td bgcolor="#f4f4f4" align="left" style="padding: 34px 30px 30px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 18px;" >
+                                <p style="margin: 0;">
+                                    Recibió este correo electrónico porque la llevo acabo en www.plataformagarden.com. Si esta accion le es ajena, contactenos.
+                                    <a href="http://plataformagarden.com" target="_blank" style="color: #111111; font-weight: 700;">
+                                        Plataforma Garden
+                                    </a>.
+                                </p>
+                            </td>
+                        </tr>
+                        <!-- UNSUBSCRIBE -->
+                        <!--<tr>
+                            <td bgcolor="#f4f4f4" align="left" style="padding: 0px 30px 30px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 18px;" >
+                                <p style="margin: 0;">If these emails get annoying, please feel free to <a href="http://litmus.com" target="_blank" style="color: #111111; font-weight: 700;">unsubscribe</a>.</p>
+                            </td>
+                        </tr>-->
+                        <!-- ADDRESS -->
+                        <!--<tr>
+                            <td bgcolor="#f4f4f4" align="left" style="padding: 0px 30px 30px 30px; color: #666666; font-family: 'Lato', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 400; line-height: 18px;" >
+                                <p style="margin: 0;">Ceej - 1234 Main Street - Anywhere, MA - 56789</p>
+                            </td>
+                        </tr>-->
+                    </table>
+                    <!--[if (gte mso 9)|(IE)]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->
+                </td>
+            </tr>
+        </table>
+
+    </body>
+</html>
+
+
+

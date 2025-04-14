@@ -1,0 +1,65 @@
+Return-Path: <agnescardella41@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id kBaRLHOZcWSSHAAAtf5whQ
+	(envelope-from <agnescardella41@gmail.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Sat, 27 May 2023 05:47:31 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	h=message-id:reply-to:date:from:to:subject:content-description:	 
+ =?utf-8?q?content-transfer-encoding=3Amime-version=3Acontent-type=3Ax-halon?=
+ =?utf-8?q?e-refid=3Ax-halone-sa=3A?=	 from:x-halone-sa:x-halone-refid;
+	bh=T3J1rLiTWEErz1g3xt3uxBfedlam3W5MsUYrtVpD8YA=;	=?utf-8?q?b=3DIbWSxIng112h?=
+ =?utf-8?q?ggwsYc6HYgTXkVNt9Dhm9uME2/PWV9cVvQzZwLii4/LFrPcgg5esdDuu5VFfhbuI/?=
+	 =?utf-8?q?Bi5yIPMWIW4CeqNdNVUXRfuORdlgVNEOEmkvdwp2IFS2Rzi5mLOwcrkfUOfDhD4c?=
+ =?utf-8?q?pbfCe8ZuYprACc=09_o/nEAXttS66+jfqVu6bUY/6zMbU5f+GZYJw2pBEgpg5yc+K?=
+ =?utf-8?q?GJ5wQ59WCQq8z9bZcPjEibm0seWecFT=09_tFbMT29qngHY1s/zkWuI+UJauXSrZp?=
+ =?utf-8?q?yLAuYOdcLs7PjK2liVEfKjTeig+GQLZhEZ60vWKtPy+GbwZX?=	
+ gqIVk4Xio2FHZMgbQ83ILDrxpUAYhrw==
+X-HalOne-SA: 15.9
+X-HalOne-RefID: 155866::1685166451-326565FD-27C2C717/3/7695469255
+X-HalOne-ID: f70ef8c8-fc51-11ed-8d37-e0d848974e01
+Received: from mail.urcdiagnosticos.com.br (mail.urcdiagnosticos.com.br
+ [177.54.56.194])	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ f70ef8c8-fc51-11ed-8d37-e0d848974e01;	Sat, 27 May 2023 05:47:30 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.urcdiagnosticos.com.br (Postfix) with ESMTP id D8EDC46BB38;
+	Sat, 27 May 2023 02:13:33 -0300 (-03)
+Received: from mail.urcdiagnosticos.com.br ([127.0.0.1])	by localhost
+ (mail.urcdiagnosticos.com.br [127.0.0.1]) (amavisd-new, port 10032)	with
+ ESMTP id pd4bD86LcKcq; Sat, 27 May 2023 02:13:33 -0300 (-03)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.urcdiagnosticos.com.br (Postfix) with ESMTP id A449D46BB3B;
+	Sat, 27 May 2023 02:13:33 -0300 (-03)
+X-Virus-Scanned: amavisd-new at urcdiagnosticos.com.br
+Received: from mail.urcdiagnosticos.com.br ([127.0.0.1])	by localhost
+ (mail.urcdiagnosticos.com.br [127.0.0.1]) (amavisd-new, port 10026)	with
+ ESMTP id ah5BJWpCcGIT; Sat, 27 May 2023 02:13:33 -0300 (-03)
+Received: from [0.4.188.31] (unknown [103.161.96.78])
+	by mail.urcdiagnosticos.com.br (Postfix) with ESMTPA id E42FF46BB37;
+	Sat, 27 May 2023 02:13:25 -0300 (-03)
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: Proposal
+To: Recipients <agnescardella41@gmail.com>
+From: "Agnes Cardella" <agnescardella41@gmail.com>
+Date: Sat, 27 May 2023 12:13:18 +0700
+Reply-To: agnescardella777@gmail.com
+Message-Id: <20230527051325.E42FF46BB37@mail.urcdiagnosticos.com.br>
+
+Dear=20Sir/Madam,
+
+=20=20=20=20How=20are=20you=20doing?=20If=20you=20have=20a=20minute=20I=20w=
+ould=20like=20to=20discuss=20a=20vital=20proposal=20with=20you=20for=20your=
+=20kind=20consideration.
+
+Please=20contact=20me=20back=20at=20your=20earliest=20convenience.
+
+Thank=20you=20and=20please=20stay=20safe.
+
+Best=20Regards,
+
+Agnes=20Cardella.

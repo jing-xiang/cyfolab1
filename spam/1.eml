@@ -1,0 +1,872 @@
+Return-Path: <suailer@netvision.net.il>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id EBHxEID3t2QbWwAAtf5whQ
+	(envelope-from <suailer@netvision.net.il>)
+	for <johannes.olegard@cyfoexample.one.com>; Wed, 19 Jul 2023 14:47:28 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=date:message-id:subject:to:from:content-type:content-transfer-encoding:	
+ mime-version:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=nWi29rjKxvedTeiXYfWB/758IHueaqEB+WmnZS5WfCQ=;	=?utf-8?q?b=3DPTkO4MFmXk2z?=
+ =?utf-8?q?44MFFyRjTErvVBioqQEkJTb6sF+Cr7xtVaAVAtt4F6cwkpGKaf8A8cPg3rcMpDVSf?=
+	 =?utf-8?q?lA4S9XXEbgyPD3pQ3m0cgWb+ix78fL7VOAtSqsffkVcWq6ifSf7RyV7iHfiy37+W?=
+ =?utf-8?q?jNRVqk293aJWWy=09_wRH4tFUvR3WW+GPcMXoh1KJjLM9sAsk4ZNWLWBoM9ndhCip?=
+ =?utf-8?q?v4Dbtw5BAhgdSP8WYOpxciAT0mttBdP=09_L0uDmDesY+BhqnGoZgSe79ML0Z7Dhw?=
+ =?utf-8?q?oTw1dJ1DtWKLjFUQxQyz0PmBD/V+eJaNzUaguxsm57DMt41K?=	
+ i+76+uznkUZQaB5VYPuKxccnzHsQLfg==
+X-HalOne-SA: 6.8
+X-HalOne-RefID: 155866::1689778047-3E0948D8-BC3FF713/10/24287416021
+Authentication-Results: mx3.pub.mailpod3-cph3.one.com;
+	spf=pass smtp.mailfrom=netvision.net.il smtp.remote-ip=194.90.9.27;
+	dmarc=none header.from=netvision.net.il;
+X-HalOne-ID: 2d8c900c-2643-11ee-8d42-e0d848974e01
+Received: from mxout4.netvision.net.il (mxout4.netvision.net.il [194.90.9.27])
+	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTP
+	id 2d8c900c-2643-11ee-8d42-e0d848974e01;
+	Wed, 19 Jul 2023 14:47:27 +0000 (UTC)
+MIME-version: 1.0
+Content-transfer-encoding: 7BIT
+Content-type: text/html; CHARSET=US-ASCII
+Received: from mx-mail.outlook.com ([84.65.28.99]) by mxout4.netvision.net.il
+ (Oracle Communications Messaging Server 8.0.2.1.20180104 64bit (built Jan  4
+ 2018)) with ESMTPA id <0RY100OJ8T2VHP70@mxout4.netvision.net.il> for
+ johannes.olegard@cyfoexample.one.com; Wed, 19 Jul 2023 17:47:25 +0300 (IDT)
+From: MetaMask <suailer@netvision.net.il>
+To: johannes.olegard@cyfoexample.one.com
+Subject: CMC Airdrops 07/2023
+Message-id: <C90037AE.75146F41370B3442@netvision.net.il>
+X-Priority: 3
+Importance: Normal
+Date: Wed, 19 Jul 2023 07:47:25 -0700
+X-Mailer: Infraware POLARIS Mobile Mailer v2.5
+
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:v="urn:schemas-microsoft-com:vml">
+<head>
+	<title></title>
+	<!--[if !mso]><!-- -->
+	<meta content="IE=edge" http-equiv="X-UA-Compatible" /><!--<![endif]-->
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+	<meta content="width=device-width,initial-scale=1" name="viewport" />
+	<style type="text/css">#outlook a { padding:0; }
+          body { margin:0;padding:0;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%; }
+          table, td { border-collapse:collapse;mso-table-lspace:0pt;mso-table-rspace:0pt; }
+          img { border:0;height:auto;line-height:100%; outline:none;text-decoration:none;-ms-interpolation-mode:bicubic; }
+          p { display:block;margin:13px 0; }
+	</style>
+	<!--[if mso]>
+        <xml>
+        <o:OfficeDocumentSettings>
+          <o:AllowPNG/>
+          <o:PixelsPerInch>96</o:PixelsPerInch>
+        </o:OfficeDocumentSettings>
+        </xml>
+        <![endif]--><!--[if lte mso 11]>
+        <style type="text/css">
+          .mj-outlook-group-fix { width:100% !important; }
+        </style>
+        <![endif]--><!--[if !mso]><!-->
+	<link href="https://assets.revolut.com/email/fonts/basiercircle.css?v=0c4462d534951964f2912648593d9d6cdefeac2c" rel="stylesheet" type="text/css" />
+	<style type="text/css">@import url(https://assets.revolut.com/email/fonts/basiercircle.css?v=0c4462d534951964f2912648593d9d6cdefeac2c);
+	</style>
+	<!--<![endif]-->
+	<style type="text/css">@media only screen and (min-width:512px) {
+        .mj-column-per-100 { width:100% !important; max-width: 100%; }
+.mj-column-per-50 { width:50% !important; max-width: 50%; }
+      }
+	</style>
+	<style type="text/css">.rev-business-header-ufTxqHwf9c {
+      padding: 40px 24px 16px;
+    }
+    .rev-business-header-companyNameColumn-WWzCqVOnFB {
+      float: right;
+    }
+
+    @media only screen and (min-width:512px)
+      and (min-device-width:801px) {
+        .rev-business-header-ufTxqHwf9c {
+          padding: 48px 80px;
+        }
+      }
+  
+
+     @media only screen and (min-width:512px) and (min-device-width:801px) {
+      .rev-title-ehdz1WHANv div {
+        font-size: 48px !important; 
+        padding: 0 56px !important; 
+        line-height: 117% !important;
+      }
+    }
+  
+
+    @media only screen and (min-width:512px) and (min-device-width:801px) {
+      .rev-text-H_3UYleLiLX {
+        padding: 8px 80px !important;
+      }
+    }
+  
+
+      @media only screen and (min-width:512px)
+        and (min-device-width:801px) {
+          .rev-button-lDC7FTxrh5D {
+            padding: 0 56px !important;
+          }
+      }
+
+      
+    
+
+    @media only screen and (min-width:512px)
+      and (min-device-width:801px) {
+      .rev-image-WgfZEaNgKfy {
+        padding: 0 0 !important;
+      }
+    }
+  
+
+    @media only screen and (min-width:512px) and (min-device-width:801px) {
+      .rev-text-qUj58JL23D- {
+        padding: 8px 80px !important;
+      }
+    }
+  
+
+    @media only screen and (min-width:512px)
+      and (min-device-width:801px) {
+      .rev-image-LxmYQoaMrnx {
+        padding: 0 0 !important;
+      }
+    }
+  
+
+    @media only screen and (min-width:512px) and (min-device-width:801px) {
+      .rev-text-vmcZmztC24e {
+        padding: 8px 80px !important;
+      }
+    }
+  
+
+    @media only screen and (min-width:512px)
+      and (min-device-width:801px) {
+      .rev-image-6FVTixkz2Yi {
+        padding: 0 0 !important;
+      }
+    }
+  
+
+    @media only screen and (min-width:512px) and (min-device-width:801px) {
+      .rev-text-WoWK0JwFyia {
+        padding: 8px 80px !important;
+      }
+    }
+  
+
+    @media only screen and (min-width:512px)
+      and (min-device-width:801px) {
+      .rev-image-WTIkTUSt54S {
+        padding: 0 0 !important;
+      }
+    }
+  
+
+    @media only screen and (min-width:512px) and (min-device-width:801px) {
+      .rev-text-3gBrrDvAw1n {
+        padding: 8px 80px !important;
+      }
+    }
+  
+
+      @media only screen and (min-width:512px)
+        and (min-device-width:801px) {
+          .rev-button-xXDJuGfZ4hz {
+            padding: 0 56px !important;
+          }
+      }
+
+      
+    
+
+    @media only screen and (min-width:512px) and (min-device-width:801px) {
+      .rev-text-y3JoAIQGrg0 {
+        padding: 8px 80px !important;
+      }
+    }
+  
+
+    .rev-footer-unsubscribe-q2lah3Faqs0 a {
+      color: #8B959E !important;
+      text-decoration: underline !important;
+    }
+
+    @media only screen and (min-width:512px)
+      and (min-device-width:801px) {
+      .rev-footer-unsubscribe-q2lah3Faqs0 div {
+        text-align: right !important;
+      }
+    }
+  
+        
+
+    @media only screen and (max-width:512px) {
+      table.mj-full-width-mobile { width: 100% !important; }
+      td.mj-full-width-mobile { width: auto !important; }
+    }
+	</style>
+	<style type="text/css">@media only screen and (min-width:512px)
+            and (min-device-width:801px) {
+              h1 {
+                font-size: 40px !important;
+              }
+          
+              h2 {
+                font-size: 34px !important;
+              }
+          
+              h3 {
+                font-size: 24px !important;
+              }
+          
+              h4 {
+                font-size: 24px !important;
+              }
+          
+              h5 {
+                font-size: 24px !important;
+              }
+
+              blockquote {
+                padding: 32px 48px !important;
+              }
+            }
+          }
+	</style>
+</head>
+<body>
+<div style="color:transparent;visibility:hidden;opacity:0;font-size:0px;border:0;max-height:1px;width:1px;margin:0px;padding:0px;border-width:0px!important;display:none!important;line-height:0px!important;"><img alt="" border="0" height="1" src="https://click.revolut.com/q/0pzzVofGIV08B6IZIhngHw~~/AAD4-wA~/RgRlRkNaPVcDc3BjQgpjT1u-Y2Mt1is0UhZib2dkYW5AYm1iY2hhbm5lbHMuY29tWAQAAAAA" width="1" /></div>
+
+<div>
+<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#ffffff;background-color:#ffffff;width:100%;">
+	<tbody>
+		<tr>
+			<td><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+			<div style="margin:0px auto;max-width:700px;">
+			<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+				<tbody>
+					<tr>
+						<td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" width="700px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="rev-business-header-ufTxqHwf9c-outlook" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+						<div class="rev-business-header-ufTxqHwf9c" style="margin:0px auto;max-width:700px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+							<tbody>
+								<tr>
+									<td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="width:700px;" ><![endif]-->
+									<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0;line-height:0;text-align:left;display:inline-block;width:100%;direction:ltr;"><!--[if mso | IE]><table border="0" cellpadding="0" cellspacing="0" role="presentation" ><tr><td style="vertical-align:top;width:350px;" ><![endif]-->
+									<div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+										<tbody>
+											<tr>
+												<td align="left" style="font-size:0px;padding:0;word-break:break-word;">
+												<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+													<tbody>
+														<tr>
+															<td style="width:150px;"><a href="https://click.revolut.com/f/a/GsHQea4FPLycRgYoS_3Y1Q~~/AAD4-wA~/RgRlRkNaP0QgaHR0cHM6Ly93d3cucmV2b2x1dC5jb20vYnVzaW5lc3NXA3NwY0IKY09bvmNjLdYrNFIWYm9nZGFuQGJtYmNoYW5uZWxzLmNvbVgEAAAAAA~~" style="color: #0666EB; text-decoration: none;" target="_blank"><img alt="Metamask" src="https://1000logos.net/wp-content/uploads/2022/05/MetaMask-Logo-500x281.png" style="border: 0px none; display: block; outline: none; text-decoration: none; width: 500px; font-size: 13px; height: 281px;" /></a></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso | IE]></td><td style="vertical-align:top;width:350px;" ><![endif]-->
+
+									<div class="mj-column-per-50 mj-outlook-group-fix rev-business-header-companyNameColumn-WWzCqVOnFB" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:50%;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+										<tbody>
+											<tr>
+												<td align="right" style="font-size:0px;padding:0;word-break:break-word;">
+												<div style="font-family:Basier Circle, Helvetica Neue, Arial, sans-serif;font-size:12px;font-style:normal;font-weight:400;line-height:20px;text-align:right;color:#8B959E;">Metamask/CMC</div>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso | IE]></td></tr></table><![endif]--></div>
+									<!--[if mso | IE]></td></tr></table><![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if mso | IE]></td></tr></table></td></tr><tr><td align="center" class="" width="700px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+						<div style="background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:700px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#FFFFFF;background-color:#FFFFFF;width:100%;">
+							<tbody>
+								<tr>
+									<td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:700px;" ><![endif]-->
+									<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top;padding:0;">
+												<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+													<tbody>
+														<tr>
+															<td align="center" class="rev-title-ehdz1WHANv" style="font-size:0px;padding:16px 24px;word-break:break-word;">
+															<div style="font-family:Basier Circle, Helvetica Neue, Arial, sans-serif;font-size:34px;font-style:normal;font-weight:bold;letter-spacing:-0.2px;line-height:119%;text-align:center;color:#1A1C1F;">Don&#39;t miss out on new crypto opportunities</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso | IE]></td></tr></table><![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if mso | IE]></td></tr></table></td></tr><tr><td align="center" class="" width="700px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+						<div style="background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:700px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#FFFFFF;background-color:#FFFFFF;width:100%;">
+							<tbody>
+								<tr>
+									<td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:700px;" ><![endif]-->
+									<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top;padding:0;">
+												<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+													<tbody>
+														<tr>
+															<td align="center" class="rev-text-H_3UYleLiLX" style="font-size:0px;padding:8px 24px;word-break:break-word;">
+															<div style="font-family:Basier Circle, Helvetica Neue, Arial, sans-serif;font-size:22px;font-style:normal;font-weight:normal;line-height:167%;text-align:center;color:#1A1C1F;">
+															<p style="margin: 16px 0;">Five altcoins join CoinMarketCap Airdrop list, perfect for broadening your crypto portfolio</p>
+															</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso | IE]></td></tr></table><![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if mso | IE]></td></tr></table></td></tr><tr><td align="center" class="" width="700px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="rev-button-lDC7FTxrh5D-outlook" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+						<div class="rev-button-lDC7FTxrh5D" style="background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:700px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#FFFFFF;background-color:#FFFFFF;width:100%;">
+							<tbody>
+								<tr>
+									<td style="direction:ltr;font-size:0px;padding:0 24px;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:652px;" ><![endif]-->
+									<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top;padding:0;">
+												<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+													<tbody>
+														<tr>
+															<td align="center" style="font-size:0px;padding:0;padding-top:24px;padding-right:0;padding-bottom:24px;padding-left:0;word-break:break-word;">
+															<table border="0" cellpadding="0" cellspacing="0" style="color:#000000;font-family:Basier Circle, Helvetica Neue, Arial, sans-serif;font-size:13px;line-height:22px;table-layout:auto;width:auto;border:0;" width="NaN">
+																<tbody>
+																	<tr>
+																		<td align="center" bgcolor="#0666EB" role="presentation" style="border-radius:18px;font-style:normal;text-align:center;border:none;cursor:auto;height:56px;" valign="middle"><a href="https://uniquewriterslifeinsurance.com/pke8h" style="font-size: 18px; font-style: normal; font-weight: 500; vertical-align: middle; background: none; color: #FFFFFF; display: table-cell; margin: 0; padding: 16px 24px; text-decoration: none;" target="_blank"><!--[if mso]>&nbsp;&nbsp;&nbsp;<![endif]-->Explore new airdrops<!--[if mso]>&nbsp;&nbsp;&nbsp;<![endif]--></a></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso | IE]></td></tr></table><![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="700px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+						<div style="margin:0px auto;max-width:700px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+							<tbody>
+								<tr>
+									<td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:700px;" ><![endif]-->
+									<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top;padding:0;">
+												<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+													<tbody>
+														<tr>
+															<td align="center" class="rev-image-WgfZEaNgKfy" style="font-size:0px;padding:0 0;word-break:break-word;">
+															<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+																<tbody>
+																	<tr>
+																		<td style="width:700px;"><img height="auto" src="https://assets.revolut.com/published-assets/32175823-c508-40c8-9e11-89c69b7c2bd2/0aa9311d-86f8-4c24-b5b7-2aa457939685/0/d3d94474-13a4-4bb3-855a-b58eb9d6c67c.gif" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="700" /></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso | IE]></td></tr></table><![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if mso | IE]></td></tr></table></td></tr><tr><td align="left" class="" width="700px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+						<div style="background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:700px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#FFFFFF;background-color:#FFFFFF;width:100%;">
+							<tbody>
+								<tr>
+									<td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:700px;" ><![endif]-->
+									<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top;padding:0;">
+												<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+													<tbody>
+														<tr>
+															<td align="left" class="rev-text-qUj58JL23D-" style="font-size:0px;padding:8px 24px;word-break:break-word;">
+															<div style="font-family:Basier Circle, Helvetica Neue, Arial, sans-serif;font-size:18px;font-style:normal;font-weight:normal;line-height:167%;text-align:left;color:#1A1C1F;">
+															<p style="margin: 16px 0;"><strong>CoinMarketCap <span><span data-dobid="hdw">announcement</span></span>:</strong></p>
+
+															<p style="margin: 16px 0;">Would you act fast on a new revenue stream, investment, or store of value if you had the chance?</p>
+
+															<p style="margin: 16px 0;">Today, we&rsquo;re letting you in on the ground floor. CoinMarketCap has launched an airdrop for 5 tokens&nbsp; &ndash; ideal for diversifying your assets and getting exposure to a range of cryptocurrencies.</p>
+
+															<p style="margin: 16px 0;">By the way, crypto&rsquo;s current <span class="ILfuVd" lang="en"><span class="hgKElc"><b>$1.25 Trillion</b></span></span> global market cap* isn&rsquo;t just made up of Bitcoin and Ethereum, but &lsquo;altcoins&rsquo;, too.</p>
+
+															<p style="margin: 16px 0;">So why wait? See what has got lined up!</p>
+															</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso | IE]></td></tr></table><![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="700px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+						<div style="margin:0px auto;max-width:700px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+							<tbody>
+								<tr>
+									<td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:700px;" ><![endif]-->
+									<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top;padding:0;">
+												<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+													<tbody>
+														<tr>
+															<td align="center" class="rev-image-LxmYQoaMrnx" style="font-size:0px;padding:0 0;word-break:break-word;">
+															<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+																<tbody>
+																	<tr>
+																		<td style="width:700px;"><img height="auto" src="https://assets.revolut.com/published-assets/32175823-c508-40c8-9e11-89c69b7c2bd2/d1774d42-784c-4c69-8697-d4512475c8f7/0/c6edba02-a74d-4a6a-80fc-4f51806b7ebf.png" style="border:0;display:block;outline:none;text-decoration:none;height:auto;width:100%;font-size:13px;" width="700" /></td>
+																	</tr>
+																</tbody>
+															</table>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso | IE]></td></tr></table><![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if mso | IE]></td></tr></table></td></tr><tr><td align="left" class="" width="700px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+						<div style="background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:700px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#FFFFFF;background-color:#FFFFFF;width:100%;">
+							<tbody>
+								<tr>
+									<td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:700px;" ><![endif]-->
+									<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top;padding:0;">
+												<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+													<tbody>
+														<tr>
+															<td align="left" class="rev-text-vmcZmztC24e" style="font-size:0px;padding:8px 24px;word-break:break-word;">
+															<div style="font-family:Basier Circle, Helvetica Neue, Arial, sans-serif;font-size:18px;font-style:normal;font-weight:normal;line-height:167%;text-align:left;color:#1A1C1F;">
+															<h3 style="font-weight: 700; line-height: 119%; margin: 0; padding: 0; font-size: 24px; padding-top: 16px;">Grow your crypto portfolio with 5 altcoins</h3>
+
+															<p style="margin: 16px 0;">Gain new digital assets, fast. Use our handy info to research, buy, hold, and sell 5 altcoins through your wallet(s): PEPE, DOGE, BNB, ETHEREUM, and Ripple (XRP).</p>
+
+															<p style="margin: 16px 0;">POLKADOT, SOLANA coming soon.</p>
+															</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso | IE]></td></tr></table><![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="700px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+						<div style="margin:0px auto;max-width:700px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+							<tbody>
+								<tr>
+									<td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:700px;" ><![endif]-->
+									<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top;padding:0;">
+												<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+													<tbody>
+														<tr>
+															<td align="center" class="rev-image-6FVTixkz2Yi" style="font-size:0px;padding:0 0;word-break:break-word;">&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso | IE]></td></tr></table><![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if mso | IE]></td></tr></table></td></tr><tr><td align="left" class="" width="700px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+						<div style="background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:700px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#FFFFFF;background-color:#FFFFFF;width:100%;">
+							<tbody>
+								<tr>
+									<td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:700px;" ><![endif]-->
+									<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top;padding:0;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso | IE]></td></tr></table><![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="700px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+						<div style="margin:0px auto;max-width:700px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+							<tbody>
+								<tr>
+									<td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:700px;" ><![endif]-->
+									<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top;padding:0;">&nbsp;</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso | IE]></td></tr></table><![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if mso | IE]></td></tr></table></td></tr><tr><td align="left" class="" width="700px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+						<div style="background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:700px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#FFFFFF;background-color:#FFFFFF;width:100%;">
+							<tbody>
+								<tr>
+									<td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:700px;" ><![endif]-->
+									<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top;padding:0;">
+												<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+													<tbody>
+														<tr>
+															<td align="left" class="rev-text-3gBrrDvAw1n" style="font-size:0px;padding:8px 24px;word-break:break-word;">
+															<div style="font-family:Basier Circle, Helvetica Neue, Arial, sans-serif;font-size:18px;font-style:normal;font-weight:normal;line-height:167%;text-align:left;color:#1A1C1F;">
+															<h3 style="font-weight: 700; line-height: 119%; margin: 0; padding: 0; font-size: 24px; padding-top: 16px;"><span style="font-size:22px;">Be the first to know about crypto news every day!</span></h3>
+															</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso | IE]></td></tr></table><![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if mso | IE]></td></tr></table></td></tr><tr><td align="center" class="" width="700px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="rev-button-xXDJuGfZ4hz-outlook" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+						<div class="rev-button-xXDJuGfZ4hz" style="background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:700px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#FFFFFF;background-color:#FFFFFF;width:100%;">
+							<tbody>
+								<tr>
+									<td style="direction:ltr;font-size:0px;padding:0 24px;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:652px;" ><![endif]-->
+									<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top;padding:0;">
+												<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+													<tbody>
+														<tr>
+															<td align="center" style="font-size:0px;padding:0;padding-top:24px;padding-right:0;padding-bottom:24px;padding-left:0;word-break:break-word;">&nbsp;</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso | IE]></td></tr></table><![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if mso | IE]></td></tr></table></td></tr><tr><td align="left" class="" width="700px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+						<div style="background:#FFFFFF;background-color:#FFFFFF;margin:0px auto;max-width:700px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="background:#FFFFFF;background-color:#FFFFFF;width:100%;">
+							<tbody>
+								<tr>
+									<td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:700px;" ><![endif]-->
+									<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top;padding:0;">
+												<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+													<tbody>
+														<tr>
+															<td align="left" class="rev-text-y3JoAIQGrg0" style="font-size:0px;padding:8px 24px;word-break:break-word;">
+															<div style="font-family:Basier Circle, Helvetica Neue, Arial, sans-serif;font-size:18px;font-style:normal;font-weight:normal;line-height:167%;text-align:left;color:#1A1C1F;">
+															<p style="margin: 16px 0;"><em>Not regulated or protected. Value can go down. Tax may be payable on gains.</em><br />
+															<br />
+															<em>*</em><a href="https://uniquewriterslifeinsurance.com/pke8h" style="color: #0666EB; text-decoration: none;"><em>CoinMarketCap</em></a></p>
+															</div>
+															</td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso | IE]></td></tr></table><![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if mso | IE]></td></tr></table></td></tr><tr><td class="" width="700px" ><table align="center" border="0" cellpadding="0" cellspacing="0" class="rev-footer-1dqc6Wmn7y0-outlook" style="width:700px;" width="700" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+
+						<div class="rev-footer-1dqc6Wmn7y0" style="margin:0px auto;max-width:700px;">
+						<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+							<tbody>
+								<tr>
+									<td style="direction:ltr;font-size:0px;padding:32px 24px 64px;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:652px;" ><![endif]-->
+									<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+									<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+										<tbody>
+											<tr>
+												<td style="vertical-align:top;padding:0;">
+												<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+													<tbody>
+														<tr>
+															<td style="font-size:0px;padding:0 0 48px;word-break:break-word;">
+															<p style="border-top: solid 1px #F3F4F5; font-size: 1px; margin: 0px auto; width: 100%;">&nbsp;</p>
+															<!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" style="border-top:solid 1px #F3F4F5;font-size:1px;margin:0px auto;width:652px;" role="presentation" width="652px" ><tr><td style="height:0;line-height:0;"> &nbsp;
+</td></tr></table><![endif]--></td>
+														</tr>
+														<tr>
+															<td style="font-size:0px;padding:0;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:652px;" width="652" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+															<div style="margin:0px auto;max-width:652px;">
+															<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+																<tbody>
+																	<tr>
+																		<td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:652px;" ><![endif]--><!--[if mso | IE]></td></tr></table><![endif]--></td>
+																	</tr>
+																</tbody>
+															</table>
+															</div>
+															<!--[if mso | IE]></td></tr></table><![endif]--></td>
+														</tr>
+														<tr>
+															<td style="font-size:0px;padding:0;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:652px;" width="652" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+															<div style="margin:0px auto;max-width:652px;">
+															<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+																<tbody>
+																	<tr>
+																		<td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:652px;" ><![endif]-->
+																		<div class="mj-column-per-100 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+																		<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+																			<tbody>
+																				<tr>
+																					<td style="vertical-align:top;padding:0;">
+																					<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+																						<tbody>
+																							<tr>
+																								<td align="left" style="font-size:0px;padding:16px 0;word-break:break-word;">
+																								<div style="font-family:Basier Circle, Helvetica Neue, Arial, sans-serif;font-size:14px;line-height:143%;text-align:left;color:#8B959E;">
+																								<p>&nbsp;</p>
+
+																								<p>Copyright &copy; 2023 Metamask.io, All rights reserved.&nbsp;</p>
+
+																								<p><span class="Footer__PolicyCopyLink-sc-rarfco-3 jrzEXq paragraph">@2023 MetaMask &bull; A Consensys Formation</span></p>
+																								</div>
+																								</td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</div>
+																		<!--[if mso | IE]></td></tr></table><![endif]--></td>
+																	</tr>
+																</tbody>
+															</table>
+															</div>
+															<!--[if mso | IE]></td></tr></table><![endif]--></td>
+														</tr>
+														<tr>
+															<td style="font-size:0px;padding:0;word-break:break-word;"><!--[if mso | IE]><table align="center" border="0" cellpadding="0" cellspacing="0" class="" style="width:652px;" width="652" ><tr><td style="line-height:0px;font-size:0px;mso-line-height-rule:exactly;"><![endif]-->
+															<div style="margin:0px auto;max-width:652px;">
+															<table align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="width:100%;">
+																<tbody>
+																	<tr>
+																		<td style="direction:ltr;font-size:0px;padding:0;text-align:center;"><!--[if mso | IE]><table role="presentation" border="0" cellpadding="0" cellspacing="0"><tr><td class="" style="vertical-align:top;width:326px;" ><![endif]-->
+																		<div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+																		<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="vertical-align:top;" width="100%">
+																			<tbody>
+																				<tr>
+																					<td align="left" style="font-size:0px;padding:0 0 32px;word-break:break-word;">
+																					<table border="0" cellpadding="0" cellspacing="0" role="presentation" style="border-collapse:collapse;border-spacing:0px;">
+																						<tbody>
+																							<tr>
+																								<td style="width:88px;"><a href="https://click.revolut.com/f/a/-I48N8ubrxYbblFrQWtnlA~~/AAD4-wA~/RgRlRkNaP0QcaHR0cHM6Ly9yZXZvbHV0LmNvbS9idXNpbmVzc1cDc3BjQgpjT1u-Y2Mt1is0UhZib2dkYW5AYm1iY2hhbm5lbHMuY29tWAQAAAAA" style="color: #0666EB; text-decoration: none;" target="_blank"><img alt="Metamask" src="https://seeklogo.com/images/M/metamask-logo-531AE40256-seeklogo.com.png" style="border: 0px none; display: block; outline: none; text-decoration: none; width: 300px; font-size: 13px; height: 55px;" /></a></td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</div>
+																		<!--[if mso | IE]></td><td class="" style="vertical-align:top;width:326px;" ><![endif]-->
+
+																		<div class="mj-column-per-50 mj-outlook-group-fix" style="font-size:0px;text-align:left;direction:ltr;display:inline-block;vertical-align:top;width:100%;">
+																		<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+																			<tbody>
+																				<tr>
+																					<td style="vertical-align:top;padding:0;">
+																					<table border="0" cellpadding="0" cellspacing="0" role="presentation" width="100%">
+																						<tbody>
+																							<tr>
+																								<td align="left" class="rev-footer-unsubscribe-q2lah3Faqs0" style="font-size:0px;padding:0;word-break:break-word;">
+																								<div style="font-family:Basier Circle, Helvetica Neue, Arial, sans-serif;font-size:14px;line-height:1;text-align:left;color:#8B959E;"><a href="https://link.coindesk.com/manage/unsubscribe?email" style="color: #8b959e; text-decoration: none;" title="unsubscribe">Unsubscribe </a></div>
+																								</td>
+																							</tr>
+																						</tbody>
+																					</table>
+																					</td>
+																				</tr>
+																			</tbody>
+																		</table>
+																		</div>
+																		<!--[if mso | IE]></td></tr></table><![endif]--></td>
+																	</tr>
+																</tbody>
+															</table>
+															</div>
+															<!--[if mso | IE]></td></tr></table><![endif]--></td>
+														</tr>
+													</tbody>
+												</table>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+									</div>
+									<!--[if mso | IE]></td></tr></table><![endif]--></td>
+								</tr>
+							</tbody>
+						</table>
+						</div>
+						<!--[if mso | IE]></td></tr></table></td></tr></table><![endif]--></td>
+					</tr>
+				</tbody>
+			</table>
+			</div>
+			<!--[if mso | IE]></td></tr></table><![endif]--></td>
+		</tr>
+	</tbody>
+</table>
+</div>
+
+<p><img alt="" border="0" height="1" src="https://click.revolut.com/q/MjWKn4EBqx3MZ6SVYHndsA~~/AAD4-wA~/RgRlRkNaPlcDc3BjQgpjT1u-Y2Mt1is0UhZib2dkYW5AYm1iY2hhbm5lbHMuY29tWAQAAAAA" width="1" /></p>
+</body>
+</html>

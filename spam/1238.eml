@@ -1,0 +1,49 @@
+Return-Path: <johannes.olegard@cyfoexample.one.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id 2CHTD90+OmRXdAAAtf5whQ
+	(envelope-from <johannes.olegard@cyfoexample.one.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Sat, 15 Apr 2023 06:06:21 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=message-id:content-transfer-encoding:content-type:subject:date:cc:to:from:
+	 mime-version:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=ZWdPJ9awhA/10vBLvlYCCV2lk5ci1KgOvAN6vFQjFqk=;	=?utf-8?q?b=3DV1f6c5bZuEko?=
+ =?utf-8?q?H1SekNCQrsDIhwwjFq+rwtAg+Iz7OuGQnHHH2mqULWWmHUkqmlUTTR1IxNPou+68w?=
+	 =?utf-8?q?GG3TvveYP3E1pGz9aDpzssWeEVryS6Pxt6LMxO4wSRk7TPvtg1tTKGVYfIsgq3Yw?=
+ =?utf-8?q?P0+rQQRR7fw5Hb=09_9gLVC+rKxxJKmuJDBtZ0hTyi6+mDXenCnbKl+5ghTGBanSb?=
+ =?utf-8?q?rvHe3UBXeF4dGF20rCEICoYKBkmAxpx=09_oiiqKAgJo9b/821efqS8p2ocdIIutg?=
+ =?utf-8?q?No2HwTKvGM0bUa72LaD8fmQ7HlNcGh822nI58HPia6VulWR+?=	
+ plCMlqC7kUbPgjtCkqFvRov128P9Aow==
+X-HalOne-SA: 3.2
+X-HalOne-RefID: 155866::1681538781-CB54F63A-CE4C6ADD/10/51802114541
+X-HalOne-ID: a4218e29-db53-11ed-b78e-e0d84894a001
+Received: from telegram.discountasp.net (telegram.discountasp.net
+ [89.187.101.80])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTP	id
+ a4218e29-db53-11ed-b78e-e0d84894a001;	Sat, 15 Apr 2023 06:06:20 +0000 (UTC)
+Received: from eWeb802.dotnetplayground.com (eWeb802.dotnetplayground.com
+ [192.168.80.110]) by telegram.discountasp.net with SMTP;   Fri, 14 Apr 2023
+ 23:06:00 -0700
+Received: from eWeb802 ([127.0.0.1]) by eWeb802.dotnetplayground.com with
+ Microsoft SMTPSVC(8.5.9600.16384);	 Sat, 15 Apr 2023 07:06:01 +0100
+MIME-Version: 1.0
+From: johannes.olegard@cyfoexample.one.com
+To: hello@mealiaconsulting.co.uk
+Cc: johannes.olegard@cyfoexample.one.com
+Date: 15 Apr 2023 07:06:01 +0100
+Subject: Enquiry from RobertWax
+Content-Type: text/html; charset=us-ascii
+Content-Transfer-Encoding: quoted-printable
+Return-Path: johannes.olegard@cyfoexample.one.com
+Message-ID: <EWEB802xYRmihVmBlzg0000074b@eWeb802.dotnetplayground.com>
+X-OriginalArrivalTime:
+ 15 Apr 2023 06:06:01.0561 (UTC) FILETIME=[5AD54490:01D96F60]
+X-Exim-Id: EWEB802xYRmihVmBlzg0000074b
+
+<p>Email=20From:=20RobertWax=20(johannes.olegard@cyfoexample.one.com)</p><p=
+>Message:</p><p>Elite=20SMM=20Services=20for=20Online=20Businesses=20https:=
+//smmeliteservice.leybakapalabo.tk/invite-5869</p>
+
+

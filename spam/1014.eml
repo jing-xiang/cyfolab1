@@ -1,0 +1,69 @@
+Return-Path: <davidov.i@viteka.ru>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id iHdNId6sUmRDOQAAtf5whQ
+	(envelope-from <davidov.i@viteka.ru>)
+	for <johannes.olegard@cyfoexample.one.com>; Wed, 03 May 2023 18:50:06 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	=?utf-8?q?h=3Dcontent-type=3Asubject=3Amessage-id=3Areply-to=3A?=
+ =?utf-8?q?from=3Adate=3Ax-halone-refid=3Ax-halone-sa=3A?=	
+ from:x-halone-sa:x-halone-refid;
+	bh=iMUAUDI2VuA9s8vZO8PlpQv0M75ZAb/SjD1VKQCwNQs=;	=?utf-8?q?b=3DnN2IoOHrnKnZ?=
+ =?utf-8?q?ePpVEcol8gs0TaycwiBW72OQCUNsNErscu15ID0hWyn4jeDCPj7hB9FUPgqEn8dlZ?=
+	 =?utf-8?q?+5P7ri4+A864c6UeOtMB4aPyISGYY4K6La8fNgUI2SHm2+lHk55rUrMJcmMFJsAN?=
+ =?utf-8?q?e2HnnW4SOFa6Ke=09_8U+7BDZ0RWgmsfgamp/FOL/sMF09+/yTTryS9Sal/gGN9pk?=
+ =?utf-8?q?eRj+MlcuUrw7/fm1Moy0pTlHqv75Yg9=09_8I4QFqh4p/VGH4rmahhm40HFAU8tlk?=
+ =?utf-8?q?e7mFvqg+guU/8fObtrY9PXx7O1XJ0SsHrq2T47Gdj19MWcIg?=	
+ fdhppEReEZlE4od6+k8iCZrKE3ZXXSw==
+X-HalOne-SA: 12.7
+X-HalOne-RefID: 155866::1683139805-D9BDC533-BF0FD595/10/52308900795
+X-HalOne-ID: 5102791c-e9e3-11ed-a299-e0d848974e01
+Received: from mail.viteka.ru (mail.viteka.ru [91.201.74.232])
+	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 5102791c-e9e3-11ed-a299-e0d848974e01;
+	Wed, 03 May 2023 18:50:05 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.viteka.ru (Postfix) with ESMTP id 3F62010428D;
+	Thu,  4 May 2023 01:45:20 +0700 (+07)
+Received: from mail.viteka.ru ([127.0.0.1])
+	by localhost (mail.viteka.ru [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id XYpm_DB7Mc1I; Thu,  4 May 2023 01:45:20 +0700 (+07)
+X-Virus-Scanned: amavisd-new at mail.viteka.ru
+DKIM-Filter: OpenDKIM Filter v2.10.3 mail.viteka.ru DC113103ED5
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=viteka.ru;
+	s=6A3E2B3A-C8B7-11ED-9633-C5390B228D39; t=1683139518;
+	bh=iMUAUDI2VuA9s8vZO8PlpQv0M75ZAb/SjD1VKQCwNQs=;
+	h=Date:From:Message-Id;
+	b=dCbjyrQA95l8jVLwKrJ7QK83wRetWsZSf4Bw5HWqdeZ8T/ByyuAMLhaUP0kn2nICl
+	 GbAGs66rTEz5MfJ5SWt/V4divdJj+rbRUqpOCcpWZ/Ut0SRhFvl2uRqmtAkNvN997e
+	 IbYpIF1Q4HxTq/yUElLyuFYSzKWTLPuICmfBzoBgAyHz+etSfg8JcdWVcGVOM4+0B1
+	 oOc174QhEoiiRBUGtrkqP0f+wzDG4XPIcG1hEcHyGWoyLHHISr079eGuWJRqWtk2+d
+	 roATQfpKlwg/i5k1TOyvFEe7F8jhXWloyYmjVO0VCl+v5dxiyGbm48pg+C18Fedvw1
+	 J3m9W9ijGA2aw==
+Date: Thu, 4 May 2023 01:45:14 +0700 (KRAT)
+From: Leadingin <davidov.i@viteka.ru>
+Reply-To: Leadingin <leadngdepart@gmail.com>
+Message-Id: <62845393.532435.1683139514624@viteka.ru>
+Subject: FYI
+Content-Type: multipart/alternative; 
+	boundary="=_50b45c63-d151-4814-b093-04e178d294d5"
+Thread-Index: XvxjNb06O1/lFY9AoXsqh2A6sAm6sw==
+Thread-Topic: FYI
+
+--=_50b45c63-d151-4814-b093-04e178d294d5
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+Do you need easy qualifying Business or personal loans? @3% all applications are approved within 48 Hours. To apply, get in touch with us via E mail: leadngdepart@gmail.com 
+Leadingin. 
+
+
+
+--=_50b45c63-d151-4814-b093-04e178d294d5
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><body><div style="font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #000000"><div> <!--StartFragment--><div><div><div><div><div><div style="font-family: 'arial', 'helvetica', sans-serif; font-size: 12pt; color: #000000;" data-mce-style="font-family: 'arial', 'helvetica', sans-serif; font-size: 12pt; color: #000000;"><div>Do you need easy qualifying Business or personal loans? @3% all&nbsp; applications are approved within 48 Hours. To apply, get in touch with us via E mail:<span class="Object" role="link" id="OBJ_PREFIX_DWT62890_ZmEmailObjectHandler">leadngdepart@gmail.com</span><br>Leadingin.</div><div><br></div><div><br></div></div></div></div></div></div></div><!--EndFragment--> </div></div></body></html>
+--=_50b45c63-d151-4814-b093-04e178d294d5--

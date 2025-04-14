@@ -1,0 +1,62 @@
+Return-Path: <ack@telefonica.net>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id KBKGOkm/b2AtXQAAtf5whQ
+	(envelope-from <ack@telefonica.net>)
+	for <johannes.olegard@cyfoexample.one.com>; Fri, 09 Apr 2021 02:43:21 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	=?utf-8?q?h=3Dmessage-id=3Acontent-transfer-encoding=3Acontent-?=
+ =?utf-8?q?type=3Amime-version=3Adate=3Asubject=3A?=	
+ to:from:reply-to:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=2VhxHfpOb7EvZ+/fFyPcez9BEMpOPtqvCXKw/zlqqU0=;	=?utf-8?q?b=3DSwUgqkvN6gLq?=
+ =?utf-8?q?VxfJRttJLyyw+CGVNf/+umAoyKr4OZkDS98B1+dXiqybAkyXQtJC5WiSvYmST0MPP?=
+	 =?utf-8?q?E7uHEMuP2QZ2LFB/rzgJ4Kyascd7Ai82CY8foQesJv/qBvckTs4GND4mY5IU3VXK?=
+ =?utf-8?q?KRolbXrJtwBnFx=09_8TvaFfJKgmzl85QpUHJfqkbBaykgByOAiU7aPLW4xChve7/?=
+ =?utf-8?q?AQ8wsmDd6cuFEzk91VQnbUjh+8lgqcs=09_r8oRr5z+lIn77eRPEXZpw4DMEOQe59?=
+ =?utf-8?q?6Mt6qyXMnMmHTu3z1w8X31YvHzobqr3Ac0l7xkm3dskkj5ma?=	
+ IooqnWuyju+p/FUFrBgo1h2rizIZoKQ==
+X-HalOne-SA: 17.9
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F15=2E606F8281=2E000D=2Css=3D4?=
+ =?utf-8?b?LHNoLHJlPTEuMTgwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZn?=
+ =?utf-8?q?s=3D8?=
+X-HalOne-ID: 57e0d501-98dd-11eb-9849-e0d848974e01
+Received: from ctdna.tcmbio.com (61-216-0-205.hinet-ip.hinet.net
+ [61.216.0.205])	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 57e0d501-98dd-11eb-9849-e0d848974e01;	Fri, 09 Apr 2021 02:43:21 +0000 (UTC)
+Received: from User (unknown [102.252.68.97])
+	by ctdna.tcmbio.com (Postfix) with ESMTPA id EA3FEF5645;
+	Tue,  6 Apr 2021 05:18:53 +0000 (UTC)
+Reply-To: <claimfirm@gmail.com>
+From: "TESCO"<ack@telefonica.net>
+To: ack@telefonica.net
+Subject: PERUSAL
+Date: Tue, 6 Apr 2021 07:19:53 +0200
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="utf-8"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20210406051922.C6C6AF5640@ctdna.tcmbio.com>
+
+<HTML><HEAD><TITLE></TITLE>
+</HEAD>
+<BODY bgcolor=#FFFFFF leftmargin=5 topmargin=5 rightmargin=5 bottommargin=5>
+<FONT size=2 color=#000000 face="Arial">
+<DIV>
+<FONT size=3 face="Cambria">Hi,</FONT></DIV>
+<DIV>
+<FONT size=3 face="Cambria">&nbsp;</FONT></DIV>
+<DIV>
+<FONT size=3 face="Cambria">Notice served for an unclaimed inheritance funds allocated on your surname Email: claimfirm@gmail.com for futher discussion on claim.</FONT></DIV>
+<DIV>
+<FONT size=3 face="Cambria">&nbsp;</FONT></DIV>
+<DIV>
+<FONT size=3 face="Cambria">Best Regards,</FONT></DIV>
+<DIV>
+<FONT size=3 face="Cambria">TESCO</FONT></DIV>
+</FONT>
+</BODY></HTML>

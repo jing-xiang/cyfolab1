@@ -1,0 +1,206 @@
+Return-Path: <info@join.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id OF9AFOO+u1ubUAAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Mon, 08 Oct 2018 20:32:35 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 499889b4-cb39-11e8-b597-ec0d9a6ed98e
+Received: from EUR02-HE1-obe.outbound.protection.outlook.com (unknown
+ [52.101.132.31])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 499889b4-cb39-11e8-b597-ec0d9a6ed98e;	Mon, 08 Oct 2018 20:32:34 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=nokia.onmicrosoft.com;
+ s=selector2-nokia-onmicrosoft-com; =?utf-8?q?h=3DFrom=3ADate=3ASubject=3AMe?=
+ =?utf-8?q?ssage-ID=3AContent-Type=3AMIME-Version=3AX-MS-Exchange-SenderADCh?=
+ =?utf-8?q?eck=3B_bh=3DOfnhifWdMCvpz0pneG70Y5FtVB1WDq5ql2TsstCOWe8=3D=3B_b?=
+ =?utf-8?q?=3DSCGVnSFjP+Lpo6gZXtaFZyq5TzEGXd8eL27ttI4NMdK5DP5fEK8+WOKkx0ke3o?=
+ =?utf-8?q?h7LjdNwEVhmNegxLF4AGm7jF/DcFCgkloonpmHd494FfoiJ16zRb779ht2JQL7JnM?=
+ =?utf-8?q?hOj/vViswSHEqcFH5Xc9xQ/8XMe/KXhvFkDfSqj7OIJo=3D?=
+Received: from VI1PR07CA0187.eurprd07.prod.outlook.com (2603:10a6:802:3f::11)
+ by VI1PR0701MB2110.eurprd07.prod.outlook.com (2603:10a6:800:2f::25) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.1228.10; Mon, 8 Oct
+ 2018 20:32:31 +0000
+Received: from DB5EUR03FT055.eop-EUR03.prod.protection.outlook.com
+ (2a01:111:f400:7e0a::207) by VI1PR07CA0187.outlook.office365.com
+ (2603:10a6:802:3f::11) with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384) id 15.20.1228.8 via Frontend
+ Transport; Mon, 8 Oct 2018 20:32:31 +0000
+Authentication-Results: spf=neutral (sender IP is 131.228.2.37)
+ smtp.mailfrom=join.com; cyfoexample.one.com; dkim=none (message not signed)
+ header.d=none;cyfoexample.one.com; dmarc=none action=none
+ header.from=join.com;
+Received-SPF: Neutral (protection.outlook.com: 131.228.2.37 is neither
+ permitted nor denied by domain of join.com)
+Received: from hybrid2.ext.net.nokia.com (131.228.2.37) by
+ DB5EUR03FT055.mail.protection.outlook.com (10.152.21.30) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.20.1228.17 via Frontend Transport; Mon, 8 Oct 2018 20:32:31 +0000
+Received: from fihe3nok1347.nsn-intra.net (10.158.36.135) by
+ fihe3nok1348.nsn-intra.net (10.158.36.136) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id
+ 15.1.1466.3; Mon, 8 Oct 2018 23:32:31 +0300
+Received: from 217-1608.lxdlnfimu1ge1kk0xr3bfjlqoa.gx.internal.cloudapp.net
+ (168.61.210.163) by fihe3nok1347.nsn-intra.net (10.158.36.135) with Microsoft
+ SMTP Server id 15.1.1466.3 via Frontend Transport; Mon, 8 Oct 2018 23:32:27
+ +0300
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: Let Join Hands To Make A Difference  
+To: Recipients <info@join.com>
+From: Laurent Bernard <info@join.com>
+Date: Mon, 8 Oct 2018 20:32:27 +0000
+Reply-To: <laurentbern14@gmail.com>
+Message-ID: <aa52ec9e-429c-422d-8af1-bf5e60b29ff2@fihe3nok1347.nsn-intra.net>
+Return-Path: info@join.com
+X-EOPAttributedMessage: 0
+X-MS-Office365-Filtering-HT: Tenant
+X-Forefront-Antispam-Report: =?utf-8?b?Q0lQOjEzMS4yMjguMi4zNztJUFY6Q0FMO1ND?=
+ =?utf-8?b?TDotMTtDVFJZOkZJO0VGVjpOTEk7U0ZWOlNQTTtTRlM6KDEwMDE5MDIwKSgxNDk2?=
+ =?utf-8?b?MDA5KSgzNzYwMDIpKDM0NjAwMikoMzk2MDAzKSgxMzYwMDMpKDM5ODYwNDAw?=
+ =?utf-8?b?MDAyKSgyOTgwMzAwMDAyKSgxODkwMDMpKDE5OTAwNCkoMjI0MTYwMDMpKDI1?=
+ =?utf-8?q?0100001=29=2881166006=29=2881156014=29=2823756003=29=28356003=29?=
+ =?utf-8?q?=288676002=29=286200100001=29=2822756006=29=282860700004=29=28977?=
+ =?utf-8?b?MzYwMDQpKDMxNjAwMikoMjYwMDUpKDg5MzYwMDIpKDg3NDYwMDIpKDY4NzM2?=
+ =?utf-8?q?007=29=285660300001=29=2850466002=29=28305945005=29=289686003=29?=
+ =?utf-8?q?=287416002=29=2853936002=29=2831696002=29=2886362001=29=283530200?=
+ =?utf-8?b?MikoMTI1MDcwMDAwNSkoOTU2MDA0KSgzMzg5NjAwNCkoNDc2MDAzKSgyOTA2?=
+ =?utf-8?b?MDAyKSg1MDg2MDAwMDEpKDI2ODI2MDAzKSgxMjYwMDIpKDQ4NjAwNikoNTUx?=
+ =?utf-8?q?984002=29=2843066004=29=2853256004=29=2831686004=29=2847776003=29?=
+ =?utf-8?q?=28106466001=29=28105586002=29=28336012=29=286862004=29=286234601?=
+ =?utf-8?q?2=29=3BDIR=3AOUT=3BSFP=3A1501=3BSCL=3A5=3BSRVR=3AVI1PR0701MB2110?=
+ =?utf-8?b?O0g6aHlicmlkMi5leHQubmV0Lm5va2lhLmNvbTtGUFI6O1NQRjpOZXV0cmFsO0xB?=
+ =?utf-8?q?NG=3Aen=3BPTR=3AInfoDomainNonexistent=3BMX=3A1=3BA=3A1=3B?=
+X-Microsoft-Exchange-Diagnostics: =?utf-8?q?1=3BDB5EUR03FT055=3B1=3APGkaBEHs?=
+ =?utf-8?q?Lzo3IsUQkEddvxQqxkJM50yJfQA9G1bOR9sMtrCgQ37IZ40uz02nVJMimt+URwJcz?=
+ =?utf-8?q?CXrXrkI6m+dqOzUiSuHNwIj+UgSyRFu96TGdC+qTq6QVUlqrHmtpWfM?=
+X-MS-PublicTrafficType: Email
+X-MS-Office365-Filtering-Correlation-Id: 4a0b8863-b98d-40f8-9f4c-08d62d5d2c3b
+X-Microsoft-Antispam: =?utf-8?b?QkNMOjA7UENMOjA7UlVMRUlEOig3MDIwMDk1KSg0NjUy?=
+ =?utf-8?q?040=29=288989299=29=284534185=29=284627221=29=28201703031133081?=
+ =?utf-8?b?KSg4NTU5MDIwKSg4OTkwMjAwKSg1NjAwMDc0KSg3MTEwMjApKDIwMTcwNTI2?=
+ =?utf-8?q?03328=29=3BSRVR=3AVI1PR0701MB2110=3B?=
+X-Microsoft-Exchange-Diagnostics: =?utf-8?q?1=3BVI1PR0701MB2110=3B3=3AM7JD0Q?=
+ =?utf-8?q?PSR39ICwIFarM/fDDVCNI7AH22YHZB4/PUveQja5P9qGsgU/4bLF9g8bz9G4cArsy?=
+ =?utf-8?q?ulDwt40hC/riQ8J3euP35wvtZLwXCDsKheK42o3Hoyh+ObfTWeriHJmpESa2728nc?=
+ =?utf-8?q?NEWdCQavHZH826peK1c6FV2YWi2O7Sl7kZ4mvG/1mdt3ub7ybiQKY+SZaJni3Hytp?=
+ =?utf-8?q?T3nT8JDGoPLWY2mrq4TUPVbKMea9ZpDkbvAlWJeJQtW2EsldHfTrAXDp7PYW/VlUt?=
+ =?utf-8?q?T7RGxJaHT/6+oVQa4TsHMwXmQo9NLPzElBxlmdKfA1E7eDwJhJ5fwa1D3ZmPfPaiC?=
+ =?utf-8?q?hw85c3jJTWBVlNPZOhm9ft9G3z8HAyLY=3D=3B25=3AZCi/xzC7xDIgN0rsqS4o1X?=
+ =?utf-8?q?bCwKZ+Rt2CjiaINFHexya8Da28g3tbZ6C/Xuy/bmZMOOK+rCPhGtTz4+qxv71P7j1?=
+ =?utf-8?q?7jMk7yxjeiN3ETcSh/Ppku/CbJDSL1erBcK99L2jJAvqwp/tbEhcJDn0zjQq7+qYS?=
+ =?utf-8?q?46Beq9P/1TTNomrTEn3UguhLWmm6ktvqvAPisPxHd9KW7JKN2KuN7AdIUFLBanhg8?=
+ =?utf-8?q?rW7I2c2wI6dLrzVh0OPqa2JryMOmwFuGNyYP0f8/wzje3bSKkreEaZcM1gTrKWI2W?=
+ =?utf-8?q?ldnWg/ydUrE2S6Y0pvwyJugnC9J0DS8RiClSemCpu3h9N+aUr6zADxMVBDww=3D?=
+ =?utf-8?q?=3D?=
+X-MS-TrafficTypeDiagnostic: VI1PR0701MB2110:
+X-Microsoft-Exchange-Diagnostics: =?utf-8?q?1=3BVI1PR0701MB2110=3B31=3AJ2WAm?=
+ =?utf-8?q?Ba5SYLtDUcBbpjwA/1CKTsK8jojBFXVIQ5JjQqZhn7wZ+MEdVCeuoLhosebOXuoj2?=
+ =?utf-8?q?lhBKvSCrH4z+ewFxEbUSClrYAe9OA7EnvtGaQRFS0aZ6k9wudZVju/F97HTm7rQVk?=
+ =?utf-8?q?/mJXDFnHqyhYM+zYKRX4oU8tKXTqY6If+S6hjFY4ZZjy8xW7ml4MzyFuIdfL48ync?=
+ =?utf-8?q?9QDbnWcUJsIKLdz+GZwsewhxwfLzrilCWGI=3D=3B20=3AXs/TEV0UJFFQ4tXP3Lt?=
+ =?utf-8?q?O1zdSVZXWuMk/iO5cQl4Pw76/EEd2NU2E7/y7O+FRhnjvCoDQnN15nOBhtqruqGHX?=
+ =?utf-8?q?jQr+K6+K0wZi5nViVnq//n3qdxOPQnm/wKFlecUfk9lXAArkWtJ0QzF1BCuHCuqdG?=
+ =?utf-8?q?1c1oVdk3vci5tBSW1+v6Wyn+hBA2EXYHcBdxpy64KZBXdMPkxRFJtVXhVqUQxQTpT?=
+ =?utf-8?q?Velvytnxs2jTRMd/yFTYQbKWT4OWogk3d/kEAOwAA5tXkL3JDSiAOsR49rmN8G07Z?=
+ =?utf-8?q?DbLMvRUdbcguJqCSBg3AiqfSUj/KAPPV05PmwZQJBjXqOD+XpJ/vJQ9AXtnoxAQVc?=
+ =?utf-8?q?7fNQuxXlJszZxhiu4WYBWtRMtUzP9vsz7urqQa6FasfAYV3ifOIOr1yJjVA1RUD+u?=
+ =?utf-8?q?02j0+Dibrm05d12tf672g8RKYVLf1Rve3IpbuIiP7IJsGtDL9T3I2PDyWXmvq9ef0?=
+ =?utf-8?q?fyYVkdsZwalPXm5SCDb/pfcrk78YoFNPoc6TstvAHH6yEqjlFqXOydAuJPyAOe8Va?=
+ =?utf-8?q?YJkHcHLljpjOsz2283Cs5e0cYUoQMt32zPFmpmYekjnZt9rz5SUQT98246EZjjgEb?=
+ =?utf-8?q?Wj5gx7vIKa8vzXU=3D?=
+X-Microsoft-Antispam-PRVS: =?utf-8?q?=3CVI1PR0701MB21103630E1FF0C6B59B977ACB?=
+ =?utf-8?q?9E60=40VI1PR0701MB2110=2Eeurprd07=2Eprod=2Eoutlook=2Ecom=3E?=
+X-Exchange-Antispam-Report-Test: UriScan:(41656084186505);
+X-MS-Exchange-SenderADCheck: 0
+X-Exchange-Antispam-Report-CFA-Test: =?utf-8?b?QkNMOjA7UENMOjA7UlVMRUlEOig4?=
+ =?utf-8?q?211001083=29=286040522=29=282401047=29=288121501046=29=285005006?=
+ =?utf-8?b?KSg5MzAwNjA5NSkoOTMwMDMwOTUpKDEwMjAxNTAxMDQ2KSgzMjMxMzU1KSgx?=
+ =?utf-8?q?1241501184=29=28944501410=29=2852105095=29=283002001=29=286055026?=
+ =?utf-8?q?=29=28149066=29=286041310=29=2820161123562045=29=2820161123560045?=
+ =?utf-8?q?=29=28201703131423095=29=28201702281528075=29=2820161123555045=29?=
+ =?utf-8?q?=28201703061421075=29=2820161123564045=29=2820161123558120=29=282?=
+ =?utf-8?q?01708071742011=29=287699051=29=3BSRVR=3AVI1PR0701MB2110=3BBCL=3A0?=
+ =?utf-8?q?=3BPCL=3A0=3BRULEID=3A=3BSRVR=3AVI1PR0701MB2110=3B?=
+X-Microsoft-Exchange-Diagnostics: =?utf-8?q?1=3BVI1PR0701MB2110=3B4=3AAqsYSO?=
+ =?utf-8?q?YNvBLp5QEzVEnSGYmfu7zE17G/ib5POGZgs4i4JR/rdx86y7Po1YV7OqOfUptg17B?=
+ =?utf-8?q?avTlw8a24Ku0mEaGbUrm6Sy5MeU1vz88guyQOurNWdBhEfsf+mTf45kTHJjDiGOFc?=
+ =?utf-8?q?1ZmoX0nbhEKR4orPVjpjlgvuHM8QQOQjGzB4M7sWE3++3Yn8Wyb24bGE+nWSXJ5Qy?=
+ =?utf-8?q?SyM6oo8plQg+H/Df6q2jlpI5TcAHa/6R8JQldZR4w88kNrnHj70HBPr5WHpQp+gD3?=
+ =?utf-8?q?vykCnfoE7FUgh8eKp6VdxXbuonyL4q/Qx9D3NxDWf+vBlHsfV0MTZu?=
+X-Forefront-PRVS: 081904387B
+X-Microsoft-Exchange-Diagnostics:
+ 1;VI1PR0701MB2110;23:Y6dWTW5qiKsmyEkqXa6ZeDw3DOoOxlS6+Sh9m=?utf-8?q?KcCLzOb?=
+ =?utf-8?q?7MgrGrSBUBw231SrUnISVWFSdpNs2sXqUXm6G4EjmkWgQfWRr0tidpAUi2YEwNzje?=
+ =?utf-8?q?089GSLvtZGloSt+Kr9ncstHhGE8KPHwfzCyLdQTtmNu5tDqP0DumZjYVEmdITiZGB?=
+ =?utf-8?q?5zyebRJxsb9JxjgEwtIRmHMABEQ0bSkiSiRf+NWJTNyZkLUbIHnAz1/CUkBSfhwx+?=
+ =?utf-8?q?jpS5LU9lf7RZnvcGSet1jrUTE2Mu6MDqT/7rZH5nGrffMb74YalQHbiVshhv9bZVV?=
+ =?utf-8?q?kALz66+4Iovuqg+46nEmQzLYegfQCtv8ndMbGl9sRWG1M2mbPb7FZrHVnR7pA2cAq?=
+ =?utf-8?q?pXrleKo1pvbuIb8wPWIYi5zuKef14+M8SoMnLbYtrB1G3gvQGidMPdQbhwBs+SPNb?=
+ =?utf-8?q?obTeuqXuMvurG+UKJZIWHpn725GfCRJbZoxTfgVrs1U/SFfBVfrMDsrhEzChXU2YQ?=
+ =?utf-8?q?snIenT/xhURd0rba7reFQOjDTr5x5yZzVZ5whUMf/VhGVDDfwHxx3GoubB8wTJ/2s?=
+ =?utf-8?q?wasMQayQvhUZYPiBjcFoemOILXs0vmfpiZu4+2016LlmPMEL1pijU0SfywIWi0b7P?=
+ =?utf-8?q?g6c9mqGa/UDDY2sdgk/yTdqLw1TQOyaY9VDFOhdG7CZ1QgkbvwgD/iv67xSqtDsLl?=
+ =?utf-8?q?oevb8yZrTslhwC8xa72Aan6XLahmRI3qGULxN/jBWmkpih3B24JJ35ELEk0Pl9cNf?=
+ =?utf-8?q?ntUgXWQuaxZjVsUHCbNSnqEIDhJPNsTN6t5hO4n2QuJLEaLGGaFHqzdxhdX3/ooDj?=
+ =?utf-8?q?8tV0VFMcKiXXA9W/FWxXxLGGdlPD4c0ftDMrNJ05pXj9n2rcmUCwSk/hERuX98MG6?=
+ =?utf-8?q?OxhSvherqg5uGvil0FAnf3vsMIJR3jjDtWhOBVNSy2dcsOwp5h8CzTV3OO4+ipa4f?=
+ =?utf-8?q?cJYCrp8JzOIo4WGpPOuDll4KUgQsCrmMK/BkFp9WdWJjprGRdOq9JX3z6m8QjiXJx?=
+ =?utf-8?q?3swYXRvUf5umQRNDH6/GA04AKAJuAmnKE+KoI5BXmJK6wpxiL0Yp2WnTR8mCZ3ukn?=
+ =?utf-8?q?7QCpmOSlmN7ZSTC/3QWVQs1mzm9Yr9O61plLk1OZMcOszcBgLI0Vr3qDusdsrPdF6?=
+ =?utf-8?q?Fo71E4x8IHTCRwVP9+CznXZ95QUhJbeoa464cDYrFz+pSjgbgRlK0MOEvHGp0NStj?=
+ =?utf-8?q?yewfux40DDmo6xEu9dN6uml2qdw567CfJKrSHVl2x?=P3Qo=
+X-Microsoft-Antispam-Message-Info: =?utf-8?q?87boTeTolrtLReOYMR9C4k+qT+6iKZ3?=
+ =?utf-8?q?e7LpH49WeXJ0aqm8nMWOtJIS/P8E08ClM9To6g7HKUcU6in7Reuzm0rOInlINGiPb?=
+ =?utf-8?q?r/ey4UsQWQTckVgS0qV1ZHb+04pQ3vTkee+FWLQRqZ2+iYF5N55KGGHhLQK4qsh+y?=
+ =?utf-8?q?vXczFrc1nRiOHapG5/yhqq0I40tYEB3rxS7nwPSLwBUd+VdPXy9SqITuDD1QZoB/M?=
+ =?utf-8?q?7rh6YD9QTWSrckL939kh56Q2STRBNRcQuQdESsGjuqzkupvER/UqOsd0aHXklWzle?=
+ =?utf-8?q?5glC5IR4Fn4857AbnqStI4Hhb1sSiAsLy7E30KUovWqk7Ke/hB1M6k1LoRx8xpKu5?=
+ =?utf-8?q?QKnxvkDcH00KxV7KWufaTd8hozpXUsQPNAOXcbZrvkko1lh1482U8LjOxMyVJ9dVW?=
+ =?utf-8?q?wtumxVcVVv9KQYLKG3HvzfddocqO50aMAGWW9+8+hHjV2EbHIY28hPkXDULVP3u80?=
+ =?utf-8?q?cAa2aqE9mn+ciAGJwAaaA/qVoPCmU4Oczwx84qGAXiNevnHW1xWmbL+OkBV9AghVJ?=
+ =?utf-8?q?trNqLyDuKbGRXcGNCyBMpbaZ4hHX48y+M9HM/pUJP81bb2c80bS1UaKWpwqXbrNJg?=
+ =?utf-8?q?j/wpYDcjIBPS4qRFllMgMHgw?=
+X-Microsoft-Exchange-Diagnostics:
+ 1;VI1PR0701MB2110;6:Klm57szVG0znuSWy3lhXFlnyyHPdQKfqwRbBDk=?utf-8?q?QzDM6FA?=
+ =?utf-8?q?aJ2UdTOpJjvm9r+7CSaxfpG0hlnxWVS12LcC7tmoRQw4ELl04+4mQLoLVA5DdDr65?=
+ =?utf-8?q?SGQQ9u7KXiWnboDQRKvadcwnmAVsl/kj7oFQ0HhjV7xlAQKyeoBtpl9jko+rhQp4O?=
+ =?utf-8?q?eUe6WeP93LcLnC+yP1VOmHkZwG8m6MPa3A2caAL5hz1wMRGLORJpH+Ufcvn3eQD7b?=
+ =?utf-8?q?tEqSl+A754HfpuqpbTql4oDGVtAgKH0+qoUU5uFfC4fpQ8gPJS+LL7HpAYIIb4bRm?=
+ =?utf-8?q?dU4NS3paqTBnKuCF6F6oQBZWWfYHLwj01m/a+k+jJbdaeTAqxpudzOA0sz+E616Xi?=
+ =?utf-8?q?lB1VeAg2Z4uDpFxv5FldancbcZv5AhCkZGBYosz0MgcGefFGAR7yBd/5hEDiyU871?=
+ =?utf-8?q?dvxBJbFXAnCEMuF90GKBuhMv3LMbMaER0LGVHs3HyV8IhlVDYPkuuy0AluKqELq49?=
+ =?utf-8?q?rUozJCuRZw5h=3B5=3A/od7aEWFXqGV4qD4ZBEqiYAwgbGUMn7C6nMsvxZAIpFnbC?=
+ =?utf-8?q?I/CZeNr515lXix/wUN/feF0FmBXLg2GMOre5Nwh6KFBj6E40ukHW7xQ+y1TMTT3hN?=
+ =?utf-8?q?W7uqS1art49dSk9T9qxjEPeJYcIDfrDsjZ+X5+9Znd/bMeMlRkaK/0EVhd38=3D?=
+ =?utf-8?q?=3B7=3ArEksfioAhjK8OXEpf2rzHdstIBcGrjbcrFUyrw3cOhzjMnIFsKvthoxcqO?=
+ =?utf-8?q?M6+VtmjwgmygbQ218matEB8GoWuREtq1g3mFUpqiuJUQJFuwdomm3GSt91nf7v/2U?=
+ =?utf-8?q?sNl/StwXg3+Hu3n/BDwKooRexpqAotsab4exiSYb7oJanKOPG20A9+KPXM7cnO/Xp?=
+ =?utf-8?q?vyhK8D/aFwY6RkhPN4KsBk5y/l/Iik45wAMom6ndU7K/sG5KlVk3D7Agj0dmSsyFx?=
+ =?utf-8?q?oLO?=
+SpamDiagnosticOutput: 1:22
+X-OriginatorOrg: nokia.onmicrosoft.com
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 08 Oct 2018 20:32:31.5879
+ (UTC)
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+ 4a0b8863-b98d-40f8-9f4c-08d62d5d2c3b
+X-MS-Exchange-CrossTenant-Id: 5d471751-9675-428d-917b-70f44f9630b0
+X-MS-Exchange-CrossTenant-OriginalAttributedTenantConnectingIp: =?utf-8?q?Te?=
+ =?utf-8?q?nantId=3D5d471751-9675-428d-917b-70f44f9630b0=3BIp=3D=5B131=2E228?=
+ =?utf-8?b?LjIuMzddO0hlbG89W2h5YnJpZDIuZXh0Lm5ldC5ub2tpYS5jb21d?=
+X-MS-Exchange-CrossTenant-FromEntityHeader: HybridOnPrem
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: VI1PR0701MB2110
+
+Dearest,
+You=20mean=20a=20lot=20to=20me=20and=20God=20has=20a=20reason=20for=20this=
+=20because=20he=20has=20directed=20me=20to=20do=20this=20with=20you=20by=20=
+helping=20the=20people=20in=20need.=20All=20other=20details=20will=20be=20c=
+ommunicated=20to=20you=20as=20soon=20as=20I=20receive=20your=20response,=20=
+but=20note=20that=20this=20is=20a=20worthy=20venture=20and=20God=20will=20b=
+less=20you=20in=20abundance.=20I=20want=20to=20give=20the=20sum=20of=2010.5=
+Million=20United=20States=20Dollars=20into=20the=20work=20of=20charity=20th=
+rough=20you.=20You=20will=20get=2020=20percent=20for=20your=20effort.
+Thanks=20and=20God=20bless=20you.
+Best=20regards.
+Laurent=20Bernard

@@ -1,0 +1,59 @@
+Return-Path: <info@dinzbeauty.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id cLeoJeYyMmBzGAAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Sun, 21 Feb 2021 10:16:06 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=to:message-id:content-transfer-encoding:content-type:mime-version:date:	
+ subject:from:reply-to:x-halone-refid:x-halone-sa:from:x-halone-sa:	
+ x-halone-refid;	bh=mEH4D4iEUzQNqeVf/disaOsx/3yHzjcf2h+TjAuP4w0=;	
+ =?utf-8?q?b=3DkzDRHojiCwGB2rquKiR2IcuNbAYOzGXTPJfO2TGcveotqS70GG/DCbMsaP2BK?=
+ =?utf-8?q?yyZOcA3SOAAU4qF9=09_sxtVXHE0I+jzfr8bbDAjB/hFWgZBEyptILuP1ydw4EP6j?=
+ =?utf-8?q?LT+R4iCeK38S89WQSTMqEmh09qaKQo71q=09_QjSxiTL1ppOutg3lUr8Z73MEa+OP?=
+ =?utf-8?q?z2UIYd9Dq1vPLmoEQHTAdJgWAYgMBuO5OjG00XnI0Sx67RtmP9=09_5GQboqzT8Oj?=
+ =?utf-8?q?N+gBx0VrVLhV7roAFRdtwRCIEYDqkq+ZsrGACSnL33zZXcU+vPbx8rLaoi5vcaLCC?=
+ =?utf-8?q?Du?=	 u7rr3vKSLOd41ZJx590kRvvwHNRJa7Q==
+X-HalOne-SA: 16
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F20=2E6031FCC9=2E0033=2Css=3D4?=
+ =?utf-8?b?LHNoLHJlPTcuMDA5LHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZn?=
+ =?utf-8?q?s=3D16?=
+X-HalOne-ID: a39b1cc7-742d-11eb-bf1b-ec0d9a6ed98e
+Received: from mail.yudo.co.th (mail.yudo.co.th [115.31.145.37])
+	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id a39b1cc7-742d-11eb-bf1b-ec0d9a6ed98e;
+	Sun, 21 Feb 2021 10:14:57 +0000 (UTC)
+Received: from User (unknown [58.97.224.80])
+	by mail.yudo.co.th (Postfix) with ESMTP id B025EFEC5C5;
+	Sun, 21 Feb 2021 17:14:39 +0700 (ICT)
+Reply-To: <huguangjie92@gmail.com>
+From: "Mr. Hu Guangjie"<info@dinzbeauty.com>
+Subject: Greetings
+Date: Sun, 21 Feb 2021 17:15:52 +0700
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-Id: <20210221101439.B025EFEC5C5@mail.yudo.co.th>
+To: undisclosed-recipients:;
+
+ Letter to Invest in Your Country
+
+I am looking for a possible tie up with a business or individual in your country so I can do some investments. Please, advise on investment opportunities in your country.
+
+By introduction, I am Hu Guangjie, Executive Director and the President of China National Offshore Oil Corporation (CNOOC).
+
+Looking forward to your response.
+
+Best Regards,
+Hu Guangjie
+Executive Director and the President of CNOOC
+No.25,Chaoyangmenbei
+Dajie,Dongcheng District,
+Beijing 100010 P. R.China. 
+ 

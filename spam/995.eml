@@ -1,0 +1,89 @@
+Return-Path: <carlo_beltracchi@tin.it>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id oK5pM8Kz+WG3UgAAtf5whQ
+	(envelope-from <carlo_beltracchi@tin.it>)
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 01 Feb 2022 22:27:14 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-transfer-encoding:content-type:mime-version:date:subject:from:	 
+ =?utf-8?q?reply-to=3Amessage-id=3Ax-halone-refid=3Ax-halone-sa=3Afrom=3Ax-h?=
+ =?utf-8?q?alone-sa=3Ax-halone-refid=3B?=
+	bh=GR5qHBhaGdNj8DBEiMKOVgvBXa61FyjrgUpaXTHiIBA=;	=?utf-8?q?b=3DkpFgjVSpOWqk?=
+ =?utf-8?q?Di0ZpudOW1ZtRDf6IIaAiUOvEn/4eMyi77iSc2Sy6ziM+GzUhE8upgQqoa8v/wcPH?=
+	 =?utf-8?q?1lTG8Xh0tUBvhJsYRmd7v+/OcVY1OcVw2fHGcRKiBUKy67r+u4DE9FQnkS1TaMaI?=
+ =?utf-8?q?KTh6HMAJIaoeuz=09_GUYWIuoxMjHpLN2CBdp6MVdZKfJ7VNVRs1twKEsn/XPwjYL?=
+ =?utf-8?q?0y8V5DUeQXC5g+XbKICbAIPNMQ2WjdJ=09_jMwx3dMfxX6AZWaa8dtFEOeRnmZJ2m?=
+ =?utf-8?q?eZ/Nr+aTkrN/W6jT4H8kneO3v4MII18fZjj0NcXCdiXlwZbt?=	
+ j3gJfp1QuIWUaIHj/94iZwFdZ1hYt7g==
+X-HalOne-SA: 6.1
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F1A=2E61F984B3=2E000A=2Css=3D3?=
+ =?utf-8?b?LHNoLHJlPTQuNjgwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD0zLGNsZD0xLGZn?=
+ =?utf-8?q?s=3D0?=
+X-HalOne-ID: 1aef2c29-83ae-11ec-9072-e0d848974e01
+Received: from mta-out-03.tin.it (mta-out-03.tin.it [217.169.118.6])
+	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 1aef2c29-83ae-11ec-9072-e0d848974e01;
+	Tue, 01 Feb 2022 22:27:14 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=tin.it; s=20211207;
+ t=1643754434;         bh=GR5qHBhaGdNj8DBEiMKOVgvBXa61FyjrgUpaXTHiIBA=;
+        =?utf-8?q?h=3DMessage-ID=3AReply-To=3AFrom=3ASubject=3ADate=3AMIME-V?=
+ =?utf-8?q?ersion=3AContent-Type=3AContent-Transfer-Encoding=3B________b=3Dg?=
+ =?utf-8?q?MlwM8fyga+/DVCGD0wAMV+Ssl2P2p3ajBtDfT/Xp6taDKOSfQTbKrv0UGsEPKiNYA?=
+ =?utf-8?q?rwQBjlD8bpl9/vnxJxZK1LRL7U6tmfh0h3qo45A1jO5IxaX3+W88qdF6N4T/+hKoC?=
+ =?utf-8?q?ANARfrHVEMNG/e36gINHrcWzCshV5FKOZbyGG+A+vcfffRCQ2wWy4uCuc7M3G/zjs?=
+ =?utf-8?q?H9r0Hp7ELxtn4bR3ZWX71pYyIfjkieFqr1lIin1AFic1Ap3zq6/s0jFCkCGf5hwiO?=
+ =?utf-8?q?0ol8x7L5+/PWMvru5c9Jr/cxPeNZZnTlSxfzjEcZkKhHw+2ZTI3mjorQ1rWFvOLYA?=
+ =?utf-8?q?22i+QfoOyjfELEOw=3D=3D?=
+X-RazorGate-Vade: =?utf-8?q?gggruggvucftvghtrhhoucdtuddrgedvvddrgeefgdduiedt?=
+ =?utf-8?q?ucetufdoteggodetrfdotffvucfrrhhofhhilhgvmecuvffgnffgvefqoffkvfetn?=
+ =?utf-8?q?ffktedpqfgfvfenuceurghilhhouhhtmecufedtudenuchmihhsshhinhhgucfvqf?=
+ =?utf-8?q?cufhhivghlugculdeftddmnegopfhokfffucdluddtmdenucfjughrpehrhffuffg?=
+ =?utf-8?q?gtgfgrfgioffqsehtjedttddutdefnecuhfhrohhmpedfhgdrfgcuhffqfgfpffet?=
+ =?utf-8?q?vffkqffpucdqucgluceurghkuhdpucetiigvrhgsrghijhgrnhcungdfoegtrghrl?=
+ =?utf-8?q?hhopggsvghlthhrrggttghhihesthhinhdrihhtqeenucggtffrrghtthgvrhhnpe?=
+ =?utf-8?q?evgfevhfelhedvteevhfehtdejvdetgefhffeijeevvdfhvdeileehkeejueelude?=
+ =?utf-8?q?nucfkphepudelfedrvddvkedrheeirdduvdenucevlhhushhtvghrufhiiigvpedu?=
+ =?utf-8?q?tdeinecurfgrrhgrmhephhgvlhhopegfshgvrhdpihhnvghtpeduleefrddvvdekr?=
+ =?utf-8?q?dehiedruddvpdhmrghilhhfrhhomheptggrrhhlohgpsggvlhhtrhgrtggthhhise?=
+ =?utf-8?q?htihhnrdhithdpnhgspghrtghpthhtohepledprhgtphhtthhopehjohhhrghnnhg?=
+ =?utf-8?q?vshdrhhgvlhhmihhnghgvrhesshhotghirghlshifvggvthhhvggrrhhtshdruggv?=
+ =?utf-8?q?pdhrtghpthhtohepjhhohhgrnhhnvghsrdhjuhhsthesohhnlhhinhgvrdguvgdpr?=
+ =?utf-8?q?hgtphhtthhopehjohhhrghnnhgvshdrkhgrrhhtvgesughfghdruggvpdhrtghpth?=
+ =?utf-8?q?htohepjhhohhgrnhhnvghs=09rdhkrghtvghnkhgrmhhpsehonhhlihhnvgdruggv?=
+ =?utf-8?q?pdhrtghpthhtohepjhhohhgrnhhnvghsrdhknhhoghhlihhnghgvrhesohhmvhdrt?=
+ =?utf-8?q?ghomhdprhgtphhtthhopehjohhhrghnnhgvshdrmhgrlhgrthhsvgesshhisgdrtg?=
+ =?utf-8?q?hordiirgdprhgtphhtthhopehjohhhrghnnhgvshdrohhlvghgrghrugesohhlihh?=
+ =?utf-8?q?sshhofhhtrdgtohhmpdhrtghpthhtohepjhhohhgrnhhnvghsrdhprghlmhesrghk?=
+ =?utf-8?q?rghhnhdrtghomhdprhgtphhtthhopehjohhhrghnnhgvshdrphgtsehnohhrmhgrn?=
+ =?utf-8?q?hhnihgrqdhlvghiphiiihhgrdguvg?=
+X-RazorGate-Vade-Verdict: clean 40
+X-RazorGate-Vade-Classification: clean
+Received: from User (193.228.56.12) by mta-out-03.tin.it (5.8.806)
+ (authenticated as carlo_beltracchi@tin.it)        id 61AA6EDD01964D89; Tue, 1
+ Feb 2022 23:24:43 +0100
+Message-ID: <61AA6EDD01964D89@mta-out-03.tin.it> (added by postmaster@tin.it)
+Reply-To: <xmf@ulive.pccu.edu.tw>
+From: "W.U FOUNDATION - [ Baku, Azerbaijan ]"<carlo_beltracchi@tin.it>
+Subject: Redeem Your 850,000.00 USD Grant :
+Date: Tue, 1 Feb 2022 23:24:42 +0100
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+
+C  O  N  G  R  A  T  U  L  A  T  I  O  N  S
+        ::: You Were Selected  :::
+
+Payment ID - [  BA/CVCTF/WUWHO2022  ]
+
+For More Information, Contact Us :
+
+CALL /  WHATSAPP : +994 51409 8321
+Contact E-mail :  westernunionfoundation.grant120@gmail.com

@@ -1,0 +1,67 @@
+Return-Path: <admin@gtel.vn>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id aCkZAMLfSmMPJwAAtf5whQ
+	(envelope-from <admin@gtel.vn>)
+	for <johannes.olegard@cyfoexample.one.com>; Sat, 15 Oct 2022 16:28:50 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	h=message-id:reply-to:date:from:to:subject:content-description:	 
+ =?utf-8?q?content-transfer-encoding=3Amime-version=3Acontent-type=3Ax-halon?=
+ =?utf-8?q?e-refid=3Ax-halone-sa=3A?=	 from:x-halone-sa:x-halone-refid;
+	bh=MgeOa2C3xs7Kp1MtqN+Wl/3CkMj5z1q4DQCMkpa//1A=;	=?utf-8?q?b=3Dt+DfIpcGr9gG?=
+ =?utf-8?q?BZgO0ZFyPt7nJI2fhL6wDV3t2Yg5FC9cmyBx5uIjYdr3V0uc6pe7v5qWde78I+qRB?=
+	 =?utf-8?q?vMUfldoawOBTutk6AOoRXVvpqdbRZr9AHhcQuO9woUIlP2AkiRmSlK54CSc9ldS1?=
+ =?utf-8?q?UtEnKX9Ls6yUAw=09_Cbyi+OJaW/4YlXWu/fkNFRp7WS5QgujBkTTOeWOAQYsu3RJ?=
+ =?utf-8?q?6c0kwhm1PEY4kY2QuWPxZD4EHNbMB9V=09_qVKmFlQATHOJ1rlgHGJrzvNOB3tl4C?=
+ =?utf-8?q?Zw59+/ADmTmnl1Q5+NpKdP90TyLQeEMW1Ho6O3X9O98jNqjU?=	
+ Vp5STNtquuZMcm0IMec+pCSGK6k6eNg==
+X-HalOne-SA: 15.2
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F23=2E634A8B2E=2E0010=2Css=3D4?=
+ =?utf-8?b?LHNoLHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZn?=
+ =?utf-8?q?s=3D8?=
+X-HalOne-ID: 704878b1-4ca6-11ed-9755-e0d84894a001
+Received: from mail.gtel.vn (unknown [183.91.160.6])
+	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 704878b1-4ca6-11ed-9755-e0d84894a001;
+	Sat, 15 Oct 2022 16:28:48 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.gtel.vn (Postfix) with ESMTP id A4B2C50B73D22;
+	Sat,  8 Oct 2022 14:27:41 +0700 (+07)
+Received: from mail.gtel.vn ([127.0.0.1])
+	by localhost (mail.gtel.vn [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id Bn_Uzzon7_Yi; Sat,  8 Oct 2022 14:27:41 +0700 (+07)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.gtel.vn (Postfix) with ESMTP id 30F604BB45798;
+	Sun,  2 Oct 2022 01:13:30 +0700 (+07)
+X-Virus-Scanned: amavisd-new at mail.gtel.vn
+Received: from mail.gtel.vn ([127.0.0.1])
+	by localhost (mail.gtel.vn [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id Suz3Oj8buKoT; Sun,  2 Oct 2022 01:13:30 +0700 (+07)
+Received: from DESKTOP-E6QQUAG.lan (unknown [93.182.110.212])
+	by mail.gtel.vn (Postfix) with ESMTPSA id 0F1184B989BA8;
+	Fri, 23 Sep 2022 12:50:21 +0700 (+07)
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: RE
+To: Recipients <admin@gtel.vn>
+From: =?utf-8?b?IkZyYW7Dp29pcyBQaW5hdWwiPGFkbWluQGd0ZWwudm4+?=@mail.gtel.vn
+Date: Fri, 23 Sep 2022 08:50:15 +0300
+Reply-To: fp462558@gmail.com
+X-Antivirus: Avast (VPS 220922-6, 9/22/2022), Outbound message
+X-Antivirus-Status: Clean
+Message-Id: <20220923055022.0F1184B989BA8@mail.gtel.vn>
+
+$3.5=20Million=20Has=20Been=20Donated=20To=20You,By=20Fran=E7ois=20Pinault=
+=20due=20to=20the=20covid-19=20pandemic=20this=20is=20Real=20Get=20back=20F=
+or=20More=20Info
+
+WhatsApp:=20+447441443051
+
+--=20
+This=20email=20has=20been=20checked=20for=20viruses=20by=20Avast=20antiviru=
+s=20software.
+www.avast.com

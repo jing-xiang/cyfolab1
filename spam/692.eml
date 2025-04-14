@@ -1,0 +1,158 @@
+Return-Path: =?utf-8?q?=3C33dfJXwoJELgasctYYzyzzekYgj=2EamkhmfYllcq=2EmjceYp?=
+ =?utf-8?q?bmjgqqmdr=2Eamk=40trix=2Ebounces=2Egoogle=2Ecom=3E?=
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id EKt8O9/XyV+kagAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Fri, 04 Dec 2020 06:32:00 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:from:subject:date:message-id:reply-to:mime-version:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=3PeFEPTSkrb09bYRmPwlAC7D1dueROib4OnAXJ3oqk0=;	=?utf-8?q?b=3DQNVI/kbF87YX?=
+ =?utf-8?q?we+sMlnMl1R6Rw6c8HfwkeiWGd5Pd9flxdy9E6IGABHOzW4+MDguepNqhKM4BqXT7?=
+	 =?utf-8?q?QXJf7W2dvuUXuWXlaKUzSBRBjU3g3EIMRfzE9maSwKL0RPCjxIabX2EIVwsdJ3EG?=
+ =?utf-8?q?xR6vFz++HW/vcT=09_VX11hX6i3XtqgQ8I30TgaaZ0ujtejqmPuv+jaXQzGgrCQNj?=
+ =?utf-8?q?y+nQmq/eanw4MkTaIsbNaOAw6NxH02W=09_HvucTyfuimnxeWJeeyKdG19p+9zIiy?=
+ =?utf-8?q?NEoZHJ4MA5CgCSQGi9VXRlUmtdYGVcQc2Fh68fKgzVH4Oy86?=	
+ 3XP02tkhGCbzKPez68smiOjr8QfpboQ==
+X-HalOne-SA: 17.2
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F1E=2E5FC9D7DF=2E0011=2Css=3D4?=
+ =?utf-8?b?LHJlPTEwLjcxMyxyZWN1PTAuMDAwLHJlaXA9MC4wMDAsY2w9NCxjbGQ9MSxmZ3M9?=
+ =?utf-8?q?16?=
+X-HalOne-ID: 68d2c00c-35fa-11eb-ab1d-e0d84894a001
+Received: from mail-ua1-f69.google.com (mail-ua1-f69.google.com
+ [209.85.222.69])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 68d2c00c-35fa-11eb-ab1d-e0d84894a001;	Fri, 04 Dec 2020 06:31:58 +0000 (UTC)
+Received: by mail-ua1-f69.google.com with SMTP id k3so1326693uad.14        for
+ <johannes.olegard@cyfoexample.one.com>; Thu, 03 Dec 2020 22:31:58 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:reply-to:message-id:date:subject:from:to;
+        bh=3PeFEPTSkrb09bYRmPwlAC7D1dueROib4OnAXJ3oqk0=;
+        b=sfdqqXg7HI8kgGpTjT0iPAuBvDSIzBx2Yi7603jxKCUnU14HIGKUbqPww0C4krO3AW
+         TPGdK2Mo70oDn5LYEPW8MaPqME0zrdDxwySgTc0T7eXQ+LFNxRYMLHx/oORFHsKeHAe+
+         zy0zxSH7WHgzTpx8QRH8IjoQf2eTCznDJ74oiXOC+rOkKmfOBuS9csGVgCdKqhcbo44v
+         tdxzfBLUjS7gga59mMGNmp6ZfLXKZya/P5diExDO5UcXIJcOeyUUzuQel0vxhNQ3Dr54
+         ZjLsREtd3h2/vIjOqXnawZ9QGOpvpeV4eJstQRCoB1h3BDu48tygQUOakChpcAtciNUt
+         DoAw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:message-id:date:subject
+         :from:to;
+        bh=3PeFEPTSkrb09bYRmPwlAC7D1dueROib4OnAXJ3oqk0=;
+        b=GOZM5hvflVqJD+B4BkKBwDqdQuMIxNzyx4Vm2pGpmGVhd0doOOflOq8/2AEdDfflBz
+         dNaC8jS6io/x9nEQuCQNO/7Ng4L9pTqxG8xEIhCkgm2DqAy1xpLFp2J94keUpAXiLNJS
+         bQsXJJ9pxqsCq+IuPH6uL/xb/L64otFDXYuMICK4JnCExRaHLmAteV13CiF3HDNx05Y2
+         OQBQDfuW+Q/8kHZT0tRr88+g3qVMVb86I8Ux0brQsETi3J+yfW+GBSW8eFWcLobwIoeN
+         7GJmwsURgaFErvvvsh32fjwETciVnCe//9/SmQP6FkZAr7vFw/7MlG+2mRvQheMx4sOL
+         Lxkw==
+X-Gm-Message-State: AOAM532EWqQjHdLgFIgNxetkYlCEK+UrprGUYocGQmkNStPDvfhP0Mht
+	BJvGG1+Zu23u4rbrIqyCpTK8APc0solsPKKq22c3
+MIME-Version: 1.0
+X-Received: by 2002:a05:6102:3222:: with SMTP id
+ x2mt2123593vsf.2.1607063517210; Thu, 03 Dec 2020 22:31:57 -0800 (PST)
+Reply-To: cuevaa1011@gmail.com
+X-No-Auto-Attachment: 1
+Message-ID: <00000000000013415f05b59da2ae@google.com>
+Date: Fri, 04 Dec 2020 06:31:57 +0000
+Subject: PAYMENTS NOTIFICATION
+From: cuevaa1011@gmail.com
+To: johannes.olegard@cyfoexample.one.com
+Content-Type: multipart/alternative; boundary="0000000000001cbb9e05b59da280"
+
+--0000000000001cbb9e05b59da280
+Content-Type: text/plain; charset="UTF-8"; format=flowed; delsp=yes
+Content-Transfer-Encoding: base64
+
+77u/SSd2ZSBpbnZpdGVkIHlvdSB0byBmaWxsIGluIHRoZSBmb2xsb3dpbmcgZm9ybToNClBhcnR5IEludml0ZQ0KDQpUbyBmaWxsIGl0IGluLCB2aXNpdDoNCmh0dHBzOi8vZG9jcy5nb29nbGUuY29tL2Zvcm1zL2QvZS8xRkFJcFFMU2ZjbFAwWjlMazRvV2Zvdk1KRVBhSnllUTJNRmNMdVJWREE5MHVRcVpCSWloblMtQS92aWV3Zm9ybT92Yz0wJmFtcDtjPTAmYW1wO3c9MSZhbXA7ZmxyPTAmYW1wO3VzcD1tYWlsX2Zvcm1fbGluaw0KDQpEZWFyIFdpbm5lciwNCg0KUkVGIE5POiBRV1RMIC8gS1RVIC8gOTAyMzExODMwOCAvIDIwMjANCg0KV2UgYXJlIHBsZWFzZWQgdG8gYW5ub3VuY2UgdG8geW91IGFzIG9uZSBvZiB0aGUgNTUgbHVja3kgd2lubmVycyBpbiB0aGUgIA0KSW50ZXJuYXRpb25hbCBCUklUSVNIIEFVVE9NT0JJTEUgTE9UVEVSWSBQUk9NT1RJT05TIGhlbGQgb24gMjV0aCBvZiAgDQpOb3ZlbWJlciAyMDIwIFByaW50YWJsZSBWaWV3IGluIExvbmRvbiwgVW5pdGVkIEtpbmdkb20sIEFsbCA1NSB3aW5uaW5nICANCmFkZHJlc3NlcyB3ZXJlIHJhbmRvbWx5IHNlbGVjdGVkIGZyb20gYSBiYXRjaCBvZiA0MCwwMDAgaW50ZXJuYXRpb25hbCAgDQplbWFpbHMuIFlvdXIgZW1haWwgYWRkcmVzcyBlbWVyZ2VkIGFsb25nc2lkZSA1NSBvdGhlcnMgYXMgYSAzcmQgY2F0ZWdvcnkgIA0Kd2lubmVyIGluIHRoaXMgbW9udGggb2YgTm92ZW1iZXIgMjAyMCBkcmF3LiBBbGwgcGFydGljaXBhbnRzICB3ZXJlIHNlbGVjdGVkICANCnRocm91Z2ggYSBjb21wdXRlciBiYWxsb3Qgc3lzdGVtIGRyYXduIGZyb20gb3ZlciAyMCwwMDAgY29tcGFueSBhbmQgMzAsMDAwICANCmluZGl2aWR1YWwgZW1haWwgYWRkcmVzc2VzIGZyb20gYWxsIG92ZXIgdGhlIHdvcmxkLiBUaGlzIHByb21vdGlvbmFsICANCnByb2dyYW0gdGFrZXMgcGxhY2Ugb25lcyBlYWNoIHllYXIuDQoNClF1YWxpZmllZCwgeW91IGhhdmUgdGhlcmVmb3JlIGJlZW4gYXBwcm92ZWQgZm9yIGEgdG90YWwgc3VtIG9mIMKjIDEsMTQ0LDk3MyAgDQooT25lIE1pbGxpb24sIG9uZSBodW5kcmVkIGFuZCBmb3J0eSBmb3VyIHRob3VzYW5kLCBuaW5lIGh1bmRyZWQgYW5kIHNldmVudHkgIA0KdGhyZWUgb25seSkuIFRoZSBmb2xsb3dpbmcgcGFydGljdWxhcnMgYXJlIGF0dGFjaGVkIHRvIHlvdXIgbG90dGVyeSBwYXltZW50ICANCm9yZGVyOg0KDQooaSkgV2lubmluZyBudW1iZXJzOiAwNy0xNC0yMy0zMS0zNS00Mi0yMDIwDQooaWkpIEVtYWlsIHRpY2tldCBudW1iZXI6IDU2NC03NTYwMDU0NS0xODktMjAyMA0KKGlpaSkgTG90dG8gQmF0Y2ggTm8gLjE0IC8gMjUgLyAwMzA4LjIwMjANCihJVikgRmlsZSBSRUYgTk86IEtUVSAvIDkwMjMxMTgzMDgvMjAyMA0KDQpQbGVhc2UgY29udGFjdCB0aGUgY2xhaW1zIG9mZmljZXIgdmlhIGVtYWlsIHVyZ2VudGx5IGZvciB0aGUgaW1tZWRpYXRlICANCnJlbGVhc2Ugb2YgeW91ciB3aW5uaW5ncyB3aXRoIHRoZSBpbmZvcm1hdGlvbiBsaXN0ZWQNCmJlbG93Og0KDQpTaXIuIEtlcmsgQ29zbW9zDQooQ0xBSU0gREVQQVJUTUVOVCBNQU5BR0VSKQ0KRW1haWw6IChzaXIua2Vya2NzQG91dGxvb2suY29tKS4NClRlbCBObzogKCs0NCkgNzA0IDU3Nw0KMDAwMC5GYXggTm86ICgrNDQpIDcwMDUtOTMwLTMwMS4NCg0KMS5GdWxsIE5hbWVzOg0KDQoyLkFkZHJlc3MgOiAzLiBNYXJpdGFsIFN0YXR1czoNCjQuT2NjdXBhdGlvbjoNCjUuIEFnZToNCjYuIENlbGwgTnVtYmVyOiAoQ291bnRyeSBDb2RlKS0oQ2VsbCBQaG9uZSBOdW1iZXIpOg0KDQpPbmNlIGFnYWluIG9uIGJlaGFsZiBvZiBhbGwgb2YgdXMsIHdlIHNheSBDT05HUkFUVUxBVElPTlMgISEhDQoNClNpbmNlcmVseSwNCg0KQWZyZWQgQ3VldmFzDQooTG90dGVyeSBDb29yZGluYXRvcikuDQoyMDIwIEJyaXRpc2ggQXV0b21vYmlsZSBPbmxpbmUgTG90dGVyeSBJbnRlcm5hdGlvbmFsLiBBbGwgcmlnaHRzIHJlc2VydmVkDQoNCk4uQjoNCjEuQWxsIGNsYWltcyBhcmUgbnVsbGlmaWVkIGFmdGVyIDE0IHdvcmtpbmcgZGF5cyBmcm9tIHRvZGF5LiBZb3VyIFJlZiAgDQpudW1iZXIgbXVzdCBiZSBpbiBhbGwgeW91ciBtYWlscyB3aXRoIHRoZSBjbGFpbXMgb2ZmaWNlci4gMy4gRG8gaW5mb3JtIHRoZSAgDQpjbGFpbXMgb2ZmaWNlciBvZiBhbnkgY2hhbmdlIG9mIG5hbWVzIG9yIGFkZHJlc3Nlcy40LiBQbGVhc2UgZG8gbm90IHJlcGx5ICANCnRvIHRoaXMgZW1haWwuIENvbnRhY3QgeW91ciBjbGFpbXMgYWdlbnQuIENvcHlyaWdodCAyMDIwIEJyaXRpc2ggQXV0b21vYmlsZSAgDQpPbmxpbmUgTG90dGVyeSBJbnRlcm5hdGlvbmFsLiBBbGwgcmlnaHRzIHJlc2VydmVkLg0KDQpHb29nbGUgRm9ybXM6IENyZWF0ZSBhbmQgYW5hbHlzZSBzdXJ2ZXlzLg0K
+--0000000000001cbb9e05b59da280
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BF<html><body=20style=3D"font-family:=20Roboto,Helvetica,Arial,sans-=
+serif;=20margin:=200;=20padding:=200;=20height:=20100%;=20width:=20100%;"><=
+table=20border=3D"0"=20cellpadding=3D"0"=20cellspacing=3D"0"=20style=3D"bac=
+kground-color:rgb(72,59,126);"=20width=3D"100%"=20role=3D"presentation"><tb=
+ody><tr=20height=3D"64px"><td=20style=3D"padding:=200=2024px;"><img=20alt=
+=3D"Google=20Forms"=20height=3D"26px"=20style=3D"display:=20inline-block;=
+=20margin:=200;=20vertical-align:=20middle;"=20width=3D"143px"=20src=3D"htt=
+ps://www.gstatic.com/docs/forms/google_forms_logo_lockup_white_2x.png"></td=
+></tr></tbody></table><div=20style=3D"padding:=2024px;=20background-color:r=
+gb(189,236,252)"><div=20align=3D"center"=20style=3D"background-color:=20#ff=
+f;=20border-bottom:=201px=20solid=20#e0e0e0;margin:=200=20auto;=20max-width=
+:=20624px;=20min-width:=20154px;padding:=200=2024px;"><table=20align=3D"cen=
+ter"=20cellpadding=3D"0"=20cellspacing=3D"0"=20style=3D"background-color:=
+=20#fff;"=20width=3D"100%"=20role=3D"presentation"><tbody><tr=20height=3D"2=
+4px"><td></td></tr><tr><td><span=20style=3D"display:=20table-cell;=20vertic=
+al-align:=20top;=20font-size:=2013px;=20line-height:=2018px;=20color:=20#42=
+4242;"=20dir=3D"auto">Dear=20Winner,<br><br>REF=20NO:=20QWTL=20/=20KTU=20/=
+=209023118308=20/=202020<br><br>We=20are=20pleased=20to=20announce=20to=20y=
+ou=20as=20one=20of=20the=2055=20lucky=20winners=20in=20the=20International=
+=20BRITISH=20AUTOMOBILE=20LOTTERY=20PROMOTIONS=20held=20on=2025th=20of=20No=
+vember=202020=20Printable=20View=20in=20London,=20United=20Kingdom,=20All=
+=2055=20winning=20addresses=20were=20randomly=20selected=20from=20a=20batch=
+=20of=2040,000=20international=20emails.=20Your=20email=20address=20emerged=
+=20alongside=2055=20others=20as=20a=203rd=20category=20winner=20in=20this=
+=20month=20of=20November=202020=20draw.=20All=20participants=20=20were=20se=
+lected=20through=20a=20computer=20ballot=20system=20drawn=20from=20over=202=
+0,000=20company=20and=2030,000=20individual=20email=20addresses=20from=20al=
+l=20over=20the=20world.=20This=20promotional=20program=20takes=20place=20on=
+es=20each=20year.<br><br>Qualified,=20you=20have=20therefore=20been=20appro=
+ved=20for=20a=20total=20sum=20of=20=C2=A3=201,144,973=20(One=20Million,=20o=
+ne=20hundred=20and=20forty=20four=20thousand,=20nine=20hundred=20and=20seve=
+nty=20three=20only).=20The=20following=20particulars=20are=20attached=20to=
+=20your=20lottery=20payment=20order:<br><br>(i)=20Winning=20numbers:=2007-1=
+4-23-31-35-42-2020<br>(ii)=20Email=20ticket=20number:=20564-75600545-189-20=
+20<br>(iii)=20Lotto=20Batch=20No=20.14=20/=2025=20/=200308.2020<br>(IV)=20F=
+ile=20REF=20NO:=20KTU=20/=209023118308/2020<br><br>Please=20contact=20the=
+=20claims=20officer=20via=20email=20urgently=20for=20the=20immediate=20rele=
+ase=20of=20your=20winnings=20with=20the=20information=20listed=20<br>below:=
+<br><br>Sir.=20Kerk=20Cosmos<br>(CLAIM=20DEPARTMENT=20MANAGER)<br>Email:=20=
+(sir.kerkcs@outlook.com).<br>Tel=20No:=20(+44)=20704=20577<br>0000.Fax=20No=
+:=20(+44)=207005-930-301.<br><br>1.Full=20Names:<br><br>2.Address=20:=203.=
+=20Marital=20Status:<br>4.Occupation:<br>5.=20Age:<br>6.=20Cell=20Number:=
+=20(Country=20Code)-(Cell=20Phone=20Number):<br><br>Once=20again=20on=20beh=
+alf=20of=20all=20of=20us,=20we=20say=20CONGRATULATIONS=20!!!<br><br>Sincere=
+ly,<br><br>Afred=20Cuevas<br>(Lottery=20Coordinator).<br>2020=20British=20A=
+utomobile=20Online=20Lottery=20International.=20All=20rights=20reserved<br>=
+<br>N.B:<br>1.All=20claims=20are=20nullified=20after=2014=20working=20days=
+=20from=20today.=20Your=20Ref=20number=20must=20be=20in=20all=20your=20mail=
+s=20with=20the=20claims=20officer.=203.=20Do=20inform=20the=20claims=20offi=
+cer=20of=20any=20change=20of=20names=20or=20addresses.4.=20Please=20do=20no=
+t=20reply=20to=20this=20email.=20Contact=20your=20claims=20agent.=20Copyrig=
+ht=202020=20British=20Automobile=20Online=20Lottery=20International.=20All=
+=20rights=20reserved.</span></td></tr><tr=20height=3D"20px"><td></tr><tr=20=
+style=3D"font-size:=2020px;=20line-height:=2024px;"><td=20dir=3D"auto"><a=
+=20href=3D"https://docs.google.com/forms/d/e/1FAIpQLSfclP0Z9Lk4oWfovMJEPaJy=
+eQ2MFcLuRVDA90uQqZBIihnS-A/viewform?vc=3D0&amp;c=3D0&amp;w=3D1&amp;flr=3D0&=
+amp;usp=3Dmail_form_link"=20style=3D"color:=20rgb(72,59,126);=20text-decora=
+tion:=20none;=20vertical-align:=20middle;=20font-weight:=20500">Party=20Inv=
+ite</a><div=20itemprop=3D"action"=20itemscope=20itemtype=3D"http://schema.o=
+rg/ViewAction"><meta=20itemprop=3D"url"=20content=3D"https://docs.google.co=
+m/forms/d/e/1FAIpQLSfclP0Z9Lk4oWfovMJEPaJyeQ2MFcLuRVDA90uQqZBIihnS-A/viewfo=
+rm?vc=3D0&amp;c=3D0&amp;w=3D1&amp;flr=3D0&amp;usp=3Dmail_goto_form"><meta=
+=20itemprop=3D"name"=20content=3D"Fill=20out=20form"></div></td></tr><tr=20=
+height=3D"16px"></tr><tr><td=20style=3D"display:=20table-cell;=20vertical-a=
+lign:=20top;=20font-size:=2013px;=20line-height:=2018px;=20color:=20#424242=
+;"=20dir=3D"auto">Lorem=20ipsum=20dolor=20sit=20amet,=20consectetur=20adipi=
+scing=20elit.=20Curabitur=20quis=20sem=20odio.=20Sed=20commodo=20vestibulum=
+=20leo,=20sit=20amet=20tempus=20odio=20consectetur=20in.=20</td></tr><tr=20=
+height=3D"24px"></tr><tr><td><table=20border=3D"0"=20cellpadding=3D"0"=20ce=
+llspacing=3D"0"=20width=3D"100%"><tbody><tr><td><a=20href=3D"https://docs.g=
+oogle.com/forms/d/e/1FAIpQLSfclP0Z9Lk4oWfovMJEPaJyeQ2MFcLuRVDA90uQqZBIihnS-=
+A/viewform?vc=3D0&amp;c=3D0&amp;w=3D1&amp;flr=3D0&amp;usp=3Dmail_form_link"=
+=20style=3D"border-radius:=203px;=20box-sizing:=20border-box;=20display:=20=
+inline-block;=20font-size:=2013px;=20font-weight:=20700;=20height:=2040px;=
+=20line-height:=2040px;=20padding:=200=2024px;=20text-align:=20center;=20te=
+xt-decoration:=20none;=20text-transform:=20uppercase;=20vertical-align:=20m=
+iddle;=20color:=20#fff;=20background-color:=20rgb(72,59,126);"=20target=3D"=
+_blank"=20rel=3D"noopener">Fill=20out=20form</a></td></tr></tbody></table><=
+/td></tr><tr=20height=3D"24px"></tr></tbody></table></div><table=20align=3D=
+"center"=20cellpadding=3D"0"=20cellspacing=3D"0"=20style=3D"max-width:=2067=
+2px;=20min-width:=20154px;"=20width=3D"100%"=20role=3D"presentation"><tbody=
+><tr=20height=3D"24px"><td></td></tr><tr><td><a=20href=3D"https://docs.goog=
+le.com/forms?usp=3Dmail_form_link"=20style=3D"color:=20#424242;=20font-size=
+:=2013px;">Create=20your=20own=20Google=20Form</a></td></tr></tbody></table=
+></div></body></html>
+--0000000000001cbb9e05b59da280--

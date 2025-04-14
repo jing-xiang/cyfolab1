@@ -1,0 +1,73 @@
+Return-Path: <ticket@ctwirebuyer.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id AF1uNI1rGVzcTwEAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 18 Dec 2018 21:50:05 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: c801277a-030e-11e9-95ba-e0d848974e01
+Received: from ctwirebuyer.com (unknown [185.239.50.7])
+	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id c801277a-030e-11e9-95ba-e0d848974e01;
+	Tue, 18 Dec 2018 21:50:04 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=mail;
+ d=ctwirebuyer.com;
+ h=Message-ID:From:To:Subject:Date:MIME-Version:Content-Type;
+ i=ticket@ctwirebuyer.com; bh=JKpDgWpDJGfvyhB8wEmc3cCtwqGqNSDnfRZalRVznp4=; 
+ =?utf-8?q?b=3DA9qcDLxVtUIsENiy20v/dOVGJD7jtzqot3cgwpwrBFtV70bAWsCQRdvfD4lIq?=
+ =?utf-8?q?Phyr1GNHi21OkR0?=  
+ 1edPBs5HFdGCSWN/cO1bS8D7jyAtVhUJFnuHO+liVXFuqe5tKQ8+itMDIq0Pbee3EDTQG10N84Vf
+   JDMYCwpzJeFGhB6dSCQ=
+Message-ID: <8559db779232eae6c96cda897db0eae6fd8dff9d@ctwirebuyer.com>
+From: "Diet Department" <ticket@ctwirebuyer.com>
+To: <johannes.olegard@cyfoexample.one.com>
+Subject: Motivation to get in shape 
+Date: Tue, 18 Dec 2018 13:40:40 -0800
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="8abff64bcbedc7c7bbbe08a449edc7f3c59f02"
+
+--8abff64bcbedc7c7bbbe08a449edc7f3c59f02
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BFGood=20day=20to=20you,
+
+Explore=20below,=20Information=20regarding=20health
+
+Try=20it=20and=20then=20send=20it=20back.
+
+Regards,
+
+Health=20Department
+
+This=20letter=20is=20automatical,=20please=20do=20not=20give=20feedback=20t=
+o=20it=20directly.
+
+--8abff64bcbedc7c7bbbe08a449edc7f3c59f02
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BF<HTML><HEAD>
+<META=20http-equiv=3D"Content-Type"=20content=3D"text/html;=20charset=3Dutf=
+-8">
+</HEAD>
+<BODY=20bgColor=3D#ffffff>
+<DIV=20align=3Dleft><FONT=20size=3D2=20face=3DArial>Good=20day=20to=20you,=
+=20</FONT></DIV>
+<DIV>&nbsp;</DIV><FONT=20size=3D2=20face=3DArial>
+<DIV=20align=3Dleft><BR>Explore=20
+below,=20<A=20
+href=3D"https://oxfordcivilsearch.com/johannes.olegard@cyfoexample.one.com"=
+>Information=20regarding=20health=20</A></DIV>
+<DIV>&nbsp;</DIV>
+<DIV>&nbsp;</DIV>
+<DIV=20align=3Dleft>Try=20it=20and=20then=20send=20it=20back.</DIV>
+<DIV>&nbsp;</DIV>
+<DIV=20align=3Dleft>Regards,=20</DIV>
+<DIV>&nbsp;</DIV>
+<DIV=20align=3Dleft>Health=20Department=20</DIV>
+<DIV>&nbsp;</DIV>
+<DIV=20align=3Dleft>This=20letter=20is=20automatical,=20please=20do=20not=
+=20give=20feedback=20to=20it=20directly.=20</FONT></DIV></BODY></HTML>
+
+--8abff64bcbedc7c7bbbe08a449edc7f3c59f02--

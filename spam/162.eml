@@ -1,0 +1,73 @@
+Return-Path: <info@praeba.xyz>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id 4CIpOAn6V15sIwAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 27 Feb 2020 17:19:05 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 41a22e60-5985-11ea-bda8-e0d848974e01
+Received: from praeba.xyz (praeba.xyz [194.87.202.82])
+	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTP
+	id 41a22e60-5985-11ea-bda8-e0d848974e01;
+	Thu, 27 Feb 2020 17:19:05 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=key1; d=praeba.xyz;
+ h=Date:To:From:Reply-To:Subject:Message-ID:MIME-Version:Content-Type;
+ i=info@praeba.xyz; bh=asZL+ceTZahgFnGzNpBJS+K02Yw=; =?utf-8?q?b=3DL3P5ynQMG?=
+ =?utf-8?q?4PthvWQCZxUWN5s6slDjvKxU02rg7epIePxhRG/XwzL9O/D+Yr+6nz6Fheglktpvp?=
+ =?utf-8?q?01?=  
+ xKxnVGTX9uUles9VZPuvHDX9S+7LPnrzpSMKbFaX/+ZDpXib8qK59HEbA+lJBsl+rjZX7Uwthibm
+   6ZiMt9cNhbx+lRt7bt4=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=key1; d=praeba.xyz; 
+ =?utf-8?q?b=3Da3N8OvFKGJP9OhEWoNFr58P6Yl/CsE8fEXf7gEo8hBUO/LfinQlb/7aIXLikO?=
+ =?utf-8?q?5fwzqHfHqChN33P?=  
+ Szgemcl10Y2us1UG5nE3FM1U1W3hJw+ryFS3CT4NesLV+drMOPtKDGnUnS9TDuHiDkE/iqbOeIn8
+   bLxrxhjRci4a/mehtPQ=;
+Date: Thu, 27 Feb 2020 17:19:05 +0000
+To:
+ "johannes.olegard@cyfoexample.one.com" <johannes.olegard@cyfoexample.one.com>
+From: Viktor Djanden <info@praeba.xyz>
+Reply-To: Viktor Djanden <info@apdat.xyz>
+Subject: Open vacancy question
+Message-ID: <56031f7c6630cf5bc442962d83d9b2ed@praeba.xyz>
+X-Ojjm-Campaign-Uid: cb531pbtzj741
+X-Ojjm-Subscriber-Uid: sy852ow4721b4
+Return-Path: info@praeba.xyz
+X-Sender: info@praeba.xyz
+X-Receiver: johannes.olegard@cyfoexample.one.com
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_1b062f5545a8cc712032974edcd2b24e"
+
+This is a multi-part message in MIME format.
+
+--b1_1b062f5545a8cc712032974edcd2b24e
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BFHi,=20I've=20attached=20my=20resume=20for=20an=20available=20posit=
+ion=20at=20your
+company..
+http://samantamini.space/campaigns/cb531pbtzj741/track-url/sy852ow4721b4/40=
+d6c20590636f51582f4b3e5f6d1e5455550966
+
+
+--b1_1b062f5545a8cc712032974edcd2b24e
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BF<!DOCTYPE=20html>
+<html>
+<head><meta=20charset=3D"utf-8"/>
+=09<title></title>
+</head>
+<body>Hi,=20I've=20attached=20my=20resume=20for=20an=20available=20position=
+=20at=20your=20company.<a=20href=3D"http://samantamini.space/campaigns/cb53=
+1pbtzj741/track-url/sy852ow4721b4/40d6c20590636f51582f4b3e5f6d1e5455550966"=
+><span=20style=3D"color:#ffffff;">.</span></a><img=20width=3D"1"=20height=
+=3D"1"=20src=3D"http://samantamini.space/campaigns/cb531pbtzj741/track-open=
+ing/sy852ow4721b4"=20alt=3D""=20/>
+</body>
+</html>
+
+
+--b1_1b062f5545a8cc712032974edcd2b24e--
+

@@ -1,0 +1,100 @@
+Received: from EBOX-PROD-SRV15.win.su.se (2001:6b0:5:1162:85f3:6da2:459d:88c7)
+ by EBOX-PROD-SRV16.win.su.se (2001:6b0:5:1162:2dba:d47b:bfc3:be04) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.21 via Mailbox
+ Transport; Wed, 8 Mar 2023 17:05:52 +0100
+Received: from EBOX-PROD-SRV14.win.su.se (2001:6b0:5:1162:10ee:1df:f550:9b8d)
+ by EBOX-PROD-SRV15.win.su.se (2001:6b0:5:1162:85f3:6da2:459d:88c7) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id 15.1.2507.21; Wed, 8 Mar
+ 2023 17:05:52 +0100
+Received: from mail-prod-route08.it.su.se (130.237.200.211) by
+ EBOX-PROD-SRV14.win.su.se (130.237.162.14) with Microsoft SMTP Server
+ (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256) id
+ 15.1.2507.21 via Frontend Transport; Wed, 8 Mar 2023 17:05:52 +0100
+Received: from mailfilter-ng-3.sunet.se (mailfilter-ng-3.sunet.se
+ [192.36.171.200])	(using TLSv1.2 with cipher ECDHE-RSA-AES128-GCM-SHA256
+ (128/128 bits))	(No client certificate requested)	by
+ mail-prod-route08.it.su.se (Postfix) with ESMTPS id 4PWxxX2cfmztZ	for
+ <johannes.olegard@dsv.su.se>; Wed,  8 Mar 2023 17:05:52 +0100 (CET)
+Received: from mail-wr1-x441.google.com (mail-wr1-x441.google.com
+ [2a00:1450:4864:20::441])	by mailfilter-ng-3.sunet.se (Halon) with ESMTPS	id
+ 1956b701-bdcb-11ed-bd22-0050569a1168;	Wed, 08 Mar 2023 16:05:52 +0000 (UTC)
+Received: by mail-wr1-x441.google.com with SMTP id h11so15875681wrm.5       
+ for <johannes.olegard@dsv.su.se>; Wed, 08 Mar 2023 08:05:52 -0800 (PST)
+From: "Professor. Jelena Zdravkovic" <headdisk757@gmail.com>
+To: =?utf-8?B?Sm9oYW5uZXMgT2xlZ8OlcmQ=?= <johannes.olegard@dsv.su.se>
+Subject: Available?
+Thread-Topic: Available?
+Thread-Index: AQHZUdfbQKbjm4n51kipb/I02Is/2Q==
+Date: Wed, 8 Mar 2023 17:05:16 +0100
+Message-ID:
+ <CAK23rKn5WsMFC=BwUx+3C8soMC0-RurrvmGTmRQB8M8_NH+3dg@mail.gmail.com>
+Content-Language: en-US
+X-MS-Exchange-Organization-AuthAs: Anonymous
+X-MS-Exchange-Organization-AuthSource: EBOX-PROD-SRV14.win.su.se
+X-MS-Has-Attach: 
+X-MS-Exchange-Organization-Network-Message-Id:
+ 6179567d-4d04-4937-d4c4-08db1feefe01
+X-MS-TNEF-Correlator: 
+X-MS-Exchange-Organization-RecordReviewCfmType: 0
+x-halon-sa-rules: =?utf-8?b?REtJTV9TSUdORUQ6MC4xLERLSU1fVkFMSUQ6LTAuMSxE?=
+ =?utf-8?b?S0lNX1ZBTElEX0FVOi0wLjEsREtJTV9WQUxJRF9FRjotMC4xLEZSRUVNQUlMX0VO?=
+ =?utf-8?q?VFROM=5FEND=5FDIGIT=3A0=2E25=2CFREEMAIL=5FFROM=3A0=2E001=2CHTML?=
+ =?utf-8?b?X01FU1NBR0U6MC4wMDEsUkNWRF9JTl9ETlNXTF9OT05FOi0wLjAwMDEsU1BGX0hF?=
+ =?utf-8?q?LO=5FNONE=3A0=2E001=2CSPF=5FPASS=3A-0=2E001?=
+x-halon-sa-score: 0.1
+x-halon-rpd-refid: 155819::1678291552-D87C58D3-81AAEC4F/19/7742964740
+x-halon-rpd-score: 0
+authentication-results: mailfilter-ng-3.sunet.se;	spf=pass
+ smtp.mailfrom=gmail.com smtp.remote-ip=2a00:1450:4864:20::441;	dkim=pass
+ header.d=gmail.com header.s=20210112 header.a=rsa-sha256 header.b=p46evFUy;
+	dmarc=pass header.from=gmail.com;
+x-halon-id: 1956b701-bdcb-11ed-bd22-0050569a1168
+x-ms-exchange-transport-endtoendlatency: 00:00:00.1598542
+x-ms-exchange-processed-by-bccfoldering: 15.01.2507.021
+dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com;
+ s=20210112; t=1678291551;
+        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=4DclQfM3DJwJlIIkh/mSMzLZ83TdeFiQEzf3fpUoipA=;
+        b=p46evFUy0MGLXWnomEVPbPzklV4nsdmY3gMZoyPb/6a2+XNsmm3DDawwA4vFjZBNZV
+         eZS34CvlsoG8HQ2vr0B3t13FtvoqQYdyHeNFQDgH90/Ud+e/edx12NeqfkiVA22M/IY/
+         DY3qyFKjTXBfOuOCXdstlQpnKrwaU8nFL3hulFVtD8pgD8Kpcvi1vbSwzxzDXURm7BmX
+         dzVQfJGFZ11ogMAk8nrF0VU1m+pLvJi1lOx74S+k1tPfcKYlXs09g4zYjWWmAbXHfGaf
+         pHJnbfwHif84bMDBiEomWjwzTPSrbkKIjlC15ZzOiM3ct/XKyaIAFh129aaYSvdLW7Zx
+         4MgQ==
+x-google-dkim-signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112; t=1678291551;
+        h=to:subject:message-id:date:from:mime-version:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=4DclQfM3DJwJlIIkh/mSMzLZ83TdeFiQEzf3fpUoipA=;
+        b=UOghThOOtkMS7vZPMpFgJAdhQZkcSiBI4UFbSsFFjo3YFh4EBJEZ44epfBIW+NXOVm
+         NMXW8n/Wj2au2QQlZR0gqfArsJ+YQNbvkDDYTHC1OqfXc8fk4z/Kq+GttDys9E7IYOQn
+         sDh9j7kD/3TCyHOfRYhyL4swAMIwVCwtAlsanGejh8aEUIq7bvyuMU84vKxAI/uwCm+0
+         AZP8FX5ohxI+yzkV6V49CV4kS6ms/SRxTlHRO6d2LEhKocNhg6ldyxTYrRJjjU6oJbL9
+         4kJbbFBM2UK/QzaelKoM63WddBAvfuHtdsTNVUsrwZV11d3SOeg6TlOGo9jxKJcoSB2J
+         q68w==
+x-gm-message-state: AO0yUKURAThxf8Mkt5GsmVD51CdYsUqnGO2jbZoLETMWVCQHzTm9X0rC
+	ZBIDyKP8UBrrn+eSQTyLFtD+dAY219QZWzuq9amJBqcYhd+bIAK+SaM=
+x-google-smtp-source: =?utf-8?q?AK7set/2Kq5AR1fuvyDHi9isVNGFPLw5tUvsdYPFhdKW?=
+ =?utf-8?q?9xF0T3apa+exsQVeKmaUeIUrIu/p4nN4YU34CQ1XnHwCm1k=3D?=
+x-received: by 2002:adf:dc12:0:b0:2ca:e856:5ad with SMTP id
+ t18-20020adfdc12000000b002cae85605admr4010422wri.3.1678291551116; Wed, 08 Mar
+ 2023 08:05:51 -0800 (PST)
+Content-Type: multipart/alternative;
+	boundary="_000_CAK23rKn5WsMFCBwUx3C8soMC0RurrvmGTmRQB8M8NH3dgmailgmail_"
+MIME-Version: 1.0
+
+--_000_CAK23rKn5WsMFCBwUx3C8soMC0RurrvmGTmRQB8M8NH3dgmailgmail_
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: base64
+
+77u/DQpQbGVhc2UgbGV0IG1lIGtub3cgaWYgeW91IGFyZSBmcmVlIHJpZ2h0IG5vdw0K
+--_000_CAK23rKn5WsMFCBwUx3C8soMC0RurrvmGTmRQB8M8NH3dgmailgmail_
+Content-Type: text/html; charset="utf-8"
+Content-ID: <F1A07C8B8CB3334983052BB23441375B@win.su.se>
+Content-Transfer-Encoding: base64
+
+77u/PGh0bWw+DQo8aGVhZD4NCjxtZXRhIGh0dHAtZXF1aXY9IkNvbnRlbnQtVHlwZSIgY29udGVudD0idGV4dC9odG1sOyBjaGFyc2V0PXV0Zi04Ij4NCjwvaGVhZD4NCjxib2R5Pg0KPGRpdiBkaXI9Imx0ciI+PGJyPg0KUGxlYXNlIGxldCZuYnNwO21lIGtub3cgaWYgeW91IGFyZSBmcmVlIHJpZ2h0IG5vdzxicj4NCjwvZGl2Pg0KPC9ib2R5Pg0KPC9odG1sPg0K
+--_000_CAK23rKn5WsMFCBwUx3C8soMC0RurrvmGTmRQB8M8NH3dgmailgmail_--

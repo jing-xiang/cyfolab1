@@ -1,0 +1,90 @@
+Return-Path: <sarah.whitmore.cyfoinc@gmail.com>
+Delivered-To: jordan.wells@cyfoinc.one.com
+Received: from mx1.cst.mailpod12-cph3.one.com ([10.27.56.11])
+	by mailstorage27.cst.mailpod12-cph3.one.com with LMTP
+	id 8P9+CWgvRWYAdAAATK8Ghw
+	(envelope-from <sarah.whitmore.cyfoinc@gmail.com>)
+	for <jordan.wells@cyfoinc.one.com>; Wed, 15 May 2024 21:55:52 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=custmx.one.com; s=20201015;
+	h=mime-version:date:message-id:subject:to:from:content-type:x-halone-refid:
+	 x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=OZgA11NxKXH/SzK67wjnPb6xAzywitqH7IgktVdDkBQ=;
+	b=N5z65vbkhY+HeTmppVf42npbeuRwkH5tAAlC13Hgz/hCrEAvKjk0ClO/+7mESlqIyLEcc7RvgF4+v
+	 Yau1h52U9VPq4P9PRl8Xdxpgn0EsvXt2OrGqivbJuXgPFIJJO5y25VtPuicfToDIOCiqGzVk9ftBPJ
+	 YKLO3wgshquV+hTyYSv/GrHVS8rwExqtJ7DjSVR4EISW9NyMcPB2VhyZwMTeuv6M4JZm+C0KICCptT
+	 fj2TiUKUIPQkiOiOTflQBnYDApKJ1PUcEXSbAA+mweebeoolZJk9SfNMZ2HRqe37vRFLUyQd/yd/sJ
+	 hpuuzOkLacp9awK4JOgRImgMOnSgq+w==
+X-HalOne-SA: 1
+X-HalOne-RefID: 155866::1715810150-9D12036A-C78252F8/3/7966191452
+X-HalOne-Spam-Probability: 1
+Authentication-Results: mx1.pub.mailpod12-cph3.one.com;
+	spf=pass smtp.mailfrom=waliagro.com smtp.remote-ip=209.85.166.66;
+	dkim=pass header.d=waliagro-com.20230601.gappssmtp.com header.s=20230601 header.a=rsa-sha256 header.b=LyWQ45Bc;
+	dmarc=none header.from=waliagro.com;
+X-HalOne-ID: e452d6ec-1305-11ef-b332-b07b25bf071a
+Received: from mail-io1-f66.google.com (mail-io1-f66.google.com [209.85.166.66])
+	by mx1.pub.mailpod12-cph3.one.com (Halon) with ESMTPS
+	id e452d6ec-1305-11ef-b332-b07b25bf071a;
+	Wed, 15 May 2024 21:55:50 +0000 (UTC)
+Received: by mail-io1-f66.google.com with SMTP id ca18e2360f4ac-7e1c93c0b0dso2799439f.0
+        for <jordan.wells@cyfoinc.one.com>; Wed, 15 May 2024 14:55:50 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=waliagro-com.20230601.gappssmtp.com; s=20230601; t=1715810149; x=1716414949; darn=cyfoexample.one.com;
+        h=mime-version:date:message-id:subject:to:from:from:to:cc:subject
+         :date:message-id:reply-to;
+        bh=OZgA11NxKXH/SzK67wjnPb6xAzywitqH7IgktVdDkBQ=;
+        b=LyWQ45BcXnK/yZCK2toTMvxWBMfulB5MKCLS3ThgwRbuJelAPpjGvxbz9E1bHDmmdW
+         tbZ7z+7i+6hequWllPFDFGBzuO89fvNUpXSBweFfnZpfcxc2yQZsyuvJVKX/79csn9WG
+         CMlTVz68n8LDSkng6jJKJoLh2+33KVpm0a9lcJyL/2B5ltwcDpebXu3MvZJVNWzf8oDI
+         emI4FNP6sNi83jOe6piqOWspxqDw66KUyZ8fKpI9wSeJXVu6lST1QCdP4aNzJ9ndOjmG
+         wuMZ7pfDHN0ywqJtDlq7HUba4+EqAhErSsp/vu2mnH1DJaA85bxZJg6I3337MwDn1p2o
+         D4bg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20230601; t=1715810149; x=1716414949;
+        h=mime-version:date:message-id:subject:to:from:x-gm-message-state
+         :from:to:cc:subject:date:message-id:reply-to;
+        bh=OZgA11NxKXH/SzK67wjnPb6xAzywitqH7IgktVdDkBQ=;
+        b=IJKV3QLVU4E8H7JcjqPqutsl48G6CUX8Bh/9LHSm5sL2aQCPEGlPefcjtpwbe+qOzF
+         c5fZ9Cy/vUdxyhOAxwloDdHoj8m5lU59dv6NoEnW5+zKXYqsaXtKgO62XToFbBeXXMPP
+         ZGX+yWJb/z0lpVJg/2F8WTCPaSVxPFm1agdpAX/oejbTAdWv2qMRrByppPdVy61z9/yn
+         4y0kxAaqaXSseH0LGShTfxa616wPf1GgXM0VC3MUXfxhCXkFEK6MPwqraDXyq8uy0q4B
+         YgETkFD8aVdvHkEtyUwTImQLdLzk9n579vjDi1iev3tFp1pQ7Bp+P1d4OsmT+0SpuERR
+         jIeQ==
+X-Gm-Message-State: AOJu0Ywq+UMhfJr+yOxwefOkjpQyzy6Kb5kRmLdzkJAErTH6Mu1oe0NM
+	4Aqaa3039U7+yKoTPQPVN88T5nQLu6QN09SoDvymBhGRae1DN0gSWmMK9qUv9B2alODSbeTL0wz
+	b+fo=
+X-Google-Smtp-Source: AGHT+IEQ7RgNuSzGpPn1wGCeMdvSePThP9mhETcSXj4OzVQBBLwV7sr5jn5NezGJEKNTIo8R2uHMBA==
+X-Received: by 2002:a6b:5007:0:b0:7de:cdf2:7f21 with SMTP id ca18e2360f4ac-7e1b5205b78mr1765569039f.16.1715810148451;
+        Wed, 15 May 2024 14:55:48 -0700 (PDT)
+Return-Path: <sarah.whitmore.cyfoinc@gmail.com>
+Received: from [127.0.0.1] (167.206.71.34.bc.googleusercontent.com. [34.71.206.167])
+        by smtp.gmail.com with ESMTPSA id 8926c6da1cb9f-4893700e20asm3756087173.17.2024.05.15.14.55.47
+        for <jordan.wells@cyfoinc.one.com>
+        (version=TLS1_3 cipher=TLS_AES_256_GCM_SHA384 bits=256/256);
+        Wed, 15 May 2024 14:55:47 -0700 (PDT)
+MIME-Version: 1.0
+From: Sarah Whitmore <sarah.whitmore.cyfoinc@gmail.com>
+Date: Mon, 23 Aug 2021 08:59:00 +0000
+Message-ID:
+ <CAPyv5ojs6zZAQ-6=APzH5hyBvpR5ghE-KB8y3mxp+gA=sviq-g@mail.gmail.com>
+Subject: URGENT: Immediate Wire Transfer Required
+To: Jordan Wells <jordan.wells@cyfoinc.one.com>
+Content-Type: text/plain; charset="UTF-8"
+
+Hello Team,
+
+We are finalizing a new research partnership with BioGen Labs (Switzerland), and they require an initial deposit of $250,000 to process our equipment order. This is an urgent matter, as we need the equipment delivered before the end of the quarter.
+
+Please process the transfer to the following account immediately:
+
+Bank Name: Swiss International Bank
+Account Number: 8473927492
+SWIFT Code: SWISCH29
+Reference: CYFO INC Equipment Purchase
+
+Once completed, send me a confirmation email with the transaction details. I am currently in a meeting with the CEO, so please prioritize this request.
+
+Thanks,
+Sarah

@@ -1,0 +1,71 @@
+Return-Path: <admin@charlottehairmd.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id aB/dLHIWTmC0fAAAtf5whQ
+	(envelope-from <admin@charlottehairmd.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Sun, 14 Mar 2021 13:58:10 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	h=message-id:reply-to:date:from:to:subject:content-description:	 
+ =?utf-8?q?content-transfer-encoding=3Amime-version=3Acontent-type=3Ax-halon?=
+ =?utf-8?q?e-refid=3Ax-halone-sa=3A?=	 from:x-halone-sa:x-halone-refid;
+	bh=e8/EpMjEds3UQ45lAk7I8+/vaRgMF7gjJE/WjVlxrDg=;	=?utf-8?q?b=3DMEM3YEu4jyDA?=
+ =?utf-8?q?5gW2RSKl8Ojdy6u4OGsv7iNNTOA7nkhCMqUUJZ9xrkNxBlYPWfq+tTiVi9W5RAORW?=
+	 =?utf-8?q?NVLlF/hmbL/s5+vT1hTAJ7Vh7+UdAyX7ZanOfikMoWiBc3YxguZNkK7LTO8DR28d?=
+ =?utf-8?q?geCR41jZlakexA=09_W/MJT13wJM2i21E83nophD8qxHPfEtPitCrMUVIeupSlFZi?=
+ =?utf-8?q?jinhvOW4og+xwf6wprFETd9+S7FVMAq=09_8EAXxs7cA34CPZYGkLLU4R0BGy6pmL?=
+ =?utf-8?q?a5gTTnfFpVgTrTQtJ/7L7CAI5uIWLH15Fk+PEvnSMV6wQgGS?=	
+ ENeJg8tVbuS9sGAIiwyRy2uckCaOiUw==
+X-HalOne-SA: 9.4
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F20=2E604D75C7=2E0014=2Css=3D4?=
+ =?utf-8?b?LHNoLHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZn?=
+ =?utf-8?q?s=3D0?=
+X-HalOne-ID: 44f91844-84cd-11eb-bf1b-ec0d9a6ed98e
+Received: from host2.internetinspirations.com (host2.internetinspirations.com
+ [67.225.140.50])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 44f91844-84cd-11eb-bf1b-ec0d9a6ed98e;	Sun, 14 Mar 2021 13:57:54 +0000 (UTC)
+dkim-signature: v=1; c=relaxed/relaxed; =?utf-8?q?h=3Dcontent-type=3Amime-ve?=
+ =?utf-8?q?rsion=3Acontent-transfer-encoding=3Acontent-description=3Asubject?=
+ =?utf-8?q?=3Ato=3Afrom=3Adate=3Areply-to=3Amessage-id=3B?=
+ d=charlottehairmd.com; s=default; a=rsa-sha256;
+ bh=e8/EpMjEds3UQ45lAk7I8+/vaRgMF7gjJE/WjVlxrDg=;
+ b=M0Bgr6Dk5mmEOjWB9KZTLRQNlsBGqjFvZ4WI74dgoL43yFDZ45+U3/QIxZqPbWT+s
+ y1qBYIweH++lGt/e5kv3UQ23RMtskTvpXZwS5AB441X236ZJAyrIskyxa29SArtH9kP
+ ZEgQF2M8Nr1oGm+PKrkEx8C2Rh2q2CAdfpYX808=;
+Received:
+ from ([127.0.0.1]) with MailEnable ESMTPA; Sun, 14 Mar 2021 09:45:13 -0400
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: Re; Greetings !!
+To: Recipients <admin@charlottehairmd.com>
+From: "Mr. Azim H. Premji" <admin@charlottehairmd.com>
+Date: Sun, 14 Mar 2021 15:45:07 +0200
+Reply-To: ahpcharity@gmail.com
+Message-ID:
+ <E89D61F66B2B4D108A21A0107D887C98.MAI@host2.internetinspirations.com>
+
+Hello,
+
+I'm=20Azim=20Hashim=20Premji,=20an=20Indian=20business=20tycoon,=20investor=
+,=20and=20philanthropist.=20I'm=20the=20chairman=20of=20Wipro=20Limited.=20=
+I=20gave=20away=2025=20per=20cent=20of=20my=20personal=20wealth=20to=20char=
+ity.=20And=20I=20also=20pledged=20to=20give=20away=20the=20rest=20of=2025%=
+=20this=20year=202021=20I=20have=20decided=20to=20donate=20$1,800,000.00=20=
+US=20Dollars=20to=20you.
+
+If=20you=20are=20interested=20in=20my=20donation,=20do=20contact=20me=20for=
+=20more=20info.=20I=20will=20also=20want=20you=20to=20be=20part=20of=20my=
+=20Charity=20Foundation=20once=20you=20receive=20this=20money=20so=20we=20c=
+an=20join=20hands=20together=20to=20help=20the=20needy..
+
+You=20can=20also=20read=20more=20about=20me=20via=20the=20link=20below
+
+https://en.wikipedia.org/wiki/Azim_Premji
+
+Contact=20here=20via=20Email=20for=20more=20details:=20ahpcharity@gmail.com
+
+Warm=20Regard
+CEO=20Wipro=20Limited

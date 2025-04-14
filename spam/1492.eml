@@ -1,0 +1,80 @@
+Return-Path: <florenceammar083@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id QJwVO4EugWETOwAAtf5whQ
+	(envelope-from <florenceammar083@gmail.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 02 Nov 2021 12:26:41 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:subject:message-id:date:from:reply-to:mime-version:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=t98PkYHmyQ2wBqwyGBjxZ3jA4qAdIPhSqj+rhEsXsEw=;	=?utf-8?q?b=3DdvbYSjdm0cDv?=
+ =?utf-8?q?8rv5Res3PRnlHOGFVTtc00BNlbf7YQ72JzdN8wRNS7/l6y9FJ042vdqABlIbwDEJ3?=
+	 =?utf-8?q?9kdTA6CA7tKxg337MIO8YUAbJbw9ORnlioEFWx7YZ+etsj36dSUjQFpPfuBKP1vQ?=
+ =?utf-8?q?1S9vpggocKpZw8=09_WjZat6WLzRzlT91p27eQKqS32Dmr4yUEGXqGjmed+Cj2jxS?=
+ =?utf-8?q?yLXossvEDWBe8ePpzqwHGpcNtpR+P6S=09_1S6EQehoNove53ZFqjWoYzO7JzU37z?=
+ =?utf-8?q?f4QuG9QmMxa/LOGS1XmWm1Vepq9crWgRPNeglLQ/5hkXWv+/?=	
+ bCLlmI961+XTn6dE9u1Kmf/pzWK2qDQ==
+X-HalOne-SA: 13.7
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F1B=2E61812E81=2E0059=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz04?=
+X-HalOne-ID: 221ed486-3bd8-11ec-88d2-ec0d9a6ed98e
+Received: from mail-ed1-f67.google.com (mail-ed1-f67.google.com
+ [209.85.208.67])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 221ed486-3bd8-11ec-88d2-ec0d9a6ed98e;	Tue, 02 Nov 2021 12:26:41 +0000 (UTC)
+Received: by mail-ed1-f67.google.com with SMTP id w15so75461662edc.9       
+ for <johannes.olegard@cyfoexample.one.com>; Tue, 02 Nov 2021 05:26:41 -0700
+ (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:reply-to:from:date:message-id:subject:to;
+        bh=t98PkYHmyQ2wBqwyGBjxZ3jA4qAdIPhSqj+rhEsXsEw=;
+        b=MbFE3ET8HpSUr8QTn2ZwE6oWrpKi3A7ajVtD4rtL4pqw8jpgoFrur1hEKFyWxMSXbi
+         nekuAPvtI0BO9MINOMpZJ1ZhfVviClPzNgij4dLIqRI3Ejgfb/4Rg8ugSCHvb+1f2ZdB
+         W7pRLj76R5n22w41jsm4yrh6/BDpjWPeccYFOhubqSrUeBqckOGUUpv0IuTAkHAWeeTf
+         wv9LvWNsHY4hWo+RMF64mKeENz2oZwACY98uqRGu37y3nKV+uM6ezKYwajAzX1CwkLok
+         Qp4OFibO9F2UClKGPpOiqk38eDGWTI0/Lj9L/9k3Kqpm6SJjNa53+h3yEPYaoRwvzi7q
+         LJWg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=t98PkYHmyQ2wBqwyGBjxZ3jA4qAdIPhSqj+rhEsXsEw=;
+        b=vOZspjCDHjpGJUymPO8XSPseMeRoEdfN8UtGTlX0tndpvGi6JEOGr7X0HrD/VfaReH
+         Nhg5VmqmUkUs3JSBFgYSIVqqRJ9eisc83/5U9cW6UNodAV5n0G8ssNk5pd14nN7/8cp7
+         KZgr1qtT199pq25n5qR5WRB0+Cvyf62aGo1hpQv++PDqsGNg/yo2hHmIcZuMYARIjMV8
+         DatAtXSM3fxsuXU9UR+/0qDvJHJjBlr0lAXTQ09xxDuFvM6hIV+OkgDJ8ga19wXXj5J3
+         Ns00fF4nJ/RR+xmm1k7i7zephmLcV7jTsVSJ7Y8qAQXY7eNuPwSUXPipE2flCYvd7fim
+         1gMw==
+X-Gm-Message-State: AOAM531T5GqD/3gHgzxj27m3vRAUB9ZTu48pGUpEkYAFJw/mYOYZj7KN
+	GHnddeUY2wUte023Vs7gJeQ9yGP8eYjNDbRiYOY=
+X-Google-Smtp-Source: =?utf-8?q?ABdhPJxEi7VpLqSlhp8LBlj8b7rVGRc/aNw+ilbggrM4?=
+ =?utf-8?q?lZjKPRHj4BuCvoPW5Ut+D2UVZoAXkUZJhjDCcfV5cj7pUzQ=3D?=
+X-Received: by 2002:a17:907:7fa7:: with SMTP id
+ qk39mr45378562ejc.384.1635855998611; Tue, 02 Nov 2021 05:26:38 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:a17:907:2da1:0:0:0:0 with HTTP; Tue, 2 Nov 2021 05:26:37
+ -0700 (PDT)
+Reply-To: florenceammar848@gmail.com
+From: Mrs Florence Ammar <florenceammar083@gmail.com>
+Date: Tue, 2 Nov 2021 13:26:37 +0100
+Message-ID:
+ <CAP0RhinUMWQnvb1wpm=Znz+N8r10sk0HGXg6JZLd7zWkiAt4Xw@mail.gmail.com>
+Subject: Greetings my beloved friend, I am Mrs. Florence Ammar, please I have
+ a fund of $2,800,000.00 Million dollars that I want to donate through you for
+ the orphanage, widow, and charity home. I am writing from the hospital where
+ I was diagnosed because of blood cancer for a very long time and I am afraid
+ that I might lose this fund to the government here if I die because I want
+ the fund to be for the poor in society. I will appreciate your honesty and
+ courage to handle this fund to help the orphans and the charity home. As soon
+ as I receive your message regarding your interest in this fund to help the
+ charity home and the less privileges, I will give you more details about this
+ fund. Please contact on this email address. Regards, Mrs. Florence Ammar
+To: undisclosed-recipients:;
+Content-Type: text/plain; charset="UTF-8"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+-- 
+I am currently admitted in a private hospital

@@ -1,0 +1,69 @@
+Return-Path: <humas@damri.co.id>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id uDNWNidl8F+HeAAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Sat, 02 Jan 2021 12:20:55 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-transfer-encoding:content-type:mime-version:date:subject:from:	
+ reply-to:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=ZwCBMZkCzjrRpRll4zYmRvxhg5WtYORm4VRD7yO113E=;	=?utf-8?q?b=3DL8+ukIgHXIRT?=
+ =?utf-8?q?wOzYeUdXOyV76kafVSzdFqmv98YsMq0vdwcksd0lb5U4nwDPrP0opm9NM8VkD6j3M?=
+	 =?utf-8?q?fB7JMKF9FaornfsZ9tXke5nB/2/ym4xAt21ACGinund8BaZQXtF0R4Q26MXUxaBZ?=
+ =?utf-8?q?KxKda+wCBreCC0=09_s7+EGxFcjZ26UoltVuZHCS7oYSZGg6H4pCEH8xz3ZkyMb6y?=
+ =?utf-8?q?noSCyZV0zVFyFJ3+ah0WLmaIEtPAY3F=09_Dgi3jDoRVNfz8EB94j1cnOCx0kmf1+?=
+ =?utf-8?q?tUZH4dRg1XbNh7hJvGHiIqyKC+KWfxARCWGVMLx+YB31DpPh?=	
+ d28ZFL+tOb0I7uIEPf8Hfpoq7sgHnkQ==
+X-HalOne-SA: 19.8
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F27=2E5FF06525=2E0009=2Css=3D4?=
+ =?utf-8?b?LHJlPTguNDc5LHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz0w?=
+X-HalOne-ID: f485f9cf-4cf4-11eb-ab1e-e0d84894a001
+Received: from asav.damri.co.id (ip-43-43.balifiber.id [103.138.43.43])
+	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTP
+	id f485f9cf-4cf4-11eb-ab1e-e0d84894a001;
+	Sat, 02 Jan 2021 12:20:52 +0000 (UTC)
+X-ASG-Debug-ID: 1609568714-111d9576ffdf3a0001-B9qISj
+Received: from User ([192.168.13.1]) by asav.damri.co.id with SMTP id
+ FG9fCQdtFrCrOfi1; Sat, 02 Jan 2021 13:25:15 +0700 (WIB)
+X-Barracuda-Envelope-From: humas@damri.co.id
+Reply-To: <chsokheng@yahoo.com>
+From: "Chan Sokheng"<humas@damri.co.id>
+Subject: URGENT RESPONSE NEEDED.
+Date: Sat, 2 Jan 2021 13:25:46 +0700
+X-ASG-Orig-Subj: URGENT RESPONSE NEEDED.
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+X-Barracuda-Connect: UNKNOWN[192.168.13.1]
+X-Barracuda-Start-Time: 1609568714
+X-Barracuda-URL: https://192.168.13.20:443/cgi-mod/mark.cgi
+X-Barracuda-License: Expired
+X-Barracuda-BRTS-Status: 1
+X-Barracuda-Fingerprint-Found:
+ *Phishing.Other (bbf90e93c84f19a641b19af3acdef050-1385-txt)
+X-Virus-Scanned: by bsmtpd at damri.co.id
+X-Barracuda-Scan-Msg-Size: 1402
+
+Warm Greetings
+   
+My name is Chan Sokheng, a personal Accountant/Board Member working with Foreign Trade Bank of Cambodia (FTB). I have an interesting business proposal for you that will be of immense benefit to both of us.
+
+I need your assistance to secure an inheritance fund that belong to a late investor of our bank who died as a result of heart-related condition on march 2005.His heart condition was duo to the death of the members of his family in the tsunami disaster on the 26 December 2004 in Sumatra Indonesia where they all lost their live.
+
+There is a draft account opened in our bank by him in 1999 and after his death no next of kin has come forward all this years for claim. The amount in this account is currently ($32,640,000 (Thirty Two Million Six Hundred and Forty Thousand United States Dollars).I want to present you as a beneficiary,I will use my position and influence in our bank to make them release this money to you for us to share.
+
+Most importantly, I will need you to promise to keep whatever you learn from me between us even if you decide not to go along with me. I will make more details available to you on receipt of a positive response from you.
+
+I am in good faith and with trust waiting for your Urgent respond and maximum cooperation for more details.
+    
+Yours sincerely
+Chan Sokheng
+Board Member
+Foreign Trade Bank of Cambodia
+Phnom Penh.

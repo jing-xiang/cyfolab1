@@ -1,0 +1,73 @@
+Return-Path: <natwestbank.plc.220@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id yMX8BmVq5GIOVwAAtf5whQ
+	(envelope-from <natwestbank.plc.220@gmail.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Fri, 29 Jul 2022 23:16:53 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:subject:message-id:date:from:reply-to:mime-version:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=hG5GS5+fM+QG+mQqdAhRtJA/bk5kIcRfjpLOZQKRq+o=;	=?utf-8?q?b=3DK+8LWRcmdNTn?=
+ =?utf-8?q?F3BzhQEgj14iPPhmijS0lb/MGusWSczXgJqqHsrhPZwNk+CXslMlDy/C8/eE5UHpL?=
+	 =?utf-8?q?v8y5NzDVttKSo15/AjtAl3PesnbPr4tn82O986U3mlpNI1RgHEBCunAXPSqW8uC5?=
+ =?utf-8?q?oEIN+Py3wuA7rR=09_3M5XdWCB4NvptsLYznzTW5KBChOB7wJY3QR3XKyag4ZICk+?=
+ =?utf-8?q?MP5WlNZggdbC/xjtljnTgY9QTpLfXg3=09_E4cnviB+khQywFzERWbWt2qKCJc7DZ?=
+ =?utf-8?q?/B6JLC2kMSnEo4AePq1rGB6yYpgcrghpTMKdoX97pkZWFRby?=	
+ f7rgpERvKPCXaoDHwCh+JE57g3Ute7A==
+X-HalOne-SA: 15.4
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F24=2E62E46A64=2E0021=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz04?=
+X-HalOne-ID: 87cf2893-0f94-11ed-b562-e0d848974e01
+Received: from mail-wm1-f66.google.com (mail-wm1-f66.google.com
+ [209.85.128.66])	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 87cf2893-0f94-11ed-b562-e0d848974e01;	Fri, 29 Jul 2022 23:16:52 +0000 (UTC)
+Received: by mail-wm1-f66.google.com with SMTP id
+ j29-20020a05600c1c1d00b003a2fdafdefbso3084307wms.2        for
+ <johannes.olegard@cyfoexample.one.com>; Fri, 29 Jul 2022 16:16:52 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=to:subject:message-id:date:from:reply-to:mime-version:from:to:cc;
+        bh=hG5GS5+fM+QG+mQqdAhRtJA/bk5kIcRfjpLOZQKRq+o=;
+        b=THZf6b/n1sRp6jPOyh/6eQchc5yvGynHCIMd4WdSjY3WXMoxCVg1BXacDXYhtAbJH0
+         a65p4Y9o6T/wtlQkIrjTisjZ928nWciQ2FpqbxqJe3514aL6fso30U7/S6fQV5khgj8g
+         dUloE2jrS8Z1w+HkiUECtAIbe2Xea1xYbWwMSYqFNBU7YyAtor/tzjKx2OxyIUDopZJ+
+         szLw4Ss1Od4+vEVpkmk/RowExsXt+Cq5PIlgd4HsqDaQ989hkpGyC+H73XXl+PKvlnoO
+         yHy3buWCa+LwOhposC5dkGBNwHB8/3ueaJFhUhmi6Ydl4MByJVOUoDRRjBa0Auox/udD
+         GlpQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=to:subject:message-id:date:from:reply-to:mime-version
+         :x-gm-message-state:from:to:cc;
+        bh=hG5GS5+fM+QG+mQqdAhRtJA/bk5kIcRfjpLOZQKRq+o=;
+        b=N2xPVdf1NaFLUqS5mJwHNJdmnDRx93B4XKm0U5U6QNfAezDJxPkqZ1Ws1uuStyKsf5
+         9ND9ALQeV6DTrL4C18i87HNnyH6kRKInQczmMVVmuGbjXNRxbs67D+tfPAP3II8gSIms
+         W16S9SasqXSiApMBWcvSegyKpuNw1oCIXogExfoGlDfIT0XtUIEweXweBbH8thQJ4JH2
+         U7ZkUvu3uJt3q9jr6zr0SV5e5Y8zXRIPt5E0QWO1f6/n+tm7NG78uPpJDBd0BukARMpF
+         +ymL+bQKsUkX8Ly4JQgDSXyVjn9C2hDca3U32BwWxVq2DKuyz8QvtHjKDyjdRN8LoWop
+         8atw==
+X-Gm-Message-State: AJIora/1fw48YAzUT0vEOduJGbsauhjcFycWD0ya6mpZbMGa5cv27NBH
+	52pTaHKEt/FlzTiXXoEbeBVb/BXx2vOfwHmXcAU=
+X-Google-Smtp-Source: =?utf-8?q?AGRyM1tykYA6EfTlO3LCbVpY2P/EdrU1Hprig22FTnj7?=
+ =?utf-8?q?jOHu27lsZ7zFOQpyunsbNWLIo/ee6v1a8zEutFBuGsE6SWE=3D?=
+X-Received: by 2002:a05:600c:ad2:b0:3a3:181e:e228 with SMTP id
+ c18-20020a05600c0ad200b003a3181ee228mr4298329wmr.139.1659136612095; Fri, 29
+ Jul 2022 16:16:52 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:a05:600c:4f8e:0:0:0:0 with HTTP; Fri, 29 Jul 2022 16:16:51
+ -0700 (PDT)
+Reply-To: romeodoca@gmail.com
+From: Susanne Klatten <natwestbank.plc.220@gmail.com>
+Date: Fri, 29 Jul 2022 16:16:51 -0700
+Message-ID:
+ <CAC+dUTBQDm1mDWz8rq-VNPc77eo_xVBQr2Z_7cuBgHPHsU6h0A@mail.gmail.com>
+Subject: 
+To: undisclosed-recipients:;
+Content-Type: text/plain; charset="UTF-8"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+-- 
+Charity Donation funds amount of $3.5 Million in your name as the
+beneficiary.

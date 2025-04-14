@@ -1,0 +1,62 @@
+Return-Path: <>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id WGWZHJ2xumBgZgAAtf5whQ
+	(envelope-from <>)
+	for <johannes.olegard@cyfoexample.one.com>; Fri, 04 Jun 2021 23:05:01 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=to:message-id:content-transfer-encoding:content-type:mime-version:date:	
+ subject:from:reply-to:x-halone-refid:x-halone-sa:from:x-halone-sa:	
+ x-halone-refid;	bh=4qQT+fEwzG+1sZFR1JYrnChzlvnFBXA1o9JYVuHV/Nk=;	
+ =?utf-8?q?b=3DLAW+sgYs99C/vsMBIaJRM8rCQa0z9dB5QEHp16H9OMvkwmgrGKb0FWEfCGv6T?=
+ =?utf-8?q?itSXmxvZrx6fGxdQ=09_TSstfKqjpxAmlobHWFhAkm5NEPop5RBXwkHyLIZ9oIaIF?=
+ =?utf-8?q?O+e+DJovEppXUYCTPrnVCQoVB9lRL/JF1=09_/EOKWjhyZCNtrDNA/BK3aZiC+eIt?=
+ =?utf-8?q?Bk9Sr87d/We7xAN/jPokMb9BbaKshf7qhqKTArkr13D1p0CjLy=09_D+Hl3gk26eE?=
+ =?utf-8?q?YJUVXaAsfjfuCIayHk9HvdXNtfkoPASTptWBMVYxvHwxuexiwWmZvGTbhSLD5M6VA?=
+ =?utf-8?q?lW?=	 Qv+Ewni+a+RByRuG7fR+DsuSqfKJgcw==
+X-HalOne-SA: 11.9
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F18=2E60BAB19B=2E000E=2Css=3D4?=
+ =?utf-8?b?LHJlPTQuNjgwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz04?=
+X-HalOne-ID: 483c546f-c589-11eb-ab23-e0d84894a001
+Received: from spam.tailiftgroup.com.tw (spam.tailiftgroup.com.tw
+ [59.125.91.134])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTP	id
+ 483c546f-c589-11eb-ab23-e0d84894a001;	Fri, 04 Jun 2021 23:04:58 +0000 (UTC)
+Authenticated-By: 
+X-SpamFilter-By: ArmorX SpamTrap 5.73 with qID 154MxB0x9001564, This message
+ is accepted by code: ctloc85258
+Received: from TGEX01.tailiftgroup.local ([192.168.1.11])
+	by spam.tailiftgroup.com.tw (8.15.2/2.71/5.88) with ESMTPS id 154MxB0x9001564
+	(version=TLSv1.2 cipher=ECDHE-RSA-AES256-SHA384 bits=256 verify=FAIL);
+	Sat, 5 Jun 2021 06:59:11 +0800
+Received: from User (221.215.141.165) by TGEX01.tailiftgroup.local
+ (192.168.1.11) with Microsoft SMTP Server (TLS) id 15.0.1395.4; Sat, 5 Jun
+ 2021 07:02:55 +0800
+Reply-To: <u19906760@gmail.com>
+From: Zakari.Othman@spam.tailiftgroup.com.tw
+Subject: Attention
+Date: Sat, 5 Jun 2021 07:03:00 +0800
+MIME-Version: 1.0
+Content-Type: text/plain; charset="Windows-1251"
+Content-Transfer-Encoding: 7bit
+X-Priority: 3
+X-MSMail-Priority: Normal
+X-Mailer: Microsoft Outlook Express 6.00.2600.0000
+X-MimeOLE: Produced By Microsoft MimeOLE V6.00.2600.0000
+Message-ID: <863a55db83c44fb282ec3ba1f847fd50@TGEX01.tailiftgroup.local>
+To: Undisclosed recipients:;
+X-ClientProxiedBy: TGEX01.tailiftgroup.local (192.168.1.11) To
+ TGEX01.tailiftgroup.local (192.168.1.11)
+
+Attention:
+
+I believe you may be in a position to assist  me for this my proposed transaction, It is Raw Metal Gold of 200 kilograms, 24 Carat ( Currently i am intend to sell at 40,000 US Dollars per kilo not on world ruling market price), I am looking for a trust worthy individual or a buyer of this mineral, whom I can confided with because this said goods is a family inheritance and i am the heir apparent and my problem now I am facing is exportation aspect of this goods out from my country here, the said goods is under the custody of the Shipping Agent here with all proof documentation intact. My current emergency is the degrading political situation in my country.
+
+I assure you it is risk free, this transaction will be done legally and need honesty and confidentiality to maintain in this transaction. I will follow any advice you may desire or intend to render to me for us to be successful in this deal. Reply to my private email: u19906760@gmail.com
+
+Please do not reply if you are not interested! Because I need a serious partner call with a good credibility.
+
+Sincerely yours
+Zakari Othman

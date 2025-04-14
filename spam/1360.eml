@@ -1,0 +1,67 @@
+Return-Path: <Goncharov@msun.ru>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id ODJcG74LTWEzUQAAtf5whQ
+	(envelope-from <Goncharov@msun.ru>)
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 23 Sep 2021 23:20:30 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=message-id:reply-to:date:from:to:subject:mime-version:content-type:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=VMYapQMWUhlLyX8UVVKkNs6oKAbtLoSJrhDbnjKlgvA=;	=?utf-8?q?b=3DJ+NMYNKSH0H9?=
+ =?utf-8?q?ZVWlgg4HlwOEgUg/nE45JinFXl8bihbOFjfS7/hgIt0he6mbu43iXarz9hidoZNWb?=
+	 =?utf-8?q?GygEZGlccyoXDnNZxYqeY2HFsca6jEbUohtg6knILa1VUQU4ZYiLRj/IwE3VGpsj?=
+ =?utf-8?q?1a76sAjx2PoA+I=09_kaEQ9wqbOPx05HzQiZ6XTChcPrrh0q44I6eKHZ9YY/TWnzj?=
+ =?utf-8?q?+sx8bohpWP1FTigXw6T/T3o9tE/c0d+=09_XAf4pYt7r+a6RxleqJB1Y4qVjKUzrK?=
+ =?utf-8?q?Hxb3opM5DXJLu9bYwr3b5e8h1gUOJ0jbNJPVId1cssNHCSlM?=	
+ QnPZYnHQoYkV2lbVl/H14kRmUs8NdyQ==
+X-HalOne-SA: 8.5
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F29=2E614D0BBD=2E0014=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz04?=
+X-HalOne-ID: d66f98cd-1cc4-11ec-b82b-e0d84894a001
+Received: from mail.msun.ru (mail.msun.ru [85.95.148.35])
+	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id d66f98cd-1cc4-11ec-b82b-e0d84894a001;
+	Thu, 23 Sep 2021 23:20:29 +0000 (UTC)
+dkim-signature: v=1; a=rsa-sha1; s=mail; d=msun.ru; c=relaxed/relaxed;
+ q=dns/txt; h=Date:From:Message-ID:Subject:To;
+ bh=2fEvXijetJo7aJvpIwgcA/fCMg0=; =?utf-8?q?b=3Dt1TrHQ8rYb+lQDcqJydT4zKo3jXQ?=
+ =?utf-8?q?Ox+qL+bKLmeEn3sCNA4YmrfaWvGVeynCQutDrBhWyHhZLz4u5eMyDLcZ6C8aDdR0L?=
+ =?utf-8?q?zD/+WuyhUsE+lVzN05Xnp/R4fGbOEsR14g6MKyBRyPVUZUTmBe/51TJN0ww8NNCea?=
+ =?utf-8?q?JVR0J6jTODq4o=3D=3B?=
+Received: from DESKTOP-9P7110K.zuku.co.ke (41.212.89.112) by Mlssrv.msun.int
+ (85.95.148.35) with Microsoft SMTP Server (TLS) id 14.3.498.0; Fri, 24 Sep
+ 2021 09:04:41 +1000
+Content-Type: multipart/alternative; boundary="===============1364677911=="
+MIME-Version: 1.0
+Subject: Re: Proposal of Monetary Benefit
+To: Recipients <goncharov@msun.ru>
+From: "Mr. Yi Huiman" <goncharov@msun.ru>
+Date: Fri, 24 Sep 2021 07:04:09 +0800
+Reply-To: <yi.hiuman@yahoo.com>
+Message-ID: <05667404-313f-4fe4-a57f-f1356ded5b88@MLSSRV.msun.int>
+Return-Path: goncharov@msun.ru
+
+--===============1364677911==
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+Hello,=20I=20have=20a=20profitable=20business=20proposal=20that=20will=20be=
+=20of=20monetary=20benefit=20to=20both=20of=20us.=20If=20you=20are=20intere=
+sted=20then=20get=20back=20for=20full=20details.
+--===============1364677911==
+Content-Type: text/html; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+
+<html><head><meta=20http-equiv=3D"Content-Type"=20content=3D"text/html;=20c=
+harset=3Diso-8859-1"/></head>Hello,=20I=20have=20a=20profitable=20business=
+=20proposal=20that=20will=20be=20of=20monetary=20benefit=20to=20both=20of=
+=20us.=20If=20you=20are=20interested=20then=20get=20back=20for=20full=20det=
+ails.</html>
+--===============1364677911==--

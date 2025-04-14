@@ -1,0 +1,74 @@
+Return-Path: <noreplyeno@export-emrnaluc.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id OBJoDD8bHGXSZwAAtf5whQ
+	(envelope-from <noreplyeno@export-emrnaluc.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 03 Oct 2023 13:46:39 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	=?utf-8?q?h=3Dcontent-transfer-encoding=3Acontent-type=3Amime-v?=
+ =?utf-8?q?ersion=3Amessage-id=3Adate=3Asubject=3A?=	
+ to:from:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=EFD/Fmn1GobTrKyPoajAp6eW/4DWhPc5uDGLu+h3YVc=;	=?utf-8?q?b=3DgKMrHzuHSVSC?=
+ =?utf-8?q?GnsL7KAqbEUYPFax4jdDDj3oOjXymJCJk8Vu3ejRLtMC2UVxFB70tO5veqP/M5aNf?=
+	 =?utf-8?q?75NuM0bZnhxZuuK7UiGKWZqMZHySpLu6g8Yc3az9vyMAnyC02ex8Z/agjB+7CNJC?=
+ =?utf-8?q?6Y6QJzgoo5G3qd=09_cCtE0P2J6e9bwhNRh6ugFjw7fJkjzoNV87MyBcI72JaK5OX?=
+ =?utf-8?q?CI2kcD8naks5dsasYMq8IfPavvr/YO/=09_HM7Spj6kJX3Z6aDVZ0orknIIInEIg3?=
+ =?utf-8?q?+XXUbvGh3RPbXlFxMCFjnXM6ikNox+p/uoYjBx9/e2NFgpyr?=	
+ h0FcFUgBSxELwICz7losglV9D4ViQkQ==
+X-HalOne-SA: 2.3
+X-HalOne-RefID: 155866::1696340798-2F55D598-7C10F90C/17/64204
+Authentication-Results: mx1.pub.mailpod3-cph3.one.com;	spf=none
+ smtp.mailfrom=export-emrnaluc.com smtp.remote-ip=185.81.115.4;	dkim=pass
+ header.d=export-emrnaluc.com header.s=default header.a=rsa-sha256
+ header.b=tQvdeZ0U;	dmarc=none header.from=export-emrnaluc.com;
+X-HalOne-ID: 46acc37d-61f3-11ee-a4dc-e0d84894a001
+Received: from mta0.export-emrnaluc.com (cwp.fixdata.linkpc.net
+ [185.81.115.4])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 46acc37d-61f3-11ee-a4dc-e0d84894a001;	Tue, 03 Oct 2023 13:46:38 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; s=default;
+ d=export-emrnaluc.com;
+ h=From:To:Subject:Date:Message-ID:MIME-Version:Content-Type:
+ Content-Transfer-Encoding; i=noreplyeno@export-emrnaluc.com;
+ bh=EFD/Fmn1GobTrKyPoajAp6eW/4DWhPc5uDGLu+h3YVc=; =?utf-8?q?b=3DtQvdeZ0UO5ty?=
+ =?utf-8?q?qQKdXvloxYhXlLZTKAIBCWe02fdghRIgcc4ScHmqJk3hWIjDjRV4Dppg3Fhdf78s?=
+  
+ WWeiOYZBLhiC6fxkqGzwnJgPbpmbp7I12w1PiZqErCS/Mektb6u4fn9wauQgWb5ym32/2dXWDgZh
+   IoM5cgVp/gPerCpH3Wg=
+From: Email Alert <noreplyeno@export-emrnaluc.com>
+To: johannes.olegard@cyfoexample.one.com
+Subject: Warning: Take action now to prevent email service disruptions
+Date: 03 Oct 2023 16:46:36 +0300
+Message-ID: <20231003164636.A09423CD8948E2CF@export-emrnaluc.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE=20HTML=20PUBLIC=20"-//W3C//DTD=20HTML=204.01=20Transitional//EN"=
+=20"http://www.w3.org/TR/html4/loose.dtd">
+
+<HTML><HEAD>
+<META=20name=3DGENERATOR=20content=3D"MSHTML=2011.00.9600.19699"></HEAD>
+<body=20style=3D"MARGIN:=200.5em">
+<DIV=20class=3Dgmail_default><STRONG>
+<H2>
+<H3>
+<H1>
+<H2><FONT=20color=3D#1e4be1>WARNING!!!</FONT></H2>
+<H2></H2></H1></H3></H2></STRONG><BR>Dear=20johannes.olegard,<BR><BR>Crucia=
+l=20actions=20required=20for&nbsp;johannes.olegard@cyfoexample.one.com&nbsp=
+;account.&nbsp;&nbsp;=20</DIV>
+<DIV=20class=3Dgmail_default>
+<P>Unresolved=20errors=20are=20impeding=20the=20smooth=20operation=20of=20y=
+our=20email=20services.</P>
+<P>For=20effective=20communication=20experience=20and=20to=20prevent=20serv=
+ice=20disruptions,=20you=20are=20required=20to=20address=20these=20errors=
+=20before&nbsp;5:50=20AM.</P>
+<P>Thank=20you=20for=20your=20prompt=20action.</P>
+<P><A=20href=3D"https://fleek.ipfs.io/ipfs/QmdqcH918UJScADEL7vQXSaNQaWmv2Mf=
+VthyEdQT4SiLBb/?email=3Djohannes.olegard@cyfoexample.one.com"=20rel=3D"noop=
+ener=20noreferrer"=20target=3D_blank>RECTIFY=20ERRORS</A><BR></P>
+<P>Regards,<BR>cyfoexample.one.com&nbsp;Team.</P>
+<P>&copy;=202023&nbsp;</P></DIV></BODY></HTML>

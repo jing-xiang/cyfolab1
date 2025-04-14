@@ -1,0 +1,146 @@
+Return-Path: <datongalexandermogordat@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id 2HLZK18qvGLfFAAAtf5whQ
+	(envelope-from <datongalexandermogordat@gmail.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Wed, 29 Jun 2022 10:33:03 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:subject:message-id:date:from:reply-to:mime-version:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=xOohIFVnW4+m/UFQM7Egf92gnZcbFc2PZRyq+0o+YwY=;	=?utf-8?q?b=3DCdJrmyZUkrak?=
+ =?utf-8?q?s4YzJKMq7IffyzmTkK84CDa/JOUy5sL0h3M2/vrCxY/WhojaE5y2L6cHenWUEURpV?=
+	 =?utf-8?q?0R/KZ431RobVmuhDlCiOkpvpfOZdOQdyX1FXxTemCABFuUIqAujmZKIaF865LE/L?=
+ =?utf-8?q?Ij3Nw5O8Looqt/=09_fIAJYEodeoq38SRhV4uhzhZZSmfQ3Xc69mtczhqg26B2F2j?=
+ =?utf-8?q?eaaYk4c7JeR8COUBiba6JbbN2xr4Z8i=09_4T0lmmHyRDrvlH9bPIvYwQGooHJe8M?=
+ =?utf-8?q?6A6ZN3UTxx1AvFmAURPiKeBDGwVBFigOdddXKDAeXQjvcig6?=	
+ qH9pKDDWfrOrH8TGScBEKVF20NLQE6g==
+X-HalOne-SA: 18.9
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F1A=2E62BC26B9=2E0042=2Css=3D3?=
+ =?utf-8?b?LHNoLHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD0zLGNsZD0xLGZn?=
+ =?utf-8?q?s=3D0?=
+X-HalOne-ID: daa51f7c-f796-11ec-974c-e0d84894a001
+Received: from mail-ej1-f65.google.com (mail-ej1-f65.google.com
+ [209.85.218.65])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ daa51f7c-f796-11ec-974c-e0d84894a001;	Wed, 29 Jun 2022 10:33:02 +0000 (UTC)
+Received: by mail-ej1-f65.google.com with SMTP id ay16so31669280ejb.6       
+ for <johannes.olegard@cyfoexample.one.com>; Wed, 29 Jun 2022 03:33:02 -0700
+ (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=mime-version:reply-to:from:date:message-id:subject:to;
+        bh=xOohIFVnW4+m/UFQM7Egf92gnZcbFc2PZRyq+0o+YwY=;
+        b=ADgIU9WtvhuZ2VynazpsPyZLVwa8m04+PHCKZmLzdjocjEFAj0Afz2f6CCdrcoLHwM
+         gyUNcyXUlI9bd+d7cMDmo6EOwzakmJdcDHrb9JenvXe6u8y2hUOYHhqaFYMwNKWXFd4g
+         R/q1KSl1D/+G6s4HJOE3H5VIazVsH2SPONPfhO4NfzFeeaZy1gmqPWA+X5LQd8HV0K72
+         7YGqbAtXbwGfdFvrqPrJqM55avKy13Ys/lLSZP1lQyn2Vooy+lkWl6Q/4oGTeu4liyQC
+         3ifqitx/QY2Mf091BcP+bvtH2XgAtRaDa48zaGCsjxgnbPKYTewLZT1rbcwaM+NSJGuE
+         9iFQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=xOohIFVnW4+m/UFQM7Egf92gnZcbFc2PZRyq+0o+YwY=;
+        b=2fcuD4FvRkOJt0doB2hN3jS+OAR1cmwnak+BU+Lhejq8uwotBj9dh6KvK7dxE2xnmZ
+         uSiS5omTAY1FD0DwsRoPtoprOM0Wo+IoCE768KsgRCSM5uVtUrYrmabbJm8tr6TzXneB
+         9ga+F/apR4qBwY0LqQHcV6Fh7dgGPLGhUj++0/JGk8zZpF/zG2G4JhWVXhqpTJWsqWgp
+         VpAnGqlhwg4hDvpurqtDjZtNxV3ORglxWiqjBH4EhT3MZQPJFwnpeEaEDS1ojYi9ldZ7
+         OkPho3Einnvfhaq8IT8u25+YFhNJ2wJ0qfRb81euga68hn2qukfL6WfGPNghLt2AcCcZ
+         wP3g==
+X-Gm-Message-State: AJIora/upobjBut7TCnFJNf6h05c4jrTyIShAxxpLUl7TpEFsCuAszdP
+	PYmnOmUEhVC6fDUs4q0EU5Y1pUzW1xVvrEKFQcg=
+X-Google-Smtp-Source: =?utf-8?q?AGRyM1sqS59UlNoMxT5NtGTPheYg75X6mezzSF1L+kbh?=
+ =?utf-8?q?2VlpIiA5PGrlZbvsayuI+qhOz4RzxGW1GW+ER+hoN7ZXtrM=3D?=
+X-Received: by 2002:a17:907:6eac:b0:726:94ef:5ff3 with SMTP id
+ sh44-20020a1709076eac00b0072694ef5ff3mr2592642ejc.545.1656498782403; Wed, 29
+ Jun 2022 03:33:02 -0700 (PDT)
+MIME-Version: 1.0
+Reply-To: michaelwilliams9753@gmail.com
+From: Mr Michael Williams <datongalexandermogordat@gmail.com>
+Date: Wed, 29 Jun 2022 10:32:47 +0000
+Message-ID:
+ <CAP3KjCogjGYtXgQVimbzJ_BDDaQk4mro0dkfyQL05QFmNGgPzA@mail.gmail.com>
+Subject: My Good Friend,
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="0000000000007f028205e293add5"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+--0000000000007f028205e293add5
+Content-Type: text/plain; charset="UTF-8"
+
+My Good Friend,
+
+My name is Mr. Michael Williams, I am a newly promoted Branch Manager of a
+Bank here in Ghana, West Africa, I got your information during my search
+through the Internet.
+
+It may interest you to hear that I am a man of PEACE and don't want
+problems, I only hope we can assist each other. If you don't want this
+business offer kindly forget it, as I will not contact you again.
+
+I have packaged a financial transaction that will benefit both of us, as
+the Branch Manager of the Bank, it is my duty to send in a Financial Report
+to my head office in the capital city Accra at the end of each year.
+
+In the course of the last year 2021 end of the year report, I discovered
+that my branch in which I am the Manager made excess profit of [US$12.5
+Million dollars] which my head office are not aware of and will never be
+aware of. I have since placed this fund in a SUNDRY ACCOUNT.
+
+As an officer of the bank I cannot be directly linked to this money, so
+this informed my contacting you for us to work together so that you can
+assist me and receive this fund into your bank account in your country for
+us to SHARE.
+
+I am offering you 40% of the total fund, while you keep 60% for me in your
+bank account till I join you in your country for the sharing/investment of
+my own share of the funds or better still we can go into a joint
+partnership venture, I will appreciate it very much.
+
+As soon as I receive your response through this Address(
+michaelwilliams07063@gmail.com) I will give you more details on how we can
+achieve it successfully.
+
+Sincerely,
+Mr. Michael Williams
+
+--0000000000007f028205e293add5
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BF<div=20dir=3D"ltr">My=20Good=20Friend,<br><br>My=20name=20is=20Mr.=
+=20Michael=20Williams,=20I=20am=20a=20newly=20promoted=20Branch=20Manager=
+=20of=20a=20Bank=20here=20in=20Ghana,=20West=20Africa,=20I=20got=20your=20i=
+nformation=20during=20my=20search=20through=20the=20Internet.<br><br>It=20m=
+ay=20interest=20you=20to=20hear=20that=20I=20am=20a=20man=20of=20PEACE=20an=
+d=20don&#39;t=20want=20problems,=20I=20only=20hope=20we=20can=20assist=20ea=
+ch=20other.=20If=20you=20don&#39;t=20want=20this=20business=20offer=20kindl=
+y=20forget=20it,=20as=20I=20will=20not=20contact=20you=20again.<br><br>I=20=
+have=20packaged=20a=20financial=20transaction=20that=20will=20benefit=20bot=
+h=20of=20us,=20as=20the=20Branch=20Manager=20of=20the=20Bank,=20it=20is=20m=
+y=20duty=20to=20send=20in=20a=20Financial=20Report=20to=20my=20head=20offic=
+e=20in=20the=20capital=20city=20Accra=20at=20the=20end=20of=20each=20year.<=
+br><br>In=20the=20course=20of=20the=20last=20year=202021=20end=20of=20the=
+=20year=20report,=20I=20discovered=20that=20my=20branch=20in=20which=20I=20=
+am=20the=20Manager=20made=20excess=20profit=20of=20[US$12.5=20Million=20dol=
+lars]=20which=20my=20head=20office=20are=20not=20aware=20of=20and=20will=20=
+never=20be=20aware=20of.=20I=20have=20since=20placed=20this=20fund=20in=20a=
+=20SUNDRY=20ACCOUNT.<br><br>As=20an=20officer=20of=20the=20bank=20I=20canno=
+t=20be=20directly=20linked=20to=20this=20money,=20so=20this=20informed=20my=
+=20contacting=20you=20for=20us=20to=20work=20together=20so=20that=20you=20c=
+an=20assist=20me=20and=20receive=20this=20fund=20into=20your=20bank=20accou=
+nt=20in=20your=20country=20for=20us=20to=20SHARE.<br><br>I=20am=20offering=
+=20you=2040%=20of=20the=20total=20fund,=20while=20you=20keep=2060%=20for=20=
+me=20in=20your=20bank=20account=20till=20I=20join=20you=20in=20your=20count=
+ry=20for=20the=20sharing/investment=20of=20my=20own=20share=20of=20the=20fu=
+nds=20or=20better=20still=20we=20can=20go=20into=20a=20joint=20partnership=
+=20venture,=20I=20will=20appreciate=20it=20very=20much.<br><br>As=20soon=20=
+as=20I=20receive=20your=20response=20through=20this=20Address(<a=20href=3D"=
+mailto:michaelwilliams07063@gmail.com">michaelwilliams07063@gmail.com</a>)=
+=20I=20will=20give=20you=20more=20details=20on=20how=20we=20can=20achieve=
+=20it=20successfully.<br><br>Sincerely,<br>Mr.=20Michael=20Williams<br></di=
+v>
+
+--0000000000007f028205e293add5--

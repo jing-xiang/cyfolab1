@@ -1,0 +1,313 @@
+Return-Path: <konsiofulu@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id mEexMlpnT2K8agAAtf5whQ
+	(envelope-from <konsiofulu@gmail.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 07 Apr 2022 22:36:10 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:subject:message-id:date:mime-version:from:x-halone-refid:	
+ x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=R4mGQ9vtxs7hjw/HDBU4mToJWwSgQRH+Je4J6bmMlaE=;	=?utf-8?q?b=3De3N6L9LLReAs?=
+ =?utf-8?q?UO6t1BR9+yfo4UEydOHCuYOUgFUnxvNtQ8aoafhV7gdy+owf+T9fI5O6hul3BRJg2?=
+	 =?utf-8?q?v4vxRvTg6/lw5eA2/5HX0wlkHFhgR9D1Q+tCeG79LHN0klTX4H4jXL1qVZa0NMjq?=
+ =?utf-8?q?A45CWPuu9AekJb=09_AOwNxk4Q6RNeWLUnJCSyZMu0Y4011eqmWeYVQYT2t7Ytw89?=
+ =?utf-8?q?NgDM0gV7Mh06Ee7yS3IzdCqywZ0XVQv=09_qKxD+j6MJqNPzpR61YqZUQ6zJUoNaR?=
+ =?utf-8?q?QYjCuzZy9i7kezHVeCEmBV4Oo04o7IYDMSa8yZVXBTw1TCiw?=	
+ 8x1Oe8qk8dSEsg5lI5NvUv85WT6nnQQ==
+X-HalOne-SA: 8.8
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F26=2E624EFF7B=2E003D=2Css=3D4?=
+ =?utf-8?b?LHNoLHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZn?=
+ =?utf-8?q?s=3D8?=
+X-HalOne-ID: 1eb3f534-b6c3-11ec-94aa-e0d848974e01
+Received: from mail-il1-f194.google.com (mail-il1-f194.google.com
+ [209.85.166.194])	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 1eb3f534-b6c3-11ec-94aa-e0d848974e01;	Thu, 07 Apr 2022 22:36:10 +0000 (UTC)
+Received: by mail-il1-f194.google.com with SMTP id 14so5281536ily.11       
+ for <johannes.olegard@cyfoexample.one.com>; Thu, 07 Apr 2022 15:36:09 -0700
+ (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20210112;
+        h=from:mime-version:date:message-id:subject:to;
+        bh=R4mGQ9vtxs7hjw/HDBU4mToJWwSgQRH+Je4J6bmMlaE=;
+        b=clMSi2VH2EAEnREJ+xDwCr4eQ0BmACgXzmSuRu6F+sULiQT+A1rYxuOPwDqPoE6tIW
+         Je5HSl0eTDSsWqQeZm7ESgKlXI00QJcuvCQzX5LSFbPK52Ge6lRACj3m/V0v/almaEfw
+         nJU38mhcbcr4l3m0/SfgOTd1Cp9rinGry+YlNzhj1KniHQpV1wYmzDf/knWxyQHfPZ5a
+         nSKemmqOzP/4Uby5RyyCl8HDH/aVf+D0BvbhhgALsHKU1ljVNj9V8U829OzIrh4gIAze
+         2t/pqpQlvEbiphrUe/iY4gGDhJQZKjI9wWLDHfirluryotP9ubuIz7+o6mu4jhA1rPS/
+         ezDA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20210112;
+        h=x-gm-message-state:from:mime-version:date:message-id:subject:to;
+        bh=R4mGQ9vtxs7hjw/HDBU4mToJWwSgQRH+Je4J6bmMlaE=;
+        b=5/GBDI1fBaOakqwGzTfFkYo8coKu/dzuNFE99dClycfcwcbb0knqVHtsPTN836MQUa
+         00zbacI1nzzkWQrEOsgp6rsVKf35AJqF3fnhkYkeE/VPCE+yOf+ZegAKbfLyCfIo81qq
+         lLuE6hhLr/fYV1ZBIqwT7EV5YXKfGhoZnXH2VKpGYGDauSA73DgjHQKaqdiXtyfadYOM
+         4IjM8TRPJA/QxlHgggBmGJyeOpE2wZMVp0RJNHmxs8i9qxgHHTt1IU54FZg/xAxYx5y/
+         npu5s8dPxFAJ1mevvKlDmVtvQ0v/YG+8CKVqgvkmotwa9t4+6tSKy0VIizeUzUt1TOaG
+         SbCg==
+X-Gm-Message-State: AOAM533oKBznQ6HB9m1rMAna0XTscUazQbImCXV+JqEnfijbsBZ+IVdY
+	wa8BWXY/FhWiQIDZnSGG9k28k2SQpfASYca3epI=
+X-Google-Smtp-Source: =?utf-8?q?ABdhPJwGlUZfx3S6O+yg+fXwswbIOwKB8CDm/KsGj1iI?=
+ =?utf-8?q?6ryucUUbp6Mx5Nm61BW2G3qzDO1azGKpd24SOceVe+mXCSw=3D?=
+X-Received: by 2002:a05:6e02:18cb:b0:2ca:3b3a:95bf with SMTP id
+ s11-20020a056e0218cb00b002ca3b3a95bfmr7461823ilu.184.1649370968624; Thu, 07
+ Apr 2022 15:36:08 -0700 (PDT)
+Received: from 523228167827 named unknown by gmailapi.google.com with
+ HTTPREST; Thu, 7 Apr 2022 15:36:07 -0700
+From: Henri Elise <konsiofulu@gmail.com>
+MIME-Version: 1.0
+Date: Thu, 7 Apr 2022 15:36:07 -0700
+Message-ID:
+ <CABXEqX2F+gh0sSOVa65Yzu32AnmcRDP_PVTfbzpGC4=C_degFw@mail.gmail.com>
+Subject: 750-year old hack forces permanent fat loss?
+To: thefabsterlp@web.de
+Content-Type: multipart/alternative; boundary="000000000000b012c105dc181a44"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+--000000000000b012c105dc181a44
+Content-Type: text/plain; charset="UTF-8"
+
+*at-home hack SHRINKS fat cells (permanent fix?)*
+
+*1/2 Teaspoon Burns Fat 728% Faster*
+
+  [image: White Black Masks]
+<https://exipure-official1.blogspot.com/p/official-exipure.html>
+
+
+
+
+Hey, this is bizarre...
+
+
+In 2008 researchers from the Karolinska Institute in Sweden found something
+amazing...
+
+that every adult human, old or young, lean or fat, man or woman, always has
+the same number of fat cells - around *30 billion*! Fat cells are like...
+
+balloons - it is not the number of fat cells that increases but the *SIZE*
+of your fat cells, they can balloon up to...
+
+FIFTY times their size or more to store fat! Weirdly they also found even
+if you have gastric band surgery or lipsuction...
+
+your body regains the *exact number* of fat cells to get back to the
+pre-set amount! But then in 2021 researchers uncovered a way to actually
+dissolve fat cells...
+
+A 750-year old fat-dissolving hack
+<https://exipure-official1.blogspot.com/p/official-exipure.html>from
+Vietnam that forces permanent fat cell loss!
+
+And is so easy to do and works every time.
+
+*==> Vietnamese Hack Dissolves Fat Cells (video tutorial)
+<https://exipure-official1.blogspot.com/p/official-exipure.html>*
+
+224,000 women and men use this hack every day to dissolve pounds of fat as
+they sleep.
+
+Check it out for yourself.
+
+To your amazing health,
+
+*Henri Elise*
+
+*PS. There is no doubt the billion dollar weight loss industry do not want
+you to see this video
+<https://exipure-official1.blogspot.com/p/official-exipure.html> and
+discover the amazing fat burning secret! Watch it now before the video is
+taken down.*
+
+
+  [image: Great Again 2]
+<https://exipure-official1.blogspot.com/p/official-exipure.html>   [image:
+Great Again 3]
+<https://exipure-official1.blogspot.com/p/official-exipure.html>   [image:
+Great Again 4]
+<https://exipure-official1.blogspot.com/p/official-exipure.html>
+
+Clickbank.contactus@gmail.com 1444 S. Entertainment Ave., Suite 410 Boise,
+ID 837092, USA |Help Us Have Order | Unsubscribe Here
+<https://docs.google.com/forms/d/e/1FAIpQLSdfdftP5I-JNWR-yf0a96Gy1fFl5C-AZWXwlm1NTiCpSusk9w/viewform?usp=pp_url&entry.1674989749=>
+
+--000000000000b012c105dc181a44
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BF<p>=C2=A0</p>
+<table=20style=3D"font-family:&#39;Times=20New=20Roman&#39;;letter-spacing:=
+normal;text-indent:0px;text-transform:none;word-spacing:0px;text-decoration=
+-style:initial;text-decoration-color:initial;margin-left:auto;margin-right:=
+auto"=20border=3D"0"=20cellspacing=3D"0"=20cellpadding=3D"0">
+<tbody>
+<tr>
+<td=20bgcolor=3D"#f2f4f1">
+<table=20border=3D"0"=20cellspacing=3D"0"=20cellpadding=3D"0"=20align=3D"ce=
+nter">
+<tbody>
+<tr=20bgcolor=3D"khaki">
+<td=20align=3D"center"=20valign=3D"middle"=20width=3D"600">
+<p><span=20style=3D"color:#0000ff"><strong><span=20style=3D"font-family:Hel=
+vetica;font-size:xx-large;background-color:#f0e68c">at-home=20hack=20SHRINK=
+S=20fat=20cells=20(permanent=20fix?)</span></strong></span></p>
+<p><span=20style=3D"color:#0000ff"><strong><span=20style=3D"font-family:Hel=
+vetica;font-size:xx-large;background-color:#f0e68c">1/2=20Teaspoon=20Burns=
+=20Fat=20728%=20Faster</span></strong></span></p>
+</td>
+</tr>
+
+<tr>
+<td=20bgcolor=3D"#c4dccc"=20height=3D"5">=C2=A0</td>
+</tr>
+
+<tr>
+<td=20valign=3D"top"=20bgcolor=3D"#c4dccc">
+<table=20border=3D"0"=20cellspacing=3D"0"=20cellpadding=3D"0"=20align=3D"ce=
+nter">
+<tbody>
+<tr>
+<td=20width=3D"8">=C2=A0</td>
+<td=20align=3D"center"><a=20href=3D"https://exipure-official1.blogspot.com/=
+p/official-exipure.html"=20target=3D"_blank"=20rel=3D"noopener=20noreferrer=
+"><img=20style=3D"width:=20100%;"=20src=3D"https://blogger.googleuserconten=
+t.com/img/a/AVvXsEhuAzCoYZXmerstL4McAr8CWe96tkuh1_UznZnycTJLqm9vD3KGB8I1jxl=
+vEO7q-FzIaa9P69UQwYGqcQ-f_-0KnFbOsvqcBPDD14lxBHeT_s_FaHofYrRMGQ_K52jOR7hZ2D=
+4STtvTWmcMoEqDGO5vWwGyJQYMaF8aV62w6WY07M3VV_7SItK9LMmGzA"=20alt=3D"White=20=
+Black=20Masks"=20width=3D"399"=20height=3D"343"=20align=3D"bottom"=20border=
+=3D"0"=20hspace=3D"0">=20</a></td>
+<td=20width=3D"8">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+
+<tr>
+<td=20bgcolor=3D"#c4dccc"=20height=3D"5">=C2=A0</td>
+</tr>
+<tr>
+<td=20valign=3D"top"=20bgcolor=3D"#c4dccc">
+<table=20border=3D"0"=20cellspacing=3D"0"=20cellpadding=3D"0"=20align=3D"ce=
+nter">
+<tbody>
+<tr>
+<td=20width=3D"20">=C2=A0</td>
+<td=20style=3D"font-size:x-large"=20width=3D"820">
+<p><br>Hey,=20this=20is=20bizarre...<br><br><br>In=202008=20researchers=20f=
+rom=20the=20Karolinska=20Institute=20in=20Sweden=20found=20something=20amaz=
+ing...</p>
+<p>that=20every=20adult=20human,=20old=20or=20young,=20lean=20or=20fat,=20m=
+an=20or=20woman,=20always=20has=20the=20same=20number=20of=20fat=20cells=20=
+-=20around=20<strong>30=20billion</strong>!=20Fat=20cells=20are=20like...</=
+p>
+<p>balloons=20-=20it=20is=20not=20the=20number=20of=20fat=20cells=20that=20=
+increases=20but=20the=20<strong>SIZE</strong>=20of=20your=20fat=20cells,=20=
+they=20can=20balloon=20up=20to...</p>
+<p>FIFTY=20times=20their=20size=20or=20more=20to=20store=20fat!=20Weirdly=
+=20they=20also=20found=20even=20if=20you=20have=20gastric=20band=20surgery=
+=20or=20lipsuction...<br><br>your=20body=20regains=20the=20<strong>exact=20=
+number</strong>=20of=20fat=20cells=20to=20get=20back=20to=20the=20pre-set=
+=20amount!=20But=20then=20in=202021=20researchers=20uncovered=20a=20way=20t=
+o=20actually=20dissolve=20fat=20cells...<br><br>A=20750-year=20old=20<a=20h=
+ref=3D"https://exipure-official1.blogspot.com/p/official-exipure.html">fat-=
+dissolving=20hack=20</a>from=20Vietnam=20that=20forces=20permanent=20fat=20=
+cell=20loss!<br><br>And=20is=20so=20easy=20to=20do=20and=20works=20every=20=
+time.<br><br><strong><a=20href=3D"https://exipure-official1.blogspot.com/p/=
+official-exipure.html">=3D=3D&gt;=20Vietnamese=20Hack=20Dissolves=20Fat=20C=
+ells=20(video=20tutorial)</a></strong></p>
+<p>224,000=20women=20and=20men=20use=20this=20hack=20every=20day=20to=20dis=
+solve=20pounds=20of=20fat=20as=20they=20sleep.</p>
+<p>Check=20it=20out=20for=20yourself.</p>
+<p>To=20your=20amazing=20health,=20<br><br><strong>Henri=20Elise</strong></=
+p>
+<p><em>PS.=20There=20is=20no=20doubt=20the=20billion=20dollar=20weight=20lo=
+ss=20industry=20do=20not=20want=20you=20to=20see=20<a=20href=3D"https://exi=
+pure-official1.blogspot.com/p/official-exipure.html">this=20video</a>=20and=
+=20discover=20the=20amazing=20fat=20burning=20secret!=20Watch=20it=20now=20=
+before=20the=20video=20is=20taken=20down.</em></p>
+</td>
+<td=20width=3D"20">=C2=A0</td>
+</tr>
+<tr>
+<td=20width=3D"20">=C2=A0</td>
+<td=20valign=3D"top"=20bgcolor=3D"#c4dccc">
+<table=20border=3D"0"=20cellspacing=3D"0"=20cellpadding=3D"0"=20align=3D"ce=
+nter">
+<tbody>
+<tr>
+<td=20width=3D"8">=C2=A0</td>
+<td=20align=3D"center"=20width=3D"210"><a=20href=3D"https://exipure-officia=
+l1.blogspot.com/p/official-exipure.html"=20target=3D"_blank"=20rel=3D"noope=
+ner=20noreferrer"><img=20style=3D"width:=20100%;"=20src=3D"https://blogger.=
+googleusercontent.com/img/a/AVvXsEgErJZBNUvW-ZIGb8_JF3MYSsbgL9xwI0_74ayTxrw=
+2y1tOxpBAU9rZkxT89eJCk575S9LgbE4WYX2CTBD3MRPJ1gQb9iN07nxtQTaO8actpn4y6DFtJM=
+WESkhEve5rI6kC8arHZLXQoc3yE8xelZSVr2F1YuMivx15OX7Goz-PByvKS3XlMoJKeQvTJw"=
+=20alt=3D"Great=20Again=202"=20width=3D"173"=20height=3D"144"=20align=3D"bo=
+ttom"=20border=3D"0"=20hspace=3D"0">=20</a></td>
+<td=20width=3D"8">=C2=A0</td>
+<td=20align=3D"center"=20width=3D"210"><a=20href=3D"https://exipure-officia=
+l1.blogspot.com/p/official-exipure.html"=20target=3D"_blank"=20rel=3D"noope=
+ner=20noreferrer"><img=20style=3D"width:=20100%;"=20src=3D"https://blogger.=
+googleusercontent.com/img/a/AVvXsEi2M6clz3dmecE7Ollm-csns8PGC7UwHs4GL8c5Nm9=
+Fw2AiApra4Frxe-Hkb85lAGFQ5qTp0Jhyl1eMfZnwbESb9qH_wcwgxVxB4MGKcPZTezErgBb_aP=
+ngUANBHBLsVbk6eBLwV8UozNvQzHDhZTN6hsUKu6cDG2JGCN0fFlVSgJiVJXccjvYGvnYO1w"=
+=20alt=3D"Great=20Again=203"=20width=3D"173"=20height=3D"144"=20align=3D"bo=
+ttom"=20border=3D"0"=20hspace=3D"0">=20</a></td>
+<td=20width=3D"8">=C2=A0</td>
+<td=20align=3D"center"=20width=3D"210"><a=20href=3D"https://exipure-officia=
+l1.blogspot.com/p/official-exipure.html"=20target=3D"_blank"=20rel=3D"noope=
+ner=20noreferrer"><img=20style=3D"width:=20100%;"=20src=3D"https://blogger.=
+googleusercontent.com/img/a/AVvXsEhpgHHZc32ZR2pVrER6_xjbab4WpOODCKi_sUDVFf_=
+05CGZZHdhBjpdCsBycLWezjrIafj-KMWJFlvUCX-jG0AHbPUKYcxaaTe1gdGJHbq1u7CYs3oW5J=
+Co_b3blv0KNwzg3VKMPZiDs3U7bBwKjKhMIKl1kP4kbx-fqyVGyc9W0QKRUIPE6Jc2PfHSjA"=
+=20alt=3D"Great=20Again=204"=20width=3D"173"=20height=3D"144"=20align=3D"bo=
+ttom"=20border=3D"0"=20hspace=3D"0">=20</a></td>
+<td=20width=3D"8">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td=20width=3D"20">=C2=A0</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+
+<tr>
+<td=20bgcolor=3D"#c4dccc"=20height=3D"5">=C2=A0</td>
+</tr>
+<tr>
+<td=20align=3D"center"=20valign=3D"top"=20bgcolor=3D"#c4dccc"><a=20href=3D"=
+mailto:Clickbank.contactus@gmail.com">Clickbank.contactus@gmail.com</a>=201=
+444=20S.=20Entertainment=20Ave.,=20Suite=20410=20Boise,=20ID=20837092,=20US=
+A=20|Help=20Us=20Have=20Order=20|=20<a=20class=3D"null"=20style=3D"font-wei=
+ght:bold;font-size:small"=20href=3D"https://docs.google.com/forms/d/e/1FAIp=
+QLSdfdftP5I-JNWR-yf0a96Gy1fFl5C-AZWXwlm1NTiCpSusk9w/viewform?usp=3Dpp_url&a=
+mp;entry.1674989749=3D">Unsubscribe=20Here</a>
+<table=20border=3D"0"=20cellspacing=3D"0"=20cellpadding=3D"0"=20align=3D"ce=
+nter">
+<tbody></tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p=20style=3D"color:#000000;font-family:&#39;Times=20New=20=20=20=20=20=20R=
+oman&#39;;font-size:medium;font-style:normal;font-variant-ligatures:normal;=
+font-variant-caps:normal;font-weight:normal;letter-spacing:normal;text-inde=
+nt:0px;text-transform:none;white-space:normal;word-spacing:0px;text-decorat=
+ion-style:initial;text-decoration-color:initial;text-align:center">=C2=A0</=
+p>
+<p>=C2=A0</p>
+
+--000000000000b012c105dc181a44--

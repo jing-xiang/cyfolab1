@@ -1,0 +1,77 @@
+Return-Path: <fialova@sita.sk>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id GIWRJvnFWWHVCwAAtf5whQ
+	(envelope-from <fialova@sita.sk>)
+	for <johannes.olegard@cyfoexample.one.com>; Sun, 03 Oct 2021 15:02:17 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:mime-version:subject:message-id:reply-to:from:date:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=Zo/wsc+zSy9r9y4cDCOHILNfURFSJsWjco1KQXYXI/w=;	=?utf-8?q?b=3DWg9r2KByN3Go?=
+ =?utf-8?q?ntjpj5vIunotd7+B4Vzj01ZLLajwwdcD4W7rsjG+p5OEFCdJdlRmGkFb8hpBfNXVB?=
+	 =?utf-8?q?f0sJspqjyOXHE3RsLZrHeW09jNAm6BY6dCMxAdIzFBDmxkpY/QKh6jhw5oPfGRLP?=
+ =?utf-8?q?bcXXBLAow2shig=09_6tSbHt6REvein957Bc4uPZGIxxMS0BToT1D5xMx+Qu2yDoB?=
+ =?utf-8?q?to7b52conBr5Z2VE0KrbNp1+MfNCmFy=09_q8qypz50aavFpBltlAXkal67HF1mfo?=
+ =?utf-8?q?pscYsFYrqLB9KRnW352m0yJfYNO8jNiMNJrtPTQptZ9YJ+KO?=	
+ UMIE4Ju9RnnaWlPhb9vnL/yuMOywQ4w==
+X-HalOne-SA: 4.8
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F22=2E6159C5F9=2E000B=3ASCFSTAT3?=
+ =?utf-8?b?NjkyMDIyNixzcz0xLHJlPS00LjAwMCxyZWN1PTAuMDAwLHJlaXA9MC4wMDAsY2w9?=
+ =?utf-8?q?1=2Ccld=3D1=2Cfgs=3D0?=
+X-HalOne-ID: e5eaa563-245a-11ec-b82b-e0d84894a001
+Received: from webmail.sita.sk (webmail.sita.sk [212.89.225.240])
+	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id e5eaa563-245a-11ec-b82b-e0d84894a001;
+	Sun, 03 Oct 2021 15:02:17 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by webmail.sita.sk (Postfix) with ESMTP id CF46520801A7;
+	Sun,  3 Oct 2021 17:02:14 +0200 (CEST)
+Received: from webmail.sita.sk ([127.0.0.1])
+	by localhost (webmail.sita.sk [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id Gdt2lYkokSET; Sun,  3 Oct 2021 17:02:13 +0200 (CEST)
+Received: from localhost (localhost [127.0.0.1])
+	by webmail.sita.sk (Postfix) with ESMTP id 2BCF320801B4;
+	Sun,  3 Oct 2021 17:02:07 +0200 (CEST)
+X-Virus-Scanned: amavisd-new at webmail.sita.sk
+Received: from webmail.sita.sk ([127.0.0.1])
+	by localhost (webmail.sita.sk [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id I5ffqz1UhUzH; Sun,  3 Oct 2021 17:02:04 +0200 (CEST)
+Received: from webmail.sita.sk (webmail.sita.sk [212.89.225.240])
+	by webmail.sita.sk (Postfix) with ESMTP id 40DE6208019D;
+	Sun,  3 Oct 2021 17:02:00 +0200 (CEST)
+Date: Sun, 3 Oct 2021 17:02:00 +0200 (CEST)
+From: Hammad M <fialova@sita.sk>
+Reply-To: Hammad M <hammad.moham@gmail.com>
+Message-ID: <216471188.10527800.1633273320233.JavaMail.zimbra@sita.sk>
+Subject: OFFER!
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="=_7f05f88d-764d-453b-81d5-bf70b75318e0"
+X-Mailer: Zimbra 8.8.12_GA_3803 (ZimbraWebClient - GC93 (Win)/8.8.12_GA_3794)
+Thread-Index: vZEayR8t5dGL5bI09B1uKNWDeooiCg==
+Thread-Topic: OFFER!
+
+--=_7f05f88d-764d-453b-81d5-bf70b75318e0
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+
+Hello, 
+
+I am Hammad Mohammad, an investor, trader & oil. I am in search of a credible individual or company that needs an investment in their business or company portfolio or require funds to invest in a reliable and lucrative business. 
+
+I therefore contact you because I have funds available for Investment and need help investing these funds in profitable ventures. Kindly contact me if I can be of help to you. Reply me on hammad.moham@hmoham.com or hammad.moham@gmail.com 
+
+Kind regards, 
+Hammad Mohammad 
+
+--=_7f05f88d-764d-453b-81d5-bf70b75318e0
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><body><div style="font-family: arial, helvetica, sans-serif; font-size: 12pt; color: #000000"><div><br></div><div><br></div><div data-marker="__SIG_PRE__">Hello,<br><br>I am Hammad Mohammad, an investor, trader &amp; oil. I am in search of a credible &nbsp;individual or company that needs an investment in their business or company portfolio or require funds to invest in a &nbsp;reliable and lucrative business.<br><br>I therefore contact you because I have funds available for Investment and need help investing these funds in profitable ventures. Kindly contact me if I can be of help to you. Reply me on hammad.moham@hmoham.com or hammad.moham@gmail.com<br><br>Kind regards,<br>Hammad Mohammad</div></div></body></html>
+--=_7f05f88d-764d-453b-81d5-bf70b75318e0--

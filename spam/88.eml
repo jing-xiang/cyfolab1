@@ -1,0 +1,69 @@
+Return-Path: <FIXHEALTHCARE20210220@fixhealthcare.info>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id SMw/LqhxMmCXSAAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Sun, 21 Feb 2021 14:43:52 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-transfer-encoding:content-type:mime-version:date:subject:to:from:	 
+ =?utf-8?q?message-id=3Areply-to=3Ax-halone-refid=3Ax-halone-sa=3Afrom=3Ax-h?=
+ =?utf-8?q?alone-sa=3Ax-halone-refid=3B?=
+	bh=DRBKYob07ZPmht5A0WGqCQKNCDzn1/1DNd4qC8Np7cE=;	=?utf-8?q?b=3DxHDWdcSbOGF7?=
+ =?utf-8?q?l6H0hQL64rk2/vsbBkJQDUd954qPXf9uKB8CUFBZFfLBHj5Yv17YOuU0ZynMXN6K+?=
+	 =?utf-8?q?SlGg599ApuRpQY6w9Jcj1kgOA4qiPO1YWCAUcrR3sAuWeulziVEFqJHyfZSHLVwH?=
+ =?utf-8?q?i1vz+efE25crmf=09_YkmYr7ylqxf+ovT29/5eyQ13z1I5We+GiriYak0jsout8d8?=
+ =?utf-8?q?exyVFzBYfW51xubqlLYE77e+5b2jnED=09_mPcUt8Xmb5tJMRoWr/5fJh2CtFf2Dv?=
+ =?utf-8?q?0ebYz9/eh4oJev3e5niocIFLDeF4cdYmdzuwM/bcAKAjwJP+?=	
+ efJ5GEgSCkZvEgd8FbAFyBctyPf24bw==
+X-HalOne-SA: 13.3
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F21=2E60325571=2E0026=2Css=3D4?=
+ =?utf-8?b?LHNoLHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZn?=
+ =?utf-8?q?s=3D8?=
+X-HalOne-ID: 35dfb97d-7453-11eb-9849-e0d848974e01
+Received: from 162-215-210-13.webhostbox.net (162-215-210-13.unifiedlayer.com
+ [162.215.210.13])	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 35dfb97d-7453-11eb-9849-e0d848974e01;	Sun, 21 Feb 2021 14:43:51 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=fixhealthcare.info; s=default; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Date:Subject:To:From:Message-ID:Reply-To:Sender:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=DRBKYob07ZPmht5A0WGqCQKNCDzn1/1DNd4qC8Np7cE=; b=YsvKtpYtSGIn9p8r5mACBNwHkT
+	6DMf7Io/M07N4Dd33Koa912P+U8rkTLXs2eoR83/vyP02/OBzP4YVrkqQ+pO+AlZOg0MVOh+Fts2Z
+	Fh7PkraNsUDd2Tjp9q0M0knhJ+QtYdUmqH8F91VDryoqu2DOmBdec3do8wx/hfTh3XFAIw8OowjJX
+	iZlo7pZBsJyF0EVj+5V7mwuxS5I/g2QvEJCkTB51BoscVRygD8bijTv61ZMXqWG1JuD/cne39Dkb4
+	ngFf7RipwRwLUNKKQVBHI+ZFFSM4kHmu8jSEeXIfC/SUAXbK6Oc0U7K32A18sWvyrt/ucawLPbkJ7
+	hqqPcnyw==;
+Received: from [31.44.67.118] (port=63028 helo=DESKTOP-TRK8LQ3)
+	by 162-215-210-13.webhostbox.net with esmtpa (Exim 4.93)
+	(envelope-from <FIXHEALTHCARE20210220@FIXHEALTHCARE.INFO>)
+	id 1lDpwa-0008D5-MH
+	for euforia25332174197@worldintegration.int; Sun, 21 Feb 2021 07:42:45 -0700
+Disposition-Notification-To: REPLYTO20210220@GMAIL.COM
+Organization: FICTION STATES
+Reply-To: REPLYTO20210220@GMAIL.COM
+Message-ID: <1cd80c24c2821efe302acbbf001c4183@fixhealthcare.info>
+From: "FIX HEALTHCARE" <FIXHEALTHCARE20210220@FIXHEALTHCARE.INFO>
+To: <euforia25332174197@worldintegration.int>
+Subject: How To Fix Healthcare, Part I
+Date: Sun, 21 Feb 2021 15:34:31 +0100
+X-Priority: 1
+X-Mailer: SMTP COMPONENT
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="windows-1252"
+Content-Transfer-Encoding: base64
+X-AntiAbuse:
+ This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - 162-215-210-13.webhostbox.net
+X-AntiAbuse: Original Domain - worldintegration.int
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - FIXHEALTHCARE.INFO
+X-Get-Message-Sender-Via: 162-215-210-13.webhostbox.net: authenticated_id:
+ fixhealthcare20210220@fixhealthcare.info
+X-Authenticated-Sender:
+ 162-215-210-13.webhostbox.net: fixhealthcare20210220@fixhealthcare.info
+
+PCFET0NUWVBFIEhUTUwgUFVCTElDICItLy9XM0MvL0RURCBIVE1MIDQuMCBUcmFuc2l0aW9uYWwvL0VOIj4NCjxodG1sPg0KPGhlYWQ+DQo8bWV0YSBodHRwLWVxdWl2PUNvbnRlbnQtVHlwZSBjb250ZW50PSJ0ZXh0L2h0bWw7IGNoYXJzZXQ9d2luZG93cy0xMjUyIj4NCjwvaGVhZD4NCjxib2R5IHN0eWxlPSJGT05ULUZBTUlMWTogVmVyZGFuYSI+DQo8cD48YSBocmVmPSJodHRwczovL2lzc3V1LmNvbS9maWN0aW9uc3RhdGVzL2RvY3MvZmljdGlvbnN0YXRlc2RyYWZ0MjAyMTAyMTgvMTM2MT9mcj1zTWpjMk9ESTVOVFExT1RZIj48aW1nIA0KYm9yZGVyPTAgDQpzcmM9Imh0dHA6Ly9kcml2ZS5nb29nbGUuY29tL3VjP2V4cG9ydD12aWV3JmFtcDtpZD0xMmYxZHQ1RGpDWkw3RDNBTzlyYS03b0p0cGhCdGFKR0oiPjwvYT48L3A+DQo8L2JvZHk+DQo8L2h0bWw+

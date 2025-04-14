@@ -1,0 +1,74 @@
+Return-Path: <jamespetersalm@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id yJv9B40tMmDsBAAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Sun, 21 Feb 2021 09:53:17 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:subject:message-id:date:from:reply-to:mime-version:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=kNH1hLvY9pH3npDJ9K69Sz44MTIIj3Sb7LLFbLP+pzU=;	=?utf-8?q?b=3DmBGdEt6ZV38m?=
+ =?utf-8?q?DArLg8K3awq68k5dpBC3fQmfCQPOSXneLwIXiHA4UaUpXW/jBP1NEBwTVLwPy0ohU?=
+	 =?utf-8?q?Fdp4zhTXrdDSLloL8d8ueuC84K83FtGfoFCbIAJQ3w68sxQSGbjdURIDIPAqaFaR?=
+ =?utf-8?q?508vt1iJAfWeQb=09_7m1fPI9YpWCwuO5fa0sOsAlLtQS1YhhnFuVMZkqOhM/pnqP?=
+ =?utf-8?q?QtaWER6mxqRXNqpUC0Zq9bWaoa7TVHl=09_Jwr4i+Xj5cTIOyLObSbCsCiVgcxWRm?=
+ =?utf-8?q?agSTktaM8yTszMfnZL4j1WImDUg/Pjl4DEG3jDRJixq9AxG/?=	
+ KxHFNNzyga09IOZBrejWqlXuleandVw==
+X-HalOne-SA: 6.6
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F20=2E60322D8C=2E002D=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz04?=
+X-HalOne-ID: 75c6a903-742a-11eb-bf1b-ec0d9a6ed98e
+Received: from mail-il1-f176.google.com (mail-il1-f176.google.com
+ [209.85.166.176])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 75c6a903-742a-11eb-bf1b-ec0d9a6ed98e;	Sun, 21 Feb 2021 09:52:08 +0000 (UTC)
+Received: by mail-il1-f176.google.com with SMTP id e2so8339205ilu.0        for
+ <johannes.olegard@cyfoexample.one.com>; Sun, 21 Feb 2021 01:53:16 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:reply-to:from:date:message-id:subject:to;
+        bh=kNH1hLvY9pH3npDJ9K69Sz44MTIIj3Sb7LLFbLP+pzU=;
+        b=ItQFuOgQ3cCovSs+BYlOOa4yy6kDBplgWBfefMd3Wyr/HnN/6UPKWFb3q554GEh3zq
+         JxXVyQuAME32EeuhMhxe/et6fg5kMXMZkBF9EpspVfZu+iI6w2rFYKmYyULYrpGdL9eB
+         XdWF2DDG8/vt8zxA1QRY4/rsm9WWRYH/EgjYZeuWxbZWhxu/cmIw3AL4RP47mO3UXuQA
+         uDgNXO422gaO38nh3CXrX1LEMM3FQdFtIi6H37tRdhy1CQVE/tpmUvjsycgsNTTeJ6of
+         Lfd80dNSaFCpyfrCdkvLEZ2PA2NHik8iVN59qE0WkExu8WIN1ksQZnPw5IzxOeVdT+UR
+         kujg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=kNH1hLvY9pH3npDJ9K69Sz44MTIIj3Sb7LLFbLP+pzU=;
+        b=SspCm/dqQQUAJlz/c1vTPfE5d+IWwgvVmPqrqpNSSpjPrQbWuYLu+KGSm+Hntah1Ld
+         MpTSwJDxeyvrM2JMZbiTAAN4EF6K3QglTOK5LQW6o5fya28VFW8ABoDSrqhFpUPylZ1R
+         8AiEa8+YP017dXBrl8i0pn7sCKm6SCIdJWqrqLPp573O5sobLvm81HqdUM4gzPK9KPSE
+         QGov3Swfz9oF5QNN4OJVYc4Keh0JYbbE2d9OYwJ4Xq059rPHd9N6QTjiYs47GRL1eA7v
+         kiwqry+h6NXqU8viKjZZXCqGYov1gJ7E4LLyOw+64uvKOrjPa+a6i9OB7WDqUzz9DJxg
+         K35g==
+X-Gm-Message-State: AOAM530pkrxPBBhuwfLtEdEg3j2FR4uYqs55VP9kCJfAsQaeayf+Wf+z
+	wzm+6GFn/uyur//DSJbXapoalxijq1e64r2Bzw==
+X-Google-Smtp-Source: =?utf-8?q?ABdhPJyYfd1zhoyOBgUzIWcaeJ1duYw3rEqYY6MCp2qf?=
+ =?utf-8?q?VqQgm3sRBZqkSL9dAzTC8WX+Z2ZoN4xoH2uT8iKDwX3L4J0=3D?=
+X-Received: by 2002:a92:cbce:: with SMTP id
+ s14mr11405595ilq.306.1613901195209; Sun, 21 Feb 2021 01:53:15 -0800 (PST)
+MIME-Version: 1.0
+Received: by 2002:a05:6638:62d:0:0:0:0 with HTTP; Sun, 21 Feb 2021 01:53:14
+ -0800 (PST)
+Reply-To: jamespetersalmonesq@gmail.com
+From: James Peter Salmon <jamespetersalm@gmail.com>
+Date: Sun, 21 Feb 2021 01:53:14 -0800
+Message-ID:
+ <CAHj=aiDtTpqJw74vUon-BK3DMVu5JpNku2+jT=ufTBUrhrgk=Q@mail.gmail.com>
+Subject: Re-notification
+To: undisclosed-recipients:;
+Content-Type: text/plain; charset="UTF-8"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+-- 
+We wish to notify you again that you were listed as a beneficiary in
+the intent of the deceased .Please provide your contact information to
+this E-mail: jamespetersalmonesq@gmail.com to enable us contact you
+with full details on how to claims the Inheritance.
+
+Yours faithfully,
+James Peter Salmon

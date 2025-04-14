@@ -1,0 +1,84 @@
+Return-Path: <asian.lotto@asia.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id iCttAikx1WTiPwAAtf5whQ
+	(envelope-from <asian.lotto@asia.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 10 Aug 2023 18:49:13 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	=?utf-8?q?h=3Dcontent-transfer-encoding=3Acontent-type=3Amime-v?=
+ =?utf-8?q?ersion=3Amessage-id=3Adate=3Asubject=3A?=	
+ to:from:reply-to:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=Yfa9rG0eC5GvIMnTqG0erIIeCRvBlTSR8R2FJ49db5I=;	=?utf-8?q?b=3DBpvwfselowoP?=
+ =?utf-8?q?EE6runG8bCVQGSOFvYkUeVfiBiw6UGOXniYVcdhyHcDunXcvZb4l8sa5gKCvngRzt?=
+	 =?utf-8?q?p487ZW9UQECyfn5FJjzRgaFZs75gZS9uJmzJipUj+3n5ABfLQaqD1MPtzYxvUk3G?=
+ =?utf-8?q?Xci+d7z7baNQ5d=09_ptgwjAwjWw4CL5J2tqlpgwmTHuHNPsrw2Rtke35txhR77vB?=
+ =?utf-8?q?7zcHcD63g/tck9F/HdMh5bN2Pu1dYch=09_Fmu6eCvP7qCAMXv5T66QkwZfEH5lQZ?=
+ =?utf-8?q?bvNewMR4Z//4AsOoZQbhDls+5xbu47I6b9aZnwdNUDBB4QtK?=	
+ cQ623nMEyfSrZ9Z/qBRALfdX2HV9I8Q==
+X-HalOne-SA: 13.1
+X-HalOne-RefID: 155866::1691693352-DCEF2F79-73637560/10/49875693106
+Authentication-Results: mx1.pub.mailpod3-cph3.one.com;	spf=softfail
+ smtp.mailfrom=asia.com smtp.remote-ip=162.241.191.40;	dkim=pass
+ header.d=chadyfit.com header.s=default header.a=rsa-sha256 header.b=V5YWj3mC;
+	dmarc=fail header.from=asia.com;
+X-HalOne-ID: 982d6c24-37ae-11ee-9a55-e0d84894a001
+Received: from natalieminh.com (natalieminh.com [162.241.191.40])
+	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 982d6c24-37ae-11ee-9a55-e0d84894a001;
+	Thu, 10 Aug 2023 18:49:12 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=chadyfit.com; s=default; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Message-ID:Date:Subject:To:From:Reply-To:Sender:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=Yfa9rG0eC5GvIMnTqG0erIIeCRvBlTSR8R2FJ49db5I=; b=V5YWj3mCTlCXxEyUsqNeN8eVYw
+	r1VCSs6gF31j669ATB/fvII7JP526UrWyNzZL54y54zfh79zB2LRmqnYks5nyVlgv9h7DMxZYFrtB
+	IzInsR3aRdP2kfbRtDmzWdWmNGDDQwNF7Nh1eea9g/9Ifv2LOColO4jnPOaXoC7onuOI+WgW42foy
+	ul/F6+UUQg/4gzkc4LLcbsCMqarvOAO78SmVgetvypMC4y+Vn2x/W7GrUqW0QBuefE4Tb/QJu5ooR
+	KL0dtqu2PqT9ZON3UOeLL06wKTgEY2QiHK0WgJj80A7dXkgKSZnYZTKe4yj1cdXv6YagnaX0JP5zj
+	IZhPfufg==;
+Received: from [46.183.223.45] (port=54938 helo=asia.com)	by
+ nat.natalieminh.com with esmtpsa  (TLS1.2) tls
+ TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384	(Exim 4.94.2)	(envelope-from
+ <asian.lotto@asia.com>)	id 1qUAiU-0002CG-RN	for
+ johannes.olegard@cyfoexample.one.com; Thu, 10 Aug 2023 12:49:07 -0600
+Reply-To: info@euroasiamegawins.com
+From: "Victor Chenello"<asian.lotto@asia.com>
+To: johannes.olegard@cyfoexample.one.com
+Subject:
+ Re: Your Email (johannes.olegard@cyfoexample.one.com) Wins Lottery Draw.
+Date: 10 Aug 2023 21:48:45 +0300
+Message-ID: <20230810214845.AC9B7DC0E106EBC5@asia.com>
+MIME-Version: 1.0
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse:
+ This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - nat.natalieminh.com
+X-AntiAbuse: Original Domain - cyfoexample.one.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - asia.com
+X-Get-Message-Sender-Via:
+ nat.natalieminh.com: authenticated_id: smtpfox-85djk@chadyfit.com
+X-Authenticated-Sender: nat.natalieminh.com: smtpfox-85djk@chadyfit.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+<HTML><HEAD>
+<META=20name=3DGENERATOR=20content=3D"MSHTML=2011.00.9600.19699"></HEAD>
+<body>
+<P><FONT=20face=3D"Comic=20Sans=20MS">Dear=20johannes.olegard@cyfoexample.o=
+ne.com,<BR><BR>CONGRATULATIONS!<BR><BR>Your=20Email=20was=20selected=20as=
+=20one=20of=20the=20winners=20in=20our=20Asian=20Second=20Quarter=20Lottery=
+=20Draw=202023.<BR><BR>You=20are=20expected=20to=20respond=20for=20your=20c=
+laim.<BR><BR>Best=20Regards,<BR>Victor=20Chenello<BR>Asian/Euro=20Lotto.</F=
+ONT><BR><BR><BR><BR><FONT=20size=3D2><FONT=20size=3D1>Asia/Euro=20Lotto=20A=
+dmin=20Team=202023.=20This=20message=20was=20automatically=20generated=20fr=
+om=20an=20email=20security=20server,=20this=20email=20is=20only=20for=20joh=
+annes.olegard@cyfoexample.one.com</FONT><BR></FONT><BR></P>
+</BODY></HTML>

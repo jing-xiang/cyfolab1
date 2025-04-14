@@ -1,0 +1,81 @@
+Return-Path: <>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id QGEGEt1IH2J5JwAAtf5whQ
+	(envelope-from <>)
+	for <johannes.olegard@cyfoexample.one.com>; Wed, 02 Mar 2022 10:37:17 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	h=message-id:reply-to:date:from:to:subject:content-description:	 
+ =?utf-8?q?content-transfer-encoding=3Amime-version=3Acontent-type=3Ax-halon?=
+ =?utf-8?q?e-refid=3Ax-halone-sa=3A?=	 from:x-halone-sa:x-halone-refid;
+	bh=usCLRC01esf/GXb0DULVGtIQ6degMUQQTSszcol237w=;	=?utf-8?q?b=3DCp9svJkzAomH?=
+ =?utf-8?q?1cLFVeKsHfa+jlqCyvNN7hAez4M3xChOuuEPUp4ahnPpLDRRGljHJk/LAMMnFwsa2?=
+	 =?utf-8?q?NYvD3zmPwnaPsSHT2Tj5q9u6ZvHFlKxbzK93wYZfzNhbWAXRCjiFBRXBG1kWUhyn?=
+ =?utf-8?q?9Y9MzFRiGwX6DK=09_ya8m7tMNMwaEChrXsjORRvMbq7O8P+gLQYI2mH5sMGhO2Ai?=
+ =?utf-8?q?gvPYVa64licwTqLtVl89NTZpSvafo8M=09_BB3D+sUezsHRBOIb3qf5yvUAokFKDC?=
+ =?utf-8?q?/7cf5IhsgOK6iw6KkVNdqORT4MfpBeKh9M1MOr/RyHvNkFwe?=	
+ D2WZ5+GVj4N0wJbszQPRljRNlMS1sSw==
+X-HalOne-SA: 1.8
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F29=2E621E37A0=2E0036=2Css=3D4?=
+ =?utf-8?b?LHNoLHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZn?=
+ =?utf-8?q?s=3D8?=
+X-HalOne-ID: b9a17393-9a14-11ec-8333-e0d84894a001
+Received: from mtafilter.santafeciudad.gov.ar (mtafilter1.santafeciudad.gov.ar
+ [190.183.255.181])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ b9a17393-9a14-11ec-8333-e0d84894a001;	Wed, 02 Mar 2022 10:37:16 +0000 (UTC)
+Received: from mta.santafeciudad.gov.ar (mta.santafeciudad.gov.ar
+ [192.168.1.203])	by mtafilter.santafeciudad.gov.ar  with ESMTP id
+ 222AZ9u6004686-222AZ9u7004686;	Wed, 2 Mar 2022 07:35:09 -0300
+Received: from mta.santafeciudad.gov.ar (localhost.localdomain [127.0.0.1])
+	by mta.santafeciudad.gov.ar (Postfix) with ESMTP id EC7E08073D;
+	Wed,  2 Mar 2022 07:37:27 -0300 (ART)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mta.santafeciudad.gov.ar (Postfix) with ESMTP id CBAEA8073C;
+	Wed,  2 Mar 2022 07:37:27 -0300 (ART)
+DKIM-Filter: OpenDKIM Filter v2.9.0 mta.santafeciudad.gov.ar CBAEA8073C
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+	d=santafeciudad.gov.ar; s=61BF81FE-41E0-11EA-AE55-85B6A74F25FC;
+	t=1646217447; bh=usCLRC01esf/GXb0DULVGtIQ6degMUQQTSszcol237w=;
+	h=Content-Type:MIME-Version:Content-Transfer-Encoding:Subject:To:
+	 From:Date:Reply-To:Message-Id;
+	b=YBJhoq0SZ4XMuYjqrggqaUSRH8plm7Mi4nNNs9aliTeWb2R4AIYULpOcS/OCobJoa
+	 3uy76kKV1Kw+ZSK8/cHZDRbtbkbCNhv4ybl2A63Obnj5VfWH8VJD6/onTRjRxFg8NO
+	 SU+RKckiNaVvvZp5bPJZYJGGf49ICxDDf+/MSSbg=
+X-Virus-Scanned: amavisd-new at mta.santafeciudad.gov.ar
+Received: from mta.santafeciudad.gov.ar ([127.0.0.1])
+	by localhost (mta.santafeciudad.gov.ar [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id YWvwWyqgtcPv; Wed,  2 Mar 2022 07:37:27 -0300 (ART)
+Received: from [192.168.43.176] (unknown [194.59.249.204])
+	by mta.santafeciudad.gov.ar (Postfix) with ESMTPSA id 20785805A0;
+	Wed,  2 Mar 2022 07:37:14 -0300 (ART)
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: Loan
+To: Recipients <>
+From: "NT" <""@santafeciudad.gov.ar>
+Date: Wed, 02 Mar 2022 02:36:25 -0800
+Reply-To: bryanfundinghome@gmail.com
+Message-Id: <20220302103715.20785805A0@mta.santafeciudad.gov.ar>
+
+This=20is=20to=20inform=20you=20that=20we=20offer=20all=20types=20of=20Loan
+=20(Business,Personal,Consolidation,=20Car,=20Investment,=20etc)=20@=203%=
+=20annual
+=20rate.=20Do=20you=20need=20a=20loan=20and=20have=20been=20turned=20down=
+=20by=20your=20bank=20due=20to
+=20bad=20credit?=20Do=20you=20have=20unpaid=20bills=20or=20in=20debt?=20We=
+=20are=20fast=20and
+=20reliable=20and=20honesty=20is=20our=20watch=20word.
+
+=20FILL=20APPLICATION=20FORM
+=20Your=20Name=20in=20full:=20Address:=20Gender:=20Amount=20Needed:=20Durat=
+ion:=20Country:
+=20Occupation:=20Phone=20number:=20Purpose=20of=20loan:
+
+=20Kind=20Regards,
+=20Email=20Us=20:=20bryanfundinghome@gmail.com
+=20Bryan=20Wilson=20(CEO)
+=20Bryan=20Wilson=20Investment=20Company

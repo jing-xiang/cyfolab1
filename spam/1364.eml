@@ -1,0 +1,64 @@
+Return-Path: <Tomas@mail.krjc.kg>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id aOJiB9D2N2TuPAAAtf5whQ
+	(envelope-from <Tomas@mail.krjc.kg>)
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 13 Apr 2023 12:34:24 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	h=message-id:reply-to:date:from:to:subject:content-description:	 
+ =?utf-8?q?content-transfer-encoding=3Amime-version=3Acontent-type=3Ax-halon?=
+ =?utf-8?q?e-refid=3Ax-halone-sa=3A?=	 from:x-halone-sa:x-halone-refid;
+	bh=6mswCeUIMsxAYS3VJqdbBngahOuduwwv4WNNBe9e7/U=;	=?utf-8?q?b=3Doel4BK1ebAc2?=
+ =?utf-8?q?73RWPKQs3ynJ086zrZtA7XSH1vdo2GmVwgJb9j6nnZRqfd983JqBxwadqMA2xeTkw?=
+	 =?utf-8?q?I8tK43nXsuYSdX4XV86vszkhX7e8OyfHmSRHqtNYc7esF7P0LsMA9LQsvK/jtE+Y?=
+ =?utf-8?q?J8+acaiWApce2b=09_aELx6k+x9PlcUduJYbCV4XN9tn47V37FcvLRSaVKwm/YVZA?=
+ =?utf-8?q?Jd06hMuDyV8RQxE4wtElsvPrkjkMNXN=09_MFvJhMsGZOqZOAGnB/cDMkOwSCsahc?=
+ =?utf-8?q?YrcA/JkaUL5bmyBrtuilMyO9k7SKYG1b4tbBpcXTXclZ7tDQ?=	
+ wxPAPmFt/VMNw3S5OURAXgeRBNyq+3Q==
+X-HalOne-SA: 3.2
+X-HalOne-RefID: 155866::1681389261-BFAF35B5-F237DEF9/10/49563329406
+X-HalOne-ID: 832f32c5-d9f7-11ed-a299-e0d848974e01
+Received: from mail.krjc.kg (mail.krjc.kg [212.112.113.131])
+	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 832f32c5-d9f7-11ed-a299-e0d848974e01;
+	Thu, 13 Apr 2023 12:34:20 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.krjc.kg (Postfix) with ESMTP id 6F9915ABFBA9;
+	Thu,  6 Apr 2023 03:10:53 +0600 (+06)
+Received: from mail.krjc.kg ([127.0.0.1])
+	by localhost (mail.krjc.kg [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id FQFvK-CqEheg; Thu,  6 Apr 2023 03:10:53 +0600 (+06)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.krjc.kg (Postfix) with ESMTP id 1092349E7D13;
+	Sat,  1 Apr 2023 05:55:50 +0600 (+06)
+X-Virus-Scanned: amavisd-new at krjc.kg
+Received: from mail.krjc.kg ([127.0.0.1])
+	by localhost (mail.krjc.kg [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id yVISpoe-_09M; Sat,  1 Apr 2023 05:55:49 +0600 (+06)
+Received: from [192.168.1.82] (unknown [41.90.177.190])
+	by mail.krjc.kg (Postfix) with ESMTPSA id 0C49B5046F3F;
+	Fri, 31 Mar 2023 20:58:22 +0600 (+06)
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: RE
+To: Recipients <Tomas@mail.krjc.kg>
+From: Tomas@mail.krjc.kg, Laura@mail.krjc.kg
+Date: Fri, 31 Mar 2023 19:24:03 -0700
+Reply-To: test@mail.krjc.kg, markloenad@outlook.com
+X-Antivirus: Avast (VPS 230331-2, 3/31/2023), Outbound message
+X-Antivirus-Status: Clean
+Message-Id: <20230331145824.0C49B5046F3F@mail.krjc.kg>
+
+Charity=20Donation=20funds=20amount=20of=20$3.5=20Million=20in=20your=20nam=
+e=20as=20the=20beneficiary.
+
+
+
+--=20
+This=20email=20has=20been=20checked=20for=20viruses=20by=20Avast=20antiviru=
+s=20software.
+www.avast.com

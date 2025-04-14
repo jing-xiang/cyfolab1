@@ -1,0 +1,441 @@
+Return-Path: <bounce@marketsconnects.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id sG4ANs95mF6/TwAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 16 Apr 2020 15:29:19 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 0a1add2b-7ff7-11ea-a6f0-e0d84894a001
+Received: from server52.electronicmailvouchers.com
+ (server52.electronicmailvouchers.com [87.117.216.246])	by
+ mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 0a1add2b-7ff7-11ea-a6f0-e0d84894a001;	Thu, 16 Apr 2020 15:29:19 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=dkim;
+ d=marketsconnects.com; =?utf-8?q?h=3DTo=3ASubject=3AMessage-ID=3ADate=3AFro?=
+ =?utf-8?q?m=3AReply-To=3AMIME-Version=3AList-Unsubscribe=3AContent-Type=3AC?=
+ =?utf-8?q?ontent-Transfer-Encoding=3B?= i=marketing@marketsconnects.com;
+ bh=meQ8RPnyJAWMtEf1k6wrvr4YVIw=; =?utf-8?q?b=3DZqJorb0tglDz7iHnC7f6jdlAQI2v?=
+ =?utf-8?q?fQ6K0VzwSAq1ocHgMFtbJmXHm/GCtzKjbBRnjO1VE1SUJwQi?=  
+ Ro5JQ1QDP9SEQqohpe5IHk7dfqC1qFLPdD7ZV9xgKR2tPoUzv3kFWETYt1ybrlmugB8Ti4BNLYXU
+   HxM0lXDZRMYf2I3Jm2o=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=dkim;
+ d=marketsconnects.com; =?utf-8?q?b=3DwUB8rrHkl23ImIpNfvprqcOH8hmkLSIamApioN?=
+ =?utf-8?q?LBiHbAZU8QEXdlCDd55fKpR3XKrIx2Yx4Gb+cJ?=  
+ cB5KQAYDCUYNgcYL5clK0mXg0XJG1hl9wC8C/eEriNyIHUBXqo7+423Z1IGoqIj0OaT7sGljPWSk
+   F93FmMHKPv9acKYdtTI=;
+To: johannes.olegard@cyfoexample.one.com
+Subject: Over 1 Million Members Connected to Earn From Home
+Message-ID: <5cfa3a40bcc2ea9833b3e66bbf29387c@server3.marketsconnects.com>
+Return-Path: bounce@marketsconnects.com
+Date: Thu, 16 Apr 2020 16:19:16 +0100
+From: "DigiMedia" <marketing@marketsconnects.com>
+Reply-To: admin@marketsconnects.com
+MIME-Version: 1.0
+X-Mailer-LID: 18
+List-Unsubscribe: =?utf-8?q?=3Chttp=3A//server3=2Emarketsconnects=2Ecom/unsu?=
+ =?utf-8?q?bscribe=2Ephp=3FM=3D1929368=26C=3D013eb95bb2d9a574f26d41914659309?=
+ =?utf-8?b?MyZMPTE4Jk49MTc+?=
+X-Mailer-RecptId: 1929368
+X-Mailer-SID: 17
+X-Mailer-Sent-By: 1
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: 8bit
+
+<html><head></head><body><meta http-equiv="Content-Type"
+content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1,
+minimum-scale=1, maximum-scale=1" />
+<!--[if !mso]><!-->
+<meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+<!--<![endif]--> <!--[if (gte mso 9)|(IE)]><mce:style type="text/css"><!
+table border-collapse: collapse;   table, td mso-table-lspace:
+0pt;mso-table-rspace: 0pt;   img -ms-interpolation-mode: bicubic;    -->
+<!--[endif] -->
+<style type="text/css"><!--
+  body
+    color: ;
+
+  body a
+    color: #0055B8;
+    text-decoration: none;
+
+  p  margin: 0; padding: 0;
+  table[class="wrapper"]
+    width:100% !important;
+    table-layout: fixed;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+
+  img[class="max-width"]
+    max-width: 100% !important;
+
+  @media screen and (max-width:480px)
+    .preheader .rightColumnContent,
+    .footer .rightColumnContent {
+        text-align: left !important;
+
+    .preheader .rightColumnContent div,
+    .preheader .rightColumnContent span,
+    .footer .rightColumnContent div,
+    .footer .rightColumnContent span
+      text-align: left !important;
+
+    .preheader .rightColumnContent,
+    .preheader .leftColumnContent
+      font-size: 80% !important;
+      padding: 5px 0;
+
+    table[class="wrapper-mobile"]
+      width: 100% !important;
+      table-layout: fixed;
+
+    img[class="max-width"]
+      height: auto !important;
+
+    a[class="bulletproof-button"]
+      display: block !important;
+      width: auto !important;
+      font-size: 80%;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+
+    // 2 columns
+    #templateColumns
+        width:100% !important;
+
+
+    .templateColumnContainer
+        display:block !important;
+        width:100% !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+
+  }
+--></style>
+<style><!--
+  body, p, div  font-family: trebuchet ms,sans-serif;
+--></style>
+<style><!--
+  body, p, div  font-size: 14px;
+--></style>
+<center class="wrapper">
+<div class="webkit">
+<table cellpadding="0" cellspacing="0" border="0" width="100%"
+class="wrapper" bgcolor="#F7F7F7">
+<tbody>
+<tr>
+<td valign="top" bgcolor="#F7F7F7" width="100%"><!--[if (gte mso 9)|(IE)]>
+
+<table width="600" align="center" cellpadding="0" cellspacing="0"
+border="0">
+<tr>
+<td><![endif]-->
+<table width="100%" role="content-container" class="outer"
+data-attributes="%7B%22dropped%22%3Atrue%2C%22containerpadding%22%3A%220%2C0%2C0%2C0%22%2C%22containerwidth%22%3A600%2C%22containerbackground%22%3A%22%23FFFFFF%22%7D"
+align="center" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td width="100%">
+<table width="100%" cellpadding="0" cellspacing="0" border="0">
+<tbody>
+<tr>
+<td><!--[if (gte mso 9)|(IE)]>
+<table width="600" align="center" cellpadding="0" cellspacing="0"
+border="0">
+<tr>
+<td><![endif]-->
+<table width="100%" cellpadding="0" cellspacing="0" border="0"
+style="width: 100%; max-width: 600px;" align="center">
+<tbody>
+<tr>
+<td role="modules-container" style="padding: 0px 0px 0px 0px; text-align:
+left;" bgcolor="#FFFFFF" width="100%" align="left">
+<table border="0" cellpadding="0" cellspacing="0" align="center"
+width="100%" class="module preheader " role="module" data-type="preheader"
+data-attributes="%7B%22dropped%22%3Atrue%2C%22hide%22%3Afalse%2C%22columns%22%3A2%2C%22padding%22%3A%2224%2C5%2C10%2C5%22%2C%22containerbackground%22%3A%22%23F7F7F7%22%7D">
+<tbody>
+<tr>
+<td style="padding: 24px 5px 10px 5px;" bgcolor="#F7F7F7">
+<table border="0" cellpadding="0" cellspacing="0" align="center"
+width="100%">
+<tbody>
+<tr role="module-content">
+<td align="center" valign="top" width="50%" height="100%"
+class="templateColumnContainer">
+<table border="0" cellpadding="0" cellspacing="0" width="100%"
+height="100%">
+<tbody>
+<tr>
+<td class="leftColumnContent" role="column-one" height="100%"
+style="height: 100%;">
+<table class="module" role="module" data-type="text" border="0"
+cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;"
+data-attributes="%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%23f7f7f7%22%7D">
+<tbody>
+<tr>
+<td role="module-content" valign="top" height="100%" style="padding: 0px
+0px 0px 0px;" bgcolor="#f7f7f7">
+<div><font face="verdana, geneva, sans-serif"><span style="font-size:
+10px;">Learn how people are creating small scale digital businesses from
+home.&nbsp;</span></font></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td align="center" valign="top" width="50%" height="100%"
+class="templateColumnContainer">
+<table border="0" cellpadding="0" cellspacing="0" width="100%"
+height="100%">
+<tbody>
+<tr>
+<td class="rightColumnContent" role="column-two" height="100%"
+style="height: 100%;"><br /></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+<table class="module" role="module" data-type="text" border="0"
+cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;"
+data-attributes="%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22padding%22%3A%2251%2C20%2C51%2C20%22%2C%22containerbackground%22%3A%22%23ff006d%22%7D">
+<tbody>
+<tr>
+<td role="module-content" valign="top" height="100%" style="padding: 51px
+20px 51px 20px;" bgcolor="#1e71b2">
+<div align="center"><strong><span style="font-size: 28px;"><span
+style="color: #ffffff;">GET ONLINE &nbsp;</span></span></strong><span
+style="font-size: 24px;"><span style="color: #ffffff;">WITH YOUR DIGITAL
+AGENCY TO START EARNING FROM HOME</span></span></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="module" role="module" data-type="button" border="0"
+cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;"
+data-attributes="%7B%22dropped%22%3Atrue%2C%22borderradius%22%3A0%2C%22buttonpadding%22%3A%2210%2C18%2C10%2C18%22%2C%22text%22%3A%22LIKE%2520US%22%2C%22alignment%22%3A%22center%22%2C%22fontsize%22%3A16%2C%22url%22%3A%22%22%2C%22height%22%3A%22%22%2C%22width%22%3A100%2C%22containerbackground%22%3A%22%23ffffff%22%2C%22padding%22%3A%2215%2C10%2C0%2C0%22%2C%22buttoncolor%22%3A%22%23FF006D%22%2C%22textcolor%22%3A%22%23ffffff%22%2C%22bordercolor%22%3A%22%23ffffff%22%7D">
+<tbody>
+<tr>
+<td style="padding: 15px 10px 0px 0px;" align="center" bgcolor="#ffffff">
+<table border="0" cellpadding="0" cellspacing="0" class="wrapper-mobile">
+<tbody>
+<tr>
+<td align="center" style="border-radius: 0px; font-size: 16px;"
+bgcolor="#1e71b2"><a
+href="http://server3.marketsconnects.com/link.php?M=1929368&N=17&L=1&F=H"
+class="bulletproof-button" target="_blank" style="height: px; width: 100px;
+font-size: 16px; line-height: px; font-family: Helvetica, Arial,
+sans-serif; color: #ffffff; padding: 10px 18px 10px 18px; text-decoration:
+none; border-radius: 0px; border: 1px solid #ffffff; display:
+inline-block;">PICK A PLAN</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" align="center"
+width="100%" role="module" data-type="columns"
+data-attributes="%7B%22dropped%22%3Atrue%2C%22columns%22%3A2%2C%22padding%22%3A%2230%2C20%2C0%2C20%22%2C%22cellpadding%22%3A20%2C%22containerbackground%22%3A%22%22%7D">
+<tbody>
+<tr>
+<td style="padding: 30px 20px 0px 20px;">
+<table class="columns--container-table" border="0" cellpadding="0"
+cellspacing="0" align="center" width="100%">
+<tbody>
+<tr role="module-content">
+<td style="padding: 0px 10px 0px 0px;" role="column-0" align="center"
+valign="top" width="50%" height="100%" class="templateColumnContainer
+column-drop-area ">
+<table class="module" role="module" data-type="text" border="0"
+cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;"
+data-attributes="%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%23ffffff%22%7D">
+<tbody>
+<tr>
+<td role="module-content" valign="top" height="100%" style="padding: 0px
+0px 0px 0px;" bgcolor="#ffffff">
+<div align="center"><strong><span style="font-family: trebuchet
+ms,helvetica,sans-serif;">CONNECT WITH LIKE MINDED PEOPLE TO WORK FROM
+HOME.&nbsp;</span></strong></div>
+<div>&nbsp;</div>
+<div>
+<div align="center"><span style="color: #0000ff;">Our platform helps you
+connect with people from diverse backgrounds of life to buy, sell, products
+and services. <br /><br />100,000 Customer Connects.</span></div>
+<div>&nbsp;</div>
+</div>
+<div align="center"><strong><span style="font-size: 18px;"><span
+style="color: #606060;">$49.99 ONLY</span></span></strong></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="module" role="module" data-type="button" border="0"
+cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;">
+<tbody>
+<tr>
+<td style="padding: 15px 10px 0px 0px;" align="center" bgcolor="#ffffff">
+<table border="0" cellpadding="0" cellspacing="0" class="wrapper-mobile">
+<tbody>
+<tr>
+<td align="center" style="border-radius: 0px; font-size: 16px;"
+bgcolor="#1e71b2"><a
+href="http://server3.marketsconnects.com/link.php?M=1929368&N=17&L=1&F=H"
+class="bulletproof-button" target="_blank" style="height: px; width: 220px;
+font-size: 16px; line-height: px; font-family: Helvetica, Arial,
+sans-serif; color: #ffffff; padding: 10px 18px 10px 18px; text-decoration:
+none; border-radius: 0px; border: 1px solid #1e71b2; display:
+inline-block;">Pick A Plan</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="padding: 0px 0px 0px 10px;" role="column-1" align="center"
+valign="top" width="50%" height="100%" class="templateColumnContainer
+column-drop-area ">
+<table class="module" role="module" data-type="text" border="0"
+cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;"
+data-attributes="%7B%22dropped%22%3Atrue%2C%22child%22%3Afalse%2C%22padding%22%3A%220%2C0%2C0%2C0%22%2C%22containerbackground%22%3A%22%23ffffff%22%7D">
+<tbody>
+<tr>
+<td role="module-content" valign="top" height="100%" style="padding: 0px
+0px 0px 0px;" bgcolor="#ffffff">
+<div align="center"><strong><span style="font-family: trebuchet
+ms,helvetica,sans-serif;">PUBLISH YOUR PRODUCTS OR SERVICES ONLINE TO START
+EARNING.</span></strong></div>
+<div>&nbsp;</div>
+<div>
+<div align="center"><span style="color: #9b9b9b;"><span style="color:
+#0000ff;">Whether you'd like to sell freelance services from home or have
+products to be sold online our platform serves it all</span><br /><br
+/><span style="color: #0000ff;">500,000 Customer Connects</span><br /><br
+/></span></div>
+</div>
+<div align="center"><strong><span style="font-size: 18px;"><span
+style="color: #606060;">$99.00 ONLY</span></span></strong></div>
+</td>
+</tr>
+</tbody>
+</table>
+<table class="module" role="module" data-type="button" border="0"
+cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;"
+data-attributes="%7B%22dropped%22%3Atrue%2C%22borderradius%22%3A0%2C%22buttonpadding%22%3A%2210%2C18%2C10%2C18%22%2C%22text%22%3A%2220%2520%2525%2520OFF.%2520GRAB%2520IT%2520NOW%22%2C%22alignment%22%3A%22center%22%2C%22fontsize%22%3A16%2C%22url%22%3A%22http%253A//www.cubanheritagecigars.com/collections/collectibles-tobacciana-cigars-cigar-cases-holders/products/new-20-ct-cigar-leather-travel-humidor-case-with-humidifier-digital-hygrometer%22%2C%22height%22%3A%22%22%2C%22width%22%3A220%2C%22containerbackground%22%3A%22%23ffffff%22%2C%22padding%22%3A%2215%2C10%2C0%2C0%22%2C%22buttoncolor%22%3A%22%23D0021B%22%2C%22textcolor%22%3A%22%23ffffff%22%2C%22bordercolor%22%3A%22%23D0021B%22%7D">
+<tbody>
+<tr>
+<td style="padding: 15px 10px 0px 0px;" align="center" bgcolor="#ffffff">
+<table border="0" cellpadding="0" cellspacing="0" class="wrapper-mobile">
+<tbody>
+<tr>
+<td align="center" style="border-radius: 0px; font-size: 16px;"
+bgcolor="#1e71b2"><a
+href="http://server3.marketsconnects.com/link.php?M=1929368&N=17&L=1&F=H"
+class="bulletproof-button" target="_blank" style="height: px; width: 220px;
+font-size: 16px; line-height: px; font-family: Helvetica, Arial,
+sans-serif; color: #ffffff; padding: 10px 18px 10px 18px; text-decoration:
+none; border-radius: 0px; border: 1px solid #1e71b2; display:
+inline-block;">Pick A Plan</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br />
+<table class="module" role="module" data-type="spacer" border="0"
+cellpadding="0" cellspacing="0" width="100%" style="table-layout: fixed;"
+data-attributes="%7B%22dropped%22%3Atrue%2C%22spacing%22%3A2%2C%22containerbackground%22%3A%22%23B13B3B%22%7D">
+<tbody>
+<tr>
+<td role="module-content" style="padding: 0px 0px 2px; text-align: center;"
+bgcolor="#fff"><span style="color: #000;">&copy; Copyrights
+QuickBusinessWebsite.com 2020 - All Rights Reserved.</span></td>
+</tr>
+</tbody>
+</table>
+<table style="margin-left: auto; margin-right: auto;" border="0"
+cellpadding="0" cellspacing="0" align="center" width="100%" class="module
+footer" role="module" data-type="footer"
+data-attributes="%7B%22dropped%22%3Atrue%2C%22columns%22%3A1%2C%22padding%22%3A%2210%2C5%2C10%2C5%22%2C%22containerbackground%22%3A%22%23ffffff%22%7D">
+<tbody>
+<tr>
+<td style="padding: 10px 5px 10px 5px;" bgcolor="#ffffff">
+<table border="0" cellpadding="0" cellspacing="0" align="center"
+width="100%">
+<tbody>
+<tr role="module-content">
+<td align="center" valign="top" width="100%" height="100%"
+class="templateColumnContainer">
+<table border="0" cellpadding="0" cellspacing="0" width="100%"
+height="100%">
+<tbody>
+<tr>
+<td class="leftColumnContent" role="column-one" height="100%"
+style="height: 100%; text-align: center;">To Unsubscribe From This Email <a
+target="_blank"
+href="http://server3.marketsconnects.com/unsubscribe.php?M=1929368&C=013eb95bb2d9a574f26d419146593093&L=18&N=17">Please
+Click Here</a> to Opt Out of Receiving Future Emails From Our
+Platform.</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td>
+</td>
+</table>
+<![endif]--></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<!--[if (gte mso 9)|(IE)]></td>
+</tr>
+</table>
+<![endif]--></td>
+</tr>
+</tbody>
+</table>
+</div>
+</center><img
+src="http://server3.marketsconnects.com/open.php?M=1929368&L=18&N=17&F=H&image=.jpg"
+height="1" width="10"></body></html>
+

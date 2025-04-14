@@ -1,0 +1,51 @@
+Return-Path: <ebh@emailitis.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id YD6ROfG05mLTKAAAtf5whQ
+	(envelope-from <ebh@emailitis.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Sun, 31 Jul 2022 16:59:29 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	h=message-id:reply-to:date:from:to:subject:content-description:	 
+ =?utf-8?q?content-transfer-encoding=3Amime-version=3Acontent-type=3Ax-halon?=
+ =?utf-8?q?e-refid=3Ax-halone-sa=3A?=	 from:x-halone-sa:x-halone-refid;
+	bh=21e3P5xP/J6vd2uos/Laga4gG9Kubn9JGU++QvOQ3cQ=;	=?utf-8?q?b=3DErC5ycNuo9L2?=
+ =?utf-8?q?J/QZx8CUpr47g7tjzo2/IyVjgtvzf8JBFYinBJicyOnIKhuPs3uT/Rc7yJExM6iC1?=
+	 =?utf-8?q?YdCXDbPj+G75yFYwZA1nKkTdb2XCMth/loOK9d6g73FH7z06EYb69S34+23j++hY?=
+ =?utf-8?q?9Fj5g8mPcrPq7R=09_mTyk46EKSHLs9SlF5UXgpP9Uwuz4ryEOOGmPSf8Oqbcn6DN?=
+ =?utf-8?q?bL1T0skb3nw9lpeGIofHm5qP35RLuJh=09_av3/CZY+VYrG++8dtyd0QdwdN3RZo/?=
+ =?utf-8?q?0joYJP3douV9tfn9M14sVz1/+H+axgKCwAI69g3+MmhjJU+w?=	
+ ELTo4sSXwOAwX/L/sWHTiCBNWUwxFcw==
+X-HalOne-SA: 14
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F1C=2E62E654DF=2E0015=2Css=3D4?=
+ =?utf-8?b?LHNoLHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZn?=
+ =?utf-8?q?s=3D8?=
+X-HalOne-ID: 1fd8add8-10f2-11ed-974d-e0d84894a001
+Received: from hptaxmail.hptax.gov.in (mailhptax.gov.in [164.100.138.140])
+	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 1fd8add8-10f2-11ed-974d-e0d84894a001;
+	Sun, 31 Jul 2022 16:59:29 +0000 (UTC)
+Received: from [163.123.143.199] (163.123.143.199) by HPTAXMAIL.hptax.gov.in
+ (10.126.120.196) with Microsoft SMTP Server (TLS) id 14.3.123.3; Sun, 31 Jul
+ 2022 22:24:07 +0530
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: Trust you are well
+To: Recipients <ebh@emailitis.com>
+From: <ebh@emailitis.com>
+Date: Sun, 31 Jul 2022 18:59:11 +0200
+Reply-To: <tonygoodmanb@gmail.com>
+Message-ID: <8c5aa21d-1c6c-4a30-878e-a99ff996c78e@HPTAXMAIL.hptax.gov.in>
+Return-Path: ebh@emailitis.com
+
+I=20request=20your=20approval=20to=20present=20you=20as=20next=20of=20kin=
+=20to=20pending=20inheritance=20funds=20to=20the=20sum=20of=20USD17.3=20Mil=
+lion=20in=20my=20bank.=20If=20this=20suits=20your=20interest,=20please=20re=
+vert=20back=20and=20for=20more=20additional=20information.
+
+I=20await=20your=20reply,
+
+Mr.Tony=20Goodman

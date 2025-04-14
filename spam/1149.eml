@@ -1,0 +1,66 @@
+Return-Path: <quotation@fatpipeinc.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id WMt8Hveyz19xYQAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 08 Dec 2020 17:08:07 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	=?utf-8?q?h=3Dreply-to=3Adate=3Afrom=3Ato=3Asubject=3Acontent-d?=
+ =?utf-8?q?escription=3Acontent-transfer-encoding=3A?=	
+ mime-version:content-type:x-halone-refid:x-halone-sa:from:x-halone-sa:	
+ x-halone-refid;	bh=C/WpFkcp6/9q4TBOaJ/ucUfMrqyvrB52EKVicZ4d4SE=;	
+ =?utf-8?q?b=3Dh82XbzKqOkU3J7XxiFfM+AtS/DGoNDuI4hm2qTYIAJPBwWyCYBcGZGBZ9DQq7?=
+ =?utf-8?q?vnOIIFMcNGvCUd5n=09_WKIrsjK1v0c2OHwRLVybzp8NnfERl2Y41G+OViU1KiXsB?=
+ =?utf-8?q?nKk+mc7hzDoU3pjN0KYrhsDgwGgn7uWvU=09_98QkEl4rDr62h7IIDlh6eMXlKbPu?=
+ =?utf-8?q?2mDIsG+Uo3M7+Ad7qbsUb8k2WyNnpu1kGhFjiRy8/PURYhWXaY=09_uQ15Sb65ZE2?=
+ =?utf-8?q?Iuxyxle6z+qT9Dc2E525LU/2X8ZpaGXnKlDCudp++0KS/4pw1aQvC0eGd6Pg7xf2M?=
+ =?utf-8?q?Iz?=	 Ybur9GBWzAc/UC+He6I5lVXR08tv35g==
+X-HalOne-SA: 16.3
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F24=2E5FCFB2F7=2E0001=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz04?=
+X-HalOne-ID: f039d9ab-3977-11eb-9847-e0d848974e01
+Received: from correo.micromagic.tv (correo.micromagic.tv [62.138.137.199])
+	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id f039d9ab-3977-11eb-9847-e0d848974e01;
+	Tue, 08 Dec 2020 17:08:06 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=borradormagico.com; s=default; h=Reply-To:Date:From:To:Subject:
+	Content-Description:Content-Transfer-Encoding:MIME-Version:Content-Type:
+	Sender:Message-ID:Cc:Content-ID:Resent-Date:Resent-From:Resent-Sender:
+	Resent-To:Resent-Cc:Resent-Message-ID:In-Reply-To:References:List-Id:
+	List-Help:List-Unsubscribe:List-Subscribe:List-Post:List-Owner:List-Archive;
+	 bh=C/WpFkcp6/9q4TBOaJ/ucUfMrqyvrB52EKVicZ4d4SE=; b=hYQ2NnWguoYJRa51AVUDdebEj
+	9LMZ9sfQOpT4dwwkM3oBBP6a1Wi2iEzdZ//yWNouNQxAVw2/nUm2L4ofgQ5RSAebuiCblc7q89NtO
+	1baOH9JIPMxKfuM7NKD4//1B08lyHFqKvYFrQV+poj/h+lL+AL25iRFDP2AD7WpUd+lTc+lIlToe5
+	NAyHsKAGseM6YWHTT+3VAMh/w50wKFG6DGvBPFICKTKqQnr7xhYbWMJfCKUkSQBztxi4284GWTpyu
+	WckbpeNJlsGHcZQNzTv5vhSGPXDFitoYwYrcR36X4nfSqKyYY805EIXDJIJlUY4SfQPOVAsW0GXTO
+	XRLtkgxug==;
+Received: from [101.99.91.245] (port=61714)	by vl54262.dns-privadas.es with
+ esmtpsa  (TLS1) tls TLS_DHE_RSA_WITH_AES_256_CBC_SHA	(Exim 4.93)
+	(envelope-from <quotation@fatpipeinc.com>)	id 1kkOlm-0008R9-0i; Wed, 02 Dec
+ 2020 10:49:54 +0100
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: Donated Funds
+To: Recipients <quotation@fatpipeinc.com>
+From: "Mr. Charle" <quotation@fatpipeinc.com>
+Date: Wed, 02 Dec 2020 17:49:43 +0800
+Reply-To: manuelfranco72.33@gmail.com
+X-AntiAbuse:
+ This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - vl54262.dns-privadas.es
+X-AntiAbuse: Original Domain - cyfoexample.one.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - fatpipeinc.com
+X-Get-Message-Sender-Via:
+ vl54262.dns-privadas.es: authenticated_id: director@borradormagico.com
+X-Authenticated-Sender: vl54262.dns-privadas.es: director@borradormagico.com
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+The=20Amount=20of=202,000,000.00=20Dollars=20was=20donated=20to=20you=20by=
+=20Manuel=20Franco=20kindly=20contact=20him=20now=20via=20email=20to=20clai=
+m=20your=20funds=20,:=20manuelfranco72.33@gmail.com

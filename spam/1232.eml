@@ -1,0 +1,93 @@
+Return-Path: <nelsonomagbagbeola2121@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id ePSADQSqImHXZgAAtf5whQ
+	(envelope-from <nelsonomagbagbeola2121@gmail.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Sun, 22 Aug 2021 19:48:20 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:to:subject:message-id:date:from:reply-to:mime-version:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=N+Z+vfE7tSvZGUJkX1UUfX7JeQP08s1GzdniuK4rrQY=;	=?utf-8?q?b=3DpB9bmc+6K9XK?=
+ =?utf-8?q?lKeNGvYnLpVM45YrghzvEEUYtYFgiLXRixudJezL1L7Y+9Q7GB47Wa6AQ5As5YBVg?=
+	 =?utf-8?q?TVkONSqP5mbPzakJl3VGmWrktPmaDZyhDA/VABmn8BsaH0UyVkYXBN18fye4stzC?=
+ =?utf-8?q?tiu3NGN4Cjo8zC=09_UxgUIkaHRoDNXkMtfb/kRMvq/W1S3FCr1684fS0XhnUMl2k?=
+ =?utf-8?q?+M+HW7ps+bSihDmZ0Ynn4HuMnRkvZ87=09_QHJPR08BD8iPqTGFmvvkhpengUvGjO?=
+ =?utf-8?q?L/RkPUCt7dxo5zwlgoWXp9PokzS1wx6d+iFtqCTDoYbLC6Lj?=	
+ VAK3KwVEj9JfXV4/xiP8ivadq5+iZjw==
+X-HalOne-SA: 15.9
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F17=2E6122AA03=2E0028=2Css=3D3?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD0zLGNsZD0xLGZncz0w?=
+X-HalOne-ID: e6694091-0381-11ec-88cf-ec0d9a6ed98e
+Received: from mail-ed1-f52.google.com (mail-ed1-f52.google.com
+ [209.85.208.52])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ e6694091-0381-11ec-88cf-ec0d9a6ed98e;	Sun, 22 Aug 2021 19:48:19 +0000 (UTC)
+Received: by mail-ed1-f52.google.com with SMTP id d6so22834303edt.7        for
+ <johannes.olegard@cyfoexample.one.com>; Sun, 22 Aug 2021 12:48:19 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:reply-to:from:date:message-id:subject:to;
+        bh=N+Z+vfE7tSvZGUJkX1UUfX7JeQP08s1GzdniuK4rrQY=;
+        b=u9JAfUFXpi9u77pfB1iscFHN9anqwiUwkQ2i4zDIx8QjW4ddJAS6+QmJBfNyR/E4+k
+         hwB6104C9BSw35H6TxGg+c/XH6lSNkH3twXiZqGdt37P9nceNxdimAsjdcZXzcxmpyjA
+         YAW4DTyxLDdTSd3As8Y8OsB2jQBjop8C8AXl5RYKEelvqfXvo/q7HfFDb5r7h2/dr3ty
+         QnFx2XZ5BuPyPRXz6wawjbsqpgRq/jvhSREp87jEbdsqwrjRTz+3eNjCNwqgwxHRGOqV
+         lZ12U2bKv9j9rKuehsvFKwJIz5ZVkP3PjbIR38v/njJFNz4SmTPNKj2YIWHXTy+8usr8
+         iEvw==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:reply-to:from:date:message-id
+         :subject:to;
+        bh=N+Z+vfE7tSvZGUJkX1UUfX7JeQP08s1GzdniuK4rrQY=;
+        b=kfrtnMeYyzMMl19bpk5sGq+C+CTEgsYMHkREjQjEbo4Z50xHbWZ2vFXyU5jJADWHxk
+         KaGTRRMuJ4RilPk2Xs/F05ppa/nXlUG2kr9HLos0fCrfphrdHfSMPZ01wXjbZSSHkjzf
+         g47S3d3j24BYseU/4cpuC5WuThkLUCifO5wwsyTQUlfJH4yMmLCFNcusHdwC0PLnQaQO
+         sqJT133exPSprKPUjRFnUHo8Byf74AQ5kTWkW4Ea33jFPUUc4y4owy7J7nuTQKtl97OB
+         9Dxnnv7S9Ik2uPh7vt8rvxtnr4n3pcpHSfFigrdTIWj7Ny+aPiSZWvLxpKq1bQjCSR02
+         bwEg==
+X-Gm-Message-State: AOAM532uRnMku0YEgUPS6Pl05tsWyBC7fNy9q3XqZdyuwym7cwhipT+c
+	OSqxh9HFDI4VSsRN6KYYZkesf7udfcfVQFT6IrY=
+X-Google-Smtp-Source: =?utf-8?q?ABdhPJzoCYnmYj8V6nA5KbWIMXiTfe4W1wSQ/UbNOHJF?=
+ =?utf-8?q?rmoEasJ6X5wKN7Jc0365Wr6CIaOgWCVHXk7zlGvCGvL+zp8=3D?=
+X-Received: by 2002:aa7:c6c3:: with SMTP id b3mr33187147eds.217.1629661699115;
+ Sun, 22 Aug 2021 12:48:19 -0700 (PDT)
+MIME-Version: 1.0
+Received: by 2002:a54:2610:0:0:0:0:0 with HTTP; Sun, 22 Aug 2021 12:48:18
+ -0700 (PDT)
+Reply-To: markmorgan001@aol.com
+From: "Mark A. Morgan" <nelsonomagbagbeola2121@gmail.com>
+Date: Sun, 22 Aug 2021 20:48:18 +0100
+Message-ID:
+ <CAM_jd9WDbxbGMBtjQzVSt0Tr8cFsn6MzZ2q2-GeXTV2S-H-chw@mail.gmail.com>
+Subject: United States Of America
+To: undisclosed-recipients:;
+Content-Type: text/plain; charset="UTF-8"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+-- 
+Attn Dear
+
+This is Mark Morgan of Customs and Boarder Protection United States of
+America,I write on receipt of your approved delivery worth of
+$3.5Million Dollars,which was place hold due to one reason or the
+other.
+
+Your pending delivery has being released for it's delivery to your
+designated address as planned in first place, all you need to do now
+is to get back to this office with your delivery information as
+detailed.
+
+Names::::::::::::::::::::::
+Your Country::::::::::::
+Address:::::::::::::::
+City:::::::::::::::
+Your Age and Occupation...
+Telephone Number:::
+ID Card ::::
+
+Thanks Mark Morgan
+markmorgan001@aol.com
+United States of America
+CBP USA.

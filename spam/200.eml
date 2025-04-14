@@ -1,0 +1,122 @@
+Return-Path: <>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx7.public.one.com ([10.246.18.27])
+	by mail69.local.one.com (Dovecot) with LMTP id nIrMIGESJlmVlAAASYQN5A
+	for <johannes.olegard@cyfoexample.one.com>; Wed, 24 May 2017 23:18:35 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 4cd39f1b-40d7-11e7-a468-549f350a6292
+Received: from local.host (unknown [118.122.113.100])
+	by mx7.public.one.com (Halon) with ESMTPS
+	id 4cd39f1b-40d7-11e7-a468-549f350a6292;
+	Wed, 24 May 2017 23:18:33 +0000 (UTC)
+Received: by local.host (Mail Archive Audit Gateway XiS)
+	id 2AEEB1098181; Thu, 25 May 2017 06:46:47 +0800 (UTC)
+Date: Thu, 25 May 2017 06:46:47 +0800 (UTC)
+From: MAILER-DAEMON (Mail Delivery System)
+Subject: Undelivered Mail Returned to Sender
+To: johannes.olegard@cyfoexample.one.com
+Auto-Submitted: auto-replied
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type=delivery-status;
+	boundary="3CAA4109817E.1495694807/local.host"
+Message-Id: <20170525064647.2AEEB1098181@local.host>
+
+This is a MIME-encapsulated message.
+
+--3CAA4109817E.1495694807/local.host
+Content-Description: Notification
+Content-Type: text/plain; charset=us-ascii
+
+This is the mail system at host local.host.
+
+I'm sorry to have to inform you that your message could not
+be delivered to one or more recipients. It's attached below.
+
+For further assistance, please send mail to postmaster.
+
+If you do so, please include this problem report. You can
+delete your own text from the attached returned message.
+
+                   The mail system
+
+<beck@swepdi.com>: host 137.168.101.121[137.168.101.121] said: 554-Service
+    unavailable; Client host [prt-porta.de] blocked using Barracuda
+    554-Reputation; 554
+    http://www.barracudanetworks.com/reputation/?r=1&ip=87.106.222.105 (in
+    reply to RCPT TO command)
+
+--3CAA4109817E.1495694807/local.host
+Content-Description: Delivery report
+Content-Type: message/delivery-status
+
+Reporting-MTA: dns; local.host
+X-Mail-Archive-Audit-Gateway-XiS-Queue-ID: 3CAA4109817E
+X-Mail-Archive-Audit-Gateway-XiS-Sender:
+ rfc822; johannes.olegard@cyfoexample.one.com
+Arrival-Date: Thu, 25 May 2017 06:46:32 +0800 (UTC)
+
+Final-Recipient: rfc822; beck@swepdi.com
+Original-Recipient: rfc822;beck@swepdi.com
+Action: failed
+Status: 5.0.0
+Remote-MTA: dns; 137.168.101.121
+Diagnostic-Code: smtp; 554-Service unavailable; Client host [prt-porta.de]
+    blocked using Barracuda 554-Reputation; 554
+    http://www.barracudanetworks.com/reputation/?r=1&ip=87.106.222.105
+
+--3CAA4109817E.1495694807/local.host
+Content-Description: Undelivered Message
+Content-Type: message/rfc822
+
+Received: from __MAILSCANNER__ (localhost [127.0.0.1])
+	by local.host (Mail Archive Audit Gateway XiS) with SMTP id 3CAA4109817E
+	for <beck@swepdi.com>; Thu, 25 May 2017 06:46:32 +0800 (UTC)
+Received: from prt-porta.de (prt-porta.de [87.106.222.105])
+	by local.host (Mail Archive Audit Gateway XiS) with SMTP
+	for <beck@swepdi.com>; Thu, 25 May 2017 06:46:29 +0800 (UTC)
+Date: Thu, 25 May 2017 00:47:15 -0000
+From: "  Facebook   5 friend request"    
+ <support+4xop99e9rfd7@cyfoexample.one.com>
+To: beck@swepdi.com
+Subject: Pending notification 
+Message-Id: <d1b151b930f2592617012b4ee6566c45@async.cyfoexample.one.com>
+Errors-To: errors-beck@cyfoexample.one.com
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+Content-Type: text/html; charset="UTF-8"
+X-ASV-Tracker: 00:90:0b:1a:6a:0e 1495694792
+
+<html>
+<head></head>
+<body style="margin: 0; padding: 0;" dir="ltr">     
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;width:98%;" border="0"><tr><td style="font-size:12px;font-family:&#039;lucida grande&#039;,tahoma,verdana,arial,sans-serif;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;width:620px;"><tr><td style="font-size:16px;font-family:&#039;lucida grande&#039;,tahoma,verdana,arial,sans-serif;background:#3b5998;color:#FFFFFF;font-weight:bold;vertical-align:baseline;letter-spacing:-0.03em;text-align:left;padding:10px 38px 4px;"><span style="background:#3b5998;color:#FFFFFF;font-weight:bold;font-family:&#039;lucida grande&#039;,tahoma,verdana,arial,sans-serif;vertical-align:middle; font-size:16px;letter-spacing:-0.03em;text-align:left;vertical-align:baseline;">facebook</span></td></tr></table>
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;width:620px;"><tr><td style="padding:10px 20px;background-color:#fff;border-left:1px solid #ccc;border-right:1px solid #ccc;border-top:1px solid #ccc;border-bottom:1px solid #ccc;line-height:16px;">       
+<table cellspacing="0" cellpadding="0" width="100%" style="border-collapse:collapse;"><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:10px 20px;line-height:16px;width:620px;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="font-size:13px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;">Hi,</td></tr><tr><td style="font-size:13px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:10px 0 15px 0;">Here's some activity you have missed on Facebook.</td></tr><tr><td height="1" style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;background-color:#ccc;"></td></tr><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;">        
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:15px 20px 15px 0;">          
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td valign="top" style="padding-right: 5px;font-size: 0px;"></td><td valign="top"><a href="http://xn----itbsckydh3fwa.xn--p1ai/modules/sacrificiallys.php" style="color:#3b5998;text-decoration:none;font-size:13px;">5 friend request</a></td></tr>         
+</table>   
+</td></tr></table>          
+</td></tr><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:10px 0 15px 0;">
+<table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;width:100%;"><tr><td style="padding:10px;background-color:#f2f2f2;border-left:none;border-right:none;border-top:1px solid #ccc;border-bottom:1px solid #ccc;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding-right:10px;">     
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="border-width: 1px; border-style: solid; border-color: #29447E #29447E #1a356e; background-color: #5b74a8;"> 
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:2px 6px 4px;border-top:1px solid #8a9cc2;"><span style="font-weight: bold; color: #fff; font-size: 13px;">Go To Facebook</span></td></tr></table>  
+</td></tr></table> 
+</td><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="border-width: 1px; border-style: solid; border-color: #999 #999 #888; background-color: #eee;">
+<table cellspacing="0" cellpadding="0" style="border-collapse:collapse;"><tr><td style="font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;padding:2px 6px 4px;border-top:1px solid #fff;"><span style="font-weight: bold; color: #333; font-size: 13px;">See All Notifications</span></td></tr></table>
+</td></tr></table> 
+</td></tr></table>        
+</td></tr></table>           
+</td></tr></table>      
+</td></tr></table>  
+</td></tr></table>      
+<table cellspacing="0" cellpadding="0" border="0" style="border-collapse:collapse;width:620px;"><tr><td style="padding:10px;background-color:#fff;border-left:none;border-right:none;border-top:none;border-bottom:none;font-size:11px;font-family:&#039;lucida grande&#039;, tahoma, verdana, arial, sans-serif;color:#999999;border:none;">This message was sent to beck&#064;swepdi.com. If you don't want to receive these emails from Facebook in the future, please click: <a href="http://www.facebook.com/" style="color:#3b5998;text-decoration:none;">unsubscribe</a>.           <br /> Facebook, Inc. Attention: Department 415 P.O Box 10005 Palo Alto CA 94303       </td></tr></table>
+<span style="width:620px;">
+<bgsound src="http://cyfoexample.one.com/email_open_log_pic.php?mid=f61dbcf4d0363184bb7848c2b454ef42&s=a" volume="-10000"/></span>
+</td></tr></table>
+</body></html>
+
+--3CAA4109817E.1495694807/local.host--

@@ -1,0 +1,64 @@
+Return-Path: <test@test.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id 6JLMHOneGWDlJAAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 02 Feb 2021 23:23:21 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	=?utf-8?q?h=3Dreply-to=3Adate=3Afrom=3Ato=3Asubject=3Acontent-d?=
+ =?utf-8?q?escription=3Acontent-transfer-encoding=3A?=	
+ mime-version:content-type:x-halone-refid:x-halone-sa:from:x-halone-sa:	
+ x-halone-refid;	bh=hmhRufky7KWXK4jsPTxYrKcxWe+4DZDOQVL6st63L7o=;	
+ =?utf-8?q?b=3DMFlkJiQug3J/K8TlmAUuKAotfAGgufRdx4f1mtJCqaI/mPU/JGu/YLblkxSGN?=
+ =?utf-8?q?V5KR3e1S/uCvyjIq=09_q36uK02tvJiyantA7P1t344kT+76bzDeVAI3i2mOT1cav?=
+ =?utf-8?q?NTNgvJPu9hVeEtL8cJmJ1ZedmHZG4wqZM=09_QkVwJVn7w2u6nygHTul4uTRHFYAP?=
+ =?utf-8?q?+U+BCJagDjo3WYfSnXl8zRtg91ygyHRYB5CdlOpj7zkxYvgqCS=09_LFqmZbCGu0y?=
+ =?utf-8?q?2Ujzirqm5FD2gtpu9Fxgr7L9LTOMArFJe4F0zHo25tTDReFukV+zSUoLguV7NUzyq?=
+ =?utf-8?q?vS?=	 S5du1SGD9DB8LMIlcqMr9WaVBw+MF0A==
+X-HalOne-SA: 10.6
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F16=2E6019DEE8=2E0008=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz04?=
+X-HalOne-ID: a270ea48-65ad-11eb-ab1f-e0d84894a001
+Received: from gw1.int01.eperium.com (gw1.int01.eperium.com [194.42.75.226])
+	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id a270ea48-65ad-11eb-ab1f-e0d84894a001;
+	Tue, 02 Feb 2021 23:23:20 +0000 (UTC)
+Received: from [45.145.185.48] (unknown [10.3.1.219])
+	by gw1.int01.eperium.com (Postfix) with ESMTP id 4007134A82;
+	Wed,  3 Feb 2021 00:23:05 +0100 (CET)
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: Dear Esteemed Customer,
+To: Recipients <test@test.com>
+From: "Mrs. Noriza Arifin Binti" <test@test.com>
+Date: Tue, 02 Feb 2021 15:23:05 -0800
+Reply-To: info.ecwaso1@gmail.com
+
+Dear=20Esteemed=20Customer,
+
+I=20wish=20to=20keep=20you=20posted=20on=20the=20out=20come=20of=20our=20em=
+ergency=20meeting=20with=20the=20World=20Bank=20president,=20International=
+=20Diplomatic=20Forum,=20international=20monetary=20fund=20(IMF),=20and=20U=
+nited=20Nations=20(UN).=20I=20hereby=20inform=20you=20that=20your=20winning=
+s/inheritance=20payment=20file=20have=20been=20Signed=20and=20forwarded=20t=
+o=20CIMB=20Bank=20Malaysia=20where=20you=20will=20be=20receiving=20your=20f=
+und=20via=20online=20banking=20wire=20transfer=20which=20you=20will=20need=
+=20to=20do=20by=20your=20self=20from=20any=20computer=20in=20your=20house=
+=20or=20office=20.Therefore=20you=20are=20advised=20to=20contact=20Mr.=20Sa=
+harom=20Mohd=20Noor=20with=20the=20below=20information=20for=20your=20immed=
+iate=20payment.
+
+Below=20is=20your=20paying=20officer=20from=20CIMB=20Bank=20Malaysia
+Name:=20Mr.=20Saharom=20Mohd=20Noor=20(=202020/2021=20Chief=20Financial=20O=
+fficer=20)
+Email:=20info.ecwaso1@gmail.com
+Address:=20CIMB=20Bank=20Bhd,=20Menara=20Southern=20Bank=2083,
+Jalan=20Medan=20Setia=201,=20Bukit=20Damansara,
+Kuala=20Lumpur,=20Wilayah=20Persekutuan=20Kuala=20Lumpur,
+Malaysia.
+
+Best=20Regards,
+Mrs.=20Noriza=20Arifin=20Binti
+Group=20Chief=20Information=20&=20Foreign=20Operations=20Officer

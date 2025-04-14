@@ -1,0 +1,82 @@
+Return-Path: <Carole.Foucrier@ac-orleans-tours.fr>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id 0GWuEULQIV74KQAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Fri, 17 Jan 2020 15:18:26 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 9b5b2435-393c-11ea-bda6-e0d848974e01
+Received: from smtp-k.ac-orleans-tours.fr (smtp-r.ac-orleans-tours.fr
+ [195.83.90.239])	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 9b5b2435-393c-11ea-bda6-e0d848974e01;	Fri, 17 Jan 2020 15:18:25 +0000 (UTC)
+Received: from smtp-k.ac-orleans-tours.fr (scan2.ac-orleans-tours.fr
+ [127.0.0.1])	by IMSVA (Postfix) with ESMTP id E062FA219F;	Fri, 17 Jan 2020
+ 15:56:55 +0100 (CET)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=ac-orleans-tours.fr;
+	s=dkim1; t=1579273016;
+	bh=AuxM4zpim4m33xw95Z6dU89GoFYoWjmv9lKO0iEidW8=; h=From:Date:To;
+	b=Xs96PjwSUeycbTcWSnO1tjozZ5A1xUuwbv0OOf4BUIkoh5pJtDjTVkfkndt4zCLJk
+	 BX8peL3RBR8e8gKCxa6uoKI6F3LNc6F/XAzAZqqKjxxMZFTs0g0RMH+vODC8Gq9YE1
+	 AnH6qnIJptq3F4IX1iX1tVNZCHAt+yhY5q9OYG6A=
+Received: from scan2.ac-orleans-tours.fr (scan2.ac-orleans-tours.fr
+ [127.0.0.1])	by IMSVA (Postfix) with ESMTP id 9D193A219C;	Fri, 17 Jan 2020
+ 15:56:55 +0100 (CET)
+Received: from haproxy-pdmz.in.ac-orleans-tours.fr
+ (haproxy-pdmz.in.ac-orleans-tours.fr [192.168.68.22])	by
+ scan2.ac-orleans-tours.fr (Postfix) with ESMTP;	Fri, 17 Jan 2020 15:56:55
+ +0100 (CET)
+Received: from ac-orleans-tours.fr (unknown [172.30.144.159])
+	by haproxy-pdmz.in.ac-orleans-tours.fr (Postfix) with ESMTP id 065415F79E;
+	Fri, 17 Jan 2020 15:56:55 +0100 (CET)
+Received: from [192.168.68.22] (Forwarded-For: 192.168.68.100) by
+ mta-1.in.ac-orleans-tours.fr (mshttpd); Fri, 17 Jan 2020 14:56:55 GMT
+From: "Webert Carole" <Carole.Foucrier@ac-orleans-tours.fr>
+Reply-To: petermaurer1@163.com
+Message-ID: <ff93867c11d90783.5e21cb37@ac-orleans-tours.fr>
+Date: Fri, 17 Jan 2020 14:56:55 GMT
+X-Mailer: Oracle Communications Messenger Express 8.0.1.0.0 64bit (built
+ Sep  4 2015)
+MIME-Version: 1.0
+Content-Language: en
+Subject: HI
+X-Accept-Language: en
+Priority: normal
+Content-Type: multipart/alternative;
+ boundary="--6f18c38424db14a55499cfc7136ad37c"
+To: undisclosed-recipients:;
+X-TM-AS-GCONF: 11111111
+X-TM-AS-SMTP: 1.0 aGFwcm94eS1wZG16LmluLmFjLW9ybGVhbnMtdG91cnMuZnI= 
+	Q2Fyb2xlLkZvdWNyaWVyQGFjLW9ybGVhbnMtdG91cnMuZnI=
+X-TM-AS-ERS: 192.168.68.22-127.5.254.253
+X-TM-AS-Product-Ver: IMSVA-9.1.0.1982-8.5.0.1020-25174.000
+X-TMASE-Version: IMSVA-9.1.0.1982-8.5.1020-25174.000
+X-TMASE-Result: 10-8.642900-10.000000
+X-TMASE-MatchedRID: svEu63Is5MaoR4Z5ic9tJvQajs/YwumpB4Id7CiQcz9jBpuVKhmYLeLI
+	fnJPy6v2IX3Y80uxMhUdIGnfX7bJLPx6cOa5C651qa90R0yJ9dz54F/2i/DwjY1E1dZuISRWE54
+	5H0l+PVdgZO4Dy6IOUOOjezwlfd8eo8WMkQWv6iUD0yuKrQIMCEhCko8S1P1SsFZ/31Unt9ACcK
+	vl37mIuGlGNf0CAgnJAfdrU5oaA0WFR9Hau8GO7ilgEC0DmneCYr3aXY5NfstfsC7wi2wv0xsee
+	fh9mFE9dfi/1mnmOKLuo4rs8UiW1qkPrAS/JyOXqhPKxvj9ZacpO6xm8Z4vpf9OdCDx87hPsJEN
+	4ivhfR/J9BOBk1VaMLn0Zf/DFbTWYa/4vvSxpRA=
+X-TMASE-SNAP-Result: 1.821001.0001-0-1-12:0,22:0,33:0,34:0-0
+
+This is a multi-part message in MIME format.
+
+----6f18c38424db14a55499cfc7136ad37c
+Content-Type: text/plain; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+
+
+--
+There is a reliable & legal transaction for you.
+Write me back for details.
+
+----6f18c38424db14a55499cfc7136ad37c
+Content-Type: text/html; charset=us-ascii
+Content-Disposition: inline
+Content-Transfer-Encoding: 7bit
+
+<br /><br />--<br signature="separator" /><i><font face="'Comic Sans MS'"><u><font color="#0000ff" size="4">There is a reliable &amp; legal transaction for you.<br />Write me back for details.</font></u></font></i>
+
+----6f18c38424db14a55499cfc7136ad37c--
+

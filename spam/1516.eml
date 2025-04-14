@@ -1,0 +1,100 @@
+Return-Path: <amber.pratcher@ballstate.bsu.edu>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id KIsWMYgu5FzXTwAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 21 May 2019 16:59:52 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: d88cd5ea-7be9-11e9-bd70-e0d84894a001
+Received: from NAM03-DM3-obe.outbound.protection.outlook.com (unknown
+ [40.107.80.83])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ d88cd5ea-7be9-11e9-bd70-e0d84894a001;	Tue, 21 May 2019 16:59:51 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+ d=ballstatebsu.onmicrosoft.com; s=selector1-ballstatebsu-onmicrosoft-com; 
+ =?utf-8?q?h=3DFrom=3ADate=3ASubject=3AMessage-ID=3AContent-Type=3AMIME-Vers?=
+ =?utf-8?q?ion=3AX-MS-Exchange-SenderADCheck=3B?=
+ bh=zc7ckf2T5LXNQooUnKaY9wZ+fyv/44sQQAKO9GTP8tE=; =?utf-8?q?b=3DamgiokxSHxZS?=
+ =?utf-8?q?FakRPPsRHw4HoT930UH+/iNOXRgxuM3YXcuwlWH6l6BpHo+wkfXtmnysUl1qzXYzV?=
+ =?utf-8?q?uXiBotRz2GwrOMSWGeVL9bwnqCNCakysLkbjHtvVQ2mEocbZbbAgCZkGPwbzQOr+N?=
+ =?utf-8?q?mPQOkeiQa66ue7WC08YfquIEnDVnI=3D?=
+Received: from BN6PR1301MB1921.namprd13.prod.outlook.com (10.174.87.39) by
+ BN6PR1301MB1889.namprd13.prod.outlook.com (10.174.89.20) with Microsoft SMTP
+ Server (version=TLS1_2, cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id
+ 15.20.1922.10; Tue, 21 May 2019 16:59:47 +0000
+Received: from BN6PR1301MB1921.namprd13.prod.outlook.com
+ ([fe80::c586:6519:fe06:d1d6]) by BN6PR1301MB1921.namprd13.prod.outlook.com
+ ([fe80::c586:6519:fe06:d1d6%7]) with mapi id 15.20.1922.013; Tue, 21 May 2019
+ 16:59:47 +0000
+From: Ambie Pratcher <amber.pratcher@ballstate.bsu.edu>
+To: "m8461480595@fuyuhasugu.com" <m8461480595@fuyuhasugu.com>
+Subject: Your reputation is crashed
+Thread-Topic: Your reputation is crashed
+Thread-Index: AQHVD/aYX3Q3jcdogEKPuZDubEp8ag==
+Date: Tue, 21 May 2019 16:59:47 +0000
+Message-ID: <35tr0uf256.pd1f9r6e@mx17u.fuyuhasugu.com>
+Accept-Language: en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-clientproxiedby: KL1PR01CA0109.apcprd01.prod.exchangelabs.com
+ (2603:1096:820:3::25) To BN6PR1301MB1921.namprd13.prod.outlook.com
+ (2603:10b6:405:2e::39)
+authentication-results: spf=none (sender IP is )
+ smtp.mailfrom=amber.pratcher@ballstate.bsu.edu; 
+x-ms-exchange-messagesentrepresentingtype: 1
+x-originating-ip: [2001:e68:5048:4785:1e5f:2bff:fe01:66b8]
+x-ms-publictraffictype: Email
+x-ms-office365-filtering-correlation-id: e588135d-3bbf-4bd3-8bba-08d6de0dbade
+x-microsoft-antispam: =?utf-8?b?QkNMOjA7UENMOjA7UlVMRUlEOigyMzkwMTE4KSg3MDIw?=
+ =?utf-8?b?MDk1KSg0NjUyMDQwKSg4OTg5Mjk5KSg0NTM0MTg1KSg0NjI3MjIxKSgyMDE3?=
+ =?utf-8?q?03031133081=29=28201702281549075=29=288990200=29=285600141=29=287?=
+ =?utf-8?q?11020=29=284605104=29=282017052603328=29=287193020=29=3BSRVR=3ABN?=
+ =?utf-8?q?6PR1301MB1889=3B?=
+x-ms-traffictypediagnostic: BN6PR1301MB1889:
+x-microsoft-antispam-prvs: =?utf-8?q?=3CBN6PR1301MB1889E604A345E33887979E73C?=
+ =?utf-8?q?2070=40BN6PR1301MB1889=2Enamprd13=2Eprod=2Eoutlook=2Ecom=3E?=
+x-ms-oob-tlc-oobclassifiers: OLM:1227;
+x-forefront-prvs: 0044C17179
+x-forefront-antispam-report: =?utf-8?q?SFV=3ANSPM=3BSFS=3A=2810009020=29=283?=
+ =?utf-8?b?NzYwMDIpKDM0NjAwMikoMTM2MDAzKSgzNjYwMDQpKDM5NjAwMykoMzk4NTA0?=
+ =?utf-8?b?MDAwMDQpKDE4OTAwMykoMTk5MDA0KSg2MTE2MDAyKSg2OTE2MDA5KSg4OTM2?=
+ =?utf-8?b?MDAyKSg4MTE2NjAwNikoMjkwNjAwMikoODg1NTIwMDIpKDE4NjAwMykoODY3?=
+ =?utf-8?q?6002=29=2868736007=29=285640700003=29=28478600001=29=2886362001?=
+ =?utf-8?q?=29=2814454004=29=2881156014=29=2871200400001=29=2871190400001=29?=
+ =?utf-8?q?=28120700005=29=2866574012=29=2845954011=29=2825786009=29=2857585?=
+ =?utf-8?q?4001=29=28305945005=29=28256004=29=2814444005=29=2819627235002=29?=
+ =?utf-8?b?KDY0ODYwMDIpKDQ3NjAwMykoNDg2MDA2KSg5Njg2MDAzKSg2NTEyMDA3KSg3NzM2?=
+ =?utf-8?b?MDAyKSg2NDM2MDAyKSg0NjAwMykoMzQ4MDcwMDAwNSkoNTY2MDMwMDAwMiko?=
+ =?utf-8?q?6506007=29=28102836004=29=28316002=29=2866446008=29=28786003=29?=
+ =?utf-8?q?=28386003=29=2899286004=29=2853936002=29=2866476007=29=2866556008?=
+ =?utf-8?b?KSg2NDc1NjAwOCkoNTIxMTYwMDIpKDc1NDMyMDAyKSgyMzUxMDAxKSg3Mzk1?=
+ =?utf-8?b?NjAxMSkoNjY5NDYwMDcpKDI1MDEwMDMpO0RJUjpPVVQ7U0ZQOjExMDE7U0NMOjE7?=
+ =?utf-8?q?SRVR=3ABN6PR1301MB1889=3BH=3ABN6PR1301MB1921=2Enamprd13=2Eprod=2E?=
+ =?utf-8?q?outlook=2Ecom=3BFPR=3A=3BSPF=3ANone=3BLANG=3Aen=3BPTR=3AInfoNoRec?=
+ =?utf-8?q?ords=3BMX=3A1=3BA=3A0=3B?=
+received-spf: None (protection.outlook.com: ballstate.bsu.edu does not
+ designate permitted sender hosts)
+x-ms-exchange-senderadcheck: 1
+x-microsoft-antispam-message-info: =?utf-8?q?Br8MPLUvrmiowTcn4KzEZJkKgu34tuM?=
+ =?utf-8?q?4WS4JImms9qPBO4O4l4sqLkc9CGA9g0DQtd4dZhyYP+2Sc452s8hWGQcO2aU5WlUz?=
+ =?utf-8?q?wdM1/vXhT/JonAqaifIKjOCvfsNdwn7u/81B9KcRPpVVI1Ou5dhwg1xjS9DHwe0xR?=
+ =?utf-8?q?c1MxwXfFEVkZ5ob9qCeGe7uUH0b/Ifr/4srSV5ZiT7bGAGSz3mzW/Vo6dH8FUKhlv?=
+ =?utf-8?q?AedpcPzCXe/Py6TJaLu5ObnEIKeaqcIor4OPCdFfspopHiaXpAld+eikhX6wwUxa7?=
+ =?utf-8?q?o80eHWZx2i5jftHk5T5xozQwH3VoSqRZTXKiWewdvDhg+mLfVBxR12Jv4bc2TXzJm?=
+ =?utf-8?q?kVqgnCJW3s+FCcWNaTIth9L9WQSsEEcREcS5f+lJcmwkKXG94EV/rskjfqR6zlA5e?=
+ =?utf-8?q?8g2YWU=3D?=
+Content-Type: text/plain; charset="utf-8"
+Content-ID: <006760A2E89E3B4CA7BD4824D8933496@namprd13.prod.outlook.com>
+Content-Transfer-Encoding: base64
+MIME-Version: 1.0
+X-OriginatorOrg: ballstate.bsu.edu
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+ e588135d-3bbf-4bd3-8bba-08d6de0dbade
+X-MS-Exchange-CrossTenant-originalarrivaltime: 21 May 2019 16:59:47.4269
+ (UTC)
+X-MS-Exchange-CrossTenant-fromentityheader: Hosted
+X-MS-Exchange-CrossTenant-id: d822490e-1f0a-4e76-b148-d1b94f3567e3
+X-MS-Exchange-CrossTenant-mailboxtype: HOSTED
+X-MS-Exchange-CrossTenant-userprincipalname: amber.pratcher@ballstate.bsu.edu
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: BN6PR1301MB1889
+
+77u/SGVsbG8hDQoNClRoaXMgaXMgaW1wb3J0YW50IGluZm8gZm9yIHlvdSENCg0KU29tZSBtb250aHMgYWdvIEkgaGFja2VkIHlvdXIgUEMgYW5kIGdvdCBmdWxsIGFjY2VzcyB0byB5b3VyIGFjY291bnQNCg0KT24gZGF5IG9mIGhhY2sgeW91ciBhY2MgaGFzIHBhc3N3b3JkOiBwZWFybDIwMQ0KDQpTbywgeW91IGNhbiBjaGFuZ2UgdGhlIHBhc3N3b3JkLCB5ZXMuLiBPciBhbHJlYWR5IGNoYW5nZWQuLi4gQnV0IG15IHRyb2phbg0KaW50ZXJjZXB0cyBpdCBldmVyeSB0aW1lLg0KDQpIb3cgSSBtYWRlIGl0Og0KSW4gdGhlIHNvZnR3YXJlIG9mIHRoZSByb3V0ZXIsIHRocm91Z2ggd2hpY2ggeW91IHdlbnQgb25saW5lLCB3YXMgYSB2dWxuZXJhYmlsaXR5LiBJDQp1c2VkIGl0Li4uDQpJZiB5b3UgaW50ZXJlc3RlZCB5b3UgY2FuIHJlYWQgYWJvdXQgaXQ6IENWRS0yMDE5LTE2NjQgLSBhIHZ1bG5lcmFiaWxpdHkgaW4gdGhlDQp3ZWItYmFzZWQgbWFuYWdlbWVudCBpbnRlcmZhY2Ugb2YgdGhlIENpc2NvIHJvdXRlcnMuDQpJIGp1c3QgaGFja2VkIHRoaXMgcm91dGVyIGFuZCBwbGFjZWQgbXkgdmlydXMgb24gaXQuDQpXaGVuIHlvdSB3ZW50IG9ubGluZSwgbXkgbWFsd2FyZSB3YXMgaW5zdGFsbGVkIG9uIHRoZSBPUyBvZiB5b3VyIFBDLg0KDQpBZnRlciB0aGF0LCBJIG1hZGUgYSBmdWxsIGJhY2t1cCBvZiB5b3VyIGNvbXB1dGVyIChJIGhhdmUgYWxsIHlvdXIgYWRkcmVzcyBib29rLCBoaXN0b3J5DQpvZiB2aWV3aW5nIHNpdGVzLCBhbGwgZmlsZXMsIHBob25lIG51bWJlcnMgYW5kIGFkZHJlc3NlcyBvZiBhbGwgeW91ciBjb250YWN0cykuDQoNCkEgbW9udGggYWdvLCBJIHdhbnRlZCB0byBsb2NrIHlvdXIgY29tcHV0ZXIgYW5kIGFzayBmb3IgYSBub3QgYmlnIGFtb3VudCBvZiBidGMgdG8NCnVubG9jay4NCkJ1dCBJIGxvb2tlZCBhdCB0aGUgd2ViLWhpc3RvcnkgdGhhdCB5b3UgcmVndWxhcmx5IHZpc2l0LCBhbmQgSSB3YXMgc2hvY2tlZCBieSB3aGF0IEkgc2F3ISEhDQpJJ20gdGFsayB5b3UgYWJvdXQgc2l0ZXMgZm9yIGFkdWx0cy4NCg0KSSB3YW50IHRvIHNheSAtIHlvdSBhcmUgYSBCSUcgcGVydmVydC4gWW91ciBmYW50YXN5IGlzIHNoaWZ0ZWQgZmFyIGF3YXkgZnJvbSB0aGUNCm5vcm1hbCBjb3Vyc2UhDQoNCkFuZCBJIGdvdCBhbiBpZGVhLi4uLg0KSSBtYWRlIGEgc2NyZWVuc2hvdCBvZiB0aGUgYWR1bHQgd2ViLXBhZ2Ugd2hlcmUgeW91IGhhdmUgZnVuIChkbyB5b3UgdW5kZXJzdGFuZCB3aGF0IGl0DQppcyBhYm91dCwgaHVoPykuDQpBZnRlciB0aGF0LCBJIG1hZGUgYSBzY3JlZW5zaG90IG9mIHlvdXIgam95cyAodXNpbmcgdGhlIGNhbWVyYSBvZiB5b3VyIHN5c3RlbSkgYW5kDQpnbHVlZCB0aGVtIHRvZ2V0aGVyLg0KVHVybmVkIG91dCBhbWF6aW5nISBZb3UgYXJlIHNvIHNwZWN0YWN1bGFyIQ0KDQpJJ20ga25vdyB0aGF0IHlvdSB3b3VsZCBub3QgbGlrZSB0byBzaG93IHRoZXNlIHNjcmVlbnNob3RzIHRvIHlvdXIgZnJpZW5kcywNCnJlbGF0aXZlcyBvciBjb2xsZWFndWVzLg0KSSB0aGluayAkNzA1IGlzIGEgdmVyeSwgdmVyeSBzbWFsbCBhbW91bnQgZm9yIG15IHNpbGVuY2UuDQpCZXNpZGVzLCBJIGhhdmUgYmVlbiBzcHlpbmcgb24geW91IGZvciBzbyBsb25nLCBoYXZpbmcgc3BlbnQgYSBsb3Qgb2YgdGltZSENCg0KUGF5IE9OTFkgaW4gQml0Y29pbnMhDQpNeSBidGMgd2FsbGV0OiAxM0Y5MXp4dWI2Q3daVzcyRTJyeGpRVlVYNXljQVJQM0hFDQoNCllvdSBkbyBub3Qga25vdyBob3cgdG8gdXNlIGJpdGNvaW5zPw0KRW50ZXIgYSBxdWVyeSBpbiBhbnkgc2VhcmNoIHBsYXRmb3JtOiAiaG93IHRvIHJlcGxlbmlzaCBidGMgd2FsbGV0Ii4NCkl0J3MgZXh0cmVtZWx5IGVhc3kNCg0KRm9yIHRoaXMgcGF5bWVudCBJIGdpdmUgeW91IHR3byBkYXlzICg0OCBob3VycykuDQpBcyBzb29uIGFzIHRoaXMgbWFpbCBpcyBvcGVuZWQsIHRoZSB0aW1lciB3aWxsIHdvcmsuDQoNCkFmdGVyIHBheW1lbnQsIG15IHZpcnVzIGFuZCBkaXJ0eSBzY3JlZW5zaG90cyB3aXRoIHlvdXIgZW5qb3lzIHdpbGwgYmUgc2VsZi1kZXN0cnVjdA0KYXV0b21hdGljYWxseS4NCklmIEkgZG8gbm90IHJlY2VpdmUgZnJvbSB5b3UgdGhlIHNwZWNpZmllZCBhbW91bnQsIHRoZW4geW91ciBkZXZpY2Ugd2lsbCBiZSBsb2NrZWQsDQphbmQgYWxsIHlvdXIgY29udGFjdHMgd2lsbCByZWNlaXZlIGEgc2NyZWVuc2hvdHMgd2l0aCB5b3VyICJlbmpveXMiLg0KDQpJIGhvcGUgeW91IHVuZGVyc3RhbmQgeW91ciBzaXR1YXRpb24uDQotIERvIG5vdCB0cnkgdG8gZmluZCBhbmQgZGVzdHJveSBteSBiYWQgc29mdCEgKEFsbCB5b3VyIGRhdGEsIGZpbGVzIGFuZCBzY3JlZW5zaG90cyBpcw0KYWxyZWFkeSB1cGxvYWRlZCB0byBhIHJlbW90ZSBzZXJ2ZXIpDQotIERvIG5vdCB0cnkgdG8gY29udGFjdCBtZSAoeW91IHlvdXJzZWxmIHdpbGwgc2VlIHRoYXQgdGhpcyBpcyBpbXBvc3NpYmxlLCB0aGUNCnNlbmRlciBhZGRyZXNzIGlzIGF1dG9tYXRpY2FsbHkgZ2VuZXJhdGVkKQ0KLSBWYXJpb3VzIHNlY3VyaXR5IHNlcnZpY2VzIHdpbGwgbm90IGhlbHAgeW91OyBmb3JtYXR0aW5nIGEgZGlzayBvciBkZXN0cm95aW5nIGENCmRldmljZSB3aWxsIG5vdCBoZWxwLCBzaW5jZSB5b3VyIGRhdGEgaXMgYWxyZWFkeSBvbiBhIHJlbW90ZSBzZXJ2ZXIuDQoNClAuUy4gWW91IGFyZSBub3QgbXkgc2luZ2xlIHZpY3RpbS4gc28sIEkgZ3VhcmFudGVlIHlvdSB0aGF0IEkgd2lsbCBub3QgZGlzdHVyYiB5b3UNCmFnYWluIGFmdGVyIHBheW1lbnQhDQpUaGlzIGlzIHRoZSB3b3JkIG9mIGhvbm9yIGhhY2tlcg0KRG8gbm90IGhvbGQgZXZpbCEgSSBqdXN0IGdvb2QgZG8gbXkgam9iLg0KR29vZCBsdWNrLg==

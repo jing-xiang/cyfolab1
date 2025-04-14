@@ -1,0 +1,43 @@
+Return-Path: <k1@sonew.co.kr>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id 6LqtJw/oGmC/EgAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Wed, 03 Feb 2021 18:14:39 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	=?utf-8?q?h=3Dreply-to=3Adate=3Afrom=3Ato=3Asubject=3Acontent-d?=
+ =?utf-8?q?escription=3Acontent-transfer-encoding=3A?=	
+ mime-version:content-type:message-id:x-halone-refid:x-halone-sa:from:	
+ x-halone-sa:x-halone-refid;	bh=Q9beNtuQpuIPQQkYEbRDVrob61nckYqw2YsRFtwDGPM=;	
+ =?utf-8?q?b=3Dj70p8m+oZ5GhYFpvnHKBC+tclVJMFeNI1NN4FBb52Svp1SLfkOluKOdnSQ2HF?=
+ =?utf-8?q?fvqT4ItBOULrfyiF=09_aQ8zem8Pgi15M9R/C1HhDzkXHjO5GW1n1eGCWflTyMS0o?=
+ =?utf-8?q?zPJ0ZFkssmvfvM8uijqg6mdF9BzNO6EtJ=09_Y5B5AWNpcyQWzjAnongek3gpsddS?=
+ =?utf-8?q?e2FCqSRtL9vFi+n90m98UIV8+AgPYeJpVz5uRw338XJfnQNLwy=09_wb0lDtIf2Et?=
+ =?utf-8?q?+TogabAp0atmBbnz2Sor27sKEne9fJM23LV8UnNSkI5xXNEgyyyySt/qSb350asWK?=
+ =?utf-8?q?bn?=	 KnQMYy6SxAVHineerV0M4ja9IpjTdFQ==
+X-HalOne-SA: 12.4
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F16=2E601AE80C=2E0011=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz04?=
+X-HalOne-ID: a9328246-664b-11eb-9849-e0d848974e01
+Received: from sonew.co.kr (sonew.co.kr [210.205.6.186])
+	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id a9328246-664b-11eb-9849-e0d848974e01;
+	Wed, 03 Feb 2021 18:14:35 +0000 (UTC)
+Received: from [103.89.89.225] ([103.89.89.225])
+	(authenticated bits=0)
+	by sonew.co.kr (8.13.1/8.13.1) with ESMTP id 113IDlwx028545;
+	Thu, 4 Feb 2021 03:14:12 +0900
+Message-Id: <202102031814.113IDlwx028545@sonew.co.kr>
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: Repond
+To: Recipients <k1@sonew.co.kr>
+From: "Mr.DAKE" <k1@sonew.co.kr>
+Date: Wed, 03 Feb 2021 10:14:08 -0800
+Reply-To: manuelfranco728@yahoo.com
+
+The=20Amount=20of=202,000,000.00=20Dollars=20was=20donated=20to=20you=20by=
+=20Mauel=20Franco=20kindly=20contact=20him=20now=20via=20email=20to=20claim=
+=20your=20funds=20:=20manuelfranco728@yahoo.com

@@ -1,0 +1,68 @@
+Return-Path: <ediraman@omu.edu.tr>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id ME0kCWslf2A+MQAAtf5whQ
+	(envelope-from <ediraman@omu.edu.tr>)
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 20 Apr 2021 19:03:07 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-type:mime-version:subject:message-id:from:date:x-halone-refid:	
+ x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=EOyubl8t0AxNiILHRSgE5WEmFtnFD2J3LAbcGv/zhXU=;	=?utf-8?q?b=3DgpDOPlKysbHm?=
+ =?utf-8?q?1IChfbqWoiZ50eGOvD1RQwMJONzCrZcq+MpcGZAzkwnnoDMq+tB4hE7TwKY4pf7wC?=
+	 =?utf-8?q?Hb1sampRZ4uQbXpllXvz8dIevgyYviO7WtsvKPt1z19yQN+dlKFq1I3zTYu8bddY?=
+ =?utf-8?q?OPAG+D5A+MgeF6=09_c5psOil3gi+ucvlx6vWYfewnNCqTduVRtR6CHgSrwGaxQ+u?=
+ =?utf-8?q?xrI4RDGOWCwdBblkWJEecpKaZll3HdS=09_JW9FTpXKIYFyxB+gHulniCWzfRvb2j?=
+ =?utf-8?q?wp+lAATUQvkY01JKnjIhENNPQmvSurNkUqYKofH4aqhGljlf?=	
+ Jsvsa2c0l9r43m4k0nfe27VYOfyEJ/A==
+X-HalOne-SA: 8.2
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F23=2E607F2568=2E000E=2Css=3D1?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD0xLGNsZD0xLGZncz0w?=
+X-HalOne-ID: 053ca4ff-a20b-11eb-ab23-e0d84894a001
+Received: from zmail.omu.edu.tr (unknown [193.140.28.32])
+	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 053ca4ff-a20b-11eb-ab23-e0d84894a001;
+	Tue, 20 Apr 2021 19:03:04 +0000 (UTC)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by zmail.omu.edu.tr (Postfix) with ESMTP id E25A51E1B03ED;
+	Tue, 20 Apr 2021 22:02:56 +0300 (+03)
+Received: from zmail.omu.edu.tr ([127.0.0.1])
+	by localhost (zmail.omu.edu.tr [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id Dpslcy7cr-jW; Tue, 20 Apr 2021 22:02:56 +0300 (+03)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by zmail.omu.edu.tr (Postfix) with ESMTP id AC2831E1B03F8;
+	Tue, 20 Apr 2021 22:02:55 +0300 (+03)
+X-Virus-Scanned: amavisd-new at omu.edu.tr
+Received: from zmail.omu.edu.tr ([127.0.0.1])
+	by localhost (zmail.omu.edu.tr [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id gWjMJMdJwvjX; Tue, 20 Apr 2021 22:02:55 +0300 (+03)
+Received: from zmail.omu.edu.tr (zmail.omu.edu.tr [193.140.28.32])
+	by zmail.omu.edu.tr (Postfix) with ESMTP id 4C9711E1B03ED;
+	Tue, 20 Apr 2021 22:02:43 +0300 (+03)
+Date: Tue, 20 Apr 2021 22:02:43 +0300 (EET)
+From: Emine Diraman <ediraman@omu.edu.tr>
+Message-ID: <455038472.51015.1618945363139.JavaMail.zimbra@omu.edu.tr>
+Subject: CA
+MIME-Version: 1.0
+Content-Type: multipart/alternative; 
+	boundary="=_70afb511-26e3-4320-9a9b-102ff80cce7a"
+X-Originating-IP: [103.4.31.137]
+X-Mailer: Zimbra 8.8.15_GA_4018 (zclient/8.8.15_GA_4018)
+Thread-Index: ebFefjJO5MwBeRU5Zs0fHiOKcS4ldg==
+Thread-Topic: CA
+
+--=_70afb511-26e3-4320-9a9b-102ff80cce7a
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+
+Do you need financial assistance of any type? If yes contact us for more info via email ( sky.group51@aol.com)
+*Full Name: *Amount Needed: WHATSPP NUMBER== 
+--=_70afb511-26e3-4320-9a9b-102ff80cce7a
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+<html><head><style> body {height: 100%; color:#000000; font-size:12pt; font-family:arial, helvetica, sans-serif;}</style></head><body><div><br>Do you need financial assistance of any type? If yes contact us for more info via email ( sky.group51@aol.com)<br>*Full Name: *Amount Needed: WHATSPP NUMBER== </div></body></html>
+--=_70afb511-26e3-4320-9a9b-102ff80cce7a--

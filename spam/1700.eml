@@ -1,0 +1,112 @@
+Return-Path: <hk@anamandarahue-resort.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id IMoqOx2OB2ChEwAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Wed, 20 Jan 2021 01:57:49 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	h=message-id:reply-to:date:from:to:subject:content-description:	 
+ =?utf-8?q?content-transfer-encoding=3Amime-version=3Acontent-type=3Ax-halon?=
+ =?utf-8?q?e-refid=3Ax-halone-sa=3A?=	 from:x-halone-sa:x-halone-refid;
+	bh=PLMTAqjRi9PFQW9taON23y+8x9AeyYdc4c4oXiDdl1g=;	=?utf-8?q?b=3DI/oPzWIBIPAS?=
+ =?utf-8?q?mOtwzEHPRFuhTT1tQnC8VvoA8kyRyx9CWgSo+AoZpLDpdUqz1Gqce3ji2+1UtSkIg?=
+	 =?utf-8?q?uFRZVhgavssosVLipLGTJ65laTXE1r8fErJ50IaCwdmnFATBw7xhjiXMsBE0Myoi?=
+ =?utf-8?q?76Eop9Fms+MdbR=09_btbmNMvOQXP8580abA2EcOi6/kpYfHOvzMRduA6qZTNgEcf?=
+ =?utf-8?q?wkdc9/su3WFNRCeTny2XHs20movckET=09_mqLbbzvg6zL+pbH/zk+hgazyL/UjHP?=
+ =?utf-8?q?TBQZjr6pbfnJzeZWU55rSE28SKC5gwOAfImchdGQzQZ25Yb5?=	
+ LHrTOvsNPrEmz5rdOz2P/oSA38itGtw==
+X-HalOne-SA: 14.1
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F19=2E60078E1C=2E0009=2Css=3D1?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD0xLGNsZD0xLGZncz0w?=
+X-HalOne-ID: 90d63c66-5ac2-11eb-bf1b-ec0d9a6ed98e
+Received: from mail.anamandarahue-resort.com (mail.anamandarahue-resort.com
+ [222.255.175.27])	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTP	id
+ 90d63c66-5ac2-11eb-bf1b-ec0d9a6ed98e;	Wed, 20 Jan 2021 01:55:27 +0000 (UTC)
+Received: from localhost (localhost.localdomain [127.0.0.1])
+	by mail.anamandarahue-resort.com (Postfix) with ESMTP id 3829A12CABF3;
+	Wed, 20 Jan 2021 06:05:56 +0700 (ICT)
+X-Virus-Scanned: amavisd-new at anamandarahue-resort.com
+Received: from mail.anamandarahue-resort.com ([127.0.0.1])	by localhost
+ (mail.anamandarahue-resort.com [127.0.0.1]) (amavisd-new, port 10024)	with
+ ESMTP id JpRdJDDt2hKM; Wed, 20 Jan 2021 06:05:56 +0700 (ICT)
+Received: from [185.251.118.48] (unknown [185.251.118.48])
+	by mail.anamandarahue-resort.com (Postfix) with ESMTPSA id 21C7312CB149;
+	Wed, 20 Jan 2021 02:50:51 +0700 (ICT)
+Content-Type: text/plain; charset="iso-8859-1"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: my subject
+To: Recipients <hk@anamandarahue-resort.com>
+From: hk@anamandarahue-resort.com
+Date: Tue, 19 Jan 2021 05:14:45 -0800
+Reply-To: mrsahlenius@hotmail.com
+Message-Id: <20210119195054.21C7312CB149@mail.anamandarahue-resort.com>
+
+internal=20Audit,=20Monitoring,=20Consulting=20and=20Investigations=20Divis=
+ion
+From=20Mrs.Inga-Britt=20Arrhenius.
+UNITED=20NATIONS=20SCAM=20VICTIMS=20COMPENSATIONS=20PAYMENTS.
+From=20Mrs.Inga-Britt=20Arrhenius.
+
+Attention;=20MADAM/SIR
+
+
+This=20is=20to=20bring=20to=20your=20notice=20that=20=20After=20i=20was=20R=
+etired=20from=20this=20office=20i=20was=20appointed=20again=20and=20=20I=20=
+am=20delegated=20from=20the=20United=20Nations=20To=20Central=20Bank=20to=
+=20pay=20150=20scam=20victims=20$10,000,000.00=20(TEN=20MILLION=20UNITED=20=
+STATE=20DOLLAR)=20each.
+
+You=20are=20listed=20and=20approved=20for=20this=20payment=20as=20one=20of=
+=20the=20scammed=20victims=20to=20be=20paid=20this=20amount,=20get=20back=
+=20to=20me=20as=20soon=20as=20possible=20for=20the=20immediate=20payments=
+=20of=20your=20$TEN,000,000.00=20compensations=20funds.=20On=20this=20faith=
+ful=20recommendations,we=20want=20you=20to=20know=20that=20during=20the=20l=
+ast=20U.N.=20meetings=20held=20at=20Abuja,=20Nigeria,=20it=20was=20alarmed=
+=20so=20much=20by=20the=20world=20in=20the=20meetings=20on=20the=20lose=20o=
+f=20funds=20by=20various=20individuals=20to=20the=20scams=20artists=20opera=
+ting=20in=20syndicates=20all=20over=20the=20world=20today.
+
+In=20other=20to=20compensate=20victims,=20the=20U.N=20Body=20in=20conjuncti=
+on=20with=20the=20Nigerian=20Government=20is=20now=20paying=20150=20victims=
+=20of=20this=20operators=20$10,000,000.00=20each=20in=20accordance=20with=
+=20the=20U.N.=20recommendations.
+
+Due=20to=20the=20corrupt=20and=20inefficient=20Banking=20Systems=20in=20Nig=
+eria,=20the=20payments=20are=20to=20be=20supervised=20by=20the=20United=20N=
+ations'=20Officials=20and=20the=20Central=20Bank=20of=20Nigeria=20as=20the=
+=20corresponding=20paying=20treasury=20department=20United=20Bank=20of=20Af=
+rica=20According=20to=20the=20number=20of=20applicants=20at=20hand,=20114=
+=20Beneficiaries=20has=20been=20paid,half=20of=20the=20victims=20are=20from=
+=20the=20United=20States,=20we=20still=20have=20more=2036=20left=20to=20be=
+=20paid=20the=20compensations=20of=2010=20m=20each.
+
+Your=20particulars=20was=20mentioned=20by=20one=20of=20the=20Syndicates=20w=
+ho=20was=20arrested=20as=20one=20of=20their=20victims=20of=20the=20operatio=
+ns,=20you=20are=20hereby=20warned=20not=20to=20communicate=20or=20duplicate=
+=20this=20message=20to=20him=20for=20any=20reason=20what=20so=20ever=20as=
+=20the=20U.S.=20secret=20service=20is=20already=20on=20trace=20of=20the=20o=
+ther=20criminals.
+
+Other=20victims=20who=20have=20not=20been=20contacted=20can=20submit=20thei=
+r=20application=20as=20well=20for=20scrutiny=20and=20possible=20considerati=
+on.
+
+You=20are=20thereby=20advised=20to=20contact=20the=20private=20officer=20of=
+=20the=20treasury
+department=20United=20Bank=20of=20Africa=20through=20the=20following=20info=
+rmation.
+
+Name........................Dr.=20John=20Chris
+
+Email:..........................=20drjohnchris585@gmail.com
+TELL.............................+234-704-683-3903
+
+You=20will=20receive=20your=20compensations=20payments=20through=20which=20=
+the=20options=20You=20will=20be=20detailed=20with=20the=20modalities=20as=
+=20you=20contact=20the=20private=20officer=20of=20the=20treasury=20departme=
+nt=20United=20Bank=20of=20Africa.
+
+Sincerely=20yours,
+Mrs.Inga-Britt=20Arrhenius

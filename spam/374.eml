@@ -1,0 +1,116 @@
+Return-Path: <contato@avplay.com.br>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id aDpyCdbLHWDcQgAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Fri, 05 Feb 2021 22:51:02 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=content-transfer-encoding:content-type:mime-version:subject:to:message-id:
+	 from:date:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=04dN3J+DZGITZJDo0ZK1OQXEvLwio1tlF1TwzhDmbYI=;	=?utf-8?q?b=3D1k/75NOa5WTs?=
+ =?utf-8?q?9DnG2Edi5jgfLXWvlMSGr0FIsIekt50Pf+Y5rCJjHSZwnJlBEy75bzVXf94zL49sx?=
+	 =?utf-8?q?Fv8osfpZSN9gU71lNpIbeVLE7QZJWy1k+rDzDYw2ie470kOciv/EFSlrwzRqD9/m?=
+ =?utf-8?q?uRDOXaTmMLD1Lv=09_6WuqFvdMY/kMAOZ23kuLzYhu+XeNpKv/gfxxacjDsNjKfEe?=
+ =?utf-8?q?ehuKJk5duys/exIKXSAKpEeBJrZFXPL=09_XGbVmxa6LHGk4faPOBVjs94DYz86tI?=
+ =?utf-8?q?oxzCoKjJA3/Me8JGo/rstdor63vpebXQ435kQfg3GsNp1gge?=	
+ IbrnL/NLajHzKEdlIYAybvtr36/VWnA==
+X-HalOne-SA: -0.1
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F27=2E601D8890=2E0008=2Css=3D4?=
+ =?utf-8?b?LHNoLHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZn?=
+ =?utf-8?q?s=3D8?=
+X-HalOne-ID: 8c6ca10a-6804-11eb-bf1b-ec0d9a6ed98e
+Received: from mx02.avplay.com.br (mx02.avplay.com.br [162.241.89.232])
+	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 8c6ca10a-6804-11eb-bf1b-ec0d9a6ed98e;
+	Fri, 05 Feb 2021 22:50:32 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
+	d=avplay.com.br; s=default; h=Content-Transfer-Encoding:Content-Type:
+	MIME-Version:Subject:To:Message-ID:From:Date:Sender:Reply-To:Cc:Content-ID:
+	Content-Description:Resent-Date:Resent-From:Resent-Sender:Resent-To:Resent-Cc
+	:Resent-Message-ID:In-Reply-To:References:List-Id:List-Help:List-Unsubscribe:
+	List-Subscribe:List-Post:List-Owner:List-Archive;
+	bh=04dN3J+DZGITZJDo0ZK1OQXEvLwio1tlF1TwzhDmbYI=; b=sO043TGBIMW/9qjz9LY0CD9+/u
+	A6aR0fYQ9hhEmcRHLphfHB7yHtnMNdCiPNx38A4hVo3nq39gXQPugyP7/jX4jpBhLl83nPYDv0uhI
+	KxfoERT2qVKVgaYk/8ng5/FuqDXMtATC6QFk4/1BaGu8hbY8hzsWMbx0EMEV1WpAyNOlek2/T8COl
+	aCpgqRihIteTMSCuvD5HMfrF9cAkDxbkJKBkuFBMDdkbOUCavKmn2tWB4eVFMmxFeLrwGw3OLjtTK
+	6i1HP57SUJxlyh/hgT3+5pXnXlTSP+RwKw535j9ldHZshCr+mDwpsX3OBxsaMvJa5Noh6pqAvxig4
+	YAYLNcfA==;
+Received: from box5584.bluehost.com ([162.241.218.190]:52988
+ helo=avplay.com.br)	by vps-3755029.avplay.com.br with esmtpsa  (TLS1.2) tls
+ TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256	(Exim 4.93)	(envelope-from
+ <contato@avplay.com.br>)	id 1l89wF-0007LW-Sh	for
+ johannes.olegard@cyfoexample.one.com; Fri, 05 Feb 2021 19:50:55 -0300
+Date: Fri, 5 Feb 2021 15:50:57 -0700
+From: Confirmed Pharmacy-Market <contato@avplay.com.br>
+Message-ID: <3678029874.20210205155057@avplay.com.br>
+To: johannes.olegard@cyfoexample.one.com
+Subject: Access top rated generic healing production here!
+MIME-Version: 1.0
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+X-AntiAbuse:
+ This header was added to track abuse, please include it with any abuse report
+X-AntiAbuse: Primary Hostname - vps-3755029.avplay.com.br
+X-AntiAbuse: Original Domain - cyfoexample.one.com
+X-AntiAbuse: Originator/Caller UID/GID - [47 12] / [47 12]
+X-AntiAbuse: Sender Address Domain - avplay.com.br
+X-Get-Message-Sender-Via:
+ vps-3755029.avplay.com.br: authenticated_id: contato@avplay.com.br
+X-Authenticated-Sender: vps-3755029.avplay.com.br: contato@avplay.com.br
+X-Source: 
+X-Source-Args: 
+X-Source-Dir: 
+
+=EF=BB=BF<!DOCTYPE=20html=20PUBLIC=20"-//W3C//DTD=20XHTML=201.0=20Transitio=
+nal//EN"=20"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html=20xmlns=3D"http://www.w3.org/1999/xhtml">
+<head>
+<title>Access=20top=20rated=20generic=20healing=20production=20here!</title>
+<meta=20http-equiv=3D"Content-Type"=20content=3D"text/html;=20charset=3Dutf=
+-8"/>
+</head>
+<body><table=20width=3D"100%"=20border=3D"0"=20cellspacing=3D"0"=20cellpadd=
+ing=3D"0"><tr><td=20bgcolor=3D"#F3F3F3">
+<p=20style=3D"text-align:=20right;font-size:11px;font-family:lato,=20helvet=
+ica=20neue,=20helvetica,=20arial,=20sans-serif;color:#0E0E0E;"><br/>
+</p>
+</td></tr>
+<tr><td=20bgcolor=3D"#72B37C">=20
+<table=20width=3D"520"=20border=3D"0"=20cellspacing=3D"0"=20cellpadding=3D"=
+0"=20align=3D"center"><tr><td=20bgcolor=3D"#72B37C">
+<p=20style=3D"margin:=2026px=204px;text-align:=20center;font-size:44px;font=
+-family:lato,=20helvetica=20neue,=20helvetica,=20arial,=20sans-serif;color:=
+#0E0E0E;">
+Confirmed=20Pharmacy-Market
+</p>
+</td></tr>
+<tr><td=20bgcolor=3D"#FFFFFF">
+<p=20style=3D"margin:=2038px=205px;text-align:=20center;font-size:20px;font=
+-family:lato,=20helvetica=20neue,=20helvetica,=20arial,=20sans-serif;color:=
+#0E0E0E;">Looking=20forward=20to=20satisfy=20your=20=20girl?=20It=20is=20re=
+ally=20hard=20to=20be=20vigorous.=20Our=20shop=20=20is=20here=20to=20find=
+=20the=20solution=20to=20make=20everything=20Ok!.=20The=20last=20thing=20yo=
+u=20need=20to=20do=20is=20to=20click=20to=20our=20website!</p>
+</td></tr>
+</table></td></tr>
+<tr><td=20bgcolor=3D"#F3F3F3">
+<table=20width=3D"520"=20border=3D"0"=20cellspacing=3D"0"=20cellpadding=3D"=
+0"=20align=3D"center"><tr><td=20bgcolor=3D"#FFFFFF">
+<p=20style=3D"margin:=2027px=208px;text-align:=20center;">
+<a=20href=3D"https://bit.ly/2MT4cE1"=20style=3D"text-decoration:none;text-a=
+lign:=20center;font-size:22px;font-family:lato,=20helvetica=20neue,=20helve=
+tica,=20arial,=20sans-serif;color:#FFFFFF;border-style:solid;border-color:#=
+4C8F42;border-width:15px=2025px;display:inline-block;background:#4C8F42;bor=
+der-radius:2px;">Continue=20shopping</a>
+</p>
+</td></tr>
+<tr><td=20bgcolor=3D"#1F5F16">
+<p=20style=3D"margin:=2020px=2012px;font-size:14px;font-family:lato,=20helv=
+etica=20neue,=20helvetica,=20arial,=20sans-serif;color:#CDCDCD;">
+Link=20to=20view=20in=20browser:=20https://bit.ly/2MT4cE1
+</p>
+</td></tr></table>
+</td></tr></table></body>
+</html>
+

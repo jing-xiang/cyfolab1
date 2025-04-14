@@ -1,0 +1,858 @@
+Return-Path: <supportweb-notifepaynsr1narhrgu@mails.chemistry-top4.esp550.pt>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.cst.mailpod12-cph3.one.com ([10.27.56.12])	by
+ mailstorage27.cst.mailpod12-cph3.one.com with LMTP	id ODFeM/0Gh2XdOwAATK8Ghw
+	(envelope-from
+ <supportweb-notifepaynsr1narhrgu@mails.chemistry-top4.esp550.pt>)	for
+ <johannes.olegard@cyfoexample.one.com>; Sat, 23 Dec 2023 16:12:45 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=mime-version:date:message-id:subject:to:from:content-type:x-halone-refid:	
+ x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=e5W60KsTBw1wCnsSYjRH0nCPznF78oKDbxj85hzXABk=;	=?utf-8?q?b=3DfAATKipyxWxl?=
+ =?utf-8?q?FTJBvxEiYwrYQQAMrHIb6479aJCVK3tren6ePy4o+vR+AYj4ZHwcWA60oFdX5FizS?=
+	 =?utf-8?q?HZRNiW4IJDc2+fqI1e/+VR4aLZg8PPKOGprAKAHUgKhAydydIQ1alHeA5CXPNdPr?=
+ =?utf-8?q?O95h30Zm5ewIw4=09_HkRduujSWCZvA79vhsrEl+7gptudkm73FHfw0OOAbk6uFVs?=
+ =?utf-8?q?q3vAItYsA7XhYldDgOzlzTnxHxLT4R9=09_Sot/KCHN8pe4XguCYvGYYSdy8tNf3T?=
+ =?utf-8?q?07Ies7kUt5sCTe1jno9wxvEBonHzU2HxuUqv4Zzt92YqVrje?=	
+ LIjScAU1Xtvg6yHTaUqkA770GuGwnoA==
+X-HalOne-SA: 1.2
+X-HalOne-RefID: 155866::1703347965-CA96E343-B2A9FE6A/3/7966191452
+Authentication-Results: mx2.pub.mailpod12-cph3.one.com;	spf=pass
+ smtp.mailfrom=mails.chemistry-top4.esp550.pt smtp.remote-ip=40.107.247.88;
+	dmarc=pass header.from=mails.chemistry-top4.esp550.pt;
+X-HalOne-ID: 1b765ccf-a1ae-11ee-9641-b07b25bf0dea
+Received: from EUR02-AM0-obe.outbound.protection.outlook.com
+ (mail-am0eur02on2088.outbound.protection.outlook.com [40.107.247.88])	by
+ mx2.pub.mailpod12-cph3.one.com (Halon) with ESMTPS	id
+ 1b765ccf-a1ae-11ee-9641-b07b25bf0dea;	Sat, 23 Dec 2023 16:12:45 +0000 (UTC)
+ARC-Seal: i=1; a=rsa-sha256; s=arcselector9901; d=microsoft.com; cv=none; 
+ =?utf-8?q?b=3DCYI/LaIklRRqtiwSeo7aLFFmx/xKWDX+bl9OlJXgJ+lWNcePnAgFUfTW6OIlI?=
+ =?utf-8?q?ZllV6y+ZnWhao/HMGFR6NEQMhHFzmAQ/zde7pzO1JHi3PX9qnvXs2cl5Ylsfvwp/Q?=
+ =?utf-8?q?TZwP2yZExnmLHFpa1SJ3MwwEe40KAOv+FZrsyltZKH9jymbQhvJX5GxLpn6VNHrCv?=
+ =?utf-8?q?BZxOeqkXAujCbTUXUm0eSaeBUGxqSgigIjUr3NbX6WMnnkzQfasd02GF8oFs/jPGf?=
+ =?utf-8?q?MMbzEr6qyWlyVK+xUMYLOMi0aZOZVAsm0WPh1ATO+I7zM5WvqMNLLue9cvEj3hOxi?=
+ =?utf-8?q?rF7HpAv6O88uluU6RVUdA=3D=3D?=
+ARC-Message-Signature: i=1; a=rsa-sha256; c=relaxed/relaxed; d=microsoft.com;
+ s=arcselector9901; =?utf-8?q?h=3DFrom=3ADate=3ASubject=3AMessage-ID=3AConte?=
+ =?utf-8?q?nt-Type=3AMIME-Version=3AX-MS-Exchange-AntiSpam-MessageData-Chunk?=
+ =?utf-8?q?Count=3AX-MS-Exchange-AntiSpam-MessageData-0=3AX-MS-Exchange-Anti?=
+ =?utf-8?q?Spam-MessageData-1=3B?=
+ bh=e5W60KsTBw1wCnsSYjRH0nCPznF78oKDbxj85hzXABk=; =?utf-8?q?b=3DQVCeE4EKCp0L?=
+ =?utf-8?q?EZxC9FlIRGMIBn892pqmIYwCvBopKycBLLL6yZcCtEE74g4HSufhpj5PysbHH2FdB?=
+ =?utf-8?q?uOM94paisBa9nqtzGZZL5fR9f5ojC2gbLlBiGiwmvLDXrtpYBgGez6mgrPuV6PhAP?=
+ =?utf-8?q?n5AoHwwIOTtGIKskQob8M4NwmK0MvzLiABEAsBc42j7lA7Q7cLuBCPXPTv1+lf/OG?=
+ =?utf-8?q?i4LjFbNkcqhLR+qC9zh5NtqkIKaShXW7gWFLJJbYx4b3lfNjUZ+3jT9XJGkSYKlf4?=
+ =?utf-8?q?lXfJc/KR5gepGwNZLObhjDiuknSXOaqh2Z8STSPwSDav5mZfswBS2vtYh2R0CAuNj?=
+ =?utf-8?q?dMVow=3D=3D?=
+ARC-Authentication-Results: i=1; mx.microsoft.com 1; spf=pass
+ smtp.mailfrom=mails.chemistry-top4.esp550.pt; dmarc=pass action=none
+ header.from=mails.chemistry-top4.esp550.pt; dkim=pass
+ header.d=mails.chemistry-top4.esp550.pt; arc=none
+Authentication-Results: dkim=none (message not signed)
+ header.d=none;dmarc=none action=none
+ header.from=mails.chemistry-top4.esp550.pt;
+Received: from GVXP192MB1685.EURP192.PROD.OUTLOOK.COM (2603:10a6:150:3e::10)
+ by AS4P192MB1720.EURP192.PROD.OUTLOOK.COM (2603:10a6:20b:513::9) with
+ Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_GCM_SHA384) id 15.20.7113.24; Sat, 23 Dec
+ 2023 16:12:44 +0000
+Received: from GVXP192MB1685.EURP192.PROD.OUTLOOK.COM
+ ([fe80::31f2:540c:e989:cfdc]) by GVXP192MB1685.EURP192.PROD.OUTLOOK.COM
+ ([fe80::31f2:540c:e989:cfdc%3]) with mapi id 15.20.7113.023; Sat, 23 Dec 2023
+ 16:12:44 +0000
+Content-Type: multipart/alternative;
+ boundary="--_NmP-aa6dbc6edfaf0791-Part_1"
+From: =?UTF-8?Q?Am=F3=A0=84=82=F3=A0=84=82az=F3=A0=84=82?=
+ =?UTF-8?Q?on=F3=A0=84=82=F3=A0=84=82_Pr?=
+ =?UTF-8?Q?=F3=A0=84=82i=F3=A0=84=82m=F3=A0=84=82?=
+ =?UTF-8?Q?=F3=A0=84=82=CD=8Fe?=
+ <supportweb-notifepaynsr1narhrgu@mails.chemistry-top4.esp550.pt>
+To: johannes.olegard@cyfoexample.one.com
+Subject: Your Prime membership is Renewing on December 23, 2023.
+ Tax-ID#876016.
+Message-ID:
+ <90779243-fa17-b91e-a5a1-88d4c5e16bcb@mails.chemistry-top4.esp550.pt>
+Date: Sat, 23 Dec 2023 16:12:43 +0000
+X-ClientProxiedBy: LO6P123CA0045.GBRP123.PROD.OUTLOOK.COM
+ (2603:10a6:600:2fe::14) To GVXP192MB1685.EURP192.PROD.OUTLOOK.COM
+ (2603:10a6:150:3e::10)
+Return-Path: supportweb-notifepaynsr1narhrgu@mails.chemistry-top4.esp550.pt
+MIME-Version: 1.0
+X-MS-PublicTrafficType: Email
+X-MS-TrafficTypeDiagnostic: GVXP192MB1685:EE_|AS4P192MB1720:EE_
+X-MS-Office365-Filtering-Correlation-Id: f2a908fd-d4bd-45ff-fdf8-08dc03d1feea
+X-MS-Exchange-SenderADCheck: 1
+X-MS-Exchange-AntiSpam-Relay: 0
+X-Microsoft-Antispam: BCL:0;
+X-Microsoft-Antispam-Message-Info:
+ 61ZIZnqH0fZA0ebVMucyXrk54IzkM1i0y5nnXGL1EOHjW=?utf-8?q?t2W3TBJVZYxQhBfaI9qG?=
+ =?utf-8?q?pJA6VElaymjhHr6eVtq6YT5G+kv8wmFxUHG1sn7Czmsizxn070+EmglTYGW4uT3oA?=
+ =?utf-8?q?yRxhSsngABlnjbhCmcnd3amFHYiYHnzg8ogKAo6g96Vi6vXH81Kjpgd4bnGIMYprg?=
+ =?utf-8?q?wmzfBceKm4nWIve8SnVQ1rrJwqv7y9dNQimOWXi7+pGC9MRZ0M69q5EQ31XN4H8yc?=
+ =?utf-8?q?AGSMZk36AWZ74d4Up2v7vcbPPKzgTNHmR6P3UTGjTrwPMYr7suovwWNIwuSaU28H3?=
+ =?utf-8?q?BDU/QLWuidb6Itw5p9jAC3r+s+kA3g9cQacnCIxTT3NgXi3sFIltCJZuaQ2Ojocta?=
+ =?utf-8?q?KfwFUFaJdWyCuAUfB8umpJPz8YfqSBdiPuBzPA235OEe+oQ96EA4adXfQ3NDvu/Oh?=
+ =?utf-8?q?XEf7JF5ZspMaQ5bDEJ70RWDiBiE+NLFRYbwnUlWdR7NuG2jQ1AhyO0DD4Uhk9P7DT?=
+ =?utf-8?q?3MABrQZAIu4tzM+ZrBNMLJq1TCHNDoT6ehS+J8SK4gFISkHX4ZAZYHjexVL6wiupL?=
+ =?utf-8?q?JWdZ09xTwxCylqp0ZaMdBuXFOGTOcIgSnMdQaKVKpScQ+nyBB05MioagohJhWr/yq?=
+ =?utf-8?q?EeR2iHBi86cMF7hUgzuMlLf0CSJV+u/cVfeI8FIcwmEg5VHTA/+8AZc596QctcRbP?=
+ =?utf-8?q?ZD76V+teIjqFkrmr9cHc8l1JifjpsQiRSnJOxg58eii6QbQPRJjsnRSmMwU9lWHeW?=
+ =?utf-8?q?WBqnCiynWhwI3kPcuyDMZGUoia/dHfA1DUp4pnMLQzu0BB7ZHKFk9sl/xnPbvgr5t?=
+ =?utf-8?q?0BVE9L2AoTUAv89i8kx6DZWZOtXpMswFIou9EZQ0txPe4PlKTlAnIcoNr2thcbUmu?=
+ =?utf-8?q?fO1crBns5XmSC2SF64RSeSIZJ89o0bOyabjrdgYoulKuSk/FSPM82bNWCeDFj859l?=
+ =?utf-8?q?Y42FnMl1+6+bPZ8aeAkUQo2GftLNM5rcrSCQXzccQasqslar9P25+uvFCkQpB+5Bl?=
+ =?utf-8?q?ELdlMfRQYGf/5lTFIothE7+7NnnoRsFF5Li/q6JMquuRB8AOmA1ntyCF7e1uLeR8u?=
+ =?utf-8?q?p1BiQmpP8yOpYM27ROUEeq5HdAfIGWEzwc2Wd17+qlMILP1LSXApalpH9zzTRnwm8?=
+ =?utf-8?q?H3hOfnU1R2ILJthoPCazseOLWPFe3ICuZqtPqWMtV1aFFGkdQmiRxJup9n1YqohQm?=
+ =?utf-8?q?cy1g06vqie65qlyGPZ7MpLLtyIfwUCxdBZT/wANSnJRTAuMBW+B6Tie/5eDTOFi/I?=
+ =?utf-8?q?Iq2rQ+f/8n98jnDQN4nGnzZc/V8aubNuE7yvbcukd38WcmHVpnnIaKIo+9iVYNY3J?=
+ =?utf-8?q?G5ctbs7vObs2TWeYzCZhKCBIlCukpO?=9d7IGXnXema7b
+X-Forefront-Antispam-Report: =?utf-8?b?Q0lQOjI1NS4yNTUuMjU1LjI1NTtDVFJZOjtM?=
+ =?utf-8?b?QU5HOmVuO1NDTDoxO1NSVjo7SVBWOk5MSTtTRlY6TlNQTTtIOkdWWFAxOTJNQjE2?=
+ =?utf-8?b?ODUuRVVSUDE5Mi5QUk9ELk9VVExPT0suQ09NO1BUUjo7Q0FUOk5PTkU7U0ZTOigx?=
+ =?utf-8?q?3230031=29=28136003=29=28396003=29=28366004=29=2839860400002=29?=
+ =?utf-8?q?=28376002=29=28346002=29=28230273577357003=29=28230173577357003?=
+ =?utf-8?q?=29=28230922051799003=29=28451199024=29=281800799012=29=28186009?=
+ =?utf-8?q?=29=2864100799003=29=2841320700001=29=2886362001=29=2831696002=29?=
+ =?utf-8?q?=2855236004=29=286512007=29=286506007=29=28478600001=29=283396400?=
+ =?utf-8?b?NCkoNTIxMTYwMDIpKDI2MDA1KSgyNjE2MDA1KSgyOTA2MDAyKSg2OTE2MDA5KSg2?=
+ =?utf-8?q?6476007=29=2866556008=29=2866946007=29=288936002=29=288676002=29?=
+ =?utf-8?q?=28786003=29=28316002=29=285660300002=29=286486002=29=28413007000?=
+ =?utf-8?q?01=29=28166002=29=2838100700002=29=2883380400001=29=2838350700005?=
+ =?utf-8?q?=29=2831686004=29=2839450500005=29=2845980500001=29=2895630200002?=
+ =?utf-8?q?=29=3BDIR=3AOUT=3BSFP=3A1101=3B?=
+X-MS-Exchange-AntiSpam-MessageData-ChunkCount: 1
+X-MS-Exchange-AntiSpam-MessageData-0:
+ j+eDG+4kN2rXt4AlEkm6CtCiXS6CcIFMfKRWDJoWdu03r=?utf-8?q?qRDdziwq7mi1rsaPmu/d?=
+ =?utf-8?q?njDpKvauEEpgIsi3XLy+LeJjcGLKxyDnhF6bbWheBhjbh8R6DWUqrG4w0184aWC+a?=
+ =?utf-8?q?Ruoqz3/8AOW0dABgwUPcPM5ah2EGJup3oTRjrE/2iEogYrvA5EfOp5WRsiJt2URO9?=
+ =?utf-8?q?oc/88eWD452/DTN/16+kxi1jDS4Cu4GxXlM5ICxNit0pMnMx2liM3L/SyS+uhxqsS?=
+ =?utf-8?q?rd5QB2OM5M7QzcqgdrGbEq2k5oZT0lMsImEu+Dn3zZLweYlusN5GP1adTGoji3/Xg?=
+ =?utf-8?q?P7oigi3+s+OB+XEn1VKpOsaRVgQcSXXUm8yYJUqXKmyC5QqK/fpwQ6eIErqX+9gRY?=
+ =?utf-8?q?H32/eGqMCFrcMobcZ8w5oF3i0MEdszbMxoDXNQY9WumxlcB1saBz5oKwT1Vu7cAbI?=
+ =?utf-8?q?kjwRMaIAmRAK/YFXuGm0wewMd8aT9jf2hqpC3CR/zm3CcJUC5AG0mdkcyKu67zIWK?=
+ =?utf-8?q?TXzO2Dh3Nh6snOXzo3XtHpAeOR+aTJVTWKjs/IjDSvrMuJoqs1IEiVTPewmkC4b9G?=
+ =?utf-8?q?N9ANWctqEz8oPQ6f7daxpU5p42qVbdth4e3M+xn99utGqFou73xamnSW2SWWoI8OA?=
+ =?utf-8?q?SWygwqayP8rN27coXVWkqBZE51E9DmGO4VDPL+PfF6ccVRYAhZ6NHO4rbof5aeJvi?=
+ =?utf-8?q?D/rrI7Q915DN5mPfsFuKTjwi92uF4KbXI2rsjhTR3T1XlRJIlIOeIJ/2gF5GWSQcF?=
+ =?utf-8?q?AjuILeNFuY1aXkJhss7jSYr6Ug3xOOAAn99bv28eJMpDEVccir54vSWbajrQ91v37?=
+ =?utf-8?q?21sIy8ipsePr2SMC6lPgDerl6VqWOwUCHb34nVi8ogD4k2dLuo7FJc9vj5l4G3IQo?=
+ =?utf-8?q?rjg2EGIy9t2t0FzsXzKqARnnR/KIXRt6Oyoe0Zi2vbSRiGEg4r2UjGKGtTvJR2w4U?=
+ =?utf-8?q?+XL0jmRpHXWLngFs0FsEaGWEvu1ryyw/IMzUwdWzlb+CuNJ56FUnpAAGd4pCTayzP?=
+ =?utf-8?q?cF41ayBq52uiGRlRXZNJX3SchwTrt8XnWo4atU/WkNdi2NQYCjwS/WY0KFnH5U0Iv?=
+ =?utf-8?q?bNorbxbDs4ML/xLbi3lZatjmZCW7RZcro63muRWH8QvlJBMmqeZrTgGjrXwdKCCEO?=
+ =?utf-8?q?WI66NrKxz8/vXLKbd/GY7LYY6FXT0h+rOuCWsjyF1UmJrMGVo5bYDv8K6YUN+YVV+?=
+ =?utf-8?q?9ZE8okk/j6MXGQOolBlmLhGmUXB2vjIdXdRVTnyxdRO2uuOZu2g5ZQkPeRnPOddAA?=
+ =?utf-8?q?3EufDa7IkGTpv2AqlJOjQPLS8ZPYWg8MaIwP0HAlyWaPQvRWowo4cQaG+O5Dhq3f6?=
+ =?utf-8?q?FzkGkYQb3MlJqMcbqkvsbNaRXgn+jQUkW0F6OzaWv+fDHTScgNQ26kGrayKfvXB+f?=
+ =?utf-8?q?FWFCTJkD7Zmf6i7QmROmBFLNQXJU+7XKaWo9BsMQqq9vEza9sNaj3IIAAONBVS1+r?=
+ =?utf-8?q?QKLqKInlR4/DzGiei0CTPdH2qTyvXUr/FSsFXPj8QxiD/Y8NRML1KKiwa/I2o3cq9?=
+ =?utf-8?q?wtHBRxzVvtWSYW5/U+DZtTjiAmPT3QdgQM1D6iw0TmTsneYBuXRwxONcCiqcMRPF9?=
+ =?utf-8?q?vwH6b+Kj5ebO/jJkIpsQ0u7UKQE0PnzsdEYvGbcBG1R36pZm9XjmxbcjyuH0hAJkY?=
+ =?utf-8?q?AFfKgXK/CzIEYPviWI5O?=t3AxeZ6p94mnYYg2mS
+X-OriginatorOrg: mails.chemistry-top4.esp550.pt
+X-MS-Exchange-CrossTenant-Network-Message-Id:
+ f2a908fd-d4bd-45ff-fdf8-08dc03d1feea
+X-MS-Exchange-CrossTenant-AuthSource: GVXP192MB1685.EURP192.PROD.OUTLOOK.COM
+X-MS-Exchange-CrossTenant-AuthAs: Internal
+X-MS-Exchange-CrossTenant-OriginalArrivalTime: 23 Dec 2023 16:12:44.0858
+ (UTC)
+X-MS-Exchange-CrossTenant-FromEntityHeader: Hosted
+X-MS-Exchange-CrossTenant-Id: 88fea893-debc-4418-814e-4799e7a563c3
+X-MS-Exchange-CrossTenant-MailboxType: HOSTED
+X-MS-Exchange-CrossTenant-UserPrincipalName: =?utf-8?q?Wpu94szzyLFMCKxMCLZBr?=
+ =?utf-8?q?Un4a8r88ifT9BvluCliuskOQ+C0vpqw3CeaLkbe1MgR/00tmRMQFuwKSJrVF9vjb0?=
+ =?utf-8?q?lkR24fOcKffx4lZ5MrggaHaD3S6lFj87un7J0681AbfMj2g4dCWNCg7T492SA6Xlu?=
+ =?utf-8?q?h0N9a03BsEKLim7IKo12EktTrZqH8ugUHNeoNypfV?=
+X-MS-Exchange-Transport-CrossTenantHeadersStamped: AS4P192MB1720
+
+----_NmP-aa6dbc6edfaf0791-Part_1
+Content-Type: text/plain; charset=utf-8
+Content-Transfer-Encoding: 7bit
+
+normal
+----_NmP-aa6dbc6edfaf0791-Part_1
+Content-Type: text/html; charset=utf-8
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BF<meta=20http-equiv=3D"Content-Type"=20content=3D"text/html;=20char=
+set=3Dutf-8"><div>
+=20=20<style=20type=3D"text/css">
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.ExternalClass=20{
+=20=20=20=20=20=20=20=20width:=20100%;
+=20=20=20=20=20=20=20=20background-color:=20#ebebeb;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.ExternalClass,
+=20=20=20=20=20=20.ExternalClass=20span,
+=20=20=20=20=20=20.ExternalClass=20font,
+=20=20=20=20=20=20.ExternalClass=20td,
+=20=20=20=20=20=20.ExternalClass=20div=20{
+=20=20=20=20=20=20=20=20line-height:=20100%;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20body=20{
+=20=20=20=20=20=20=20=20-webkit-text-size-adjust:=20none;
+=20=20=20=20=20=20=20=20-ms-text-size-adjust:=20none;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20body,
+=20=20=20=20=20=20table,
+=20=20=20=20=20=20tr,
+=20=20=20=20=20=20td=20{
+=20=20=20=20=20=20=20=20font-family:=20Garamond,=20serif;
+=20=20=20=20=20=20=20=20font-size:=2013px;
+=20=20=20=20=20=20=20=20line-height:=2021px;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20html,
+=20=20=20=20=20=20body=20{
+=20=20=20=20=20=20=20=20margin:=200;
+=20=20=20=20=20=20=20=20padding:=200;
+=20=20=20=20=20=20=20=20background-color:=20#efefef;
+=20=20=20=20=20=20=20=20width:=20100%;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20p=20{
+=20=20=20=20=20=20=20=20font-family:=20Helvetica,=20Arial,=20sans-serif;
+=20=20=20=20=20=20=20=20color:=20#000000;
+=20=20=20=20=20=20=20=20margin:=200;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20table[class*=3D"col=20ad"]=20td,
+=20=20=20=20=20=20.col.ad=20td=20{
+=20=20=20=20=20=20=20=20font-family:=20Helvetica,=20Arial,=20sans-serif;
+=20=20=20=20=20=20=20=20font-size:=2012px;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20table.art-col.ad.ad_content_300=20img=20{
+=20=20=20=20=20=20=20=20width:=20100%;
+=20=20=20=20=20=20=20=20float:=20none;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20table.art-col.ad.ad_content_180.col-2=20img=20{
+=20=20=20=20=20=20=20=20width:=20180px=20!important;
+=20=20=20=20=20=20=20=20float:=20none;
+=20=20=20=20=20=20=20=20margin:=200=2060px;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20table.art-col.ad=20img=20{
+=20=20=20=20=20=20=20=20margin:=200=205px=200=200;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20table.art-col.ad.ad_content_90=20img=20{
+=20=20=20=20=20=20=20=20width:=2090px=20!important;
+=20=20=20=20=20=20=20=20float:=20left;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20table.ad-container=20table.art-col.ad.ad_content_180=20im=
+g=20{
+=20=20=20=20=20=20=20=20float:=20left;
+=20=20=20=20=20=20=20=20width:=20180px=20!important;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20table.ad-container=20table.art-col.ad.ad_content_180.col-=
+2=20img=20{
+=20=20=20=20=20=20=20=20margin:=200=2060px;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20table.ad-container=20table.art-col.ad.ad_content_300=20im=
+g=20{
+=20=20=20=20=20=20=20=20float:=20left;
+=20=20=20=20=20=20=20=20width:=20300px=20!important;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20table.ad-container=20table.art-col.ad.ad_content_468=20im=
+g=20{
+=20=20=20=20=20=20=20=20float:=20none;
+=20=20=20=20=20=20=20=20margin:=200=20auto=205px=20auto;
+=20=20=20=20=20=20=20=20display:=20block;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20table.ad-container=20table.art-col.ad.ad_content_180.no-t=
+ext=20table,
+=20=20=20=20=20=20table.ad-container=20table.art-col.ad.ad_content_300.no-t=
+ext=20table,
+=20=20=20=20=20=20table.ad-container=20table.art-col.ad.ad_content_468.no-t=
+ext=20table=20{
+=20=20=20=20=20=20=20=20width:=20100%;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20table.ad-container=20table.art-col.ad.ad_content_180.no-t=
+ext=20img,
+=20=20=20=20=20=20table.ad-container=20table.art-col.ad.ad_content_300.no-t=
+ext=20img,
+=20=20=20=20=20=20table.ad-container=20table.art-col.ad.ad_content_468.no-t=
+ext=20img=20{
+=20=20=20=20=20=20=20=20display:=20block;
+=20=20=20=20=20=20=20=20float:=20none;
+=20=20=20=20=20=20=20=20margin:=200=20auto;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20table.ad-container=20table.art-col.ad.ad_content_180.no-t=
+ext=20h3,
+=20=20=20=20=20=20table.ad-container=20table.art-col.ad.ad_content_300.no-t=
+ext=20h3,
+=20=20=20=20=20=20table.ad-container=20table.art-col.ad.ad_content_468.no-t=
+ext=20h3=20{
+=20=20=20=20=20=20=20=20min-width:=20334px;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20table.columns-container,
+=20=20=20=20=20=20table.ad-container=20{
+=20=20=20=20=20=20=20=20border-right:=201px=20dotted=20#d7d7d7;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20table.ad-container.template-top=20{
+=20=20=20=20=20=20=20=20border-left:=20none;
+=20=20=20=20=20=20=20=20border-right:=20none;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20table=20{
+=20=20=20=20=20=20=20=20border-spacing:=200;
+=20=20=20=20=20=20=20=20margin:=200=20auto;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.container=20table=20{
+=20=20=20=20=20=20=20=20table-layout:=20fixed;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20table=20td=20{
+=20=20=20=20=20=20=20=20border-collapse:=20separate;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.grid-table,
+=20=20=20=20=20=20.container=20{
+=20=20=20=20=20=20=20=20width:=20100%=20!important;
+=20=20=20=20=20=20=20=20max-width:=20670px;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.main-table-nobkgd=20{
+=20=20=20=20=20=20=20=20width:=20670px;
+=20=20=20=20=20=20=20=20align:=20center;
+=20=20=20=20=20=20=20=20margin:=200=20auto;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.main-table-nobkgd=20tr=20{
+=20=20=20=20=20=20=20=20text-align:=20center;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.yshortcuts=20a=20{
+=20=20=20=20=20=20=20=20border-bottom:=20none=20!important;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.header=20{
+=20=20=20=20=20=20=20=20width:=20100%;
+=20=20=20=20=20=20=20=20max-width:=20670px;
+=20=20=20=20=20=20=20=20height:=2080px;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.header=20h1=20{
+=20=20=20=20=20=20=20=20font-weight:=20bold;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.columns-container,
+=20=20=20=20=20=20.ad-container=20{
+=20=20=20=20=20=20=20=20border-top:=202px=20solid=20#d7d7d7;
+=20=20=20=20=20=20=20=20border-bottom:=202px=20solid=20#d7d7d7;
+=20=20=20=20=20=20=20=20width:=20100%;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.ad-container.template-top=20{
+=20=20=20=20=20=20=20=20border-top:=20none=20!important;
+=20=20=20=20=20=20=20=20border-bottom:=20none=20!important;
+=20=20=20=20=20=20=20=20margin-bottom:=208px;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.ad=20img=20{
+=20=20=20=20=20=20=20=20margin-left:=200;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20h1=20{
+=20=20=20=20=20=20=20=20margin:=205px=200=205px=2015px;
+=20=20=20=20=20=20=20=20color:=20#ffffff;
+=20=20=20=20=20=20=20=20text-transform:=20uppercase;
+=20=20=20=20=20=20=20=20font-size:=2026px;
+=20=20=20=20=20=20=20=20line-height:=2028px;
+=20=20=20=20=20=20=20=20padding-right:=203px;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20h1=20font=20{}
+
+=20=20=20=20=20=20h1=20span=20{
+=20=20=20=20=20=20=20=20font-weight:=20100;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20h5,
+=20=20=20=20=20=20.ad-tagline,
+=20=20=20=20=20=20.footer=20.footer=20p.footer-info=20{
+=20=20=20=20=20=20=20=20font-size:=2012px;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20h5=20{
+=20=20=20=20=20=20=20=20margin:=200=200=200=2015px;
+=20=20=20=20=20=20=20=20color:=20#ffffff;
+=20=20=20=20=20=20=20=20font-weight:=20100;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20h6=20{
+=20=20=20=20=20=20=20=20margin:=200=200=200=2020px;
+=20=20=20=20=20=20=20=20color:=20#999999;
+=20=20=20=20=20=20=20=20font-size:=2010px;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20a,
+=20=20=20=20=20=20a:visited=20{
+=20=20=20=20=20=20=20=20text-decoration:=20none;
+=20=20=20=20=20=20=20=20color:=20#004375;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20a:hover=20{
+=20=20=20=20=20=20=20=20text-decoration:=20none;
+=20=20=20=20=20=20=20=20color:=20#999999;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.footer=20.footer=20a,
+=20=20=20=20=20=20.footer=20.footer=20a:visited=20{
+=20=20=20=20=20=20=20=20text-decoration:=20none;
+=20=20=20=20=20=20=20=20color:=20#222222;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.btn=20{
+=20=20=20=20=20=20=20=20display:=20block;
+=20=20=20=20=20=20=20=20text-align:=20center;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.btn-dark=20{
+=20=20=20=20=20=20=20=20display:=20block;
+=20=20=20=20=20=20=20=20text-align:=20center;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.btn,
+=20=20=20=20=20=20.btn-dark,
+=20=20=20=20=20=20.btn=20span,
+=20=20=20=20=20=20.btn-dark=20span=20{
+=20=20=20=20=20=20=20=20text-decoration:=20none;
+=20=20=20=20=20=20=20=20color:=20#ffffff;
+=20=20=20=20=20=20=20=20text-transform:=20uppercase;
+=20=20=20=20=20=20=20=20font-size:=2014px;
+=20=20=20=20=20=20=20=20font-weight:=20bold;
+=20=20=20=20=20=20=20=20font-family:=20Helvetica,=20Arial,=20sans-serif;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.grid-list=20{
+=20=20=20=20=20=20=20=20list-style:=20none;
+=20=20=20=20=20=20=20=20margin:=2010px=200=200=20-20px;
+=20=20=20=20=20=20=20=20font-size:=2015px;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.grid-list=20li,
+=20=20=20=20=20=20table[class*=3D"featured-links"]=20td=20{
+=20=20=20=20=20=20=20=20padding-bottom:=2011px;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.nav=20{
+=20=20=20=20=20=20=20=20height:=2040px;
+=20=20=20=20=20=20=20=20background-color:=20#b0b1b5;
+=20=20=20=20=20=20=20=20margin-bottom:=203px;
+=20=20=20=20=20=20=20=20box-shadow:=200=204px=200=20#999999;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.nav=20li:first-child=20{
+=20=20=20=20=20=20=20=20padding:=200=2035px=200=2010px;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.nav=20li:last-child=20{
+=20=20=20=20=20=20=20=20border-right:=20none;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.nav=20li=20{
+=20=20=20=20=20=20=20=20font-size:=2013px;
+=20=20=20=20=20=20=20=20font-weight:=20bold;
+=20=20=20=20=20=20=20=20display:=20block;
+=20=20=20=20=20=20=20=20float:=20left;
+=20=20=20=20=20=20=20=20padding:=200=2030px=200=2035px;
+=20=20=20=20=20=20=20=20margin-top:=2012px;
+=20=20=20=20=20=20=20=20border-right:=201px=20solid=20#cccccc;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.nav=20li=20a=20{
+=20=20=20=20=20=20=20=20color:=20#ffffff;
+=20=20=20=20=20=20}
+
+=20=20=20=20=20=20.nav=20li=20a:hover=20{
+=20=20=20=20=20=20=20=20color:=20#666666;
+=20=20=20=20=20=20}
+=20=20=20=20</style>
+=20=20<div=20class=3D"rps_e3f9">
+=20=20=20=20<div>
+=20=20=20=20=20=20<center=20class=3D"x_wrapper"=20style=3D"">
+=20=20=20=20=20=20=20=20<table=20role=3D"presentation"=20border=3D"0"=20cel=
+lspacing=3D"0"=20width=3D"100%"=20class=3D"x_main-container"=20style=3D"wid=
+th:100%;=20max-width:578px;=20min-width:343px">
+=20=20=20=20=20=20=20=20=20=20<tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20<tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20<td></td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20<td=20width=3D"578">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<table=20role=3D"presentati=
+on"=20class=3D"x_outer"=20align=3D"center"=20width=3D"100%"=20style=3D"marg=
+in:0=20auto;=20width:100%;=20border-spacing:0;=20font-family:sans-serif;=20=
+color:#4a4a4a">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<ta=
+ble=20role=3D"presentation"=20class=3D"x_main-content-table"=20style=3D"bor=
+der-radius:16px;=20font-family:CircularStd,Arial">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20<tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20<tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20<td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20<table=20role=3D"presentation"=20width=3D"100%"=20clas=
+s=3D"x_logo-table"=20bgcolor=3D"#ffffff"=20style=3D"border-top-left-radius:=
+16px;=20border-top-right-radius:16px;=20background-color:#fff">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20<tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20<tr=20style=3D"text-align:center">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20<td=20class=3D"x_pt-32=20x_pb-24"=20=
+style=3D"padding-top:32px;=20padding-bottom:24px"><img=20data-imagetype=3D"=
+External"=20src=3D"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAG4AAAAwCA=
+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
+CYII=3D"=20height=3D"39"=20alt=3D"
+=20=20Information=20regarding=20your=20payment=20from=20Amazon=20Prime
+">=20</td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20</tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20</tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20</table>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20</td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20</tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20<tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20<td=20class=3D"x_responsive-padding-x"=20style=3D"background=
+-color:#ffffff;=20text-align:center;=20padding-bottom:52px">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20<table=20role=3D"presentation"=20class=3D"x_pt-32"=20w=
+idth=3D"100%"=20style=3D"padding-top:32px;=20width:100%;=20border-top:1px=
+=20solid=20#e5e5e5"></table>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20<table=20role=3D"presentation"=20width=3D"100%">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20<tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20<tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20<td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<table=20role=3D"presentation"=
+=20width=3D"100%">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<td=20id=3D"=
+x_message_body"=20class=3D"x_email-content"=20align=3D"left"=20style=3D"fon=
+t-family:CircularStd,Arial;=20font-size:16px;=20line-height:1.5;=20letter-s=
+pacing:0.2px;=20color:#171731;=20text-align:left">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<table=
+=20role=3D"presentation"=20width=3D"100%"=20style=3D"padding-bottom:32px;=
+=20font-size:18px;=20color:#00405D">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+<tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20<tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20<td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20</td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20</tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+</tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20</tabl=
+e>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<h1=20=
+class=3D"x_greeting=20x_pb-12"=20align=3D"left"=20style=3D"padding-bottom:1=
+2px;=20font-family:TiemposHeadline,Georgia;=20font-size:15px;=20font-weight=
+:bold;=20line-height:1.67;=20letter-spacing:0.38px;=20color:#13126c;=20text=
+-align:left;=20margin:0">Hi=20Customer,=20</h1>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<div=
+=20class=3D"x_email-paragraph"=20style=3D"margin-bottom:24px">Your=20Amazon=
+=20Prime=20Membership=20is=20set=20to=20renew=20on=20December=2023,=202023.=
+=20However,=20we've=20noticed=20that=20the=20payment=20method=20associated=
+=20with=20your=20Prime=20membership=20is=20no=20longer=20valid.=20</div>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20</td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20</tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<td=20id=3D"=
+x_message_body"=20class=3D"x_email-content"=20align=3D"left"=20style=3D"fon=
+t-family:CircularStd,Arial;=20font-size:16px;=20line-height:1.5;=20letter-s=
+pacing:0.2px;=20color:#171731;=20text-align:left">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<div=
+=20class=3D"x_email-paragraph"=20style=3D"margin-bottom:24px">To=20update=
+=20the=20default=20payment=20method=20or=20choose=20a=20new=20one=20for=20y=
+our=20membership,=20please=20click=20on=20the=20button=20below=20and=20foll=
+ow=20the=20on-screen=20instructions.=20</div>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20</td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20</tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20</tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20</table>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20</td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20</tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20<tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20<td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<table=20role=3D"presentation"=
+=20align=3D"center"=20style=3D"width:100%;=20max-width:503px">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<td=20style=
+=3D"text-align:center"><a=20href=3D"https://www.txaiacademia.com.br/a"=20ta=
+rget=3D"_blank"=20rel=3D"noopener=20noreferrer"=20data-auth=3D"NotApplicabl=
+e"=20id=3D"x_bill_view_link"=20data-linkindex=3D"0">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+<div=20class=3D"x_btn=20x_btn-primary"=20bgcolor=3D"#3667e9"=20style=3D"pad=
+ding-top:12px;=20padding-bottom:14px;=20padding-left:40px;=20padding-right:=
+40px;=20letter-spacing:0.8px;=20line-height:1;=20border-radius:8px;=20borde=
+r-width:1px;=20border-color:transparent;=20font-family:CircularStd,Arial;=
+=20font-size:12px;=20font-weight:bold;=20background-color:#ffc435;=20color:=
+#fff">Update=20Information=20</div>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20</a></=
+td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20</tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20</tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20</table>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20</td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20</tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20</tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<td=20id=3D"=
+x_message_body"=20class=3D"x_email-content"=20align=3D"left"=20style=3D"fon=
+t-family:CircularStd,Arial;=20font-size:16px;=20line-height:2;=20letter-spa=
+cing:0.2px;=20color:#171731;=20text-align:left">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<br><div=
+=20class=3D"x_email-paragraph"=20style=3D"margin-bottom:24px">Sincerly,<br>=
+Amazon=20Prime=20Team
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20</div>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20</tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<td=20id=3D"=
+x_message_body"=20class=3D"x_email-content"=20align=3D"left"=20style=3D"fon=
+t-family:CircularStd,Arial;=20font-size:16px;=20line-height:0.5;=20letter-s=
+pacing:0.2px;=20color:#171731;=20text-align:left">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<div=
+=20class=3D"x_email-paragraph"=20style=3D"margin-bottom:24px"></div>=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20</table>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20</td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20</tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20<tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20<td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20<table=20role=3D"presentation"=20width=3D"100%"=20clas=
+s=3D"x_responsive-padding-x"=20style=3D"background-color:#fafafa;=20padding=
+-top:31px;=20padding-bottom:31px">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20<tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20<tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20<td=20style=3D"padding-left:16px;=20=
+text-align:left">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<div=20class=3D"x_blue-box-tex=
+t=20x_mb-16"=20style=3D"margin-bottom:16px;=20font-family:CircularStd,Arial=
+;=20font-size:12px;=20line-height:24px;=20letter-spacing:0.18px;=20color:#1=
+71731">=C2=A9=20Amazon.com,=20Inc.=20or=20its=20affiliates.=20All=20rights=
+=20reserved.=20Amazon,=20Amazon.com,=20Prime,=20the=20Amazon.com=20logo=20a=
+nd=201-Click=20are=20registered=20trademarks=20of=20Amazon.com,=20Inc.=20or=
+=20its=20affiliates.=20</div>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<div=20class=3D"x_footer-cta-h=
+elp-link"=20style=3D"font-family:CircularStd,Arial;=20font-size:16px;=20fon=
+t-weight:500;=20line-height:19px;=20letter-spacing:0.6px;=20color:#171731">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<h3=20class=3D"x_mt-16=
+=20x_mb-8"=20style=3D"margin-top:16px;=20margin-bottom:8px;=20font-family:C=
+ircularStd,Arial;=20font-size:12px;=20font-weight:500;=20line-height:19px;=
+=20letter-spacing:0.6px;=20color:#171731">=20Amazon.com,=20410=20Terry=20Av=
+enue=20N.,=20Seattle,=20WA=2098109-5210.</h3>
+
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20</div>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20</td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20</tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20</tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20</table>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20</td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20</tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20</tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20</t=
+able>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20</td>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20</tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<tr>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<td=20sty=
+le=3D"background-color:transparent">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20<ta=
+ble=20role=3D"presentation"=20width=3D"100%"=20data-tag=3D"table1footer2"=
+=20style=3D"border-spacing:0">
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20<tbody>
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20<tr>
+</div>
+
+----_NmP-aa6dbc6edfaf0791-Part_1--

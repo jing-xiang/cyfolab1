@@ -1,0 +1,68 @@
+Return-Path: <privatemails79@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx2.pub.mailpod3-cph3.one.com ([10.27.26.12])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id 4BzlBDnKrFueigAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 27 Sep 2018 12:16:57 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 39bd86a2-c24f-11e8-b596-ec0d9a6ed98e
+Received: from sonic302-20.consmr.mail.ir2.yahoo.com (unknown [87.248.110.83])
+	by mx2.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 39bd86a2-c24f-11e8-b596-ec0d9a6ed98e;
+	Thu, 27 Sep 2018 12:16:56 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed; d=yahoo.com; s=s2048;
+ t=1538050616; bh=mqrllyj54Cj2DtinEDlCg9vQJ2sutwLaUZahipddf9k=;
+ h=Date:From:Reply-To:Subject:References:From:Subject; =?utf-8?q?b=3DBys+GDu?=
+ =?utf-8?q?jg04aLddIwqyJgDOM6n7cOK9IqZqigXgddkdkyZFVKTKcUMPdG8P9Dseu3RwgTwiw?=
+ =?utf-8?q?dvmKn2Kd3kpP8eCifDMADY3xc3QANsVc161uA7775oGCaW8LzGxYAaEyXLvvXe9XG?=
+ =?utf-8?q?eSZN+UyEcPu3/2jqB/8SpwJkHckD1wqPvkDEbQ7hH5IdrQ8reI3WXiwNsbOxg63JG?=
+ =?utf-8?q?vp0XL6VpvFLZ501NvIMBe+c12XVDoEgkE8ra8QflRCE69LFzOmOxc1Zdptn3TWsf3?=
+ =?utf-8?q?fyyUhiWymAfSjzp4Hwe8UaKfdULMHL32sJ0+S5yph91y71WSujEgFfUwPynGEHNPr?=
+ =?utf-8?q?cGrL1HFt1Q=3D=3D?=
+X-YMail-OSG: hcuLbsAVM1l1a9S7vfhWqs1trOq_RDjMblgsdiUtpOen8w1A0dMRiUjjSuWMrcH
+ lXi.sIvgIgZqVrzT8ll2Jt2kVUMTYdutqhfzlzcvFEAujLt7A9na96nW3J5EwMtAu_J0gty0w6gH
+ yFk.Ri41UK8o.1Jpt3dqbK.1UNrFE4c2DWi73IuoDuT32kB5BQEJcisNuk.Zvpe0KbRtCc2Z0VjX
+ RNhEWz7tPYheyAiee1GoIektK3yXD.wFe3tV4Fmbw9Zy8akBe.N0OZCM1m3hs.7PehYdQd4Z3tAJ
+ r4temY.1pdYy869SHp6Uy._4YnqvxV14Pih6SH2ujYZ8a1Nlpx9gWOSHYJ..BW6L6ypauuy4Xdu8
+ PTs8l.FYWkR6if7n9sVnwMcr1T77thWfShpub1oj.eEWcq7NxVw_nKBqQczjwP2ewrZaXuE3hULn
+ 4TuMfZW1ytDDalWt6wNFh_8fN4aFMWq8wTqKXu_NtDTUMNpDuSLQb.85ODRGuiYnREQmkTvOakKa
+ oCVGFrVT5MmosnpS5CZoK7yEnhMoSiK34ipq0afdddNlkJX00RpYcuPHvhnZcZuKW9SPBNO9nqJa
+ CRi2mJVMUK_Z9.zWu6grZg9L0AxLyNNDRR.a1z0vm.ZLvYHguFegIYK7hJKFiOGZ1cIvkk4p_Vdj
+ wMECPU8rwK61YYrk7MohXEo.7JrOC_qwktg0L_2Oc6QbBy4jVUKeyhVzhM6EkPBtDZm0i2LIXHWs
+ 6R0aAgv3re6y6pVUOd5loZW9NmI5lVAASl.1et2kvv9oX9zWKvAURMSoHKpZFDansxHZqBUoOOkl
+ ZKsMwF428NlWW46UkBPgsZiIGI1J1M_oPIjAv26HnBOB9vHSZGY_cWq4NftOMmW_5jJAAT2z_UVd
+ b8Jgz6BP5naXINPTT5QlfAieH2l9imNnWOWmj7k2RfImDKhx9AUOsw7shoBPjJGGE7apqtIaM4Oj
+ nFmm_jskrbJxhs09kXw25X_Z8WrAxejWMOuM-
+Received: from sonic.gate.mail.ne1.yahoo.com by
+ sonic302.consmr.mail.ir2.yahoo.com with HTTP; Thu, 27 Sep 2018 12:16:56 +0000
+Date: Thu, 27 Sep 2018 12:16:53 +0000 (UTC)
+From: Ms Safi Kabore <privatemails79@gmail.com>
+Reply-To: Ms Safi Kabore <safi.kabore1@libero.it>
+Message-ID: <13427557.20079133.1538050613655@mail.yahoo.com>
+Subject: BUSINESS ACHIEVEMENT / URGENT REPLY.
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 7bit
+References: <13427557.20079133.1538050613655.ref@mail.yahoo.com>
+X-Mailer: WebService/1.1.12406 YahooMailBasic Mozilla/5.0 (Windows NT 6.2;
+ rv:62.0) Gecko/20100101 Firefox/62.0
+Content-Length: 765
+
+
+
+Dear Friend,
+
+I am  Ms Safi Kabore work with the department of Audit and accounting manager here in the Bank of Africa,There is this fund that was keep in my custody years ago and  if any one provide  the rightful information of this said fund that the bank has no option to transfer the fund to you as the next of kin.
+
+I need your help applying for  transfer (US$4.5M DOLLARS) to your bank account. I have every inquiry details to make the bank believed you and release the fund in within 5 banking working days with your full co-operation with me for success.
+
+Please i need the following information from you so i can give you the full details.
+
+1)Private telephone number...
+2)Age...
+3)Nationality...
+4)Occupation ...
+5)Full name ...
+
+Thanks.
+
+Ms Safi Kabore

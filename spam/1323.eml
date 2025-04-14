@@ -1,0 +1,78 @@
+Return-Path: <zabpia@voila.fr>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx1.pub.mailpod3-cph3.one.com ([10.27.26.11])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id aI7yG1kudmO2VwAAtf5whQ
+	(envelope-from <zabpia@voila.fr>)
+	for <johannes.olegard@cyfoexample.one.com>; Thu, 17 Nov 2022 12:51:37 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	h=message-id:reply-to:date:from:to:subject:content-description:	 
+ =?utf-8?q?content-transfer-encoding=3Amime-version=3Acontent-type=3Ax-halon?=
+ =?utf-8?q?e-refid=3Ax-halone-sa=3A?=	 from:x-halone-sa:x-halone-refid;
+	bh=T8nXjzZU+NUeBa9BeMtz35jl2i8asAx7c8axpbDZ4+E=;	=?utf-8?q?b=3DoyYJ4V7iVe8q?=
+ =?utf-8?q?XbzKoQLyh9miZCaQt48EWbLzvMXDFdMNtB/KpDTWEIevc9uCmZFrgheAkmCIeJ9XB?=
+	 =?utf-8?q?wJ8wCJA0mAQZKvir91RW/3k/51eW9QzZVGaT7v1+M2rzAv1crBUN4tj+IDFakxTE?=
+ =?utf-8?q?FymusB4gxhWJ3a=09_1khzKrKaz9eSjKJpYrNdYvV3AdDz8ut6WOTshGzdL6BtQQ+?=
+ =?utf-8?q?RB5q6BclMi6yORqfvKI08b4ZX3mkiUT=09_pVZDOu1qH+ogbqIO9rH/7a1Ul2pOxL?=
+ =?utf-8?q?LzlGNTc+Vl2zkRndsn/yJkGAmBbwZoXS6RMwBJap84Db3x7M?=	
+ 4LSge/fgYCv+vjuYxt8iE8U0KiJx6jg==
+X-HalOne-SA: 4.5
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F1F=2E63762E59=2E0005=2Css=3D3?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD0zLGNsZD0xLGZncz0w?=
+X-HalOne-ID: 916caae4-6676-11ed-b2eb-e0d84894a001
+Received: from mail.kliniksehatq.co.id (host-66-96-246-106.myrepublic.co.id
+ [66.96.246.106])	by mx1.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ 916caae4-6676-11ed-b2eb-e0d84894a001;	Thu, 17 Nov 2022 12:51:36 +0000 (UTC)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.kliniksehatq.co.id (Postfix) with ESMTP id AB9EEED1C75;
+	Thu, 17 Nov 2022 18:51:29 +0700 (WIB)
+Received: from mail.kliniksehatq.co.id ([127.0.0.1])
+	by localhost (mail.kliniksehatq.co.id [127.0.0.1]) (amavisd-new, port 10032)
+	with ESMTP id xk0e0NqQh9H0; Thu, 17 Nov 2022 18:51:29 +0700 (WIB)
+Received: from localhost (localhost [127.0.0.1])
+	by mail.kliniksehatq.co.id (Postfix) with ESMTP id C15E7ED758A;
+	Thu, 17 Nov 2022 18:45:19 +0700 (WIB)
+X-Virus-Scanned: amavisd-new at kliniksehatq.co.id
+Received: from mail.kliniksehatq.co.id ([127.0.0.1])
+	by localhost (mail.kliniksehatq.co.id [127.0.0.1]) (amavisd-new, port 10026)
+	with ESMTP id FRmSagRddoAi; Thu, 17 Nov 2022 18:45:19 +0700 (WIB)
+Received: from [45.134.23.250] (_gateway [172.22.249.254])
+	by mail.kliniksehatq.co.id (Postfix) with ESMTP id EF553ED7EB4;
+	Thu, 17 Nov 2022 18:41:15 +0700 (WIB)
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: quoted-printable
+Content-Description: Mail message body
+Subject: PLEASE ADVICE ME
+To: Recipients <zabpia@voila.fr>
+From: " Lucy Jacobs " <zabpia@voila.fr >
+Date: Thu, 17 Nov 2022 03:41:10 -0800
+Reply-To: lucy_jacobson@hotmail.com
+Message-Id: <20221117114115.EF553ED7EB4@mail.kliniksehatq.co.id>
+
+=EF=BB=BFHello=20Dear,
+
+Good=20day=20dear,=20I=20am=20sorry=20to=20disturb=20you=20with=20my=20life=
+=20issue=20but=20I=20seek=20your=20advice.=20My=20name=20is=20Lucy=20Jacobs=
+;=20I'm=20a=20Brit=20who=20lives=20in=20Dewsbury=20England.=20I=20attend=20=
+university=20and=20I=20do=20part=20time=20work=20as=20a=20dressmaker.=20I=
+=20lost=20my=20father=20in=20an=20auto=20accident=20prompting=20my=20mother=
+=E2=80=99s=20death=20because=20of=20it.
+
+My=20Father,=20Jacobs=20Woolf,=20willed=20me=20a=20large=20portion=20of=20h=
+is=20real=20estate=20holdings=20and=20income=20properties=20valued=20at=20=
+=C2=A35,700,000=20Pounds=20Sterling.=20I=20have=20yet=20to=20place=20a=20cl=
+aim=20on=20it=20but=20right=20now=20things=20are=20not=20good=20and=20I'd=
+=20like=20to=20have=20it.=20My=20Fathers=20stipulation=20was=20that=20I=20w=
+as=20either=2030=20years=20of=20age=20or=20married.
+
+(Allowing=20my=20Husband=20to=20be=20in=20control).=20I=20am=2026=20so=20on=
+ly=20my=20husband=20can=20make=20a=20claim=20on=20my=20behalf.=20I=E2=80=99=
+d=20like=20to=20offer=20you=20the=20opportunity=20to=20stand=20in=20as=20my=
+=20Husband=20and=20will=20share=20it=20for=20your=20assistance.=20Your=20in=
+terest=20will=20be=20properly=20protected.
+
+Thanks.
+
+Lucy=20Jacobs.

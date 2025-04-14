@@ -1,0 +1,72 @@
+Return-Path: <>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP id SIw6AKfzg1zIQwAAtf5whQ
+	for <johannes.olegard@cyfoexample.one.com>; Sat, 09 Mar 2019 17:11:03 +0000
+X-HalOne-Spam: true
+X-HalOne-ID: 50a4272e-428e-11e9-95cb-e0d848974e01
+Received: from antispam2.c0.bise611.blackberry (unknown [74.82.84.1])
+	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTP
+	id 50a4272e-428e-11e9-95cb-e0d848974e01;
+	Sat, 09 Mar 2019 17:11:02 +0000 (UTC)
+Received: from localhost by antispam2.c0.bise611.blackberry;
+  09 Mar 2019 17:11:01 +0000
+Message-Id: <437e11$184fc0g@antispam2.c0.bise611.blackberry>
+Date: 09 Mar 2019 17:11:01 +0000
+To: johannes.olegard@cyfoexample.one.com
+From: "Mail Delivery System" <MAILER-DAEMON@mail.bis.na.blackberry.com>
+Subject: Delivery Status Notification (Failure)
+MIME-Version: 1.0
+Content-Type: multipart/report; report-type="delivery-status";
+ boundary="1GHvKT.5WwniVOpZ.HA2W8.BPOc08J"
+
+--1GHvKT.5WwniVOpZ.HA2W8.BPOc08J
+content-type: text/plain;
+    charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+The=20following=20message=20to=20<chris.hull@vzw.blackberry.net>=20was=20un=
+deliverable.
+The=20reason=20for=20the=20problem:
+5.1.0=20-=20Unknown=20address=20error=20550-'5.1.1=20<chris.hull@vzw.blackb=
+erry.net>:=20Recipient=20address=20rejected:=20User=20unknown=20in=20virtua=
+l=20alias=20table'
+
+--1GHvKT.5WwniVOpZ.HA2W8.BPOc08J
+content-type: message/delivery-status
+
+Reporting-MTA: dns; antispam2.c0.bise611.blackberry
+
+Final-Recipient: rfc822;chris.hull@vzw.blackberry.net
+Action: failed
+Status: 5.0.0 (permanent failure)
+Remote-MTA: dns; [172.19.192.104]
+Diagnostic-Code: smtp; 5.1.0 - Unknown address error 550-'5.1.1
+ <chris.hull@vzw.blackberry.net>: Recipient address rejected: User unknown in
+ virtual alias table' (delivery attempts: 0)
+
+--1GHvKT.5WwniVOpZ.HA2W8.BPOc08J
+content-type: message/rfc822
+
+X-SBRS: None
+Received: from client-201.240.115.96.speedy.net.pe ([201.240.115.96])
+  by antispam2.c0.bise611.blackberry with ESMTP; 09 Mar 2019 17:10:05 +0000
+From: "yule stefano" <johannes.olegard@cyfoexample.one.com>
+To: <chris.hull@vzw.blackberry.net>
+Subject: Re:Erectile Dysfunction Treatment
+Date: 9 Mar 2019 05:36:02 -0600
+Message-ID: <003c01d4d671$02485d17$a30cefa8$@cyfoexample.one.com>
+MIME-Version: 1.0
+Content-Type: text/plain;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: 7bit
+X-Mailer: Microsoft Office Outlook 11
+Thread-Index: Ac39nk5upuq9fxrx39nk5upuq9fxrx==
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17514
+
+http://polakjass.com/?azsxqxecdgenuyytrtcsweqzasklnjbzfeyupolkamzjnxdscfhb
+
+
+--1GHvKT.5WwniVOpZ.HA2W8.BPOc08J--
+
+

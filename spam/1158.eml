@@ -1,0 +1,132 @@
+Return-Path: <Jana.Balcova@uksup.sk>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id mIRwDmXwdWBLVgAAtf5whQ
+	(envelope-from <Jana.Balcova@uksup.sk>)
+	for <johannes.olegard@cyfoexample.one.com>; Tue, 13 Apr 2021 19:26:29 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;
+	h=mime-version:content-type:reply-to:message-id:date:subject:from:	
+ x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=3I3L1ZQBWQcScA8ZWhqhq0jZ+QmE2tRLE3FSrlmo80A=;	=?utf-8?q?b=3DrRY2XFzu6nBK?=
+ =?utf-8?q?WYgaBC8ED5xtzT5Jopnf6U9hAGPZ8krxTfqv91uVZBc+frXCyftcf3l2i6+t7d1F2?=
+	 =?utf-8?q?D6+6ISMoIS97b9zaKrlnBSDZ0PnDOCB+ozZ0Uv4IW78U7RhQKYMNpOs1X92gKt/A?=
+ =?utf-8?q?vxOnesM84vEYVi=09_UoyJ6N8axgUnZPqGDPyIH/WcnpLOGlyQADH90u6p4dTKEiR?=
+ =?utf-8?q?vmYo1+JtVj00gxG9uEztx4xdTCjCc2M=09_4fYUYSNowOt0NE8tDkVodswnsZg/ut?=
+ =?utf-8?q?Cw1TOBnPTiq3aSDj99Q3jl2CsWErbOjIWNm6NSXSGXctMFO5?=	
+ z4zC44jswOB25v3XPFCGfTJf5FybB/Q==
+X-HalOne-SA: 13.3
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F21=2E6075F064=2E0029=3ASCFSTAT5?=
+ =?utf-8?b?NDgyMTI4Nixzcz0xLHJlPS00LjAwMCxyZWN1PTAuMDAwLHJlaXA9MC4wMDAsY2w9?=
+ =?utf-8?q?1=2Ccld=3D1=2Cfgs=3D0?=
+X-HalOne-ID: 247a355f-9c8e-11eb-9849-e0d848974e01
+Received: from TMPEX.uksup.sk (mail.uksup.sk [62.197.197.82])
+	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS
+	id 247a355f-9c8e-11eb-9849-e0d848974e01;
+	Tue, 13 Apr 2021 19:26:28 +0000 (UTC)
+Received: from TMPEX.uksup.sk (192.168.0.12) by TMPEX.uksup.sk (192.168.0.12)
+ with Microsoft SMTP Server (version=TLS1_2,
+ cipher=TLS_ECDHE_RSA_WITH_AES_256_CBC_SHA384_P384) id 15.1.2242.4; Tue, 13
+ Apr 2021 21:26:26 +0200
+Received: from TMPEX.uksup.sk ([::1]) by TMPEX.uksup.sk ([::1]) with mapi id
+ 15.01.2242.004; Tue, 13 Apr 2021 21:26:26 +0200
+From: =?iso-8859-1?Q?Balcov=E1_Jana_Ing=2E?= <Jana.Balcova@uksup.sk>
+Subject: FW: RE
+Thread-Topic: RE
+Thread-Index: AdcwkhY4NzHf0APo10asf7Gd8xycggAAAT9gAAGQuvAAAAAGsAAAAAigAAAACXA=
+Date: Tue, 13 Apr 2021 19:26:26 +0000
+Message-ID: <8c51bb82fdf34f898e2307262fd9130f@uksup.sk>
+Reply-To: "maria.bilups@gmail.com" <maria.bilups@gmail.com>
+Accept-Language: sk-SK, en-US
+Content-Language: en-US
+X-MS-Has-Attach: 
+X-MS-TNEF-Correlator: 
+x-originating-ip: [100.100.100.1]
+Content-Type: multipart/alternative;
+	boundary="_000_8c51bb82fdf34f898e2307262fd9130fuksupsk_"
+MIME-Version: 1.0
+
+--_000_8c51bb82fdf34f898e2307262fd9130fuksupsk_
+Content-Type: text/plain; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+I=20am=20Mrs=20Maria=20Billups,=2082=20years=20old=20woman,=20from=20Nebras=
+ka=20United=20States,=20was=20married=20to=20late=20(Engr.=20John=20Domonko=
+s=20Billups)=20a=20citizen=20of=20the=20Republic=20of=20Hungary.=20I=20have=
+=20offered=20to=20make=20you=20the=20beneficiary=20to=20my=20late=20husband=
+=20funds=20worth=20$45.3=20million=20dollars=20since=20we=20do=20not=20have=
+=20any=20children.=20Do=20Contact=20me=20back=20if=20you=20are=20interested.
+
+--_000_8c51bb82fdf34f898e2307262fd9130fuksupsk_
+Content-Type: text/html; charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+
+<html=20xmlns:v=3D"urn:schemas-microsoft-com:vml"=20xmlns:o=3D"urn:schemas-=
+microsoft-com:office:office"=20xmlns:w=3D"urn:schemas-microsoft-com:office:=
+word"=20xmlns:m=3D"http://schemas.microsoft.com/office/2004/12/omml"=20xmln=
+s=3D"http://www.w3.org/TR/REC-html40">
+<head>
+<meta=20http-equiv=3D"Content-Type"=20content=3D"text/html;=20charset=3Diso=
+-8859-1">
+<meta=20name=3D"Generator"=20content=3D"Microsoft=20Word=2014=20(filtered=
+=20medium)">
+<style><!--
+/*=20Font=20Definitions=20*/
+@font-face
+=09{font-family:Calibri;
+=09panose-1:2=2015=205=202=202=202=204=203=202=204;}
+/*=20Style=20Definitions=20*/
+p.MsoNormal,=20li.MsoNormal,=20div.MsoNormal
+=09{margin:0cm;
+=09margin-bottom:.0001pt;
+=09font-size:11.0pt;
+=09font-family:"Calibri","sans-serif";
+=09mso-fareast-language:EN-US;}
+a:link,=20span.MsoHyperlink
+=09{mso-style-priority:99;
+=09color:blue;
+=09text-decoration:underline;}
+a:visited,=20span.MsoHyperlinkFollowed
+=09{mso-style-priority:99;
+=09color:purple;
+=09text-decoration:underline;}
+span.EmailStyle17
+=09{mso-style-type:personal;
+=09font-family:"Calibri","sans-serif";
+=09color:windowtext;}
+span.EmailStyle18
+=09{mso-style-type:personal-reply;
+=09font-family:"Calibri","sans-serif";
+=09color:#1F497D;}
+.MsoChpDefault
+=09{mso-style-type:export-only;
+=09font-size:10.0pt;}
+@page=20WordSection1
+=09{size:612.0pt=20792.0pt;
+=09margin:72.0pt=2072.0pt=2072.0pt=2072.0pt;}
+div.WordSection1
+=09{page:WordSection1;}
+--></style><!--[if=20gte=20mso=209]><xml>
+<o:shapedefaults=20v:ext=3D"edit"=20spidmax=3D"1026"=20/>
+</xml><![endif]--><!--[if=20gte=20mso=209]><xml>
+<o:shapelayout=20v:ext=3D"edit">
+<o:idmap=20v:ext=3D"edit"=20data=3D"1"=20/>
+</o:shapelayout></xml><![endif]-->
+</head>
+<body=20lang=3D"EN-IN"=20link=3D"blue"=20vlink=3D"purple">
+<div=20class=3D"WordSection1">
+<p=20class=3D"MsoNormal"><span=20style=3D"color:#1F497D">I=20am=20Mrs=20Mar=
+ia=20Billups,=2082=20years=20old=20woman,=20from=20Nebraska=20United=20Stat=
+es,=20was=20married=20to=20late=20(Engr.=20John=20Domonkos=20Billups)=20a=
+=20citizen=20of=20the=20Republic=20of=20Hungary.=20I=20have=20offered=20to=
+=20make=20you=20the=20beneficiary=20to=20my
+=20late=20husband=20funds=20worth=20$45.3=20million=20dollars=20since=20we=
+=20do=20not=20have=20any=20children.=20Do=20Contact=20me=20back=20if=20you=
+=20are=20interested.<o:p></o:p></span></p>
+</div>
+</body>
+</html>
+
+--_000_8c51bb82fdf34f898e2307262fd9130fuksupsk_--

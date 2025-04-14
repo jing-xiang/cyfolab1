@@ -1,0 +1,125 @@
+Return-Path: <wozaonline88@gmail.com>
+Delivered-To: johannes.olegard@cyfoexample.one.com
+Received: from mx3.pub.mailpod3-cph3.one.com ([10.27.26.13])
+	by mailstorage2.cst.mailpod3-cph3.one.com with LMTP
+	id 6K//KxNXLWHjQAAAtf5whQ
+	(envelope-from <wozaonline88@gmail.com>)
+	for <johannes.olegard@cyfoexample.one.com>; Mon, 30 Aug 2021 22:09:23 +0000
+X-HalOne-Spam: true
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;	d=custmx.one.com;
+ s=20201015;	=?utf-8?q?h=3Dcontent-type=3Ato=3Asubject=3Amessage-id=3Adate?=
+ =?utf-8?q?=3Afrom=3Areply-to=3Ain-reply-to=3Areferences=3A?=	
+ mime-version:x-halone-refid:x-halone-sa:from:x-halone-sa:x-halone-refid;
+	bh=mtnQ/+N/rFr4XsHHQ1ZXi1eZ06GageBqOMARPg7jLns=;	=?utf-8?q?b=3DFsr3kbHnQOoC?=
+ =?utf-8?q?n38uETwebRym60NtHA97tVQjudJkCEKolYs0YIb1j//TC+c6Th/EuYRULYJONzwPi?=
+	 =?utf-8?q?M416sSLZLHizkf2hFmFW8X/pCzaMuFC8L+nyTJugNkIvzAJAA9bJXjoGSBgaNvOA?=
+ =?utf-8?q?xwcZeE7AuZaPAo=09_XN4k7gyC9KCyCK6Ch1Nl+Wfelhk0ImMOE3T1LRGbB3vTChV?=
+ =?utf-8?q?vjS1SwWBhpmpkXOOYuupCDPqCuOsV0f=09_TJFpTn7CkKFExJTKi+V4VFjfwK1aFV?=
+ =?utf-8?q?iu1P/CzaMguHd2AqzRJvp8cDqupH/rO2XS2zmldyPdBxXjhR?=	
+ a+U8BRffde8K5ztMg9qgLg4wfW1PYXA==
+X-HalOne-SA: 17
+X-HalOne-RefID: =?utf-8?q?str=3D0001=2E0A682F23=2E612D5713=2E0012=2Css=3D4?=
+ =?utf-8?b?LHJlPTAuMDAwLHJlY3U9MC4wMDAscmVpcD0wLjAwMCxjbD00LGNsZD0xLGZncz0x?=
+ =?utf-8?q?6?=
+X-HalOne-ID: ee5c6f07-09de-11ec-aee5-e0d848974e01
+Received: from mail-wm1-f52.google.com (mail-wm1-f52.google.com
+ [209.85.128.52])	by mx3.pub.mailpod3-cph3.one.com (Halon) with ESMTPS	id
+ ee5c6f07-09de-11ec-aee5-e0d848974e01;	Mon, 30 Aug 2021 22:09:23 +0000 (UTC)
+Received: by mail-wm1-f52.google.com with SMTP id
+ d22-20020a1c1d16000000b002e7777970f0so477894wmd.3        for
+ <johannes.olegard@cyfoexample.one.com>; Mon, 30 Aug 2021 15:09:23 -0700 (PDT)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20161025;
+        h=mime-version:references:in-reply-to:reply-to:from:date:message-id
+         :subject:to;
+        bh=mtnQ/+N/rFr4XsHHQ1ZXi1eZ06GageBqOMARPg7jLns=;
+        b=chEHZMu5k/K5wF/h/w9QnCOCdPb5pcnBwDCABovlCk3U5IyJuiWj++ULEQ48JPrNv2
+         iXf9xe3j0/0TEDfuKi4sd/GpbShrchZ9ZCG6o3alDrjkSTEC+4jaRdA04zrMKKKdgmYC
+         ujOQQ2AzHo+NZ37aFR08R/KayvDZVtIGHIwqFTFeCR8yLWX6gQvKJKczV5qkIgWo8IgC
+         7bOoVwPg1EaVxaEjCl8La7UXY087ZqS80f7e5yQnF1VyIrGdDQjcK4AC+U6q0diiSMiJ
+         Z9cBfW2YS/iew8dOt2CYZ9O/kEfI//b8hQZgjJrbRXD+U1gdIgxrT1F/sSCpYmFiYezF
+         mfbA==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20161025;
+        h=x-gm-message-state:mime-version:references:in-reply-to:reply-to
+         :from:date:message-id:subject:to;
+        bh=mtnQ/+N/rFr4XsHHQ1ZXi1eZ06GageBqOMARPg7jLns=;
+        b=tLbU590+0OvzMYSk7Kg8WXQHZjxenN76pfbprc9hPPXrBOQ7SuTxzaFAVgJ7/mVZCN
+         c9MggnMyJtiDLsh2lh9nvtd3o6AfMsYfR1UIzJl9lE3HU2PBARiTaR6lh2piQKbMmh2q
+         vy6+sTDOw/TCAGzT4FvYcgF53cPrcocEnInOMzPUu2Rro+i+Y/gIusWUz2wD+RQphe3v
+         emwxWZ9eQGBdsAmKRp4TFF20ugCBO8+xlQ0pZ7YIdaCtKYv0lrUZ82rSGL4wh9vbuGxB
+         jTN7Rj/X+m2Hm6ViqU4AgInulk5Ga/vu9QAErj/QXdZSV4ZgIgoEfTOAY9zQa0BF0llU
+         ssmg==
+X-Gm-Message-State: AOAM531IobRP0TZGa5H4ogIJgRj56YBZ9RzV4S46mXz70DR1WciL1j+b
+	hXWNPue2RsG2BHvAxJ4pgOIWHER6bKpAveEs3w0=
+X-Google-Smtp-Source: =?utf-8?q?ABdhPJynn+uFi0R+qDE0EpV7QYmmAgfwprsldYZbhH5W?=
+ =?utf-8?q?XEMNtJLoPeJWyUTmPSK0PmSN4sCGtoy7fM8tt0K/tWGADaY=3D?=
+X-Received: by 2002:a05:600c:4786:: with SMTP id
+ k6mr1023220wmo.177.1630361362483; Mon, 30 Aug 2021 15:09:22 -0700 (PDT)
+MIME-Version: 1.0
+References:
+ <CAH1dUCMu26kJ54wRZ_OUspYTspUahUz_d-ZK60hwxAXtVpJgcA@mail.gmail.com>
+In-Reply-To:
+ <CAH1dUCMu26kJ54wRZ_OUspYTspUahUz_d-ZK60hwxAXtVpJgcA@mail.gmail.com>
+Reply-To: mrsmargretnelson09@gmail.com
+From: Mrs Margret Nelson <wozaonline88@gmail.com>
+Date: Tue, 31 Aug 2021 00:08:59 +0200
+Message-ID:
+ <CAH1dUCNLiwVogoF=voR4=dgqVOc4HC=h-XEj9NTm9bC9diLLWg@mail.gmail.com>
+Subject: Good day
+To: undisclosed-recipients:;
+Content-Type: multipart/alternative; boundary="000000000000ddcee305cace1563"
+Bcc: johannes.olegard@cyfoexample.one.com
+
+--000000000000ddcee305cace1563
+Content-Type: text/plain; charset="UTF-8"
+
+Good day,
+
+My name is Mrs. Margret Nelson. I am a dying woman who has decided to
+donate what I have to the Charities. I am 85 years old and was diagnosed
+with cancer about four years ago, immediately after the death of my
+husband; I have been touched to donate from what I have inherited from my
+late husband for the good work.
+
+I want you to help me in carrying out my last wish on earth which will be
+very profitable to you. I want to WILL a total sum of $10.5 million to you
+which I want you to distribute part of it to any charity home for me and
+the rest for your family, please for further information contact me ASAP.
+
+Best Regards,
+Mrs. Margret Nelson
+
+--000000000000ddcee305cace1563
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+=EF=BB=BF<div=20dir=3D"ltr"><div=20class=3D"gmail_quote"><div=20dir=3D"ltr"=
+=20class=3D"gmail_attr"><br></div><br><br><div=20dir=3D"ltr"><div=20style=
+=3D"color:rgb(0,0,0);font-family:Calibri,Arial,Helvetica,sans-serif;font-si=
+ze:16px">Good=20day,</div><div=20style=3D"color:rgb(0,0,0);font-family:Cali=
+bri,Arial,Helvetica,sans-serif;font-size:16px"><br></div><div=20style=3D"co=
+lor:rgb(0,0,0);font-family:Calibri,Arial,Helvetica,sans-serif;font-size:16p=
+x">My=20name=20is=20Mrs.=20Margret=20Nelson.=20I=20am=20a=20dying=20woman=
+=20who=20has=20decided=20to=20donate=20what=20I=20have=20to=20the=20Chariti=
+es.=20I=20am=2085=20years=20old=20and=20was=20diagnosed=20with=20cancer=20a=
+bout=20four=20years=20ago,=20immediately=20after=20the=20death=20of=20my=20=
+husband;=20I=20have=20been=20touched=20to=20donate=20from=20what=20I=20have=
+=20inherited=20from=20my=20late=20husband=20for=20the=20good=20work.</div><=
+div=20style=3D"color:rgb(0,0,0);font-family:Calibri,Arial,Helvetica,sans-se=
+rif;font-size:16px"><br></div><div=20style=3D"color:rgb(0,0,0);font-family:=
+Calibri,Arial,Helvetica,sans-serif;font-size:16px">I=20want=20you=20to=20he=
+lp=20me=20in=20carrying=20out=20my=20last=20wish=20on=20earth=20which=20wil=
+l=20be=20very=20profitable=20to=20you.=20I=20want=20to=20WILL=20a=20total=
+=20sum=20of=20$10.5=20million=20to=20you=20which=20I=20want=20you=20to=20di=
+stribute=20part=20of=20it=20to=20any=20charity=20home=20for=20me=20and=20th=
+e=20rest=20for=20your=20family,=20please=20for=20further=20information=20co=
+ntact=20me=20ASAP.</div><div=20style=3D"color:rgb(0,0,0);font-family:Calibr=
+i,Arial,Helvetica,sans-serif;font-size:16px"><br></div><div=20style=3D"colo=
+r:rgb(0,0,0);font-family:Calibri,Arial,Helvetica,sans-serif;font-size:16px"=
+>Best=20Regards,</div><span=20style=3D"color:rgb(0,0,0);font-family:Calibri=
+,Arial,Helvetica,sans-serif;font-size:16px">Mrs.=20Margret=20Nelson</span><=
+br></div>
+</div></div>
+
+--000000000000ddcee305cace1563--
